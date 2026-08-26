@@ -1,0 +1,34 @@
+---
+interface Tournament {
+  name: string;
+  tier: string;
+  date: string;
+}
+
+interface Props {
+  tournaments: Tournament[];
+}
+
+const { tournaments } = Astro.props;
+---
+
+<div class="bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+  <div class="font-mono text-[10px] uppercase tracking-[2px] text-moss px-[22px] pt-[18px]">Tournaments here</div>
+  <div class="px-[22px] pb-5 pt-1.5">
+    {tournaments.map((t) => {
+      const [day, month] = t.date.split(' ');
+      return (
+        <div class="flex gap-3 items-center py-3 border-b border-dashed border-line last:border-b-0">
+          <div class="font-display font-semibold text-center leading-none text-forest w-[42px]">
+            {day}
+            <span class="block font-mono text-[9px] text-clay uppercase mt-[3px]">{month}</span>
+          </div>
+          <div>
+            <div class="font-bold text-sm text-forest-deep">{t.name}</div>
+            <div class="font-mono text-[11px] text-moss">{t.tier}</div>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</div>

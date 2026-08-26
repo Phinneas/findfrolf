@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Schema from '../../components/Schema.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CityHero from '../../components/city/CityHero.astro';
+import QuickFacts from '../../components/city/QuickFacts.astro';
+import IntroProse from '../../components/city/IntroProse.astro';
+import MapBand from '../../components/city/MapBand.astro';
+import CourseRegister from '../../components/city/CourseRegister.astro';
+import BestFor from '../../components/city/BestFor.astro';
+import LocalScene from '../../components/city/LocalScene.astro';
+import BrowseByArea from '../../components/city/BrowseByArea.astro';
+import FAQ from '../../components/city/FAQ.astro';
+import NearbyCities from '../../components/city/NearbyCities.astro';
+import CTACard from '../../components/city/CTACard.astro';
+import { getCollection } from 'astro:content';
+import { getCity, getCoursesByCity, getCourse, courseUrl } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const cities = await getCollection('cities');
+  return cities.map((city) => ({
+    params: { state: city.data.stateSlug, city: city.id },
+  }));
+}
+
+const { state, city } = Astro.params;
+const cityData = await getCity(city!);
+
+if (!cityData) {
+  return Astro.redirect('/404');
+}
+
+const courses = await getCoursesByCity(city!);
+
+// Resolve map pins with course data
+const resolvedPins = await Promise.all(
+  cityData.data.mapPins.map(async (pin) => {
+    const course = await getCourse(pin.courseSlug);
+    return {
+      rank: pin.rank,
+      courseSlug: pin.courseSlug,
+      courseName: course?.data.name ?? pin.courseSlug,
+      courseRating: course?.data.rating ?? 0,
+      x: pin.x,
+      y: pin.y,
+      isGold: pin.isGold,
+      stateSlug: course?.data.stateSlug ?? state,
+      citySlug: course?.data.citySlug ?? city,
+    };
+  }),
+);
+
+const citySchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Disc Golf Courses in ${cityData.data.name}, ${cityData.data.state}`,
+  description: cityData.data.lede,
+  numberOfItems: courses.length,
+  itemListElement: courses.map((course, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'SportsActivityLocation',
+      name: course.data.name,
+      url: `https://findfrolf.com${courseUrl(course)}`,
+    },
+  })),
+};
+---
+
+<BaseLayout
+  title={`Disc Golf in ${cityData.data.name}, ${cityData.data.state} — Find Frolf`}
+  description={cityData.data.lede}
+>
+  <Fragment slot="head">
+    <Schema schema={citySchema} />
+  </Fragment>
+  <Breadcrumbs
+    crumbs={[
+      { label: 'Courses', href: '/courses' },
+      { label: cityData.data.state, href: `/${state}` },
+      { label: cityData.data.name },
+    ]}
+  />
+
+  <CityHero
+    name={cityData.data.name}
+    heroImage={cityData.data.heroImage}
+    heroFlag={cityData.data.heroFlag}
+    lede={cityData.data.lede}
+  />
+
+  <QuickFacts facts={cityData.data.quickFacts} />
+
+  <IntroProse paragraphs={cityData.data.introParagraphs} stats={cityData.data.statsAside} />
+
+  <MapBand pins={resolvedPins} />
+
+  <CourseRegister courses={courses} totalCount={47} />
+
+  <BestFor items={cityData.data.bestFor} />
+
+  <LocalScene events={cityData.data.events} clubs={cityData.data.clubs} />
+
+  <BrowseByArea areas={cityData.data.areas} />
+
+  <FAQ faqs={cityData.data.faqs} />
+
+  <NearbyCities cities={cityData.data.nearbyCities} />
+
+  <CTACard />
+</BaseLayout>

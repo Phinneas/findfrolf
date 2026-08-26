@@ -1,0 +1,34 @@
+---
+interface Props {
+  holes: number;
+  par: number;
+  totalFeet: number;
+  pdgaTier: string | null;
+  difficulty: string;
+  greenFee: string;
+}
+
+const { holes, par, totalFeet, pdgaTier, difficulty, greenFee } = Astro.props;
+
+const stats = [
+  { value: String(holes), label: 'Holes' },
+  { value: String(par), label: 'Par' },
+  { value: totalFeet.toLocaleString(), label: 'Feet' },
+  { value: pdgaTier ?? '—', label: 'PDGA Tier', em: !!pdgaTier },
+  { value: difficulty, label: 'Difficulty' },
+  { value: greenFee, label: 'Green fee', em: greenFee === '$0' },
+];
+---
+
+<div class="max-w-[1240px] mx-auto px-8">
+  <div class="grid grid-cols-3 md:grid-cols-6 bg-paper border-[1.5px] border-forest rounded-[12px] mt-[26px] overflow-hidden">
+    {stats.map((stat, i) => (
+      <div class={`p-[22px] text-center ${i < stats.length - 1 ? 'md:border-r border-dashed border-line' : ''} ${i === 2 ? 'max-md:border-r-none' : ''}`}>
+        <div class="font-display font-semibold text-[30px] text-forest leading-none">
+          {stat.em ? <em class="italic text-clay">{stat.value}</em> : stat.value}
+        </div>
+        <div class="font-mono text-[9px] uppercase tracking-[1.5px] text-moss mt-2">{stat.label}</div>
+      </div>
+    ))}
+  </div>
+</div>

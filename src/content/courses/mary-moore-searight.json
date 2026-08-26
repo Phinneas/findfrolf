@@ -1,0 +1,145 @@
+{
+  "name": "Mary Moore Searight",
+  "code": "TX-1140",
+  "city": "Austin",
+  "state": "Texas",
+  "citySlug": "austin",
+  "stateSlug": "tx",
+  "area": "South Austin",
+
+  "location": {
+    "address": "9000 S 1st St, Austin, TX 78748",
+    "lat": 30.1526,
+    "lng": -97.7858
+  },
+
+  "holes": 18,
+  "par": 60,
+  "totalFeet": 7800,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": null,
+  "pdgaTier": "B",
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
+      "alt": "Wooded fairway at Mary Moore Searight disc golf course",
+      "caption": "Cedar corridor on the back nine"
+    }
+  ],
+  "heroImage": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
+  "thumbnail": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
+
+  "rating": 4.8,
+  "reviewCount": 2104,
+
+  "tags": ["Wooded", "Technical", "Free", "Championship"],
+
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": null,
+  "lastVerified": "2026-07-08",
+  "courseDesigner": null,
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher Pro",
+  "elevation": "Rolling",
+  "foliage": "Dense",
+
+  "aboutParagraphs": [
+    "Mary Moore Searight is Austin's crown jewel of wooded disc golf. Eighteen holes carved through dense cedar and oak corridor, where every shot demands a disciplined line and the slightest miss kicks into unforgiving rough. The front nine plays shorter and friendlier; the back nine tightens the screws with tunnel shots that'll test your accuracy more than your arm.",
+    "Maintained year-round by the Austin Disc Golf Club, the course hosts a PDGA B-tier each spring and weekly tags leagues the rest of the season. First-timers are welcome on the short tees, but bring a midrange you trust and leave the distance driver in the bag until you've read the gaps.",
+    "After rain, hole 12 turns into a creek-side adventure. Wear shoes you don't mind getting muddy and carry extra plastic."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 295, "character": "Open warmup, slight anhyzer", "difficultyPct": 30 },
+    { "number": 2, "par": 4, "distance": 460, "character": "Dogleg left through cedars", "difficultyPct": 62 },
+    { "number": 3, "par": 3, "distance": 270, "character": "Tunnel shot, low ceiling", "difficultyPct": 55 },
+    { "number": 4, "par": 3, "distance": 330, "character": "Uphill through the gap", "difficultyPct": 70 },
+    { "number": 5, "par": 4, "distance": 485, "character": "Big arm hole, OB path right", "difficultyPct": 78 },
+    { "number": 6, "par": 3, "distance": 255, "character": "Short but guarded by schule", "difficultyPct": 38 },
+    { "number": 7, "par": 3, "distance": 340, "character": "Flat, straight, deceptively long", "difficultyPct": 52 },
+    { "number": 8, "par": 4, "distance": 445, "character": "Roller-friendly downhill", "difficultyPct": 60 },
+    { "number": 9, "par": 3, "distance": 285, "character": "Turn back to clubhouse", "difficultyPct": 42 },
+    { "number": 10, "par": 4, "distance": 520, "character": "The 'Cedar Chute' — blind dogleg right", "difficultyPct": 95, "isSignature": true },
+    { "number": 11, "par": 3, "distance": 315, "character": "Pin tucked behind oak wall", "difficultyPct": 72 },
+    { "number": 12, "par": 3, "distance": 395, "character": "Long par 3, creek crossing", "difficultyPct": 80 },
+    { "number": 13, "par": 4, "distance": 470, "character": "Tight gap off tee, then opens", "difficultyPct": 64 },
+    { "number": 14, "par": 3, "distance": 260, "character": "Breather — but OB road right", "difficultyPct": 40 },
+    { "number": 15, "par": 3, "distance": 350, "character": "Forehand line through corridor", "difficultyPct": 62 },
+    { "number": 16, "par": 4, "distance": 505, "character": "The long climb, plays a stroke over", "difficultyPct": 83 },
+    { "number": 17, "par": 3, "distance": 290, "character": "Downhill to guarded green", "difficultyPct": 74 },
+    { "number": 18, "par": 3, "distance": 340, "character": "Island-green finisher, gallery hole", "difficultyPct": 77 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 10, the 'Cedar Chute,' is a blind dogleg right through a tight cedar corridor. You can't see the basket from the tee — trust the line, throw your most reliable hyzer, and listen for the chains.",
+  "localTips": "After rain, hole 12 turns into a creek-side adventure. Wear shoes you don't mind getting muddy and carry extra plastic. The back nine plays much harder than the front — save your mental energy.",
+
+  "reviews": [
+    {
+      "name": "Marcus T.",
+      "avatar": "https://i.pravatar.cc/100?img=12",
+      "verified": true,
+      "stars": 5,
+      "date": "3 days ago",
+      "text": "Best wooded course in Texas, hands down. The back nine at golden hour through the cedars is pure disc golf. Bring your accuracy game — distance won't save you here."
+    },
+    {
+      "name": "Priya R.",
+      "avatar": "https://i.pravatar.cc/100?img=45",
+      "verified": true,
+      "stars": 5,
+      "date": "1 week ago",
+      "text": "Hole 10, the Cedar Chute, is worth the trip on its own. Lost two discs in the rough but had the best round of my life. Club members were super welcoming to a first-time visitor."
+    },
+    {
+      "name": "Dale K.",
+      "avatar": "https://i.pravatar.cc/100?img=33",
+      "verified": true,
+      "stars": 4,
+      "date": "2 weeks ago",
+      "text": "Course is immaculate and the layout is brilliant. Knocked a star because hole 12 gets genuinely swampy after rain. Otherwise a bucket-list track."
+    }
+  ],
+
+  "tournaments": [
+    { "name": "Hill Country Open", "tier": "PDGA B-Tier", "date": "21 Jun" },
+    { "name": "South Austin Tag Finals", "tier": "Local", "date": "12 Sep" },
+    { "name": "Cedar Chute Classic", "tier": "C-Tier", "date": "05 Oct" }
+  ],
+
+  "nearbyCourseSlugs": ["zilker-park"],
+
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "DISCatcher Pro",
+    "lighting": "None",
+    "hours": "Dawn-dusk"
+  }
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find Frolf — Logo & Brand Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f8f1df; --cream-2:#f1e6cd; --paper:#fffdf6;
+    --forest:#21402f; --forest-2:#15281d; --moss:#5c7b4d; --sage:#a7b994;
+    --clay:#d35a35; --clay-deep:#b3441f; --sun:#edb441;
+    --ink:#29251d; --ink-soft:#635a4b; --line:#e6dabf;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--sun);color:var(--forest-2)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:2.5px;color:var(--moss);display:inline-flex;align-items:center;gap:12px}
+  .eyebrow::before{content:'';width:26px;height:1.5px;background:var(--clay)}
+  .script{font-family:'Caveat',cursive;font-weight:700;color:var(--clay)}
+
+  /* wordmark */
+  .wm{font-family:'Fraunces',serif;font-weight:700;color:var(--forest);letter-spacing:-0.5px;line-height:1;white-space:nowrap}
+  .wm .script{font-family:'Caveat',cursive;color:var(--clay);font-weight:700}
+  .on-dark .wm{color:var(--cream)} .on-dark .wm .script{color:var(--sun)}
+  .mono-lock .wm{color:currentColor} .mono-lock .wm .script{color:currentColor}
+
+  /* header */
+  header.sheet{padding:70px 0 30px;text-align:center}
+  header.sheet h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px;color:var(--forest-2);margin:14px 0 8px}
+  header.sheet p{color:var(--ink-soft);max-width:520px;margin:0 auto;font-size:16px}
+
+  /* hero lockup */
+  .hero-lock{background:var(--paper);border:1.5px solid var(--forest);border-radius:14px;box-shadow:7px 8px 0 var(--forest);padding:72px;display:flex;flex-direction:column;align-items:center;gap:26px;margin:40px 0}
+  .hero-lock .emblem{width:150px;height:150px}
+  .hero-lock .wm{font-size:64px}
+  .hero-lock .tagline{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--moss)}
+
+  /* section */
+  .sec{padding:60px 0 10px}
+  .sec-h{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1.5px solid var(--forest);padding-bottom:12px;margin-bottom:32px}
+  .sec-h h2{font-family:'Fraunces',serif;font-weight:600;font-size:26px;color:var(--forest-2);letter-spacing:-0.5px}
+  .sec-h span{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+
+  /* variant grid */
+  .grid{display:grid;gap:24px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  .tile{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:200px;position:relative}
+  .tile .cap{position:absolute;bottom:12px;left:0;right:0;text-align:center;font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+  .tile.dark{background:var(--forest);border-color:var(--forest)}
+  .tile.dark .cap{color:var(--sage)}
+  .tile.clay{background:var(--clay);border-color:var(--clay)}
+  .tile.clay .cap{color:#ffd9c4}
+
+  .emblem{display:block}
+  .e-72{width:72px;height:72px}
+  .e-96{width:96px;height:96px}
+  .e-56{width:56px;height:56px}
+
+  /* horizontal + stacked lockups */
+  .lock-h{display:flex;align-items:center;gap:16px}
+  .lock-h .emblem{width:60px;height:60px;flex-shrink:0}
+  .lock-h .wm{font-size:34px}
+  .lock-v{display:flex;flex-direction:column;align-items:center;gap:12px}
+  .lock-v .emblem{width:72px;height:72px}
+  .lock-v .wm{font-size:30px}
+
+  /* app icons */
+  .appicon{border-radius:24px;display:grid;place-items:center;box-shadow:0 12px 28px rgba(21,40,29,.22)}
+  .ai-lg{width:120px;height:120px}
+  .ai-lg .emblem{width:78px;height:78px}
+  .ai-md{width:72px;height:72px;border-radius:16px}
+  .ai-md .emblem{width:48px;height:48px}
+  .ai-sm{width:44px;height:44px;border-radius:11px}
+  .ai-sm .emblem{width:30px;height:30px}
+  .favbar{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+
+  /* palette */
+  .swatches{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+  .sw{border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+  .sw .chip{height:88px}
+  .sw .meta{padding:12px;background:var(--paper)}
+  .sw .nm{font-weight:700;font-size:13px;color:var(--ink)}
+  .sw .hex{font-family:'Space Mono',monospace;font-size:11px;color:var(--ink-soft);text-transform:uppercase;margin-top:2px}
+
+  /* type specimen */
+  .type-row{display:grid;grid-template-columns:160px 1fr;gap:28px;padding:26px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .type-role{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+  .type-role b{display:block;color:var(--forest);font-size:15px;letter-spacing:0;text-transform:none;margin-top:4px}
+  .sp-fr{font-family:'Fraunces',serif;font-weight:400;font-size:36px;color:var(--forest-2);letter-spacing:-1px}
+  .sp-fr em{font-style:italic;color:var(--clay)}
+  .sp-pj{font-family:'Plus Jakarta Sans';font-weight:600;font-size:22px;color:var(--forest-2)}
+  .sp-cv{font-family:'Caveat',cursive;font-weight:700;font-size:40px;color:var(--clay)}
+  .sp-sm{font-family:'Space Mono',monospace;font-size:18px;color:var(--forest);letter-spacing:1px}
+
+  /* rules: clear space / do-dont */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .note{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:28px}
+  .note h3{font-family:'Fraunces',serif;font-weight:600;font-size:18px;color:var(--forest-2);margin-bottom:10px}
+  .note p{font-size:14px;color:var(--ink-soft)}
+  .clearspace{position:relative;display:inline-block;padding:28px;border:1px dashed var(--clay);border-radius:8px;margin-top:8px}
+  .clearspace .emblem{width:80px;height:80px;display:block}
+  .dodont{display:flex;gap:10px;margin-top:10px}
+  .badge{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1px;padding:4px 10px;border-radius:999px}
+  .badge.do{background:#e3efdb;color:var(--forest)}
+  .badge.dont{background:#fbe0d6;color:var(--clay-deep)}
+
+  footer{margin-top:70px;border-top:1px solid var(--line);padding:30px 0 60px;text-align:center;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+
+  @media(max-width:820px){
+    .g3,.g4{grid-template-columns:1fr 1fr}
+    .swatches{grid-template-columns:repeat(3,1fr)}
+    .two{grid-template-columns:1fr}
+    .hero-lock{padding:44px}
+    .hero-lock .wm{font-size:44px}
+    .type-row{grid-template-columns:1fr;gap:10px}
+  }
+</style>
+<style>
+.ha-img-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;background:#f4f4f5;border:1px dashed #d4d4d8;border-radius:8px;color:#71717a;font-size:12px;font-family:system-ui,sans-serif;min-height:80px;padding:16px;box-sizing:border-box;animation:ha-img-pulse 1.5s ease-in-out infinite}
+.ha-img-placeholder.ha-failed{animation:none;opacity:.7}
+@keyframes ha-img-pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@media(prefers-color-scheme:dark){.ha-img-placeholder{background:#27272a;border-color:#3f3f46;color:#a1a1aa}}
+</style>
+</head>
+<body>
+
+<!-- ===== MASTER SVG SYMBOLS ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- Full color mark -->
+  <symbol id="mark" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="46" fill="#fffdf6" stroke="#21402f" stroke-width="3"/>
+    <circle cx="50" cy="50" r="38.5" fill="none" stroke="#5c7b4d" stroke-width="1.4" stroke-dasharray="2 6"/>
+    <!-- basket -->
+    <g fill="#21402f" stroke="#21402f">
+      <ellipse cx="50" cy="35" rx="12" ry="3.6" stroke="none"/>
+      <g fill="none" stroke="#21402f" stroke-width="1.5" stroke-linecap="round">
+        <path d="M40 36 Q50 47 60 36"/>
+        <line x1="44.5" y1="36.5" x2="50" y2="47"/>
+        <line x1="50" y1="36.5" x2="50" y2="47"/>
+        <line x1="55.5" y1="36.5" x2="50" y2="47"/>
+      </g>
+      <path d="M37.5 51 L62.5 51 L58 63 L42 63 Z" stroke="none"/>
+      <line x1="50" y1="63" x2="50" y2="73" stroke-width="3" stroke-linecap="round"/>
+      <line x1="42" y1="73" x2="58" y2="73" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <!-- flying disc -->
+    <g>
+      <ellipse cx="30" cy="27" rx="9" ry="3.2" fill="#d35a35" transform="rotate(-22 30 27)"/>
+      <circle cx="20.5" cy="31.5" r="1.4" fill="#d35a35"/>
+      <circle cx="15.5" cy="34.5" r="1" fill="#d35a35" opacity="0.55"/>
+    </g>
+  </symbol>
+
+  <!-- Mono mark (uses currentColor) -->
+  <symbol id="mark-mono" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/>
+    <circle cx="50" cy="50" r="38.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 6" opacity="0.5"/>
+    <g fill="currentColor" stroke="currentColor">
+      <ellipse cx="50" cy="35" rx="12" ry="3.6" stroke="none"/>
+      <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M40 36 Q50 47 60 36"/>
+        <line x1="44.5" y1="36.5" x2="50" y2="47"/>
+        <line x1="50" y1="36.5" x2="50" y2="47"/>
+        <line x1="55.5" y1="36.5" x2="50" y2="47"/>
+      </g>
+      <path d="M37.5 51 L62.5 51 L58 63 L42 63 Z" stroke="none"/>
+      <line x1="50" y1="63" x2="50" y2="73" stroke-width="3" stroke-linecap="round"/>
+      <line x1="42" y1="73" x2="58" y2="73" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="30" cy="27" rx="9" ry="3.2" fill="currentColor" transform="rotate(-22 30 27)"/>
+    <circle cx="20.5" cy="31.5" r="1.4" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<div class="wrap">
+  <header class="sheet">
+    <div class="eyebrow">Find Frolf · Brand &amp; Logo</div>
+    <h1>The mark &amp; how to use it</h1>
+    <p>A field-guide roundel — a basket framed by a topographic ring, with a disc caught mid-flight. Built as crisp vector, ready for web, print, and app icons.</p>
+  </header>
+
+  <!-- PRIMARY LOCKUP -->
+  <div class="hero-lock">
+    <svg class="emblem"><use href="#mark"/></svg>
+    <div class="wm">Find <span class="script">Frolf</span></div>
+    <div class="tagline">The disc golf atlas, mapped by the people who play it</div>
+  </div>
+
+  <!-- LOCKUPS -->
+  <section class="sec">
+    <div class="sec-h"><h2>Logo lockups</h2><span>primary · horizontal · stacked</span></div>
+    <div class="grid g3">
+      <div class="tile">
+        <svg class="emblem e-96"><use href="#mark"/></svg>
+        <div class="cap">Emblem only</div>
+      </div>
+      <div class="tile">
+        <div class="lock-h"><svg class="emblem"><use href="#mark"/></svg><div class="wm">Find <span class="script">Frolf</span></div></div>
+        <div class="cap">Horizontal lockup</div>
+      </div>
+      <div class="tile">
+        <div class="lock-v"><svg class="emblem"><use href="#mark"/></svg><div class="wm">Find <span class="script">Frolf</span></div></div>
+        <div class="cap">Stacked lockup</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLORWAYS -->
+  <section class="sec">
+    <div class="sec-h"><h2>Colorways</h2><span>full · one-color · reversed</span></div>
+    <div class="grid g3">
+      <div class="tile mono-lock" style="color:var(--forest)">
+        <div class="lock-v"><svg class="emblem e-72"><use href="#mark-mono"/></svg><div class="wm">Find <span class="script">Frolf</span></div></div>
+        <div class="cap">One-color · Forest</div>
+      </div>
+      <div class="tile clay mono-lock on-dark" style="color:var(--cream)">
+        <div class="lock-v"><svg class="emblem e-72"><use href="#mark-mono"/></svg><div class="wm" style="color:var(--cream)">Find <span class="script" style="color:var(--cream)">Frolf</span></div></div>
+        <div class="cap">Reversed · on Clay</div>
+      </div>
+      <div class="tile dark on-dark">
+        <div class="lock-v"><svg class="emblem e-72"><use href="#mark"/></svg><div class="wm">Find <span class="script">Frolf</span></div></div>
+        <div class="cap">Full color · on Forest</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP ICONS -->
+  <section class="sec">
+    <div class="sec-h"><h2>App icon &amp; favicon</h2><span>scales down to 16px</span></div>
+    <div class="tile" style="align-items:flex-start">
+      <div class="favbar" style="width:100%;justify-content:center">
+        <div class="appicon ai-lg" style="background:var(--forest)"><svg class="emblem"><use href="#mark"/></svg></div>
+        <div class="appicon ai-lg mono-lock" style="background:var(--clay)"><svg class="emblem" style="color:var(--cream)"><use href="#mark-mono"/></svg></div>
+        <div class="appicon ai-md" style="background:var(--forest)"><svg class="emblem"><use href="#mark"/></svg></div>
+        <div class="appicon ai-sm" style="background:var(--forest)"><svg class="emblem"><use href="#mark"/></svg></div>
+      </div>
+      <div class="cap">Rounded-square app icons · forest &amp; clay backgrounds</div>
+    </div>
+  </section>
+
+  <!-- PALETTE -->
+  <section class="sec">
+    <div class="sec-h"><h2>Color palette</h2><span>locked tokens</span></div>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#21402f"></div><div class="meta"><div class="nm">Forest</div><div class="hex">#21402F</div></div></div>
+      <div class="sw"><div class="chip" style="background:#15281d"></div><div class="meta"><div class="nm">Forest Deep</div><div class="hex">#15281D</div></div></div>
+      <div class="sw"><div class="chip" style="background:#d35a35"></div><div class="meta"><div class="nm">Clay</div><div class="hex">#D35A35</div></div></div>
+      <div class="sw"><div class="chip" style="background:#edb441"></div><div class="meta"><div class="nm">Sun</div><div class="hex">#EDB441</div></div></div>
+      <div class="sw"><div class="chip" style="background:#a7b994"></div><div class="meta"><div class="nm">Sage</div><div class="hex">#A7B994</div></div></div>
+      <div class="sw"><div class="chip" style="background:#f8f1df;border-bottom:1px solid var(--line)"></div><div class="meta"><div class="nm">Cream</div><div class="hex">#F8F1DF</div></div></div>
+    </div>
+  </section>
+
+  <!-- TYPE -->
+  <section class="sec">
+    <div class="sec-h"><h2>Typography</h2><span>4-font system</span></div>
+    <div class="type-row">
+      <div class="type-role">Display<b>Fraunces</b></div>
+      <div class="sp-fr">By the chains — <em>handpicked courses</em></div>
+    </div>
+    <div class="type-row">
+      <div class="type-role">UI &amp; Body<b>Plus Jakarta Sans</b></div>
+      <div class="sp-pj">Find every course. Then find your people.</div>
+    </div>
+    <div class="type-row">
+      <div class="type-role">Accent<b>Caveat</b></div>
+      <div class="sp-cv">first round? we got you</div>
+    </div>
+    <div class="type-row">
+      <div class="type-role">Data labels<b>Space Mono</b></div>
+      <div class="sp-sm">NC-0142 · 18 HOLES · PAR 62 · ★ 4.9</div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section class="sec">
+    <div class="sec-h"><h2>Usage</h2><span>clear space &amp; care</span></div>
+    <div class="two">
+      <div class="note">
+        <h3>Clear space &amp; minimum size</h3>
+        <p>Keep padding around the mark equal to the height of the disc. Don't render the emblem below 24px; use the simplified favicon at 16px.</p>
+        <div class="clearspace"><svg class="emblem"><use href="#mark"/></svg></div>
+      </div>
+      <div class="note">
+        <h3>Do &amp; don't</h3>
+        <p>Use the mark on cream, forest, or clay. Keep the wordmark's two-font split: Fraunces "Find," Caveat "Frolf."</p>
+        <div class="dodont"><span class="badge do">✓ On-palette backgrounds</span><span class="badge dont">✕ Recolor the disc</span></div>
+        <div class="dodont"><span class="badge do">✓ Generous clear space</span><span class="badge dont">✕ Stretch or rotate</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>Find Frolf · Brand &amp; Logo Sheet · v1 · 2026</footer>
+</div>
+
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && window.parent !== window) {
+    window.parent.postMessage({ type: 'close-fullscreen' }, '*');
+  }
+});
+</script>
+<!-- broken-img-handler -->
+<script>
+(function(){
+  if(window.__brokenImgHandler)return;
+  window.__brokenImgHandler=true;
+  var MAX=5,DELAYS=[2000,4000,8000,16000,32000];
+  document.addEventListener('error',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    var liveSrc=img.getAttribute('src');
+    var src=img.dataset.haOriginalSrc||liveSrc;
+    if(!src)return;
+    if(img.dataset.haOriginalSrc&&liveSrc&&liveSrc!==img.dataset.haOriginalSrc&&liveSrc.indexOf('_r=')<0){src=liveSrc;img.dataset.haOriginalSrc=src;img.dataset.haRetryCount='0'}
+    else if(!img.dataset.haOriginalSrc){img.dataset.haOriginalSrc=src}
+    var attempt=parseInt(img.dataset.haRetryCount||'0',10);
+    if(img.dataset.haPhId){var old=document.getElementById(img.dataset.haPhId);if(old)old.remove()}
+    var ph=document.createElement('div');
+    ph.className='ha-img-placeholder'+(attempt>=MAX?' ha-failed':'');
+    ph.id='ha-ph-'+Math.random().toString(36).slice(2,9);
+    var w=img.getAttribute('width');var h=img.getAttribute('height');
+    if(w)ph.style.width=w+(isNaN(Number(w))?'':'px');
+    else if(img.style.width)ph.style.width=img.style.width;
+    else if(img.width>1)ph.style.width=img.width+'px';
+    if(h)ph.style.height=h+(isNaN(Number(h))?'':'px');
+    else if(img.style.height)ph.style.height=img.style.height;
+    else if(img.height>1)ph.style.height=img.height+'px';
+    ph.textContent=attempt>=MAX?'Image unavailable':'Loading image\u2026';
+    img.dataset.haPhId=ph.id;
+    if(img.dataset.haOrigDisplay==null)img.dataset.haOrigDisplay=img.style.display||'';
+    img.style.display='none';
+    img.insertAdjacentElement('afterend',ph);
+    if(attempt<MAX){
+      img.dataset.haRetryCount=String(attempt+1);
+      setTimeout(function(){
+        if(!img.isConnected)return;
+        if(img.dataset.haOriginalSrc!==src)return;
+        if(img.complete&&img.naturalWidth>0)return;
+        var curSrc=img.getAttribute('src');
+        if(curSrc&&curSrc.indexOf(src)!==0)return;
+        var fresh=src+(src.indexOf('?')>=0?'&':'?')+'_r='+(attempt+1)+'_'+Date.now();
+        img.src=fresh;
+      },DELAYS[attempt]);
+    }
+  },true);
+  document.addEventListener('load',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    if(img.dataset.haPhId){
+      var ph=document.getElementById(img.dataset.haPhId);
+      if(ph)ph.remove();
+      delete img.dataset.haPhId;
+      img.style.display=img.dataset.haOrigDisplay||'';
+      delete img.dataset.haOrigDisplay;
+      delete img.dataset.haOriginalSrc;
+      delete img.dataset.haRetryCount;
+    }
+  },true);
+})();
+</script>
+</body>
+</html>

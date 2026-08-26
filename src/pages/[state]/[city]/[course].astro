@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Schema from '../../../components/Schema.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CourseHero from '../../../components/course/CourseHero.astro';
+import StatBar from '../../../components/course/StatBar.astro';
+import AboutProse from '../../../components/course/AboutProse.astro';
+import Scorecard from '../../../components/course/Scorecard.astro';
+import Reviews from '../../../components/course/Reviews.astro';
+import SidebarMap from '../../../components/course/SidebarMap.astro';
+import SidebarFacts from '../../../components/course/SidebarFacts.astro';
+import SidebarTournaments from '../../../components/course/SidebarTournaments.astro';
+import NearbyCourses from '../../../components/course/NearbyCourses.astro';
+import { getCollection } from 'astro:content';
+import { getCourse, getCoursesBySlugs, courseUrl } from '../../../lib/data';
+
+export async function getStaticPaths() {
+  const courses = await getCollection('courses');
+  return courses.map((course) => ({
+    params: {
+      state: course.data.stateSlug,
+      city: course.data.citySlug,
+      course: course.id,
+    },
+    props: {
+      courseSlug: course.id,
+    },
+  }));
+}
+
+const { courseSlug } = Astro.props as { courseSlug: string };
+const course = await getCourse(courseSlug);
+
+if (!course) {
+  return Astro.redirect('/404');
+}
+
+const stateNames: Record<string, string> = {
+  tx: 'Texas',
+  nc: 'North Carolina',
+};
+const stateName = stateNames[course.data.stateSlug] ?? course.data.stateSlug.toUpperCase();
+
+const nearbyCourses = await getCoursesBySlugs(course.data.nearbyCourseSlugs);
+
+const location = `${course.data.area}, ${stateName}`;
+
+// Parse street address from full address string
+const addressParts = course.data.location.address.split(',');
+const streetAddress = addressParts[0]?.trim() ?? '';
+const zipMatch = course.data.location.address.match(/(\d{5})$/);
+const postalCode = zipMatch?.[1] ?? '';
+
+const coursePageUrl = `https://findfrolf.com${courseUrl(course)}`;
+
+const courseSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SportsActivityLocation',
+  name: course.data.name,
+  description: `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`,
+  url: coursePageUrl,
+  image: course.data.heroImage,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress,
+    addressLocality: course.data.city,
+    addressRegion: course.data.state,
+    postalCode,
+    addressCountry: 'US',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: course.data.location.lat,
+    longitude: course.data.location.lng,
+  },
+  openingHours: course.data.facts?.hours === 'Dawn-dusk' ? 'Mo-Su 06:00-22:00' : course.data.facts?.hours ?? 'Mo-Su 06:00-22:00',
+  priceRange: course.data.greenFee,
+  sport: 'Disc Golf',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: course.data.rating,
+    reviewCount: course.data.reviewCount,
+    bestRating: 5,
+  },
+};
+---
+
+<BaseLayout
+  title={`${course.data.name} — Find Frolf`}
+  description={`Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`}
+>
+  <Fragment slot="head">
+    <Schema schema={courseSchema} />
+  </Fragment>
+  <Breadcrumbs
+    crumbs={[
+      { label: 'Courses', href: '/courses' },
+      { label: stateName, href: `/${course.data.stateSlug}` },
+      { label: course.data.area, href: `/${course.data.stateSlug}/${course.data.citySlug}` },
+      { label: course.data.name },
+    ]}
+  />
+
+  <CourseHero
+    name={course.data.name}
+    heroImage={course.data.heroImage}
+    rating={course.data.rating}
+    reviewCount={course.data.reviewCount}
+    tags={course.data.tags}
+    location={location}
+    stateSlug={course.data.stateSlug}
+    citySlug={course.data.citySlug}
+  />
+
+  <StatBar
+    holes={course.data.holes}
+    par={course.data.par}
+    totalFeet={course.data.totalFeet}
+    pdgaTier={course.data.pdgaTier}
+    difficulty={course.data.difficulty}
+    greenFee={course.data.greenFee}
+  />
+
+  <div class="max-w-[1240px] mx-auto px-8 py-[70px] pb-[90px] grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-14 items-start">
+    <main>
+      <AboutProse paragraphs={course.data.aboutParagraphs} />
+
+      <Scorecard holes={course.data.holeData} totalPar={course.data.par} totalFeet={course.data.totalFeet} />
+
+      <Reviews reviews={course.data.reviews} reviewCount={course.data.reviewCount} avgRating={course.data.rating} />
+    </main>
+
+    <aside class="flex flex-col gap-6 lg:sticky lg:top-6">
+      <SidebarMap address={course.data.location.address} lat={course.data.location.lat} lng={course.data.location.lng} />
+      <SidebarFacts facts={course.data.facts} />
+      <SidebarTournaments tournaments={course.data.tournaments} />
+    </aside>
+  </div>
+
+  {nearbyCourses.length > 0 && <NearbyCourses stateName={stateName} courses={nearbyCourses} />}
+</BaseLayout>

@@ -1,0 +1,68 @@
+---
+interface Hole {
+  number: number;
+  par: number;
+  distance: number;
+  character: string;
+  difficultyPct: number;
+  isSignature: boolean;
+}
+
+interface Props {
+  holes: Hole[];
+  totalPar: number;
+  totalFeet: number;
+}
+
+const { holes, totalPar, totalFeet } = Astro.props;
+
+function diffColor(pct: number): string {
+  if (pct >= 70) return 'bg-clay';
+  if (pct >= 50) return 'bg-sun';
+  return 'bg-moss';
+}
+---
+
+<div class="mb-14">
+  <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-2">Hole by hole</h2>
+  <p class="text-ink-soft text-[15px] mb-6">Long tees · distances in feet · signature hole highlighted</p>
+
+  <table class="w-full border-collapse bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+    <thead>
+      <tr>
+        <th class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss text-left px-[18px] py-4 bg-cream-2 font-normal">Hole</th>
+        <th class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss text-center px-[18px] py-4 bg-cream-2 font-normal">Par</th>
+        <th class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss text-center px-[18px] py-4 bg-cream-2 font-normal">Dist.</th>
+        <th class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss text-left px-[18px] py-4 bg-cream-2 font-normal max-md:hidden">Character</th>
+        <th class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss text-right px-[18px] py-4 bg-cream-2 font-normal max-md:hidden">Difficulty</th>
+      </tr>
+    </thead>
+    <tbody>
+      {holes.map((hole) => (
+        <tr class={`hover:bg-cream transition-colors ${hole.isSignature ? 'bg-[#fbf3df]' : ''}`}>
+          <td class="px-[18px] py-[13px] border-t border-line">
+            <span class="font-display font-semibold text-[18px] text-forest-deep">{hole.number}</span>
+          </td>
+          <td class="px-[18px] py-[13px] border-t border-line text-center font-mono font-bold text-forest">{hole.par}</td>
+          <td class="px-[18px] py-[13px] border-t border-line text-center font-mono text-[13px] text-ink-soft">{hole.distance}</td>
+          <td class="px-[18px] py-[13px] border-t border-line text-[13px] text-ink-soft max-md:hidden">
+            {hole.character}
+            {hole.isSignature && <span class="font-mono text-[9px] uppercase tracking-[1px] text-clay font-bold ml-2">★ Signature</span>}
+          </td>
+          <td class="px-[18px] py-[13px] border-t border-line max-md:hidden">
+            <div class="inline-block h-1.5 w-full max-w-[120px] bg-line rounded-full relative align-middle">
+              <div class={`absolute left-0 top-0 bottom-0 rounded-full ${diffColor(hole.difficultyPct)}`} style={`width:${hole.difficultyPct}%`}></div>
+            </div>
+          </td>
+        </tr>
+      ))}
+      <tr class="bg-forest text-cream">
+        <td class="px-[18px] py-[13px] font-display font-semibold text-[17px]">Total</td>
+        <td class="px-[18px] py-[13px] text-center font-mono font-bold text-sun">{totalPar}</td>
+        <td class="px-[18px] py-[13px] text-center font-mono text-[13px] text-sun">{totalFeet.toLocaleString()}</td>
+        <td class="px-[18px] py-[13px] text-[13px] max-md:hidden">{holes.length} holes · {holes.filter(h => h.par === 4).length} par 4s</td>
+        <td class="px-[18px] py-[13px] text-right font-mono text-[13px] text-sage max-md:hidden">SSA {(totalPar - 3.8).toFixed(1)}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

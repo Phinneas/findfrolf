@@ -1,0 +1,46 @@
+---
+interface Review {
+  name: string;
+  avatar: string;
+  verified: boolean;
+  stars: number;
+  date: string;
+  text: string;
+}
+
+interface Props {
+  reviews: Review[];
+  reviewCount: number;
+  avgRating: number;
+}
+
+const { reviews, reviewCount, avgRating } = Astro.props;
+
+function starString(stars: number): string {
+  return '★'.repeat(stars) + '☆'.repeat(5 - stars);
+}
+---
+
+<div class="mb-14">
+  <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-2">
+    What players <em class="italic text-clay">are saying</em>
+  </h2>
+  <p class="text-ink-soft text-[15px] mb-6">From verified rounds · {reviewCount.toLocaleString()} reviews · {avgRating} average</p>
+
+  {reviews.map((review) => (
+    <div class="flex gap-4 py-6 border-b border-line last:border-b-0">
+      <div class="w-12 h-12 rounded-full bg-cover bg-center shrink-0 border-2 border-paper shadow-[0_0_0_1px_var(--color-line)]" style={`background-image:url('${review.avatar}')`}></div>
+      <div class="flex-1">
+        <div class="flex items-center gap-2.5 mb-1 flex-wrap">
+          <span class="font-bold text-forest-deep text-[15px]">{review.name}</span>
+          {review.verified && (
+            <span class="font-mono text-[9px] uppercase tracking-[1px] bg-[#e3efdb] text-forest px-2 py-[3px] rounded-full">✓ Verified round</span>
+          )}
+          <span class="text-sun text-sm">{starString(review.stars)}</span>
+          <span class="font-mono text-[11px] text-moss ml-auto">{review.date}</span>
+        </div>
+        <p class="text-[15px] text-ink leading-[1.6]">{review.text}</p>
+      </div>
+    </div>
+  ))}
+</div>

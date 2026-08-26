@@ -1,0 +1,14 @@
+---
+import Logo from './Logo.astro';
+---
+
+<nav class="relative z-20 flex justify-between items-center px-8 py-[18px] max-w-[1240px] mx-auto">
+  <Logo />
+  <div class="hidden md:flex gap-[30px] items-center">
+    <a href="/courses" class="text-sm font-semibold text-forest no-underline hover:text-clay transition-colors">Courses</a>
+    <a href="/finder" class="text-sm font-semibold text-forest no-underline hover:text-clay transition-colors">Finder</a>
+    <a href="/events" class="text-sm font-semibold text-forest no-underline hover:text-clay transition-colors">Events</a>
+    <a href="/about" class="text-sm font-semibold text-forest no-underline hover:text-clay transition-colors">New here?</a>
+    <a href="/add-course" class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-underline hover:bg-clay transition-colors">Add a course</a>
+  </div>
+</nav>

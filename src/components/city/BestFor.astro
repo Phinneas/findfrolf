@@ -1,0 +1,53 @@
+---
+import { courseUrl, getCoursesBySlugs } from '../../lib/data';
+import type { CollectionEntry } from 'astro:content';
+
+interface BestForItem {
+  title: string;
+  tag: string;
+  courseSlugs: string[];
+}
+
+interface Props {
+  items: BestForItem[];
+}
+
+const { items } = Astro.props;
+
+// Resolve all course slugs for all items
+const allSlugs = [...new Set(items.flatMap((item) => item.courseSlugs))];
+const allCourses = await getCoursesBySlugs(allSlugs);
+const courseMap = new Map(allCourses.map((c) => [c.id, c]));
+---
+
+<section class="max-w-[1240px] mx-auto px-8 pb-20">
+  <div class="eyebrow mb-3">§ 02 — Curated picks</div>
+  <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+    Best Austin courses <em class="italic text-clay">for…</em>
+  </h2>
+  <p class="text-base text-ink-soft max-w-[580px] mb-10">
+    Hand-picked shortlists from our Austin editors, for whatever today's round calls for.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9">
+    {items.map((item) => (
+      <div>
+        <h4 class="font-display font-semibold text-[19px] text-forest-deep mb-1">{item.title}</h4>
+        <span class="block font-mono text-[10px] uppercase tracking-[1px] text-clay mb-4">{item.tag}</span>
+        {item.courseSlugs.map((slug) => {
+          const course = courseMap.get(slug);
+          if (!course) return null;
+          return (
+            <a
+              href={courseUrl(course)}
+              class="flex justify-between items-center gap-2.5 py-2.5 border-t border-line no-clip text-forest-deep text-sm font-semibold hover:text-clay transition-colors"
+            >
+              <span>{course.data.name}</span>
+              <span class="font-mono text-xs text-sun font-normal">★ {course.data.rating}</span>
+            </a>
+          );
+        })}
+      </div>
+    ))}
+  </div>
+</section>

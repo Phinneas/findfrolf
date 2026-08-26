@@ -1,0 +1,24 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  crumbs: Crumb[];
+}
+const { crumbs } = Astro.props;
+---
+
+<div class="max-w-[1240px] mx-auto px-8 pt-2.5 font-mono text-[11px] uppercase tracking-[1.2px] text-moss">
+  {crumbs.map((crumb, i) => (
+    <>
+      {crumb.href ? (
+        <a href={crumb.href} class="no-underline text-moss hover:text-clay transition-colors">{crumb.label}</a>
+      ) : (
+        <span class="text-forest">{crumb.label}</span>
+      )}
+      {i < crumbs.length - 1 && <span class="text-moss"> / </span>}
+    </>
+  ))}
+</div>

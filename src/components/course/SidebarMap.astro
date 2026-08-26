@@ -1,0 +1,30 @@
+---
+interface Props {
+  address: string;
+  lat: number;
+  lng: number;
+}
+
+const { address, lat, lng } = Astro.props;
+---
+
+<div class="bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+  <div class="font-mono text-[10px] uppercase tracking-[2px] text-moss px-[22px] pt-[18px]">Location &amp; directions</div>
+  <div class="relative h-[220px] mt-3.5 bg-[#dfe6d0] overflow-hidden">
+    <div class="absolute inset-0 opacity-50 bg-cover" style="background-image:url(&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'><g fill='none' stroke='%235c7b4d' stroke-width='1'><path d='M0,200 Q100,130 200,200 T400,200'/><path d='M0,160 Q100,90 200,160 T400,160'/><path d='M0,240 Q100,170 200,240 T400,240'/><path d='M0,120 Q100,50 200,120 T400,120'/><path d='M0,280 Q100,210 200,280 T400,280'/></g></svg>&quot;)"></div>
+    <div class="absolute w-[140%] h-[3px] bg-cream top-[55%] left-[-20%] -rotate-[8deg]"></div>
+    <div class="absolute w-[140%] h-[2px] bg-cream bottom-[30%] left-[-20%] rotate-[6deg] opacity-70"></div>
+    <div class="absolute top-[42%] left-1/2 -translate-x-1/2 -translate-y-full z-3">
+      <svg width="38" height="38" viewBox="0 0 24 24" fill="#d35a35" stroke="#fffdf6" stroke-width="1.5" style="filter:drop-shadow(0 4px 6px rgba(21,40,29,0.4))">
+        <path d="M12 2C7.6 2 4 5.6 4 10c0 5.4 8 12 8 12s8-6.6 8-12c0-4.4-3.6-8-8-8z" />
+        <circle cx="12" cy="10" r="2.6" fill="#fffdf6" stroke="none" />
+      </svg>
+    </div>
+  </div>
+  <div class="flex items-center justify-between px-[22px] py-4 border-t border-line">
+    <span class="text-[13px] text-ink-soft" set:html={address.replace(', ', '<br/>')}></span>
+    <a href={`https://www.google.com/maps?q=${lat},${lng}`} target="_blank" rel="noopener" class="bg-forest text-cream px-4 py-[9px] rounded-full no-clip font-bold text-[13px] whitespace-nowrap hover:bg-clay transition-colors">
+      Get directions →
+    </a>
+  </div>
+</div>

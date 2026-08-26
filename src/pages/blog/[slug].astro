@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Schema from '../../components/Schema.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const postUrl = `https://findfrolf.com/blog/${post.id}`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate,
+  dateModified: post.data.updatedDate ?? post.data.pubDate,
+  author: {
+    '@type': 'Organization',
+    name: post.data.author,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'FindFrolf',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://findfrolf.com/favicon.svg',
+    },
+  },
+  image: post.data.heroImage,
+  mainEntityOfPage: postUrl,
+};
+
+const schemas = [articleSchema];
+
+if (post.data.faqItems && post.data.faqItems.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: post.data.faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  });
+}
+---
+
+<BaseLayout
+  title={`${post.data.title} — Find Frolf`}
+  description={post.data.description}
+>
+  <Fragment slot="head">
+    <Schema schema={schemas} />
+  </Fragment>
+
+  <article class="max-w-[760px] mx-auto px-8 py-20">
+    <header class="mb-10">
+      <div class="flex gap-2 mb-4">
+        {post.data.tags.map((tag) => (
+          <span class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss bg-cream-2 px-2 py-1 rounded">{tag}</span>
+        ))}
+      </div>
+      <h1 class="font-display font-normal text-[clamp(28px,4vw,42px)] leading-[1.1] tracking-[-1px] text-forest-deep mb-4">
+        {post.data.title}
+      </h1>
+      <p class="text-lg text-ink-soft mb-4">{post.data.description}</p>
+      <div class="flex items-center gap-4 text-sm text-moss">
+        <span>{post.data.author}</span>
+        <span>·</span>
+        <time>
+          {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+        </time>
+        {post.data.updatedDate && (
+          <>
+            <span>·</span>
+            <span>Updated {new Date(post.data.updatedDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+          </>
+        )}
+      </div>
+    </header>
+
+    <div class="prose prose-forest max-w-none">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

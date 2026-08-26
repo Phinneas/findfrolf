@@ -1,0 +1,43 @@
+---
+import Logo from './Logo.astro';
+---
+
+<footer class="bg-forest-deep text-sage px-8 pt-[70px] pb-[34px]">
+  <div class="max-w-[1240px] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-[52px] pb-12 border-b border-moss">
+      <div>
+        <div class="[&_a]:text-cream [&_.text-forest]:text-cream [&_.script]:text-sun">
+          <Logo />
+        </div>
+        <p class="font-display italic text-[15px] text-sage max-w-[280px] mt-3.5">
+          The disc golf atlas, mapped by the people who play it.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-mono text-[11px] uppercase tracking-[2px] text-cream mb-3.5">Explore</h4>
+        <a href="/courses" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">All courses</a>
+        <a href="/map" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Map view</a>
+        <a href="/cities" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Cities</a>
+        <a href="/events" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Tournaments</a>
+      </div>
+      <div>
+        <h4 class="font-mono text-[11px] uppercase tracking-[2px] text-cream mb-3.5">Texas</h4>
+        <a href="/tx/austin" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Austin</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">San Antonio</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Houston</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Dallas</a>
+      </div>
+      <div>
+        <h4 class="font-mono text-[11px] uppercase tracking-[2px] text-cream mb-3.5">About</h4>
+        <a href="/about" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Our promise</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">For stewards</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Press kit</a>
+        <a href="#" class="block text-sage no-underline text-sm py-1.5 hover:text-sun transition-colors">Contact</a>
+      </div>
+    </div>
+    <div class="pt-7 flex justify-between font-mono text-[11px] uppercase tracking-[1.5px] text-moss">
+      <span>&copy; 2026 Find Frolf &middot; Mapped in the woods</span>
+      <span>Free forever &middot; No paid placements</span>
+    </div>
+  </div>
+</footer>

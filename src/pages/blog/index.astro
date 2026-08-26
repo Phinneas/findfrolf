@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+);
+---
+
+<BaseLayout
+  title="Blog — Find Frolf"
+  description="Disc golf guides, rules explainers, gear recommendations, and city spotlights. Learn the sport and find your next course."
+>
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ From the blog</div>
+    <h1 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+      Guides, rules & <em class="italic text-clay">good reads</em>
+    </h1>
+    <p class="text-base text-ink-soft max-w-[580px] mb-12">
+      Everything you need to play, improve, and explore the disc golf world.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {posts.map((post) => (
+        <a href={`/blog/${post.id}`} class="group block">
+          <div class="rounded-[14px] overflow-hidden border-[1.5px] border-forest shadow-stamp mb-4">
+            <div class="aspect-[16/10] bg-cover bg-center" style={`background-image:url('${post.data.heroImage}')`}></div>
+          </div>
+          <div class="flex gap-2 mb-2">
+            {post.data.tags.slice(0, 2).map((tag) => (
+              <span class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss">{tag}</span>
+            ))}
+          </div>
+          <h2 class="font-display font-semibold text-[20px] text-forest-deep group-hover:text-clay transition-colors leading-tight mb-2">
+            {post.data.title}
+          </h2>
+          <p class="text-sm text-ink-soft line-clamp-2">{post.data.description}</p>
+          <time class="block mt-2 font-mono text-[11px] text-moss">
+            {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+          </time>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

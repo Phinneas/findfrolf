@@ -1,0 +1,61 @@
+---
+interface Props {
+  name: string;
+  heroImage: string;
+  rating: number;
+  reviewCount: number;
+  tags: string[];
+  location: string;
+  stateSlug: string;
+  citySlug: string;
+}
+
+const { name, heroImage, rating, reviewCount, tags, location, stateSlug, citySlug } = Astro.props;
+
+// Split name to emphasize the last part
+const nameParts = name.split(' ');
+const lastPart = nameParts.pop();
+const firstName = nameParts.join(' ');
+---
+
+<section class="relative max-w-[1240px] mx-auto mt-[18px] px-8">
+  <div class="relative rounded-[14px] overflow-hidden min-h-[460px] border-[1.5px] border-forest shadow-stamp-lg flex items-end">
+    <div class="absolute inset-0 bg-cover bg-center" style={`background-image: url('${heroImage}')`}></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-forest-deep/88 via-forest-deep/45 to-forest-deep/15"></div>
+
+    <!-- Action buttons -->
+    <div class="absolute top-8 right-8 z-2 flex gap-2.5 max-md:static max-md:p-0 max-md:mt-4.5">
+      <a href="#" class="flex items-center gap-1.5 bg-paper text-forest border-none px-[18px] py-[11px] rounded-full font-bold text-[13px] no-clip hover:bg-sun transition-colors">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        Save
+      </a>
+      <a href="#" class="flex items-center gap-1.5 bg-clay text-white border-none px-[18px] py-[11px] rounded-full font-bold text-[13px] no-clip hover:bg-clay-deep transition-colors">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Directions
+      </a>
+    </div>
+
+    <div class="relative z-2 p-8 lg:p-[52px] text-cream max-md:pt-[32px] max-md:px-[26px]">
+      <span class="inline-flex items-center gap-2 bg-clay text-white font-mono text-[10px] uppercase tracking-[2px] px-3 py-1.5 mb-4.5">
+        ★ Editor's pick · No. 01 this week
+      </span>
+      <h1 class="font-display font-normal text-[clamp(40px,5.5vw,72px)] leading-[0.95] tracking-[-2px] mb-3.5">
+        {firstName} <em class="italic text-sun">{lastPart}</em>
+      </h1>
+      <p class="text-base text-sage mb-5.5 flex items-center gap-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        {location}
+      </p>
+      <div class="flex items-center gap-[22px] flex-wrap">
+        <div class="font-display font-semibold text-[26px] text-white">
+          <span class="text-sun">★</span> {rating} <small class="font-body text-[13px] text-sage font-medium ml-1">· {reviewCount.toLocaleString()} reviews</small>
+        </div>
+        <div class="flex gap-2 flex-wrap">
+          {tags.map((tag) => (
+            <span class="bg-cream/15 text-white border border-cream/25 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-[2px]">{tag}</span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

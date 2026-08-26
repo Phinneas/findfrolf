@@ -1,17 +1,128 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CourseRegister from '../components/city/CourseRegister.astro';
+import CTACard from '../components/city/CTACard.astro';
+import { getAllCourses, getAllCities, cityUrl, courseUrl } from '../lib/data';
 
+const allCourses = await getAllCourses();
+const allCities = await getAllCities();
+const topCourses = allCourses.slice(0, 5);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Find Frolf — The disc golf atlas, mapped by the people who play it"
+  description="Every disc golf course on earth, ranked and reviewed by the locals who play them. Find free courses, wooded tracks, beginner-friendly nines, and the best chains near you."
+>
+  <!-- HERO -->
+  <section class="max-w-[1240px] mx-auto mt-[18px] px-8">
+    <div class="relative rounded-[14px] overflow-hidden min-h-[480px] border-[1.5px] border-forest shadow-stamp-lg flex items-center justify-center text-center">
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg')"></div>
+      <div class="absolute inset-0 bg-forest-deep/70"></div>
+      <div class="relative z-2 px-8 py-16 text-cream max-w-[760px]">
+        <span class="inline-flex items-center gap-2 bg-clay text-white font-mono text-[10px] uppercase tracking-[2px] px-3 py-1.5 mb-5">
+          🥏 The disc golf atlas
+        </span>
+        <h1 class="font-display font-normal text-[clamp(44px,7vw,80px)] leading-[0.9] tracking-[-2.5px] mb-5">
+          Find every course.<br />
+          Then find <em class="italic text-sun">your people</em>.
+        </h1>
+        <p class="text-lg text-cream/90 max-w-[520px] mx-auto mb-7">
+          Honest reviews from real rounds — including the muddy walk to hole 12. Free forever, no paid placements.
+        </p>
+        <div class="bg-paper rounded-[11px] p-[7px] flex gap-1.5 max-w-[520px] mx-auto shadow-stamp">
+          <input
+            type="text"
+            placeholder="Where to, friend?"
+            class="flex-1 border-none outline-none bg-transparent px-4 py-2.5 font-display text-base text-forest-deep placeholder:text-sage"
+          />
+          <button class="bg-clay text-white border-none px-6 rounded-[7px] font-bold text-sm cursor-pointer hover:bg-clay-deep transition-colors">
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CITIES -->
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ Start exploring</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+      Disc golf by <em class="italic text-clay">city</em>
+    </h2>
+    <p class="text-base text-ink-soft max-w-[580px] mb-10">
+      City guides with every course mapped, ranked, and reviewed by local players.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {allCities.map((city) => (
+        <a
+          href={cityUrl(city)}
+          class="group relative rounded-[14px] overflow-hidden min-h-[280px] border-[1.5px] border-forest shadow-stamp flex items-end no-clip transition-transform hover:-translate-y-1"
+        >
+          <div class="absolute inset-0 bg-cover bg-center" style={`background-image:url('${city.data.heroImage}')`}></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-forest-deep/90 via-forest-deep/40 to-transparent"></div>
+          <div class="relative z-2 p-7 text-cream">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-sun mb-2">{city.data.state}</div>
+            <h3 class="font-display font-normal text-[34px] tracking-[-1px] leading-none mb-2">{city.data.name}</h3>
+            <p class="text-sm text-cream/80 line-clamp-2">{city.data.lede}</p>
+            <div class="flex gap-3 mt-4 font-mono text-[11px] uppercase tracking-[1px] text-sage">
+              {city.data.quickFacts.slice(0, 3).map((f) => (
+                <span>{f.value} {f.label}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+      <!-- Placeholder for more cities -->
+      <div class="rounded-[14px] border-[1.5px] border-dashed border-line min-h-[280px] flex flex-col items-center justify-center text-center p-7 bg-paper/50">
+        <div class="font-display text-[40px] text-sage mb-2">+</div>
+        <h3 class="font-display font-semibold text-[20px] text-forest-deep mb-1">More cities coming</h3>
+        <p class="text-sm text-ink-soft max-w-[200px]">We're mapping every disc golf city, one course at a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP COURSES -->
+  <CourseRegister courses={topCourses} />
+
+  <!-- NEW HERE -->
+  <section class="bg-forest-deep text-cream">
+    <div class="max-w-[1240px] mx-auto px-8 py-[70px] grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-14 items-center">
+      <div>
+        <div class="eyebrow text-sage [&::before]:bg-sun mb-3">§ New here?</div>
+        <h2 class="font-display font-normal text-[34px] tracking-[-1px] text-cream mb-6">
+          One disc and a free afternoon <em class="italic text-sun">is all it takes</em>
+        </h2>
+        <p class="text-[17px] text-cream/85 leading-[1.65] mb-6 max-w-[520px]">
+          Disc golf is the most welcoming sport you'll ever try. Most courses are free, you only need one disc to start, and the regulars are genuinely happy to see someone new on the tee pad. We've got you.
+        </p>
+        <a href="/about" class="inline-flex items-center gap-2 bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors">
+          Read the beginner's guide →
+        </a>
+      </div>
+      <div class="bg-paper text-ink rounded-[12px] p-7 shadow-stamp-lg">
+        <h4 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-4">Your first round, sorted</h4>
+        <div class="py-3 border-b border-dashed border-line flex justify-between text-sm">
+          <span>Pick a beginner-friendly course</span>
+          <b class="text-clay">Free</b>
+        </div>
+        <div class="py-3 border-b border-dashed border-line flex justify-between text-sm">
+          <span>Grab one midrange disc</span>
+          <b class="text-clay">$8–$15</b>
+        </div>
+        <div class="py-3 border-b border-dashed border-line flex justify-between text-sm">
+          <span>Play 9 holes at your own pace</span>
+          <b class="text-clay">~45 min</b>
+        </div>
+        <div class="py-3 flex justify-between text-sm">
+          <span>Come back and do it again</span>
+          <b class="text-clay">Priceless</b>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CTACard
+    titleHtml="Know a course <span class='script text-sun'>we're missing?</span>"
+    buttonText="Add a course →"
+  />
+</BaseLayout>

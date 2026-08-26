@@ -1,0 +1,37 @@
+---
+interface NearbyCity {
+  name: string;
+  courseCount: string;
+  distance: string;
+  slug: string;
+}
+
+interface Props {
+  cities: NearbyCity[];
+}
+
+const { cities } = Astro.props;
+---
+
+<section class="bg-cream-2 border-t border-b border-line">
+  <div class="max-w-[1240px] mx-auto px-8 py-[70px]">
+    <div class="eyebrow mb-3.5">§ Keep exploring Texas</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-7">
+      Disc golf in <em class="italic text-clay">nearby cities</em>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[18px]">
+      {cities.map((city) => (
+        <a
+          href={city.slug}
+          class="flex justify-between items-center bg-paper border-[1.5px] border-forest rounded-[10px] px-5 py-[18px] no-clip text-inherit transition-all hover:bg-cream hover:-translate-y-0.5"
+        >
+          <div>
+            <div class="font-display font-semibold text-[19px] text-forest-deep">{city.name}</div>
+            <div class="font-mono text-[11px] text-moss uppercase mt-0.5">{city.courseCount} · {city.distance}</div>
+          </div>
+          <span class="text-clay text-lg">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

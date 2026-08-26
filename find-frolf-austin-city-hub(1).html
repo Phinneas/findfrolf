@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disc Golf in Austin, Texas — 47 Courses Mapped | Find Frolf</title>
+<meta name="description" content="Every disc golf course in Austin, Texas — ranked, reviewed, and mapped by local players. Find free courses, wooded tracks, beginner-friendly nines, and the city's best chains.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f8f1df; --cream-2:#f1e6cd; --paper:#fffdf6;
+    --forest:#21402f; --forest-2:#15281d; --moss:#5c7b4d; --sage:#a7b994;
+    --clay:#d35a35; --clay-deep:#b3441f; --sun:#edb441;
+    --ink:#29251d; --ink-soft:#635a4b; --line:#e6dabf;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--sun);color:var(--forest-2)}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:2.5px;color:var(--moss);display:inline-flex;align-items:center;gap:12px}
+  .eyebrow::before{content:'';width:26px;height:1.5px;background:var(--clay)}
+  .script{font-family:'Caveat',cursive;font-weight:700;color:var(--clay)}
+
+  nav{position:relative;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px 32px;max-width:1240px;margin:0 auto}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .logo svg{width:36px;height:36px}
+  .logo-text{font-family:'Fraunces',serif;font-weight:700;font-size:22px;color:var(--forest);letter-spacing:-0.5px}
+  .logo-text .script{font-size:28px}
+  .nav-links{display:flex;gap:30px;align-items:center}
+  .nav-links a{font-size:14px;font-weight:600;color:var(--forest);text-decoration:none}
+  .nav-links a:hover{color:var(--clay)}
+  .nav-cta{background:var(--forest);color:var(--cream) !important;padding:10px 20px;border-radius:999px;font-weight:700 !important}
+  .nav-cta:hover{background:var(--clay) !important}
+
+  .crumb{max-width:1240px;margin:0 auto;padding:10px 32px 0;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--moss)}
+  .crumb a{text-decoration:none;color:var(--moss)} .crumb a:hover{color:var(--clay)} .crumb span{color:var(--forest)}
+
+  /* HERO */
+  .chero{max-width:1240px;margin:18px auto 0;padding:0 32px}
+  .chero-frame{position:relative;border-radius:14px;overflow:hidden;min-height:420px;border:1.5px solid var(--forest);box-shadow:7px 8px 0 var(--forest);display:flex;align-items:flex-end}
+  .chero-img{position:absolute;inset:0;background-size:cover;background-position:center}
+  .chero-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,40,29,.25) 0%,rgba(21,40,29,.55) 45%,rgba(21,40,29,.9) 100%)}
+  .chero-body{position:relative;z-index:2;padding:44px 48px;color:var(--cream);width:100%}
+  .chero-flag{display:inline-flex;align-items:center;gap:8px;background:var(--clay);color:#fff;font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:2px;padding:7px 13px;margin-bottom:16px}
+  .chero h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(40px,6vw,76px);line-height:0.92;letter-spacing:-2px;margin-bottom:14px}
+  .chero h1 em{font-style:italic;color:var(--sun)}
+  .chero p.lede{font-size:17px;color:var(--cream);opacity:.92;max-width:560px;margin-bottom:26px}
+  .csearch{background:var(--paper);border-radius:11px;padding:7px;display:flex;gap:6px;max-width:520px}
+  .csearch input{flex:1;border:none;outline:none;background:transparent;padding:11px 16px;font-family:'Fraunces',serif;font-size:16px;color:var(--forest-2)}
+  .csearch input::placeholder{color:var(--sage)}
+  .csearch button{background:var(--clay);color:#fff;border:none;padding:0 24px;border-radius:7px;font-weight:700;font-size:14px;cursor:pointer}
+  .csearch button:hover{background:var(--clay-deep)}
+
+  /* QUICK FACTS */
+  .facts-strip{max-width:1240px;margin:26px auto 0;padding:0 32px}
+  .facts-grid{display:grid;grid-template-columns:repeat(5,1fr);background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;overflow:hidden}
+  .qf{padding:22px 18px;border-right:1px dashed var(--line);text-align:center}
+  .qf:last-child{border-right:none}
+  .qf .n{font-family:'Fraunces',serif;font-weight:600;font-size:30px;color:var(--forest);line-height:1}
+  .qf .n em{font-style:italic;color:var(--clay)}
+  .qf .l{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);margin-top:8px}
+
+  .section{max-width:1240px;margin:0 auto;padding:80px 32px}
+  .sec-title{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(30px,4vw,46px);line-height:1.04;letter-spacing:-1.2px;color:var(--forest-2);margin:12px 0 12px;max-width:760px}
+  .sec-title em{font-style:italic;color:var(--clay)}
+  .sec-sub{font-size:16px;color:var(--ink-soft);max-width:580px;margin-bottom:42px}
+
+  /* INTRO PROSE */
+  .intro{display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:start}
+  .intro .prose p{font-size:16px;line-height:1.75;color:var(--ink);margin-bottom:16px}
+  .intro .prose p:first-of-type::first-letter{font-family:'Fraunces',serif;font-size:56px;float:left;line-height:.8;padding:6px 12px 0 0;color:var(--clay)}
+  .intro-aside{background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;padding:28px;box-shadow:5px 6px 0 var(--forest)}
+  .intro-aside h4{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);margin-bottom:16px}
+  .ia-row{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14px}
+  .ia-row:last-child{border-bottom:none}
+  .ia-row b{color:var(--forest);font-weight:700}
+
+  /* MAP BAND */
+  .mapband{background:var(--forest-2);color:var(--cream)}
+  .mapband-inner{max-width:1240px;margin:0 auto;padding:70px 32px;display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:stretch}
+  .mapband .eyebrow{color:var(--sage)} .mapband .eyebrow::before{background:var(--sun)}
+  .mapband h2{font-family:'Fraunces',serif;font-weight:400;font-size:34px;letter-spacing:-1px;color:var(--cream);margin:12px 0 24px}
+  .mapband h2 em{font-style:italic;color:var(--sun)}
+  .bigmap{position:relative;border-radius:12px;overflow:hidden;min-height:380px;background:#2c4a38;border:1px solid var(--moss)}
+  .bigmap .topo{position:absolute;inset:0;opacity:.35;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='500' height='500' viewBox='0 0 500 500'><g fill='none' stroke='%23a7b994' stroke-width='1'><path d='M0,250 Q125,160 250,250 T500,250'/><path d='M0,200 Q125,110 250,200 T500,200'/><path d='M0,300 Q125,210 250,300 T500,300'/><path d='M0,150 Q125,60 250,150 T500,150'/><path d='M0,350 Q125,260 250,350 T500,350'/></g></svg>");background-size:500px}
+  .bigmap .river{position:absolute;width:130%;height:14px;background:rgba(108,175,255,.25);top:50%;left:-15%;transform:rotate(-6deg);border-radius:8px}
+  .mpin{position:absolute;width:30px;height:30px;border-radius:50%;background:var(--clay);border:2.5px solid var(--cream);display:grid;place-items:center;font-family:'Plus Jakarta Sans';font-weight:800;font-size:13px;color:#fff;transform:translate(-50%,-50%);box-shadow:0 4px 8px rgba(0,0,0,.3);cursor:pointer}
+  .mpin.gold{background:var(--sun);color:var(--forest-2)}
+  .maplegend{display:flex;flex-direction:column;gap:2px}
+  .ml-row{display:flex;align-items:center;gap:12px;padding:10px 4px;border-bottom:1px solid var(--moss);text-decoration:none;color:var(--cream)}
+  .ml-row:last-child{border-bottom:none}
+  .ml-num{width:24px;height:24px;border-radius:50%;background:var(--clay);display:grid;place-items:center;font-weight:800;font-size:12px;flex-shrink:0}
+  .ml-num.gold{background:var(--sun);color:var(--forest-2)}
+  .ml-name{font-weight:600;font-size:14px;flex:1}
+  .ml-rate{font-family:'Space Mono',monospace;font-size:12px;color:var(--sun)}
+
+  /* FILTER CHIPS */
+  .chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+  .fchip{background:var(--paper);border:1.5px solid var(--line);color:var(--forest);padding:9px 17px;border-radius:999px;font-size:13px;font-weight:700;text-decoration:none;transition:all .15s}
+  .fchip:hover,.fchip.on{background:var(--forest);color:var(--cream);border-color:var(--forest)}
+  .fchip.on.clay{background:var(--clay);border-color:var(--clay)}
+
+  /* REGISTER */
+  .reg-head{display:grid;grid-template-columns:50px 56px 2.1fr 1.2fr 1.1fr 60px;gap:22px;align-items:center;padding:0 20px 12px;font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);border-bottom:1.5px solid var(--forest)}
+  .reg-head span:last-child{text-align:right}
+  .reg-row{display:grid;grid-template-columns:50px 56px 2.1fr 1.2fr 1.1fr 60px;gap:22px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:background .15s}
+  .reg-row:hover{background:var(--cream-2)}
+  .reg-rank{font-family:'Fraunces',serif;font-style:italic;font-size:24px;color:var(--sage)}
+  .reg-rank.top{color:var(--clay);font-style:normal;font-weight:700}
+  .reg-thumb{width:56px;height:50px;border-radius:6px;background-size:cover;background-position:center;border:1.5px solid var(--forest)}
+  .reg-name{font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:var(--forest-2);letter-spacing:-0.5px;line-height:1.05}
+  .reg-code{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--moss);margin-top:5px}
+  .reg-loc{font-size:14px;color:var(--ink-soft)}
+  .reg-stats{font-family:'Space Mono',monospace;font-size:12px;color:var(--forest)}
+  .reg-rating{font-family:'Fraunces',serif;font-weight:700;font-size:20px;color:var(--clay);text-align:right}
+  .reg-foot{padding:28px 20px 0}
+  .reg-foot a{font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:2px;color:var(--forest);text-decoration:none;border-bottom:1.5px solid var(--clay);padding-bottom:4px}
+
+  /* BEST FOR */
+  .bestfor{display:grid;grid-template-columns:repeat(4,1fr);gap:36px}
+  .bf h4{font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:var(--forest-2);margin-bottom:4px}
+  .bf .bf-tag{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--clay);margin-bottom:16px;display:block}
+  .bf a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--forest-2);font-size:14px;font-weight:600}
+  .bf a:hover{color:var(--clay)}
+  .bf a .r{font-family:'Space Mono',monospace;font-size:12px;color:var(--sun);font-weight:400}
+  .bf a .r b{color:var(--moss)}
+
+  /* SCENE */
+  .scene{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:start}
+  .feed{margin-left:8px;border-left:2px dashed var(--line)}
+  .feed-item{display:grid;grid-template-columns:74px 1fr auto;gap:24px;align-items:center;padding:22px 0 22px 32px;position:relative;border-bottom:1px solid var(--line)}
+  .feed-item:last-child{border-bottom:none}
+  .feed-item::before{content:'';position:absolute;left:-9px;top:50%;transform:translateY(-50%);width:14px;height:14px;border-radius:50%;background:var(--clay);border:3px solid var(--cream);box-shadow:0 0 0 2px var(--line)}
+  .feed-day{font-family:'Fraunces',serif;font-weight:600;font-size:28px;color:var(--forest);line-height:1;text-align:center}
+  .feed-mon{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:var(--clay);text-transform:uppercase;margin-top:4px;text-align:center}
+  .feed-body h3{font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:var(--forest-2);margin-bottom:3px}
+  .feed-body p{font-size:13px;color:var(--ink-soft);line-height:1.5}
+  .feed-join{background:var(--forest);color:var(--cream);padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:13px;white-space:nowrap}
+  .feed-join:hover{background:var(--clay)}
+  .scene-panel{background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;padding:26px}
+  .scene-panel h4{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);margin-bottom:16px}
+  .sp-row{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px dashed var(--line)}
+  .sp-row:last-child{border-bottom:none}
+  .sp-ic{width:32px;height:32px;border-radius:8px;background:var(--cream-2);display:grid;place-items:center;flex-shrink:0}
+  .sp-name{font-weight:700;font-size:14px;color:var(--forest-2)}
+  .sp-meta{font-size:12px;color:var(--ink-soft)}
+
+  /* BY AREA */
+  .areas{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+  .area{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:20px 16px;text-align:center;text-decoration:none;transition:all .15s}
+  .area:hover{border-color:var(--clay);transform:translateY(-2px)}
+  .area .an{font-family:'Fraunces',serif;font-weight:600;font-size:30px;color:var(--clay);line-height:1}
+  .area .al{font-size:13px;color:var(--forest-2);font-weight:600;margin-top:6px}
+
+  /* FAQ */
+  .faq-item{border-bottom:1px solid var(--line);padding:24px 0}
+  .faq-q{font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:var(--forest-2);margin-bottom:8px}
+  .faq-a{font-size:15px;color:var(--ink-soft);line-height:1.65;max-width:820px}
+  .faq-a a{color:var(--clay);text-decoration:none;border-bottom:1px solid var(--line)}
+
+  /* NEARBY */
+  .nearby{background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .nearby-inner{max-width:1240px;margin:0 auto;padding:70px 32px}
+  .nearby-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .nb{display:flex;justify-content:space-between;align-items:center;background:var(--paper);border:1.5px solid var(--forest);border-radius:10px;padding:18px 20px;text-decoration:none;color:inherit;transition:all .15s}
+  .nb:hover{background:var(--cream);transform:translateY(-2px)}
+  .nb-city{font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:var(--forest-2)}
+  .nb-meta{font-family:'Space Mono',monospace;font-size:11px;color:var(--moss);text-transform:uppercase;margin-top:3px}
+  .nb-arrow{color:var(--clay);font-size:18px}
+
+  /* CTA */
+  .cta{max-width:1240px;margin:0 auto;padding:80px 32px}
+  .cta-card{background:var(--clay);color:#fff;border-radius:14px;padding:56px;display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
+  .cta-card h2{font-family:'Fraunces',serif;font-weight:400;font-size:34px;letter-spacing:-1px;line-height:1.05}
+  .cta-card h2 .script{color:var(--sun)}
+  .cta-btn{background:var(--forest-2);color:var(--cream);padding:15px 30px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;white-space:nowrap}
+  .cta-btn:hover{background:#000}
+
+  footer{background:var(--forest-2);color:var(--sage);padding:70px 32px 34px}
+  .footer-inner{max-width:1240px;margin:0 auto}
+  .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;padding-bottom:48px;border-bottom:1px solid var(--moss)}
+  .footer-brand .logo-text{color:var(--cream)}
+  .footer-brand p{font-family:'Fraunces',serif;font-style:italic;font-size:15px;color:var(--sage);max-width:280px;margin-top:14px}
+  .footer-col h4{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--cream);margin-bottom:14px}
+  .footer-col a{display:block;color:var(--sage);text-decoration:none;font-size:14px;padding:5px 0}
+  .footer-col a:hover{color:var(--sun)}
+  .footer-bottom{padding-top:28px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+
+  @media(max-width:900px){
+    .nav-links{display:none}
+    .facts-grid{grid-template-columns:repeat(3,1fr)} .qf:nth-child(3){border-right:none}
+    .intro{grid-template-columns:1fr;gap:32px}
+    .mapband-inner{grid-template-columns:1fr;gap:28px}
+    .reg-head{display:none}
+    .reg-row{grid-template-columns:44px 1fr auto;gap:14px;padding:14px 8px}
+    .reg-row .reg-thumb,.reg-row .reg-loc,.reg-row .reg-stats{display:none}
+    .bestfor{grid-template-columns:1fr 1fr;gap:28px}
+    .scene{grid-template-columns:1fr;gap:36px}
+    .areas{grid-template-columns:repeat(3,1fr)}
+    .nearby-grid{grid-template-columns:1fr 1fr}
+    .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+    .cta-card{padding:36px;flex-direction:column;align-items:flex-start}
+  }
+</style>
+<style>
+.ha-img-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;background:#f4f4f5;border:1px dashed #d4d4d8;border-radius:8px;color:#71717a;font-size:12px;font-family:system-ui,sans-serif;min-height:80px;padding:16px;box-sizing:border-box;animation:ha-img-pulse 1.5s ease-in-out infinite}
+.ha-img-placeholder.ha-failed{animation:none;opacity:.7}
+@keyframes ha-img-pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@media(prefers-color-scheme:dark){.ha-img-placeholder{background:#27272a;border-color:#3f3f46;color:#a1a1aa}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="46" fill="#fffdf6" stroke="#21402f" stroke-width="3"/>
+    <circle cx="50" cy="50" r="38.5" fill="none" stroke="#5c7b4d" stroke-width="1.4" stroke-dasharray="2 6"/>
+    <g fill="#21402f">
+      <ellipse cx="50" cy="35" rx="12" ry="3.6"/>
+      <g fill="none" stroke="#21402f" stroke-width="1.5" stroke-linecap="round"><path d="M40 36 Q50 47 60 36"/><line x1="44.5" y1="36.5" x2="50" y2="47"/><line x1="50" y1="36.5" x2="50" y2="47"/><line x1="55.5" y1="36.5" x2="50" y2="47"/></g>
+      <path d="M37.5 51 L62.5 51 L58 63 L42 63 Z"/>
+      <line x1="50" y1="63" x2="50" y2="73" stroke="#21402f" stroke-width="3" stroke-linecap="round"/>
+      <line x1="42" y1="73" x2="58" y2="73" stroke="#21402f" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="30" cy="27" rx="9" ry="3.2" fill="#d35a35" transform="rotate(-22 30 27)"/>
+    <circle cx="20.5" cy="31.5" r="1.4" fill="#d35a35"/>
+  </symbol>
+</svg>
+
+<nav>
+  <a class="logo" href="#"><svg><use href="#mark"/></svg><span class="logo-text">Find <span class="script">Frolf</span></span></a>
+  <div class="nav-links">
+    <a href="#">Courses</a><a href="#">Map</a><a href="#">Events</a><a href="#">New here?</a>
+    <a href="#" class="nav-cta">Add a course</a>
+  </div>
+</nav>
+
+<div class="crumb"><a href="#">Courses</a> / <a href="#">Texas</a> / <span>Austin</span></div>
+
+<!-- HERO -->
+<section class="chero">
+  <div class="chero-frame">
+    <div class="chero-img" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg');"></div>
+    <div class="chero-body">
+      <span class="chero-flag">📍 City guide · Updated June 2026</span>
+      <h1>Disc Golf in <em>Austin</em></h1>
+      <p class="lede">47 courses across the Hill Country and beyond — from the legendary chains at Zilker to the wooded test at Mary Moore Searight. Ranked and reviewed by the locals who play them.</p>
+      <div class="csearch">
+        <input type="text" placeholder="Filter Austin courses — name, area, or vibe">
+        <button>Search</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK FACTS -->
+<div class="facts-strip">
+  <div class="facts-grid">
+    <div class="qf"><div class="n">47</div><div class="l">Courses in metro</div></div>
+    <div class="qf"><div class="n"><em>31</em></div><div class="l">Free to play</div></div>
+    <div class="qf"><div class="n">4.5</div><div class="l">Avg rating</div></div>
+    <div class="qf"><div class="n">Oct–May</div><div class="l">Best season</div></div>
+    <div class="qf"><div class="n"><em>9</em></div><div class="l">Beginner-friendly</div></div>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="section">
+  <div class="intro">
+    <div class="prose">
+      <div class="eyebrow">§ The lay of the land</div>
+      <h2 class="sec-title" style="margin-bottom:24px;">A real disc golf town, <em>if you beat the heat</em></h2>
+      <p>Austin punches well above its weight for disc golf. The city's parks department has quietly built one of the densest course networks in Texas, and the local clubs keep them in shape year-round. You'll find everything here: wide-open municipal layouts perfect for a first round, tight cedar corridors that'll humble a 950-rated player, and a handful of pay-to-play gems on the outskirts worth the drive.</p>
+      <p>The one catch is summer. From June through September, midday rounds in the Texas sun are no joke — locals play at dawn or after 6pm, carry more water than they think they need, and save the exposed courses for the shoulder seasons. October through May is glorious, which is exactly when the tournament calendar fills up.</p>
+      <p>New to the area? Start with Zilker or Bartholomew for the gentle introduction, then graduate to the wooded challenge at Mary Moore Searight once your forehand is dialed.</p>
+    </div>
+    <div class="intro-aside">
+      <h4>Austin at a glance</h4>
+      <div class="ia-row"><span>Total courses</span><b>47</b></div>
+      <div class="ia-row"><span>Free / public</span><b>31</b></div>
+      <div class="ia-row"><span>Pay-to-play</span><b>6</b></div>
+      <div class="ia-row"><span>18+ hole courses</span><b>22</b></div>
+      <div class="ia-row"><span>Lit for night play</span><b>3</b></div>
+      <div class="ia-row"><span>Active leagues</span><b>14</b></div>
+      <div class="ia-row"><span>Best months</span><b>Oct–May</b></div>
+      <div class="ia-row"><span>Avg green fee</span><b>$0–$10</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP BAND -->
+<section class="mapband">
+  <div class="mapband-inner">
+    <div>
+      <div class="eyebrow">§ Every course, mapped</div>
+      <h2>The Austin <em>course map</em></h2>
+      <div class="bigmap">
+        <div class="topo"></div>
+        <div class="river"></div>
+        <div class="mpin gold" style="top:46%;left:48%">1</div>
+        <div class="mpin" style="top:64%;left:40%">2</div>
+        <div class="mpin" style="top:58%;left:62%">3</div>
+        <div class="mpin" style="top:34%;left:55%">4</div>
+        <div class="mpin" style="top:40%;left:30%">5</div>
+        <div class="mpin" style="top:72%;left:58%">6</div>
+        <div class="mpin" style="top:24%;left:68%">7</div>
+        <div class="mpin" style="top:52%;left:78%">8</div>
+      </div>
+    </div>
+    <div class="maplegend">
+      <a class="ml-row" href="#"><span class="ml-num gold">1</span><span class="ml-name">Zilker Park</span><span class="ml-rate">★ 4.6</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">2</span><span class="ml-name">Mary Moore Searight</span><span class="ml-rate">★ 4.8</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">3</span><span class="ml-name">Roy G. Guerrero (Krieg)</span><span class="ml-rate">★ 4.4</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">4</span><span class="ml-name">Bartholomew Park</span><span class="ml-rate">★ 4.3</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">5</span><span class="ml-name">Circle C Metro Park</span><span class="ml-rate">★ 4.5</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">6</span><span class="ml-name">Slaughter Creek</span><span class="ml-rate">★ 4.2</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">7</span><span class="ml-name">Old Settlers (Round Rock)</span><span class="ml-rate">★ 4.5</span></a>
+      <a class="ml-row" href="#"><span class="ml-num">8</span><span class="ml-name">Cat Hollow (Round Rock)</span><span class="ml-rate">★ 4.4</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- TOP COURSES -->
+<section class="section">
+  <div class="eyebrow">§ 01 — Ranked by players</div>
+  <h2 class="sec-title">The best disc golf courses <em>in Austin</em></h2>
+  <p class="sec-sub">Ordered by player rating across 38,000+ verified Austin rounds. Filter by what you're in the mood for.</p>
+
+  <div class="chips" style="margin-bottom:32px;">
+    <a href="#" class="fchip on clay">All 47</a>
+    <a href="#" class="fchip">Free</a>
+    <a href="#" class="fchip">Beginner-friendly</a>
+    <a href="#" class="fchip">Wooded</a>
+    <a href="#" class="fchip">18+ holes</a>
+    <a href="#" class="fchip">Quick 9</a>
+    <a href="#" class="fchip">Dog friendly</a>
+    <a href="#" class="fchip">Open now</a>
+  </div>
+
+  <div class="reg-head"><span></span><span>Rank</span><span>Course</span><span>Area</span><span>Layout</span><span>★</span></div>
+  <div class="register">
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg');"></div>
+      <div class="reg-rank top">01</div>
+      <div><div class="reg-name">Mary Moore Searight</div><div class="reg-code">TX-1140 · Wooded · technical</div></div>
+      <div class="reg-loc">South Austin</div>
+      <div class="reg-stats">18 · Par 60 · Free</div>
+      <div class="reg-rating">4.8</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg');"></div>
+      <div class="reg-rank top">02</div>
+      <div><div class="reg-name">Zilker Park</div><div class="reg-code">TX-1002 · Open · iconic</div></div>
+      <div class="reg-loc">Central / Zilker</div>
+      <div class="reg-stats">18 · Par 56 · Free</div>
+      <div class="reg-rating">4.6</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://cdn.buttercms.com/XDWtq5c4T7SFuz8EONjE');"></div>
+      <div class="reg-rank top">03</div>
+      <div><div class="reg-name">Circle C Metro Park</div><div class="reg-code">TX-1188 · Rolling · scenic</div></div>
+      <div class="reg-loc">Southwest</div>
+      <div class="reg-stats">18 · Par 62 · Free</div>
+      <div class="reg-rating">4.5</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://visitescanaba.com/image/1071/web');"></div>
+      <div class="reg-rank">04</div>
+      <div><div class="reg-name">Old Settlers Park</div><div class="reg-code">TX-1455 · Open · championship</div></div>
+      <div class="reg-loc">Round Rock</div>
+      <div class="reg-stats">27 · Par 84 · Free</div>
+      <div class="reg-rating">4.5</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=758758462923304');"></div>
+      <div class="reg-rank">05</div>
+      <div><div class="reg-name">Cat Hollow Park</div><div class="reg-code">TX-1460 · Wooded · creek</div></div>
+      <div class="reg-loc">Round Rock</div>
+      <div class="reg-stats">18 · Par 58 · Free</div>
+      <div class="reg-rating">4.4</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://preview.redd.it/whose-idea-was-it-to-put-green-baskets-in-a-95-wooded-course-v0-rda67ulywdtd1.jpeg?width=1080&crop=smart&auto=webp&s=4561cb4205b93506a55e2850f61dba6b2846a457');"></div>
+      <div class="reg-rank">06</div>
+      <div><div class="reg-name">Roy G. Guerrero (Krieg)</div><div class="reg-code">TX-1071 · Riverside · long</div></div>
+      <div class="reg-loc">East Austin</div>
+      <div class="reg-stats">18 · Par 64 · Free</div>
+      <div class="reg-rating">4.4</div>
+    </a>
+    <a href="#" class="reg-row">
+      <div class="reg-thumb" style="background-image:url('https://destinationbedfordva.com/wp-content/uploads/2022/07/disc-golf-by-sam-dean-photography.jpeg');"></div>
+      <div class="reg-rank">07</div>
+      <div><div class="reg-name">Bartholomew Park</div><div class="reg-code">TX-1044 · City park · beginner-kind</div></div>
+      <div class="reg-loc">Northeast / Mueller</div>
+      <div class="reg-stats">18 · Par 54 · Free</div>
+      <div class="reg-rating">4.3</div>
+    </a>
+  </div>
+  <div class="reg-foot"><a href="#">See all 47 Austin courses →</a></div>
+</section>
+
+<!-- BEST FOR -->
+<section class="section" style="padding-top:0;">
+  <div class="eyebrow">§ 02 — Curated picks</div>
+  <h2 class="sec-title">Best Austin courses <em>for…</em></h2>
+  <p class="sec-sub">Hand-picked shortlists from our Austin editors, for whatever today's round calls for.</p>
+
+  <div class="bestfor">
+    <div class="bf">
+      <h4>Your first round</h4>
+      <span class="bf-tag">Beginner-friendly</span>
+      <a href="#">Zilker Park <span class="r">★ 4.6</span></a>
+      <a href="#">Bartholomew Park <span class="r">★ 4.3</span></a>
+      <a href="#">Pease Park <span class="r">★ 4.1</span></a>
+    </div>
+    <div class="bf">
+      <h4>A real challenge</h4>
+      <span class="bf-tag">Wooded &amp; technical</span>
+      <a href="#">Mary Moore Searight <span class="r">★ 4.8</span></a>
+      <a href="#">Cat Hollow <span class="r">★ 4.4</span></a>
+      <a href="#">Slaughter Creek <span class="r">★ 4.2</span></a>
+    </div>
+    <div class="bf">
+      <h4>A quick nine</h4>
+      <span class="bf-tag">Lunch-break length</span>
+      <a href="#">Pease Park <span class="r">★ 4.1</span></a>
+      <a href="#">Davis White NE <span class="r">★ 4.0</span></a>
+      <a href="#">Bartholomew (front) <span class="r">★ 4.3</span></a>
+    </div>
+    <div class="bf">
+      <h4>Showing off the city</h4>
+      <span class="bf-tag">Scenic</span>
+      <a href="#">Circle C Metro <span class="r">★ 4.5</span></a>
+      <a href="#">Zilker Park <span class="r">★ 4.6</span></a>
+      <a href="#">Roy G. Guerrero <span class="r">★ 4.4</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- LOCAL SCENE -->
+<section class="section" style="padding-top:0;">
+  <div class="eyebrow">§ 03 — The local scene</div>
+  <h2 class="sec-title">Leagues, tags &amp; <em>weekly rounds</em></h2>
+  <p class="sec-sub">Austin's disc golf community runs deep. Here's what's on this week, plus the clubs and shops that keep it going.</p>
+
+  <div class="scene">
+    <div class="feed">
+      <div class="feed-item">
+        <div><div class="feed-day">03</div><div class="feed-mon">Jun</div></div>
+        <div class="feed-body"><h3>ATX Tuesday Tags</h3><p>Weekly tag league rotating across South Austin courses. Newcomers welcome — grab a tag and jump in.</p></div>
+        <a href="#" class="feed-join">Join</a>
+      </div>
+      <div class="feed-item">
+        <div><div class="feed-day">06</div><div class="feed-mon">Jun</div></div>
+        <div class="feed-body"><h3>Dawn Patrol Doubles · Zilker</h3><p>Beat-the-heat random doubles at 6:45am. Coffee provided, paired with a local.</p></div>
+        <a href="#" class="feed-join">Join</a>
+      </div>
+      <div class="feed-item">
+        <div><div class="feed-day">21</div><div class="feed-mon">Jun</div></div>
+        <div class="feed-body"><h3>Hill Country Open · B-Tier</h3><p>PDGA B-tier at Mary Moore Searight. Divisions from Novice to MPO.</p></div>
+        <a href="#" class="feed-join">Register</a>
+      </div>
+    </div>
+
+    <div class="scene-panel">
+      <h4>Clubs &amp; pro shops</h4>
+      <div class="sp-row"><div class="sp-ic">🥏</div><div><div class="sp-name">Austin Disc Golf Club</div><div class="sp-meta">1,200 members · est. 2004</div></div></div>
+      <div class="sp-row"><div class="sp-ic">🏪</div><div><div class="sp-name">Dynamic Discs Austin</div><div class="sp-meta">South Lamar · full pro shop</div></div></div>
+      <div class="sp-row"><div class="sp-ic">🏪</div><div><div class="sp-name">Disc Golf Strong</div><div class="sp-meta">Round Rock · lessons + gear</div></div></div>
+      <div class="sp-row"><div class="sp-ic">🥏</div><div><div class="sp-name">Women's ATX Disc Golf</div><div class="sp-meta">Monthly beginner clinics</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BY AREA -->
+<section class="section" style="padding-top:0;">
+  <div class="eyebrow">§ 04 — Browse by area</div>
+  <h2 class="sec-title">Courses by <em>neighborhood</em></h2>
+  <p class="sec-sub">Austin's spread out — find the chains closest to your side of town.</p>
+  <div class="areas">
+    <a href="#" class="area"><div class="an">9</div><div class="al">South Austin</div></a>
+    <a href="#" class="area"><div class="an">7</div><div class="al">Round Rock</div></a>
+    <a href="#" class="area"><div class="an">6</div><div class="al">Central</div></a>
+    <a href="#" class="area"><div class="an">6</div><div class="al">East Austin</div></a>
+    <a href="#" class="area"><div class="an">5</div><div class="al">Cedar Park</div></a>
+    <a href="#" class="area"><div class="an">4</div><div class="al">Southwest</div></a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" style="padding-top:0;">
+  <div class="eyebrow">§ 05 — Good to know</div>
+  <h2 class="sec-title">Austin disc golf, <em>answered</em></h2>
+  <div style="margin-top:36px;">
+    <div class="faq-item">
+      <div class="faq-q">How many disc golf courses are in Austin?</div>
+      <div class="faq-a">There are <b>47 courses</b> across the greater Austin metro, including Round Rock, Cedar Park, and Pflugerville. 31 are free public courses, and 22 have 18 or more holes. New layouts are added every season — <a href="#">add one we're missing</a>.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Are Austin's disc golf courses free?</div>
+      <div class="faq-a">Most are. The city's park courses — Zilker, Bartholomew, Roy G. Guerrero, and others — are free to play, dawn to dusk. A handful of premium pay-to-play courses on the outskirts charge $5–$10 and offer better-maintained fairways and tournament-grade baskets.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What's the best course for beginners in Austin?</div>
+      <div class="faq-a">Start at <b>Zilker Park</b> or <b>Bartholomew Park</b> — both are open, walkable, and forgiving, with short tees and friendly regulars. Once you're comfortable, Mary Moore Searight is the natural next step up in difficulty.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">When is the best time of year to play in Austin?</div>
+      <div class="faq-a">October through May. Texas summers are brutal — if you must play June–September, go at dawn or after 6pm, stick to shaded wooded courses, and bring far more water than feels necessary.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can I play disc golf at night in Austin?</div>
+      <div class="faq-a">Three area courses have lights for night play, and glow rounds are popular in summer to beat the heat. Check each course page for lighting and hours before you head out.</div>
+    </div>
+  </div>
+</section>
+
+<!-- NEARBY CITIES -->
+<section class="nearby">
+  <div class="nearby-inner">
+    <div class="eyebrow" style="margin-bottom:14px;">§ Keep exploring Texas</div>
+    <h2 class="sec-title" style="margin-bottom:28px;">Disc golf in <em>nearby cities</em></h2>
+    <div class="nearby-grid">
+      <a href="#" class="nb"><div><div class="nb-city">San Antonio</div><div class="nb-meta">52 courses · 80 mi</div></div><span class="nb-arrow">→</span></a>
+      <a href="#" class="nb"><div><div class="nb-city">Houston</div><div class="nb-meta">88 courses · 165 mi</div></div><span class="nb-arrow">→</span></a>
+      <a href="#" class="nb"><div><div class="nb-city">Dallas–Fort Worth</div><div class="nb-meta">110 courses · 195 mi</div></div><span class="nb-arrow">→</span></a>
+      <a href="#" class="nb"><div><div class="nb-city">Waco</div><div class="nb-meta">19 courses · 100 mi</div></div><span class="nb-arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="cta-card">
+    <h2>Know an Austin course <span class="script">we're missing?</span></h2>
+    <a href="#" class="cta-btn">Add a course →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#"><svg style="width:34px;height:34px"><use href="#mark"/></svg><span class="logo-text">Find <span class="script">Frolf</span></span></a>
+        <p>The disc golf atlas, mapped by the people who play it.</p>
+      </div>
+      <div class="footer-col"><h4>Explore</h4><a href="#">All courses</a><a href="#">Map view</a><a href="#">Cities</a><a href="#">Tournaments</a></div>
+      <div class="footer-col"><h4>Texas</h4><a href="#">Austin</a><a href="#">San Antonio</a><a href="#">Houston</a><a href="#">Dallas</a></div>
+      <div class="footer-col"><h4>About</h4><a href="#">Our promise</a><a href="#">For stewards</a><a href="#">Press kit</a><a href="#">Contact</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Find Frolf · Mapped in the woods</span><span>Free forever · No paid placements</span></div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && window.parent !== window) {
+    window.parent.postMessage({ type: 'close-fullscreen' }, '*');
+  }
+});
+</script>
+<!-- broken-img-handler -->
+<script>
+(function(){
+  if(window.__brokenImgHandler)return;
+  window.__brokenImgHandler=true;
+  var MAX=5,DELAYS=[2000,4000,8000,16000,32000];
+  document.addEventListener('error',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    var liveSrc=img.getAttribute('src');
+    var src=img.dataset.haOriginalSrc||liveSrc;
+    if(!src)return;
+    if(img.dataset.haOriginalSrc&&liveSrc&&liveSrc!==img.dataset.haOriginalSrc&&liveSrc.indexOf('_r=')<0){src=liveSrc;img.dataset.haOriginalSrc=src;img.dataset.haRetryCount='0'}
+    else if(!img.dataset.haOriginalSrc){img.dataset.haOriginalSrc=src}
+    var attempt=parseInt(img.dataset.haRetryCount||'0',10);
+    if(img.dataset.haPhId){var old=document.getElementById(img.dataset.haPhId);if(old)old.remove()}
+    var ph=document.createElement('div');
+    ph.className='ha-img-placeholder'+(attempt>=MAX?' ha-failed':'');
+    ph.id='ha-ph-'+Math.random().toString(36).slice(2,9);
+    var w=img.getAttribute('width');var h=img.getAttribute('height');
+    if(w)ph.style.width=w+(isNaN(Number(w))?'':'px');
+    else if(img.style.width)ph.style.width=img.style.width;
+    else if(img.width>1)ph.style.width=img.width+'px';
+    if(h)ph.style.height=h+(isNaN(Number(h))?'':'px');
+    else if(img.style.height)ph.style.height=img.style.height;
+    else if(img.height>1)ph.style.height=img.height+'px';
+    ph.textContent=attempt>=MAX?'Image unavailable':'Loading image\u2026';
+    img.dataset.haPhId=ph.id;
+    if(img.dataset.haOrigDisplay==null)img.dataset.haOrigDisplay=img.style.display||'';
+    img.style.display='none';
+    img.insertAdjacentElement('afterend',ph);
+    if(attempt<MAX){
+      img.dataset.haRetryCount=String(attempt+1);
+      setTimeout(function(){
+        if(!img.isConnected)return;
+        if(img.dataset.haOriginalSrc!==src)return;
+        if(img.complete&&img.naturalWidth>0)return;
+        var curSrc=img.getAttribute('src');
+        if(curSrc&&curSrc.indexOf(src)!==0)return;
+        var fresh=src+(src.indexOf('?')>=0?'&':'?')+'_r='+(attempt+1)+'_'+Date.now();
+        img.src=fresh;
+      },DELAYS[attempt]);
+    }
+  },true);
+  document.addEventListener('load',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    if(img.dataset.haPhId){
+      var ph=document.getElementById(img.dataset.haPhId);
+      if(ph)ph.remove();
+      delete img.dataset.haPhId;
+      img.style.display=img.dataset.haOrigDisplay||'';
+      delete img.dataset.haOrigDisplay;
+      delete img.dataset.haOriginalSrc;
+      delete img.dataset.haRetryCount;
+    }
+  },true);
+})();
+</script>
+</body>
+</html>

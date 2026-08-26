@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CTACard from '../components/city/CTACard.astro';
+
+const promises = [
+  {
+    num: '01',
+    title: 'Map everything',
+    text: 'Every course, hole by hole, GPS-accurate — drawn by the locals who actually play them each week.',
+  },
+  {
+    num: '02',
+    title: 'Tell the truth',
+    text: 'Verified rounds only. No paid placements, no fake reviews, no algorithm deciding what you see.',
+  },
+  {
+    num: '03',
+    title: 'Bring everyone',
+    text: "From a kid's first putter to a 1000-rated drive — the same honest map and a warm welcome to the round.",
+  },
+];
+---
+
+<BaseLayout
+  title="About Find Frolf — Our promise"
+  description="Find Frolf is a field guide, not a billboard. We map every disc golf course on earth and tell the honest truth about each one."
+>
+  <!-- HERO -->
+  <section class="max-w-[1080px] mx-auto mt-[60px] px-8 text-center">
+    <svg class="w-[120px] h-[120px] mx-auto mb-7"><use href="#ff-mark" /></svg>
+    <h1 class="font-display font-normal text-[clamp(44px,7vw,84px)] tracking-[-2.5px] text-forest-deep leading-[0.95]">
+      The <span class="script text-[1.05em]">Find Frolf</span><br />promise
+    </h1>
+    <div class="font-mono text-xs uppercase tracking-[3px] text-moss mt-5">Version 1.0 · 2026 · Identity, voice &amp; system</div>
+    <p class="font-display italic text-[21px] text-clay mt-6">
+      The disc golf atlas, mapped by the people who play it.
+    </p>
+  </section>
+
+  <!-- MISSION -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line mt-16">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">01</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,44px)] tracking-[-1.2px] text-forest-deep mb-4">
+      What we're <em class="italic text-clay">building</em>
+    </h2>
+    <p class="text-[17px] text-ink-soft max-w-[680px] mb-10 leading-[1.6]">
+      Find Frolf is a field guide, not a billboard. We map every disc golf course on earth and tell the honest truth about each one — for the weekend beginner and the touring pro alike. Everything in this guide protects that promise.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-9">
+      {promises.map((promise) => (
+        <div>
+          <div class="font-display font-light text-[54px] text-sun leading-none border-b border-line pb-3.5 mb-4.5">
+            {promise.num}
+          </div>
+          <h3 class="font-display font-semibold text-[21px] text-forest-deep mb-2.5">{promise.title}</h3>
+          <p class="text-sm text-ink-soft leading-[1.6]">{promise.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- VOICE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">02</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,44px)] tracking-[-1.2px] text-forest-deep mb-4">
+      How we <em class="italic text-clay">talk</em>
+    </h2>
+    <p class="text-[17px] text-ink-soft max-w-[680px] mb-10 leading-[1.6]">
+      We sound like a knowledgeable local at the first tee: honest, warm, and specific. Never corporate, never hype. If a sentence could appear in any SaaS brochure, rewrite it.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-11">
+      <div class="bg-paper border border-line rounded-[10px] p-6 border-l-4 border-l-clay">
+        <h4 class="font-display font-semibold text-[20px] text-forest-deep mb-1.5">Honest above all</h4>
+        <p class="text-sm text-ink-soft">We tell the truth about a course — the mud, the OB road, the missing chains. Trust is the product.</p>
+      </div>
+      <div class="bg-paper border border-line rounded-[10px] p-6 border-l-4 border-l-clay">
+        <h4 class="font-display font-semibold text-[20px] text-forest-deep mb-1.5">Warm, never corporate</h4>
+        <p class="text-sm text-ink-soft">Talk like a person who loves the game, not a platform onboarding a user.</p>
+      </div>
+      <div class="bg-paper border border-line rounded-[10px] p-6 border-l-4 border-l-clay">
+        <h4 class="font-display font-semibold text-[20px] text-forest-deep mb-1.5">Specific &amp; knowledgeable</h4>
+        <p class="text-sm text-ink-soft">"Tight cedar corridors" beats "varied terrain." We actually play; it shows in the details.</p>
+      </div>
+      <div class="bg-paper border border-line rounded-[10px] p-6 border-l-4 border-l-clay">
+        <h4 class="font-display font-semibold text-[20px] text-forest-deep mb-1.5">Everyone's welcome</h4>
+        <p class="text-sm text-ink-soft">Never gatekeep. Beginner and pro get the same respect and the same warm invitation.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4.5">
+      <div class="rounded-[10px] px-5 py-[20px] bg-[#eaf2e2] border border-[#cfe0bd]">
+        <div class="font-mono text-[10px] uppercase tracking-[1.5px] font-bold text-forest mb-2.5">✓ Sounds like us</div>
+        <p class="font-display italic text-[15px] leading-[1.5] text-ink">"Honest reviews from real rounds — including the muddy walk to hole 12."</p>
+      </div>
+      <div class="rounded-[10px] px-5 py-[20px] bg-[#fbe7de] border border-[#f3cdba]">
+        <div class="font-mono text-[10px] uppercase tracking-[1.5px] font-bold text-clay-deep mb-2.5">✕ Not us</div>
+        <p class="text-[15px] leading-[1.5] text-ink">"The #1 BEST disc golf courses you NEED to play this year!!!"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEEP IT FREE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">03</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,44px)] tracking-[-1.2px] text-forest-deep mb-4">
+      Free <em class="italic text-clay">forever</em>
+    </h2>
+    <p class="text-[17px] text-ink-soft max-w-[680px] leading-[1.6]">
+      No paid placements. No premium tier. No algorithm deciding what you see. Find Frolf is a field guide built by disc golfers, for disc golfers — and it stays that way.
+    </p>
+  </section>
+
+  <CTACard
+    titleHtml="Know a course <span class='script text-sun'>we're missing?</span>"
+    buttonText="Add a course →"
+  />
+</BaseLayout>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diavolo at New Hope Park — Find Frolf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f8f1df; --cream-2:#f1e6cd; --paper:#fffdf6;
+    --forest:#21402f; --forest-2:#15281d; --moss:#5c7b4d; --sage:#a7b994;
+    --clay:#d35a35; --clay-deep:#b3441f; --sun:#edb441;
+    --ink:#29251d; --ink-soft:#635a4b; --line:#e6dabf;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--sun);color:var(--forest-2)}
+  a{color:inherit}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:2.5px;color:var(--moss);display:inline-flex;align-items:center;gap:12px}
+  .eyebrow::before{content:'';width:26px;height:1.5px;background:var(--clay)}
+  .script{font-family:'Caveat',cursive;font-weight:700;color:var(--clay)}
+
+  /* NAV */
+  nav{position:relative;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px 32px;max-width:1240px;margin:0 auto}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .logo svg{width:36px;height:36px}
+  .logo-text{font-family:'Fraunces',serif;font-weight:700;font-size:22px;color:var(--forest);letter-spacing:-0.5px}
+  .logo-text .script{font-size:28px}
+  .nav-links{display:flex;gap:30px;align-items:center}
+  .nav-links a{font-size:14px;font-weight:600;color:var(--forest);text-decoration:none}
+  .nav-links a:hover{color:var(--clay)}
+  .nav-cta{background:var(--forest);color:var(--cream) !important;padding:10px 20px;border-radius:999px;font-weight:700 !important}
+  .nav-cta:hover{background:var(--clay) !important}
+
+  /* BREADCRUMB */
+  .crumb{max-width:1240px;margin:0 auto;padding:10px 32px 0;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--moss)}
+  .crumb a{text-decoration:none;color:var(--moss)} .crumb a:hover{color:var(--clay)}
+  .crumb span{color:var(--forest)}
+
+  /* HERO */
+  .chero{position:relative;max-width:1240px;margin:18px auto 0;padding:0 32px}
+  .chero-frame{position:relative;border-radius:14px;overflow:hidden;min-height:460px;border:1.5px solid var(--forest);box-shadow:7px 8px 0 var(--forest);display:flex;align-items:flex-end}
+  .chero-img{position:absolute;inset:0;background-size:cover;background-position:center}
+  .chero-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(21,40,29,.88) 0%,rgba(21,40,29,.45) 50%,rgba(21,40,29,.15) 100%)}
+  .chero-body{position:relative;z-index:2;padding:48px 52px;color:var(--cream)}
+  .chero-flag{display:inline-flex;align-items:center;gap:8px;background:var(--clay);color:#fff;font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:2px;padding:7px 13px;margin-bottom:18px}
+  .chero h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:0.95;letter-spacing:-2px;margin-bottom:14px}
+  .chero h1 em{font-style:italic;color:var(--sun)}
+  .chero-loc{font-size:16px;color:var(--sage);margin-bottom:22px;display:flex;align-items:center;gap:8px}
+  .chero-meta{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  .chero-rate{font-family:'Fraunces',serif;font-weight:600;font-size:26px;color:#fff}
+  .chero-rate .star{color:var(--sun)}
+  .chero-rate small{font-family:'Plus Jakarta Sans';font-size:13px;color:var(--sage);font-weight:500;margin-left:4px}
+  .chero-chips{display:flex;gap:8px;flex-wrap:wrap}
+  .cc{background:rgba(248,241,223,.16);color:#fff;border:1px solid rgba(248,241,223,.25);padding:5px 13px;border-radius:999px;font-size:12px;font-weight:600;backdrop-filter:blur(2px)}
+  .chero-actions{position:absolute;top:32px;right:32px;z-index:2;display:flex;gap:10px}
+  .act{background:var(--paper);color:var(--forest);border:none;padding:11px 18px;border-radius:999px;font-family:'Plus Jakarta Sans';font-weight:700;font-size:13px;cursor:pointer;display:flex;align-items:center;gap:7px;text-decoration:none}
+  .act:hover{background:var(--sun)}
+  .act.solid{background:var(--clay);color:#fff} .act.solid:hover{background:var(--clay-deep)}
+
+  /* STAT BAR */
+  .statbar{max-width:1240px;margin:0 auto;padding:0 32px}
+  .statbar-inner{display:grid;grid-template-columns:repeat(6,1fr);background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;margin-top:26px;overflow:hidden}
+  .stat{padding:22px 20px;border-right:1px dashed var(--line);text-align:center}
+  .stat:last-child{border-right:none}
+  .stat .n{font-family:'Fraunces',serif;font-weight:600;font-size:30px;color:var(--forest);line-height:1}
+  .stat .n em{font-style:italic;color:var(--clay)}
+  .stat .l{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);margin-top:8px}
+
+  /* BODY GRID */
+  .layout{max-width:1240px;margin:0 auto;padding:70px 32px 90px;display:grid;grid-template-columns:1fr 380px;gap:56px;align-items:start}
+  .block{margin-bottom:56px}
+  .block-title{font-family:'Fraunces',serif;font-weight:400;font-size:32px;letter-spacing:-1px;color:var(--forest-2);margin-bottom:8px}
+  .block-title em{font-style:italic;color:var(--clay)}
+  .block-sub{color:var(--ink-soft);font-size:15px;margin-bottom:26px}
+  .prose p{font-size:16px;color:var(--ink);line-height:1.7;margin-bottom:16px}
+  .prose p:first-of-type::first-letter{font-family:'Fraunces',serif;font-size:58px;float:left;line-height:0.8;padding:6px 12px 0 0;color:var(--clay)}
+
+  /* SCORECARD TABLE */
+  .scorecard{width:100%;border-collapse:collapse;background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;overflow:hidden}
+  .scorecard thead th{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss);text-align:left;padding:16px 18px;background:var(--cream-2);font-weight:400}
+  .scorecard thead th.c{text-align:center} .scorecard thead th.r{text-align:right}
+  .scorecard td{padding:13px 18px;border-top:1px solid var(--line);vertical-align:middle}
+  .scorecard tr:hover td{background:var(--cream)}
+  .sc-hole{font-family:'Fraunces',serif;font-weight:600;font-size:18px;color:var(--forest-2);width:64px}
+  .sc-par{text-align:center;font-family:'Space Mono',monospace;font-weight:700;color:var(--forest)}
+  .sc-dist{text-align:center;font-family:'Space Mono',monospace;font-size:13px;color:var(--ink-soft)}
+  .sc-note{font-size:13px;color:var(--ink-soft)}
+  .sc-diff{width:120px}
+  .bar{display:inline-block;height:6px;width:100%;background:var(--line);border-radius:3px;position:relative;vertical-align:middle}
+  .bar i{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:var(--moss)}
+  .bar i.hard{background:var(--clay)} .bar i.mid{background:var(--sun)}
+  .sc-sig td{background:#fbf3df}
+  .sig-tag{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1px;color:var(--clay);font-weight:700;margin-left:8px}
+  .sc-foot td{background:var(--forest);color:var(--cream);font-family:'Fraunces',serif;font-weight:600;font-size:17px}
+  .sc-foot .sc-par{color:var(--sun)}
+
+  /* REVIEWS */
+  .rev{display:flex;gap:16px;padding:24px 0;border-bottom:1px solid var(--line)}
+  .rev:last-child{border-bottom:none}
+  .rev-av{width:48px;height:48px;border-radius:50%;background-size:cover;background-position:center;flex-shrink:0;border:2px solid var(--paper);box-shadow:0 0 0 1px var(--line)}
+  .rev-head{display:flex;align-items:center;gap:10px;margin-bottom:4px;flex-wrap:wrap}
+  .rev-name{font-weight:700;color:var(--forest-2);font-size:15px}
+  .rev-verified{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1px;background:#e3efdb;color:var(--forest);padding:3px 8px;border-radius:999px}
+  .rev-stars{color:var(--sun);font-size:14px}
+  .rev-when{font-family:'Space Mono',monospace;font-size:11px;color:var(--moss);margin-left:auto}
+  .rev p{font-size:15px;color:var(--ink);line-height:1.6}
+
+  /* SIDEBAR */
+  .aside{position:sticky;top:24px;display:flex;flex-direction:column;gap:24px}
+  .panel{background:var(--paper);border:1.5px solid var(--forest);border-radius:12px;overflow:hidden}
+  .panel-h{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:var(--moss);padding:18px 22px 0}
+  /* map */
+  .map{position:relative;height:220px;margin:14px 0 0;background:#dfe6d0;overflow:hidden}
+  .map .topo{position:absolute;inset:0;opacity:.5;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'><g fill='none' stroke='%235c7b4d' stroke-width='1'><path d='M0,200 Q100,130 200,200 T400,200'/><path d='M0,160 Q100,90 200,160 T400,160'/><path d='M0,240 Q100,170 200,240 T400,240'/><path d='M0,120 Q100,50 200,120 T400,120'/><path d='M0,280 Q100,210 200,280 T400,280'/></g></svg>");background-size:400px}
+  .map .road{position:absolute;width:140%;height:3px;background:var(--cream);top:55%;left:-20%;transform:rotate(-8deg)}
+  .map .road.two{top:auto;bottom:30%;transform:rotate(6deg);height:2px;opacity:.7}
+  .pin{position:absolute;top:42%;left:50%;transform:translate(-50%,-100%);z-index:3}
+  .pin svg{width:38px;height:38px;filter:drop-shadow(0 4px 6px rgba(21,40,29,.4))}
+  .map-cta{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;border-top:1px solid var(--line)}
+  .map-cta .addr{font-size:13px;color:var(--ink-soft)}
+  .map-btn{background:var(--forest);color:var(--cream);padding:9px 16px;border-radius:999px;text-decoration:none;font-weight:700;font-size:13px;white-space:nowrap}
+  .map-btn:hover{background:var(--clay)}
+  /* facts */
+  .facts{padding:8px 22px 20px}
+  .fact{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14px;color:var(--forest-2)}
+  .fact:last-child{border-bottom:none}
+  .fact .ic{width:26px;height:26px;border-radius:7px;background:var(--cream-2);display:grid;place-items:center;flex-shrink:0;color:var(--moss)}
+  .fact .v{margin-left:auto;font-weight:700;color:var(--forest)}
+  .fact .v.yes{color:var(--moss)} .fact .v.no{color:var(--clay)}
+  /* tourneys */
+  .tourney{padding:6px 22px 20px}
+  .tr-item{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px dashed var(--line)}
+  .tr-item:last-child{border-bottom:none}
+  .tr-date{font-family:'Fraunces',serif;font-weight:600;text-align:center;line-height:1;color:var(--forest);width:42px}
+  .tr-date span{display:block;font-family:'Space Mono',monospace;font-size:9px;color:var(--clay);text-transform:uppercase;margin-top:3px}
+  .tr-name{font-weight:700;font-size:14px;color:var(--forest-2)}
+  .tr-tier{font-family:'Space Mono',monospace;font-size:11px;color:var(--moss)}
+
+  /* NEARBY (register reuse) */
+  .nearby{background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .nearby-inner{max-width:1240px;margin:0 auto;padding:80px 32px}
+  .reg-row{display:grid;grid-template-columns:56px 2fr 1.3fr 1fr 56px;gap:24px;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:background .15s;background:var(--paper)}
+  .reg-row:first-of-type{border-radius:12px 12px 0 0}
+  .reg-row:last-of-type{border-radius:0 0 12px 12px;border-bottom:1.5px solid var(--forest)}
+  .reg-row{border-left:1.5px solid var(--forest);border-right:1.5px solid var(--forest)}
+  .reg-row:first-of-type{border-top:1.5px solid var(--forest)}
+  .reg-row:hover{background:var(--cream)}
+  .reg-thumb{width:56px;height:52px;border-radius:6px;background-size:cover;background-position:center;border:1.5px solid var(--forest)}
+  .reg-name{font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:var(--forest-2);letter-spacing:-0.5px}
+  .reg-code{font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--moss);margin-top:4px}
+  .reg-loc{font-size:14px;color:var(--ink-soft)}
+  .reg-stats{font-family:'Space Mono',monospace;font-size:12px;color:var(--forest)}
+  .reg-rating{font-family:'Fraunces',serif;font-weight:700;font-size:20px;color:var(--clay);text-align:right}
+
+  /* FOOTER */
+  footer{background:var(--forest-2);color:var(--sage);padding:70px 32px 34px}
+  .footer-inner{max-width:1240px;margin:0 auto}
+  .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;padding-bottom:48px;border-bottom:1px solid var(--moss)}
+  .footer-brand .logo-text{color:var(--cream)}
+  .footer-brand p{font-family:'Fraunces',serif;font-style:italic;font-size:15px;color:var(--sage);max-width:280px;margin-top:14px}
+  .footer-col h4{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--cream);margin-bottom:14px}
+  .footer-col a{display:block;color:var(--sage);text-decoration:none;font-size:14px;padding:5px 0}
+  .footer-col a:hover{color:var(--sun)}
+  .footer-bottom{padding-top:28px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--moss)}
+
+  @media(max-width:900px){
+    .nav-links{display:none}
+    .statbar-inner{grid-template-columns:repeat(3,1fr)}
+    .stat:nth-child(3){border-right:none}
+    .layout{grid-template-columns:1fr;gap:0}
+    .aside{position:static;margin-top:20px}
+    .chero-actions{position:static;padding:0 0 0 0;margin-top:18px}
+    .chero-body{padding:32px 26px}
+    .sc-note,.sc-diff{display:none}
+    .reg-row{grid-template-columns:56px 1fr 56px}
+    .reg-row .reg-loc,.reg-row .reg-stats{display:none}
+    .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  }
+</style>
+<style>
+.ha-img-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;background:#f4f4f5;border:1px dashed #d4d4d8;border-radius:8px;color:#71717a;font-size:12px;font-family:system-ui,sans-serif;min-height:80px;padding:16px;box-sizing:border-box;animation:ha-img-pulse 1.5s ease-in-out infinite}
+.ha-img-placeholder.ha-failed{animation:none;opacity:.7}
+@keyframes ha-img-pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@media(prefers-color-scheme:dark){.ha-img-placeholder{background:#27272a;border-color:#3f3f46;color:#a1a1aa}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="46" fill="#fffdf6" stroke="#21402f" stroke-width="3"/>
+    <circle cx="50" cy="50" r="38.5" fill="none" stroke="#5c7b4d" stroke-width="1.4" stroke-dasharray="2 6"/>
+    <g fill="#21402f">
+      <ellipse cx="50" cy="35" rx="12" ry="3.6"/>
+      <g fill="none" stroke="#21402f" stroke-width="1.5" stroke-linecap="round">
+        <path d="M40 36 Q50 47 60 36"/><line x1="44.5" y1="36.5" x2="50" y2="47"/><line x1="50" y1="36.5" x2="50" y2="47"/><line x1="55.5" y1="36.5" x2="50" y2="47"/>
+      </g>
+      <path d="M37.5 51 L62.5 51 L58 63 L42 63 Z"/>
+      <line x1="50" y1="63" x2="50" y2="73" stroke="#21402f" stroke-width="3" stroke-linecap="round"/>
+      <line x1="42" y1="73" x2="58" y2="73" stroke="#21402f" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="30" cy="27" rx="9" ry="3.2" fill="#d35a35" transform="rotate(-22 30 27)"/>
+    <circle cx="20.5" cy="31.5" r="1.4" fill="#d35a35"/>
+  </symbol>
+</svg>
+
+<nav>
+  <a class="logo" href="#">
+    <svg><use href="#mark"/></svg>
+    <span class="logo-text">Find <span class="script">Frolf</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#">Courses</a>
+    <a href="#">Map</a>
+    <a href="#">Events</a>
+    <a href="#">New here?</a>
+    <a href="#" class="nav-cta">Add a course</a>
+  </div>
+</nav>
+
+<div class="crumb"><a href="#">Courses</a> / <a href="#">North Carolina</a> / <a href="#">Apex</a> / <span>Diavolo at New Hope Park</span></div>
+
+<!-- HERO -->
+<section class="chero">
+  <div class="chero-frame">
+    <div class="chero-img" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg');"></div>
+    <div class="chero-actions">
+      <a href="#" class="act"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Save</a>
+      <a href="#" class="act solid"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Directions</a>
+    </div>
+    <div class="chero-body">
+      <span class="chero-flag">★ Editor's pick · No. 01 this week</span>
+      <h1>Diavolo at <em>New Hope Park</em></h1>
+      <p class="chero-loc">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Apex, North Carolina · 3.2 mi from town center
+      </p>
+      <div class="chero-meta">
+        <div class="chero-rate"><span class="star">★</span> 4.9 <small>· 1,284 reviews</small></div>
+        <div class="chero-chips">
+          <span class="cc">PDGA A-Tier</span>
+          <span class="cc">Wooded &amp; technical</span>
+          <span class="cc">Free parking</span>
+          <span class="cc">Dog friendly</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STAT BAR -->
+<div class="statbar">
+  <div class="statbar-inner">
+    <div class="stat"><div class="n">18</div><div class="l">Holes</div></div>
+    <div class="stat"><div class="n">62</div><div class="l">Par</div></div>
+    <div class="stat"><div class="n">8,140</div><div class="l">Feet</div></div>
+    <div class="stat"><div class="n"><em>A</em></div><div class="l">PDGA Tier</div></div>
+    <div class="stat"><div class="n">Hard</div><div class="l">Difficulty</div></div>
+    <div class="stat"><div class="n"><em>$0</em></div><div class="l">Green fee</div></div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="layout">
+  <main>
+    <div class="block prose">
+      <h2 class="block-title">About <em>this course</em></h2>
+      <p>Tucked into the pines of New Hope Park, Diavolo earns its name — Italian for "devil" — across 18 holes that punish the loose tee shot and reward the disciplined line. The front nine eases you in with open, rolling fairways; the back nine tightens into a corridor of loblolly pine where par feels like a small victory.</p>
+      <p>Designed in 2016 and refined every season by the local club, Diavolo hosts the region's premier A-tier each spring and stays busy with leagues the rest of the year. First-timers are welcome — there's a shorter set of tees — but bring a midrange you trust and leave the distance driver in the bag until you've learned the gaps.</p>
+    </div>
+
+    <div class="block">
+      <h2 class="block-title">Hole by hole</h2>
+      <p class="block-sub">Long tees · distances in feet · signature hole highlighted</p>
+      <table class="scorecard">
+        <thead>
+          <tr><th>Hole</th><th class="c">Par</th><th class="c">Dist.</th><th>Character</th><th class="r">Difficulty</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sc-hole">1</td><td class="sc-par">3</td><td class="sc-dist">312</td><td class="sc-note">Open downhill opener, anhyzer line</td><td class="sc-diff"><span class="bar"><i style="width:35%"></i></span></td></tr>
+          <tr><td class="sc-hole">2</td><td class="sc-par">4</td><td class="sc-dist">478</td><td class="sc-note">Dogleg right around the oak</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:60%"></i></span></td></tr>
+          <tr><td class="sc-hole">3</td><td class="sc-par">3</td><td class="sc-dist">285</td><td class="sc-note">Tunnel shot, low ceiling</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:58%"></i></span></td></tr>
+          <tr><td class="sc-hole">4</td><td class="sc-par">3</td><td class="sc-dist">340</td><td class="sc-note">Uphill to an island green</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:78%"></i></span></td></tr>
+          <tr><td class="sc-hole">5</td><td class="sc-par">4</td><td class="sc-dist">505</td><td class="sc-note">Big arm hole, water left</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:82%"></i></span></td></tr>
+          <tr><td class="sc-hole">6</td><td class="sc-par">3</td><td class="sc-dist">268</td><td class="sc-note">Short but guarded by schule</td><td class="sc-diff"><span class="bar"><i style="width:40%"></i></span></td></tr>
+          <tr><td class="sc-hole">7</td><td class="sc-par">3</td><td class="sc-dist">355</td><td class="sc-note">Flat, straight, deceptively long</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:55%"></i></span></td></tr>
+          <tr><td class="sc-hole">8</td><td class="sc-par">4</td><td class="sc-dist">462</td><td class="sc-note">Roller-friendly downhill bomb</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:62%"></i></span></td></tr>
+          <tr><td class="sc-hole">9</td><td class="sc-par">3</td><td class="sc-dist">298</td><td class="sc-note">Turn-and-burn back to clubhouse</td><td class="sc-diff"><span class="bar"><i style="width:45%"></i></span></td></tr>
+          <tr class="sc-sig"><td class="sc-hole">10</td><td class="sc-par">4</td><td class="sc-dist">540</td><td class="sc-note">The "Devil's Elbow" — blind double dogleg <span class="sig-tag">★ Signature</span></td><td class="sc-diff"><span class="bar"><i class="hard" style="width:96%"></i></span></td></tr>
+          <tr><td class="sc-hole">11</td><td class="sc-par">3</td><td class="sc-dist">330</td><td class="sc-note">Pin tucked behind the pine wall</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:74%"></i></span></td></tr>
+          <tr><td class="sc-hole">12</td><td class="sc-par">3</td><td class="sc-dist">410</td><td class="sc-note">Long par 3, muddy when wet</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:80%"></i></span></td></tr>
+          <tr><td class="sc-hole">13</td><td class="sc-par">4</td><td class="sc-dist">495</td><td class="sc-note">Tight gap off the tee, then open</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:66%"></i></span></td></tr>
+          <tr><td class="sc-hole">14</td><td class="sc-par">3</td><td class="sc-dist">275</td><td class="sc-note">Breather — but OB road right</td><td class="sc-diff"><span class="bar"><i style="width:42%"></i></span></td></tr>
+          <tr><td class="sc-hole">15</td><td class="sc-par">3</td><td class="sc-dist">360</td><td class="sc-note">Forehand line through the corridor</td><td class="sc-diff"><span class="bar"><i class="mid" style="width:64%"></i></span></td></tr>
+          <tr><td class="sc-hole">16</td><td class="sc-par">4</td><td class="sc-dist">520</td><td class="sc-note">The long climb, plays a stroke over</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:85%"></i></span></td></tr>
+          <tr><td class="sc-hole">17</td><td class="sc-par">3</td><td class="sc-dist">305</td><td class="sc-note">Downhill to water-guarded green</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:76%"></i></span></td></tr>
+          <tr><td class="sc-hole">18</td><td class="sc-par">3</td><td class="sc-dist">352</td><td class="sc-note">Island-green finisher, gallery hole</td><td class="sc-diff"><span class="bar"><i class="hard" style="width:79%"></i></span></td></tr>
+          <tr class="sc-foot"><td>Total</td><td class="sc-par">62</td><td class="sc-dist" style="color:var(--sun)">8,140</td><td>18 holes · 6 par 4s</td><td class="r" style="text-align:right;font-family:'Space Mono',monospace;font-size:13px;color:var(--sage)">SSA 58.2</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="block">
+      <h2 class="block-title">What players <em>are saying</em></h2>
+      <p class="block-sub">From verified rounds · 1,284 reviews · 4.9 average</p>
+
+      <div class="rev">
+        <div class="rev-av" style="background-image:url('https://i.pravatar.cc/100?img=12');"></div>
+        <div>
+          <div class="rev-head"><span class="rev-name">Marcus T.</span><span class="rev-verified">✓ Verified round</span><span class="rev-stars">★★★★★</span><span class="rev-when">3 days ago</span></div>
+          <p>Took my buddy here for his second-ever round and we both had a blast — challenging but never mean. The pines on the back nine at golden hour are the best stretch of disc golf in the Carolinas.</p>
+        </div>
+      </div>
+      <div class="rev">
+        <div class="rev-av" style="background-image:url('https://i.pravatar.cc/100?img=45');"></div>
+        <div>
+          <div class="rev-head"><span class="rev-name">Priya R.</span><span class="rev-verified">✓ Verified round</span><span class="rev-stars">★★★★★</span><span class="rev-when">1 week ago</span></div>
+          <p>Hole 10, the Devil's Elbow, is worth the trip on its own. Bring extra discs — that blind dogleg ate two of mine. Pro shop staff were super friendly to a first-time visitor.</p>
+        </div>
+      </div>
+      <div class="rev">
+        <div class="rev-av" style="background-image:url('https://i.pravatar.cc/100?img=33');"></div>
+        <div>
+          <div class="rev-head"><span class="rev-name">Dale K.</span><span class="rev-verified">✓ Verified round</span><span class="rev-stars">★★★★☆</span><span class="rev-when">2 weeks ago</span></div>
+          <p>Course is immaculate and the layout is brilliant. Knocked a star because hole 12 gets genuinely swampy after rain — wear good shoes. Otherwise a bucket-list track.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="aside">
+    <div class="panel">
+      <div class="panel-h">Location &amp; directions</div>
+      <div class="map">
+        <div class="topo"></div>
+        <div class="road"></div><div class="road two"></div>
+        <div class="pin">
+          <svg viewBox="0 0 24 24" fill="#d35a35" stroke="#fffdf6" stroke-width="1.5"><path d="M12 2C7.6 2 4 5.6 4 10c0 5.4 8 12 8 12s8-6.6 8-12c0-4.4-3.6-8-8-8z"/><circle cx="12" cy="10" r="2.6" fill="#fffdf6" stroke="none"/></svg>
+        </div>
+      </div>
+      <div class="map-cta">
+        <span class="addr">1 New Hope Church Rd<br>Apex, NC 27523</span>
+        <a href="#" class="map-btn">Get directions →</a>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-h">Course facts</div>
+      <div class="facts">
+        <div class="fact"><span class="ic">🅿️</span> Parking <span class="v yes">Free lot</span></div>
+        <div class="fact"><span class="ic">🚻</span> Restrooms <span class="v yes">Yes</span></div>
+        <div class="fact"><span class="ic">🛒</span> Pro shop <span class="v yes">On-site</span></div>
+        <div class="fact"><span class="ic">🐕</span> Dogs <span class="v yes">Leashed OK</span></div>
+        <div class="fact"><span class="ic">🧺</span> Baskets <span class="v">DISCatcher Pro</span></div>
+        <div class="fact"><span class="ic">💡</span> Lighting <span class="v no">None</span></div>
+        <div class="fact"><span class="ic">🕗</span> Hours <span class="v">Dawn–dusk</span></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-h">Tournaments here</div>
+      <div class="tourney">
+        <div class="tr-item">
+          <div class="tr-date">14<span>Jun</span></div>
+          <div><div class="tr-name">Carolina Spring Open</div><div class="tr-tier">PDGA A-Tier · MPO/FPO + Am</div></div>
+        </div>
+        <div class="tr-item">
+          <div class="tr-date">09<span>Aug</span></div>
+          <div><div class="tr-name">New Hope Doubles</div><div class="tr-tier">C-Tier · all divisions</div></div>
+        </div>
+        <div class="tr-item">
+          <div class="tr-date">18<span>Oct</span></div>
+          <div><div class="tr-name">Devil's Elbow Classic</div><div class="tr-tier">B-Tier · pro payout</div></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- NEARBY -->
+<section class="nearby">
+  <div class="nearby-inner">
+    <div class="eyebrow" style="margin-bottom:14px;">§ Nearby in North Carolina</div>
+    <h2 class="block-title" style="margin-bottom:28px;">More courses worth <em>the short drive</em></h2>
+    <div>
+      <a href="#" class="reg-row">
+        <div class="reg-thumb" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg');"></div>
+        <div><div class="reg-name">Cedar Hills</div><div class="reg-code">NC-0210 · Rolling · open</div></div>
+        <div class="reg-loc">Cary, NC · 11 mi</div>
+        <div class="reg-stats">18 · Par 60</div>
+        <div class="reg-rating">4.6</div>
+      </a>
+      <a href="#" class="reg-row">
+        <div class="reg-thumb" style="background-image:url('https://preview.redd.it/whose-idea-was-it-to-put-green-baskets-in-a-95-wooded-course-v0-rda67ulywdtd1.jpeg?width=1080&crop=smart&auto=webp&s=4561cb4205b93506a55e2850f61dba6b2846a457');"></div>
+        <div><div class="reg-name">Loblolly Run</div><div class="reg-code">NC-0356 · Wooded · technical</div></div>
+        <div class="reg-loc">Durham, NC · 18 mi</div>
+        <div class="reg-stats">18 · Par 58</div>
+        <div class="reg-rating">4.5</div>
+      </a>
+      <a href="#" class="reg-row">
+        <div class="reg-thumb" style="background-image:url('https://destinationbedfordva.com/wp-content/uploads/2022/07/disc-golf-by-sam-dean-photography.jpeg');"></div>
+        <div><div class="reg-name">Bond Park</div><div class="reg-code">NC-0119 · City park · beginner-kind</div></div>
+        <div class="reg-loc">Cary, NC · 9 mi</div>
+        <div class="reg-stats">9 · Par 27</div>
+        <div class="reg-rating">4.3</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#"><svg style="width:34px;height:34px"><use href="#mark"/></svg><span class="logo-text">Find <span class="script">Frolf</span></span></a>
+        <p>The disc golf atlas, mapped by the people who play it.</p>
+      </div>
+      <div class="footer-col"><h4>Explore</h4><a href="#">All courses</a><a href="#">Map view</a><a href="#">Road trips</a><a href="#">Tournaments</a></div>
+      <div class="footer-col"><h4>Community</h4><a href="#">Leagues</a><a href="#">Beginner guide</a><a href="#">Add a review</a><a href="#">Add a course</a></div>
+      <div class="footer-col"><h4>About</h4><a href="#">Our promise</a><a href="#">For stewards</a><a href="#">Press kit</a><a href="#">Contact</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Find Frolf · Mapped in the woods</span><span>Free forever · No paid placements</span></div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && window.parent !== window) {
+    window.parent.postMessage({ type: 'close-fullscreen' }, '*');
+  }
+});
+</script>
+<!-- broken-img-handler -->
+<script>
+(function(){
+  if(window.__brokenImgHandler)return;
+  window.__brokenImgHandler=true;
+  var MAX=5,DELAYS=[2000,4000,8000,16000,32000];
+  document.addEventListener('error',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    var liveSrc=img.getAttribute('src');
+    var src=img.dataset.haOriginalSrc||liveSrc;
+    if(!src)return;
+    if(img.dataset.haOriginalSrc&&liveSrc&&liveSrc!==img.dataset.haOriginalSrc&&liveSrc.indexOf('_r=')<0){src=liveSrc;img.dataset.haOriginalSrc=src;img.dataset.haRetryCount='0'}
+    else if(!img.dataset.haOriginalSrc){img.dataset.haOriginalSrc=src}
+    var attempt=parseInt(img.dataset.haRetryCount||'0',10);
+    if(img.dataset.haPhId){var old=document.getElementById(img.dataset.haPhId);if(old)old.remove()}
+    var ph=document.createElement('div');
+    ph.className='ha-img-placeholder'+(attempt>=MAX?' ha-failed':'');
+    ph.id='ha-ph-'+Math.random().toString(36).slice(2,9);
+    var w=img.getAttribute('width');var h=img.getAttribute('height');
+    if(w)ph.style.width=w+(isNaN(Number(w))?'':'px');
+    else if(img.style.width)ph.style.width=img.style.width;
+    else if(img.width>1)ph.style.width=img.width+'px';
+    if(h)ph.style.height=h+(isNaN(Number(h))?'':'px');
+    else if(img.style.height)ph.style.height=img.style.height;
+    else if(img.height>1)ph.style.height=img.height+'px';
+    ph.textContent=attempt>=MAX?'Image unavailable':'Loading image\u2026';
+    img.dataset.haPhId=ph.id;
+    if(img.dataset.haOrigDisplay==null)img.dataset.haOrigDisplay=img.style.display||'';
+    img.style.display='none';
+    img.insertAdjacentElement('afterend',ph);
+    if(attempt<MAX){
+      img.dataset.haRetryCount=String(attempt+1);
+      setTimeout(function(){
+        if(!img.isConnected)return;
+        if(img.dataset.haOriginalSrc!==src)return;
+        if(img.complete&&img.naturalWidth>0)return;
+        var curSrc=img.getAttribute('src');
+        if(curSrc&&curSrc.indexOf(src)!==0)return;
+        var fresh=src+(src.indexOf('?')>=0?'&':'?')+'_r='+(attempt+1)+'_'+Date.now();
+        img.src=fresh;
+      },DELAYS[attempt]);
+    }
+  },true);
+  document.addEventListener('load',function(e){
+    var img=e.target;
+    if(!img||img.tagName!=='IMG')return;
+    if(img.dataset.haPhId){
+      var ph=document.getElementById(img.dataset.haPhId);
+      if(ph)ph.remove();
+      delete img.dataset.haPhId;
+      img.style.display=img.dataset.haOrigDisplay||'';
+      delete img.dataset.haOrigDisplay;
+      delete img.dataset.haOriginalSrc;
+      delete img.dataset.haRetryCount;
+    }
+  },true);
+})();
+</script>
+</body>
+</html>

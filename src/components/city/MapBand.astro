@@ -1,0 +1,59 @@
+---
+import { courseUrl } from '../../lib/data';
+
+interface MapPin {
+  rank: number;
+  courseSlug: string;
+  courseName: string;
+  courseRating: number;
+  x: number;
+  y: number;
+  isGold: boolean;
+  stateSlug: string;
+  citySlug: string;
+}
+
+interface Props {
+  pins: MapPin[];
+}
+
+const { pins } = Astro.props;
+---
+
+<section class="bg-forest-deep text-cream">
+  <div class="max-w-[1240px] mx-auto px-8 py-[70px] grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-10 items-stretch">
+    <div>
+      <div class="eyebrow text-sage [&::before]:bg-sun mb-3">§ Every course, mapped</div>
+      <h2 class="font-display font-normal text-[34px] tracking-[-1px] text-cream mb-6">
+        The Austin <em class="italic text-sun">course map</em>
+      </h2>
+      <div class="relative rounded-[12px] overflow-hidden min-h-[380px] bg-[#2c4a38] border border-moss">
+        <div class="absolute inset-0 opacity-35 topo-bg"></div>
+        <div class="absolute w-[130%] h-3.5 bg-[rgba(108,175,255,0.25)] top-1/2 left-[-15%] -rotate-[6deg] rounded-lg"></div>
+        {pins.map((pin) => (
+          <a
+            href={courseUrl({ id: pin.courseSlug, data: { stateSlug: pin.stateSlug, citySlug: pin.citySlug } } as any)}
+            class={`absolute w-[30px] h-[30px] rounded-full border-[2.5px] border-cream grid place-items-center font-bold text-[13px] text-white -translate-x-1/2 -translate-y-1/2 shadow-lg cursor-pointer transition-transform hover:scale-110 ${pin.isGold ? 'bg-sun text-forest-deep' : 'bg-clay'}`}
+            style={`top:${pin.y}%;left:${pin.x}%`}
+          >
+            {pin.rank}
+          </a>
+        ))}
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5">
+      {pins.map((pin) => (
+        <a
+          href={courseUrl({ id: pin.courseSlug, data: { stateSlug: pin.stateSlug, citySlug: pin.citySlug } } as any)}
+          class="flex items-center gap-3 py-2.5 px-1 border-b border-moss last:border-b-0 no-underline text-cream hover:text-sun transition-colors"
+        >
+          <span class={`w-6 h-6 rounded-full grid place-items-center font-bold text-xs shrink-0 ${pin.isGold ? 'bg-sun text-forest-deep' : 'bg-clay text-white'}`}>
+            {pin.rank}
+          </span>
+          <span class="font-semibold text-sm flex-1">{pin.courseName}</span>
+          <span class="font-mono text-xs text-sun">★ {pin.courseRating}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

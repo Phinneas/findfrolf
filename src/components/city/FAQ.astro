@@ -1,0 +1,27 @@
+---
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  faqs: FAQItem[];
+}
+
+const { faqs } = Astro.props;
+---
+
+<section class="max-w-[1240px] mx-auto px-8 pb-20">
+  <div class="eyebrow mb-3">§ 05 — Good to know</div>
+  <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep max-w-[760px]">
+    Austin disc golf, <em class="italic text-clay">answered</em>
+  </h2>
+  <div class="mt-9">
+    {faqs.map((faq) => (
+      <div class="border-b border-line py-6">
+        <div class="font-display font-semibold text-[20px] text-forest-deep mb-2">{faq.question}</div>
+        <div class="text-[15px] text-ink-soft leading-[1.65] max-w-[820px]" set:html={faq.answer}></div>
+      </div>
+    ))}
+  </div>
+</section>

@@ -22,3 +22,13 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# scratch copy of the project (vite-excluded)
+absent-apogee/
+
+# agent tooling
+.mimocode/
+
+# backup files
+*.bak
+

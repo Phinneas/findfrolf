@@ -1,0 +1,36 @@
+---
+interface StatRow {
+  label: string;
+  value: string;
+}
+
+interface Props {
+  paragraphs: string[];
+  stats: StatRow[];
+}
+
+const { paragraphs, stats } = Astro.props;
+---
+
+<section class="max-w-[1240px] mx-auto px-8 py-20">
+  <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-14 items-start">
+    <div class="prose max-w-none">
+      <div class="eyebrow mb-3">§ The lay of the land</div>
+      <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-6 max-w-[760px]">
+        A real disc golf town, <em class="italic text-clay">if you beat the heat</em>
+      </h2>
+      {paragraphs.map((p, i) => (
+        <p class={`text-base leading-[1.75] text-ink mb-4 ${i === 0 ? 'drop-cap' : ''}`} set:html={p} />
+      ))}
+    </div>
+    <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-7 shadow-stamp">
+      <h4 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-4">Austin at a glance</h4>
+      {stats.map((stat) => (
+        <div class="flex justify-between py-[11px] border-b border-dashed border-line last:border-b-0 text-sm">
+          <span>{stat.label}</span>
+          <b class="text-forest font-bold">{stat.value}</b>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+---
+import { courseUrl } from '../../lib/data';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  stateName: string;
+  courses: CollectionEntry<'courses'>[];
+}
+
+const { stateName, courses } = Astro.props;
+---
+
+<section class="bg-cream-2 border-t border-b border-line">
+  <div class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3.5">§ Nearby in {stateName}</div>
+    <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-7">
+      More courses worth <em class="italic text-clay">the short drive</em>
+    </h2>
+    <div>
+      {courses.map((course) => (
+        <a
+          href={courseUrl(course)}
+          class="grid grid-cols-[56px_1fr_56px] md:grid-cols-[56px_2fr_1.3fr_1fr_56px] gap-3.5 md:gap-6 items-center px-5 py-[18px] border-b border-line no-clip text-inherit transition-colors bg-paper hover:bg-cream border-l-[1.5px] border-r-[1.5px] border-forest first:border-t-[1.5px] first:rounded-t-[12px] last:border-b-[1.5px] last:rounded-b-[12px]"
+        >
+          <div class="w-14 h-[52px] rounded-md bg-cover bg-center border-[1.5px] border-forest" style={`background-image:url('${course.data.thumbnail}')`}></div>
+          <div>
+            <div class="font-display font-semibold text-[20px] text-forest-deep tracking-[-0.5px]">{course.data.name}</div>
+            <div class="font-mono text-[10px] uppercase tracking-[0.5px] text-moss mt-1">{course.data.code} · {course.data.tags.slice(0, 2).join(' · ')}</div>
+          </div>
+          <div class="hidden md:block text-sm text-ink-soft">{course.data.area}</div>
+          <div class="hidden md:block font-mono text-xs text-forest">{course.data.holes} · Par {course.data.par}</div>
+          <div class="font-display font-bold text-[20px] text-clay text-right">{course.data.rating}</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

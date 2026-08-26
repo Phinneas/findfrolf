@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllCourses, courseUrl } from '../lib/data';
+
+const courses = await getAllCourses();
+---
+
+<BaseLayout
+  title="All Disc Golf Courses — Find Frolf"
+  description="Browse every disc golf course mapped on Find Frolf, ranked by player rating."
+>
+  <div class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ The directory</div>
+    <h1 class="font-display font-normal text-[clamp(34px,5vw,56px)] tracking-[-1.5px] text-forest-deep mb-4">
+      All <em class="italic text-clay">courses</em>
+    </h1>
+    <p class="text-base text-ink-soft max-w-[580px] mb-10">
+      Every course we've mapped so far, ranked by player rating. We're adding more every week.
+    </p>
+
+    <div>
+      {courses.map((course, i) => {
+        const rank = String(i + 1).padStart(2, '0');
+        return (
+          <a
+            href={courseUrl(course)}
+            class="grid grid-cols-[44px_1fr_auto] md:grid-cols-[50px_56px_2.1fr_1.2fr_1.1fr_60px] gap-3.5 md:gap-[22px] items-center px-2 md:px-5 py-4 border-b border-line no-clip text-inherit transition-colors hover:bg-cream-2"
+          >
+            <div class="hidden md:block w-14 h-[50px] rounded-md bg-cover bg-center border-[1.5px] border-forest" style={`background-image:url('${course.data.thumbnail}')`}></div>
+            <div class={`font-display ${i < 3 ? 'font-bold not-italic text-clay' : 'italic text-sage'} text-[24px]`}>{rank}</div>
+            <div>
+              <div class="font-display font-semibold text-[20px] text-forest-deep tracking-[-0.5px]">{course.data.name}</div>
+              <div class="font-mono text-[10px] uppercase tracking-[0.5px] text-moss mt-1">{course.data.code} · {course.data.tags.slice(0, 2).join(' · ')}</div>
+            </div>
+            <div class="hidden md:block text-sm text-ink-soft">{course.data.area}</div>
+            <div class="hidden md:block font-mono text-xs text-forest">{course.data.holes} · Par {course.data.par} · {course.data.isFree ? 'Free' : course.data.greenFee}</div>
+            <div class="font-display font-bold text-[20px] text-clay text-right">{course.data.rating}</div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

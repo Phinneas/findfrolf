@@ -1,0 +1,25 @@
+---
+interface Fact {
+  value: string;
+  label: string;
+}
+
+interface Props {
+  facts: Fact[];
+}
+
+const { facts } = Astro.props;
+---
+
+<div class="max-w-[1240px] mx-auto mt-[26px] px-8">
+  <div class="grid grid-cols-3 md:grid-cols-5 bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+    {facts.map((fact, i) => (
+      <div class={`p-[22px] text-center ${i < facts.length - 1 ? 'md:border-r border-dashed border-line' : ''} ${i === 2 ? 'max-md:border-r-none' : ''}`}>
+        <div class="font-display font-semibold text-[30px] text-forest leading-none">
+          {fact.value.startsWith('3') || fact.value === '9' ? <em class="italic text-clay">{fact.value}</em> : fact.value}
+        </div>
+        <div class="font-mono text-[9px] uppercase tracking-[1.5px] text-moss mt-2">{fact.label}</div>
+      </div>
+    ))}
+  </div>
+</div>

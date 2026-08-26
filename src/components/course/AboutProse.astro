@@ -1,0 +1,18 @@
+---
+interface Props {
+  paragraphs: string[];
+}
+
+const { paragraphs } = Astro.props;
+---
+
+<div class="mb-14">
+  <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-2">
+    About <em class="italic text-clay">this course</em>
+  </h2>
+  <div class="prose max-w-none">
+    {paragraphs.map((p, i) => (
+      <p class={`text-base text-ink leading-[1.7] mb-4 ${i === 0 ? 'drop-cap' : ''}`}>{p}</p>
+    ))}
+  </div>
+</div>
