@@ -1,0 +1,212 @@
+{
+  "name": "Oregon Park",
+  "code": "GA-1001",
+  "city": "Marietta",
+  "state": "Georgia",
+  "citySlug": "atlanta",
+  "stateSlug": "ga",
+  "area": "Marietta",
+  "location": {
+    "address": "145 Old Hamilton Rd, Marietta, GA 30064",
+    "lat": 33.9584,
+    "lng": -84.6623
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 4175,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": "24839",
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Oregon Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 5090,
+  "tags": [
+    "Beginner-friendly",
+    "Open",
+    "Free",
+    "Family friendly"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1991,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Kevin McCoy",
+  "teeType": "Concrete",
+  "basketType": "Mixed",
+  "elevation": null,
+  "foliage": "Mixed - Trees/Open",
+  "aboutParagraphs": [
+    "Oregon Park is Atlanta's favorite beginner course — 18 gentle par 3s across 4,175 feet of open, rolling parkland with concrete tees and two permanent basket positions per hole. The silver-to-silver layout is the everyday loop, while the gold baskets stretch things out for anyone chasing more.",
+    "It's free, family friendly, and the most-played course in the region for good reason: every hole gives you room to learn, and the mixed tree cover keeps things interesting without ever feeling punishing.",
+    "Come for the easy round, stay for the community — this is where a huge slice of Atlanta's disc golfers took their first real putts."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 227,
+      "character": "227 feet of open fairway to ease in.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 196,
+      "character": "196 feet, flat and friendly.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 303,
+      "character": "The signature: 303 feet, the longest hole on the card.",
+      "difficultyPct": 34,
+      "isSignature": true
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet with a tree guarding the line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, open and straightforward.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet over the gentle slope.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 236,
+      "character": "236 feet between the trees.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 206,
+      "character": "206 feet — a genuine birdie look.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 171,
+      "character": "171 feet, the shortest on the front nine.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 204,
+      "character": "204 feet back across the open ground.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 214,
+      "character": "214 feet, straight and fair.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet — one of the longer par 3s.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet with the tree line framing the green.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 180,
+      "character": "180 feet — an easy ace run.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 239,
+      "character": "239 feet, rolling with the terrain.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet through the gap.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet — the back nine's longer test.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 232,
+      "character": "232 feet to finish the friendly 18.",
+      "difficultyPct": 20
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 3 is the longest at Oregon Park at 303 feet — still a par 3, still friendly, but the one hole where a big putter shot or a controlled midrange matters most. It's the perfect taste of what the course is about: accessible golf with just enough challenge to teach you something.",
+  "localTips": "The silver-to-silver layout is the standard loop; the gold basket positions add distance if you want more. Free, open, and very cart friendly — a great first course. Weekends are busy, so mornings are your best bet for a quiet round.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mixed",
+    "lighting": "None"
+  }
+}

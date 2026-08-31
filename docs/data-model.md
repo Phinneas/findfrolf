@@ -73,6 +73,7 @@ Version 1.0 · July 2026
 | Field | Type | Example | Notes |
 |-------|------|---------|-------|
 | `yearEstablished` | number or null | 1990 | Year course was installed |
+| `parSource` | string or null | "pdga" | Where the `par` value came from: `pdga` / `udisc` / `map` / `estimated` — see the Par Rule in admin-workflow.md |
 | `courseDesigner` | string or null | "John Doe" | Designer name(s) |
 | `teeType` | string or null | "Concrete" | Tee surface type |
 | `basketType` | string or null | "DISCatcher Pro" | Basket manufacturer/model |
@@ -100,7 +101,7 @@ These fields are optional for standard course pages but required for the top-50 
 
 | Field | Type | Notes |
 |-------|------|-------|
-| `number` | number | Hole number (1-18+) |
+| `number` | number **or string** | Hole number — integer for standard holes, or a variant label like `"6A"` for alternate holes (e.g. The Canyons' 6A–6E, 8A–8D). Format: digits with an optional single trailing letter. |
 | `par` | number | Par for this hole |
 | `distance` | number | Distance in feet |
 | `character` | string | Description of the hole layout |

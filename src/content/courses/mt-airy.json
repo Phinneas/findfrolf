@@ -1,0 +1,117 @@
+{
+  "name": "Mt. Airy Forest",
+  "code": "OH-1001",
+  "city": "Cincinnati",
+  "state": "Ohio",
+  "citySlug": "cincinnati",
+  "stateSlug": "oh",
+  "area": "Cincinnati",
+
+  "location": {
+    "address": "4800 Lodge Rd, Cincinnati, OH 45223",
+    "lat": 39.1763,
+    "lng": -84.5714
+  },
+
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 6026,
+  "courseLength": "medium",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Mt. Airy Forest — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.5,
+  "reviewCount": 5074,
+
+  "tags": ["Wooded", "Championship", "Elevation", "Free", "Worlds history"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 1993,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+
+  "teeType": "Concrete",
+  "basketType": "DGA",
+  "elevation": "Many elevation changes",
+  "foliage": "Wooded",
+
+  "aboutParagraphs": [
+    "Mt. Airy Forest is Cincinnati's pro-caliber original — a course with mature trees, distinct fairways, and thick rough that hosted the 1995 Am Worlds and the 1998 Pro Worlds. What began as 9 holes in 1993 evolved into the 18-hole test that local players still measure themselves against.",
+    "Free to play with concrete tees and DGA baskets, it plays 6,026 feet at par 56 from the red tees, with three more tee sets stretching past 8,000 feet. The elevation changes are constant and the rough is genuinely punishing.",
+    "The blue tees are the most-played loop at 7,141 feet and par 58 — bring your whole bag and your patience."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 4, "distance": 464, "character": "464 feet — a par 4 opener through the forest.", "difficultyPct": 54 },
+    { "number": 2, "par": 3, "distance": 295, "character": "295 feet, straight and wooded.", "difficultyPct": 34 },
+    { "number": 3, "par": 3, "distance": 290, "character": "290 feet with the rough looming.", "difficultyPct": 36 },
+    { "number": 4, "par": 3, "distance": 330, "character": "330 feet — the elevation starts climbing.", "difficultyPct": 42 },
+    { "number": 5, "par": 3, "distance": 450, "character": "450 feet — a big par 3.", "difficultyPct": 54 },
+    { "number": 6, "par": 3, "distance": 290, "character": "290 feet, fair and demanding.", "difficultyPct": 34 },
+    { "number": 7, "par": 3, "distance": 300, "character": "300 feet with a guarded green.", "difficultyPct": 38 },
+    { "number": 8, "par": 3, "distance": 200, "character": "200 feet — the shortest hole on the card.", "difficultyPct": 20 },
+    { "number": 9, "par": 3, "distance": 295, "character": "295 feet, straight and true.", "difficultyPct": 34 },
+    { "number": 10, "par": 3, "distance": 340, "character": "340 feet through the timber.", "difficultyPct": 44 },
+    { "number": 11, "par": 3, "distance": 270, "character": "270 feet, a clean line.", "difficultyPct": 30 },
+    { "number": 12, "par": 3, "distance": 300, "character": "300 feet with the hills working against you.", "difficultyPct": 38 },
+    { "number": 13, "par": 3, "distance": 350, "character": "350 feet — the rough tightens.", "difficultyPct": 46 },
+    { "number": 14, "par": 3, "distance": 285, "character": "285 feet, fair and wooded.", "difficultyPct": 34 },
+    { "number": 15, "par": 3, "distance": 460, "character": "460 feet — one of the longest par 3s.", "difficultyPct": 56 },
+    { "number": 16, "par": 3, "distance": 330, "character": "330 feet with a guarded approach.", "difficultyPct": 42 },
+    { "number": 17, "par": 4, "distance": 510, "character": "The signature: 510 feet, the longest hole at Mt. Airy.", "difficultyPct": 62, "isSignature": true },
+    { "number": 18, "par": 3, "distance": 267, "character": "267 feet to finish the forest round.", "difficultyPct": 30 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is the longest at Mt. Airy at 510 feet — a par 4 that climbs through the forest with the thick rough waiting on both sides. It's the hole that has been beating Cincinnati players since the course hosted the 1995 Am Worlds and 1998 Pro Worlds, and it still decides rounds today.",
+
+  "localTips": "The blue tees are the most-played loop (7,141 ft, par 58) — the red data here is the standard table, but step back for the full experience. Free to play with serious elevation and punishing rough. This is a championship course: bring your A game.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DGA",
+    "lighting": "None"
+  }
+}

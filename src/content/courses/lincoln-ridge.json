@@ -1,0 +1,255 @@
+{
+  "name": "Lincoln Ridge Park (Banklick)",
+  "code": "KY-1002",
+  "city": "Independence",
+  "state": "Kentucky",
+  "citySlug": "cincinnati",
+  "stateSlug": "ky",
+  "area": "Independence, KY",
+  "location": {
+    "address": "420 Independence Station Rd, Independence, KY 41051",
+    "lat": 38.9638,
+    "lng": -84.5631
+  },
+  "holes": 24,
+  "par": 72,
+  "parSource": "map",
+  "totalFeet": 6943,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Lincoln Ridge Park (Banklick) — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 3683,
+  "tags": [
+    "Wooded",
+    "Open",
+    "OB hazards",
+    "Free",
+    "24 holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Chainstar",
+  "elevation": "Varied",
+  "foliage": "Mixed - Wooded/Open",
+  "aboutParagraphs": [
+    "Lincoln Ridge Park — known to locals as Banklick — is a 24-hole course in Independence, Kentucky, with a good mix of wooded and open holes across varied terrain and elevation. From the white tees it plays 6,943 feet at par 72, with a lake, a road, and a creek all in play as OB.",
+    "Free to play with concrete tees and Chainstar baskets, it's the friendly marathon of the Cincinnati area — 24 par 3s that flow through the park without ever feeling repetitive. Not cart friendly, so plan to walk it.",
+    "It's the course where the region's intermediate players get their 24-hole fix, and the OB hazards keep every round interesting."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 408,
+      "character": "408 feet — the longest opener in the region.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet, straight and fair.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, a clean line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a genuine birdie look.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet with the woods framing the pin.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet, fair and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet — the shortest hole on the card.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, straight and true.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 309,
+      "character": "309 feet with the lake coming into view.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 426,
+      "character": "426 feet — one of the longest par 3s.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 380,
+      "character": "380 feet with the creek lurking.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 328,
+      "character": "328 feet, fair and demanding.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, a clean corridor.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 276,
+      "character": "276 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 291,
+      "character": "291 feet, straight and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet — the road OB hugs the line.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 218,
+      "character": "218 feet, a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet, fair and open.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet with the terrain rolling.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 277,
+      "character": "277 feet through the mix of woods and open.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet, straight and true.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 23,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet with a guarded approach.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 24,
+      "par": 3,
+      "distance": 450,
+      "character": "The signature: 450 feet, the longest hole at Lincoln Ridge.",
+      "difficultyPct": 56,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 24 closes Lincoln Ridge at 450 feet — the longest par 3 on the card and the perfect final exam for 24 holes of varied, hilly golf. A clean drive, a careful approach, and you've earned a par on the course's biggest test. It's the finish that makes the walk back to the lot feel like a victory lap.",
+  "localTips": "Not cart friendly — plan to walk all 24 holes. The lake, road, and creek are all OB, so check the signs on holes 10, 12, and 17. Free to play with restrooms on site; a friendly marathon for intermediate players.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Chainstar",
+    "lighting": "None"
+  }
+}

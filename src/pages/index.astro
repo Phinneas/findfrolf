@@ -2,11 +2,19 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CourseRegister from '../components/city/CourseRegister.astro';
 import CTACard from '../components/city/CTACard.astro';
-import { getAllCourses, getAllCities, cityUrl, courseUrl } from '../lib/data';
+import { getAllCourses, getAllCities, cityUrl, courseUrl, deriveCityStats } from '../lib/data';
+import type { CollectionEntry } from 'astro:content';
 
 const allCourses = await getAllCourses();
 const allCities = await getAllCities();
 const topCourses = allCourses.slice(0, 5);
+
+// City-card facts come from the live course set; zero-valued facts are hidden
+// until a city has listings.
+const cityFacts = (city: CollectionEntry<'cities'>) =>
+  deriveCityStats(allCourses.filter((c) => c.data.citySlug === city.id)).quickFacts.filter(
+    (f) => f.value !== '0' && f.value !== '0.0',
+  );
 ---
 
 <BaseLayout
@@ -65,7 +73,7 @@ const topCourses = allCourses.slice(0, 5);
             <h3 class="font-display font-normal text-[34px] tracking-[-1px] leading-none mb-2">{city.data.name}</h3>
             <p class="text-sm text-cream/80 line-clamp-2">{city.data.lede}</p>
             <div class="flex gap-3 mt-4 font-mono text-[11px] uppercase tracking-[1px] text-sage">
-              {city.data.quickFacts.slice(0, 3).map((f) => (
+              {cityFacts(city).slice(0, 3).map((f) => (
                 <span>{f.value} {f.label}</span>
               ))}
             </div>

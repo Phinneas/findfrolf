@@ -1,0 +1,220 @@
+{
+  "name": "Z Boaz Park",
+  "code": "TX-1147",
+  "city": "Fort Worth",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "Fort Worth",
+  "location": {
+    "address": "Z Boaz Park, Fort Worth, TX 76116",
+    "lat": 32.7277,
+    "lng": -97.4371
+  },
+  "holes": 19,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 5891,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Z Boaz Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 4638,
+  "tags": [
+    "Elevation",
+    "Heavy trees",
+    "Creek hazards",
+    "Free",
+    "19 holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1999,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Elevation changes",
+  "foliage": "Heavy trees",
+  "aboutParagraphs": [
+    "Z Boaz is Fort Worth's rugged classic — 19 holes with real elevation, heavy trees, and a creek that comes into play on four of the last five holes. It's been a DFW staple since 1999 and the terrain has broken plenty of hearts since.",
+    "Free to play with concrete tees and DISCatcher baskets, the course is famous for hole 4 — a 755-foot par 3 that's one of the most talked-about holes in Texas disc golf. The rest of the course is no walk in the park either.",
+    "Bring your longest drivers and your patience. Z Boaz doesn't care about your score from last week."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, a clean opener.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, straight and fair.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 319,
+      "character": "319 feet with the trees closing in.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 755,
+      "character": "The signature: 755 feet of par 3 — one of the biggest holes in Texas.",
+      "difficultyPct": 90,
+      "isSignature": true
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 365,
+      "character": "365 feet, fair and demanding.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 246,
+      "character": "246 feet with a guarded green.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 200,
+      "character": "200 feet — the bonus hole on the course signs.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 271,
+      "character": "271 feet, straight and wooded.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 305,
+      "character": "305 feet with the elevation working.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 313,
+      "character": "313 feet, fair and hilly.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 325,
+      "character": "325 feet — the trees tighten.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 163,
+      "character": "163 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 450,
+      "character": "450 feet — a big par 3.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 193,
+      "character": "193 feet, a clean line.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 305,
+      "character": "305 feet with a guarded approach.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 345,
+      "character": "345 feet — the creek starts calling.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 425,
+      "character": "425 feet with the creek in play.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 301,
+      "character": "301 feet — the creek returns.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 160,
+      "character": "160 feet to close the rugged 19.",
+      "difficultyPct": 16
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 4 is the most famous hole in Fort Worth disc golf: 755 feet of par 3 that rolls downhill and demands the biggest drive you have — twice. It's a hole that shouldn't be a par 3, which is exactly why everyone loves it. Par here is a badge that gets you respect in the DFW scene.",
+  "localTips": "Hole 4 is a 755-foot par 3 — bring your longest driver and don't be ashamed of a layup. The creek is in play on four of the last five holes, so the back stretch is where rounds come apart. Free to play; the course has real elevation and heavy trees.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

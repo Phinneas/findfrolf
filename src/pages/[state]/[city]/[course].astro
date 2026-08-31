@@ -6,6 +6,7 @@ import CourseHero from '../../../components/course/CourseHero.astro';
 import StatBar from '../../../components/course/StatBar.astro';
 import AboutProse from '../../../components/course/AboutProse.astro';
 import Scorecard from '../../../components/course/Scorecard.astro';
+import SignatureHole from '../../../components/course/SignatureHole.astro';
 import Reviews from '../../../components/course/Reviews.astro';
 import SidebarMap from '../../../components/course/SidebarMap.astro';
 import SidebarFacts from '../../../components/course/SidebarFacts.astro';
@@ -125,6 +126,13 @@ const courseSchema = {
     <main>
       <AboutProse paragraphs={course.data.aboutParagraphs} />
 
+      {course.data.signatureHoleDescription && (
+        <SignatureHole
+          description={course.data.signatureHoleDescription}
+          hole={course.data.holeData.find((h) => h.isSignature) ?? null}
+        />
+      )}
+
       <Scorecard holes={course.data.holeData} totalPar={course.data.par} totalFeet={course.data.totalFeet} />
 
       <Reviews reviews={course.data.reviews} reviewCount={course.data.reviewCount} avgRating={course.data.rating} />
@@ -136,6 +144,32 @@ const courseSchema = {
       <SidebarTournaments tournaments={course.data.tournaments} />
     </aside>
   </div>
+
+  <!-- Back to directory: hub-and-spoke link from course page to its city + state directory -->
+  <section class="max-w-[1240px] mx-auto px-8 py-16">
+    <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 shadow-stamp">
+      <div>
+        <div class="eyebrow mb-2">§ Keep exploring</div>
+        <h2 class="font-display font-normal text-[26px] tracking-[-0.5px] text-forest-deep mb-2">
+          More disc golf in <em class="italic text-clay">{course.data.city}</em>
+        </h2>
+        <p class="text-sm text-ink-soft max-w-[520px]">
+          Back to the {course.data.city} course directory for every mapped course, browse the rest of {stateName}, or open the finder to search and filter across all cities.
+        </p>
+      </div>
+      <div class="flex gap-3 flex-wrap">
+        <a href={`/${course.data.stateSlug}/${course.data.citySlug}`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
+          {course.data.city} courses →
+        </a>
+        <a href={`/${course.data.stateSlug}`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
+          {stateName} courses →
+        </a>
+        <a href="/finder" class="bg-clay text-white px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors whitespace-nowrap">
+          Course finder →
+        </a>
+      </div>
+    </div>
+  </section>
 
   {nearbyCourses.length > 0 && <NearbyCourses stateName={stateName} courses={nearbyCourses} />}
 </BaseLayout>

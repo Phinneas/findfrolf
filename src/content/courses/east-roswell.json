@@ -1,0 +1,212 @@
+{
+  "name": "East Roswell Park",
+  "code": "GA-1003",
+  "city": "Roswell",
+  "state": "Georgia",
+  "citySlug": "atlanta",
+  "stateSlug": "ga",
+  "area": "Roswell",
+  "location": {
+    "address": "9000 Fouts Rd, Roswell, GA 30076",
+    "lat": 34.0022,
+    "lng": -84.2972
+  },
+  "holes": 18,
+  "par": 55,
+  "parSource": "map",
+  "totalFeet": 4397,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": "25949",
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "East Roswell Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 4404,
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Free",
+    "Elevation"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": true,
+    "camping": false
+  },
+  "yearEstablished": 2004,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Many elevation changes",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "East Roswell is a wooded Atlanta-area classic with tight fairways and real elevation changes — the white tees play 4,397 feet at par 55, while the black tees stretch past 5,800 for the advanced crowd. It's the kind of course where the trees make the decisions and the hills make the walks memorable.",
+    "Free to play with concrete tees and DISCatcher baskets, and the park's elevation gives the layout character that flat courses can't match. The white layout is the standard loop — friendly enough for intermediates, technical enough to teach.",
+    "Come ready to throw accurate lines; East Roswell rewards the player who keeps the disc out of the woods."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet through the trees to start.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 182,
+      "character": "182 feet — a short, clean line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 309,
+      "character": "309 feet with the elevation already in play.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet, straight and wooded.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet — the tight fairway asks for precision.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 241,
+      "character": "241 feet over the rolling ground.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet with the trees framing the green.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 195,
+      "character": "195 feet — a genuine birdie look.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 219,
+      "character": "219 feet, a clean corridor.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 251,
+      "character": "251 feet — the elevation adds a club.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet, short and guarded.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet through the timber.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 174,
+      "character": "174 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 192,
+      "character": "192 feet with a tree guarding the approach.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 394,
+      "character": "The signature: 394 feet, the longest hole at East Roswell, a true par 4.",
+      "difficultyPct": 52,
+      "isSignature": true
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 275,
+      "character": "275 feet — the hills keep it honest.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet to finish through the woods.",
+      "difficultyPct": 40
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 16 is the longest at East Roswell at 394 feet — the only true par 4 on the white layout and the hole where the course's elevation and tight fairways come together. A drive down the corridor, then an approach to a green that the trees defend from every side. It's the hole that proves this park course is more than a pitch-and-putt.",
+  "localTips": "The white layout is the standard loop; the black tees add serious distance for advanced players. Free to play with real elevation — wear grippy shoes. Accuracy is everything; the woods are dense on both sides of every fairway.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

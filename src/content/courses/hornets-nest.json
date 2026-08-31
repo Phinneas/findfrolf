@@ -1,0 +1,117 @@
+{
+  "name": "Hornets Nest Park",
+  "code": "NC-1001",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "nc",
+  "area": "Charlotte",
+
+  "location": {
+    "address": "6301 Beatties Ford Rd, Charlotte, NC 28216",
+    "lat": 35.3201,
+    "lng": -80.8652
+  },
+
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 6184,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Hornets Nest Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.6,
+  "reviewCount": 8273,
+
+  "tags": ["Wooded", "Technical", "Free", "Tournament"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 1997,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Mostly Flat",
+  "foliage": "Moderately Wooded",
+
+  "aboutParagraphs": [
+    "Hornets Nest is Charlotte's most famous public course — the front nine plays open parkland while the back nine dives into the wooded Piedmont, a split personality that makes the round feel like two courses in one. It's the anchor of Charlotte's disc golf scene and a regular stop on the national tournament circuit.",
+    "Free to play with concrete tees and DISCatcher baskets, the course offers multiple pin positions and a tournament island hole that only comes into play for events. From the standard red pins it plays 6,184 feet at par 58.",
+    "The back nine's woods are where Hornets Nest earns its reputation — tight lines, water in play, and a finish that demands your full attention."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 253, "character": "253 feet of open parkland to start.", "difficultyPct": 24 },
+    { "number": 2, "par": 3, "distance": 200, "character": "200 feet, flat and friendly.", "difficultyPct": 16 },
+    { "number": 3, "par": 4, "distance": 511, "character": "511 feet — the first real par 4, still open.", "difficultyPct": 52 },
+    { "number": 4, "par": 3, "distance": 329, "character": "329 feet toward the tree line.", "difficultyPct": 38 },
+    { "number": 5, "par": 3, "distance": 248, "character": "248 feet, a clean birdie look.", "difficultyPct": 24 },
+    { "number": 6, "par": 3, "distance": 260, "character": "260 feet, straight and fair.", "difficultyPct": 26 },
+    { "number": 7, "par": 4, "distance": 571, "character": "571 feet — the front nine's biggest test.", "difficultyPct": 58 },
+    { "number": 8, "par": 3, "distance": 357, "character": "357 feet, the longest par 3 so far.", "difficultyPct": 44 },
+    { "number": 9, "par": 3, "distance": 310, "character": "310 feet — the woods start calling.", "difficultyPct": 40 },
+    { "number": 10, "par": 3, "distance": 247, "character": "247 feet into the wooded back nine.", "difficultyPct": 32 },
+    { "number": 11, "par": 3, "distance": 307, "character": "307 feet — tight lines now.", "difficultyPct": 44 },
+    { "number": 12, "par": 4, "distance": 395, "character": "395 feet of wooded par 4.", "difficultyPct": 54 },
+    { "number": 13, "par": 3, "distance": 327, "character": "327 feet through the Piedmont woods.", "difficultyPct": 46 },
+    { "number": 14, "par": 3, "distance": 254, "character": "254 feet, a guarded green.", "difficultyPct": 34 },
+    { "number": 15, "par": 3, "distance": 306, "character": "306 feet with water lurking near the line.", "difficultyPct": 46 },
+    { "number": 16, "par": 3, "distance": 344, "character": "344 feet — the canopy tightens.", "difficultyPct": 48 },
+    { "number": 17, "par": 4, "distance": 577, "character": "The signature: 577 feet, the longest hole at Hornets Nest, a wooded closer.", "difficultyPct": 66, "isSignature": true },
+    { "number": 18, "par": 3, "distance": 388, "character": "388 feet to finish the wooded back nine.", "difficultyPct": 50 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is Hornets Nest's signature: 577 feet of par 4 through the heart of the wooded back nine. From the tee you're threading a gap in the Piedmont timber; from the landing zone you're choosing a line at a basket the woods guard from every angle. It's the hole that turns a good round into a great one — and the one that makes first-timers respect Charlotte's home course.",
+
+  "localTips": "The front nine is open and forgiving; the back nine is where the course earns its reputation. Water comes into play on the back side, and the tournament island hole only appears for events. Free to play — go early on weekends to beat the crowds.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

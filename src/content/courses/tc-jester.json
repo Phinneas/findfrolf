@@ -1,0 +1,234 @@
+{
+  "name": "T.C. Jester Park",
+  "code": "TX-1150",
+  "city": "Houston",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Houston",
+  "location": {
+    "address": "4201 TC Jester Blvd, Houston, TX 77018",
+    "lat": 29.82567,
+    "lng": -95.454984
+  },
+  "holes": 21,
+  "par": 63,
+  "parSource": "map",
+  "totalFeet": 6474,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "T.C. Jester Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 4417,
+  "tags": [
+    "Distance holes",
+    "Free",
+    "21 holes",
+    "Cart friendly",
+    "Restrooms"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1997,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Derek Lang & Paul Williams",
+  "teeType": "Concrete",
+  "basketType": "Dynamic Veteran",
+  "elevation": null,
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "T.C. Jester is Houston's big-friendly 21-hole course — quite a few distance holes with a mix of routes across 6,474 feet at par 63 from the short tees, and a blue-tee layout stretching past 8,300 feet for the big arms. It's been a city favorite since 1997.",
+    "Free to play with concrete tees and Dynamic Veteran baskets, it's very cart friendly with restrooms on site. The mix of routes keeps the distance holes from feeling repetitive — you'll throw everything in the bag.",
+    "A proper Houston institution: long, open, and welcoming to every level."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 330,
+      "character": "330 feet of open fairway to start.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 365,
+      "character": "365 feet, straight and fair.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, a genuine birdie look.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 254,
+      "character": "254 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 267,
+      "character": "267 feet, fair and open.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 267,
+      "character": "267 feet with a guarded green.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 336,
+      "character": "336 feet — the distance holes start.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 418,
+      "character": "The signature: 418 feet, the longest hole at TC Jester.",
+      "difficultyPct": 50,
+      "isSignature": true
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, straight and true.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 367,
+      "character": "367 feet with the open air working.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 276,
+      "character": "276 feet, a clean corridor.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 414,
+      "character": "414 feet — a big par 3.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet with a placed approach.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 297,
+      "character": "297 feet, straight and open.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 327,
+      "character": "327 feet — the distance keeps coming.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 383,
+      "character": "383 feet, one of the longer par 3s.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 267,
+      "character": "267 feet, a brief breather.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 261,
+      "character": "261 feet, fair and friendly.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet to complete all 21 holes.",
+      "difficultyPct": 42
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 8 is the longest at TC Jester at 418 feet — a par 3 that gives the open course its one big moment. It's the hole where the distance-holes theme of the layout comes into focus, and the one where a well-thrown driver feels like a victory.",
+  "localTips": "The blue tees stretch the course past 8,300 feet for a serious workout — the short tees are the everyday loop. Free to play, very cart friendly, restrooms on site. A proper Houston distance course.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Dynamic Veteran",
+    "lighting": "None"
+  }
+}

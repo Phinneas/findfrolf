@@ -1,0 +1,213 @@
+{
+  "name": "Katherine Legge Memorial Park",
+  "code": "IL-1001",
+  "city": "Hinsdale",
+  "state": "Illinois",
+  "citySlug": "chicago",
+  "stateSlug": "il",
+  "area": "Hinsdale",
+  "location": {
+    "address": "5901 S County Line Rd, Hinsdale, IL 60521",
+    "lat": 41.7815,
+    "lng": -87.9168
+  },
+  "holes": 18,
+  "par": 67,
+  "parSource": "map",
+  "totalFeet": 4720,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Katherine Legge Memorial Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 4001,
+  "tags": [
+    "Park-style",
+    "Beginner-friendly",
+    "Free",
+    "Creek hazards",
+    "Dog friendly"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2012,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach 5",
+  "elevation": "Moderately Hilly",
+  "foliage": "Lightly Wooded",
+  "aboutParagraphs": [
+    "Katherine Legge Memorial Park is a friendly, park-style course in the western suburbs — mature trees, a small creek, and a layout that reads like a putting-practice marathon. Eighteen holes at par 67 but just 4,720 feet, with most holes playing as short par 4s that reward a clean midrange over big power.",
+    "It's free to play, doubles as a dog park, and the creek comes into play on several holes after rain. Perfect for a first round, a solo practice session, or introducing a friend to the sport.",
+    "The hilly parkland keeps it interesting despite the modest length — this is a course where accuracy and patience quietly add up to a great score."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet to open — a gentle par 3 between the trees.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "distance": 330,
+      "character": "330 feet of park-style par 4, straight and kind.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "distance": 270,
+      "character": "270 feet — a short par 4 that plays like a long par 3.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 310,
+      "character": "310 feet with the mature trees framing the line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet — a clean ace-run opportunity.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "distance": 300,
+      "character": "300 feet of gentle park golf.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "distance": 320,
+      "character": "320 feet; the creek bed lurks near the fairway.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 200,
+      "character": "200 feet, straight and open.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 190,
+      "character": "190 feet — the shortest par 4 you'll see anywhere.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet over the low ground.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 210,
+      "character": "210 feet of par 4 — an easy birdie for a decent putt.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 280,
+      "character": "280 feet with a slight bend.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "distance": 290,
+      "character": "290 feet, hilly and friendly.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet — the creek pinches the approach.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 250,
+      "character": "250 feet of par 4; the trees guard the green.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 280,
+      "character": "280 feet, rolling with the terrain.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 180,
+      "character": "180 feet — the shortest hole on the card.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 360,
+      "character": "The signature: 360 feet, the longest hole at Legge, a fitting finish.",
+      "difficultyPct": 38,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the longest at Katherine Legge at 360 feet — a park-style closer that asks for a solid drive and a confident approach through the mature trees. After 17 holes of friendly midrange golf, it's the one spot where a little more distance actually helps. It's the hole that ends rounds on a high note.",
+  "localTips": "Free and friendly — a great first course or practice loop. The course doubles as a dog park, so expect company. The creek is in play on the low holes after rain; the hills are gentle but real. Bring a putter you trust and enjoy the short par 4s.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "Mach 5",
+    "lighting": "None"
+  }
+}

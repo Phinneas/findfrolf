@@ -1,0 +1,216 @@
+{
+  "name": "Benbrook Ranch Park Disc Golf Course",
+  "code": "TX-1141",
+  "city": "Leander",
+  "state": "Texas",
+  "citySlug": "austin",
+  "stateSlug": "tx",
+  "area": "Leander",
+  "location": {
+    "address": "6001 N Bagdad Rd, Leander, TX 78641",
+    "lat": 30.5866,
+    "lng": -97.8775
+  },
+  "holes": 18,
+  "par": 61,
+  "parSource": "map",
+  "totalFeet": 6983,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": "26745",
+  "pdgaTier": null,
+  "websiteUrl": "https://www.leandertx.gov/Facilities/Facility/Details/Benbrook-Ranch-Park-Disc-Golf-Course-9",
+  "photos": [
+    {
+      "url": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
+      "alt": "Hole 15 at Benbrook Ranch Park Disc Golf Course — the 641-foot signature par 4",
+      "caption": "Hole 15 · PDGA course photo"
+    }
+  ],
+  "heroImage": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
+  "thumbnail": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
+  "rating": 4.5,
+  "reviewCount": 1309,
+  "tags": [
+    "Narrow",
+    "Technical",
+    "OB-heavy",
+    "Creek hazards",
+    "Free",
+    "Dog friendly",
+    "Cart friendly"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": true,
+    "camping": false
+  },
+  "yearEstablished": 2008,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Mike Olse",
+  "teeType": "Concrete",
+  "basketType": "MVP Black Hole Portal",
+  "elevation": "Flat",
+  "foliage": "Mixed - Trees/Open",
+  "aboutParagraphs": [
+    "Benbrook Ranch is Leander's home course, and it asks more of your discipline than your arm. The fairways run narrow through mixed trees, tall grass plays OB on numerous holes, and a creek winds through 14 of them — a round here is a lesson in keeping the disc in the short grass.",
+    "It's free to play from 5 am to 10 pm, with concrete tees, MVP Black Hole baskets, and signage on every hole. Several doglegs keep the layout interesting, and the flat terrain means the whole course is walkable — and rated very cart friendly by the city.",
+    "The long par 4s are the heart of the course, especially the 641-foot signature hole 15. This is a course where the players who throw with their heads, not just their arms, walk away smiling."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 481,
+      "character": "A 481-foot opener that demands a placed drive; tall-grass OB frames the fairway from the first tee.",
+      "difficultyPct": 55
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 282,
+      "character": "Short par 3 with a skinny landing zone between the trees.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 246,
+      "character": "The gentle warm-up — a 246-foot flick through the open gap.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 558,
+      "character": "First big par 4 at 558 feet; the dogleg rewards a wide hyzer line.",
+      "difficultyPct": 65
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 609,
+      "character": "Longest of the front-nine par 4s — keep it out of the tall grass and it plays two easy shots.",
+      "difficultyPct": 75
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 250,
+      "character": "Quick 250-footer; the tree line left makes the ace run less free than it looks.",
+      "difficultyPct": 25
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 313,
+      "character": "313 feet with a tight gap off the tee.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 305,
+      "character": "Straightaway 305-footer — the basket sits just past the brush line.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 248,
+      "character": "Short breather at 248 feet; don't overthrow the pin.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "distance": 503,
+      "character": "503-foot par 4 that bends around the rough — position beats power here.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 225,
+      "character": "The shortest hole on the card at 225 feet; an open ace run.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 542,
+      "character": "Back-to-back length at 542 feet; the fairway narrows as it approaches the green.",
+      "difficultyPct": 68
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 281,
+      "character": "281 feet through the trees, opening up just enough for the pin.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 245,
+      "character": "245-foot technical tee shot; the dogleg hides the basket.",
+      "difficultyPct": 35
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 641,
+      "character": "The signature: 641 feet, the longest on the card, with tall-grass OB in play on both sides of the narrow fairway.",
+      "difficultyPct": 85,
+      "isSignature": true
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 319,
+      "character": "319 feet and flat — the fairway is at its friendliest here.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 357,
+      "character": "357-footer with the brush tightening the right side.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 547,
+      "character": "The closer: 547 feet back toward the park, a fitting last test of the OB discipline that runs through all 18 holes.",
+      "difficultyPct": 70
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 15 stretches 641 feet across the heart of Benbrook Ranch — the longest hole on the card. A big drive down the narrow corridor leaves a long approach to a basket guarded by the tall-grass OB that defines the course; lay up short and you're scrambling out of the rough. It's the hole that sums up the whole course: distance is the appetizer, accuracy is the meal.",
+  "localTips": "Tall grass plays OB on numerous holes — keep it in the short grass and your score will follow. The course is free, open 5 am to 10 pm, and cart friendly. After heavy rain, expect the creek that runs through 14 holes to be in play more than usual.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "MVP Black Hole Portal",
+    "lighting": "None",
+    "hours": "5 am – 10 pm"
+  }
+}

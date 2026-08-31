@@ -1,0 +1,117 @@
+{
+  "name": "Circle C Ranch on Slaughter Creek",
+  "code": "TX-1142",
+  "city": "Austin",
+  "state": "Texas",
+  "citySlug": "austin",
+  "stateSlug": "tx",
+  "area": "Southwest",
+
+  "location": {
+    "address": "6301 W Slaughter Ln, Austin, TX 78739",
+    "lat": 30.1987,
+    "lng": -97.8878
+  },
+
+  "holes": 18,
+  "par": 64,
+  "parSource": "pdga",
+  "totalFeet": 7987,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": "25331",
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Circle C Ranch on Slaughter Creek — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.6,
+  "reviewCount": 6438,
+
+  "tags": ["Wooded", "Technical", "Water hazards", "Free", "Championship"],
+
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": true,
+    "camping": false
+  },
+
+  "yearEstablished": 1993,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "John Houck",
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "50/50 Flat/Hills",
+  "foliage": "Woodsy",
+
+  "aboutParagraphs": [
+    "Circle C is the course Austin players name when they want a real test without leaving the city. The park is Woodsy with rolling terrain and water in play, and the dual tees on most holes mean the same hole can be a friendly pitch from the short pads or a demanding 700-foot battle from the long ones.",
+    "John Houck's 1993 design asks for tremendous shot variety — there's no one shot shape that gets you around. From the long tees the blue layout stretches nearly 8,000 feet at par 64, which is why locals treat it as the graduation exam after Zilker and Bartholomew.",
+    "It's free to play, signed on every hole, and the only real fee is the discs you might lose in the woods. Go early on summer weekends, before the Hill Country heat makes the hills feel taller."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 4, "distance": 594, "character": "Long opener through the trees — Circle C announces itself with a 594-foot par 4.", "difficultyPct": 58 },
+    { "number": 2, "par": 3, "distance": 240, "character": "240 feet of woodsy tunnel; from the short tee it plays far friendlier.", "difficultyPct": 30 },
+    { "number": 3, "par": 3, "distance": 246, "character": "246-footer over rolling terrain — a few hills keep it honest.", "difficultyPct": 32 },
+    { "number": 4, "par": 3, "distance": 200, "character": "The breather: 200 feet downhill to a green ringed by trees.", "difficultyPct": 22 },
+    { "number": 5, "par": 5, "distance": 870, "character": "The monster — 870 feet of par 5 that rewards a smart three-shot plan over a greedy one.", "difficultyPct": 80 },
+    { "number": 6, "par": 4, "distance": 516, "character": "516 feet of wooded par 4 — commit to a line off the tee and throw it.", "difficultyPct": 50 },
+    { "number": 7, "par": 3, "distance": 252, "character": "252 feet, tight and wooded.", "difficultyPct": 34 },
+    { "number": 8, "par": 3, "distance": 324, "character": "324-footer — the basket hides behind a grove of trees.", "difficultyPct": 44 },
+    { "number": 9, "par": 3, "distance": 202, "character": "Short 202-foot flick; the branches overhang the pin.", "difficultyPct": 25 },
+    { "number": 10, "par": 3, "distance": 260, "character": "260 feet on rolling ground — downhill looks shorter than it plays.", "difficultyPct": 35 },
+    { "number": 11, "par": 4, "distance": 630, "character": "630-foot par 4 with dual tees; the long pad demands a big, placed drive.", "difficultyPct": 64 },
+    { "number": 12, "par": 4, "distance": 582, "character": "582 feet through the woods — a true two-shot hole.", "difficultyPct": 60 },
+    { "number": 13, "par": 3, "distance": 324, "character": "324 feet, straight but narrow.", "difficultyPct": 42 },
+    { "number": 14, "par": 4, "distance": 602, "character": "602 feet of wooded par 4 — discipline off the tee sets up the birdie look.", "difficultyPct": 62 },
+    { "number": 15, "par": 3, "distance": 276, "character": "276 feet — the hills add a foot or two of perceived distance.", "difficultyPct": 36 },
+    { "number": 16, "par": 4, "distance": 636, "character": "636 feet and the woods tighten as you approach the pin.", "difficultyPct": 66 },
+    { "number": 17, "par": 3, "distance": 345, "character": "345-footer; from the long tee this one plays like a short par 4.", "difficultyPct": 48 },
+    { "number": 18, "par": 5, "distance": 888, "character": "The signature closer — 888 feet of par 5 that ends the round the way it started: long, wooded, and earned.", "difficultyPct": 85, "isSignature": true }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 stretches 888 feet through the woods to close the round — the longest hole at Circle C. The dual-tee setup lets you choose your adventure, but from the long pad it's a three-shot par 5 where every landing zone is framed by trees. It's the hole that sums up the course: distance, trees, and a little Hill Country character.",
+
+  "localTips": "Bring your patience and your midranges — Circle C rewards placement over power. First-timers should step up to the short tees and still get the full experience. Expect water to be in play after rains, and check the course map for the lines you're unsure about.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": ["mary-moore-searight"],
+
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

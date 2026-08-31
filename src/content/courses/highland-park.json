@@ -1,0 +1,213 @@
+{
+  "name": "Highland Park",
+  "code": "IL-1003",
+  "city": "Joliet",
+  "state": "Illinois",
+  "citySlug": "chicago",
+  "stateSlug": "il",
+  "area": "Joliet",
+  "location": {
+    "address": "Highland Park, Joliet, IL 60432",
+    "lat": 41.5346,
+    "lng": -88.0315
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 5290,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Highland Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 3085,
+  "tags": [
+    "Wooded",
+    "Open",
+    "Elevation",
+    "Free",
+    "Multiple tees"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2008,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Gary Lewis",
+  "teeType": "Concrete",
+  "basketType": "Mach 7",
+  "elevation": "Elevation changes",
+  "foliage": "Mixed - Wooded/Open",
+  "aboutParagraphs": [
+    "Highland Park is Joliet's good mix of wooded and open holes — a Gary Lewis design from 2008 with real elevation and multiple tees that provide a unique challenge for every skill level. From the standard pins it plays 5,290 feet at par 57.",
+    "Free to play with concrete tees and Mach 7 baskets, it's somewhat cart friendly and rewards both power and placement. Three pin layouts stretch the round from 4,954 to 6,362 feet depending on how ambitious you're feeling.",
+    "The wooded holes are the memorable ones — the elevation makes them play even bigger than the distances suggest."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 212,
+      "character": "212 feet, a gentle opener.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 232,
+      "character": "232 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet with the trees edging in.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 325,
+      "character": "325 feet — the first par 4.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 226,
+      "character": "226 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 267,
+      "character": "267 feet, fair and wooded.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet — the elevation starts.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 325,
+      "character": "325 feet with a guarded green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 425,
+      "character": "The signature: 425 feet, the longest hole at Highland Park.",
+      "difficultyPct": 52,
+      "isSignature": true
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet, straight and true.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet with the woods closing.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, a placed midrange.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, fair and demanding.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 303,
+      "character": "303 feet — the elevation makes it honest.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 414,
+      "character": "414 feet — one of the longer par 3s.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 400,
+      "character": "400 feet of par 4 through the mix.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 302,
+      "character": "302 feet to finish the varied 18.",
+      "difficultyPct": 34
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 9 is the longest at Highland Park at 425 feet — a par 4 that ties together the course's wooded and open halves with a little elevation for good measure. It's the hole where a good drive earns a real birdie look, and the one that makes the round feel complete.",
+  "localTips": "Three pin layouts stretch the course from roughly 5,000 to 6,400 feet. The wooded holes play big with the elevation. Free to play, somewhat cart friendly — a solid Joliet round for any level.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 7",
+    "lighting": "None"
+  }
+}

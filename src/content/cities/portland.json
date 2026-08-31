@@ -1,0 +1,39 @@
+{
+  "name": "Portland",
+  "state": "Oregon",
+  "stateSlug": "or",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Rainy, woodsy, and obsessed with discs — Portland's courses thread through 200-foot Douglas firs and state-park forests. We're publishing the metro's best first.",
+  "introParagraphs": [
+    "Portland is a disc golf city the way it's a coffee city: seriously, and from the ground up. Pier Park is the beloved free classic — 18 par 3s winding through towering firs in St. Johns — while Milo McIver in Estacada is the tournament cathedral that hosts the Beaver State Fling. Both are among the most-played and best-loved courses in the Pacific Northwest.",
+    "The pay-to-play gems are worth the drive: Blue Lake's marathon 10,000-foot layout and Horning's Hideout, the private three-course property with camping. Rain is part of the deal — grippy shoes are standard equipment.",
+    "New here? Pier Park is the essential first round; Milo McIver is the pilgrimage."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "pier-park", "x": 38, "y": 30, "isGold": true },
+    { "rank": 2, "courseSlug": "milo-mciver-riverbend", "x": 62, "y": 52, "isGold": false },
+    { "rank": 3, "courseSlug": "blue-lake", "x": 52, "y": 66, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The essential Portland round", "tag": "Iconic", "courseSlugs": ["pier-park"] },
+    { "title": "The tournament cathedral", "tag": "Bucket list", "courseSlugs": ["milo-mciver-riverbend"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 1, "name": "Portland" },
+    { "count": 1, "name": "Estacada" },
+    { "count": 1, "name": "North Plains" },
+    { "count": 1, "name": "Fairview" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the Portland metro?", "answer": "Around <b>55 courses</b> across the metro including the Vancouver, WA side. We're publishing the best first — 4 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in Portland?", "answer": "Tied at the top: <b>Pier Park</b>, the free St. Johns classic through 200-foot Douglas firs, and <b>Milo McIver</b>, the tournament course in Estacada that hosts the Beaver State Fling." },
+    { "question": "Are Portland's disc golf courses free?", "answer": "Pier Park is free — and one of the most-played free courses in the country. The destination courses (Milo McIver, Blue Lake, Horning's Hideout) are pay to play." },
+    { "question": "What's the best beginner course in Portland?", "answer": "Pier Park — all par 3s, walkable, free, and forgiving enough to learn on while the firs teach you lines." }
+  ],
+  "nearbyCities": [
+    { "name": "Seattle", "courseCount": "45 courses", "distance": "175 mi", "slug": "/wa/seattle" }
+  ]
+}

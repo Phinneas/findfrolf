@@ -1,0 +1,276 @@
+{
+  "name": "SeaTac DGC",
+  "code": "WA-1001",
+  "city": "SeaTac",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "SeaTac",
+  "location": {
+    "address": "13001 20th Ave S, SeaTac, WA 98168",
+    "lat": 47.4867,
+    "lng": -122.3085
+  },
+  "holes": 27,
+  "par": 87,
+  "parSource": "map",
+  "totalFeet": 9910,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "SeaTac DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 4951,
+  "tags": [
+    "Long",
+    "Open",
+    "Wooded",
+    "Free",
+    "Airplane views"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2003,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Keith Lionetti",
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": "Mostly Flat",
+  "foliage": "Mixed - Open/Wooded",
+  "aboutParagraphs": [
+    "SeaTac DGC is the biggest round in the Seattle metro — 27 holes, nearly 10,000 feet, par 87, laid out through a former neighborhood under the constant flight paths of SeaTac Airport. Keith Lionetti's design mixes open fields with wooded tunnels, flat ground with serious length.",
+    "Free to play with concrete tees and Mach X baskets, it's the course where Seattle players go when they want to throw a lot of disc golf in one visit. The airport traffic overhead is part of the charm — you'll never mistake this course for anywhere else.",
+    "Bring your longest discs and your stamina. The first 18 are already a full round; the last nine are a bonus that most players choose to take."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet of open fairway to start.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 244,
+      "character": "244 feet, a clean early line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 306,
+      "character": "306 feet, flat and fair.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 305,
+      "character": "305 feet toward the tree line.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet with the woods edging in.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet, straight and open.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 296,
+      "character": "296 feet — the tunnels begin.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 384,
+      "character": "384 feet, the longest par 3 so far.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 428,
+      "character": "428 feet of open par 3 — a driver's hole.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 282,
+      "character": "282 feet, a brief breather.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 401,
+      "character": "401 feet through the wooded section.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 367,
+      "character": "367 feet, flat and demanding.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 425,
+      "character": "425 feet — the trees tighten.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet, a clean corridor.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, a genuine birdie look.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 321,
+      "character": "321 feet with the airport noise overhead.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 500,
+      "character": "500 feet — the first par 4.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 349,
+      "character": "349 feet to close the first 18.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 19,
+      "par": 4,
+      "distance": 543,
+      "character": "543 feet — the bonus nine starts long.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 20,
+      "par": 4,
+      "distance": 490,
+      "character": "490 feet of par 4.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 21,
+      "par": 4,
+      "distance": 547,
+      "character": "The signature: 547 feet, the longest hole at SeaTac.",
+      "difficultyPct": 62,
+      "isSignature": true
+    },
+    {
+      "number": 22,
+      "par": 4,
+      "distance": 458,
+      "character": "458 feet — a placed drive sets it up.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 23,
+      "par": 4,
+      "distance": 491,
+      "character": "491 feet of open par 4.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 24,
+      "par": 3,
+      "distance": 422,
+      "character": "422 feet — the longest par 3 of the nine.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 25,
+      "par": 3,
+      "distance": 314,
+      "character": "314 feet, straight and fair.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 26,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet, a clean finish line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 27,
+      "par": 3,
+      "distance": 229,
+      "character": "229 feet to complete all 27 holes.",
+      "difficultyPct": 22
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 21 is the longest at SeaTac at 547 feet — a par 4 that captures the course's whole character: open ground, real distance, and the planes roaring overhead. A big drive down the fairway, then a long approach to a basket that sits in the open with nowhere to hide. It's the hole that makes 27 holes feel like exactly the right number.",
+  "localTips": "Bring water and your longest discs — this is a 10,000-foot round. The first 18 are the full course; the bonus nine is worth playing if you have the legs. Free to play, flat and cart friendly, and the airport noise is part of the experience.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

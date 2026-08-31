@@ -1,0 +1,117 @@
+{
+  "name": "Pier Park",
+  "code": "OR-1002",
+  "city": "Portland",
+  "state": "Oregon",
+  "citySlug": "portland",
+  "stateSlug": "or",
+  "area": "St. Johns",
+
+  "location": {
+    "address": "N Bruce Ave & N James St, Portland, OR 97203",
+    "lat": 45.6032,
+    "lng": -122.7581
+  },
+
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 6576,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": "25700",
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Pier Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.7,
+  "reviewCount": 9523,
+
+  "tags": ["Wooded", "Corridor", "Free", "Iconic", "Beginner-friendly"],
+
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": true,
+    "camping": false
+  },
+
+  "yearEstablished": 2003,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": "Corridor",
+
+  "aboutParagraphs": [
+    "Pier Park is Portland's backyard classic — 18 par 3s threading through 200-foot Douglas firs that come into play on almost every hole after the second. It's free, walkable, and endlessly replayable, which is why it's the most-played course in the city.",
+    "The summer layout stretches 6,576 feet at par 54, which means these are big par 3s — several push 450 feet and demand a full driver. The firs turn every miss into a scramble, so accuracy beats power hole after hole.",
+    "Come on a weekday morning to have the fairways to yourself; on a Saturday you'll be sharing them with every disc golfer in North Portland."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 362, "character": "362 feet with the firs already crowding the fairway.", "difficultyPct": 40 },
+    { "number": 2, "par": 3, "distance": 273, "character": "273 feet — the first taste of the corridors.", "difficultyPct": 28 },
+    { "number": 3, "par": 3, "distance": 339, "character": "339 feet between two walls of Douglas fir.", "difficultyPct": 40 },
+    { "number": 4, "par": 3, "distance": 318, "character": "318 feet with a tight gap off the tee.", "difficultyPct": 38 },
+    { "number": 5, "par": 3, "distance": 264, "character": "264 feet — a genuine birdie look.", "difficultyPct": 22 },
+    { "number": 6, "par": 3, "distance": 393, "character": "393 feet; the tunnel is narrow and the pin is hidden.", "difficultyPct": 48 },
+    { "number": 7, "par": 3, "distance": 321, "character": "321 feet straight down the corridor.", "difficultyPct": 36 },
+    { "number": 8, "par": 3, "distance": 418, "character": "418 feet — one of the bigger par 3s on the card.", "difficultyPct": 52 },
+    { "number": 9, "par": 3, "distance": 415, "character": "415 feet with firs framing every line.", "difficultyPct": 50 },
+    { "number": 10, "par": 3, "distance": 264, "character": "264 feet back toward the open side of the park.", "difficultyPct": 22 },
+    { "number": 11, "par": 3, "distance": 375, "character": "375 feet — placement is everything.", "difficultyPct": 44 },
+    { "number": 12, "par": 3, "distance": 294, "character": "294 feet, straight and fair.", "difficultyPct": 30 },
+    { "number": 13, "par": 3, "distance": 330, "character": "330 feet through the thickest part of the woods.", "difficultyPct": 42 },
+    { "number": 14, "par": 3, "distance": 414, "character": "414 feet; the firs punish the loose release.", "difficultyPct": 50 },
+    { "number": 15, "par": 3, "distance": 452, "character": "452 feet — driver off the tee for most players.", "difficultyPct": 58 },
+    { "number": 16, "par": 3, "distance": 324, "character": "324 feet, a midrange with a lane.", "difficultyPct": 36 },
+    { "number": 17, "par": 3, "distance": 477, "character": "The signature: 477 feet, the longest hole at Pier, all corridor.", "difficultyPct": 62, "isSignature": true },
+    { "number": 18, "par": 3, "distance": 543, "character": "543 feet to finish — a monster par 3 that tests everything you learned.", "difficultyPct": 68 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is Pier Park in one shot: 477 feet of pure Douglas-fir corridor where the trees are 200 feet tall and the fairway feels ten feet wide. A clean drive off the tee leaves a long approach to a pin tucked behind the timber. It's the hole that made Pier famous and the one everyone remembers on the walk back to the lot.",
+
+  "localTips": "Accuracy over power — the firs punish misses on nearly every hole. The summer layout is the long one at 6,576 feet; the winter layout plays shorter. Weekday mornings are the quiet time; weekends are a party. Free to play, restrooms on site, very cart friendly.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": true,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

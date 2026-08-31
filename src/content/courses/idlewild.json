@@ -1,0 +1,255 @@
+{
+  "name": "Idlewild",
+  "code": "KY-1001",
+  "city": "Burlington",
+  "state": "Kentucky",
+  "citySlug": "cincinnati",
+  "stateSlug": "ky",
+  "area": "Burlington, KY",
+  "location": {
+    "address": "5550 Idlewild Rd, Burlington, KY 41005",
+    "lat": 39.040037,
+    "lng": -84.741325
+  },
+  "holes": 24,
+  "par": 86,
+  "parSource": "map",
+  "totalFeet": 9574,
+  "courseLength": "long",
+  "difficulty": "Very Hard",
+  "difficultyRating": 5,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Idlewild — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 8114,
+  "tags": [
+    "Championship",
+    "Long",
+    "Water hazards",
+    "Wooded",
+    "24 holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Dynamic Veteran",
+  "elevation": "Rolling hills",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Idlewild is the professional-caliber gold-level course of the Cincinnati area — 24 holes at England-Idlewild Park in Burlington, Kentucky, playing 9,574 feet at par 86 from the yellow tees. Rolling hills, water hazards, and light-to-heavy woods make accuracy and placement as important as distance.",
+    "Free to play with extra-large concrete tees and Dynamic Veteran baskets, it's a course built for serious disc golf: allow three to four hours for all 24 holes, and don't bring novices unless they're ready for a marathon. Four tee sets stretch from 9,574 feet up to nearly 11,000.",
+    "This is the course where the region's best players measure themselves — and the 1,001-foot hole 21 is where rounds go to die."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 640,
+      "character": "640 feet — a par 4 opener that sets the tone.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "distance": 370,
+      "character": "370 feet of par 4 with the hills starting.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet, a big par 3.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet with a guarded green.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 299,
+      "character": "299 feet, straight and wooded.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet — the woods tighten.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet, fair and demanding.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "distance": 390,
+      "character": "390 feet of par 4 — placement is everything.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet, one of the longer par 3s.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 330,
+      "character": "330 feet with the water lurking.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "distance": 510,
+      "character": "510 feet of par 5 — the marathons begin.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "distance": 587,
+      "character": "587 feet — two par 5s back to back.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet, a brief breather.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 368,
+      "character": "368 feet of par 4 with a guarded approach.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 192,
+      "character": "192 feet — the shortest hole on the card.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 647,
+      "character": "647 feet — the biggest par 4 so far.",
+      "difficultyPct": 64
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 500,
+      "character": "500 feet of par 4 through the hills.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 214,
+      "character": "214 feet, a clean line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 237,
+      "character": "237 feet, straight and fair.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 195,
+      "character": "195 feet, a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 21,
+      "par": 5,
+      "distance": 1001,
+      "character": "The signature: 1,001 feet of par 5 — the hole that defines Idlewild.",
+      "difficultyPct": 88,
+      "isSignature": true
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 339,
+      "character": "339 feet — a strong par 3 after the monster.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 23,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, a clean finish line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 24,
+      "par": 5,
+      "distance": 651,
+      "character": "651 feet to close the marathon — the last par 5.",
+      "difficultyPct": 64
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 21 is Idlewild's legend: 1,001 feet of par 5 that winds through the hills with water never far from the line. It's a four-shot hole for most players, and the kind of test that separates the weekend golfers from the competitors this course was built for. Par here is a badge of honor.",
+  "localTips": "Allow three to four hours — this is a 24-hole, 9,500-foot marathon. Not recommended for novices. Four tee sets exist, with the longest stretching past 11,000 feet. Free to play, and the 1,001-foot hole 21 is worth the trip alone.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Dynamic Veteran",
+    "lighting": "None"
+  }
+}

@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Schema from '../components/Schema.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getAllCities, getAllCourses, cityUrl, courseUrl } from '../lib/data';
+
+export async function getStaticPaths() {
+  const [cities, courses] = await Promise.all([getAllCities(), getAllCourses()]);
+  const slugs = new Set([
+    ...cities.map((c) => c.data.stateSlug),
+    ...courses.map((c) => c.data.stateSlug),
+  ]);
+  return [...slugs].map((stateSlug) => ({ params: { state: stateSlug } }));
+}
+
+const { state } = Astro.params;
+const cities = (await getAllCities()).filter((c) => c.data.stateSlug === state);
+const courses = (await getAllCourses()).filter((c) => c.data.stateSlug === state);
+const stateName = cities[0]?.data.state ?? courses[0]?.data.state ?? state.toUpperCase();
+
+const citiesWithCounts = cities
+  .map((city) => ({
+    ...city,
+    courseCount: courses.filter((c) => c.data.citySlug === city.id).length,
+  }))
+  .sort((a, b) => b.courseCount - a.courseCount);
+
+const topCourses = [...courses].sort((a, b) => b.data.rating - a.data.rating).slice(0, 10);
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Disc Golf Courses in ${stateName}`,
+  numberOfItems: courses.length,
+  itemListElement: topCourses.map((course, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SportsActivityLocation',
+      name: course.data.name,
+      url: `https://findfrolf.com${courseUrl(course)}`,
+    },
+  })),
+};
+---
+
+<BaseLayout
+  title={`Disc Golf Courses in ${stateName} — Find Frolf`}
+  description={`Find disc golf courses in ${stateName} with the Find Frolf course finder — ranked, mapped, and reviewed by locals. ${courses.length} courses across ${cities.length} metro areas.`}
+>
+  <Fragment slot="head">
+    <link rel="canonical" href={`https://findfrolf.com/${state}`} />
+    <Schema schema={itemList} />
+  </Fragment>
+
+  <Breadcrumbs
+    crumbs={[
+      { label: 'Courses', href: '/courses' },
+      { label: stateName },
+    ]}
+  />
+
+  <section class="max-w-[1240px] mx-auto px-8 pt-14 pb-8">
+    <div class="eyebrow mb-3">§ {stateName} disc golf</div>
+    <h1 class="font-display font-normal text-[clamp(36px,5.5vw,60px)] leading-[0.95] tracking-[-2px] text-forest-deep max-w-[820px] mb-5">
+      Disc golf courses in <em class="italic text-clay">{stateName}</em>
+    </h1>
+    <p class="text-lg text-ink-soft max-w-[660px] leading-[1.7] mb-6">
+      The Find Frolf disc golf course finder for {stateName}: <b>{courses.length} courses</b> across
+      {cities.length > 0 ? ` ${cities.length} metro areas` : ' the state'}, ranked, mapped, and reviewed
+      by the locals who play them. Browse by city below, or use the
+      <a href="/finder" class="text-clay font-semibold no-underline border-b border-clay"> full course finder</a>
+      to search and filter every course.
+    </p>
+  </section>
+
+  {citiesWithCounts.length > 0 && (
+    <section class="max-w-[1240px] mx-auto px-8 py-10">
+      <div class="eyebrow mb-3">§ Browse by city</div>
+      <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-8">
+        Cities in <em class="italic text-clay">{stateName}</em>
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[18px]">
+        {citiesWithCounts.map((city) => (
+          <a
+            href={cityUrl(city)}
+            class="flex justify-between items-center bg-paper border-[1.5px] border-forest rounded-[10px] px-5 py-[18px] no-clip text-inherit transition-all hover:bg-cream hover:-translate-y-0.5"
+          >
+            <div>
+              <div class="font-display font-semibold text-[19px] text-forest-deep">{city.data.name}</div>
+              <div class="font-mono text-[11px] text-moss uppercase mt-0.5">{city.data.state}</div>
+            </div>
+            <div class="text-right">
+              <div class="font-display font-bold text-[22px] text-clay leading-none">{city.courseCount}</div>
+              <div class="font-mono text-[10px] text-moss uppercase mt-0.5">courses</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="max-w-[1240px] mx-auto px-8 py-10 pb-20">
+    <div class="eyebrow mb-3">§ Top rated</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-8">
+      The best courses in <em class="italic text-clay">{stateName}</em>
+    </h2>
+    <div class="bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+      {topCourses.map((course, i) => (
+        <a
+          href={courseUrl(course)}
+          class="grid grid-cols-[44px_1fr_auto] md:grid-cols-[44px_2fr_1.2fr_1.2fr_60px] gap-3.5 md:gap-[22px] items-center px-5 py-4 border-b border-line no-clip text-inherit transition-colors hover:bg-cream-2"
+        >
+          <span class={`font-display ${i < 3 ? 'font-bold text-clay' : 'italic text-sage'} text-[22px]`}>{String(i + 1).padStart(2, '0')}</span>
+          <span class="font-display font-semibold text-[18px] text-forest-deep tracking-[-0.5px] leading-[1.05]">{course.data.name}</span>
+          <span class="hidden md:block text-sm text-ink-soft">{course.data.city}</span>
+          <span class="hidden md:block font-mono text-xs text-forest">{course.data.holes} holes · Par {course.data.par}</span>
+          <span class="font-display font-bold text-[20px] text-clay text-right">★ {course.data.rating}</span>
+        </a>
+      ))}
+    </div>
+    <p class="mt-8 text-sm text-ink-soft">
+      Looking for something specific? Search all {courses.length} {stateName} courses with the
+      <a href="/finder" class="text-clay font-semibold no-underline border-b border-clay"> disc golf course finder</a>.
+    </p>
+  </section>
+</BaseLayout>

@@ -1,0 +1,212 @@
+{
+  "name": "Crockett Park",
+  "code": "TN-1003",
+  "city": "Brentwood",
+  "state": "Tennessee",
+  "citySlug": "nashville",
+  "stateSlug": "tn",
+  "area": "Brentwood",
+  "location": {
+    "address": "1500 Volunteer Parkway, Brentwood, TN 37027",
+    "lat": 35.97979,
+    "lng": -86.772019
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 4840,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Crockett Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.2,
+  "reviewCount": 3620,
+  "tags": [
+    "Open",
+    "Wooded",
+    "Free",
+    "Hilly"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2005,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Ron Pittman / Don Blankenship",
+  "teeType": "Mixed",
+  "basketType": "Chainstar",
+  "elevation": "Rolling hills",
+  "foliage": "Mixed - Open/Woods",
+  "aboutParagraphs": [
+    "Crockett Park sits on gently rolling hills in a beautiful Brentwood city park, mixing open ground with wooded stretches across 4,840 feet at par 56. It's the kind of course that rewards clean play without demanding huge distance.",
+    "Free to play with mixed tees and Chainstar baskets, and both tee positions play par 56 — so you can step up or back without changing the math. The variety of open and wooded holes keeps the round interesting from start to finish.",
+    "A friendly, well-kept park course that's perfect for a weekday round or introducing someone to the sport."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet of open fairway to start.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 306,
+      "character": "306 feet, straight and fair.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet with the woods edging in.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 376,
+      "character": "376 feet — the first par 4.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a clean early line.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 192,
+      "character": "192 feet, a brief breather.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 199,
+      "character": "199 feet, short and guarded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 169,
+      "character": "169 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 429,
+      "character": "429 feet — the longest hole at Crockett.",
+      "difficultyPct": 52,
+      "isSignature": true
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet, straight and true.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 247,
+      "character": "247 feet with a guarded green.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 282,
+      "character": "282 feet through the rolling hills.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, a clean putter shot.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 380,
+      "character": "380 feet — the woods tighten.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 227,
+      "character": "227 feet, fair and wooded.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 238,
+      "character": "238 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 263,
+      "character": "263 feet, straight and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 355,
+      "character": "355 feet to finish the friendly 18.",
+      "difficultyPct": 40
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 9 is the longest at Crockett at 429 feet — a par 4 that rolls with the park's gentle hills and gives the round its one true two-shot moment. From the tee it's a placed drive across the open ground; from there, a clean approach to a basket the scenery frames. It's the hole that makes the front nine memorable.",
+  "localTips": "Both tee positions play par 56, so pick your distance and enjoy. Free to play in a beautiful Brentwood park with rolling hills. A friendly course for all levels — bring a putter you trust.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Chainstar",
+    "lighting": "None"
+  }
+}

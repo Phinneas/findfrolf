@@ -1,0 +1,40 @@
+{
+  "name": "Houston",
+  "state": "Texas",
+  "stateSlug": "tx",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Big, flat, and full of distance holes — Houston's disc golf runs from open river parks to wooded church campuses. We're publishing the metro's best first.",
+  "introParagraphs": [
+    "Houston disc golf is bigger than it looks on a map. T.C. Jester is the city's friendly 21-hole classic with distance holes and a blue-tee layout past 8,300 feet, while Texas Army Trail in Cypress and Agnes Moffitt's flat, tree-lined 21 holes round out the open-side of the scene.",
+    "Northside Christian in Spring is the hidden heavyweight — a church-campus course with USDGC-style par 4s, tight woods, and four water hazards. All four of our published Houston courses are free.",
+    "New here? Agnes Moffitt is the friendliest intro; Northside is the test."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "texas-army-trail", "x": 36, "y": 34, "isGold": true },
+    { "rank": 2, "courseSlug": "tc-jester", "x": 52, "y": 48, "isGold": false },
+    { "rank": 3, "courseSlug": "northside-christian", "x": 60, "y": 30, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The distance course", "tag": "Big arms", "courseSlugs": ["texas-army-trail"] },
+    { "title": "The hidden test", "tag": "Serious golf", "courseSlugs": ["northside-christian"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 2, "name": "Houston" },
+    { "count": 1, "name": "Cypress" },
+    { "count": 1, "name": "Spring" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the Houston metro?", "answer": "Around <b>88 courses</b> across the metro. We're publishing the best first — 4 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in Houston?", "answer": "<b>Texas Army Trail</b> in Cypress and <b>Northside Christian</b> in Spring top the published list — one a long open test, the other a wooded championship challenge." },
+    { "question": "Are Houston's disc golf courses free?", "answer": "Yes — all four of our published courses (T.C. Jester, Texas Army Trail, Agnes Moffitt, Northside Christian) are free to play." },
+    { "question": "What's the best beginner course in Houston?", "answer": "Agnes Moffitt — flat, tree-lined, and friendly from the red tees. T.C. Jester is another accessible option with plenty of room." }
+  ],
+  "nearbyCities": [
+    { "name": "San Antonio", "courseCount": "52 courses", "distance": "200 mi", "slug": "#" },
+    { "name": "Austin", "courseCount": "52 courses", "distance": "165 mi", "slug": "/tx/austin" },
+    { "name": "Dallas–Fort Worth", "courseCount": "110 courses", "distance": "240 mi", "slug": "/tx/dallas-fort-worth" }
+  ]
+}

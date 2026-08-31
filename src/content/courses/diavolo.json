@@ -1,144 +1,241 @@
 {
-  "name": "Diavolo at New Hope Park",
+  "name": "Diavolo at New Hope",
   "code": "NC-0142",
-  "city": "Apex",
+  "city": "Cary",
   "state": "North Carolina",
-  "citySlug": "apex",
+  "citySlug": "raleigh",
   "stateSlug": "nc",
-  "area": "Apex",
-
+  "area": "Cary",
   "location": {
-    "address": "1 New Hope Church Rd, Apex, NC 27523",
-    "lat": 35.7465,
-    "lng": -78.8925
+    "address": "2584 New Hope Church Rd, Cary, NC 27519",
+    "lat": 35.8159,
+    "lng": -78.9216
   },
-
-  "holes": 18,
-  "par": 62,
-  "totalFeet": 8140,
+  "holes": 22,
+  "par": 75,
+  "parSource": "map",
+  "totalFeet": 7184,
   "courseLength": "long",
   "difficulty": "Hard",
-  "difficultyRating": 5,
-
+  "difficultyRating": 4,
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
-  "pdgaTier": "A",
+  "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
-      "url": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
-      "alt": "Wooded fairway at Diavolo disc golf course in Apex, NC",
-      "caption": "Loblolly pine corridor on the back nine"
+      "url": "/images/course-placeholder.svg",
+      "alt": "Diavolo at New Hope — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
     }
   ],
-  "heroImage": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
-  "thumbnail": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
-
-  "rating": 4.9,
-  "reviewCount": 1284,
-
-  "tags": ["Wooded", "Technical", "PDGA A-Tier", "Free parking", "Dog friendly", "Editor's pick"],
-
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 7238,
+  "tags": [
+    "Wooded",
+    "Championship",
+    "Water hazards",
+    "Fusion holes",
+    "Long"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
     "water": false,
     "lighting": false,
-    "proShop": true,
-    "dogFriendly": true,
-    "cartFriendly": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
     "handicapAccessible": false,
     "camping": false
   },
-
-  "yearEstablished": 2016,
-  "lastVerified": "2026-07-08",
-  "courseDesigner": null,
-
+  "yearEstablished": 2020,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Jay Pontier & Mike Sink",
   "teeType": "Concrete",
-  "basketType": "DISCatcher Pro",
-  "elevation": "Rolling",
-  "foliage": "Dense",
-
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": "Wooded",
   "aboutParagraphs": [
-    "Tucked into the pines of New Hope Park, Diavolo earns its name — Italian for \"devil\" — across 18 holes that punish the loose tee shot and reward the disciplined line. The front nine eases you in with open, rolling fairways; the back nine tightens into a corridor of loblolly pine where par feels like a small victory.",
-    "Designed in 2016 and refined every season by the local club, Diavolo hosts the region's premier A-tier each spring and stays busy with leagues the rest of the year. First-timers are welcome — there's a shorter set of tees — but bring a midrange you trust and leave the distance driver in the bag until you've learned the gaps."
+    "Diavolo at New Hope is the Triangle's championship showpiece — a long, wooded course in Cary that opened in October 2020 and immediately became one of the region's most respected tests. From the red tees it plays 7,184 feet at par 75, with four full layouts stretching past 10,000 feet from the longest pads.",
+    "Designed by Jay Pontier and Mike Sink, the course is built around water — two full water holes and three 'fusion' holes (10/11, 13/14, 17/18) that merge two baskets into one shared fairway. It's very cart friendly with restrooms on site.",
+    "Bring your longest discs and your discipline. This is the course where the Triangle's best players measure themselves."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 312, "character": "Open downhill opener, anhyzer line", "difficultyPct": 35 },
-    { "number": 2, "par": 4, "distance": 478, "character": "Dogleg right around the oak", "difficultyPct": 60 },
-    { "number": 3, "par": 3, "distance": 285, "character": "Tunnel shot, low ceiling", "difficultyPct": 58 },
-    { "number": 4, "par": 3, "distance": 340, "character": "Uphill to an island green", "difficultyPct": 78 },
-    { "number": 5, "par": 4, "distance": 505, "character": "Big arm hole, water left", "difficultyPct": 82 },
-    { "number": 6, "par": 3, "distance": 268, "character": "Short but guarded by schule", "difficultyPct": 40 },
-    { "number": 7, "par": 3, "distance": 355, "character": "Flat, straight, deceptively long", "difficultyPct": 55 },
-    { "number": 8, "par": 4, "distance": 462, "character": "Roller-friendly downhill bomb", "difficultyPct": 62 },
-    { "number": 9, "par": 3, "distance": 298, "character": "Turn-and-burn back to clubhouse", "difficultyPct": 45 },
-    { "number": 10, "par": 4, "distance": 540, "character": "The \"Devil's Elbow\" — blind double dogleg", "difficultyPct": 96, "isSignature": true },
-    { "number": 11, "par": 3, "distance": 330, "character": "Pin tucked behind the pine wall", "difficultyPct": 74 },
-    { "number": 12, "par": 3, "distance": 410, "character": "Long par 3, muddy when wet", "difficultyPct": 80 },
-    { "number": 13, "par": 4, "distance": 495, "character": "Tight gap off the tee, then open", "difficultyPct": 66 },
-    { "number": 14, "par": 3, "distance": 275, "character": "Breather — but OB road right", "difficultyPct": 42 },
-    { "number": 15, "par": 3, "distance": 360, "character": "Forehand line through the corridor", "difficultyPct": 64 },
-    { "number": 16, "par": 4, "distance": 520, "character": "The long climb, plays a stroke over", "difficultyPct": 85 },
-    { "number": 17, "par": 3, "distance": 305, "character": "Downhill to water-guarded green", "difficultyPct": 76 },
-    { "number": 18, "par": 3, "distance": 352, "character": "Island-green finisher, gallery hole", "difficultyPct": 79 }
-  ],
-
-  "layoutMapUrl": null,
-  "signatureHoleDescription": "Hole 10, the 'Devil's Elbow,' is a blind double dogleg through dense loblolly pine. You can't see the basket from the tee — trust the line, throw a controlled hyzer around the first corner, then navigate a second dogleg to a guarded green. It's the hole that gives the course its name.",
-  "localTips": "Bring extra discs — the pine rough swallows plastic. Hole 12 gets genuinely swampy after rain, wear good shoes. The pro shop on-site is friendly to first-time visitors and has loaner discs.",
-
-  "reviews": [
     {
-      "name": "Marcus T.",
-      "avatar": "https://i.pravatar.cc/100?img=12",
-      "verified": true,
-      "stars": 5,
-      "date": "3 days ago",
-      "text": "Took my buddy here for his second-ever round and we both had a blast — challenging but never mean. The pines on the back nine at golden hour are the best stretch of disc golf in the Carolinas."
+      "number": 1,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet — a gentle woodsy opener.",
+      "difficultyPct": 28
     },
     {
-      "name": "Priya R.",
-      "avatar": "https://i.pravatar.cc/100?img=45",
-      "verified": true,
-      "stars": 5,
-      "date": "1 week ago",
-      "text": "Hole 10, the Devil's Elbow, is worth the trip on its own. Bring extra discs — that blind dogleg ate two of mine. Pro shop staff were super friendly to a first-time visitor."
+      "number": 2,
+      "par": 3,
+      "distance": 154,
+      "character": "154 feet, the shortest hole on the card.",
+      "difficultyPct": 14
     },
     {
-      "name": "Dale K.",
-      "avatar": "https://i.pravatar.cc/100?img=33",
-      "verified": true,
-      "stars": 4,
-      "date": "2 weeks ago",
-      "text": "Course is immaculate and the layout is brilliant. Knocked a star because hole 12 gets genuinely swampy after rain — wear good shoes. Otherwise a bucket-list track."
+      "number": 3,
+      "par": 4,
+      "distance": 357,
+      "character": "357 feet — the first par 4, a clean two-shotter.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "distance": 554,
+      "character": "554 feet of par 5 to stretch the arm.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, straight and wooded.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 236,
+      "character": "236 feet with a guarded green.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, a brief breather.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet through the pines.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 501,
+      "character": "501 feet — the first water hazard looms.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet — start of the first fusion pair.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet — its fusion twin shares the fairway.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 500,
+      "character": "500 feet of par 4 — a placed drive is everything.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet — the second fusion pair begins.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, its twin converging on the same green.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, straight and fair.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "distance": 615,
+      "character": "The signature: 615 feet, the longest hole at Diavolo.",
+      "difficultyPct": 72,
+      "isSignature": true
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet — the final fusion pair begins.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 307,
+      "character": "307 feet, its twin finishing the set.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet — the bonus holes keep the round alive.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet, one of the longer par 3s.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 241,
+      "character": "241 feet, a clean line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 22,
+      "par": 5,
+      "distance": 581,
+      "character": "581 feet of closing par 5 with water in play.",
+      "difficultyPct": 70
     }
   ],
-
-  "tournaments": [
-    { "name": "Carolina Spring Open", "tier": "PDGA A-Tier", "date": "14 Jun" },
-    { "name": "New Hope Doubles", "tier": "C-Tier", "date": "09 Aug" },
-    { "name": "Devil's Elbow Classic", "tier": "B-Tier", "date": "18 Oct" }
-  ],
-
-  "nearbyCourseSlugs": ["mary-moore-searight", "zilker-park"],
-
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 16 is the longest at Diavolo at 615 feet — a par 5 that threads the wooded heart of the course with water never far away. Three committed shots, no shortcuts, and a finish that rewards everything the round has taught you. It's the hole that made the Triangle's newest big course famous.",
+  "localTips": "Four layouts from red to pink — red is the standard loop, the longest layout stretches past 10,000 feet. Two water holes and three fusion pairs (10/11, 13/14, 17/18) make course knowledge matter. Very cart friendly with restrooms on site. Verify current pay status before you go.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
   "isBeginnerFriendly": false,
   "isWooded": true,
   "isOpen": false,
-
   "facts": {
-    "parking": "Free lot",
+    "parking": "On-site lot",
     "restrooms": "Yes",
-    "proShop": "On-site",
-    "dogs": "Leashed OK",
-    "baskets": "DISCatcher Pro",
-    "lighting": "None",
-    "hours": "Dawn-dusk"
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
   }
 }

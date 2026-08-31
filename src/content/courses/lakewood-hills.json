@@ -1,0 +1,212 @@
+{
+  "name": "Lakewood Hills",
+  "code": "MN-1004",
+  "city": "White Bear Lake",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "White Bear Lake",
+  "location": {
+    "address": "2110 Orchard Ave, White Bear Lake, MN 55110",
+    "lat": 45.0404,
+    "lng": -93.0107
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 4391,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Lakewood Hills — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 5611,
+  "tags": [
+    "Wooded",
+    "Rolling hills",
+    "Free",
+    "Dual tees"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2003,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Chuck Kennedy & Jordan Sorenson",
+  "teeType": "Concrete",
+  "basketType": "Chainstar",
+  "elevation": "Rolling hills",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Lakewood Hills is the White Bear Lake favorite — a front nine of rolling hills and trees, a back nine that goes fully wooded, and dual tees on most holes that let every level find their distance. From the standard pins it plays 4,391 feet at par 54.",
+    "Free to play with concrete tees and Chainstar baskets, it's the kind of course where a putter and a midrange are almost enough — and where the back nine's woods quietly demand your full attention.",
+    "Quick, friendly, and endlessly replayable: a lunch-break loop that locals never tire of."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 176,
+      "character": "176 feet, a gentle opener.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 266,
+      "character": "266 feet with the hills starting.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 188,
+      "character": "188 feet, a clean line.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, straight and fair.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 248,
+      "character": "248 feet with a guarded green.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 219,
+      "character": "219 feet, a placed midrange.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 368,
+      "character": "The signature: 368 feet, the longest hole at Lakewood Hills.",
+      "difficultyPct": 44,
+      "isSignature": true
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, fair and wooded.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 163,
+      "character": "163 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet — the back nine goes wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet through the timber.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 164,
+      "character": "164 feet, a brief breather.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet with the trees closing in.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 194,
+      "character": "194 feet, a clean corridor.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 335,
+      "character": "335 feet — the woods tighten.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 311,
+      "character": "311 feet, straight and demanding.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet with a guarded approach.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet to finish the wooded 18.",
+      "difficultyPct": 26
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 7 is the longest at Lakewood Hills at 368 feet — a front-nine par 3 that asks for a full midrange off the rolling hills before the back nine's woods take over. It's the hole that hints at what's coming and the one that keeps first-timers coming back.",
+  "localTips": "Dual tees on most holes let you choose the distance. The back nine is the wooded half — bring your accuracy. Free to play and quick enough for a lunch break.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Chainstar",
+    "lighting": "None"
+  }
+}

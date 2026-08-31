@@ -14,9 +14,10 @@
   },
 
   "holes": 18,
-  "par": 60,
-  "totalFeet": 7800,
-  "courseLength": "long",
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 5157,
+  "courseLength": "medium",
   "difficulty": "Hard",
   "difficultyRating": 4,
 
@@ -29,13 +30,13 @@
 
   "photos": [
     {
-      "url": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
-      "alt": "Wooded fairway at Mary Moore Searight disc golf course",
-      "caption": "Cedar corridor on the back nine"
+      "url": "/images/course-placeholder.svg",
+      "alt": "Mary Moore Searight — photo coming soon",
+      "caption": "Placeholder — upgrade when a real photo becomes available"
     }
   ],
-  "heroImage": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
-  "thumbnail": "https://www.innovadiscs.com/wp-content/uploads/2022/12/IMG_4521-scaled.jpg",
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
 
   "rating": 4.8,
   "reviewCount": 2104,
@@ -64,62 +65,37 @@
   "foliage": "Dense",
 
   "aboutParagraphs": [
-    "Mary Moore Searight is Austin's crown jewel of wooded disc golf. Eighteen holes carved through dense cedar and oak corridor, where every shot demands a disciplined line and the slightest miss kicks into unforgiving rough. The front nine plays shorter and friendlier; the back nine tightens the screws with tunnel shots that'll test your accuracy more than your arm.",
-    "Maintained year-round by the Austin Disc Golf Club, the course hosts a PDGA B-tier each spring and weekly tags leagues the rest of the season. First-timers are welcome on the short tees, but bring a midrange you trust and leave the distance driver in the bag until you've read the gaps.",
-    "After rain, hole 12 turns into a creek-side adventure. Wear shoes you don't mind getting muddy and carry extra plastic."
+    "Mary Moore Searight is Austin's crown jewel of wooded disc golf. Eighteen holes carved through dense cedar and oak corridor, where every shot demands a disciplined line and the slightest miss kicks into unforgiving rough. The two par 4s — 543 feet on hole 3 and 471 on hole 12 — are where the course stretches its legs; the rest is a relentless test of accuracy over distance.",
+    "The course is a public park, free to play with concrete tees and DISCatcher baskets, and the creek comes into play on the low-lying holes after rain. It's maintained and loved by the local scene, and first-timers should bring a midrange they trust and leave the distance driver in the bag.",
+    "After rain, the low-lying fairways turn into a creek-side adventure. Wear shoes you don't mind getting muddy and carry extra plastic."
   ],
 
   "holeData": [
-    { "number": 1, "par": 3, "distance": 295, "character": "Open warmup, slight anhyzer", "difficultyPct": 30 },
-    { "number": 2, "par": 4, "distance": 460, "character": "Dogleg left through cedars", "difficultyPct": 62 },
-    { "number": 3, "par": 3, "distance": 270, "character": "Tunnel shot, low ceiling", "difficultyPct": 55 },
-    { "number": 4, "par": 3, "distance": 330, "character": "Uphill through the gap", "difficultyPct": 70 },
-    { "number": 5, "par": 4, "distance": 485, "character": "Big arm hole, OB path right", "difficultyPct": 78 },
-    { "number": 6, "par": 3, "distance": 255, "character": "Short but guarded by schule", "difficultyPct": 38 },
-    { "number": 7, "par": 3, "distance": 340, "character": "Flat, straight, deceptively long", "difficultyPct": 52 },
-    { "number": 8, "par": 4, "distance": 445, "character": "Roller-friendly downhill", "difficultyPct": 60 },
-    { "number": 9, "par": 3, "distance": 285, "character": "Turn back to clubhouse", "difficultyPct": 42 },
-    { "number": 10, "par": 4, "distance": 520, "character": "The 'Cedar Chute' — blind dogleg right", "difficultyPct": 95, "isSignature": true },
-    { "number": 11, "par": 3, "distance": 315, "character": "Pin tucked behind oak wall", "difficultyPct": 72 },
-    { "number": 12, "par": 3, "distance": 395, "character": "Long par 3, creek crossing", "difficultyPct": 80 },
-    { "number": 13, "par": 4, "distance": 470, "character": "Tight gap off tee, then opens", "difficultyPct": 64 },
-    { "number": 14, "par": 3, "distance": 260, "character": "Breather — but OB road right", "difficultyPct": 40 },
-    { "number": 15, "par": 3, "distance": 350, "character": "Forehand line through corridor", "difficultyPct": 62 },
-    { "number": 16, "par": 4, "distance": 505, "character": "The long climb, plays a stroke over", "difficultyPct": 83 },
-    { "number": 17, "par": 3, "distance": 290, "character": "Downhill to guarded green", "difficultyPct": 74 },
-    { "number": 18, "par": 3, "distance": 340, "character": "Island-green finisher, gallery hole", "difficultyPct": 77 }
+    { "number": 1, "par": 3, "distance": 300, "character": "300 feet through the cedars to open.", "difficultyPct": 32 },
+    { "number": 2, "par": 3, "distance": 282, "character": "282 feet — the corridor tightens early.", "difficultyPct": 34 },
+    { "number": 3, "par": 4, "distance": 543, "character": "The signature: 543 feet, the longest hole on the course, two precise shots through the cedar.", "difficultyPct": 72, "isSignature": true },
+    { "number": 4, "par": 3, "distance": 228, "character": "228 feet, a clean midrange line.", "difficultyPct": 22 },
+    { "number": 5, "par": 3, "distance": 185, "character": "185 feet — a short, guarded ace run.", "difficultyPct": 18 },
+    { "number": 6, "par": 3, "distance": 184, "character": "184 feet, the shortest on the card.", "difficultyPct": 16 },
+    { "number": 7, "par": 3, "distance": 249, "character": "249 feet with the rough framing the pin.", "difficultyPct": 30 },
+    { "number": 8, "par": 3, "distance": 231, "character": "231 feet — accuracy beats power.", "difficultyPct": 26 },
+    { "number": 9, "par": 3, "distance": 390, "character": "390 feet, the longest par 3 on the front nine.", "difficultyPct": 48 },
+    { "number": 10, "par": 3, "distance": 261, "character": "261 feet back toward the heart of the course.", "difficultyPct": 32 },
+    { "number": 11, "par": 3, "distance": 216, "character": "216 feet through a tight gap.", "difficultyPct": 24 },
+    { "number": 12, "par": 4, "distance": 471, "character": "471 feet — the back-nine par 4 that stretches the legs.", "difficultyPct": 66 },
+    { "number": 13, "par": 3, "distance": 249, "character": "249 feet with the cedars closing in.", "difficultyPct": 32 },
+    { "number": 14, "par": 3, "distance": 267, "character": "267 feet — the tunnel demands a committed throw.", "difficultyPct": 38 },
+    { "number": 15, "par": 3, "distance": 330, "character": "330 feet, one of the longer par 3s.", "difficultyPct": 44 },
+    { "number": 16, "par": 3, "distance": 255, "character": "255 feet, straight and unforgiving.", "difficultyPct": 34 },
+    { "number": 17, "par": 3, "distance": 216, "character": "216 feet — keep it in the fairway.", "difficultyPct": 26 },
+    { "number": 18, "par": 3, "distance": 300, "character": "300 feet to finish through the oaks.", "difficultyPct": 36 }
   ],
 
   "layoutMapUrl": null,
-  "signatureHoleDescription": "Hole 10, the 'Cedar Chute,' is a blind dogleg right through a tight cedar corridor. You can't see the basket from the tee — trust the line, throw your most reliable hyzer, and listen for the chains.",
-  "localTips": "After rain, hole 12 turns into a creek-side adventure. Wear shoes you don't mind getting muddy and carry extra plastic. The back nine plays much harder than the front — save your mental energy.",
+  "signatureHoleDescription": "Hole 3 is the longest at Mary Moore at 543 feet — a par 4 that demands two precise shots through the dense cedar corridor. From the tee you're threading a gap; from the landing zone you're finding a pin tucked behind the rough. It's the hole that sets the tone for the whole round: distance is never the problem here, accuracy is.",
+  "localTips": "After rain, the low-lying fairways turn into a creek-side adventure — wear shoes you don't mind getting muddy and carry extra plastic. The par 3s are the heart of the course; the two par 4s on holes 3 and 12 are where the round can get away from you.",
 
-  "reviews": [
-    {
-      "name": "Marcus T.",
-      "avatar": "https://i.pravatar.cc/100?img=12",
-      "verified": true,
-      "stars": 5,
-      "date": "3 days ago",
-      "text": "Best wooded course in Texas, hands down. The back nine at golden hour through the cedars is pure disc golf. Bring your accuracy game — distance won't save you here."
-    },
-    {
-      "name": "Priya R.",
-      "avatar": "https://i.pravatar.cc/100?img=45",
-      "verified": true,
-      "stars": 5,
-      "date": "1 week ago",
-      "text": "Hole 10, the Cedar Chute, is worth the trip on its own. Lost two discs in the rough but had the best round of my life. Club members were super welcoming to a first-time visitor."
-    },
-    {
-      "name": "Dale K.",
-      "avatar": "https://i.pravatar.cc/100?img=33",
-      "verified": true,
-      "stars": 4,
-      "date": "2 weeks ago",
-      "text": "Course is immaculate and the layout is brilliant. Knocked a star because hole 12 gets genuinely swampy after rain. Otherwise a bucket-list track."
-    }
-  ],
+  "reviews": [],
 
   "tournaments": [
     { "name": "Hill Country Open", "tier": "PDGA B-Tier", "date": "21 Jun" },

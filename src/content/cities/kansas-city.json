@@ -1,0 +1,36 @@
+{
+  "name": "Kansas City",
+  "state": "Missouri",
+  "stateSlug": "mo",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The bi-state metro with the river-view championship course and a compact technical gem in the north. We're publishing KC's best first.",
+  "introParagraphs": [
+    "Kansas City disc golf centers on Water Works — the newly redesigned course with skyline and river views, serious elevation, and a 2024 layout that made the city a destination. Bad Rock Creek in Liberty is the compact technical favorite with tall-grass OB and ponds, and Heritage Park across the border in Olathe, Kansas is the heavily wooded third leg.",
+    "All three of our published KC courses are free.",
+    "New here? Bad Rock Creek to warm up, Water Works for the full experience."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "water-works", "x": 40, "y": 34, "isGold": true },
+    { "rank": 2, "courseSlug": "bad-rock-creek", "x": 54, "y": 30, "isGold": false },
+    { "rank": 3, "courseSlug": "heritage-park", "x": 34, "y": 58, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The new flagship", "tag": "Skyline views", "courseSlugs": ["water-works"] },
+    { "title": "The technical gem", "tag": "Tight lines", "courseSlugs": ["bad-rock-creek"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 1, "name": "Kansas City, MO" },
+    { "count": 1, "name": "Liberty" },
+    { "count": 1, "name": "Olathe, KS" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the Kansas City metro?", "answer": "Around <b>45 courses</b> across the bi-state metro. We're publishing the best first — 3 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in Kansas City?", "answer": "<b>Water Works</b> — the redesigned course with skyline and river views, and the metro's highest-rated published round. Bad Rock Creek is the beloved technical favorite." },
+    { "question": "Are Kansas City's disc golf courses free?", "answer": "Yes — all three of our published courses (Water Works, Bad Rock Creek, Heritage Park) are free to play." },
+    { "question": "What's the best beginner course in Kansas City?", "answer": "Heritage Park in Olathe is the most approachable of the published trio — heavily wooded but fair. Bad Rock Creek from the red tees is another friendly option." }
+  ],
+  "nearbyCities": []
+}

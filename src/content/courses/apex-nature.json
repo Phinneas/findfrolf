@@ -1,0 +1,213 @@
+{
+  "name": "Apex Nature Park",
+  "code": "NC-1008",
+  "city": "Apex",
+  "state": "North Carolina",
+  "citySlug": "raleigh",
+  "stateSlug": "nc",
+  "area": "Apex",
+  "location": {
+    "address": "2600 Evans Rd, Apex, NC 27502",
+    "lat": 35.7132,
+    "lng": -78.9058
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 3545,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Apex Nature Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 3475,
+  "tags": [
+    "Wooded",
+    "Short",
+    "Creek hazards",
+    "Free",
+    "Beginner-friendly"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2014,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "M. Watson / P. Fitzsimons / K. Lyon",
+  "teeType": "Rubber",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Apex Nature Park meanders through mature hardwoods and 100-year-old pine trees — a short, scenic 18 at 3,545 feet from the red tees, with a creek coming into play on several back-nine holes. Three sets of pads (red shortest, blue longest) let every level choose their challenge.",
+    "Free to play with rubber tees and DISCatcher baskets, it's the friendly side of the Triangle's disc golf scene — wooded enough to be interesting, short enough to be fun. The nature-park setting makes every round feel like a walk in the woods, because it is one.",
+    "Bring a putter and a midrange; the trees do the rest."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 170,
+      "character": "170 feet through the hardwoods to start.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 190,
+      "character": "190 feet, a clean early line.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet with the trees framing the pin.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 344,
+      "character": "344 feet — the only par 4, a real two-shotter.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 158,
+      "character": "158 feet, a short putter shot.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 130,
+      "character": "130 feet — the shortest hole on the card.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet with a guarded green.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 165,
+      "character": "165 feet, a clean line.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, straight and wooded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 120,
+      "character": "120 feet — a gentle ace run.",
+      "difficultyPct": 8
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 187,
+      "character": "187 feet, fair and friendly.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 184,
+      "character": "184 feet through the pines.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 142,
+      "character": "142 feet, a brief breather.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 316,
+      "character": "316 feet — the second par 4, creek lurking.",
+      "difficultyPct": 46,
+      "isSignature": true
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 156,
+      "character": "156 feet with the creek nearby.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, a clean finish line.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 212,
+      "character": "212 feet to complete the nature walk.",
+      "difficultyPct": 22
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 15 is Apex Nature's longest at 316 feet — a par 4 that brings the creek into play and gives the round its one true decision hole. A drive down the hardwood corridor, then an approach that has to respect the water. It's the hole that makes this friendly park course feel like a real course.",
+  "localTips": "Three tee sets — red is the friendly loop, blue adds distance. The creek is in play on the back nine, especially after rain. Free to play in a beautiful nature park; bring a putter and a midrange and enjoy the walk.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

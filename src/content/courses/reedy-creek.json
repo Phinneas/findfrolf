@@ -1,0 +1,212 @@
+{
+  "name": "Reedy Creek Park",
+  "code": "NC-1003",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "nc",
+  "area": "Charlotte",
+  "location": {
+    "address": "2900 Rocky River Rd, Charlotte, NC",
+    "lat": 35.275997,
+    "lng": -80.71801
+  },
+  "holes": 18,
+  "par": 55,
+  "parSource": "map",
+  "totalFeet": 4885,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Reedy Creek Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 5492,
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Free",
+    "Oldest"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1991,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Dynamic Veteran",
+  "elevation": "Moderately Hilly",
+  "foliage": "Heavily Wooded",
+  "aboutParagraphs": [
+    "Reedy Creek is one of Charlotte's oldest and most-played courses — heavily wooded with wide fairways, creeks, and blind holes that have been testing locals since 1991. From the standard pins it plays a friendly 4,885 feet at par 55, but the trees make every shot a decision.",
+    "Free to play with concrete tees and Dynamic Veteran baskets on moderately hilly ground, Reedy Creek is the kind of course that's approachable on paper and sneaky in the woods. The wide fairways forgive a little, the creeks don't.",
+    "It's a staple of the Charlotte scene — the course where many of the city's best players took their first discs."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet through the woods to start.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet, straight and wooded.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 277,
+      "character": "277 feet with a wide fairway.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet — the trees frame the approach.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, flat and fair.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet — a creek bed lurks near the line.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, short and guarded.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 198,
+      "character": "198 feet — a genuine birdie look.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, straight and wooded.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet — the longest par 3 so far.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 208,
+      "character": "208 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "distance": 378,
+      "character": "The signature: 378 feet, the only par 4 at Reedy Creek.",
+      "difficultyPct": 52,
+      "isSignature": true
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 327,
+      "character": "327 feet — the woods tighten.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 343,
+      "character": "343 feet with a blind landing zone.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 229,
+      "character": "229 feet, a clean midrange line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 284,
+      "character": "284 feet — the creeks make an appearance.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 331,
+      "character": "331 feet to finish through the timber.",
+      "difficultyPct": 42
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 13 is the only par 4 at Reedy Creek — 378 feet that give the round its one true two-shot hole. From the tee it's a placed drive down a wide fairway; from there, a guarded approach to a basket the trees surround. It's the hole that breaks up the par 3 rhythm and the one that usually decides the round.",
+  "localTips": "One of Charlotte's oldest courses — expect blind holes and creeks, so play the safe lines. The par 3s are the heart of the round; hole 13 is your one par 4 chance. Free to play, moderately hilly, and genuinely walkable.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Dynamic Veteran",
+    "lighting": "None"
+  }
+}

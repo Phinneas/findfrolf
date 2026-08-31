@@ -1,10 +1,31 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Schema from '../components/Schema.astro';
-import { getAllCourses, courseUrl } from '../lib/data';
+import { getAllCourses, getAllCities, courseUrl, cityUrl } from '../lib/data';
 import { mapboxAccessToken } from '../lib/mapConfig';
 
 const allCourses = await getAllCourses();
+const allCities = await getAllCities();
+
+const citiesWithCounts = allCities
+  .map((city) => ({
+    ...city,
+    courseCount: allCourses.filter((c) => c.data.citySlug === city.id).length,
+  }))
+  .sort((a, b) => b.courseCount - a.courseCount);
+
+// Derive a state list (with live course counts) for the "by state" browse,
+// targeting the "disc golf course finder by state" variant. Built from the
+// live course set so every listed state has at least one mapped course.
+const statesMap = new Map();
+for (const c of allCourses) {
+  const key = c.data.stateSlug;
+  if (!statesMap.has(key)) {
+    statesMap.set(key, { state: c.data.state, stateSlug: c.data.stateSlug, courseCount: 0 });
+  }
+  statesMap.get(key).courseCount++;
+}
+const statesWithCounts = [...statesMap.values()].sort((a, b) => b.courseCount - a.courseCount);
 
 // Serialize course data for client-side filtering
 const courseData = allCourses.map((c) => ({
@@ -59,18 +80,94 @@ const finderSchemas = [
       'query-input': 'required name=search_term_string',
     },
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I find disc golf courses near me?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Tap the 'Near me' button on this page and the disc golf course finder sorts every course by distance from your location — you'll see the closest courses instantly, no typing required.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What does the FindFrolf disc golf course finder do?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The finder lets you search disc golf courses by city or course name, filter by difficulty, hole count, course length, cost, and amenities (restrooms, lighting, pro shop, dog-friendly, cart-friendly, accessible, camping), and explore every course on an interactive map.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is the disc golf course finder free?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes — the finder is completely free, and so are most of the courses it lists. Each course page shows whether it is free to play or pay-to-play, with the current green fee.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How are disc golf courses ranked on FindFrolf?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Courses are ranked by player rating by default, and by distance when you use the near-me feature. Every course includes real hole-by-hole data, verified ratings, and editorial notes from local players.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Which cities does the disc golf course finder cover?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The finder currently covers 15 metro areas — Austin, Denver, Portland, Chicago, Seattle, Charlotte, Houston, Phoenix, Nashville, Raleigh–Durham, Dallas–Fort Worth, Kansas City, Atlanta, Cincinnati, and Minneapolis–St. Paul — with more courses added every week.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I browse the disc golf course finder by state?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Yes — the Browse by state section lists every state we've mapped, each linking to a state page with the top-rated courses up front and a link back into the full finder to filter by difficulty, holes, cost, or amenities.",
+        },
+      },
+    ],
+  },
 ];
 ---
 
 <BaseLayout
-  title="Disc Golf Course Finder — Search & Map | Find Frolf"
-  description="Find disc golf courses near you with our interactive map and filters. Search by city, difficulty, hole count, amenities, and more."
+  title="Disc Golf Course Finder — Find Courses Near You | Find Frolf"
+  description="Find a disc golf course near you with the Find Frolf course finder. Search 64+ courses by city, difficulty, hole count, and amenities — or use the map to discover courses nearby."
 >
   <Fragment slot="head">
+    <link rel="canonical" href="https://findfrolf.com/finder" />
     <Schema schema={finderSchemas} />
   </Fragment>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css" rel="stylesheet" />
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js" defer></script>
+
+  <!-- SEO hero -->
+  <section class="max-w-[1240px] mx-auto px-8 pt-14 pb-8">
+    <div class="eyebrow mb-3">§ The disc golf course finder</div>
+    <h1 class="font-display font-normal text-[clamp(38px,6vw,64px)] leading-[0.95] tracking-[-2px] text-forest-deep max-w-[820px] mb-5">
+      Find a disc golf course <em class="italic text-clay">near you</em>
+    </h1>
+    <p class="text-lg text-ink-soft max-w-[660px] leading-[1.7] mb-7">
+      FindFrolf's disc golf course finder covers 64 courses across 15 metro areas — search by city,
+      filter by difficulty, hole count, cost, and amenities, or hit <b>near me</b> to see the closest
+      courses ranked by distance. Every course is mapped, rated, and reviewed by the locals who play it.
+    </p>
+    <div class="flex gap-3 flex-wrap">
+      <button id="hero-near-me-btn" class="bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors cursor-pointer">
+        📍 Find courses near me
+      </button>
+      <a href="#by-city" class="bg-forest text-cream px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors">
+        Browse by city ↓
+      </a>
+    </div>
+  </section>
 
   <div class="finder-page" data-courses={JSON.stringify(courseData)} data-mapbox-token={mapboxAccessToken}>
     <!-- Search header -->
@@ -204,6 +301,110 @@ const finderSchemas = [
       </div>
     </div>
   </div>
+
+  <!-- How it works -->
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ How the finder works</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-10 max-w-[760px]">
+      From search to first tee in <em class="italic text-clay">three steps</em>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-7 shadow-stamp">
+        <div class="font-display font-bold text-[40px] text-clay leading-none mb-4">01</div>
+        <h3 class="font-display font-semibold text-[19px] text-forest-deep mb-2">Search or locate</h3>
+        <p class="text-sm text-ink-soft leading-[1.65]">Type a city, course, or state — or tap <b>near me</b> and we'll use your location to find the closest courses automatically.</p>
+      </div>
+      <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-7 shadow-stamp">
+        <div class="font-display font-bold text-[40px] text-clay leading-none mb-4">02</div>
+        <h3 class="font-display font-semibold text-[19px] text-forest-deep mb-2">Filter to your round</h3>
+        <p class="text-sm text-ink-soft leading-[1.65]">Narrow by difficulty, holes, length, free or paid, and the amenities that matter — restrooms, lighting, pro shop, dog-friendly, cart-friendly, accessible, camping.</p>
+      </div>
+      <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-7 shadow-stamp">
+        <div class="font-display font-bold text-[40px] text-clay leading-none mb-4">03</div>
+        <h3 class="font-display font-semibold text-[19px] text-forest-deep mb-2">Pick your course</h3>
+        <p class="text-sm text-ink-soft leading-[1.65]">Compare ratings on the list or map, then open the course page for real hole-by-hole data, the signature hole, and tips from locals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by city -->
+  <section id="by-city" class="bg-cream-2 border-t border-b border-line">
+    <div class="max-w-[1240px] mx-auto px-8 py-20">
+      <div class="eyebrow mb-3">§ Disc golf course finder by city</div>
+      <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+        Browse disc golf courses <em class="italic text-clay">by city</em>
+      </h2>
+      <p class="text-base text-ink-soft max-w-[580px] mb-10">
+        The best courses in each metro, ranked and reviewed. More cities added every week.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[18px]">
+        {citiesWithCounts.map((city) => (
+          <a
+            href={cityUrl(city)}
+            class="flex justify-between items-center bg-paper border-[1.5px] border-forest rounded-[10px] px-5 py-[18px] no-clip text-inherit transition-all hover:bg-cream hover:-translate-y-0.5"
+          >
+            <div>
+              <div class="font-display font-semibold text-[19px] text-forest-deep">{city.data.name}</div>
+              <div class="font-mono text-[11px] text-moss uppercase mt-0.5">{city.data.state}</div>
+            </div>
+            <div class="text-right">
+              <div class="font-display font-bold text-[22px] text-clay leading-none">{city.courseCount}</div>
+              <div class="font-mono text-[10px] text-moss uppercase mt-0.5">courses</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by state -->
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ Disc golf course finder by state</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+      Browse disc golf courses <em class="italic text-clay">by state</em>
+    </h2>
+    <p class="text-base text-ink-soft max-w-[580px] mb-10">
+      Rather start at the state level? Each state page lists every course we've mapped there, with the
+      top-rated picks up front and a link back into the full finder to filter by difficulty, holes, cost,
+      or amenities.
+    </p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-[18px]">
+      {statesWithCounts.map((s) => (
+        <a
+          href={`/${s.stateSlug}`}
+          class="flex justify-between items-center bg-paper border-[1.5px] border-forest rounded-[10px] px-5 py-[18px] no-clip text-inherit transition-all hover:bg-cream hover:-translate-y-0.5"
+        >
+          <div>
+            <div class="font-display font-semibold text-[19px] text-forest-deep">{s.state}</div>
+            <div class="font-mono text-[11px] text-moss uppercase mt-0.5">{s.courseCount} courses</div>
+          </div>
+          <div class="font-display font-bold text-[22px] text-clay leading-none">→</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ Good to know</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep max-w-[760px] mb-8">
+      Disc golf course finder, <em class="italic text-clay">answered</em>
+    </h2>
+    <div class="mt-2">
+      {[
+        ['How do I find disc golf courses near me?', "Tap the <b>Near me</b> button on this page and the finder sorts every course by distance from your location — you'll see the closest courses instantly, no typing required."],
+        ['What does the FindFrolf disc golf course finder do?', 'Search by city or course name, filter by difficulty, hole count, length, cost, and amenities, and explore every course on an interactive map.'],
+        ['Is the disc golf course finder free?', "Yes — the finder is free, and so are most of the courses it lists. Each course page shows whether it's free to play or pay-to-play."],
+        ['How are disc golf courses ranked?', 'By player rating by default, and by distance when you use near me. Every course includes real hole-by-hole data and verified ratings.'],
+        ['Can I browse the disc golf course finder by state?', 'Yes — scroll to <b>Browse by state</b> below the city list. Each state page shows every course we\'ve mapped there, with the top-rated picks up front and a link back into the full finder to filter by difficulty, holes, cost, or amenities.'],
+      ].map(([q, a]) => (
+        <div class="border-b border-line py-6">
+          <div class="font-display font-semibold text-[20px] text-forest-deep mb-2">{q}</div>
+          <div class="text-[15px] text-ink-soft leading-[1.65] max-w-[820px]" set:html={a}></div>
+        </div>
+      ))}
+    </div>
+  </section>
 
   <style>
     /* ── Finder page layout ── */
@@ -1137,6 +1338,15 @@ const finderSchemas = [
           }
         );
       });
+
+      // Hero "find courses near me" button
+      const heroNearMeBtn = document.getElementById('hero-near-me-btn');
+      if (heroNearMeBtn) {
+        heroNearMeBtn.addEventListener('click', () => {
+          nearMeBtn.click();
+          document.getElementById('finder-search').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      }
 
       // Filter toggle
       filterToggleBtn.addEventListener('click', () => {

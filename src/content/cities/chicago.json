@@ -1,0 +1,37 @@
+{
+  "name": "Chicago",
+  "state": "Illinois",
+  "stateSlug": "il",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The Canyons, the Oaks, and a deep bench of park gems — Chicago's disc golf lives in the suburbs and it is seriously good. We're publishing the metro's best first.",
+  "introParagraphs": [
+    "Chicago's disc golf scene is a suburban circuit with a superstar: The Canyons at Dellwood Park in Lockport, a 27-hole championship layout with variant holes, water hazards, and an on-site pro shop that draws players from across the Midwest. The Oaks in Mokena offers another 27-hole marathon through giant oaks, free and friendly.",
+    "Katherine Legge in Hinsdale is the gentle park-style course with a dog park attached, and Highland Park in Joliet rounds out the top tier with wooded-and-open variety. All four of our published Chicago courses are free.",
+    "New here? Start at Katherine Legge, then work your way up to The Canyons — it's a full day."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "the-canyons", "x": 32, "y": 62, "isGold": true },
+    { "rank": 2, "courseSlug": "the-oaks", "x": 44, "y": 52, "isGold": false },
+    { "rank": 3, "courseSlug": "katherine-legge", "x": 56, "y": 34, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The championship 27", "tag": "Bucket list", "courseSlugs": ["the-canyons"] },
+    { "title": "The friendly park round", "tag": "Family friendly", "courseSlugs": ["katherine-legge"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 1, "name": "Lockport" },
+    { "count": 1, "name": "Mokena" },
+    { "count": 1, "name": "Hinsdale" },
+    { "count": 1, "name": "Joliet" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the Chicago metro?", "answer": "Around <b>65 courses</b> across the metro and its suburbs. We're publishing the best first — 4 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in Chicago?", "answer": "<b>The Canyons at Dellwood Park</b> — a 27-hole championship layout with variant holes, water hazards, and an on-site pro shop. It's the highest-rated course in the metro by a wide margin." },
+    { "question": "Are Chicago's disc golf courses free?", "answer": "Yes — all four of our published courses (The Canyons, The Oaks, Katherine Legge, Highland Park) are free to play." },
+    { "question": "What's the best beginner course in Chicago?", "answer": "Katherine Legge in Hinsdale — a short, friendly park course that also doubles as a dog park. The Oaks is another approachable option with its 27 gentle holes." }
+  ],
+  "nearbyCities": []
+}

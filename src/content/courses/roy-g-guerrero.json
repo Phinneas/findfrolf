@@ -1,0 +1,117 @@
+{
+  "name": "Roy G. Guerrero Disc Golf Course",
+  "code": "TX-1144",
+  "city": "Austin",
+  "state": "Texas",
+  "citySlug": "austin",
+  "stateSlug": "tx",
+  "area": "East Austin",
+
+  "location": {
+    "address": "400 Grove Blvd, Austin, TX 78741",
+    "lat": 30.2452,
+    "lng": -97.7068
+  },
+
+  "holes": 18,
+  "par": 61,
+  "parSource": "map",
+  "totalFeet": 9588,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": "215076",
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Roy G. Guerrero Disc Golf Course — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.7,
+  "reviewCount": 7243,
+
+  "tags": ["Long", "Open", "Big-arm", "Free", "River views"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 2012,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Mike Olse",
+
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": "Flat",
+  "foliage": null,
+
+  "aboutParagraphs": [
+    "Roy G. Guerrero is Austin's big-arm proving ground — an open, sprawling course along the Colorado River that Mike Olse redesigned into a modern distance test. From the long tees it stretches nearly 9,600 feet at par 61, with holes that reward power and punish hesitation.",
+    "It's free to play with Mach X baskets and concrete tees, and the flat, open fairways mean you can see your mistakes from 300 feet away. The wind off the river is the course's other designer — it turns routine par 3s into guesswork.",
+    "Bring your longest drivers and a full water bottle. This is where Austin's arms come to measure themselves."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 4, "distance": 720, "character": "The long opener — 720 feet of open river parkland to loosen the arm.", "difficultyPct": 60 },
+    { "number": 2, "par": 3, "distance": 339, "character": "339 feet, flat and open; the wind makes it play longer.", "difficultyPct": 40 },
+    { "number": 3, "par": 3, "distance": 444, "character": "A big par 3 at 444 feet — a true driver's hole.", "difficultyPct": 55 },
+    { "number": 4, "par": 3, "distance": 378, "character": "378 feet, straight and true.", "difficultyPct": 42 },
+    { "number": 5, "par": 4, "distance": 849, "character": "The first monster — 849 feet of par 4 that rewards a massive drive.", "difficultyPct": 72 },
+    { "number": 6, "par": 3, "distance": 327, "character": "327 feet; the breeze adds a disc of distance.", "difficultyPct": 36 },
+    { "number": 7, "par": 4, "distance": 738, "character": "738 feet of open fairway — grip it and rip it.", "difficultyPct": 66 },
+    { "number": 8, "par": 3, "distance": 351, "character": "351 feet, open and fast.", "difficultyPct": 40 },
+    { "number": 9, "par": 3, "distance": 372, "character": "372 feet — one of the longer par 3s, all air.", "difficultyPct": 44 },
+    { "number": 10, "par": 3, "distance": 368, "character": "368 feet of open par 3.", "difficultyPct": 42 },
+    { "number": 11, "par": 4, "distance": 777, "character": "777 feet; the biggest arms on the card get a chance to shine.", "difficultyPct": 68 },
+    { "number": 12, "par": 3, "distance": 335, "character": "335 feet, flat and straightforward.", "difficultyPct": 36 },
+    { "number": 13, "par": 3, "distance": 368, "character": "368 feet — the wind is the only obstacle.", "difficultyPct": 42 },
+    { "number": 14, "par": 4, "distance": 801, "character": "801-foot par 4; three good shots to the pin.", "difficultyPct": 70 },
+    { "number": 15, "par": 4, "distance": 790, "character": "790 feet — nearly a par 5 in all but name.", "difficultyPct": 69 },
+    { "number": 16, "par": 3, "distance": 405, "character": "405 feet of par 3 — driver off the tee is the move.", "difficultyPct": 50 },
+    { "number": 17, "par": 3, "distance": 395, "character": "395 feet, straight, open, and long for a 3.", "difficultyPct": 48 },
+    { "number": 18, "par": 4, "distance": 831, "character": "The signature closer — 831 feet of open fairway, the longest hole on the card.", "difficultyPct": 75, "isSignature": true }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the longest on the card at 831 feet — an open, big-arm finish that sums up Roy G. Mike Olse's redesign is all about distance and wind, and this closer asks for both: a massive drive, a confident approach, and one last putt with the river breeze in your face.",
+
+  "localTips": "Roy G is a big-arm course — the long layout stretches nearly 9,600 feet, so pace yourself and pack water. Expect wind off the river on exposed holes, and give yourself time: this is not a quick round. Free to play, Mach X baskets, concrete tees.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": ["zilker-park"],
+
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

@@ -14,7 +14,7 @@ import FAQ from '../../components/city/FAQ.astro';
 import NearbyCities from '../../components/city/NearbyCities.astro';
 import CTACard from '../../components/city/CTACard.astro';
 import { getCollection } from 'astro:content';
-import { getCity, getCoursesByCity, getCourse, courseUrl } from '../../lib/data';
+import { getCity, getCoursesByCity, getCourse, courseUrl, deriveCityStats } from '../../lib/data';
 
 export async function getStaticPaths() {
   const cities = await getCollection('cities');
@@ -31,6 +31,10 @@ if (!cityData) {
 }
 
 const courses = await getCoursesByCity(city!);
+
+// Headline stats are derived from the live course set, not hand-maintained
+// numbers in the city JSON, so the page can never contradict its listings.
+const { quickFacts, statsAside } = deriveCityStats(courses);
 
 // Resolve map pins with course data
 const resolvedPins = await Promise.all(
@@ -90,23 +94,25 @@ const citySchema = {
     lede={cityData.data.lede}
   />
 
-  <QuickFacts facts={cityData.data.quickFacts} />
+  <QuickFacts facts={quickFacts} />
 
-  <IntroProse paragraphs={cityData.data.introParagraphs} stats={cityData.data.statsAside} />
+  <IntroProse paragraphs={cityData.data.introParagraphs} stats={statsAside} cityName={cityData.data.name} />
 
-  <MapBand pins={resolvedPins} />
+  <MapBand pins={resolvedPins} cityName={cityData.data.name} />
 
-  <CourseRegister courses={courses} totalCount={47} />
+  <CourseRegister courses={courses} totalCount={courses.length} cityName={cityData.data.name} />
 
-  <BestFor items={cityData.data.bestFor} />
+  <BestFor items={cityData.data.bestFor} cityName={cityData.data.name} />
 
-  <LocalScene events={cityData.data.events} clubs={cityData.data.clubs} />
+  {(cityData.data.events.length > 0 || cityData.data.clubs.length > 0) && (
+    <LocalScene events={cityData.data.events} clubs={cityData.data.clubs} cityName={cityData.data.name} />
+  )}
 
-  <BrowseByArea areas={cityData.data.areas} />
+  {cityData.data.areas.length > 0 && <BrowseByArea areas={cityData.data.areas} cityName={cityData.data.name} />}
 
-  <FAQ faqs={cityData.data.faqs} />
+  {cityData.data.faqs.length > 0 && <FAQ faqs={cityData.data.faqs} cityName={cityData.data.name} />}
 
-  <NearbyCities cities={cityData.data.nearbyCities} />
+  {cityData.data.nearbyCities.length > 0 && <NearbyCities cities={cityData.data.nearbyCities} stateName={cityData.data.state} />}
 
-  <CTACard />
+  <CTACard cityName={cityData.data.name} />
 </BaseLayout>

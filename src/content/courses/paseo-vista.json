@@ -1,0 +1,214 @@
+{
+  "name": "Paseo Vista",
+  "code": "AZ-1003",
+  "city": "Chandler",
+  "state": "Arizona",
+  "citySlug": "phoenix",
+  "stateSlug": "az",
+  "area": "Chandler",
+  "location": {
+    "address": "Paseo Vista Recreation Area, Chandler, AZ 85286",
+    "lat": 33.2518,
+    "lng": -111.8258
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 4135,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Paseo Vista — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 3445,
+  "tags": [
+    "Open",
+    "Wide open",
+    "Free",
+    "Beginner-friendly",
+    "Former landfill",
+    "Mandos"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2009,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "Paseo Vista is Chandler's wide-open recreation-area course built on a former landfill — 18 holes at 4,135 feet and par 56 from the short tees, with two concrete culvert mandos adding the only real obstacles to the open ground. Eleven holes have two tees for extra variety.",
+    "Free to play with concrete tees and DISCatcher baskets, it's very cart friendly and one of the friendliest rounds in the Phoenix metro. The openness makes it ideal for beginners and for practicing your distance control.",
+    "A simple, sunny, welcoming course — bring a putter and enjoy the wide-open desert air."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet of open ground to start.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 195,
+      "character": "195 feet, straight and fair.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 175,
+      "character": "175 feet, a brief breather.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet, wide open.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 460,
+      "character": "The signature: 460 feet, the longest hole at Paseo Vista.",
+      "difficultyPct": 48,
+      "isSignature": true
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet, a clean line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 170,
+      "character": "170 feet, straight and true.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 195,
+      "character": "195 feet, fair and open.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 150,
+      "character": "150 feet — the shortest hole on the card.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, wide and friendly.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 165,
+      "character": "165 feet, a clean approach.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 160,
+      "character": "160 feet, straight and fair.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 345,
+      "character": "345 feet — the mando comes into play.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a placed midrange.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 155,
+      "character": "155 feet, a brief breather.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, wide open.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, fair and demanding.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 350,
+      "character": "350 feet of par 4 to finish.",
+      "difficultyPct": 42
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 5 is the longest at Paseo Vista at 460 feet — a par 4 that stretches across the wide-open recreation area and gives the course its one true two-shot moment. It's the hole where the openness stops being scenery and starts being strategy.",
+  "localTips": "Wide open and beginner-friendly — a great first course. The long tees stretch it past 5,400 feet for more challenge. Two culvert mandos are the only real obstacles; free to play and very cart friendly.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

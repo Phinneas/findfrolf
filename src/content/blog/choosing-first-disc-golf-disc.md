@@ -15,7 +15,7 @@ faqItems:
     answer: "No. You only need one disc to play. Most casual players carry 3–5 discs (a putter, midrange, and fairway driver), but a single midrange is enough for your first several rounds."
 ---
 
-Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start, and picking it is simpler than you think.
+Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start, and picking it is simpler than you think. (New to the sport entirely? Start with our [how to play disc golf](/blog/how-to-play-disc-golf) beginner's guide, then come back here.)
 
 ## The One-Disc Start
 
@@ -66,3 +66,13 @@ After 10–15 rounds, you'll start noticing gaps in your game. That's when to ad
 2. **A fairway driver** (for longer tee shots when you're ready)
 
 Don't rush it. Master your midrange first — it'll teach you more about form than any bag full of discs.
+
+## Find a Course and Throw It
+
+You've got the disc — now you need a place to throw it. Use our [disc golf course finder](/finder) to locate a beginner-friendly course near you, or jump straight into a city guide:
+
+- [Disc golf in Austin, TX](/tx/austin) — free, open, and beginner-friendly
+- [Disc golf in Charlotte, NC](/nc/charlotte) — one of the densest course networks in the country
+- [Disc golf in Seattle, WA](/wa/seattle) — forgiving park courses to learn on
+
+Once you've played a few rounds, read our [disc golf scoring guide](/blog/disc-golf-scoring-guide) so you can track your progress — and the [official rules](/blog/disc-golf-rules-explained) for when OB lines start mattering.

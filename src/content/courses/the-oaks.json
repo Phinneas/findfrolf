@@ -1,0 +1,276 @@
+{
+  "name": "The Oaks",
+  "code": "IL-1002",
+  "city": "Mokena",
+  "state": "Illinois",
+  "citySlug": "chicago",
+  "stateSlug": "il",
+  "area": "Mokena",
+  "location": {
+    "address": "10901 La Porte Rd, Mokena, IL 60448",
+    "lat": 41.526188,
+    "lng": -87.884988
+  },
+  "holes": 27,
+  "par": 85,
+  "parSource": "map",
+  "totalFeet": 6159,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "The Oaks — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 3412,
+  "tags": [
+    "Wooded",
+    "Giant oaks",
+    "Free",
+    "27 holes",
+    "All skill levels"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2003,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Mixed",
+  "basketType": "Mach 5",
+  "elevation": "Mostly Flat",
+  "foliage": "Moderately Wooded",
+  "aboutParagraphs": [
+    "The Oaks is Mokena's 27-hole gem — a course that winds through giant oak trees with genuine shot variety and a par 85 to match its three loops of nine. It's the rare course that works for everyone: short enough for beginners, varied enough to keep experienced players honest.",
+    "Free to play on mostly flat ground, with maps available at the clubhouse and gym. The oaks define every hole — shaping lines, guarding greens, and catching wayward discs.",
+    "Twenty-seven holes means you can play a quick nine or make a day of it. Most locals say the best plan is all three loops, in order."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet between the oaks to start.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet with an oak guarding the pin.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 197,
+      "character": "197 feet — a short, clean line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet through the canopy.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 207,
+      "character": "207 feet, flat and straightforward.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet with the trees closing in.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 188,
+      "character": "188 feet — a genuine ace run.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 233,
+      "character": "233 feet to close the first loop.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "distance": 357,
+      "character": "The signature: 357 feet, the longest hole at The Oaks, a true par 4.",
+      "difficultyPct": 42,
+      "isSignature": true
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 320,
+      "character": "320 feet of par 4 — a placed drive sets up the birdie.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 286,
+      "character": "286 feet; the oaks frame the fairway.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 152,
+      "character": "152 feet — the shortest hole on the card.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet, the longest par 3 so far.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet with a guarded green.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 166,
+      "character": "166 feet — an easy birdie look.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, straight through the timber.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 310,
+      "character": "310 feet to close the second loop.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet — the third loop opens softly.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet, clean and open.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 160,
+      "character": "160 feet — a short putter shot.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet with the oaks at the pin.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 23,
+      "par": 3,
+      "distance": 198,
+      "character": "198 feet, flat and fair.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 24,
+      "par": 3,
+      "distance": 199,
+      "character": "199 feet — almost the same hole, again on purpose.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 25,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, the longest par 3 of the third loop.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 26,
+      "par": 3,
+      "distance": 192,
+      "character": "192 feet, a clean line to finish strong.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 27,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet to complete all 27 holes.",
+      "difficultyPct": 22
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 10 is The Oaks' longest at 357 feet — the first real par 4 and the hole that separates the three loops from a simple pitch-and-putt. A drive through the giant oaks, then an approach to a basket guarded by the trees that give the course its name. It's the definition of what makes this course more than a walk in the park.",
+  "localTips": "Play all three loops for the full 27-hole experience — maps are at the clubhouse and gym. The course is free and mostly flat, so it's walkable and friendly for beginners. Watch for the oaks on the fairways; they shape every line.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 5",
+    "lighting": "None"
+  }
+}

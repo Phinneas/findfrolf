@@ -1,0 +1,233 @@
+{
+  "name": "Seven Oaks Park",
+  "code": "TN-1001",
+  "city": "Nashville",
+  "state": "Tennessee",
+  "citySlug": "nashville",
+  "stateSlug": "tn",
+  "area": "Nashville",
+  "location": {
+    "address": "Seven Oaks Park, Nashville, TN 37217",
+    "lat": 36.107987,
+    "lng": -86.699484
+  },
+  "holes": 21,
+  "par": 64,
+  "parSource": "map",
+  "totalFeet": 5737,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Seven Oaks Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 6738,
+  "tags": [
+    "Varied terrain",
+    "Free",
+    "21 holes",
+    "Busy"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1989,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Ken Folger & Steve Hardie",
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": "Mixed - Open/Woods",
+  "aboutParagraphs": [
+    "Seven Oaks is Nashville's most beloved course — exquisitely maintained, beautiful, and always busy, with 21 holes that swing from wide open to dense woods. The standard loop plays 5,737 feet at par 64, including three bonus holes that locals treat as a warm-down after the main 18.",
+    "Free to play with concrete tees and DISCatcher baskets on varied terrain that keeps every hole distinct. The course has been a fixture since 1989 and it shows — the fairways are groomed, the signs are clear, and the regulars are friendly.",
+    "Come early to beat the crowd; on a nice afternoon this is the busiest course in town for good reason."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 279,
+      "character": "279 feet of open fairway to start.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, straight and fair.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet — the woods start edging in.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, a clean early line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 345,
+      "character": "345 feet — one of the longer par 3s.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 219,
+      "character": "219 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 198,
+      "character": "198 feet, short and guarded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet with the trees framing the line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 237,
+      "character": "237 feet, straight and wooded.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet, a clean corridor.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet with a guarded green.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, fair and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet through the woods.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet — the longest par 3 so far.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, straight and true.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 335,
+      "character": "335 feet with the terrain rolling.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, a clean line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 465,
+      "character": "465 feet — the main 18's only par 4.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 275,
+      "character": "Bonus hole: 275 feet of extra fairway.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 231,
+      "character": "Bonus hole: 231 feet, a warm-down putter shot.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 260,
+      "character": "The signature closer: 260 feet to finish all 21.",
+      "difficultyPct": 30,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 21 is Seven Oaks' bonus-loop finisher — 260 feet of well-groomed fairway that captures everything the course does well: clean lines, fair distance, and immaculate maintenance. It's the hole that keeps you playing just one more round after the main 18 is done.",
+  "localTips": "The busiest course in Nashville — go early on weekends. The three bonus holes are numbered I–III on the course signs; they're the perfect warm-down. Free to play, varied terrain from open to dense woods, and the regulars are famously friendly.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

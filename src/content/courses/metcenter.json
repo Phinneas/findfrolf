@@ -1,0 +1,117 @@
+{
+  "name": "MetCenter Disc Golf Course",
+  "code": "TX-1143",
+  "city": "Austin",
+  "state": "Texas",
+  "citySlug": "austin",
+  "stateSlug": "tx",
+  "area": "East Austin",
+
+  "location": {
+    "address": "7701 Metropolis Dr, Austin, TX 78744",
+    "lat": 30.2054,
+    "lng": -97.6966
+  },
+
+  "holes": 18,
+  "par": 67,
+  "parSource": "pdga",
+  "totalFeet": 9784,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": "28094",
+  "pdgaTier": null,
+  "websiteUrl": "https://metcenter.com",
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "MetCenter Disc Golf Course — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.3,
+  "reviewCount": 4075,
+
+  "tags": ["OB-heavy", "Technical", "Creek hazards", "Long", "Free", "Cart friendly"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 2009,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "John Houck",
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Flat",
+  "foliage": "Sparse",
+
+  "aboutParagraphs": [
+    "MetCenter is Austin's long, flat, OB-drenched test on the city's east side. The PDGA description says it best: lots of OB, with most holes playing along a small creek. There's nowhere to hide — the open fairways make every mistake visible and every hero shot tempting.",
+    "The 2020 redesign kept the course's identity while sharpening the routing. At nearly 9,800 feet from the long tees and par 67, it's a marathon, and the city of Austin lists a two-and-a-half-hour round as the baseline. Bring water, bring patience, and bring a game plan.",
+    "Free to play with concrete tees and DISCatcher baskets, MetCenter is where Austin players go to test their OB discipline before tournament season."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 4, "distance": 645, "character": "645 feet of flat open air to start — the OB lines announce themselves early.", "difficultyPct": 60 },
+    { "number": 2, "par": 4, "distance": 649, "character": "649 feet; OB hugs the left of the drive.", "difficultyPct": 62 },
+    { "number": 3, "par": 3, "distance": 289, "character": "289-footer where the sparse tree line offers the only relief from the open.", "difficultyPct": 35 },
+    { "number": 4, "par": 4, "distance": 543, "character": "543 feet — OB right punishes the wayward flick.", "difficultyPct": 55 },
+    { "number": 5, "par": 4, "distance": 654, "character": "654 feet of placement golf; the creek runs along the fairway.", "difficultyPct": 65 },
+    { "number": 6, "par": 4, "distance": 574, "character": "574 feet, flat and fast.", "difficultyPct": 56 },
+    { "number": 7, "par": 4, "distance": 732, "character": "The signature: 732 feet, the longest hole on the card, with OB waiting on the aggressive line.", "difficultyPct": 85, "isSignature": true },
+    { "number": 8, "par": 4, "distance": 570, "character": "570 feet back toward the campus — keep the drive in bounds and it's two easy shots.", "difficultyPct": 55 },
+    { "number": 9, "par": 3, "distance": 338, "character": "338 feet; a long par 3 that plays with the wind.", "difficultyPct": 48 },
+    { "number": 10, "par": 3, "distance": 315, "character": "315 feet, straight and open.", "difficultyPct": 40 },
+    { "number": 11, "par": 4, "distance": 705, "character": "705-foot par 4 — the creek crosses the fairway at the landing zone.", "difficultyPct": 72 },
+    { "number": 12, "par": 4, "distance": 550, "character": "550 feet; OB left makes the hyzer line the safe play.", "difficultyPct": 58 },
+    { "number": 13, "par": 3, "distance": 260, "character": "The shortest hole on the card at 260 feet — a genuine ace run.", "difficultyPct": 22 },
+    { "number": 14, "par": 4, "distance": 673, "character": "673 feet; the 2020 routing keeps the fairway honest.", "difficultyPct": 68 },
+    { "number": 15, "par": 4, "distance": 606, "character": "606 feet, with the water waiting past the pin.", "difficultyPct": 64 },
+    { "number": 16, "par": 3, "distance": 355, "character": "355 feet of open par 3 — a strong putter shot or a controlled mid.", "difficultyPct": 45 },
+    { "number": 17, "par": 4, "distance": 649, "character": "649 feet; the creek returns for the stretch run.", "difficultyPct": 66 },
+    { "number": 18, "par": 4, "distance": 677, "character": "677 feet to close it out — a final test of the OB discipline that defines MetCenter.", "difficultyPct": 70 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 7 is the longest on the card at 732 feet, and it's where MetCenter's identity comes into focus. The 2020 redesign kept the flat, open character but sharpened the OB that frames every line — go for it, and the creek will collect the mistake. It's the hole that makes you respect the course's simple creed: lots of OB, most holes along the creek, par 67.",
+
+  "localTips": "Allow at least two and a half hours — this is a long, OB-heavy round. The course is flat and very cart friendly, so the walking is easy even if the scoring isn't. After the 2020 redesign, safe, placed drives beat hero shots every time.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "No on-site",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

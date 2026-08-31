@@ -8,14 +8,15 @@ interface NearbyCity {
 
 interface Props {
   cities: NearbyCity[];
+  stateName: string;
 }
 
-const { cities } = Astro.props;
+const { cities, stateName } = Astro.props;
 ---
 
 <section class="bg-cream-2 border-t border-b border-line">
   <div class="max-w-[1240px] mx-auto px-8 py-[70px]">
-    <div class="eyebrow mb-3.5">§ Keep exploring Texas</div>
+    <div class="eyebrow mb-3.5">§ Keep exploring {stateName}</div>
     <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-7">
       Disc golf in <em class="italic text-clay">nearby cities</em>
     </h2>

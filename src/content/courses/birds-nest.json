@@ -1,0 +1,276 @@
+{
+  "name": "Bird's Nest Disc Park",
+  "code": "CO-1002",
+  "city": "Arvada",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Arvada",
+  "location": {
+    "address": "17925 W 64th Ave, Arvada, CO 80403",
+    "lat": 39.8153,
+    "lng": -105.2018
+  },
+  "holes": 27,
+  "par": 82,
+  "parSource": "map",
+  "totalFeet": 9461,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Bird's Nest Disc Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.1,
+  "reviewCount": 5956,
+  "tags": [
+    "Long",
+    "Open",
+    "Free",
+    "27 holes",
+    "Disc-golf-only"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Mixed",
+  "basketType": "Mach 5",
+  "elevation": "Rolling",
+  "foliage": "Mixed - Open/Tree-lined",
+  "aboutParagraphs": [
+    "Bird's Nest is a 27-hole, disc-golf-only park on 40 acres of Jefferson County open space in Arvada — one of the most-played courses in the country. Rolling pastures, tree-lined holes, and real elevation change spread across nearly 9,500 feet at par 82.",
+    "Free to play and very cart friendly, with restrooms on site and a layout that flows without crossing itself. The 27 holes are one continuous loop that gives you room to air it out on the open holes and forces precision on the lined ones.",
+    "It's the rare course that's both a workout and a pleasure — bring water, bring your whole bag, and bring a friend."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 459,
+      "character": "459 feet — a big open opener.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet, a clean early line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 406,
+      "character": "406 feet across the rolling pasture.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 476,
+      "character": "476 feet — the longest par 3 so far.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 337,
+      "character": "337 feet with the trees edging in.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 389,
+      "character": "389 feet, open and fast.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 421,
+      "character": "421 feet — the elevation makes it honest.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 304,
+      "character": "304 feet, a lined corridor.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 256,
+      "character": "256 feet, a genuine birdie look.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 221,
+      "character": "221 feet — a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, straight and fair.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 340,
+      "character": "340 feet through the tree line.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 357,
+      "character": "357 feet with a guarded green.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 540,
+      "character": "540 feet — the only par 4, a true two-shotter.",
+      "difficultyPct": 62,
+      "isSignature": true
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 254,
+      "character": "254 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 284,
+      "character": "284 feet with the pastures opening.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 459,
+      "character": "459 feet — the long holes keep coming.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 304,
+      "character": "304 feet to close the first 18.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 341,
+      "character": "341 feet — the bonus nine starts.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 344,
+      "character": "344 feet, open and rolling.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet with the views to the foothills.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 337,
+      "character": "337 feet, a lined fairway.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 23,
+      "par": 3,
+      "distance": 493,
+      "character": "493 feet — the longest of the bonus nine.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 24,
+      "par": 3,
+      "distance": 419,
+      "character": "419 feet across the last big pasture.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 25,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, a short breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 26,
+      "par": 3,
+      "distance": 354,
+      "character": "354 feet, straight and true.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 27,
+      "par": 3,
+      "distance": 288,
+      "character": "288 feet to complete all 27.",
+      "difficultyPct": 32
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 14 is Bird's Nest's only par 4 — 540 feet that breaks up the par-3 rhythm and gives the big arms their moment. A drive across the rolling pasture, then a long approach to a basket the tree line guards. It's the hole that keeps the round interesting between the marathons and the breathers.",
+  "localTips": "One of the most-played courses in the country — expect a crowd on weekends. It's free, very cart friendly, and the 27 holes make it a real workout. Holes 19–27 are a little lighter on infrastructure, so pack what you need.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 5",
+    "lighting": "None"
+  }
+}

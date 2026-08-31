@@ -1,0 +1,38 @@
+{
+  "name": "Raleigh–Durham",
+  "state": "North Carolina",
+  "stateSlug": "nc",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The Triangle's disc golf runs from the championship woods of Diavolo to the classic short course everyone learns on. We're publishing the region's best first.",
+  "introParagraphs": [
+    "The Triangle's crown jewel is Diavolo at New Hope in Cary — a 22-hole championship course opened in 2020 with water holes and fusion pairs, already one of the most-loved courses in the region. Cedar Hills Rotary Park is the old-school wooded test from 1984, and Kentwood is the classic short course where generations of Raleigh players learned the game.",
+    "Apex Nature Park rounds out the top tier with its short, creek-crossed woodland loop. All four of our published Triangle courses are free.",
+    "New here? Kentwood to learn, Cedar Hills to test, Diavolo to be impressed."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "diavolo", "x": 44, "y": 38, "isGold": true },
+    { "rank": 2, "courseSlug": "cedar-hills", "x": 54, "y": 30, "isGold": false },
+    { "rank": 3, "courseSlug": "kentwood", "x": 48, "y": 52, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The championship round", "tag": "Bucket list", "courseSlugs": ["diavolo"] },
+    { "title": "The classic short course", "tag": "Learn the game", "courseSlugs": ["kentwood"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 2, "name": "Raleigh" },
+    { "count": 1, "name": "Cary" },
+    { "count": 1, "name": "Apex" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the Raleigh–Durham area?", "answer": "Around <b>35 courses</b> across the Triangle. We're publishing the best first — 4 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in the Triangle?", "answer": "<b>Diavolo at New Hope</b> in Cary — the 22-hole championship course with water and fusion holes, opened in 2020 and already the region's favorite." },
+    { "question": "Are the Triangle's disc golf courses free?", "answer": "Yes — all four of our published courses (Diavolo, Kentwood, Cedar Hills, Apex Nature) are free to play." },
+    { "question": "What's the best beginner course in the Triangle?", "answer": "Kentwood — the short, friendly classic in Raleigh where most local players started. Apex Nature Park is another gentle option." }
+  ],
+  "nearbyCities": [
+    { "name": "Charlotte", "courseCount": "50 courses", "distance": "130 mi", "slug": "/nc/charlotte" }
+  ]
+}

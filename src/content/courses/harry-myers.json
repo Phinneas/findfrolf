@@ -1,0 +1,214 @@
+{
+  "name": "Harry Myers 2.0",
+  "code": "TX-1146",
+  "city": "Rockwall",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "Rockwall",
+  "location": {
+    "address": "1400 E Washington St, Rockwall, TX 75087",
+    "lat": 32.9298,
+    "lng": -96.4496
+  },
+  "holes": 18,
+  "par": 64,
+  "parSource": "map",
+  "totalFeet": 5912,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Harry Myers 2.0 — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.6,
+  "reviewCount": 5370,
+  "tags": [
+    "Long",
+    "Wooded",
+    "Open",
+    "Elevation",
+    "Free",
+    "Houck design"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2007,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "John Houck",
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Elevation changes",
+  "foliage": "Mixed - Wooded/Open",
+  "aboutParagraphs": [
+    "Harry Myers 2.0 is the John Houck-designed gem of Rockwall — a long course in a well-maintained park with short and long holes, wooded and open stretches, and real elevation. From the standard pins it plays 5,912 feet at par 64, with three par 5s giving the big arms room.",
+    "Free to play with concrete tees and DISCatcher baskets, it's the kind of course that rewards a full bag: placement on the par 4s, power on the par 5s, and accuracy everywhere in between.",
+    "A proper Houck course — varied, fair, and never boring."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 342,
+      "character": "342 feet — a par 4 opener.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 242,
+      "character": "242 feet, a clean line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 168,
+      "character": "168 feet, the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, straight and fair.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet with the trees edging in.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 223,
+      "character": "223 feet, a placed midrange.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 297,
+      "character": "297 feet — the elevation starts.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 8,
+      "par": 5,
+      "distance": 740,
+      "character": "740 feet — the first par 5, a true three-shotter.",
+      "difficultyPct": 68
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 335,
+      "character": "335 feet of par 4.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 186,
+      "character": "186 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 508,
+      "character": "508 feet — a placed drive sets up the look.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 302,
+      "character": "302 feet of par 4 through the woods.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet, straight and true.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 181,
+      "character": "181 feet, a clean line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "distance": 618,
+      "character": "618 feet — the second marathon par 5.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 248,
+      "character": "248 feet with a guarded green.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 17,
+      "par": 5,
+      "distance": 609,
+      "character": "609 feet — the final par 5, elevation in play.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 311,
+      "character": "The signature: 311 feet to close the varied 18.",
+      "difficultyPct": 38,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 finishes Harry Myers at 311 feet — a par 3 that draws on everything the course has shown you: a line through the woods, a fair bit of elevation, and the calm to make the putt. It's the kind of closer that makes a good round feel complete.",
+  "localTips": "Three par 5s mean the big arms have their moments — the 740-footer on hole 8 is the main event. Free to play in a well-maintained park. The elevation is real, so wear grippy shoes.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

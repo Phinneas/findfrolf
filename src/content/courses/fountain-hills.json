@@ -1,0 +1,228 @@
+{
+  "name": "Fountain Hills DGC",
+  "code": "AZ-1001",
+  "city": "Fountain Hills",
+  "state": "Arizona",
+  "citySlug": "phoenix",
+  "stateSlug": "az",
+  "area": "Fountain Hills",
+  "location": {
+    "address": "12925 N Saguaro Blvd, Fountain Hills, AZ 85268",
+    "lat": 33.604028,
+    "lng": -111.714935
+  },
+  "holes": 20,
+  "par": 60,
+  "parSource": "map",
+  "totalFeet": 5415,
+  "courseLength": "medium",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Fountain Hills DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 3894,
+  "tags": [
+    "Scenic",
+    "Water hazards",
+    "Trees",
+    "Free",
+    "Iconic fountain",
+    "20 holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": true
+  },
+  "yearEstablished": 1981,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Fountain Hills is one of the most scenic courses in Arizona — 20 holes around a man-made lake beneath the iconic 300-foot fountain, with lots of trees, well-manicured grass, and nine water hazards in play. It's been a Phoenix-area classic since 1981.",
+    "Free to play with concrete tees and Mach X baskets, it's very cart friendly with restrooms and camping nearby. Multiple pin placements on many holes keep the round fresh, and the fountain's hourly show is a perfect mid-round break.",
+    "The water is the whole game — the lakes come into play on several holes, and the scenery makes even the bad shots worth it."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 199,
+      "character": "199 feet, a gentle opener by the grass.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 200,
+      "character": "200 feet, straight and fair.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 294,
+      "character": "294 feet with the trees framing.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 457,
+      "character": "The signature: 457 feet, the longest hole at Fountain Hills.",
+      "difficultyPct": 56,
+      "isSignature": true
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 163,
+      "character": "163 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 200,
+      "character": "200 feet with the lake glinting.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, straight and true.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 173,
+      "character": "173 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet with a guarded green.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, fair and open.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet — the water edges in.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 382,
+      "character": "382 feet — a big par 3.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 286,
+      "character": "286 feet with the trees closing.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, a clean corridor.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 373,
+      "character": "373 feet — the lake is in play.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 437,
+      "character": "437 feet, one of the longest par 3s.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 279,
+      "character": "279 feet, fair and demanding.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 322,
+      "character": "322 feet — the bonus holes keep it scenic.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 233,
+      "character": "233 feet to complete all 20.",
+      "difficultyPct": 24
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 5 is the longest at Fountain Hills at 457 feet — a par 3 that plays along the lake with the iconic fountain rising behind the basket. It's the most photographed hole in Arizona disc golf, and the water makes it far more nerve-wracking than the scenery suggests.",
+  "localTips": "The fountain goes up on the hour — time your visit. The lakes are in play on several holes, so bring your most reliable discs. Free to play, very cart friendly, restrooms and camping nearby.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 interface Hole {
-  number: number;
+  number: number | string;
   par: number;
   distance: number;
   character: string;
@@ -15,6 +15,10 @@ interface Props {
 }
 
 const { holes, totalPar, totalFeet } = Astro.props;
+
+// No hole-by-hole data yet (top-50 sourcing in progress) — hide the section
+// entirely rather than render an empty table.
+if (holes.length === 0) return null;
 
 function diffColor(pct: number): string {
   if (pct >= 70) return 'bg-clay';

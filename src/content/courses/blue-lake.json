@@ -1,0 +1,213 @@
+{
+  "name": "Blue Lake Regional Park",
+  "code": "OR-1004",
+  "city": "Fairview",
+  "state": "Oregon",
+  "citySlug": "portland",
+  "stateSlug": "or",
+  "area": "Fairview",
+  "location": {
+    "address": "21199 NE Blue Lake Rd, Fairview, OR 97024",
+    "lat": 45.55596,
+    "lng": -122.452416
+  },
+  "holes": 18,
+  "par": 69,
+  "parSource": "map",
+  "totalFeet": 10470,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": false,
+  "greenFee": "Pay to play",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Blue Lake Regional Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 3406,
+  "tags": [
+    "Long",
+    "Pay to play",
+    "Water hazards",
+    "Big-arm",
+    "No pets"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": true
+  },
+  "yearEstablished": 2012,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Feldberg / Christensen / Hagerty",
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Blue Lake is the longest course you'll play in the Portland metro — 10,470 feet at par 69 from the long pins, with eight holes over 600 feet and three par 5s that just keep going. It's a pay-to-play regional park course built by a who's who of Oregon disc golf, and it does not let up.",
+    "The mix is six par 3s, nine par 4s, and three par 5s, all on flat parkland that puts the length and the water in play. Bring your biggest discs and your best endurance; this is a marathon dressed as a round.",
+    "Dogs aren't allowed on the course, so plan accordingly — and give yourself a full morning for the loop."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 455,
+      "character": "455 feet to start — a fair par 4 to loosen up.",
+      "difficultyPct": 45
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 425,
+      "character": "425 feet of par 3 — a driver's hole right off the bat.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "distance": 540,
+      "character": "540 feet with the lake peeking in on the left.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet, straight and flat.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 590,
+      "character": "590 feet — the first true length test.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, a calm par 3 between the giants.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "distance": 945,
+      "character": "945 feet of par 5 — three big shots, no shortcuts.",
+      "difficultyPct": 78
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, a genuine birdie chance.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 525,
+      "character": "525 feet back toward the park entrance.",
+      "difficultyPct": 55
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet, flat and open.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 730,
+      "character": "730 feet — the par 4s are not messing around.",
+      "difficultyPct": 68
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 400,
+      "character": "400 feet of par 3, fully exposed.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "distance": 625,
+      "character": "625 feet with the water waiting on the aggressive line.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "distance": 930,
+      "character": "930 feet — the second marathon par 5.",
+      "difficultyPct": 76
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 750,
+      "character": "750 feet of par 4 — a three-shot hole in practice.",
+      "difficultyPct": 70
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 850,
+      "character": "850 feet — the biggest par 4 on the card.",
+      "difficultyPct": 74
+    },
+    {
+      "number": 17,
+      "par": 5,
+      "distance": 950,
+      "character": "The signature: 950 feet of closing par 5, the longest hole at Blue Lake.",
+      "difficultyPct": 82,
+      "isSignature": true
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 600,
+      "character": "600 feet to finish — the course doesn't shrink at the end.",
+      "difficultyPct": 62
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is Blue Lake's signature marathon: 950 feet of par 5 that runs the full length of the course's imagination. From the long pins it's three committed shots with the lake and the distance both in play — the kind of hole that makes the scorecard feel earned. It's the reason locals call this the longest round in the metro.",
+  "localTips": "Bring water, snacks, and your longest discs — this is a 10,000-foot round. It's pay to play, so check the park's day-use fee. No dogs on the course. Plan for at least two and a half hours and consider camping nearby for the full park experience.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "No pets",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

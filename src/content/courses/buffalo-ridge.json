@@ -1,0 +1,126 @@
+{
+  "name": "Buffalo Ridge Park",
+  "code": "AZ-1002",
+  "city": "Phoenix",
+  "state": "Arizona",
+  "citySlug": "phoenix",
+  "stateSlug": "az",
+  "area": "Phoenix",
+
+  "location": {
+    "address": "Buffalo Ridge Park, Phoenix, AZ 85022",
+    "lat": 33.6606,
+    "lng": -112.0463
+  },
+
+  "holes": 27,
+  "par": 81,
+  "parSource": "map",
+  "totalFeet": 8812,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Buffalo Ridge Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.2,
+  "reviewCount": 3739,
+
+  "tags": ["Elevation", "Rugged", "Blind holes", "Scenic", "Free", "27 holes"],
+
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 2001,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Jim Garnett / Karen Borges",
+
+  "teeType": "Mixed",
+  "basketType": "Mach 2",
+  "elevation": "Elevation changes",
+  "foliage": "Rugged",
+
+  "aboutParagraphs": [
+    "Buffalo Ridge is Phoenix's rugged mountain-adjacent course — elevation, blind holes, and great views across a long 18 alongside the mountain, plus the newer Alpha-9 loop for 27 holes total at par 81. It's the course where Phoenix players go for a workout with a view.",
+    "Free to play with mixed tees and Mach 2 baskets, with restrooms on site. The terrain is rough and real — this is desert disc golf at its most honest, with the mountain always watching.",
+    "The blind holes are the signature experience: you throw, you hike, you find out. Bring water and sturdy shoes."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 328, "character": "328 feet — the mountain looms from the start.", "difficultyPct": 40 },
+    { "number": 2, "par": 3, "distance": 311, "character": "311 feet, fair and rugged.", "difficultyPct": 38 },
+    { "number": 3, "par": 3, "distance": 328, "character": "328 feet with the elevation starting.", "difficultyPct": 42 },
+    { "number": 4, "par": 3, "distance": 175, "character": "175 feet, a brief breather.", "difficultyPct": 16 },
+    { "number": 5, "par": 3, "distance": 407, "character": "407 feet — one of the longer par 3s.", "difficultyPct": 50 },
+    { "number": 6, "par": 3, "distance": 359, "character": "359 feet, straight and demanding.", "difficultyPct": 44 },
+    { "number": 7, "par": 3, "distance": 256, "character": "256 feet with a blind landing.", "difficultyPct": 32 },
+    { "number": 8, "par": 3, "distance": 479, "character": "The signature: 479 feet, the longest hole at Buffalo Ridge.", "difficultyPct": 58, "isSignature": true },
+    { "number": 9, "par": 3, "distance": 321, "character": "321 feet, fair and rugged.", "difficultyPct": 40 },
+    { "number": 10, "par": 3, "distance": 355, "character": "355 feet with the views opening.", "difficultyPct": 44 },
+    { "number": 11, "par": 3, "distance": 339, "character": "339 feet — the terrain keeps coming.", "difficultyPct": 42 },
+    { "number": 12, "par": 3, "distance": 389, "character": "389 feet, straight and true.", "difficultyPct": 48 },
+    { "number": 13, "par": 3, "distance": 334, "character": "334 feet with a guarded green.", "difficultyPct": 42 },
+    { "number": 14, "par": 3, "distance": 390, "character": "390 feet — the blind holes return.", "difficultyPct": 48 },
+    { "number": 15, "par": 3, "distance": 346, "character": "346 feet, fair and demanding.", "difficultyPct": 44 },
+    { "number": 16, "par": 3, "distance": 301, "character": "301 feet, a clean line.", "difficultyPct": 36 },
+    { "number": 17, "par": 3, "distance": 262, "character": "262 feet, a brief breather.", "difficultyPct": 28 },
+    { "number": 18, "par": 3, "distance": 310, "character": "310 feet to close the long 18.", "difficultyPct": 38 },
+    { "number": 19, "par": 3, "distance": 344, "character": "344 feet — the Alpha-9 loop begins.", "difficultyPct": 42 },
+    { "number": 20, "par": 3, "distance": 363, "character": "363 feet with the mountain backdrop.", "difficultyPct": 44 },
+    { "number": 21, "par": 3, "distance": 363, "character": "363 feet, straight and rugged.", "difficultyPct": 44 },
+    { "number": 22, "par": 3, "distance": 330, "character": "330 feet, fair and demanding.", "difficultyPct": 40 },
+    { "number": 23, "par": 3, "distance": 328, "character": "328 feet with a guarded approach.", "difficultyPct": 40 },
+    { "number": 24, "par": 3, "distance": 294, "character": "294 feet, a clean line.", "difficultyPct": 34 },
+    { "number": 25, "par": 3, "distance": 206, "character": "206 feet, a brief breather.", "difficultyPct": 20 },
+    { "number": 26, "par": 3, "distance": 200, "character": "200 feet, straight and true.", "difficultyPct": 18 },
+    { "number": 27, "par": 3, "distance": 394, "character": "394 feet to complete all 27.", "difficultyPct": 48 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 8 is the longest at Buffalo Ridge at 479 feet — a par 3 that climbs with the course's best elevation and rewards the blind thrower with the mountain views below. It's the hole that defines the course: rugged, scenic, and honest about what desert disc golf asks of you.",
+
+  "localTips": "Bring water and sturdy shoes — the terrain is rugged and the blind holes mean hiking. The Alpha-9 loop (holes A–I) adds nine more for a full 27. Free to play with restrooms on site; the views are the real reward.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 2",
+    "lighting": "None"
+  }
+}

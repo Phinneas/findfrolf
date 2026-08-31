@@ -1,0 +1,41 @@
+{
+  "name": "Dallas–Fort Worth",
+  "state": "Texas",
+  "stateSlug": "tx",
+  "heroImage": "/images/course-placeholder.svg",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The biggest disc golf market in Texas — from the legendary 755-foot par 3 at Z Boaz to John Houck's long designs in the suburbs. We're publishing the metro's best first.",
+  "introParagraphs": [
+    "DFW is disc golf at Texas scale. Z Boaz in Fort Worth is the legendary one — 19 holes with real elevation and the most famous hole in the state, a 755-foot par 3. Harry Myers in Rockwall is John Houck's long, varied design with three par 5s, and Veterans Park in Arlington has been a community anchor since 1988.",
+    "Fritz Park in Irving brings Delaware Creek and a pecan orchard to the table, and Tom McCutcheon in Lewisville is the friendly open course for working on distance control. All five of our published DFW courses are free.",
+    "New here? Tom McCutcheon to warm up, then Z Boaz to see what Texas distance golf really means."
+  ],
+  "mapPins": [
+    { "rank": 1, "courseSlug": "z-boaz", "x": 36, "y": 44, "isGold": true },
+    { "rank": 2, "courseSlug": "harry-myers", "x": 60, "y": 36, "isGold": false },
+    { "rank": 3, "courseSlug": "veterans", "x": 46, "y": 56, "isGold": false }
+  ],
+  "bestFor": [
+    { "title": "The legendary hole", "tag": "Bucket list", "courseSlugs": ["z-boaz"] },
+    { "title": "The Houck design", "tag": "Varied", "courseSlugs": ["harry-myers"] }
+  ],
+  "events": [],
+  "clubs": [],
+  "areas": [
+    { "count": 1, "name": "Fort Worth" },
+    { "count": 1, "name": "Arlington" },
+    { "count": 1, "name": "Rockwall" },
+    { "count": 1, "name": "Irving" },
+    { "count": 1, "name": "Lewisville" }
+  ],
+  "faqs": [
+    { "question": "How many disc golf courses are in the DFW metro?", "answer": "Around <b>110 courses</b> across the metro — one of the largest markets in the country. We're publishing the best first — 5 are live today, with more added every week." },
+    { "question": "What's the best disc golf course in DFW?", "answer": "<b>Z Boaz</b> in Fort Worth is the most famous — home to the 755-foot par 3 that defines Texas distance golf. Harry Myers in Rockwall is the highest-rated published course." },
+    { "question": "Are DFW's disc golf courses free?", "answer": "Yes — all five of our published courses (Veterans Park, Harry Myers, Z Boaz, Fritz Park, Tom McCutcheon) are free to play." },
+    { "question": "What's the best beginner course in DFW?", "answer": "Tom McCutcheon in Lewisville — open, friendly, and built for learning distance control. Veterans Park is another approachable classic." }
+  ],
+  "nearbyCities": [
+    { "name": "Austin", "courseCount": "52 courses", "distance": "195 mi", "slug": "/tx/austin" },
+    { "name": "Houston", "courseCount": "88 courses", "distance": "240 mi", "slug": "/tx/houston" }
+  ]
+}

@@ -14,9 +14,10 @@
   },
 
   "holes": 18,
-  "par": 56,
-  "totalFeet": 5400,
-  "courseLength": "medium",
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 4946,
+  "courseLength": "short",
   "difficulty": "Easy",
   "difficultyRating": 2,
 
@@ -29,16 +30,16 @@
 
   "photos": [
     {
-      "url": "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg",
-      "alt": "Open fairway at Zilker Park with downtown Austin skyline",
-      "caption": "Open fairways with the city skyline as backdrop"
+      "url": "/images/course-placeholder.svg",
+      "alt": "Zilker Park — photo coming soon",
+      "caption": "Placeholder — upgrade when a real photo becomes available"
     }
   ],
-  "heroImage": "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg",
-  "thumbnail": "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg",
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
 
-  "rating": 4.6,
-  "reviewCount": 1872,
+  "rating": 4.3,
+  "reviewCount": 7263,
 
   "tags": ["Open", "Iconic", "Beginner-friendly", "Free", "Dog friendly"],
 
@@ -65,61 +66,36 @@
 
   "aboutParagraphs": [
     "Zilker Park is where Austin learns to play disc golf. Wide-open fairways with the city skyline as your backdrop, gentle distances, and baskets that forgive the wobbly first throw. It's the course every local recommends to a friend picking up a disc for the first time.",
-    "Don't let the beginner label fool you — the wind coming off Lady Bird Lake turns holes 7 and 15 into genuine challenge. And on a Saturday afternoon, you'll be sharing the park with every other disc golfer in town, so pack patience along with your putter.",
+    "Don't let the beginner label fool you — the wind coming off Lady Bird Lake turns the longer, exposed holes into genuine challenge. And on a Saturday afternoon, you'll be sharing the park with every other disc golfer in town, so pack patience along with your putter.",
     "Free to play, dawn to dusk, with plenty of parking near the Zilker Botanical Garden entrance."
   ],
 
   "holeData": [
-    { "number": 1, "par": 3, "distance": 220, "character": "Open, straight, gentle intro", "difficultyPct": 20 },
-    { "number": 2, "par": 3, "distance": 265, "character": "Slight anhyzer around a tree", "difficultyPct": 28 },
-    { "number": 3, "par": 3, "distance": 240, "character": "Open with wind exposure", "difficultyPct": 32 },
-    { "number": 4, "par": 4, "distance": 380, "character": "Long and open, grip it and rip it", "difficultyPct": 45 },
-    { "number": 5, "par": 3, "distance": 210, "character": "Short ace run", "difficultyPct": 18 },
-    { "number": 6, "par": 3, "distance": 300, "character": "Open, crosswind off the lake", "difficultyPct": 40 },
-    { "number": 7, "par": 4, "distance": 420, "character": "Headwind hole, plays long", "difficultyPct": 55, "isSignature": true },
-    { "number": 8, "par": 3, "distance": 250, "character": "Tree-guarded green", "difficultyPct": 35 },
-    { "number": 9, "par": 3, "distance": 280, "character": "Back toward parking, open", "difficultyPct": 30 },
-    { "number": 10, "par": 3, "distance": 235, "character": "Open start to the back nine", "difficultyPct": 22 },
-    { "number": 11, "par": 4, "distance": 390, "character": "Open fairway, OB path left", "difficultyPct": 42 },
-    { "number": 12, "par": 3, "distance": 270, "character": "Gentle anhyzer", "difficultyPct": 28 },
-    { "number": 13, "par": 3, "distance": 310, "character": "Long par 3, wind factor", "difficultyPct": 48 },
-    { "number": 14, "par": 4, "distance": 400, "character": "Open, double mando late", "difficultyPct": 50 },
-    { "number": 15, "par": 3, "distance": 260, "character": "Crosswind off the water", "difficultyPct": 44 },
-    { "number": 16, "par": 3, "distance": 220, "character": "Short and open", "difficultyPct": 20 },
-    { "number": 17, "par": 4, "distance": 360, "character": "Open, slight downhill", "difficultyPct": 38 },
-    { "number": 18, "par": 3, "distance": 290, "character": "Finisher, gallery by the pavilion", "difficultyPct": 35 }
+    { "number": 1, "par": 3, "distance": 245, "character": "245 feet of open fairway to ease you in.", "difficultyPct": 18 },
+    { "number": 2, "par": 3, "distance": 240, "character": "240 feet, straight and friendly.", "difficultyPct": 16 },
+    { "number": 3, "par": 3, "distance": 272, "character": "272 feet with a touch of tree line to aim around.", "difficultyPct": 24 },
+    { "number": 4, "par": 3, "distance": 222, "character": "Short 222-footer — an early ace run.", "difficultyPct": 14 },
+    { "number": 5, "par": 3, "distance": 232, "character": "232 feet across the open grass.", "difficultyPct": 16 },
+    { "number": 6, "par": 3, "distance": 225, "character": "225 feet, flat and simple.", "difficultyPct": 15 },
+    { "number": 7, "par": 3, "distance": 353, "character": "The longest front-nine par 3 — the lake wind makes it play longer.", "difficultyPct": 34 },
+    { "number": 8, "par": 3, "distance": 281, "character": "281 feet back toward the park.", "difficultyPct": 22 },
+    { "number": 9, "par": 3, "distance": 188, "character": "The shortest hole on the card at 188 feet.", "difficultyPct": 10 },
+    { "number": 10, "par": 3, "distance": 367, "character": "The signature: 367 feet, the longest hole at Zilker, fully exposed to the breeze.", "difficultyPct": 40, "isSignature": true },
+    { "number": 11, "par": 3, "distance": 248, "character": "248 feet with the skyline on the horizon.", "difficultyPct": 18 },
+    { "number": 12, "par": 3, "distance": 259, "character": "259 feet of gentle green.", "difficultyPct": 20 },
+    { "number": 13, "par": 3, "distance": 325, "character": "325 feet — one of the longer back-nine 3s.", "difficultyPct": 30 },
+    { "number": 14, "par": 3, "distance": 264, "character": "264 feet, straightforward.", "difficultyPct": 20 },
+    { "number": 15, "par": 3, "distance": 309, "character": "309 feet with a tree guarding the approach.", "difficultyPct": 26 },
+    { "number": 16, "par": 3, "distance": 291, "character": "291 feet back toward the open fields.", "difficultyPct": 22 },
+    { "number": 17, "par": 3, "distance": 318, "character": "318 feet — wind exposure keeps you honest.", "difficultyPct": 28 },
+    { "number": 18, "par": 3, "distance": 307, "character": "307 feet to finish the gentle 18.", "difficultyPct": 26 }
   ],
 
   "layoutMapUrl": null,
-  "signatureHoleDescription": "Hole 7 plays straight into the prevailing wind off Lady Bird Lake. What looks like a comfortable par 4 on paper plays a stroke longer when the breeze is up — club down and keep it low.",
+  "signatureHoleDescription": "Hole 10 is the longest at Zilker at 367 feet, and the one that separates the tourists from the locals. It's wide open to the wind off Lady Bird Lake, so a calm putter shot can suddenly be a 60-mph negotiation. On a good day it's just another par 3; on a breezy Saturday it's the round's real test.",
   "localTips": "Gets crowded on weekends — go early morning or after 5pm. The wind off the lake is the real challenge, not the layout. Grab a taco on Barton Springs Road after your round.",
 
-  "reviews": [
-    {
-      "name": "Sarah L.",
-      "avatar": "https://i.pravatar.cc/100?img=20",
-      "verified": true,
-      "stars": 5,
-      "date": "5 days ago",
-      "text": "Perfect first course. Brought my kid here for his first round and we both had a blast. Flat, open, and the views of downtown are unbeatable."
-    },
-    {
-      "name": "James W.",
-      "avatar": "https://i.pravatar.cc/100?img=51",
-      "verified": true,
-      "stars": 4,
-      "date": "1 week ago",
-      "text": "Iconic Austin spot. Not the most challenging layout but the wind off the lake keeps it interesting. Gets crowded on weekends — go early."
-    },
-    {
-      "name": "Elena M.",
-      "avatar": "https://i.pravatar.cc/100?img=5",
-      "verified": true,
-      "stars": 5,
-      "date": "3 weeks ago",
-      "text": "My go-to quick nine after work. Free, walkable, and you can grab a taco on Barton Springs Road after. Can't beat it."
-    }
-  ],
+  "reviews": [],
 
   "tournaments": [
     { "name": "Dawn Patrol Doubles", "tier": "Weekly", "date": "Every Sat" },

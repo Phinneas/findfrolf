@@ -15,9 +15,10 @@ interface MapPin {
 
 interface Props {
   pins: MapPin[];
+  cityName: string;
 }
 
-const { pins } = Astro.props;
+const { pins, cityName } = Astro.props;
 ---
 
 <section class="bg-forest-deep text-cream">
@@ -25,7 +26,7 @@ const { pins } = Astro.props;
     <div>
       <div class="eyebrow text-sage [&::before]:bg-sun mb-3">§ Every course, mapped</div>
       <h2 class="font-display font-normal text-[34px] tracking-[-1px] text-cream mb-6">
-        The Austin <em class="italic text-sun">course map</em>
+        The {cityName} <em class="italic text-sun">course map</em>
       </h2>
       <div class="relative rounded-[12px] overflow-hidden min-h-[380px] bg-[#2c4a38] border border-moss">
         <div class="absolute inset-0 opacity-35 topo-bg"></div>

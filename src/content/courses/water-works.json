@@ -1,0 +1,213 @@
+{
+  "name": "Water Works Park",
+  "code": "MO-1001",
+  "city": "Kansas City",
+  "state": "Missouri",
+  "citySlug": "kansas-city",
+  "stateSlug": "mo",
+  "area": "Kansas City, MO",
+  "location": {
+    "address": "3500 N Oak Trfwy, Kansas City, MO 64116",
+    "lat": 39.160869,
+    "lng": -94.577012
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 6131,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Water Works Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 6395,
+  "tags": [
+    "Wooded",
+    "Elevation",
+    "Free",
+    "Skyline views",
+    "New layout"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": "Lots of elevation",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Water Works is Kansas City's scenic showcase — a wooded course with serious elevation changes and skyline views of downtown and the Missouri River. A brand-new layout opened here in August 2024, mixing long open holes with short, precise ones across 6,131 feet at par 56.",
+    "Free to play with concrete tees and Mach X baskets, it's the city course where the views are as memorable as the golf. Some of the elevation changes are genuinely extreme, so bring grippy shoes and a camera.",
+    "The 2024 redesign gave Kansas City a modern flagship — and the skyline backdrop makes it the best-looking round in town."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 347,
+      "character": "347 feet with the skyline on the horizon.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 381,
+      "character": "381 feet — the elevation starts early.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet through the trees.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 299,
+      "character": "299 feet, a clean line.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 423,
+      "character": "423 feet — the first par 4.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 276,
+      "character": "276 feet, a brief breather.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 308,
+      "character": "308 feet with the river views opening.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 267,
+      "character": "267 feet, straight and wooded.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 393,
+      "character": "393 feet — the elevation makes it play longer.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 499,
+      "character": "The signature: 499 feet, the longest hole at Water Works.",
+      "difficultyPct": 62,
+      "isSignature": true
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 253,
+      "character": "253 feet, a short breather.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 305,
+      "character": "305 feet through the timber.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 372,
+      "character": "372 feet with a guarded green.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 386,
+      "character": "386 feet — the hills keep coming.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 434,
+      "character": "434 feet of par 4 to close the hard stretch.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 294,
+      "character": "294 feet, a clean corridor.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 269,
+      "character": "269 feet to finish with the skyline behind you.",
+      "difficultyPct": 28
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 11 is the longest at Water Works at 499 feet — a par 3 that climbs with the course's biggest elevation change while the Missouri River glints below. It's the hole that defines the 2024 redesign: long, scenic, and far more demanding than the par number suggests.",
+  "localTips": "The 2024 layout is the current course — give the elevation changes respect and wear grippy shoes. Free to play with some of the best views in Kansas City disc golf. The extreme hills are worth the walk.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

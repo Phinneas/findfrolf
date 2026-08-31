@@ -1,0 +1,212 @@
+{
+  "name": "Kilborne TPC",
+  "code": "NC-1002",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "nc",
+  "area": "Charlotte",
+  "location": {
+    "address": "2600 Kilborne Dr, Charlotte, NC 28213",
+    "lat": 35.21997,
+    "lng": -80.770631
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 5757,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Kilborne TPC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 6029,
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Free",
+    "Well maintained"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1991,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Dynamic Veteran",
+  "elevation": "Mostly Flat",
+  "foliage": "Moderately Wooded",
+  "aboutParagraphs": [
+    "Kilborne TPC is one of Charlotte's oldest and most-loved courses — 18 holes of moderately wooded parkland that opened in 1991 and still holds up as a fair, technical test. From the standard pins it plays 5,757 feet at par 57, with multiple tee and pin positions keeping it fresh.",
+    "Free to play with concrete tees, Dynamic Veteran baskets, and — a small but real luxury — benches at every hole. The course is flat enough to walk easily and wooded enough to keep every round interesting.",
+    "It's the course where generations of Charlotte players learned the game, and it still rewards clean, patient golf."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 293,
+      "character": "293 feet to open through the trees.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet, straight and fair.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "distance": 495,
+      "character": "The signature: 495 feet, the longest hole at Kilborne.",
+      "difficultyPct": 58,
+      "isSignature": true
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet with the woods framing the line.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet, a clean corridor.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 354,
+      "character": "354 feet — one of the longer par 3s.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, a genuine birdie look.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, short and guarded.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 335,
+      "character": "335 feet back toward the park.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet, straight and wooded.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 385,
+      "character": "385 feet — the second par 4.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet, a clean line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet with a guarded green.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet — the trees tighten.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet, the longest par 3 on the card.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 470,
+      "character": "470 feet of par 4 — a placed drive sets it up.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, a brief breather.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet to finish the classic 18.",
+      "difficultyPct": 36
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 3 is the longest at Kilborne at 495 feet — a par 4 that rewards a big, placed drive and a confident approach through the wooded parkland. It's the hole where the course's balance of fairness and technical challenge is on full display: clean golf gets a birdie look, sloppy golf pays in trees.",
+  "localTips": "Free, flat, and well maintained with benches at every hole — one of Charlotte's most walkable courses. Multiple tees and pins keep it interesting. The par 3s are the heart of the round; the par 4s are where you make up strokes.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Dynamic Veteran",
+    "lighting": "None"
+  }
+}

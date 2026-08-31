@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f2e7d4"/>
+  <circle cx="400" cy="245" r="95" fill="#C96F4A"/>
+  <circle cx="400" cy="245" r="95" fill="none" stroke="#f2e7d4" stroke-width="7"/>
+  <circle cx="400" cy="245" r="64" fill="none" stroke="#f2e7d4" stroke-width="4"/>
+  <circle cx="400" cy="245" r="12" fill="#f2e7d4"/>
+  <text x="400" y="405" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#1F3D2B" letter-spacing="1">FindFrolf</text>
+  <text x="400" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#6B7F6E" font-style="italic">Photo coming soon</text>
+</svg>

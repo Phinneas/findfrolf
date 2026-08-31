@@ -1,0 +1,213 @@
+{
+  "name": "Fritz Park",
+  "code": "TX-1148",
+  "city": "Irving",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "Irving",
+  "location": {
+    "address": "1305 S Britain Rd, Irving, TX 75060",
+    "lat": 32.8009,
+    "lng": -96.9419
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 6580,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Fritz Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 4563,
+  "tags": [
+    "Creek OB",
+    "Pecan orchard",
+    "Wooded",
+    "Free",
+    "Handicap friendly"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": true,
+    "camping": false
+  },
+  "yearEstablished": 1984,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach 2",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Fritz Park is one of DFW's oldest courses — an Irving original from 1984 with Delaware Creek running OB through the layout and a pecan orchard giving the front nine its character. From the standard pins it plays 6,580 feet at par 58.",
+    "Free to play with concrete tees and Mach 2 baskets, it's notable for being roughly 95% handicap friendly — an old course with surprisingly good accessibility. The creek is the real hazard: it shows up exactly when you've forgotten about it.",
+    "A historic, characterful round that's been teaching DFW players for four decades."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 261,
+      "character": "261 feet, a clean opener.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "distance": 498,
+      "character": "498 feet — the first par 4.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet with the pecan trees framing.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 298,
+      "character": "298 feet through the orchard.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 288,
+      "character": "288 feet, straight and fair.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 274,
+      "character": "274 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet — the creek starts calling.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 372,
+      "character": "372 feet, one of the longer par 3s.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 283,
+      "character": "283 feet, fair and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "distance": 380,
+      "character": "380 feet of par 4.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 430,
+      "character": "430 feet — a big par 3.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 351,
+      "character": "351 feet with the creek nearby.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 400,
+      "character": "400 feet, straight and demanding.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 701,
+      "character": "The signature: 701 feet, the longest hole at Fritz, creek in play.",
+      "difficultyPct": 70,
+      "isSignature": true
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 356,
+      "character": "356 feet, fair and wooded.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet with a guarded approach.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 493,
+      "character": "493 feet of par 4 — a placed drive.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet to finish the historic 18.",
+      "difficultyPct": 36
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 14 is the longest at Fritz at 701 feet — a par 4 where Delaware Creek makes its biggest appearance, crossing the fairway at exactly the wrong spot. Three clean shots, or a swim. It's the hole that's been defining rounds at Fritz since 1984.",
+  "localTips": "The creek is the real course hazard — it cuts through the layout and punishes the careless. Roughly 95% handicap friendly, which is rare for a course this old. Free to play with real DFW history.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 2",
+    "lighting": "None"
+  }
+}

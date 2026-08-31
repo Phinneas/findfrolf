@@ -1,0 +1,213 @@
+{
+  "name": "Northside Christian Church DGC",
+  "code": "TX-1153",
+  "city": "Spring",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Spring",
+  "location": {
+    "address": "20250 Kuykendahl Rd, Spring, TX 77379",
+    "lat": 30.0722,
+    "lng": -95.5122
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 6574,
+  "courseLength": "medium",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Northside Christian Church DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 2956,
+  "tags": [
+    "Wooded",
+    "USDGC-style",
+    "Water hazards",
+    "Free",
+    "Long"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2009,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Sheldon Jefferson / Terry Straub / Jim Kelly",
+  "teeType": "Concrete",
+  "basketType": "Mach 5",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Northside Christian Church plays over the entire church campus in Spring with a large variety of shots — from long, USDGC-style par 4s to tight wooded fairways — across 6,574 feet at par 57. Four water hazards keep the round honest.",
+    "Free to play with concrete tees and Mach 5 baskets, and very cart friendly. It's the rare church course that demands a full bag: power on the par 4s, precision in the woods, and nerve around the water.",
+    "Check the schedule — the course is best played when services aren't in session."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 678,
+      "character": "678 feet — a USDGC-style par 4 opener.",
+      "difficultyPct": 66
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 309,
+      "character": "309 feet, a clean line.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 324,
+      "character": "324 feet with the trees edging in.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 341,
+      "character": "341 feet, fair and wooded.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 228,
+      "character": "228 feet, a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 228,
+      "character": "228 feet, straight and true.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 254,
+      "character": "254 feet with a guarded green.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 322,
+      "character": "322 feet through the timber.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 305,
+      "character": "305 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet, a clean corridor.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 295,
+      "character": "295 feet with the water lurking.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 338,
+      "character": "338 feet — one of the longer par 3s.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 292,
+      "character": "292 feet, straight and wooded.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 607,
+      "character": "607 feet — a placed drive and a long approach.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 407,
+      "character": "407 feet — a big par 3.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 429,
+      "character": "429 feet, the longest par 3 so far.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 297,
+      "character": "297 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 707,
+      "character": "The signature: 707 feet, the longest hole at Northside.",
+      "difficultyPct": 72,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the longest at Northside at 707 feet — a closing par 4 that brings everything together: the USDGC-style length, the woods, and the water hazards that define the course. Three committed shots to a finish that feels earned. It's the hole that makes you glad you came back for the back nine.",
+  "localTips": "Avoid Sunday services (9am–1pm). The long par 4s on holes 1, 14, and 18 are the heart of the course; the four water hazards are the heartbreak. Free to play and very cart friendly.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 5",
+    "lighting": "None"
+  }
+}

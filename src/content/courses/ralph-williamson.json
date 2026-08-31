@@ -1,0 +1,213 @@
+{
+  "name": "Ralph Williamson Memorial DGC",
+  "code": "WA-1004",
+  "city": "Seattle",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "Seattle / White Center",
+  "location": {
+    "address": "11048 10th Ave SW, Seattle, WA 98146",
+    "lat": 47.525534,
+    "lng": -122.348032
+  },
+  "holes": 18,
+  "par": 55,
+  "parSource": "udisc",
+  "totalFeet": 5065,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Ralph Williamson Memorial DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.2,
+  "reviewCount": 4616,
+  "tags": [
+    "Rolling hills",
+    "Water hazard",
+    "Free",
+    "Scenic",
+    "Views"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1989,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Keith Lionetti",
+  "teeType": "Concrete",
+  "basketType": "Mach 7",
+  "elevation": "Rolling hills",
+  "foliage": null,
+  "aboutParagraphs": [
+    "Ralph Williamson Memorial is the disc golf course at Dick Thurnau Memorial Park in the White Center neighborhood of Seattle — rolling hills, views of the Olympics and Cascades, and one hole that plays across the water. Keith Lionetti's 1989 design plays 5,065 feet at par 55.",
+    "Free to play with concrete tees and Mach 7 baskets, it's pet friendly, cart friendly, and has restrooms on site. The multi-use park setting means you'll share the space with other visitors, and the water comes into play more than the modest length suggests.",
+    "One of Seattle's hidden gems — scenic, friendly, and tougher than the scorecard looks."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, a gentle opener.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 179,
+      "character": "179 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 279,
+      "character": "279 feet with the hills starting.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 262,
+      "character": "262 feet, fair and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 318,
+      "character": "318 feet — the views open up.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet, a clean line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 326,
+      "character": "326 feet with a guarded green.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 251,
+      "character": "251 feet, straight and true.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet, a genuine birdie look.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 323,
+      "character": "323 feet — the water comes into view.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 173,
+      "character": "173 feet — the shortest hole on the card.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 401,
+      "character": "401 feet — the longest par 3.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, fair and rolling.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, a clean corridor.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 243,
+      "character": "243 feet with a placed approach.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 313,
+      "character": "313 feet — the hills keep it honest.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 607,
+      "character": "The signature: 607 feet, the longest hole, playing across the water.",
+      "difficultyPct": 62,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the longest at Ralph Williamson at 607 feet — a par 4 that plays across the water and gives the course its most memorable moment. With the Cascades or Olympics on the horizon and the hazard in play, it's the hole that makes this neighborhood park feel like a destination.",
+  "localTips": "The water carry on the final hole is the round's defining moment — plan your line. Pet friendly with restrooms on site. Free to play in a multi-use park; weekday mornings are the quiet time.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "Mach 7",
+    "lighting": "None"
+  }
+}

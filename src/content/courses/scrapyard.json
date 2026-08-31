@@ -1,0 +1,212 @@
+{
+  "name": "The Scrapyard",
+  "code": "NC-1004",
+  "city": "Matthews",
+  "state": "North Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "nc",
+  "area": "Matthews",
+  "location": {
+    "address": "10512 Idlewild Rd, Matthews, NC 28105",
+    "lat": 35.163952,
+    "lng": -80.699893
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 5651,
+  "courseLength": "medium",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "The Scrapyard — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 5297,
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Free",
+    "Water hazards"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2011,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Moderately Hilly",
+  "foliage": "Heavily Wooded",
+  "aboutParagraphs": [
+    "The Scrapyard is Matthews' very wooded, very technical answer to Charlotte's bigger-name courses — 18 holes at par 58 with two serious water carries and fairways so tight they feel scrapped together from whatever the woods left behind. The name comes from the scrap-metal fundraising that built it.",
+    "Free to play with concrete tees and DISCatcher baskets on moderately hilly ground, it's the course where accuracy is non-negotiable. The water carries make the difference between a good round and a great one.",
+    "It's younger than the Charlotte classics but already one of the most respected tests in the region."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 262,
+      "character": "262 feet through the trees to open.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 353,
+      "character": "353 feet — the tight lines start early.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 297,
+      "character": "297 feet, straight and wooded.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 432,
+      "character": "432 feet — the first par 4 demands a placed drive.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 284,
+      "character": "284 feet with the woods framing the green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, a clean corridor.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "distance": 670,
+      "character": "The signature: 670 feet of par 5, the longest hole at The Scrapyard.",
+      "difficultyPct": 74,
+      "isSignature": true
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 193,
+      "character": "193 feet — the shortest hole on the card.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 187,
+      "character": "187 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 275,
+      "character": "275 feet with a guarded approach.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet — the first water carry looms.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 273,
+      "character": "273 feet, straight and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 254,
+      "character": "254 feet, a tight gap off the tee.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet with the woods closing in.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet — the second water carry is in play.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 258,
+      "character": "258 feet, a clean line.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 463,
+      "character": "463 feet of par 4 through the timber.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 307,
+      "character": "307 feet to finish the technical 18.",
+      "difficultyPct": 42
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 7 is The Scrapyard's centerpiece: 670 feet of par 5 that winds through the tightest woods on the course. Three committed shots, no shortcuts, and a green that the timber defends from every angle. It's the hole that earned the course its reputation — and the one that decides who walks away with a round to brag about.",
+  "localTips": "Accuracy is everything — two water carries and dense woods punish anything loose. The par 5 on hole 7 is your one scoring opportunity. Free to play on moderately hilly ground; bring your A game and extra patience.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

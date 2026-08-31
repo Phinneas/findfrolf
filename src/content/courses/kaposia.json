@@ -1,0 +1,277 @@
+{
+  "name": "Kaposia Park",
+  "code": "MN-1003",
+  "city": "South St. Paul",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "South St. Paul",
+  "location": {
+    "address": "1028 Wilde Ave, South St. Paul, MN 55075",
+    "lat": 44.9099,
+    "lng": -93.0626
+  },
+  "holes": 27,
+  "par": 91,
+  "parSource": "map",
+  "totalFeet": 9603,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": false,
+  "greenFee": "$5",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Kaposia Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 6171,
+  "tags": [
+    "Championship",
+    "Long",
+    "Elevation",
+    "Pay to play",
+    "27 holes",
+    "Wooded"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1990,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Prodigy",
+  "elevation": "Elevation changes",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Kaposia Park is the South St. Paul championship course — a full 27 holes that plays 9,603 feet at par 91, with elevation, trees, and a layout that's hosted serious competition since it expanded. It's a pay-to-play course at $5 a day with a pro shop at the park.",
+    "The course began in 1990 and grew into the 27-hole monster it is today. Every hole asks for a different line, and the back stretch in particular has the length and the trees to punish anything loose.",
+    "Winter players know the drill: holes 19–25 get pulled when the snow flies, but the full 27 is the summer experience worth driving for."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 293,
+      "character": "293 feet through the trees to open.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, straight and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, a clean line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 345,
+      "character": "345 feet with the elevation starting.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 420,
+      "character": "420 feet — the first par 4.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 355,
+      "character": "355 feet, fair and demanding.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet with a guarded green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 615,
+      "character": "The signature: 615 feet, the longest hole at Kaposia.",
+      "difficultyPct": 66,
+      "isSignature": true
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet, a short putter shot.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 384,
+      "character": "384 feet — the trees tighten.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 490,
+      "character": "490 feet of par 4 through the timber.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 298,
+      "character": "298 feet, straight and true.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 231,
+      "character": "231 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 520,
+      "character": "520 feet — a placed drive sets it up.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 365,
+      "character": "365 feet with the hills working.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 244,
+      "character": "244 feet, fair and wooded.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 244,
+      "character": "244 feet to close the first 18.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet — the bonus nine begins.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 20,
+      "par": 4,
+      "distance": 347,
+      "character": "347 feet of par 4.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 21,
+      "par": 5,
+      "distance": 500,
+      "character": "500 feet of par 5 — the marathon hole.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 380,
+      "character": "380 feet, one of the longer par 3s.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 23,
+      "par": 4,
+      "distance": 440,
+      "character": "440 feet of par 4.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 24,
+      "par": 4,
+      "distance": 496,
+      "character": "496 feet — the back stretch stays long.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 25,
+      "par": 3,
+      "distance": 372,
+      "character": "372 feet with a guarded approach.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 26,
+      "par": 4,
+      "distance": 540,
+      "character": "540 feet — the biggest par 4 of the nine.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 27,
+      "par": 3,
+      "distance": 179,
+      "character": "179 feet to complete all 27 holes.",
+      "difficultyPct": 18
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 9 is the longest at Kaposia at 615 feet — a par 4 that rolls with the course's best elevation and demands two clean shots through the trees. It's the hole that defines the championship character of the place: long, fair, and completely unforgiving of anything loose.",
+  "localTips": "Pay to play at $5 a day. The full 27 holes is a marathon — bring water and a full bag. In winter, holes 19–25 are pulled from the rotation. The pro shop at the park is worth a stop before your round.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Unknown",
+    "proShop": "On-site",
+    "dogs": "Unknown",
+    "baskets": "Prodigy",
+    "lighting": "None"
+  }
+}

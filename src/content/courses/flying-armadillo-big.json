@@ -1,0 +1,117 @@
+{
+  "name": "Flying Armadillo — Big Course",
+  "code": "TX-1154",
+  "city": "San Marcos",
+  "state": "Texas",
+  "citySlug": "san-marcos",
+  "stateSlug": "tx",
+  "area": "San Marcos",
+
+  "location": {
+    "address": "3115 Hilliard Rd, San Marcos, TX 78666",
+    "lat": 29.9521,
+    "lng": -97.9654
+  },
+
+  "holes": 18,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 5800,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+
+  "isFree": false,
+  "greenFee": "Pay to play",
+
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Flying Armadillo — Big Course — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.7,
+  "reviewCount": 4400,
+
+  "tags": ["Hill country", "Pay to play", "Private", "Big-arm", "Quirky"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": true,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": true
+  },
+
+  "yearEstablished": 2015,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Hill country",
+  "foliage": "Open",
+
+  "aboutParagraphs": [
+    "Flying Armadillo is the San Marcos destination that put a private club on the Texas disc golf map — three courses on one property, with the Big Course as the main event. From the long blue tees it plays 5,800 feet at par 57 across beautiful hill country terrain.",
+    "It's pay to play with a pro shop on site, and the property also hosts the quirky mini course and the club's other layouts — a full disc golf weekend in one place. The Big Course lets you stretch the arm out while the hill country views do the rest.",
+    "The Armadillo is equal parts serious golf and Texas fun — bring your whole bag and an open mind."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 305, "character": "305 feet of hill country to open.", "difficultyPct": 34 },
+    { "number": 2, "par": 3, "distance": 310, "character": "310 feet, straight and fair.", "difficultyPct": 34 },
+    { "number": 3, "par": 3, "distance": 235, "character": "235 feet, a clean line.", "difficultyPct": 24 },
+    { "number": 4, "par": 3, "distance": 340, "character": "340 feet with the terrain rolling.", "difficultyPct": 40 },
+    { "number": 5, "par": 3, "distance": 360, "character": "360 feet — the distance starts.", "difficultyPct": 42 },
+    { "number": 6, "par": 3, "distance": 190, "character": "190 feet, a brief breather.", "difficultyPct": 18 },
+    { "number": 7, "par": 3, "distance": 360, "character": "360 feet with a guarded green.", "difficultyPct": 42 },
+    { "number": 8, "par": 4, "distance": 435, "character": "435 feet — the first par 4.", "difficultyPct": 50 },
+    { "number": 9, "par": 3, "distance": 395, "character": "395 feet, one of the longer par 3s.", "difficultyPct": 46 },
+    { "number": 10, "par": 3, "distance": 325, "character": "325 feet, fair and demanding.", "difficultyPct": 38 },
+    { "number": 11, "par": 3, "distance": 280, "character": "280 feet, a clean corridor.", "difficultyPct": 30 },
+    { "number": 12, "par": 3, "distance": 315, "character": "315 feet with the views opening.", "difficultyPct": 36 },
+    { "number": 13, "par": 3, "distance": 250, "character": "250 feet, straight and true.", "difficultyPct": 26 },
+    { "number": 14, "par": 3, "distance": 225, "character": "225 feet, a placed midrange.", "difficultyPct": 22 },
+    { "number": 15, "par": 3, "distance": 150, "character": "150 feet — the shortest hole on the card.", "difficultyPct": 12 },
+    { "number": 16, "par": 4, "distance": 530, "character": "530 feet of par 4 — a big drive required.", "difficultyPct": 56 },
+    { "number": 17, "par": 4, "distance": 590, "character": "The signature: 590 feet, the longest hole at the Armadillo.", "difficultyPct": 62, "isSignature": true },
+    { "number": 18, "par": 3, "distance": 205, "character": "205 feet to finish the Big Course.", "difficultyPct": 20 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is the longest at Flying Armadillo at 590 feet — a par 4 that stretches across the best of the hill country and gives the Big Course its one true two-shot moment. From the blue tees it's a big drive and a bigger approach, with the Texas views making the walk worth every stroke.",
+
+  "localTips": "Pay at the pro shop — this is a private, pay-to-play club with three courses, so plan a full day. The blue tees are the long loop at 5,800 feet. Camping is on site, and the mini course is worth the detour for the gimmick holes.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Unknown",
+    "proShop": "On-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

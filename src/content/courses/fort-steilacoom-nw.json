@@ -1,0 +1,212 @@
+{
+  "name": "Fort Steilacoom Park (Northwest)",
+  "code": "WA-1002",
+  "city": "Lakewood",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "Lakewood",
+  "location": {
+    "address": "Fort Steilacoom Park, Lakewood, WA 98498",
+    "lat": 47.1723,
+    "lng": -122.5611
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 6228,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Fort Steilacoom Park (Northwest) — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 3706,
+  "tags": [
+    "Wooded",
+    "Pines",
+    "Free",
+    "Scenic"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1986,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Chainstar",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Fort Steilacoom's Northwest course is a 40-acre natural setting of mature pines in Lakewood — one of the oldest courses in the region, dating to 1986, and still one of the most scenic. From the standard pins it plays 6,228 feet at par 56 through the tall timber.",
+    "Free to play with concrete tees and Chainstar baskets, it's the kind of course where the trees do the thinking for you: every fairway is a corridor, every miss is pine straw. The park itself has deep Pacific Northwest history, and the course sits in its natural heart.",
+    "Bring a midrange you trust and enjoy the quiet — Fort Steilacoom is disc golf at its most woodsy."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 258,
+      "character": "258 feet through the pines to open.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 289,
+      "character": "289 feet, straight and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet — the corridors start.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet with the pines framing the line.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 575,
+      "character": "The signature: 575 feet, the longest hole at Fort Steilacoom.",
+      "difficultyPct": 62,
+      "isSignature": true
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 274,
+      "character": "274 feet, a clean lane.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 284,
+      "character": "284 feet with the timber closing in.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 365,
+      "character": "365 feet — the pines guard the green.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet, a genuine birdie look.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 332,
+      "character": "332 feet, straight and fair.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet through the natural setting.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 380,
+      "character": "380 feet — one of the longer par 3s.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, a short breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet with a guarded approach.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 520,
+      "character": "520 feet of par 4 through the pines.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet, the trees tighten.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 465,
+      "character": "465 feet — a big par 3 to test the arm.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 324,
+      "character": "324 feet to finish the woodsy 18.",
+      "difficultyPct": 38
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 5 is the longest at Fort Steilacoom at 575 feet — a par 4 that threads through the mature pines that give the course its character. From the tee you're picking a gap in the timber; from the landing zone you're attacking a green the trees surround on every side. It's the hole that makes this old course feel timeless.",
+  "localTips": "No restrooms on the course — plan ahead. The pines make accuracy non-negotiable, so bring your most reliable midrange. Free to play in a beautiful 40-acre natural setting; the park has deep Pacific Northwest history worth a walk.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "No on-site",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "Chainstar",
+    "lighting": "None"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "name": "Milo McIver (Riverbend East)",
+  "code": "OR-1001",
+  "city": "Estacada",
+  "state": "Oregon",
+  "citySlug": "portland",
+  "stateSlug": "or",
+  "area": "Estacada",
+  "location": {
+    "address": "Milo McIver State Park, Estacada, OR 97023",
+    "lat": 45.299954,
+    "lng": -122.373993
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 8120,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": false,
+  "greenFee": "Pay to play",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Milo McIver (Riverbend East) — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.7,
+  "reviewCount": 5591,
+  "tags": [
+    "Wooded",
+    "Long",
+    "Pay to play",
+    "Tournament",
+    "Scenic"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": true
+  },
+  "yearEstablished": 1996,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Milo McIver is Oregon disc golf's tournament cathedral — the home of the Beaver State Fling and a 27-hole complex where the East 18 is the marquee. From the standard tees it plays 8,120 feet at par 58 through dense woods, with the kind of length that separates big arms from bigger dreams.",
+    "The East course winds through towering timber with real elevation and, on the biggest holes, a par 5 that demands three clean shots in a row. It's pay to play with camping in the state park, which makes it a destination round for Portland-area players and visitors alike.",
+    "Bring your whole bag. The short holes test your placement; the long ones test everything else."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 475,
+      "character": "A 475-foot par 3 to open — the woods are tight from the very first drive.",
+      "difficultyPct": 55
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "distance": 1185,
+      "character": "The signature: 1,185 feet of par 5, the biggest hole on the course and one of the longest tests in Oregon.",
+      "difficultyPct": 88,
+      "isSignature": true
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 395,
+      "character": "395 feet of wooded par 3 — a midrange with confidence is the play.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 370,
+      "character": "370 feet through the trees; the gap off the tee is everything.",
+      "difficultyPct": 45
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 625,
+      "character": "625-foot par 4 that bends with the terrain.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 455,
+      "character": "A big par 3 at 455 feet — driver territory.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 450,
+      "character": "450 feet, straight and wooded.",
+      "difficultyPct": 55
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 280,
+      "character": "The breather: 280 feet of open green.",
+      "difficultyPct": 25
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 490,
+      "character": "490 feet — one of the longest par 3s you'll play anywhere.",
+      "difficultyPct": 62
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet with trees guarding the pin.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 405,
+      "character": "405 feet; the fairway narrows as it runs uphill.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 330,
+      "character": "330 feet, a midrange tunnel shot.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 325,
+      "character": "325 feet through the corridor.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 225,
+      "character": "Short 225-footer — a genuine birdie chance.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, open and forgiving by Milo standards.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 405,
+      "character": "405 feet with the woods closing back in.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 575,
+      "character": "575-foot par 4 — a placed drive sets up the look.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 490,
+      "character": "490 feet to finish — the back nine doesn't let up.",
+      "difficultyPct": 62
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 2 is the monster: 1,185 feet of par 5 that defines what Milo McIver is about. Three clean, committed shots through the woods with almost no room for error — it's the hole that decides rounds at the Beaver State Fling and the one first-timers talk about for years. Par here feels like a trophy.",
+  "localTips": "Pay to play — check the park for current day fees and hours. The East 18 is the tournament course, but the complex has more holes if you want a full day. Camping is available in the state park, and it's worth staying for a morning round before the crowds arrive.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

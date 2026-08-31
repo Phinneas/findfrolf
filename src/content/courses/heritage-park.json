@@ -1,0 +1,212 @@
+{
+  "name": "Heritage Park",
+  "code": "KS-1001",
+  "city": "Olathe",
+  "state": "Kansas",
+  "citySlug": "kansas-city",
+  "stateSlug": "ks",
+  "area": "Olathe",
+  "location": {
+    "address": "16050 Pflumm Rd, Olathe, KS 66062",
+    "lat": 38.8665,
+    "lng": -94.7424
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 5009,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Heritage Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 3608,
+  "tags": [
+    "Heavily wooded",
+    "Free",
+    "Elevation",
+    "Technical"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": "Some elevation",
+  "foliage": "Heavily Wooded",
+  "aboutParagraphs": [
+    "Heritage Park is Olathe's heavily wooded test — 18 holes at par 54 across 5,009 feet, with the trees doing most of the talking and a little elevation adding character. It's a classic Kansas City-area park course that rewards clean, patient golf.",
+    "Free to play with concrete tees and Mach X baskets, and very cart friendly despite the woods. The fairways are corridors, the greens are guarded, and the round is over before you want it to be.",
+    "A friendly technical course that locals play weekly — bring a midrange you trust."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 330,
+      "character": "The signature: 330 feet, the longest hole at Heritage Park, a wooded opener.",
+      "difficultyPct": 44,
+      "isSignature": true
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 321,
+      "character": "321 feet with the trees closing in.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 316,
+      "character": "316 feet, straight and wooded.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 317,
+      "character": "317 feet — the corridors stay tight.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 219,
+      "character": "219 feet, a genuine birdie look.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 264,
+      "character": "264 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 323,
+      "character": "323 feet through the timber.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 328,
+      "character": "328 feet, fair and demanding.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet with the woods framing the pin.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 295,
+      "character": "295 feet, straight and true.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 229,
+      "character": "229 feet, a placed midrange.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 299,
+      "character": "299 feet — the elevation adds a club.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 263,
+      "character": "263 feet, fair and wooded.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet with a guarded approach.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 229,
+      "character": "229 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 243,
+      "character": "243 feet to finish the wooded 18.",
+      "difficultyPct": 26
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 1 is the longest at Heritage Park at 330 feet — a wooded opener that tells you exactly what the course is about before you've played a second hole. A clean line through the trees, a guarded green, and the rest of the round follows the same honest pattern. It's the hole that sets the tone.",
+  "localTips": "Heavily wooded with a little elevation — accuracy is everything. Free to play, very cart friendly, and the round is quick enough for a lunch break. Bring a midrange you trust.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "name": "Blue Ribbon Pines",
+  "code": "MN-1001",
+  "city": "East Bethel",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "East Bethel",
+  "location": {
+    "address": "1901 Klondike Dr NE, East Bethel, MN 55011",
+    "lat": 45.3347,
+    "lng": -93.2229
+  },
+  "holes": 27,
+  "par": 87,
+  "parSource": "map",
+  "totalFeet": 8863,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": false,
+  "greenFee": "$8",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Blue Ribbon Pines — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 8621,
+  "tags": [
+    "Open",
+    "Wooded",
+    "Ponds",
+    "Pay to play",
+    "27 holes",
+    "Pro shop"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": true,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2006,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Timmy Gill & Steve Beckman",
+  "teeType": "Concrete",
+  "basketType": "Custom",
+  "elevation": null,
+  "foliage": "Mixed - Open/Wooded",
+  "aboutParagraphs": [
+    "Blue Ribbon Pines is the crown jewel of Minnesota disc golf — 27 holes of open-and-wooded design with ponds, doglegs, and risk-reward decisions on almost every tee. Timmy Gill and Steve Beckman built it in 2006, and it's been a top-ranked destination ever since.",
+    "It's pay to play at $8 a day, with a pro shop on site — the kind of course people drive across the state for. The mix of big open drives and tight wooded lines keeps 27 holes from ever feeling repetitive.",
+    "Bring a full bag and a full day. This is the round Twin Cities players measure their season against."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 291,
+      "character": "291 feet to open through the pines.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet, straight and fair.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 447,
+      "character": "447 feet — the first par 4.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 243,
+      "character": "243 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 190,
+      "character": "190 feet — a brief breather.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "distance": 499,
+      "character": "499 feet with the pond lurking.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 370,
+      "character": "370 feet through the trees.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 153,
+      "character": "153 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 182,
+      "character": "182 feet, a short putter shot.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 529,
+      "character": "529 feet — the dogleg rewards a big drive.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 289,
+      "character": "289 feet, straight and true.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 221,
+      "character": "221 feet with the water edging in.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 300,
+      "character": "300 feet, fair and demanding.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 363,
+      "character": "363 feet — the open fairways open up.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 283,
+      "character": "283 feet, a clean corridor.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet, straight and wooded.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 624,
+      "character": "The signature: 624 feet, the longest hole at Blue Ribbon.",
+      "difficultyPct": 66,
+      "isSignature": true
+    },
+    {
+      "number": 19,
+      "par": 4,
+      "distance": 495,
+      "character": "495 feet — the back stretch begins.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 481,
+      "character": "481 feet — a monster par 3.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 253,
+      "character": "253 feet, a genuine birdie look.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 22,
+      "par": 3,
+      "distance": 301,
+      "character": "301 feet with a guarded approach.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 23,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet, a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 24,
+      "par": 3,
+      "distance": 333,
+      "character": "333 feet through the mixed terrain.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 25,
+      "par": 3,
+      "distance": 264,
+      "character": "264 feet, straight and fair.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 26,
+      "par": 4,
+      "distance": 395,
+      "character": "395 feet of par 4 — placement wins.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 27,
+      "par": 3,
+      "distance": 339,
+      "character": "339 feet to complete all 27 holes.",
+      "difficultyPct": 42
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the longest at Blue Ribbon at 624 feet — a par 4 that combines everything the course does well: a big drive, a placed second shot, and water close enough to make you think. It's the hole that sums up why people drive across Minnesota to play here.",
+  "localTips": "Pay to play ($8/day) with a pro shop on site — worth every dollar. All 27 holes is a full day, so start early. The ponds and doglegs reward risk-takers and punish the careless; bring your whole bag.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Unknown",
+    "proShop": "On-site",
+    "dogs": "Unknown",
+    "baskets": "Custom",
+    "lighting": "None"
+  }
+}

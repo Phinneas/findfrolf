@@ -1,0 +1,27 @@
+---
+interface HoleRef {
+  number: number | string;
+  par: number;
+  distance: number;
+}
+
+interface Props {
+  description: string;
+  hole?: HoleRef | null;
+}
+
+const { description, hole } = Astro.props;
+---
+
+<section class="mb-14">
+  <div class="eyebrow mb-3">§ The signature hole</div>
+  <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-8 shadow-stamp">
+    {hole && (
+      <div class="flex items-baseline gap-3 mb-4">
+        <span class="font-display font-bold text-[clamp(28px,4vw,40px)] text-clay leading-none">Hole {hole.number}</span>
+        <span class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss">Par {hole.par} · {hole.distance} ft</span>
+      </div>
+    )}
+    <p class="text-[16px] leading-[1.7] text-ink">{description}</p>
+  </div>
+</section>

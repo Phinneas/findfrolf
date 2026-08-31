@@ -1,0 +1,213 @@
+{
+  "name": "Fehringer Ranch",
+  "code": "CO-1003",
+  "city": "Littleton",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Littleton",
+  "location": {
+    "address": "W Quincy Ave & S Nelson St, Littleton, CO 80235",
+    "lat": 39.6453,
+    "lng": -105.1228
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 5484,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Fehringer Ranch — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.2,
+  "reviewCount": 6763,
+  "tags": [
+    "Open",
+    "Free",
+    "Scenic",
+    "Practice area",
+    "Beginner-friendly"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach 3",
+  "elevation": "Foothills",
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "Fehringer Ranch is a huge open-space course at the base of the foothills in Littleton — 18 holes on a 135-acre property with terrific mountain views and, according to the locals, the best practice area in the city. From the current pin positions it plays about 5,500–6,000 feet at par 54.",
+    "Free to play with concrete tees and Mach 3 baskets, it's an approachable park course with real scenic payoff — the open fairways give you room to learn, and the foothill backdrop makes every round feel like a day out.",
+    "Come for the practice area, stay for the views, and bring a putter you trust."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 362,
+      "character": "362 feet of open foothill fairway to start.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 307,
+      "character": "307 feet, straight and fair.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 358,
+      "character": "358 feet with the views opening up.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 216,
+      "character": "216 feet — a genuine birdie look.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 295,
+      "character": "295 feet, open and friendly.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 186,
+      "character": "186 feet — the shortest hole on the card.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 489,
+      "character": "489 feet — the longest par 3, a real test.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 261,
+      "character": "261 feet, a clean line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 368,
+      "character": "368 feet across the open space.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 241,
+      "character": "241 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet with the foothills behind the pin.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, a brief breather.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 308,
+      "character": "308 feet, open and rolling.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 366,
+      "character": "366 feet — the approach is the test.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 269,
+      "character": "269 feet, a clean midrange line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 302,
+      "character": "302 feet with the practice area on your left.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet, straight and friendly.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 388,
+      "character": "The signature: 388 feet to finish with the foothills in view.",
+      "difficultyPct": 44,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 closes Fehringer Ranch at 388 feet with the foothills on the horizon — the hole that makes this open-space course feel special. An open fairway, a clean approach, and a mountain backdrop that reminds you why Denver players love this park. It's the friendliest kind of signature: memorable, scenic, and fair.",
+  "localTips": "Free, open, and beginner-friendly with the best practice area in the city — warm up before the round. The foothill views are the real prize. Pin positions change, so check the signs; the course plays a bit longer when the long pins are in.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 3",
+    "lighting": "None"
+  }
+}

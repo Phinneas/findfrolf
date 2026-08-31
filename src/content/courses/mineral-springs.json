@@ -1,0 +1,212 @@
+{
+  "name": "Mineral Springs Park",
+  "code": "WA-1003",
+  "city": "Seattle",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "Seattle",
+  "location": {
+    "address": "1500 N 105th St, Seattle, WA 98155",
+    "lat": 47.705567,
+    "lng": -122.336017
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 4885,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Mineral Springs Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.7,
+  "reviewCount": 1828,
+  "tags": [
+    "Technical",
+    "Short",
+    "Wooded",
+    "Free"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1990,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Lowell Shields",
+  "teeType": "Concrete",
+  "basketType": "Mach 3",
+  "elevation": null,
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Mineral Springs Park packs an old arboretum's worth of trees into four acres — a very technical, very short course where 18 holes play at par 54 across manicured pathways. It's the Seattle course that proves you don't need length to need accuracy.",
+    "Free to play with concrete tees and Mach 3 baskets, the course winds through and around the trees with dual tees and dual baskets on several holes. Newly boundaried and well maintained, it's a favorite for lunch-break rounds and putter practice.",
+    "Bring a putter, a midrange, and a lot of patience. Every hole is a corridor, and every corridor is tighter than it looks."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 294,
+      "character": "294 feet through the arboretum to start.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 223,
+      "character": "223 feet, a clean early line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 239,
+      "character": "239 feet with the trees closing in.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 297,
+      "character": "297 feet — the corridor tightens.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 237,
+      "character": "237 feet, straight and technical.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet with a guarded green.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet — the old trees make the line.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 233,
+      "character": "233 feet, a brief opening.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 247,
+      "character": "247 feet, fair and wooded.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 299,
+      "character": "299 feet — the longest par 3 so far.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet through the manicured pathways.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet with the trees framing the pin.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet — accuracy is everything.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 284,
+      "character": "284 feet, straight and demanding.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 321,
+      "character": "The signature: 321 feet, the longest hole at Mineral Springs.",
+      "difficultyPct": 42,
+      "isSignature": true
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 277,
+      "character": "277 feet with the trees tightening.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet, a clean finish line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 308,
+      "character": "308 feet to complete the technical 18.",
+      "difficultyPct": 38
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 15 is the longest at Mineral Springs at 321 feet — still a par 3, still tight, but the one hole where the arboretum's trees demand your full attention from tee to basket. It's the perfect summary of the course: short on paper, sneaky in person, and deeply rewarding when you thread the needle.",
+  "localTips": "Bring a putter and a midrange — distance is never the issue here. Dual tees and baskets on several holes mean you can make the round your own. Free to play in an old arboretum on manicured pathways; a great lunch-break round.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "No on-site",
+    "proShop": "No on-site",
+    "dogs": "Leashed OK",
+    "baskets": "Mach 3",
+    "lighting": "None"
+  }
+}

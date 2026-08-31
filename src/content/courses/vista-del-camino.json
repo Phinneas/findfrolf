@@ -1,0 +1,213 @@
+{
+  "name": "Vista del Camino (Shelly Sharpe Memorial)",
+  "code": "AZ-1004",
+  "city": "Scottsdale",
+  "state": "Arizona",
+  "citySlug": "phoenix",
+  "stateSlug": "az",
+  "area": "Scottsdale",
+  "location": {
+    "address": "Vista del Camino, Scottsdale, AZ 85257",
+    "lat": 33.458509,
+    "lng": -111.914979
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 4723,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Vista del Camino (Shelly Sharpe Memorial) — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.4,
+  "reviewCount": 6341,
+  "tags": [
+    "Open",
+    "Lakes",
+    "Free",
+    "Scenic",
+    "Classic"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1984,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Chainstar",
+  "elevation": null,
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "Vista del Camino — also known as Shelly Sharpe Memorial — is one of the most-played courses in the Phoenix metro, a Scottsdale public course that dates to 1984. Four pin layouts stretch it from 4,723 feet to a 7,250-foot marathon, all at par 54.",
+    "Free to play with concrete tees and Chainstar baskets, it's very cart friendly and accessible at all times. Three small lakes come into play on seven holes, which is what gives this open park course its teeth.",
+    "A classic Scottsdale round: open, scenic, and sneakier than the par 3s suggest."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet of open ground to start.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet, straight and fair.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet with the lake glinting.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 238,
+      "character": "238 feet, a clean line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 247,
+      "character": "247 feet, fair and open.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 317,
+      "character": "The signature: 317 feet, the longest hole at Vista del Camino.",
+      "difficultyPct": 38,
+      "isSignature": true
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 263,
+      "character": "263 feet — the water is in view.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet, straight and true.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 227,
+      "character": "227 feet with a guarded green.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet — the lakes return.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, fair and demanding.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet with the water close.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 266,
+      "character": "266 feet, a clean corridor.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 264,
+      "character": "264 feet, straight and open.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet with a placed approach.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 256,
+      "character": "256 feet, fair and scenic.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet to finish the classic 18.",
+      "difficultyPct": 38
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 6 is the longest at Vista del Camino at 317 feet — a par 3 that plays along the lake and gives the open course its one real water decision. It's the hole that turns a casual park round into something to concentrate on, and the one the regulars talk about after every visit.",
+  "localTips": "Four pin layouts stretch the course from 4,723 to 7,250 feet — the long pins are a genuine marathon. The lakes are in play on seven holes. Free to play, very cart friendly, accessible at all times. Note: the park has been undergoing construction — check current access.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Chainstar",
+    "lighting": "None"
+  }
+}

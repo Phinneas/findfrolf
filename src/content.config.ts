@@ -26,7 +26,9 @@ const photoSchema = z.object({
 });
 
 const holeSchema = z.object({
-  number: z.number(),
+  // Integer hole numbers, or variant labels like "6A" for alternate holes
+  // (e.g. The Canyons at Dellwood's 6A-6E and 8A-8D).
+  number: z.union([z.number().int(), z.string().regex(/^\d+[A-Za-z]?$/)]),
   par: z.number(),
   distance: z.number(),
   character: z.string(),
@@ -36,8 +38,8 @@ const holeSchema = z.object({
 
 const reviewSchema = z.object({
   name: z.string(),
-  avatar: z.string(),
-  verified: z.boolean().default(true),
+  avatar: z.string().default(''),
+  verified: z.boolean().default(false), // only true when we actually verified the review
   stars: z.number(),
   date: z.string(),
   text: z.string(),
@@ -73,6 +75,7 @@ const courses = defineCollection({
     // Course specs
     holes: z.number(),
     par: z.number(),
+    parSource: z.enum(['pdga', 'udisc', 'map', 'estimated']).nullable().default(null), // where par came from (Par Rule)
     totalFeet: z.number(),
     courseLength: z.enum(['short', 'medium', 'long']), // <5000ft / 5000-7000ft / >7000ft
     difficulty: z.enum(['Easy', 'Moderate', 'Hard', 'Very Hard']),
@@ -97,7 +100,7 @@ const courses = defineCollection({
     reviewCount: z.number(),
 
     // Tags for filtering
-    tags: z.array(z.string()),
+    tags: z.array(z.string()).min(2),
 
     // Amenities (structured booleans for filtering)
     amenities: amenitiesSchema,
@@ -114,7 +117,7 @@ const courses = defineCollection({
     foliage: z.string().nullable().default(null), // e.g. "Scattered", "Dense"
 
     // Editorial description
-    aboutParagraphs: z.array(z.string()),
+    aboutParagraphs: z.array(z.string()).min(1),
 
     /* ===== ENRICHED FIELDS (top-50 courses, optional) ===== */
 
@@ -161,18 +164,24 @@ const cities = defineCollection({
     heroImage: z.string(),
     heroFlag: z.string(),
     lede: z.string(),
-    quickFacts: z.array(
-      z.object({
-        value: z.string(),
-        label: z.string(),
-      }),
-    ),
-    statsAside: z.array(
-      z.object({
-        label: z.string(),
-        value: z.string(),
-      }),
-    ),
+    // Derived at build time from the city's live course entries (see deriveCityStats).
+    // Kept in the schema as optional so city JSONs hold editorial content only.
+    quickFacts: z
+      .array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      )
+      .default([]),
+    statsAside: z
+      .array(
+        z.object({
+          label: z.string(),
+          value: z.string(),
+        }),
+      )
+      .default([]),
     introParagraphs: z.array(z.string()),
     mapPins: z.array(
       z.object({

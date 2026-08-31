@@ -1,0 +1,234 @@
+{
+  "name": "Beaver Ranch DGC",
+  "code": "CO-1001",
+  "city": "Conifer",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Conifer",
+  "location": {
+    "address": "11369 S Foxton Rd, Conifer, CO 80433",
+    "lat": 39.510016,
+    "lng": -105.300887
+  },
+  "holes": 21,
+  "par": 63,
+  "parSource": "map",
+  "totalFeet": 4745,
+  "courseLength": "short",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": false,
+  "greenFee": "Pay to play",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Beaver Ranch DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 9780,
+  "tags": [
+    "Mountain",
+    "Scenic",
+    "Pay to play",
+    "21 holes",
+    "Camping nearby"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": true
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Mountain",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Beaver Ranch is the mountain course Denver players drive 40 minutes for — 21 holes nestled into the Colorado Rockies at Conifer, with challenging terrain, beautiful views, and three full tee sets that turn the same 21 holes into easy, medium, and hard versions of themselves.",
+    "The shortest set plays 4,745 feet at par 63; the long set stretches past 7,500 feet at par 65. It's pay to play with camping nearby and a separate 20-hole Bluebird course on the same property — a full mountain disc golf weekend in one place.",
+    "The elevation is real and so is the terrain. Bring grippy shoes, a full bag, and a camera."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 141,
+      "character": "141 feet — a gentle mountain opener.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet across the slope.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet with the pines framing the line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 231,
+      "character": "231 feet — the terrain starts talking.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 223,
+      "character": "223 feet, straight and mountain-clean.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet with a guarded green.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet through the timber.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 375,
+      "character": "375 feet — the first real distance test.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 223,
+      "character": "223 feet, a clean line back toward the ridge.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet with the views opening up.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 244,
+      "character": "244 feet through the trees.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 159,
+      "character": "159 feet — the shortest hole on the card.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 188,
+      "character": "188 feet, a putter shot with a view.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 228,
+      "character": "228 feet with the slope working against you.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet — the mountain makes it play longer.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet, a clean gap in the pines.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 201,
+      "character": "201 feet, straight and fair.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 223,
+      "character": "223 feet to close the first 18.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 216,
+      "character": "216 feet — the bonus holes start.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 177,
+      "character": "177 feet, a short mountain finish.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 301,
+      "character": "The signature: 301 feet, the longest hole in the short set.",
+      "difficultyPct": 44,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 21 is the longest in the short set at 301 feet — the hole that sums up Beaver Ranch's mountain character. The pines frame a fairway that falls away toward the valley, and the thin air lets your disc fly a little further than it has any right to. It's the last hole, the best view, and the reason people come back.",
+  "localTips": "Pay to play with three tee sets — the easy set is a friendly mountain round, the hard set is a monster. Camping is nearby, and the separate Bluebird course makes it a full weekend. The altitude is real: drink water, throw discs, enjoy the views.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

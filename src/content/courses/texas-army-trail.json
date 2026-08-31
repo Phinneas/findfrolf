@@ -1,0 +1,213 @@
+{
+  "name": "Texas Army Trail DGC",
+  "code": "TX-1151",
+  "city": "Cypress",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Cypress",
+  "location": {
+    "address": "11937 Telge Rd, Cypress, TX 77429",
+    "lat": 29.9981,
+    "lng": -95.6544
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 6688,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Texas Army Trail DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 3396,
+  "tags": [
+    "Distance holes",
+    "Open",
+    "Free",
+    "Cart friendly",
+    "Bud Hadfield Park"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2011,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Chuck Haney",
+  "teeType": "Concrete",
+  "basketType": "Mach 7",
+  "elevation": null,
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "Texas Army Trail is the long, open test at Cypress's Bud Hadfield Park — 18 holes at par 58 across 6,688 feet, with long distance holes that demand accuracy more than raw power. Chuck Haney's 2011 design has alternate pins on eight holes to keep it fresh.",
+    "Free to play with concrete tees and Mach 7 baskets, and very cart friendly. The open fairways make every drive visible and every mistake obvious — a great course for learning to throw long and straight.",
+    "A friendly-but-serious round that's become a Houston-area favorite."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 275,
+      "character": "275 feet, a gentle opener.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 384,
+      "character": "384 feet — the distance starts early.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 378,
+      "character": "378 feet, straight and open.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 522,
+      "character": "522 feet — a monster par 3.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 380,
+      "character": "380 feet, fair and demanding.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 350,
+      "character": "350 feet with a clean line.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 390,
+      "character": "390 feet — the open air makes it honest.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 360,
+      "character": "360 feet, straight and true.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 562,
+      "character": "The signature: 562 feet, the longest hole on the card.",
+      "difficultyPct": 62,
+      "isSignature": true
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "distance": 475,
+      "character": "475 feet of par 4 — a placed drive.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 428,
+      "character": "428 feet of par 4.",
+      "difficultyPct": 52
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, a brief breather.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 198,
+      "character": "198 feet — the shortest hole on the card.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 312,
+      "character": "312 feet, fair and open.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 420,
+      "character": "420 feet — one of the longer par 3s.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 327,
+      "character": "327 feet with a guarded green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 405,
+      "character": "405 feet of par 4 to close the hard stretch.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 252,
+      "character": "252 feet to finish the long 18.",
+      "difficultyPct": 26
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 9 is the longest at Texas Army Trail at 562 feet — a par 4 that captures the course's whole identity: long, open, and demanding accuracy over power. A big placed drive, a clean approach, and you've earned a birdie look on the most talked-about hole in Cypress.",
+  "localTips": "Eight holes have alternate pins, so the course plays differently visit to visit. Free to play, very cart friendly, and the long par 3s are the main event. Bring your distance control.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 7",
+    "lighting": "None"
+  }
+}

@@ -15,7 +15,7 @@ faqItems:
     answer: "A courtesy violation occurs when a player disturbs another player's concentration during a throw — talking, moving, or making noise. The first offense is a warning; subsequent violations add a one-stroke penalty."
 ---
 
-Whether you're new to the sport or sharpening your competitive edge, understanding the official rules of disc golf keeps the game fair and fun. Here's a clear breakdown of the rules that matter most on the course.
+Whether you're new to the sport or sharpening your competitive edge, understanding the official rules of disc golf keeps the game fair and fun. Here's a clear breakdown of the rules that matter most on the course. (Never played at all? Read our [how to play disc golf](/blog/how-to-play-disc-golf) guide first.)
 
 ## The Object of the Game
 
@@ -73,9 +73,21 @@ A mandatory is a marked obstacle that your disc must pass on a specified side (l
 - You may putt from any stance on or behind your lie within 10 meters (33 feet) of the target
 - Beyond 10 meters, a "jump putt" or "step putt" is allowed — you may not putt from a stanced position and follow through past your lie
 
+(Confused by par, birdie, and bogey? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide) explains every term.)
+
 ## Courtesy and Sportsmanship
 
 - Stay quiet and still when another player is throwing
 - Do not stand where you might distract the thrower
 - If your group is holding up the group behind, invite them to play through
 - Help look for lost discs — everyone benefits
+
+## Put the Rules Into Practice
+
+Knowing the rules is one thing — getting out and playing is another. Use our [disc golf course finder](/finder) to find a course near you, or start with a city guide:
+
+- [Disc golf in Austin, TX](/tx/austin) — beginner-friendly and free to play
+- [Disc golf in Chicago, IL](/il/chicago) — open park courses great for learning the OB rules
+- [Disc golf in Raleigh, NC](/nc/raleigh) — a growing scene with forgiving first-round layouts
+
+Once you're comfortable with the rules, our [disc golf scoring guide](/blog/disc-golf-scoring-guide) will help you keep score the right way.

@@ -1,0 +1,277 @@
+{
+  "name": "The Canyons at Dellwood Park",
+  "code": "IL-1004",
+  "city": "Lockport",
+  "state": "Illinois",
+  "citySlug": "chicago",
+  "stateSlug": "il",
+  "area": "Lockport",
+  "location": {
+    "address": "Route 171 & Woods Dr, Lockport, IL 60441",
+    "lat": 41.57418,
+    "lng": -88.060031
+  },
+  "holes": 27,
+  "par": 86,
+  "parSource": "map",
+  "totalFeet": 7355,
+  "courseLength": "long",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "The Canyons at Dellwood Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 9559,
+  "tags": [
+    "Championship",
+    "27 holes",
+    "Variant holes",
+    "Free",
+    "Pro shop",
+    "Historic park"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": true,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2014,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach X",
+  "elevation": "Moderately Hilly",
+  "foliage": "Moderately Wooded",
+  "aboutParagraphs": [
+    "The Canyons at Dellwood Park is the crown jewel of Chicago-area disc golf — a 27-hole championship layout in a historic park with moderate hills, woods, and eight water hazards in play. Since 2014 it's been the course the region's best players measure themselves against.",
+    "The course is a true 27-holer with alternate holes on 6 and 8: the variant holes (6A–6E and 8A–8D) let you build your own loop and keep the course fresh every visit. Trash cans and picnic tables at every hole, and the Dellwood Disc Golf shop is on site.",
+    "Free to play with concrete tees and Mach X baskets, it's a full day of championship golf in a park that's been part of Lockport's landscape for over a century."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 242,
+      "character": "242 feet, a gentle opener.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet, straight and fair.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "distance": 312,
+      "character": "312 feet — the first par 4.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, a clean line.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet with the trees framing.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 275,
+      "character": "275 feet — the alternate holes begin here.",
+      "difficultyPct": 28
+    },
+    {
+      "number": "6A",
+      "par": 4,
+      "distance": 482,
+      "character": "6A: 482 feet — the longest variant, a true par 4.",
+      "difficultyPct": 58
+    },
+    {
+      "number": "6B",
+      "par": 3,
+      "distance": 178,
+      "character": "6B: 178 feet, a short alternate.",
+      "difficultyPct": 16
+    },
+    {
+      "number": "6C",
+      "par": 3,
+      "distance": 295,
+      "character": "6C: 295 feet through the woods.",
+      "difficultyPct": 32
+    },
+    {
+      "number": "6D",
+      "par": 3,
+      "distance": 250,
+      "character": "6D: 250 feet, a placed alternate.",
+      "difficultyPct": 26
+    },
+    {
+      "number": "6E",
+      "par": 3,
+      "distance": 258,
+      "character": "6E: 258 feet with a guarded green.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 258,
+      "character": "258 feet, straight and true.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "distance": 450,
+      "character": "The signature: 450 feet, the longest standard hole, water in play.",
+      "difficultyPct": 60,
+      "isSignature": true
+    },
+    {
+      "number": "8A",
+      "par": 3,
+      "distance": 239,
+      "character": "8A: 239 feet, a clean alternate.",
+      "difficultyPct": 24
+    },
+    {
+      "number": "8B",
+      "par": 3,
+      "distance": 253,
+      "character": "8B: 253 feet, fair and wooded.",
+      "difficultyPct": 26
+    },
+    {
+      "number": "8C",
+      "par": 3,
+      "distance": 290,
+      "character": "8C: 290 feet — the water edges in.",
+      "difficultyPct": 36
+    },
+    {
+      "number": "8D",
+      "par": 3,
+      "distance": 211,
+      "character": "8D: 211 feet, a short breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 238,
+      "character": "238 feet to close the opening stretch.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 195,
+      "character": "195 feet, a brief breather.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 412,
+      "character": "412 feet — the back nine's first par 4.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 375,
+      "character": "375 feet, one of the longer par 3s.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 170,
+      "character": "170 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 182,
+      "character": "182 feet, a genuine birdie look.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet with the park's hills working.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 375,
+      "character": "375 feet of par 4 through the woods.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet to finish the championship 27.",
+      "difficultyPct": 24
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 8 is the longest standard hole at The Canyons at 450 feet — a par 4 where the park's eight water hazards make their most serious appearance. It's the hole that defines the course's championship character: woods, water, and a line that rewards both power and nerve. The 8A–8D variants give you four more ways to lose a disc nearby.",
+  "localTips": "Twenty-seven holes with variant holes on 6 (6A–6E) and 8 (8A–8D) — build your own loop and it plays different every visit. The Dellwood Disc Golf shop is on site. Free to play in a historic park; expect a serious full-day round.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "On-site",
+    "dogs": "Unknown",
+    "baskets": "Mach X",
+    "lighting": "None"
+  }
+}

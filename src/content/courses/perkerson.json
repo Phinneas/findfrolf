@@ -1,0 +1,117 @@
+{
+  "name": "Perkerson Park",
+  "code": "GA-1004",
+  "city": "Atlanta",
+  "state": "Georgia",
+  "citySlug": "atlanta",
+  "stateSlug": "ga",
+  "area": "Atlanta",
+
+  "location": {
+    "address": "770 Deckner Ave SW, Atlanta, GA 30310",
+    "lat": 33.7112,
+    "lng": -84.4127
+  },
+
+  "holes": 18,
+  "par": 59,
+  "parSource": "map",
+  "totalFeet": 5360,
+  "courseLength": "medium",
+  "difficulty": "Hard",
+  "difficultyRating": 4,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": "28256",
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Perkerson Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.3,
+  "reviewCount": 4153,
+
+  "tags": ["Wooded", "Technical", "Free", "Championship"],
+
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 2013,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "John Ritger",
+
+  "teeType": "Rubber",
+  "basketType": "Gateway Titan",
+  "elevation": null,
+  "foliage": "Woodsy",
+
+  "aboutParagraphs": [
+    "Perkerson Park is Atlanta's championship-caliber test near downtown — a wooded, scenic course that the locals call the most challenging of the city's top tracks. John Ritger's design plays 5,360 feet at par 59 with a par 5 and several par 4s woven through the trees.",
+    "Free to play with rubber tees and Gateway Titan baskets, Perkerson is where Atlanta's better players measure themselves. The woods are unrelenting, the lines are tight, and the reward for a clean round is a scorecard you can brag about.",
+    "It's a short drive from downtown and a long walk from easy — bring your A game."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 3, "distance": 250, "character": "250 feet through the woods to open.", "difficultyPct": 30 },
+    { "number": 2, "par": 3, "distance": 285, "character": "285 feet — the tight lines start immediately.", "difficultyPct": 38 },
+    { "number": 3, "par": 3, "distance": 335, "character": "335 feet, the first big par 3.", "difficultyPct": 48 },
+    { "number": 4, "par": 3, "distance": 220, "character": "220 feet, a clean lane.", "difficultyPct": 26 },
+    { "number": 5, "par": 3, "distance": 223, "character": "223 feet with the trees closing in.", "difficultyPct": 28 },
+    { "number": 6, "par": 3, "distance": 224, "character": "224 feet, straight and wooded.", "difficultyPct": 28 },
+    { "number": 7, "par": 3, "distance": 300, "character": "300 feet — the canopy shapes the shot.", "difficultyPct": 42 },
+    { "number": 8, "par": 3, "distance": 248, "character": "248 feet, a guarded green.", "difficultyPct": 32 },
+    { "number": 9, "par": 4, "distance": 374, "character": "374 feet — the first par 4.", "difficultyPct": 52 },
+    { "number": 10, "par": 3, "distance": 205, "character": "205 feet, a brief breather.", "difficultyPct": 24 },
+    { "number": 11, "par": 3, "distance": 318, "character": "318 feet with a tight corridor.", "difficultyPct": 44 },
+    { "number": 12, "par": 4, "distance": 378, "character": "378 feet of par 4 — a placed drive is required.", "difficultyPct": 54 },
+    { "number": 13, "par": 3, "distance": 290, "character": "290 feet, straight and unforgiving.", "difficultyPct": 38 },
+    { "number": 14, "par": 3, "distance": 235, "character": "235 feet with the woods framing the pin.", "difficultyPct": 30 },
+    { "number": 15, "par": 4, "distance": 439, "character": "439 feet — the longest par 4 so far.", "difficultyPct": 60 },
+    { "number": 16, "par": 3, "distance": 265, "character": "265 feet, a clean midrange line.", "difficultyPct": 34 },
+    { "number": 17, "par": 3, "distance": 286, "character": "286 feet — the trees tighten again.", "difficultyPct": 38 },
+    { "number": 18, "par": 5, "distance": 485, "character": "The signature: 485 feet of closing par 5, the longest hole at Perkerson.", "difficultyPct": 66, "isSignature": true }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is the only par 5 at Perkerson — 485 feet of woodsy finish that rewards three clean shots. It's the hole that defines the course's championship character: no gifts, no shortcuts, just honest disc golf through the trees to close the round. Par here feels like a small victory.",
+
+  "localTips": "This is Atlanta's hardest free course — bring your accuracy and your patience. The par 5 on 18 is your one chance to make up ground. Rubber tees can get slick after rain; wear good shoes. Free to play near downtown.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Gateway Titan",
+    "lighting": "None"
+  }
+}

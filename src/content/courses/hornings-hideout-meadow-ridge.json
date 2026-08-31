@@ -1,0 +1,212 @@
+{
+  "name": "Hornings Hideout (Meadow Ridge)",
+  "code": "OR-1003",
+  "city": "North Plains",
+  "state": "Oregon",
+  "citySlug": "portland",
+  "stateSlug": "or",
+  "area": "North Plains",
+  "location": {
+    "address": "21277 NW Brunswick Canyon Rd, North Plains, OR 97133",
+    "lat": 45.6738,
+    "lng": -123.0128
+  },
+  "holes": 18,
+  "par": 56,
+  "parSource": "map",
+  "totalFeet": 5540,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": false,
+  "greenFee": "Pay to play",
+  "pdgaCourseId": "28249",
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Hornings Hideout (Meadow Ridge) — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 1224,
+  "tags": [
+    "Wooded",
+    "Private",
+    "Pay to play",
+    "Camping"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": true,
+    "camping": true
+  },
+  "yearEstablished": 2009,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Bob Horning",
+  "teeType": "Concrete",
+  "basketType": "Home Made",
+  "elevation": null,
+  "foliage": "Woodsy",
+  "aboutParagraphs": [
+    "Meadow Ridge is the third and longest course at Horning's Hideout, the private pay-to-play disc golf property in the hills west of Portland. Bob Horning built it as the big brother to the property's other two courses, and from the blue tees it plays 5,540 feet at par 56 through woodsy terrain.",
+    "It's a day-trip destination: pay at the gate, play all three courses, camp on the property, and let the whole weekend revolve around discs. The blue tees are the standard loop here, while the gold tees stretch it further for the big arms.",
+    "The course rewards clean lines over power — the woods give you a lane and expect you to hit it."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet through the trees to open.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 302,
+      "character": "302 feet — the lane tightens early.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 234,
+      "character": "234 feet, a fair opening par 3.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 192,
+      "character": "192 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet with a tree guarding the approach.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 208,
+      "character": "208 feet, straight and woodsy.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet — a par 3 that asks for a precise line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 344,
+      "character": "344 feet, the first longish par 3.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet back toward the heart of the property.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 318,
+      "character": "318 feet through the woods.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet — a birdie window.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 311,
+      "character": "311 feet; the gap off the tee is the whole hole.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 268,
+      "character": "268 feet, straight and true.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 505,
+      "character": "505 feet — the first par 4, a genuine two-shotter.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet with the woods closing in.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 692,
+      "character": "The signature: 692 feet, the longest hole at Meadow Ridge.",
+      "difficultyPct": 68,
+      "isSignature": true
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 285,
+      "character": "285 feet — a clean midrange line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 328,
+      "character": "328 feet to finish through the timber.",
+      "difficultyPct": 38
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 16 is the longest at Meadow Ridge at 692 feet, and the hole that gives the course its grown-up reputation. From the blue tees it's a true three-shot par 4 through the woodsy terrain, with the fairway asking for a placed drive before the green comes into view. It's the finishing test of a course built for all-day disc golf.",
+  "localTips": "Pay at the gate — this is a private, pay-to-play property with three courses, so plan a full day. Camping is available on site, and the whole place is built around disc golf weekends. The blue tees are the standard loop; the gold tees add distance if you want more.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Home Made",
+    "lighting": "None"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "name": "Bad Rock Creek",
+  "code": "MO-1002",
+  "city": "Liberty",
+  "state": "Missouri",
+  "citySlug": "kansas-city",
+  "stateSlug": "mo",
+  "area": "Liberty",
+  "location": {
+    "address": "901 S La Frenz Rd, Liberty, MO 64068",
+    "lat": 39.2311,
+    "lng": -94.3926
+  },
+  "holes": 18,
+  "par": 55,
+  "parSource": "map",
+  "totalFeet": 3637,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Bad Rock Creek — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.6,
+  "reviewCount": 3667,
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Tall-grass OB",
+    "Water hazards",
+    "Free"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Good elevation",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Bad Rock Creek in Stocksdale Park, Liberty, is a compact technical gem — the red tees play 3,637 feet at par 55 with a mix of short wooded holes and open stretches that wind around the mountain-bike trails. Tall-grass OB and three ponds keep every shot honest.",
+    "Free to play with concrete tees and DISCatcher baskets, with good elevation and a layout that rewards placement over power. Three tee sets stretch the course from beginner-friendly to a 10,000-foot monster for the brave.",
+    "New holes added in 2022 kept the course fresh — it's one of the most-loved rounds in the KC metro."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 191,
+      "character": "191 feet through the trees to open.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 179,
+      "character": "179 feet, a short clean line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 196,
+      "character": "196 feet with the woods framing the pin.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 184,
+      "character": "184 feet, straight and technical.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 162,
+      "character": "162 feet — a genuine ace run.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 150,
+      "character": "150 feet, the shortest hole on the card.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 169,
+      "character": "169 feet, a brief breather.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet with the tall grass looming.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, straight and fair.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 161,
+      "character": "161 feet, a clean putter shot.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet — the OB grass tightens the line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 150,
+      "character": "150 feet, a brief breather.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 213,
+      "character": "213 feet with a guarded green.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 160,
+      "character": "160 feet, straight and true.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 199,
+      "character": "199 feet, fair and wooded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet — the pond comes into view.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 270,
+      "character": "270 feet, the longest par 3 on the red tees.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 433,
+      "character": "The signature: 433 feet, the only par 4, water in play.",
+      "difficultyPct": 48,
+      "isSignature": true
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 18 is Bad Rock's only par 4 — 433 feet with a pond in play and tall-grass OB framing the landing zone. It's the hole that sums up the course: short on the card, sneaky in person, and technical enough that par feels earned. A fitting finish for one of the KC metro's most-loved rounds.",
+  "localTips": "The red tees are the friendly loop; blue adds distance and yellow stretches past 10,000 feet. Tall-grass OB and three ponds keep it honest — watch your lines. Free to play with restrooms on site; the course shares the park with mountain-bike trails.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

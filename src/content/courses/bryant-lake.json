@@ -1,0 +1,213 @@
+{
+  "name": "Bryant Lake Park",
+  "code": "MN-1002",
+  "city": "Eden Prairie",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "Eden Prairie",
+  "location": {
+    "address": "6800 Rowland Rd, Eden Prairie, MN 55344",
+    "lat": 44.8832,
+    "lng": -93.4219
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "map",
+  "totalFeet": 5557,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": false,
+  "greenFee": "$10",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Bryant Lake Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.8,
+  "reviewCount": 7759,
+  "tags": [
+    "Technical",
+    "Wooded",
+    "Scenic",
+    "Pay to play",
+    "Rolling hills"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1999,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Timmy Gill",
+  "teeType": "Concrete",
+  "basketType": "DISCatcher",
+  "elevation": "Rolling hills",
+  "foliage": "Wooded",
+  "aboutParagraphs": [
+    "Bryant Lake is the Twin Cities' scenic technical test — a Timmy Gill design from 1999 that overlooks the lake through rolling hills and woods. From the standard pins it plays 5,557 feet at par 57, and every hole demands a real decision.",
+    "It's pay to play through the Three Rivers Park District at $10 a round, with concrete tees and DISCatcher baskets. The lake views make the walk worth it even when the scores don't.",
+    "One of the most-loved courses in Minnesota — bring your accuracy and your camera."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 402,
+      "character": "402 feet — a big opener with the lake behind.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 263,
+      "character": "263 feet, a clean line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 287,
+      "character": "287 feet through the woods.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, a genuine birdie look.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "distance": 345,
+      "character": "345 feet of par 4 — a placed drive.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 165,
+      "character": "165 feet — the shortest hole on the card.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "distance": 421,
+      "character": "421 feet with the hills working.",
+      "difficultyPct": 50
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 366,
+      "character": "366 feet, straight and wooded.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 310,
+      "character": "310 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 301,
+      "character": "301 feet with a guarded green.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 274,
+      "character": "274 feet, a clean corridor.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 342,
+      "character": "342 feet — the trees tighten.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 174,
+      "character": "174 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 347,
+      "character": "347 feet with the lake in view.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 248,
+      "character": "248 feet, a placed midrange.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, straight and true.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 479,
+      "character": "The signature: 479 feet, the longest hole at Bryant Lake.",
+      "difficultyPct": 58,
+      "isSignature": true
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 423,
+      "character": "423 feet to finish — the lake frames the closer.",
+      "difficultyPct": 52
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is the longest at Bryant Lake at 479 feet — a par 3 that plays even bigger with the hills and the lake views working against you. It's the hole that separates good rounds from great ones here, and the one everyone talks about on the walk back to the lot.",
+  "localTips": "Pay to play at $10 (Three Rivers Park District) — check the current fee before you go. The course is technical with real elevation; the lake views are the consolation prize on a bad hole. Bring water and a camera.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "On-site lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher",
+    "lighting": "None"
+  }
+}

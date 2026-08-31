@@ -1,0 +1,213 @@
+{
+  "name": "Acorn Park",
+  "code": "MN-1005",
+  "city": "Roseville",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "Roseville",
+  "location": {
+    "address": "286 W County Road C, Roseville, MN 55113",
+    "lat": 45.0213,
+    "lng": -93.1728
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "map",
+  "totalFeet": 3800,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Acorn Park — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4,
+  "reviewCount": 5448,
+  "tags": [
+    "Wooded",
+    "Marsh hazards",
+    "Free",
+    "Dual tees",
+    "Dual baskets"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 2015,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": "Chuck Kennedy & Steve West",
+  "teeType": "Concrete",
+  "basketType": "Kingpin",
+  "elevation": "Rolling hills",
+  "foliage": "Mixed - Woods/Grass",
+  "aboutParagraphs": [
+    "Acorn Park is Roseville's modern, intermediate-length course — 18 holes across rolling grassy hills mixed with woods, with a marsh in play and an unusual 26 baskets for 18 holes. Fifteen dual tees and eight dual baskets mean the same holes play fresh round after round.",
+    "Free to play with concrete tees and Kingpin baskets, it's the 2015-era addition to the Twin Cities scene that intermediate players love — short enough to be fun, technical enough to teach.",
+    "The marsh is the wild card after rain; the dual layouts are the reason locals never get bored."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 150,
+      "character": "150 feet — a gentle opener.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 145,
+      "character": "145 feet, the shortest hole on the card.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "distance": 300,
+      "character": "300 feet — the first par 4.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 310,
+      "character": "310 feet of par 4 with a guarded green.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, straight and fair.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "distance": 410,
+      "character": "The signature: 410 feet, the longest hole at Acorn.",
+      "difficultyPct": 50,
+      "isSignature": true
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 185,
+      "character": "185 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 180,
+      "character": "180 feet with the marsh nearby.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, fair and wooded.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 160,
+      "character": "160 feet, a short putter shot.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 170,
+      "character": "170 feet, straight and true.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 135,
+      "character": "135 feet — a genuine ace run.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 170,
+      "character": "170 feet with the grass rolling.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "distance": 305,
+      "character": "305 feet of par 4 — the marsh tightens.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 145,
+      "character": "145 feet, a clean finish line.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 190,
+      "character": "190 feet, fair and wooded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet to complete the 18.",
+      "difficultyPct": 22
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 7 is the longest at Acorn at 410 feet — a par 4 that stretches across the rolling grass before the marsh comes into play. It's the hole that gives the course its one big moment, and the one that separates a good score from a great one on this friendly, technical layout.",
+  "localTips": "Fifteen dual tees and eight dual baskets mean you can play the same 18 holes a dozen different ways. The marsh is in play after rain on several holes. Free to play — a great intermediate practice loop.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Kingpin",
+    "lighting": "None"
+  }
+}

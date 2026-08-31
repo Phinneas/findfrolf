@@ -1,0 +1,213 @@
+{
+  "name": "Tom McCutcheon DGP",
+  "code": "TX-1149",
+  "city": "Lewisville",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "Lewisville",
+  "location": {
+    "address": "Lake Park, Lewisville, TX 75057",
+    "lat": 33.0747,
+    "lng": -97.0017
+  },
+  "holes": 18,
+  "par": 55,
+  "parSource": "map",
+  "totalFeet": 5324,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Tom McCutcheon DGP — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 4458,
+  "tags": [
+    "Open",
+    "Long shots",
+    "Free",
+    "Beginner-friendly",
+    "Park course"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1998,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+  "teeType": "Concrete",
+  "basketType": "Mach 2",
+  "elevation": null,
+  "foliage": "Open",
+  "aboutParagraphs": [
+    "Tom McCutcheon Disc Golf Park is Lewisville's open, friendly course at Lake Park — redesigned by Dynamic Discs Carrollton and known for holes that require long, accurate shots without ever feeling punishing. From the standard tees it plays 5,324 feet at par 55.",
+    "Free to play with concrete tees and Mach 2 baskets, it's the kind of park course where you can air out a midrange and still walk away smiling. The open fairways make it a great place to practice your distance control.",
+    "A welcoming DFW staple that's been around since 1998 and keeps improving."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet, a gentle opener.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 218,
+      "character": "218 feet, straight and fair.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 242,
+      "character": "242 feet with the open fairways starting.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, a clean line.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 277,
+      "character": "277 feet, fair and open.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 363,
+      "character": "363 feet — one of the longer par 3s.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 400,
+      "character": "400 feet — a big, accurate shot required.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet, straight and true.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 287,
+      "character": "287 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 228,
+      "character": "228 feet, a clean corridor.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 523,
+      "character": "The signature: 523 feet, the longest hole at Tom McCutcheon.",
+      "difficultyPct": 56,
+      "isSignature": true
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 385,
+      "character": "385 feet — the open air makes it play long.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 207,
+      "character": "207 feet, a genuine birdie look.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 316,
+      "character": "316 feet, fair and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 356,
+      "character": "356 feet with a placed drive.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 382,
+      "character": "382 feet — accuracy beats power here.",
+      "difficultyPct": 44
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 235,
+      "character": "235 feet to finish the friendly 18.",
+      "difficultyPct": 22
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 12 is the longest at Tom McCutcheon at 523 feet — a par 4 that gives the course its one true two-shot moment on the open ground. A big drive down the fairway, then a clean approach to a basket with room to breathe. It's the hole that makes the round feel complete.",
+  "localTips": "Most holes need long, accurate shots — practice your distance control here. Free to play in an open park setting at Lake Park. A great course for working on your midrange game.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": false,
+  "isOpen": true,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 2",
+    "lighting": "None"
+  }
+}

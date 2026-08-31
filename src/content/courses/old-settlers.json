@@ -1,0 +1,117 @@
+{
+  "name": "Old Settlers' Park DGC",
+  "code": "TX-1155",
+  "city": "Round Rock",
+  "state": "Texas",
+  "citySlug": "round-rock",
+  "stateSlug": "tx",
+  "area": "Round Rock",
+
+  "location": {
+    "address": "Old Settlers' Park, Round Rock, TX 78665",
+    "lat": 30.5381,
+    "lng": -97.6268
+  },
+
+  "holes": 18,
+  "par": 61,
+  "parSource": "udisc",
+  "totalFeet": 6617,
+  "courseLength": "medium",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+
+  "isFree": true,
+  "greenFee": "$0",
+
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Old Settlers' Park DGC — photo coming soon",
+      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+
+  "rating": 4.4,
+  "reviewCount": 3705,
+
+  "tags": ["Championship", "Long par 4s", "Open", "Well designed"],
+
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+
+  "yearEstablished": 2015,
+  "lastVerified": "2026-08-27",
+  "courseDesigner": null,
+
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+
+  "aboutParagraphs": [
+    "Old Settlers' Park in Round Rock is one of the Austin metro's most-loved courses — a championship-quality layout with long, thoughtful par 4s and an open, rolling parkland feel. From the main tees it plays 6,617 feet at par 61.",
+    "The course is the anchor of Round Rock's disc golf scene, with the kind of design that rewards placement and patience over raw power. The long par 4s are the heart of the round — holes 12, 15, 16, and 17 are where the scorecard gets decided.",
+    "A proper Austin-area destination course: free, friendly, and good enough to draw players from across the metro."
+  ],
+
+  "holeData": [
+    { "number": 1, "par": 4, "distance": 539, "character": "539 feet — a par 4 opener that stretches the legs.", "difficultyPct": 54 },
+    { "number": 2, "par": 3, "distance": 190, "character": "190 feet, a genuine birdie look.", "difficultyPct": 18 },
+    { "number": 3, "par": 3, "distance": 255, "character": "255 feet, a clean line.", "difficultyPct": 24 },
+    { "number": 4, "par": 4, "distance": 584, "character": "584 feet — the long par 4s begin.", "difficultyPct": 58 },
+    { "number": 5, "par": 3, "distance": 265, "character": "265 feet, fair and open.", "difficultyPct": 26 },
+    { "number": 6, "par": 3, "distance": 198, "character": "198 feet, a brief breather.", "difficultyPct": 18 },
+    { "number": 7, "par": 3, "distance": 233, "character": "233 feet with a guarded green.", "difficultyPct": 22 },
+    { "number": 8, "par": 3, "distance": 285, "character": "285 feet, straight and true.", "difficultyPct": 28 },
+    { "number": 9, "par": 4, "distance": 429, "character": "429 feet of par 4 — a placed drive.", "difficultyPct": 48 },
+    { "number": 10, "par": 3, "distance": 218, "character": "218 feet, a clean corridor.", "difficultyPct": 20 },
+    { "number": 11, "par": 3, "distance": 333, "character": "333 feet, fair and demanding.", "difficultyPct": 36 },
+    { "number": 12, "par": 4, "distance": 623, "character": "623 feet — one of the longest par 4s.", "difficultyPct": 62 },
+    { "number": 13, "par": 3, "distance": 240, "character": "240 feet, a placed midrange.", "difficultyPct": 24 },
+    { "number": 14, "par": 3, "distance": 326, "character": "326 feet with the trees framing.", "difficultyPct": 36 },
+    { "number": 15, "par": 4, "distance": 602, "character": "602 feet — the back stretch stays long.", "difficultyPct": 60 },
+    { "number": 16, "par": 4, "distance": 445, "character": "445 feet of par 4.", "difficultyPct": 50 },
+    { "number": 17, "par": 4, "distance": 628, "character": "The signature: 628 feet, the longest hole at Old Settlers' Park.", "difficultyPct": 64, "isSignature": true },
+    { "number": 18, "par": 3, "distance": 224, "character": "224 feet to finish the championship 18.", "difficultyPct": 22 }
+  ],
+
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 17 is the longest at Old Settlers' Park at 628 feet — a par 4 that captures the course's championship character: a long, thoughtful drive, a precise approach, and a finish that rewards the patient player. It's the hole that decides most rounds and the one the locals measure themselves against.",
+
+  "localTips": "The long par 4s on the back nine are where rounds are decided — pace yourself. Free to play (reportedly pay-to-play at times — verify the current fee policy before you go). A destination course for the Austin metro.",
+
+  "reviews": [],
+
+  "tournaments": [],
+
+  "nearbyCourseSlugs": [],
+
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": true,
+
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Unknown",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None"
+  }
+}
