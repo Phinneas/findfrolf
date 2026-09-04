@@ -1,0 +1,213 @@
+{
+  "name": "Johnny Roberts Memorial DGC",
+  "code": "CO-1004",
+  "city": "Arvada",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Arvada",
+  "location": {
+    "address": "5900 Allison St, Arvada, CO 80004",
+    "lat": 39.803909,
+    "lng": -105.086002
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "map",
+  "totalFeet": 3547,
+  "courseLength": "short",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Johnny Roberts Memorial DGC — photo coming soon",
+      "caption": "Placeholder — upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 9808,
+  "tags": [
+    "Technical",
+    "Short",
+    "Beginner-friendly",
+    "Free",
+    "Historic"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": 1978,
+  "lastVerified": "2026-08-28",
+  "courseDesigner": "John Bird",
+  "teeType": "Concrete",
+  "basketType": "Mach 5",
+  "elevation": null,
+  "foliage": "Moderately Wooded",
+  "aboutParagraphs": [
+    "Johnny Roberts Memorial is one of Colorado's oldest courses — a John Bird design from 1978 that was given a 'Back to the Future' redesign into the short, technical gem it is today. From the standard pins it plays 3,547 feet at par 54, with mature trees turning every hole into a putter-and-midrange puzzle.",
+    "It's the kind of course that does two jobs at once: forgiving enough to teach a beginner their lines, and technical enough that experienced players use it to sharpen their accuracy. Free to play with concrete tees, Mach 5 baskets, restrooms, and easy cart access near Olde Town Arvada.",
+    "Nearly 10,000 players have rated it — the definition of a local institution."
+  ],
+  "holeData": [
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 180,
+      "character": "180 feet — a gentle opener through the trees.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 203,
+      "character": "203 feet, straight and technical.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 273,
+      "character": "The signature: 273 feet, the longest hole at Johnny Roberts.",
+      "difficultyPct": 34,
+      "isSignature": true
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 165,
+      "character": "165 feet, a short putter line.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet with the trees framing.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet, a placed midrange.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 237,
+      "character": "237 feet through the corridor.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 171,
+      "character": "171 feet, a clean technical line.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 177,
+      "character": "177 feet, straight and wooded.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 231,
+      "character": "231 feet with a guarded green.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 162,
+      "character": "162 feet, a brief breather.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 123,
+      "character": "123 feet — the shortest hole on the card.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 231,
+      "character": "231 feet, fair and technical.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 155,
+      "character": "155 feet, a short putter shot.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 204,
+      "character": "204 feet through the mature trees.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 162,
+      "character": "162 feet, straight and true.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 243,
+      "character": "243 feet, the back nine's longest.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 183,
+      "character": "183 feet to finish the historic 18.",
+      "difficultyPct": 18
+    }
+  ],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": "Hole 3 is the longest at Johnny Roberts at 273 feet — still a par 3, still short, but the mature trees make it the one hole where accuracy fully decides the score. It's the perfect summary of a course that has been teaching Arvada players their lines since 1978.",
+  "localTips": "Bring a putter and a midrange — that's the whole bag you need. Free to play, restrooms on site, and very cart friendly. Olde Town Arvada is a 5-minute drive for food after the round; weekday mornings are the quiet window.",
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": true,
+  "isWooded": true,
+  "isOpen": false,
+  "facts": {
+    "parking": "Free lot",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Mach 5",
+    "lighting": "None"
+  }
+}

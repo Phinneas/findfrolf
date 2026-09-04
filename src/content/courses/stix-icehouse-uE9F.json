@@ -1,0 +1,82 @@
+{
+  "name": "Stix Icehouse",
+  "code": "TX-1169",
+  "city": "McKinney",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "McKinney",
+  "location": {
+    "address": "McKinney, Texas",
+    "lat": 33.178143749958465,
+    "lng": -96.62281534444212
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "udisc",
+  "totalFeet": 1777,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Stix Icehouse \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.4,
+  "reviewCount": 314,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Stix Icehouse is an 9-hole course in McKinney, Texas, playing 1,777 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

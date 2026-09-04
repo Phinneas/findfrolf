@@ -1,0 +1,82 @@
+{
+  "name": "Last Resort Disc Golf",
+  "code": "CO-1006",
+  "city": "Conifer",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Conifer",
+  "location": {
+    "address": "Conifer, Colorado",
+    "lat": 39.44366188963383,
+    "lng": -105.26410684087648
+  },
+  "holes": 19,
+  "par": 61,
+  "parSource": "udisc",
+  "totalFeet": 7106,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": false,
+  "greenFee": "Unknown",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Last Resort Disc Golf \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 148,
+  "tags": [
+    "Paid",
+    "Long",
+    "19 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Last Resort Disc Golf is an 19-hole course in Conifer, Colorado, playing 7,106 feet at par 61. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

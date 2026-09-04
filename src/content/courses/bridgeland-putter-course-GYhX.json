@@ -1,0 +1,82 @@
+{
+  "name": "Bridgeland Putter Course",
+  "code": "TX-1157",
+  "city": "Cypress",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Cypress",
+  "location": {
+    "address": "Cypress, Texas",
+    "lat": 29.947062922913844,
+    "lng": -95.73573049476958
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "udisc",
+  "totalFeet": 1395,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Bridgeland Putter Course \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.6,
+  "reviewCount": 34,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Bridgeland Putter Course is an 9-hole course in Cypress, Texas, playing 1,395 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

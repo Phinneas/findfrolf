@@ -1,0 +1,82 @@
+{
+  "name": "The REC",
+  "code": "TX-1170",
+  "city": "McKinney",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "McKinney",
+  "location": {
+    "address": "McKinney, Texas",
+    "lat": 33.18146724409864,
+    "lng": -96.63880985047615
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "udisc",
+  "totalFeet": 2175,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "The REC \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.1,
+  "reviewCount": 407,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "The REC is an 9-hole course in McKinney, Texas, playing 2,175 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

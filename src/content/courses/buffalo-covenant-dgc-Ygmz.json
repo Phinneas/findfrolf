@@ -1,0 +1,82 @@
+{
+  "name": "Buffalo Covenant DGC",
+  "code": "MN-1006",
+  "city": "Buffalo",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "Buffalo",
+  "location": {
+    "address": "Buffalo, Minnesota",
+    "lat": 45.19359637463464,
+    "lng": -93.87549759553593
+  },
+  "holes": 18,
+  "par": 59,
+  "parSource": "udisc",
+  "totalFeet": 4391,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Buffalo Covenant DGC \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.2,
+  "reviewCount": 743,
+  "tags": [
+    "Free",
+    "Short",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Buffalo Covenant DGC is an 18-hole course in Buffalo, Minnesota, playing 4,391 feet at par 59. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

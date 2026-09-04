@@ -1,0 +1,82 @@
+{
+  "name": "Boones Ferry Community Church",
+  "code": "OR-1005",
+  "city": "Tualatin",
+  "state": "Oregon",
+  "citySlug": "portland",
+  "stateSlug": "or",
+  "area": "Tualatin",
+  "location": {
+    "address": "Tualatin, Oregon",
+    "lat": 45.370956,
+    "lng": -122.770561
+  },
+  "holes": 15,
+  "par": 47,
+  "parSource": "udisc",
+  "totalFeet": 3996,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Boones Ferry Community Church \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.4,
+  "reviewCount": 385,
+  "tags": [
+    "Free",
+    "Short",
+    "15 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Boones Ferry Community Church is an 15-hole course in Tualatin, Oregon, playing 3,996 feet at par 47. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

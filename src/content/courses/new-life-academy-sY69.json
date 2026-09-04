@@ -1,0 +1,82 @@
+{
+  "name": "New Life Academy",
+  "code": "MN-1008",
+  "city": "Woodbury",
+  "state": "Minnesota",
+  "citySlug": "minneapolis-st-paul",
+  "stateSlug": "mn",
+  "area": "Woodbury",
+  "location": {
+    "address": "Woodbury, Minnesota",
+    "lat": 44.89296880158457,
+    "lng": -92.97304160892963
+  },
+  "holes": 9,
+  "par": 29,
+  "parSource": "udisc",
+  "totalFeet": 2644,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "New Life Academy \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.5,
+  "reviewCount": 344,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "New Life Academy is an 9-hole course in Woodbury, Minnesota, playing 2,644 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

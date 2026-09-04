@@ -1,0 +1,82 @@
+{
+  "name": "Riverwood Middle School",
+  "code": "TX-1161",
+  "city": "Humble",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Humble",
+  "location": {
+    "address": "Humble, Texas",
+    "lat": 30.061122819634967,
+    "lng": -95.15624864099108
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "udisc",
+  "totalFeet": 2112,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Riverwood Middle School \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.3,
+  "reviewCount": 201,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Riverwood Middle School is an 9-hole course in Humble, Texas, playing 2,112 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

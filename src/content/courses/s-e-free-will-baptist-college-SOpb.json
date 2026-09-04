@@ -1,0 +1,82 @@
+{
+  "name": "S.E. Free Will Baptist College",
+  "code": "NC-1017",
+  "city": "Wendell",
+  "state": "North Carolina",
+  "citySlug": "raleigh",
+  "stateSlug": "nc",
+  "area": "Wendell",
+  "location": {
+    "address": "Wendell, North Carolina",
+    "lat": 35.800738199784966,
+    "lng": -78.4164522215724
+  },
+  "holes": 9,
+  "par": 30,
+  "parSource": "udisc",
+  "totalFeet": 2574,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "S.E. Free Will Baptist College \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 2.5,
+  "reviewCount": 17,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "S.E. Free Will Baptist College is an 9-hole course in Wendell, North Carolina, playing 2,574 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

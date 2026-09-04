@@ -1,0 +1,82 @@
+{
+  "name": "GracePointFellowship DGC",
+  "code": "TX-1160",
+  "city": "Magnolia",
+  "state": "Texas",
+  "citySlug": "houston",
+  "stateSlug": "tx",
+  "area": "Magnolia",
+  "location": {
+    "address": "Magnolia, Texas",
+    "lat": 30.226750591650017,
+    "lng": -95.61715065329463
+  },
+  "holes": 18,
+  "par": 54,
+  "parSource": "udisc",
+  "totalFeet": 5211,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "GracePointFellowship DGC \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 276,
+  "tags": [
+    "Free",
+    "Medium",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "GracePointFellowship DGC is an 18-hole course in Magnolia, Texas, playing 5,211 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

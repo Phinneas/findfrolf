@@ -1,0 +1,82 @@
+{
+  "name": "Evergreen State College",
+  "code": "WA-1006",
+  "city": "Sunrise Beach",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "Sunrise Beach",
+  "location": {
+    "address": "Sunrise Beach, Washington",
+    "lat": 47.07272813369395,
+    "lng": -122.96913075958093
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "udisc",
+  "totalFeet": 5597,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Evergreen State College \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 1796,
+  "tags": [
+    "Free",
+    "Medium",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Evergreen State College is an 18-hole course in Sunrise Beach, Washington, playing 5,597 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

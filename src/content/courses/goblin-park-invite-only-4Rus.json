@@ -1,0 +1,82 @@
+{
+  "name": "Goblin park (invite only)",
+  "code": "TN-1007",
+  "city": "Nashville",
+  "state": "Tennessee",
+  "citySlug": "nashville",
+  "stateSlug": "tn",
+  "area": "Nashville",
+  "location": {
+    "address": "Nashville, Tennessee",
+    "lat": 36.31559138487043,
+    "lng": -86.88704585762243
+  },
+  "holes": 20,
+  "par": 63,
+  "parSource": "udisc",
+  "totalFeet": 5151,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Goblin park (invite only) \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 5.0,
+  "reviewCount": 10,
+  "tags": [
+    "Free",
+    "Medium",
+    "20 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Goblin park (invite only) is an 20-hole course in Nashville, Tennessee, playing 5,151 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

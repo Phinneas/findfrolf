@@ -1,6 +1,8 @@
 # FindFrolf — MVP City List & Course Targets
 
-Version 1.0 · Replaces "FindFrolf_MVP_City_List.docx" (that file is not in the repo — this is the canonical list)
+Version 1.1 · Replaces "FindFrolf_MVP_City_List.docx" (that file is not in the repo — this is the canonical list)
+
+> **Counting pass complete (Aug 2026):** the per-city targets are now verified against the PDGA directory. Real counts are in `docs/metro-course-counts.md`; the table below reflects them. Aggregate: **~806 PDGA-listed courses** across the 15 metros. The UDisc cross-check is also done (Scrapling, Sep 2026) — see `docs/udisc-cross-check.md`; UDisc lists ~784 across the same metros, and ~69 high-confidence UDisc-only courses (schools/churches/private/putter courses) were entered as base entries. The original "810" estimate was close — but the *allocation* was wrong in places (Chicago and MSP were underestimated; DFW and Portland overestimated).
 
 ## The decision: metro scope for every city
 

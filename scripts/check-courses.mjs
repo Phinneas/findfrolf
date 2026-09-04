@@ -32,23 +32,25 @@ const DIFFICULTY_MAP = { Easy: [1, 2], Moderate: [3], Hard: [4], 'Very Hard': [5
 const UNSAFE_PHOTO_HOSTS = ['innovadiscs.com', 'pravatar.cc'];
 const MAX_LAST_VERIFIED_AGE_DAYS = 183;
 
-// Per-city metro-scope targets from docs/course-sourcing-targets.md.
+// Per-city metro-scope targets from the PDGA counting pass (docs/metro-course-counts.md).
+// Verified Aug 2026; the UDisc-only gap-fill cross-check is done via Scrapling
+// (docs/udisc-cross-check.md) — those base entries are additive to these PDGA targets.
 const TARGETS = {
-  Austin: 52, // counting pass done — 48 PDGA + ~4 UDisc-only (docs/austin-course-list.md)
-  Denver: 55,
-  Portland: 55,
-  Chicago: 65,
-  Seattle: 45,
-  Charlotte: 50,
-  Houston: 88,
-  Phoenix: 45,
-  Nashville: 25,
-  Raleigh: 35,
-  'Dallas–Fort Worth': 110,
-  'Kansas City': 45,
-  Atlanta: 55,
-  Cincinnati: 25,
-  'Minneapolis–St. Paul': 60,
+  Austin: 51,
+  Denver: 56,
+  Portland: 38,
+  Chicago: 106,
+  Seattle: 42,
+  Charlotte: 59,
+  Houston: 83,
+  Phoenix: 38,
+  Nashville: 29,
+  Raleigh: 30,
+  'Dallas–Fort Worth': 76,
+  'Kansas City': 44,
+  Atlanta: 46,
+  Cincinnati: 28,
+  'Minneapolis–St. Paul': 80,
 };
 
 function readCourses() {

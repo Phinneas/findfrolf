@@ -1,0 +1,82 @@
+{
+  "name": "Dorton Park Putt & Approach Course",
+  "code": "NC-1010",
+  "city": "Concord",
+  "state": "North Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "nc",
+  "area": "Concord",
+  "location": {
+    "address": "Concord, North Carolina",
+    "lat": 35.40906318402584,
+    "lng": -80.67373389735593
+  },
+  "holes": 18,
+  "par": 45,
+  "parSource": "udisc",
+  "totalFeet": 1361,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Dorton Park Putt & Approach Course \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 3.6,
+  "reviewCount": 152,
+  "tags": [
+    "Free",
+    "Short",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Dorton Park Putt & Approach Course is an 18-hole course in Concord, North Carolina, playing 1,361 feet at par 45. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}

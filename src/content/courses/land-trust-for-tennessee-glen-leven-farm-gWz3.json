@@ -1,0 +1,82 @@
+{
+  "name": "Land Trust for Tennessee Glen Leven Farm",
+  "code": "TN-1008",
+  "city": "Nashville",
+  "state": "Tennessee",
+  "citySlug": "nashville",
+  "stateSlug": "tn",
+  "area": "Nashville",
+  "location": {
+    "address": "Nashville, Tennessee",
+    "lat": 36.10201933795064,
+    "lng": -86.77204465417812
+  },
+  "holes": 5,
+  "par": 15,
+  "parSource": "udisc",
+  "totalFeet": 872,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Land Trust for Tennessee Glen Leven Farm \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 5.0,
+  "reviewCount": 5,
+  "tags": [
+    "Free",
+    "Short",
+    "5 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-04",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Land Trust for Tennessee Glen Leven Farm is an 5-hole course in Nashville, Tennessee, playing 872 feet at par 15. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false,
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  }
+}
