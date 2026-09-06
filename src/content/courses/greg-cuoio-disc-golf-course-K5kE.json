@@ -1,0 +1,82 @@
+{
+  "name": "Greg Cuoio Disc Golf Course",
+  "code": "WA-1034",
+  "city": "Olympia",
+  "state": "Washington",
+  "citySlug": "seattle",
+  "stateSlug": "wa",
+  "area": "Olympia",
+  "location": {
+    "address": "Olympia, Washington",
+    "lat": 47.07555409520964,
+    "lng": -122.80363263932409
+  },
+  "holes": 18,
+  "par": 62,
+  "parSource": "udisc",
+  "totalFeet": 7867,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Greg Cuoio Disc Golf Course \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 2.9,
+  "reviewCount": 24,
+  "tags": [
+    "Free",
+    "Long",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Greg Cuoio Disc Golf Course is an 18-hole course in Olympia, Washington, playing 7,867 feet at par 62. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Paradise Pointe - Blackthorn",
+  "code": "MO-1021",
+  "city": "Smithville",
+  "state": "Missouri",
+  "citySlug": "kansas-city",
+  "stateSlug": "mo",
+  "area": "Smithville",
+  "location": {
+    "address": "Smithville, Missouri",
+    "lat": 39.41122626407255,
+    "lng": -94.5487854257226
+  },
+  "holes": 18,
+  "par": 58,
+  "parSource": "udisc",
+  "totalFeet": 6495,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Paradise Pointe - Blackthorn \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.3,
+  "reviewCount": 967,
+  "tags": [
+    "Free",
+    "Medium",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Paradise Pointe - Blackthorn is an 18-hole course in Smithville, Missouri, playing 6,495 feet at par 58. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

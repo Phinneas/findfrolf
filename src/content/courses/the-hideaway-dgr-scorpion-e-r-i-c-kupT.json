@@ -1,0 +1,82 @@
+{
+  "name": "The Hideaway DGR: Scorpion (E.R.I.C)",
+  "code": "TX-1344",
+  "city": "Terrell",
+  "state": "Texas",
+  "citySlug": "dallas-fort-worth",
+  "stateSlug": "tx",
+  "area": "Terrell",
+  "location": {
+    "address": "Terrell, Texas",
+    "lat": 32.84262621836052,
+    "lng": -96.17146364068381
+  },
+  "holes": 18,
+  "par": 57,
+  "parSource": "udisc",
+  "totalFeet": 4399,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": false,
+  "greenFee": "Unknown",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "The Hideaway DGR: Scorpion (E.R.I.C) \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.7,
+  "reviewCount": 795,
+  "tags": [
+    "Paid",
+    "Short",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "The Hideaway DGR: Scorpion (E.R.I.C) is an 18-hole course in Terrell, Texas, playing 4,399 feet at par 57. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

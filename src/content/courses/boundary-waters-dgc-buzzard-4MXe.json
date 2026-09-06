@@ -1,0 +1,82 @@
+{
+  "name": "Boundary Waters DGC - Buzzard",
+  "code": "GA-1010",
+  "city": "Douglasville",
+  "state": "Georgia",
+  "citySlug": "atlanta",
+  "stateSlug": "ga",
+  "area": "Douglasville",
+  "location": {
+    "address": "Douglasville, Georgia",
+    "lat": 33.666794,
+    "lng": -84.66287
+  },
+  "holes": 17,
+  "par": 58,
+  "parSource": "udisc",
+  "totalFeet": 6778,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Boundary Waters DGC - Buzzard \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.4,
+  "reviewCount": 2049,
+  "tags": [
+    "Free",
+    "Medium",
+    "17 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": true,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Boundary Waters DGC - Buzzard is an 17-hole course in Douglasville, Georgia, playing 6,778 feet at par 58. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

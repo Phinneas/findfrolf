@@ -1,0 +1,82 @@
+{
+  "name": "Rogers Lakewood Park Disc Golf Course",
+  "code": "IN-9018",
+  "city": "Valparaiso",
+  "state": "Indiana",
+  "citySlug": "chicago",
+  "stateSlug": "in",
+  "area": "Valparaiso",
+  "location": {
+    "address": "Valparaiso, Indiana",
+    "lat": 41.51910490039049,
+    "lng": -87.06292856874957
+  },
+  "holes": 24,
+  "par": 77,
+  "parSource": "udisc",
+  "totalFeet": 8030,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": false,
+  "greenFee": "Unknown",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Rogers Lakewood Park Disc Golf Course \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.5,
+  "reviewCount": 1676,
+  "tags": [
+    "Paid",
+    "Long",
+    "24 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Rogers Lakewood Park Disc Golf Course is an 24-hole course in Valparaiso, Indiana, playing 8,030 feet at par 77. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

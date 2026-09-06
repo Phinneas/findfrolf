@@ -180,8 +180,10 @@ function warnings(c) {
 
   if (d.location && Number.isFinite(d.location.lat) && Number.isFinite(d.location.lng)) {
     const dec = (n) => (String(n).split('.')[1] || '').length;
-    if (dec(d.location.lat) < 4 || dec(d.location.lng) < 4) {
-      w('GPS coordinates need 4+ decimal places (publish gate)', true);
+    // 3 decimals ≈ 111m — enough for a course pin; some sources (UDisc) only
+    // provide 3. Fewer than 3 decimals (≈1km+) is a publish gate.
+    if (dec(d.location.lat) < 3 || dec(d.location.lng) < 3) {
+      w('GPS coordinates need 3+ decimal places (publish gate)', true);
     }
   }
 
@@ -245,19 +247,30 @@ if (CSV) {
 }
 
 const byCity = new Map();
+// Group progress by metro hub (citySlug) rather than municipality, so the
+// per-metro target comparison stays readable once the full ~800-course set lands.
+const SLUG_TO_METRO = {
+  austin: 'Austin', denver: 'Denver', portland: 'Portland', chicago: 'Chicago',
+  seattle: 'Seattle', charlotte: 'Charlotte', houston: 'Houston', phoenix: 'Phoenix',
+  nashville: 'Nashville', raleigh: 'Raleigh', 'dallas-fort-worth': 'Dallas–Fort Worth',
+  'kansas-city': 'Kansas City', atlanta: 'Atlanta', cincinnati: 'Cincinnati',
+  'minneapolis-st-paul': 'Minneapolis–St. Paul',
+  'san-marcos': 'Austin', 'round-rock': 'Austin',
+};
 for (const r of rows) {
-  if (!byCity.has(r.data.city)) byCity.set(r.data.city, { ready: 0, review: 0, draft: 0, total: 0 });
-  const s = byCity.get(r.data.city);
+  const metro = SLUG_TO_METRO[r.data.citySlug] || r.data.city;
+  if (!byCity.has(metro)) byCity.set(metro, { ready: 0, review: 0, draft: 0, total: 0 });
+  const s = byCity.get(metro);
   s[r.status.toLowerCase()] += 1;
   s.total += 1;
 }
 
 console.log('');
-console.log('Progress by city (vs docs/course-sourcing-targets.md):');
-for (const [city, s] of [...byCity.entries()].sort((a, b) => b[1].total - a[1].total)) {
-  const target = TARGETS[city];
+console.log('Progress by metro (vs docs/course-sourcing-targets.md):');
+for (const [metro, s] of [...byCity.entries()].sort((a, b) => b[1].total - a[1].total)) {
+  const target = TARGETS[metro];
   const progress = target ? `${s.total}/${target}` : String(s.total);
-  console.log(`  ${city.padEnd(18)} ${progress.padEnd(7)} course(s) — ${s.ready} ready / ${s.review} review / ${s.draft} draft`);
+  console.log(`  ${metro.padEnd(18)} ${progress.padEnd(7)} course(s) — ${s.ready} ready / ${s.review} review / ${s.draft} draft`);
 }
 const totals = rows.reduce((acc, r) => {
   acc[r.status.toLowerCase()] += 1;

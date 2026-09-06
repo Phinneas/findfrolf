@@ -1,0 +1,82 @@
+{
+  "name": "Glenn Christopher Nicholson Memorial DGC",
+  "code": "IN-9005",
+  "city": "Portage",
+  "state": "Indiana",
+  "citySlug": "chicago",
+  "stateSlug": "in",
+  "area": "Portage",
+  "location": {
+    "address": "Portage, Indiana",
+    "lat": 41.552773,
+    "lng": -87.211426
+  },
+  "holes": 21,
+  "par": 68,
+  "parSource": "udisc",
+  "totalFeet": 6190,
+  "courseLength": "medium",
+  "difficulty": "Easy",
+  "difficultyRating": 2,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Glenn Christopher Nicholson Memorial DGC \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.1,
+  "reviewCount": 1015,
+  "tags": [
+    "Free",
+    "Medium",
+    "21 Holes"
+  ],
+  "amenities": {
+    "restrooms": true,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": true,
+    "cartFriendly": true,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "Yes",
+    "proShop": "No on-site",
+    "dogs": "Dogs ok",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Glenn Christopher Nicholson Memorial DGC is an 21-hole course in Portage, Indiana, playing 6,190 feet at par 68. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

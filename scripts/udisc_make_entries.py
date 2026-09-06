@@ -105,6 +105,15 @@ def rubric_score(holes, total_feet):
     return max(1, min(5, s))
 
 
+STOP_TOKENS = {"disc", "golf", "course", "dgc", "dg", "park", "the", "at",
+               "memorial", "community", "discgolfpark", "discgolf", "club"}
+
+
+def sig(s):
+    norm = re.sub(r"[^a-z0-9 ]", " ", (s or "").lower())
+    return frozenset(t for t in norm.split() if t not in STOP_TOKENS and len(t) > 1)
+
+
 def main():
     only = json.load(open(ONLY))
     skipped = []
@@ -113,6 +122,7 @@ def main():
 
     # prime counters to avoid collisions with existing codes
     import os
+    existing_name_sigs = set()
     for fn in os.listdir(OUT_DIR):
         if fn.endswith(".json"):
             try:
@@ -122,6 +132,7 @@ def main():
                 if m:
                     st, num = m.group(1), int(m.group(2))
                     codes[st] = max(codes.get(st, 0), num)
+                existing_name_sigs.add(sig(d.get("name", "")))
             except Exception:
                 pass
 
@@ -134,6 +145,9 @@ def main():
                 out_path = os.path.join(OUT_DIR, slug + ".json")
                 if os.path.exists(out_path):
                     print(f"SKIP (exists) {slug}", flush=True)
+                    continue
+                if sig(card.get("name", "")) in existing_name_sigs:
+                    print(f"SKIP (name dup) {slug}", flush=True)
                     continue
                 try:
                     resp = session.fetch(url, page_action=page_action, timeout=60000, wait=800, google_search=False)

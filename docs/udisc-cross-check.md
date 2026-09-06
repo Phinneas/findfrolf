@@ -1,7 +1,13 @@
 # UDisc Cross-Check (gap-fill)
 
-Generated 2026-09-04. This is the Scrapling-based cross-check of UDisc's course
-directory against the PDGA counting pass (`docs/metro-course-counts.md`).
+Generated 2026-09-04 · **updated 2026-09-06** after the full metro sweep was
+entered into the directory.
+
+> **Full entry pass complete (2026-09-06):** all 784 UDisc-swept metro courses
+> were entered as base entries (656 more on top of the initial 65), bringing the
+> directory to **786 courses** — essentially full UDisc metro coverage. Each is
+> sourced from UDisc (JSON-LD + layout grid), `parSource: udisc`, placeholder
+> photos, no hole-by-hole data. Re-verify and enrich before publish.
 
 ## Method
 
