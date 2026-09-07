@@ -1,0 +1,82 @@
+{
+  "name": "Martin Walworth Disc Golf at Grace Presbyterian Church",
+  "code": "CO-1057",
+  "city": "Highlands Ranch",
+  "state": "Colorado",
+  "citySlug": "denver",
+  "stateSlug": "co",
+  "area": "Highlands Ranch",
+  "location": {
+    "address": "Highlands Ranch, Colorado",
+    "lat": 39.5412002,
+    "lng": -105.034846
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "estimated",
+  "totalFeet": 0,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": "martin-walworth-disc-golf-grace-presbyterian-church",
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Martin Walworth Disc Golf at Grace Presbyterian Church \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 0.0,
+  "reviewCount": 0,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher Tee Type",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": 2013,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": "Dirt Elevation",
+  "basketType": "DISCatcher Tee Type",
+  "elevation": "Slight Slope",
+  "foliage": "Sparse",
+  "aboutParagraphs": [
+    "Martin Walworth Disc Golf at Grace Presbyterian Church is a 9-hole course in Highlands Ranch, Colorado (par estimated). Sourced from the PDGA directory on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

@@ -1,73 +1,73 @@
 {
-  "name": "Kenwood Trails DGC",
-  "code": "MN-1035",
-  "city": "Lakeville",
+  "name": "The Cedars at Green Haven",
+  "code": "MN-1064",
+  "city": "Anoka",
   "state": "Minnesota",
   "citySlug": "minneapolis-st-paul",
   "stateSlug": "mn",
-  "area": "Lakeville",
+  "area": "Anoka",
   "location": {
-    "address": "Lakeville, Minnesota",
-    "lat": 44.670331284009,
-    "lng": -93.271462188567
+    "address": "Anoka, Minnesota",
+    "lat": 45.208724805602,
+    "lng": -93.399654865298
   },
   "holes": 18,
-  "par": 60,
-  "parSource": "udisc",
-  "totalFeet": 5288,
+  "par": 54,
+  "parSource": "estimated",
+  "totalFeet": 6349,
   "courseLength": "medium",
   "difficulty": "Easy",
   "difficultyRating": 2,
   "isFree": true,
   "greenFee": "$0",
-  "pdgaCourseId": null,
+  "pdgaCourseId": "cedars-green-haven",
   "pdgaTier": null,
   "websiteUrl": null,
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kenwood Trails DGC \u2014 photo coming soon",
+      "alt": "The Cedars at Green Haven \u2014 photo coming soon",
       "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.4,
-  "reviewCount": 3333,
+  "rating": 0.0,
+  "reviewCount": 0,
   "tags": [
     "Free",
     "Medium",
     "18 Holes"
   ],
   "amenities": {
-    "restrooms": true,
+    "restrooms": false,
     "parking": true,
     "water": false,
     "lighting": false,
     "proShop": false,
     "dogFriendly": false,
-    "cartFriendly": true,
+    "cartFriendly": false,
     "handicapAccessible": false,
     "camping": false
   },
   "facts": {
     "parking": "Unknown",
-    "restrooms": "Yes",
+    "restrooms": "No",
     "proShop": "No on-site",
     "dogs": "Unknown",
     "baskets": "Unknown",
     "lighting": "None",
     "hours": "Unknown"
   },
-  "yearEstablished": null,
+  "yearEstablished": 2022,
   "lastVerified": "2026-09-06",
   "courseDesigner": null,
   "teeType": null,
   "basketType": null,
-  "elevation": null,
+  "elevation": "Rolling",
   "foliage": null,
   "aboutParagraphs": [
-    "Kenwood Trails DGC is an 18-hole course in Lakeville, Minnesota, playing 5,288 feet at par 60. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Cedars at Green Haven is a 18-hole course in Anoka, Minnesota, playing 6,349 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
   ],
   "holeData": [],
   "layoutMapUrl": null,

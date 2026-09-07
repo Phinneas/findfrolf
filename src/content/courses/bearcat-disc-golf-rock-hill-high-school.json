@@ -1,0 +1,82 @@
+{
+  "name": "Bearcat Disc Golf at Rock Hill High School",
+  "code": "SC-9010",
+  "city": "Rock Hill",
+  "state": "South Carolina",
+  "citySlug": "charlotte",
+  "stateSlug": "sc",
+  "area": "Rock Hill",
+  "location": {
+    "address": "Rock Hill, South Carolina",
+    "lat": 34.9046368,
+    "lng": -80.9790247
+  },
+  "holes": 9,
+  "par": 27,
+  "parSource": "estimated",
+  "totalFeet": 1730,
+  "courseLength": "short",
+  "difficulty": "Easy",
+  "difficultyRating": 1,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": "bearcat-disc-golf-rock-hill-high-school",
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Bearcat Disc Golf at Rock Hill High School \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 0.0,
+  "reviewCount": 0,
+  "tags": [
+    "Free",
+    "Short",
+    "9 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher Tee Type",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": 2002,
+  "lastVerified": "2026-09-06",
+  "courseDesigner": null,
+  "teeType": "Grass Elevation",
+  "basketType": "DISCatcher Tee Type",
+  "elevation": "50/50 Flat/Hills",
+  "foliage": "Scattered",
+  "aboutParagraphs": [
+    "Bearcat Disc Golf at Rock Hill High School is a 9-hole course in Rock Hill, South Carolina, playing 1,730 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

@@ -1,6 +1,6 @@
 {
-  "name": "Bad Rock Creek & BRC Championship Course",
-  "code": "MO-1006",
+  "name": "William Jewell College",
+  "code": "MO-1032",
   "city": "Liberty",
   "state": "Missouri",
   "citySlug": "kansas-city",
@@ -8,66 +8,66 @@
   "area": "Liberty",
   "location": {
     "address": "Liberty, Missouri",
-    "lat": 39.234119,
-    "lng": -94.390709
+    "lat": 39.254591,
+    "lng": -94.4105606
   },
-  "holes": 18,
-  "par": 55,
-  "parSource": "udisc",
-  "totalFeet": 6278,
-  "courseLength": "medium",
+  "holes": 9,
+  "par": 27,
+  "parSource": "estimated",
+  "totalFeet": 2916,
+  "courseLength": "short",
   "difficulty": "Easy",
-  "difficultyRating": 2,
+  "difficultyRating": 1,
   "isFree": true,
   "greenFee": "$0",
-  "pdgaCourseId": null,
+  "pdgaCourseId": "william-jewell-college",
   "pdgaTier": null,
   "websiteUrl": null,
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bad Rock Creek & BRC Championship Course \u2014 photo coming soon",
+      "alt": "William Jewell College \u2014 photo coming soon",
       "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.6,
-  "reviewCount": 3675,
+  "rating": 0.0,
+  "reviewCount": 0,
   "tags": [
     "Free",
-    "Medium",
-    "18 Holes"
+    "Short",
+    "9 Holes"
   ],
   "amenities": {
-    "restrooms": true,
+    "restrooms": false,
     "parking": true,
-    "water": true,
+    "water": false,
     "lighting": false,
     "proShop": false,
-    "dogFriendly": true,
-    "cartFriendly": true,
+    "dogFriendly": false,
+    "cartFriendly": false,
     "handicapAccessible": false,
     "camping": false
   },
   "facts": {
     "parking": "Unknown",
-    "restrooms": "Yes",
+    "restrooms": "No",
     "proShop": "No on-site",
-    "dogs": "Dogs ok",
-    "baskets": "Unknown",
+    "dogs": "Unknown",
+    "baskets": "DISCatcher Tee Type",
     "lighting": "None",
     "hours": "Unknown"
   },
-  "yearEstablished": null,
+  "yearEstablished": 2012,
   "lastVerified": "2026-09-06",
   "courseDesigner": null,
-  "teeType": null,
-  "basketType": null,
-  "elevation": null,
-  "foliage": null,
+  "teeType": "Gravel Elevation",
+  "basketType": "DISCatcher Tee Type",
+  "elevation": "Rolling",
+  "foliage": "Scattered",
   "aboutParagraphs": [
-    "Bad Rock Creek & BRC Championship Course is an 18-hole course in Liberty, Missouri, playing 6,278 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "William Jewell College is a 9-hole course in Liberty, Missouri, playing 2,916 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
   ],
   "holeData": [],
   "layoutMapUrl": null,
