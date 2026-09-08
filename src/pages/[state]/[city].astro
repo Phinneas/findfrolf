@@ -70,6 +70,23 @@ const citySchema = {
     },
   })),
 };
+
+const schemas: any[] = [citySchema];
+
+if (cityData.data.faqs.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: cityData.data.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  });
+}
 ---
 
 <BaseLayout
@@ -77,7 +94,7 @@ const citySchema = {
   description={cityData.data.lede}
 >
   <Fragment slot="head">
-    <Schema schema={citySchema} />
+    <Schema schema={schemas} />
   </Fragment>
   <Breadcrumbs
     crumbs={[
