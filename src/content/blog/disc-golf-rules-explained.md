@@ -23,12 +23,16 @@ Throw a disc from a tee area to a target (metal basket) in as few throws as poss
 
 ## Tee Throws
 
+A tee throw is your first shot on each hole, taken from the marked tee area with at least one foot behind the front edge of the pad.
+
 - Players tee off in order of lowest score on the previous hole
 - On hole 1, order is determined by draw or mutual agreement
 - The tee area is marked — at least one foot must be behind the front edge of the tee pad during your throwing motion
 - If your tee shot goes OB, you re-tee with a one-stroke penalty (or use the drop zone if marked)
 
 ## Fairway Play
+
+After your tee shot, every throw is taken from your lie — the spot directly behind where your disc came to rest on the line of play.
 
 - Your lie is the spot directly behind where your disc came to rest, on the line of play
 - You must take a stance with at least one foot on or behind your lie before throwing
@@ -37,7 +41,7 @@ Throw a disc from a tee area to a target (metal basket) in as few throws as poss
 
 ## Out of Bounds (OB)
 
-OB areas are marked with white stakes, lines, or natural boundaries (roads, water, fences).
+Out of bounds (OB) is any marked area where your disc can't legally come to rest — landing there adds a one-stroke penalty. OB areas are marked with white stakes, lines, or natural boundaries (roads, water, fences).
 
 - **Penalty:** One stroke added to your score
 - **Next throw:** From the last in-bounds point on the line of play where the disc crossed going out, or from a designated drop zone
@@ -51,6 +55,8 @@ A mandatory is a marked obstacle that your disc must pass on a specified side (l
 - Mandos are marked with arrows or signage on the course
 
 ## Casual Obstacles and Relief
+
+Casual relief lets you move your lie without penalty when your disc lands in temporary interference — puddles, sticks, or trash.
 
 - **Casual relief:** You may take relief without penalty from casual water (puddles), casual obstacles (sticks, trash), or ground under repair
 - Mark your lie, pick up the obstacle, and throw from the new position on the line of play behind your lie
@@ -68,6 +74,8 @@ A mandatory is a marked obstacle that your disc must pass on a specified side (l
 
 ## Putting
 
+Putting is the throw that finishes the hole — your disc counts as "in" only when it comes to rest in the basket or chains.
+
 - A disc is "in" when it comes to rest in the basket or chains
 - A disc resting on top of the basket or wedged in the chains but not in the basket is not in — you must hole out
 - You may putt from any stance on or behind your lie within 10 meters (33 feet) of the target
@@ -76,6 +84,8 @@ A mandatory is a marked obstacle that your disc must pass on a specified side (l
 (Confused by par, birdie, and bogey? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide) explains every term.)
 
 ## Courtesy and Sportsmanship
+
+Courtesy rules keep play safe and fair — stay quiet and still during others' throws, and let faster groups play through.
 
 - Stay quiet and still when another player is throwing
 - Do not stand where you might distract the thrower

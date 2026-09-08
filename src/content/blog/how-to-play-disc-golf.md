@@ -29,6 +29,8 @@ The concept is simple: throw a disc from a tee pad toward a metal basket, and ke
 
 ## Scoring
 
+In disc golf, every throw counts as one stroke, and the goal is to finish each hole in the fewest throws — the player with the lowest total across all 18 holes wins.
+
 - **Par** is the expected number of strokes for the hole (usually 3 for most holes)
 - **Birdie** = one under par (scored!)
 - **Bogey** = one over par (no big deal)
@@ -45,6 +47,8 @@ You don't need a bag full of discs. Start with one midrange disc — it handles 
 - **Dynamic Discs truth** — reliable with a gentle fade
 
 ## Course Etiquette
+
+Disc golf etiquette is a short set of courtesies that keep the game moving and safe — here are the ones that matter most on your first round.
 
 - **Let faster groups play through** — if someone behind you is waiting, wave them ahead
 - **Don't distract throwers** — stay quiet and still when someone is throwing

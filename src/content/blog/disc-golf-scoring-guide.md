@@ -53,9 +53,11 @@ In competitive play, scoring works the same way but across multiple rounds:
 
 1. **Stroke play:** Total strokes across 2–3 rounds of 18 holes. Lowest cumulative score wins.
 2. **Match play:** Head-to-head, hole-by-hole. Win a hole by having fewer strokes; tie = halved.
-3. ** skins:** Each hole is worth a "skin" (prize). If two or more players tie a hole, the skin carries over to the next hole.
+3. **Skins:** Each hole is worth a "skin" (prize). If two or more players tie a hole, the skin carries over to the next hole.
 
 ## Scorekeeping Tips
+
+Accurate scoring comes down to a few simple habits — record every score immediately, keep a partner's score too, and mark your lie before picking up your disc.
 
 - **Keep your own score** AND a playing partner's score — compare after each hole
 - **Mark your lie** before picking up your disc to avoid disputes
@@ -63,6 +65,8 @@ In competitive play, scoring works the same way but across multiple rounds:
 - **Use a scorecard app** or paper card — don't rely on memory for 18 holes
 
 ## What's a Good Score?
+
+A "good" disc golf score depends on your experience — beginners are doing great at +15 to +25 over par, while advanced players shoot under par.
 
 - **Beginner:** +15 to +25 over par for 18 holes (totally normal!)
 - **Intermediate:** Even par to +5 over
