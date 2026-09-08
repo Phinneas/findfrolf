@@ -11,6 +11,9 @@ interface Props {
 const { courses, totalCount, cityName } = Astro.props;
 
 const chips = ['All', 'Free', 'Beginner-friendly', 'Wooded', '18+ holes', 'Quick 9', 'Dog friendly', 'Open now'];
+
+const fmtFeet = (n: number) => (n > 0 ? `${n.toLocaleString('en-US')} ft` : '—');
+const fmtCost = (isFree: boolean, greenFee: string) => (isFree ? 'Free' : greenFee || '—');
 ---
 
 <section class="max-w-[1240px] mx-auto px-8 py-20">
@@ -33,38 +36,42 @@ const chips = ['All', 'Free', 'Beginner-friendly', 'Wooded', '18+ holes', 'Quick
     ))}
   </div>
 
-  <!-- Header row (desktop only) -->
-  <div class="hidden md:grid grid-cols-[50px_56px_2.1fr_1.2fr_1.1fr_60px] gap-[22px] items-center px-5 pb-3 font-mono text-[10px] uppercase tracking-[1.5px] text-moss border-b-[1.5px] border-forest">
-    <span></span>
-    <span>Rank</span>
-    <span>Course</span>
-    <span>Area</span>
-    <span>Layout</span>
-    <span class="text-right">★</span>
-  </div>
-
-  <!-- Course rows -->
-  <div class="register">
-    {courses.map((course, i) => {
-      const rank = String(i + 1).padStart(2, '0');
-      const isTop = i < 3;
-      return (
-        <a
-          href={courseUrl(course)}
-          class="grid grid-cols-[44px_1fr_auto] md:grid-cols-[50px_56px_2.1fr_1.2fr_1.1fr_60px] gap-3.5 md:gap-[22px] items-center px-2 md:px-5 py-4 border-b border-line no-clip text-inherit transition-colors hover:bg-cream-2"
-        >
-          <div class={`hidden md:block w-14 h-[50px] rounded-md bg-cover bg-center border-[1.5px] border-forest`} style={`background-image:url('${course.data.thumbnail}')`}></div>
-          <div class={`font-display ${isTop ? 'font-bold not-italic text-clay' : 'italic text-sage'} text-[24px]`}>{rank}</div>
-          <div>
-            <div class="font-display font-semibold text-[20px] text-forest-deep tracking-[-0.5px] leading-[1.05]">{course.data.name}</div>
-            <div class="font-mono text-[10px] uppercase tracking-[0.5px] text-moss mt-1">{course.data.code} · {course.data.tags.slice(0, 2).join(' · ')}</div>
-          </div>
-          <div class="hidden md:block text-sm text-ink-soft">{course.data.area}</div>
-          <div class="hidden md:block font-mono text-xs text-forest">{course.data.holes} · Par {course.data.par} · {course.data.isFree ? 'Free' : course.data.greenFee}</div>
-          <div class="font-display font-bold text-[20px] text-clay text-right">{course.data.rating}</div>
-        </a>
-      );
-    })}
+  <div class="overflow-x-auto">
+    <table class="w-full min-w-[760px] border-collapse">
+      <caption class="sr-only">Disc golf courses in {cityName}, ordered by player rating, with hole count, par, length, difficulty, cost, and rating</caption>
+      <thead>
+        <tr class="border-b-[1.5px] border-forest">
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-5 pb-3">Course</th>
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-3 pb-3">Holes</th>
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-3 pb-3">Par</th>
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-3 pb-3">Length</th>
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-3 pb-3">Difficulty</th>
+          <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-3 pb-3">Cost</th>
+          <th scope="col" class="text-right font-mono text-[10px] uppercase tracking-[1.5px] text-moss font-normal px-5 pb-3">Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        {courses.map((course) => (
+          <tr class="border-b border-line transition-colors hover:bg-cream-2">
+            <td class="px-5 py-4">
+              <a href={courseUrl(course)} class="no-underline text-inherit flex items-center gap-3.5">
+                <img src={course.data.thumbnail} alt="" loading="lazy" class="shrink-0 w-12 h-[46px] rounded-md object-cover border-[1.5px] border-forest" />
+                <span>
+                  <span class="block font-display font-semibold text-[19px] text-forest-deep tracking-[-0.5px] leading-[1.08]">{course.data.name}</span>
+                  <span class="block font-mono text-[10px] uppercase tracking-[0.5px] text-moss mt-1">{course.data.area}</span>
+                </span>
+              </a>
+            </td>
+            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{course.data.holes}</td>
+            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{course.data.par}</td>
+            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{fmtFeet(course.data.totalFeet)}</td>
+            <td class="px-3 py-4 text-sm text-ink-soft whitespace-nowrap">{course.data.difficulty}</td>
+            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{fmtCost(course.data.isFree, course.data.greenFee)}</td>
+            <td class="px-5 py-4 text-right font-display font-bold text-[20px] text-clay whitespace-nowrap">{course.data.rating}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   </div>
 
   {totalCount && totalCount > courses.length && (
