@@ -2,35 +2,86 @@
   "name": "Cincinnati",
   "state": "Ohio",
   "stateSlug": "oh",
-  "heroImage": "/images/course-placeholder.svg",
-  "heroFlag": "📍 City guide · Updated August 2026",
-  "lede": "The Tri-State's serious disc golf runs through Kentucky — Idlewild's 24-hole marathon is one of the toughest rounds in the Midwest. We're publishing the region's best first.",
+  "heroImage": "/images/city-cincinnati.svg",
+  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
+  "lede": "The Tri-State's serious disc golf runs through Kentucky \u2014 Idlewild's 24-hole marathon is one of the toughest rounds in the Midwest. We're publishing the region's best first.",
   "introParagraphs": [
-    "Cincinnati's marquee is Idlewild, just across the river in Burlington, Kentucky — 24 holes, 9,574 feet, par 86, and a 1,001-foot signature par 5 that has humbled the region's best since it opened. Lincoln Ridge in Independence, Kentucky adds another 24-hole loop with lake, road, and creek all in play as OB.",
-    "On the Ohio side, Mt. Airy Forest is the pro-caliber original — the course that hosted the 1995 Am Worlds and 1998 Pro Worlds, with punishing rough and constant elevation. All three of our published Cincinnati courses are free.",
+    "Cincinnati's marquee is Idlewild, just across the river in Burlington, Kentucky \u2014 24 holes, 9,574 feet, par 86, and a 1,001-foot signature par 5 that has humbled the region's best since it opened. Lincoln Ridge in Independence, Kentucky adds another 24-hole loop with lake, road, and creek all in play as OB.",
+    "On the Ohio side, Mt. Airy Forest is the pro-caliber original \u2014 the course that hosted the 1995 Am Worlds and 1998 Pro Worlds, with punishing rough and constant elevation. All three of our published Cincinnati courses are free.",
     "New here? Mt. Airy is the historic test; Idlewild is the pilgrimage."
   ],
   "mapPins": [
-    { "rank": 1, "courseSlug": "idlewild", "x": 42, "y": 62, "isGold": true },
-    { "rank": 2, "courseSlug": "mt-airy", "x": 44, "y": 34, "isGold": false },
-    { "rank": 3, "courseSlug": "lincoln-ridge", "x": 56, "y": 58, "isGold": false }
+    {
+      "rank": 1,
+      "courseSlug": "idlewild",
+      "x": 42,
+      "y": 62,
+      "isGold": true
+    },
+    {
+      "rank": 2,
+      "courseSlug": "mt-airy",
+      "x": 44,
+      "y": 34,
+      "isGold": false
+    },
+    {
+      "rank": 3,
+      "courseSlug": "lincoln-ridge",
+      "x": 56,
+      "y": 58,
+      "isGold": false
+    }
   ],
   "bestFor": [
-    { "title": "The marathon", "tag": "Bucket list", "courseSlugs": ["idlewild"] },
-    { "title": "The historic test", "tag": "Worlds history", "courseSlugs": ["mt-airy"] }
+    {
+      "title": "The marathon",
+      "tag": "Bucket list",
+      "courseSlugs": [
+        "idlewild"
+      ]
+    },
+    {
+      "title": "The historic test",
+      "tag": "Worlds history",
+      "courseSlugs": [
+        "mt-airy"
+      ]
+    }
   ],
   "events": [],
   "clubs": [],
   "areas": [
-    { "count": 1, "name": "Burlington, KY" },
-    { "count": 1, "name": "Cincinnati" },
-    { "count": 1, "name": "Independence, KY" }
+    {
+      "count": 1,
+      "name": "Burlington, KY"
+    },
+    {
+      "count": 1,
+      "name": "Cincinnati"
+    },
+    {
+      "count": 1,
+      "name": "Independence, KY"
+    }
   ],
   "faqs": [
-    { "question": "How many disc golf courses are in the Cincinnati metro?", "answer": "Around <b>25 courses</b> across the metro including Northern Kentucky. We're publishing the best first — 3 are live today, with more added every week." },
-    { "question": "What's the best disc golf course in Cincinnati?", "answer": "<b>Idlewild</b> in Burlington, Kentucky — a 24-hole, 9,574-foot championship marathon with a 1,001-foot signature par 5. It's the most famous round in the region." },
-    { "question": "Are Cincinnati's disc golf courses free?", "answer": "Yes — all three of our published courses (Idlewild, Mt. Airy, Lincoln Ridge) are free to play." },
-    { "question": "What's the best beginner course in Cincinnati?", "answer": "None of the published three are beginner-friendly — this is a serious disc golf market. Start with Lincoln Ridge's 24 par 3s and work up to Idlewild." }
+    {
+      "question": "How many disc golf courses are in the Cincinnati metro?",
+      "answer": "Around <b>25 courses</b> across the metro including Northern Kentucky. We're publishing the best first \u2014 3 are live today, with more added every week."
+    },
+    {
+      "question": "What's the best disc golf course in Cincinnati?",
+      "answer": "<b>Idlewild</b> in Burlington, Kentucky \u2014 a 24-hole, 9,574-foot championship marathon with a 1,001-foot signature par 5. It's the most famous round in the region."
+    },
+    {
+      "question": "Are Cincinnati's disc golf courses free?",
+      "answer": "Yes \u2014 all three of our published courses (Idlewild, Mt. Airy, Lincoln Ridge) are free to play."
+    },
+    {
+      "question": "What's the best beginner course in Cincinnati?",
+      "answer": "None of the published three are beginner-friendly \u2014 this is a serious disc golf market. Start with Lincoln Ridge's 24 par 3s and work up to Idlewild."
+    }
   ],
   "nearbyCities": []
 }

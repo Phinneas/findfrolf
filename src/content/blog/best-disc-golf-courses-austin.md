@@ -89,19 +89,19 @@ At **par 67 and nearly 9,800 feet**, it's the longest 18 in the city, and at 4.3
 
 A newer east-side 18 that quietly carries a **4.7 rating** — high enough to belong on any Austin shortlist. Par 64, moderate difficulty, and a layout that splits the difference between the open bombers of Roy G and the technical woods of Mary Moore.
 
-It's the "if you like Circle C but want something a little friendlier" pick — note it sits on private property, so confirm access before you go. [Course details](/tx/austin/sprinkle-valley-disc-golf-course-aLoL).
+It's the "if you like Circle C but want something a little friendlier" pick — note it sits on private property, so confirm access before you go. [Course details](/tx/austin/sprinkle-valley-disc-golf-course-alol).
 
 ## 7. Wells Branch — North Austin (Beginner-Friendly North)
 
 If Zilker is the central beginner course, Wells Branch is the north-Austin answer. Eighteen holes at **par 54**, easy difficulty, and a 4.2-star rating that tells you it's forgiving without being forgettable.
 
-It's free, it's in a part of town that's short on easy courses, and it's a smart warm-up if you're headed to the northern suburbs. [See the course](/tx/austin/wells-branch-dgc-SFG9).
+It's free, it's in a part of town that's short on easy courses, and it's a smart warm-up if you're headed to the northern suburbs. [See the course](/tx/austin/wells-branch-dgc-sfg9).
 
 ## 8. Flying Armadillo — San Marcos (The Fun Detour)
 
 Thirty minutes south of downtown, and worth the drive. Flying Armadillo's **Gold Mini course** is the most purely fun round in the metro — 18 holes at **par 36**, every one of them short, and a 4.8-star rating that ties it with Mary Moore Searight for the highest in our directory.
 
-It's the one pay-to-play course on this list, and the kind of place that turns "one more round" into an afternoon. Bring a putter and a sense of humor. [Course details](/tx/austin/flying-armadillo-dgc-gold-mini-lVyq).
+It's the one pay-to-play course on this list, and the kind of place that turns "one more round" into an afternoon. Bring a putter and a sense of humor. [Course details](/tx/austin/flying-armadillo-dgc-gold-mini-lvyq).
 
 ## The Best Beginner Disc Golf in Austin
 

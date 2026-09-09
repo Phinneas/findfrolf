@@ -2,37 +2,93 @@
   "name": "Seattle",
   "state": "Washington",
   "stateSlug": "wa",
-  "heroImage": "/images/course-placeholder.svg",
-  "heroFlag": "📍 City guide · Updated August 2026",
-  "lede": "Evergreen disc golf from the airport flight paths to the old-growth pines — Seattle's courses are green, hilly, and quietly excellent. We're publishing the metro's best first.",
+  "heroImage": "/images/city-seattle.svg",
+  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
+  "lede": "Evergreen disc golf from the airport flight paths to the old-growth pines \u2014 Seattle's courses are green, hilly, and quietly excellent. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Seattle disc golf is an evergreen affair. SeaTac DGC plays 27 holes through a former neighborhood under the constant roar of the airport — open fields, wooded tunnels, and nearly 10,000 feet of golf. Fort Steilacoom in Lakewood offers a 40-acre natural setting of mature pines that dates to 1986.",
+    "Seattle disc golf is an evergreen affair. SeaTac DGC plays 27 holes through a former neighborhood under the constant roar of the airport \u2014 open fields, wooded tunnels, and nearly 10,000 feet of golf. Fort Steilacoom in Lakewood offers a 40-acre natural setting of mature pines that dates to 1986.",
     "Closer to the city, Mineral Springs packs an old arboretum into four acres of technical par 3s, and Ralph Williamson in White Center pairs rolling hills with a water carry on the final hole. All four of our published Seattle courses are free.",
     "New here? Mineral Springs is a quick, technical intro; SeaTac is the full-day marathon."
   ],
   "mapPins": [
-    { "rank": 1, "courseSlug": "seatac", "x": 48, "y": 34, "isGold": true },
-    { "rank": 2, "courseSlug": "fort-steilacoom-nw", "x": 38, "y": 66, "isGold": false },
-    { "rank": 3, "courseSlug": "mineral-springs", "x": 60, "y": 28, "isGold": false }
+    {
+      "rank": 1,
+      "courseSlug": "seatac",
+      "x": 48,
+      "y": 34,
+      "isGold": true
+    },
+    {
+      "rank": 2,
+      "courseSlug": "fort-steilacoom-nw",
+      "x": 38,
+      "y": 66,
+      "isGold": false
+    },
+    {
+      "rank": 3,
+      "courseSlug": "mineral-springs",
+      "x": 60,
+      "y": 28,
+      "isGold": false
+    }
   ],
   "bestFor": [
-    { "title": "The 27-hole marathon", "tag": "Big round", "courseSlugs": ["seatac"] },
-    { "title": "The old-growth classic", "tag": "Scenic", "courseSlugs": ["fort-steilacoom-nw"] }
+    {
+      "title": "The 27-hole marathon",
+      "tag": "Big round",
+      "courseSlugs": [
+        "seatac"
+      ]
+    },
+    {
+      "title": "The old-growth classic",
+      "tag": "Scenic",
+      "courseSlugs": [
+        "fort-steilacoom-nw"
+      ]
+    }
   ],
   "events": [],
   "clubs": [],
   "areas": [
-    { "count": 1, "name": "SeaTac" },
-    { "count": 1, "name": "Lakewood" },
-    { "count": 1, "name": "Seattle" }
+    {
+      "count": 1,
+      "name": "SeaTac"
+    },
+    {
+      "count": 1,
+      "name": "Lakewood"
+    },
+    {
+      "count": 1,
+      "name": "Seattle"
+    }
   ],
   "faqs": [
-    { "question": "How many disc golf courses are in the Seattle metro?", "answer": "Around <b>45 courses</b> across the metro including the Tacoma side. We're publishing the best first — 4 are live today, with more added every week." },
-    { "question": "What's the best disc golf course in Seattle?", "answer": "<b>SeaTac DGC</b> — a 27-hole course under the airport flight paths with a mix of open fields and wooded tunnels. Fort Steilacoom in Lakewood is the scenic runner-up among the published courses." },
-    { "question": "Are Seattle's disc golf courses free?", "answer": "Yes — all four of our published courses (SeaTac, Fort Steilacoom, Mineral Springs, Ralph Williamson) are free to play." },
-    { "question": "What's the best beginner course in Seattle?", "answer": "Mineral Springs is short and technical — a great putter-and-midrange course to learn lines. Ralph Williamson is another friendly option with hills and a memorable water carry on 18." }
+    {
+      "question": "How many disc golf courses are in the Seattle metro?",
+      "answer": "Around <b>45 courses</b> across the metro including the Tacoma side. We're publishing the best first \u2014 4 are live today, with more added every week."
+    },
+    {
+      "question": "What's the best disc golf course in Seattle?",
+      "answer": "<b>SeaTac DGC</b> \u2014 a 27-hole course under the airport flight paths with a mix of open fields and wooded tunnels. Fort Steilacoom in Lakewood is the scenic runner-up among the published courses."
+    },
+    {
+      "question": "Are Seattle's disc golf courses free?",
+      "answer": "Yes \u2014 all four of our published courses (SeaTac, Fort Steilacoom, Mineral Springs, Ralph Williamson) are free to play."
+    },
+    {
+      "question": "What's the best beginner course in Seattle?",
+      "answer": "Mineral Springs is short and technical \u2014 a great putter-and-midrange course to learn lines. Ralph Williamson is another friendly option with hills and a memorable water carry on 18."
+    }
   ],
   "nearbyCities": [
-    { "name": "Portland", "courseCount": "55 courses", "distance": "175 mi", "slug": "/or/portland" }
+    {
+      "name": "Portland",
+      "courseCount": "55 courses",
+      "distance": "175 mi",
+      "slug": "/or/portland"
+    }
   ]
 }

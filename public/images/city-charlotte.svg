@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Charlotte disc golf">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21402f"/>
+      <stop offset="1" stop-color="#15281d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#edb441" stroke-opacity="0.15">
+    <circle cx="600" cy="600" r="500" stroke-width="3"/>
+    <circle cx="600" cy="600" r="390" stroke-width="3"/>
+    <circle cx="600" cy="600" r="280" stroke-width="3"/>
+  </g>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="10" fill="#edb441">DISC GOLF</text>
+  <rect x="545" y="340" width="110" height="9" fill="#d35a35"/>
+  <text x="600" y="700" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="600" fill="#ffffff">Charlotte</text>
+</svg>
+

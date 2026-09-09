@@ -2,36 +2,90 @@
   "name": "Phoenix",
   "state": "Arizona",
   "stateSlug": "az",
-  "heroImage": "/images/course-placeholder.svg",
-  "heroFlag": "📍 City guide · Updated August 2026",
-  "lede": "Desert disc golf with water hazards and mountain views — from the iconic fountain course to a rugged 27 on the ridge. We're publishing the metro's best first.",
+  "heroImage": "/images/city-phoenix.svg",
+  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
+  "lede": "Desert disc golf with water hazards and mountain views \u2014 from the iconic fountain course to a rugged 27 on the ridge. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Phoenix disc golf trades the woods for wide-open desert and man-made lakes. Fountain Hills is the postcard — 20 holes around a lake beneath the iconic 300-foot fountain, with nine water hazards and the most photographed basket in Arizona. Buffalo Ridge is the rugged counterpart: 27 holes of elevation and blind throws alongside the mountain.",
+    "Phoenix disc golf trades the woods for wide-open desert and man-made lakes. Fountain Hills is the postcard \u2014 20 holes around a lake beneath the iconic 300-foot fountain, with nine water hazards and the most photographed basket in Arizona. Buffalo Ridge is the rugged counterpart: 27 holes of elevation and blind throws alongside the mountain.",
     "Paseo Vista in Chandler is the friendly former-landfill course, wide open and perfect for beginners, while Vista del Camino in Scottsdale is the classic park course with lakes in play on seven holes. All four of our published Phoenix courses are free.",
     "New here? Paseo Vista to learn, Fountain Hills for the views, Buffalo Ridge for the workout."
   ],
   "mapPins": [
-    { "rank": 1, "courseSlug": "fountain-hills", "x": 46, "y": 34, "isGold": true },
-    { "rank": 2, "courseSlug": "buffalo-ridge", "x": 36, "y": 46, "isGold": false },
-    { "rank": 3, "courseSlug": "paseo-vista", "x": 58, "y": 62, "isGold": false }
+    {
+      "rank": 1,
+      "courseSlug": "fountain-hills",
+      "x": 46,
+      "y": 34,
+      "isGold": true
+    },
+    {
+      "rank": 2,
+      "courseSlug": "buffalo-ridge",
+      "x": 36,
+      "y": 46,
+      "isGold": false
+    },
+    {
+      "rank": 3,
+      "courseSlug": "paseo-vista",
+      "x": 58,
+      "y": 62,
+      "isGold": false
+    }
   ],
   "bestFor": [
-    { "title": "The scenic round", "tag": "Postcard", "courseSlugs": ["fountain-hills"] },
-    { "title": "The mountain workout", "tag": "Rugged", "courseSlugs": ["buffalo-ridge"] }
+    {
+      "title": "The scenic round",
+      "tag": "Postcard",
+      "courseSlugs": [
+        "fountain-hills"
+      ]
+    },
+    {
+      "title": "The mountain workout",
+      "tag": "Rugged",
+      "courseSlugs": [
+        "buffalo-ridge"
+      ]
+    }
   ],
   "events": [],
   "clubs": [],
   "areas": [
-    { "count": 1, "name": "Fountain Hills" },
-    { "count": 1, "name": "Phoenix" },
-    { "count": 1, "name": "Chandler" },
-    { "count": 1, "name": "Scottsdale" }
+    {
+      "count": 1,
+      "name": "Fountain Hills"
+    },
+    {
+      "count": 1,
+      "name": "Phoenix"
+    },
+    {
+      "count": 1,
+      "name": "Chandler"
+    },
+    {
+      "count": 1,
+      "name": "Scottsdale"
+    }
   ],
   "faqs": [
-    { "question": "How many disc golf courses are in the Phoenix metro?", "answer": "Around <b>45 courses</b> across the metro. We're publishing the best first — 4 are live today, with more added every week." },
-    { "question": "What's the best disc golf course in Phoenix?", "answer": "<b>Fountain Hills</b> — the lake-side course beneath the iconic fountain with nine water hazards. Buffalo Ridge is the runner-up for players who want a mountain workout." },
-    { "question": "Are Phoenix's disc golf courses free?", "answer": "Yes — all four of our published courses (Fountain Hills, Buffalo Ridge, Paseo Vista, Vista del Camino) are free to play." },
-    { "question": "What's the best beginner course in Phoenix?", "answer": "Paseo Vista in Chandler — wide open, friendly, and great for learning distance control. Vista del Camino is another approachable classic." }
+    {
+      "question": "How many disc golf courses are in the Phoenix metro?",
+      "answer": "Around <b>45 courses</b> across the metro. We're publishing the best first \u2014 4 are live today, with more added every week."
+    },
+    {
+      "question": "What's the best disc golf course in Phoenix?",
+      "answer": "<b>Fountain Hills</b> \u2014 the lake-side course beneath the iconic fountain with nine water hazards. Buffalo Ridge is the runner-up for players who want a mountain workout."
+    },
+    {
+      "question": "Are Phoenix's disc golf courses free?",
+      "answer": "Yes \u2014 all four of our published courses (Fountain Hills, Buffalo Ridge, Paseo Vista, Vista del Camino) are free to play."
+    },
+    {
+      "question": "What's the best beginner course in Phoenix?",
+      "answer": "Paseo Vista in Chandler \u2014 wide open, friendly, and great for learning distance control. Vista del Camino is another approachable classic."
+    }
   ],
   "nearbyCities": []
 }

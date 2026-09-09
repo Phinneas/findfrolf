@@ -2,36 +2,89 @@
   "name": "Charlotte",
   "state": "North Carolina",
   "stateSlug": "nc",
-  "heroImage": "/images/course-placeholder.svg",
-  "heroFlag": "📍 City guide · Updated August 2026",
-  "lede": "The disc golf capital of the South — more championship courses per capita than anywhere. Charlotte's five published courses are all free and all seriously good.",
+  "heroImage": "/images/city-charlotte.svg",
+  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
+  "lede": "The disc golf capital of the South \u2014 more championship courses per capita than anywhere. Charlotte's five published courses are all free and all seriously good.",
   "introParagraphs": [
-    "Charlotte is the best disc golf city in the South, period. Hornets Nest is the famous one — open front nine, wooded Piedmont back nine, and a tournament history that includes the national championship. Nevin Park's Nightmare layout is the long, brutal sibling, and Kilborne, Reedy Creek, and The Scrapyard round out a top tier most metros would kill for.",
+    "Charlotte is the best disc golf city in the South, period. Hornets Nest is the famous one \u2014 open front nine, wooded Piedmont back nine, and a tournament history that includes the national championship. Nevin Park's Nightmare layout is the long, brutal sibling, and Kilborne, Reedy Creek, and The Scrapyard round out a top tier most metros would kill for.",
     "All five of our published courses are free, and the variety is the point: open parkland, dense Piedmont woods, water carries, and one 1,001-foot par 5 (well, that one's across the border in Kentucky).",
     "New here? Start at Kilborne, then face the Nightmare once you're feeling bold."
   ],
   "mapPins": [
-    { "rank": 1, "courseSlug": "hornets-nest", "x": 40, "y": 34, "isGold": true },
-    { "rank": 2, "courseSlug": "nevin-nightmare", "x": 56, "y": 28, "isGold": false },
-    { "rank": 3, "courseSlug": "scrapyard", "x": 62, "y": 52, "isGold": false }
+    {
+      "rank": 1,
+      "courseSlug": "hornets-nest",
+      "x": 40,
+      "y": 34,
+      "isGold": true
+    },
+    {
+      "rank": 2,
+      "courseSlug": "nevin-nightmare",
+      "x": 56,
+      "y": 28,
+      "isGold": false
+    },
+    {
+      "rank": 3,
+      "courseSlug": "scrapyard",
+      "x": 62,
+      "y": 52,
+      "isGold": false
+    }
   ],
   "bestFor": [
-    { "title": "The famous one", "tag": "Iconic", "courseSlugs": ["hornets-nest"] },
-    { "title": "The serious test", "tag": "Championship", "courseSlugs": ["nevin-nightmare"] }
+    {
+      "title": "The famous one",
+      "tag": "Iconic",
+      "courseSlugs": [
+        "hornets-nest"
+      ]
+    },
+    {
+      "title": "The serious test",
+      "tag": "Championship",
+      "courseSlugs": [
+        "nevin-nightmare"
+      ]
+    }
   ],
   "events": [],
   "clubs": [],
   "areas": [
-    { "count": 4, "name": "Charlotte" },
-    { "count": 1, "name": "Matthews" }
+    {
+      "count": 4,
+      "name": "Charlotte"
+    },
+    {
+      "count": 1,
+      "name": "Matthews"
+    }
   ],
   "faqs": [
-    { "question": "How many disc golf courses are in the Charlotte metro?", "answer": "Around <b>50 courses</b> across the metro including the South Carolina side. We're publishing the best first — 5 are live today, with more added every week." },
-    { "question": "What's the best disc golf course in Charlotte?", "answer": "<b>Hornets Nest</b> is the most famous and most-loved — an open front nine and a wooded Piedmont back nine with tournament history. Nevin Park's Nightmare layout is the serious challenger." },
-    { "question": "Are Charlotte's disc golf courses free?", "answer": "Yes — all five of our published courses (Hornets Nest, Kilborne, Reedy Creek, The Scrapyard, Nevin Nightmare) are free to play." },
-    { "question": "What's the best beginner course in Charlotte?", "answer": "Kilborne TPC is the friendliest of the published five — flat, well-maintained, and fair. Work up to Reedy Creek and The Scrapyard as your lines improve." }
+    {
+      "question": "How many disc golf courses are in the Charlotte metro?",
+      "answer": "Around <b>50 courses</b> across the metro including the South Carolina side. We're publishing the best first \u2014 5 are live today, with more added every week."
+    },
+    {
+      "question": "What's the best disc golf course in Charlotte?",
+      "answer": "<b>Hornets Nest</b> is the most famous and most-loved \u2014 an open front nine and a wooded Piedmont back nine with tournament history. Nevin Park's Nightmare layout is the serious challenger."
+    },
+    {
+      "question": "Are Charlotte's disc golf courses free?",
+      "answer": "Yes \u2014 all five of our published courses (Hornets Nest, Kilborne, Reedy Creek, The Scrapyard, Nevin Nightmare) are free to play."
+    },
+    {
+      "question": "What's the best beginner course in Charlotte?",
+      "answer": "Kilborne TPC is the friendliest of the published five \u2014 flat, well-maintained, and fair. Work up to Reedy Creek and The Scrapyard as your lines improve."
+    }
   ],
   "nearbyCities": [
-    { "name": "Raleigh–Durham", "courseCount": "35 courses", "distance": "130 mi", "slug": "/nc/raleigh" }
+    {
+      "name": "Raleigh\u2013Durham",
+      "courseCount": "35 courses",
+      "distance": "130 mi",
+      "slug": "/nc/raleigh"
+    }
   ]
 }
