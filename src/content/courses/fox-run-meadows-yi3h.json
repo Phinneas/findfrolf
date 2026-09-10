@@ -1,0 +1,82 @@
+{
+  "name": "Fox Run Meadows",
+  "code": "VT-9002",
+  "city": "Cambridge",
+  "state": "Vermont",
+  "citySlug": "cambridge",
+  "stateSlug": "vt",
+  "area": "Cambridge",
+  "location": {
+    "address": "Cambridge, Vermont",
+    "lat": 44.597313,
+    "lng": -72.800232
+  },
+  "holes": 18,
+  "par": 63,
+  "parSource": "udisc",
+  "totalFeet": 8675,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Fox Run Meadows \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.9,
+  "reviewCount": 4001,
+  "tags": [
+    "Free",
+    "Long",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-10",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Fox Run Meadows is an 18-hole course in Cambridge, Vermont, playing 8,675 feet at par 63. Sourced from UDisc on 2026-09-10."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Kensington Toboggan",
+  "code": "MI-9002",
+  "city": "Milford Charter Township",
+  "state": "Michigan",
+  "citySlug": "milford-charter-township",
+  "stateSlug": "mi",
+  "area": "Milford Charter Township",
+  "location": {
+    "address": "Milford Charter Township, Michigan",
+    "lat": 42.539188,
+    "lng": -83.645676
+  },
+  "holes": 18,
+  "par": 66,
+  "parSource": "udisc",
+  "totalFeet": 10905,
+  "courseLength": "long",
+  "difficulty": "Moderate",
+  "difficultyRating": 3,
+  "isFree": true,
+  "greenFee": "$0",
+  "pdgaCourseId": null,
+  "pdgaTier": null,
+  "websiteUrl": null,
+  "photos": [
+    {
+      "url": "/images/course-placeholder.svg",
+      "alt": "Kensington Toboggan \u2014 photo coming soon",
+      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+    }
+  ],
+  "heroImage": "/images/course-placeholder.svg",
+  "thumbnail": "/images/course-placeholder.svg",
+  "rating": 4.7,
+  "reviewCount": 3281,
+  "tags": [
+    "Free",
+    "Long",
+    "18 Holes"
+  ],
+  "amenities": {
+    "restrooms": false,
+    "parking": true,
+    "water": false,
+    "lighting": false,
+    "proShop": false,
+    "dogFriendly": false,
+    "cartFriendly": false,
+    "handicapAccessible": false,
+    "camping": false
+  },
+  "facts": {
+    "parking": "Unknown",
+    "restrooms": "No",
+    "proShop": "No on-site",
+    "dogs": "Unknown",
+    "baskets": "Unknown",
+    "lighting": "None",
+    "hours": "Unknown"
+  },
+  "yearEstablished": null,
+  "lastVerified": "2026-09-10",
+  "courseDesigner": null,
+  "teeType": null,
+  "basketType": null,
+  "elevation": null,
+  "foliage": null,
+  "aboutParagraphs": [
+    "Kensington Toboggan is an 18-hole course in Milford Charter Township, Michigan, playing 10,905 feet at par 66. Sourced from UDisc on 2026-09-10."
+  ],
+  "holeData": [],
+  "layoutMapUrl": null,
+  "signatureHoleDescription": null,
+  "localTips": null,
+  "reviews": [],
+  "tournaments": [],
+  "nearbyCourseSlugs": [],
+  "isBeginnerFriendly": false,
+  "isWooded": false,
+  "isOpen": false
+}
