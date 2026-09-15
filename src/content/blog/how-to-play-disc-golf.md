@@ -42,9 +42,9 @@ After all 18 holes, total your strokes. Lowest score wins. (New to keeping score
 
 You don't need a bag full of discs. Start with one midrange disc — it handles both short and medium distances well and is the most forgiving for new players. (Our [guide to choosing your first disc](/blog/choosing-first-disc-golf-disc) walks through exactly which one to buy.) Popular beginner choices:
 
-- **Innova Mako3** — straight and predictable
-- **Discraft Buzzz** — the most popular midrange in the sport
-- **Dynamic Discs truth** — reliable with a gentle fade
+- [**Innova Mako3**](https://infinitediscs.com/Innova-Mako3/?tag=0DC81397597B451) — straight and predictable
+- [**Discraft Buzzz**](https://infinitediscs.com/Discraft-Buzzz/?tag=0DC81397597B451) — the most popular midrange in the sport
+- [**Dynamic Discs Truth**](https://infinitediscs.com/Dynamic-Discs-Truth/?tag=0DC81397597B451) — reliable with a gentle fade
 
 ## Course Etiquette
 

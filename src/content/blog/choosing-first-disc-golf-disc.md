@@ -38,13 +38,15 @@ Drivers look cool but they're the hardest to throw correctly. A beginner throwin
 
 ## Top Picks for Your First Disc
 
-**Innova Mako3** — Straight flight, minimal fade, extremely predictable. The most beginner-friendly disc on the market.
+[**Innova Mako3**](https://infinitediscs.com/Innova-Mako3/?tag=0DC81397597B451) — Straight flight, minimal fade, extremely predictable. The most beginner-friendly disc on the market.
 
-**Discraft Buzzz** — The best-selling midrange in disc golf history. Slight fade at the end, works in all conditions.
+[**Discraft Buzzz**](https://infinitediscs.com/Discraft-Buzzz/?tag=0DC81397597B451) — The best-selling midrange in disc golf history. Slight fade at the end, works in all conditions.
 
-**Dynamic Discs Truth** — Straight with a reliable finish. Slightly more overstable than the Buzzz.
+[**Dynamic Discs Truth**](https://infinitediscs.com/Dynamic-Discs-Truth/?tag=0DC81397597B451) — Straight with a reliable finish. Slightly more overstable than the Buzzz.
 
-**Latitude 64 Pearl** — Designed specifically for beginners. Understable, easy to throw straight.
+[**Latitude 64 Pearl**](https://infinitediscs.com/Latitude-64-Pearl/?tag=0DC81397597B451) — Designed specifically for beginners. Understable, easy to throw straight.
+
+Most of these are also available in beginner-friendly [starter sets](https://infinitediscs.com/category/Starter-Sets/?tag=0DC81397597B451).
 
 ## Weight and Plastic
 

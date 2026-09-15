@@ -43,7 +43,7 @@ You could technically play an entire round with just the putter — and plenty o
 
 The putter has a blunt, rounded rim and flies dead straight with minimal speed. It's the most important disc in your bag, because you'll throw it more than anything else: every single putt, plus most shots inside 100 feet. As the saying goes, *"You drive for show, you putt for dough."*
 
-Beginner picks: the **Innova Aviar (2 | 3 | 0 | 1)** — the most popular putter ever made — or the **Dynamic Discs Judge (2 | 4 | 0 | 1)**. Both are cheap, grippy, and forgiving.
+Beginner picks: the [**Innova Aviar**](https://infinitediscs.com/Innova-Aviar/?tag=0DC81397597B451) (2 | 3 | 0 | 1) — the most popular putter ever made — or the **Dynamic Discs Judge (2 | 4 | 0 | 1)**. Both are cheap, grippy, and forgiving.
 
 ### 2. Mid-range — your learning disc
 
@@ -55,7 +55,7 @@ Beginner picks: the **Innova Shark (4 | 4 | 0 | 2)** or the **EMAC Truth (5 | 5 
 
 Drivers have sharp, aerodynamic rims that cut through the air for maximum distance. Here's the caveat: **not all drivers are beginner-friendly.** The big-rimmed, 12–14 speed discs you see pros launching are designed for pro-level arm speed. Throw one at beginner speed and it will dive hard into the ground — the classic "worm burner" that frustrates every new player.
 
-Start instead with a **fairway driver** — slow (speed 6–8), understable, easy to shape. The **Innova Leopard** is arguably the most recommended beginner driver of all time, and the **Latitude 64 Diamond (8 | 6 | -3 | 1)** is another favorite for slower arms.
+Start instead with a **fairway driver** — slow (speed 6–8), understable, easy to shape. The [**Innova Leopard**](https://infinitediscs.com/Innova-Leopard/?tag=0DC81397597B451) is arguably the most recommended beginner driver of all time, and the **Latitude 64 Diamond (8 | 6 | -3 | 1)** is another favorite for slower arms.
 
 ## How to Read Flight Numbers (and What to Buy)
 
@@ -75,7 +75,7 @@ Two more buying tips:
 
 ## The Best Disc Golf Starter Sets Under $40
 
-Rather than picking discs one at a time, the easiest and cheapest way to get your three discs is a packaged starter set. These three are the best disc golf starter sets under $40:
+Rather than picking discs one at a time, the easiest and cheapest way to get your three discs is a packaged [starter set](https://infinitediscs.com/category/Starter-Sets/?tag=0DC81397597B451). These three are the best disc golf starter sets under $40:
 
 ### 1. Innova Disc Golf Starter Set — ~$30–$40
 
