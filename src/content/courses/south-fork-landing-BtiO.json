@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "South Fork Landing \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "South Fork Landing disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "South Fork Landing is an 18-hole course in North Bend, Washington, playing 6,001 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "South Fork Landing is an 18-hole course in North Bend, Washington. It runs 6,001 feet at par 55.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

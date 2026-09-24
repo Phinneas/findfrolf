@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "O'Brien Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "O'Brien Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "O'Brien Park DGC is an 9-hole course in Downers Grove, Illinois, playing 2,024 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "O'Brien Park DGC is a 9-hole course in Downers Grove, Illinois. It's a short, 2,024-foot layout at par 30.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

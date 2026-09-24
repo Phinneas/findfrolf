@@ -3,11 +3,11 @@
   "state": "Texas",
   "stateSlug": "tx",
   "heroImage": "/images/city-austin.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated June 2026",
-  "lede": "The Austin metro is home to 47 courses \u2014 from the legendary chains at Zilker to the wooded test at Mary Moore Searight. We're publishing them city by city, ranked and reviewed by the locals who play them.",
+  "heroFlag": "📍 City guide · Updated June 2026",
+  "lede": "The Austin metro is home to 51 courses — from the legendary chains at Zilker to the wooded test at Mary Moore Searight. We're publishing them city by city, ranked and reviewed by the locals who play them.",
   "introParagraphs": [
     "Austin punches well above its weight for disc golf. The city's parks department has quietly built one of the densest course networks in Texas, and the local clubs keep them in shape year-round. You'll find everything here: wide-open municipal layouts perfect for a first round, tight cedar corridors that'll humble a 950-rated player, and a handful of pay-to-play gems on the outskirts worth the drive.",
-    "The one catch is summer. From June through September, midday rounds in the Texas sun are no joke \u2014 locals play at dawn or after 6pm, carry more water than they think they need, and save the exposed courses for the shoulder seasons. October through May is glorious, which is exactly when the tournament calendar fills up.",
+    "The one catch is summer. From June through September, midday rounds in the Texas sun are no joke — locals play at dawn or after 6pm, carry more water than they think they need, and save the exposed courses for the shoulder seasons. October through May is glorious, which is exactly when the tournament calendar fills up.",
     "New to the area? Start with Zilker or Bartholomew for the gentle introduction, then graduate to the wooded challenge at Mary Moore Searight once your forehand is dialed."
   ],
   "mapPins": [
@@ -47,42 +47,42 @@
       "day": "03",
       "month": "Jun",
       "title": "ATX Tuesday Tags",
-      "description": "Weekly tag league rotating across South Austin courses. Newcomers welcome \u2014 grab a tag and jump in.",
+      "description": "Weekly tag league rotating across South Austin courses. Newcomers welcome — grab a tag and jump in.",
       "cta": "Join"
     },
     {
       "day": "06",
       "month": "Jun",
-      "title": "Dawn Patrol Doubles \u00b7 Zilker",
+      "title": "Dawn Patrol Doubles · Zilker",
       "description": "Beat-the-heat random doubles at 6:45am. Coffee provided, paired with a local.",
       "cta": "Join"
     },
     {
       "day": "21",
       "month": "Jun",
-      "title": "Hill Country Open \u00b7 B-Tier",
+      "title": "Hill Country Open · B-Tier",
       "description": "PDGA B-tier at Mary Moore Searight. Divisions from Novice to MPO.",
       "cta": "Register"
     }
   ],
   "clubs": [
     {
-      "icon": "\ud83e\udd4f",
+      "icon": "🥏",
       "name": "Austin Disc Golf Club",
-      "meta": "1,200 members \u00b7 est. 2004"
+      "meta": "1,200 members · est. 2004"
     },
     {
-      "icon": "\ud83c\udfea",
+      "icon": "🏪",
       "name": "Dynamic Discs Austin",
-      "meta": "South Lamar \u00b7 full pro shop"
+      "meta": "South Lamar · full pro shop"
     },
     {
-      "icon": "\ud83c\udfea",
+      "icon": "🏪",
       "name": "Disc Golf Strong",
-      "meta": "Round Rock \u00b7 lessons + gear"
+      "meta": "Round Rock · lessons + gear"
     },
     {
-      "icon": "\ud83e\udd4f",
+      "icon": "🥏",
       "name": "Women's ATX Disc Golf",
       "meta": "Monthly beginner clinics"
     }
@@ -116,19 +116,19 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in Austin?",
-      "answer": "There are <b>47 courses</b> across the greater Austin metro, including Round Rock, Cedar Park, and Pflugerville \u2014 31 of them free public courses and 22 with 18 or more holes. FindFrolf publishes them city by city: the ones live on this site are the ones we've verified so far, and the count grows every week."
+      "answer": "There are <b>51 courses</b> across the greater Austin metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "Are Austin's disc golf courses free?",
-      "answer": "Most are. The city's park courses \u2014 Zilker, Bartholomew, Roy G. Guerrero, and others \u2014 are free to play, dawn to dusk. A handful of premium pay-to-play courses on the outskirts charge $5\u2013$10 and offer better-maintained fairways and tournament-grade baskets."
+      "answer": "Most are. 44 of the 51 mapped courses are free to play, and 7 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best course for beginners in Austin?",
-      "answer": "Start at <b>Zilker Park</b> or <b>Bartholomew Park</b> \u2014 both are open, walkable, and forgiving, with short tees and friendly regulars. Once you're comfortable, Mary Moore Searight is the natural next step up in difficulty."
+      "answer": "Start at <b>Zilker Park</b> or <b>Bartholomew Park</b> — both are open, walkable, and forgiving, with short tees and friendly regulars. Once you're comfortable, Mary Moore Searight is the natural next step up in difficulty."
     },
     {
       "question": "When is the best time of year to play in Austin?",
-      "answer": "October through May. Texas summers are brutal \u2014 if you must play June\u2013September, go at dawn or after 6pm, stick to shaded wooded courses, and bring far more water than feels necessary."
+      "answer": "October through May. Texas summers are brutal — if you must play June–September, go at dawn or after 6pm, stick to shaded wooded courses, and bring far more water than feels necessary."
     },
     {
       "question": "Can I play disc golf at night in Austin?",
@@ -149,7 +149,7 @@
       "slug": "#"
     },
     {
-      "name": "Dallas\u2013Fort Worth",
+      "name": "Dallas–Fort Worth",
       "courseCount": "110 courses",
       "distance": "195 mi",
       "slug": "#"

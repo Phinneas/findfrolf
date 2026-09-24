@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Boyd Hill \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Boyd Hill disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1943,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Boyd Hill is an 18-hole course in Rock Hill, South Carolina, playing 4,516 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Boyd Hill is an 18-hole course in Rock Hill, South Carolina. A quick 4,516-foot round at par 54.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

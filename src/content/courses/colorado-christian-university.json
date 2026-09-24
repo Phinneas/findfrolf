@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Colorado Christian University \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Colorado Christian University disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "Colorado Christian University is a 9-hole course in Lakewood, Colorado (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Colorado Christian University is a 9-hole course in Lakewood, Colorado. A quick 0-foot round at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

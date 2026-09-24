@@ -3,104 +3,85 @@
   "state": "Texas",
   "stateSlug": "tx",
   "heroImage": "/images/city-houston.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "Big, flat, and full of distance holes \u2014 Houston's disc golf runs from open river parks to wooded church campuses. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Big, flat, and full of distance holes — Houston's disc golf runs from open river parks to wooded church campuses. We're publishing the metro's best first.",
   "introParagraphs": [
     "Houston disc golf is bigger than it looks on a map. T.C. Jester is the city's friendly 21-hole classic with distance holes and a blue-tee layout past 8,300 feet, while Texas Army Trail in Cypress and Agnes Moffitt's flat, tree-lined 21 holes round out the open-side of the scene.",
-    "Northside Christian in Spring is the hidden heavyweight \u2014 a church-campus course with USDGC-style par 4s, tight woods, and four water hazards. All four of our published Houston courses are free.",
-    "New here? Agnes Moffitt is the friendliest intro; Northside is the test."
+    "Northside Christian in Spring is the hidden heavyweight — a church-campus course with USDGC-style par 4s, tight woods, and four water hazards. The Houston Disc Golf community runs Sunday Funday events and Zube Tuesday leagues, and nearly all of Houston's mapped courses are free to play. Summer heat is the main challenge — play early or late.",
+    "New here? Agnes Moffitt is the friendliest intro; Northside is the test. For gear, The Spring Country Club is the local disc golf store."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "texas-army-trail",
-      "x": 36,
-      "y": 34,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "tc-jester",
-      "x": 52,
-      "y": 48,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "northside-christian",
-      "x": 60,
-      "y": 30,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "texas-army-trail", "x": 36, "y": 34, "isGold": true },
+    { "rank": 2, "courseSlug": "tc-jester", "x": 52, "y": 48, "isGold": false },
+    { "rank": 3, "courseSlug": "northside-christian", "x": 60, "y": 30, "isGold": false },
+    { "rank": 4, "courseSlug": "agnes-moffitt", "x": 44, "y": 42, "isGold": false },
+    { "rank": 5, "courseSlug": "zube", "x": 32, "y": 24, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The distance course",
       "tag": "Big arms",
-      "courseSlugs": [
-        "texas-army-trail"
-      ]
+      "courseSlugs": ["texas-army-trail", "tc-jester"]
     },
     {
       "title": "The hidden test",
       "tag": "Serious golf",
-      "courseSlugs": [
-        "northside-christian"
-      ]
+      "courseSlugs": ["northside-christian"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["agnes-moffitt", "tc-jester"]
+    },
+    {
+      "title": "A quick nine",
+      "tag": "Lunch-break length",
+      "courseSlugs": ["agnes-moffitt"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "01", "month": "Jun", "title": "Sunday Funday · Houston DG", "description": "Weekly doubles at rotating Houston courses. All skill levels — newcomer-friendly.", "cta": "Join" },
+    { "day": "03", "month": "Jun", "title": "Zube Tuesday", "description": "Weekly league at Zube Park in Hockley. One of the longest-running in the region.", "cta": "Join" },
+    { "day": "21", "month": "Jun", "title": "Texas State Championship · A-Tier", "description": "PDGA A-tier at multiple Houston-area courses. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Houston Disc Golf Club", "meta": "500+ members · est. 2005" },
+    { "icon": "🏪", "name": "The Spring Country Club", "meta": "Spring · disc golf store" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Houston · new & used discs" },
+    { "icon": "🥏", "name": "Sunday Funday Disc Golf", "meta": "Weekly doubles & leagues" }
+  ],
   "areas": [
-    {
-      "count": 2,
-      "name": "Houston"
-    },
-    {
-      "count": 1,
-      "name": "Cypress"
-    },
-    {
-      "count": 1,
-      "name": "Spring"
-    }
+    { "count": 15, "name": "Houston" },
+    { "count": 6, "name": "Cypress" },
+    { "count": 5, "name": "Spring" },
+    { "count": 3, "name": "Hockley" },
+    { "count": 2, "name": "Katy" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Houston metro?",
-      "answer": "Around <b>88 courses</b> across the metro. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "answer": "There are <b>84 courses</b> across the Houston metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Houston?",
-      "answer": "<b>Texas Army Trail</b> in Cypress and <b>Northside Christian</b> in Spring top the published list \u2014 one a long open test, the other a wooded championship challenge."
+      "answer": "<b>Texas Army Trail</b> in Cypress and <b>Northside Christian</b> in Spring top the published list — one a long open test, the other a wooded championship challenge."
     },
     {
       "question": "Are Houston's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (T.C. Jester, Texas Army Trail, Agnes Moffitt, Northside Christian) are free to play."
+      "answer": "Most are. 83 of the 84 mapped courses are free to play, and 1 is pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Houston?",
-      "answer": "Agnes Moffitt \u2014 flat, tree-lined, and friendly from the red tees. T.C. Jester is another accessible option with plenty of room."
+      "answer": "Agnes Moffitt — flat, tree-lined, and friendly from the red tees. T.C. Jester is another accessible option with plenty of room."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Houston?",
+      "answer": "The Spring Country Club is the local disc golf store. Play It Again Sports in Houston carries new and used discs and starter sets."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "San Antonio",
-      "courseCount": "52 courses",
-      "distance": "200 mi",
-      "slug": "#"
-    },
-    {
-      "name": "Austin",
-      "courseCount": "52 courses",
-      "distance": "165 mi",
-      "slug": "/tx/austin"
-    },
-    {
-      "name": "Dallas\u2013Fort Worth",
-      "courseCount": "110 courses",
-      "distance": "240 mi",
-      "slug": "/tx/dallas-fort-worth"
-    }
+    { "name": "Austin", "courseCount": "51 courses", "distance": "165 mi", "slug": "/tx/austin" },
+    { "name": "Dallas–Fort Worth", "courseCount": "88 courses", "distance": "240 mi", "slug": "/tx/dallas-fort-worth" },
+    { "name": "San Antonio", "courseCount": "52 courses", "distance": "200 mi", "slug": "#" }
   ]
 }

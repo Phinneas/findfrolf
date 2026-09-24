@@ -1,13 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import CourseRegister from '../components/city/CourseRegister.astro';
 import CTACard from '../components/city/CTACard.astro';
-import { getAllCourses, getAllCities, cityUrl, courseUrl, deriveCityStats } from '../lib/data';
+import { getAllCourses, getAllCities, cityUrl, deriveCityStats } from '../lib/data';
 import type { CollectionEntry } from 'astro:content';
 
 const allCourses = await getAllCourses();
 const allCities = await getAllCities();
-const topCourses = allCourses.slice(0, 5);
 
 // City-card facts come from the live course set; zero-valued facts are hidden
 // until a city has listings.
@@ -37,16 +35,17 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
         <p class="text-lg text-cream/90 max-w-[520px] mx-auto mb-7">
           Honest reviews from real rounds — including the muddy walk to hole 12. Free to use.
         </p>
-        <div class="bg-paper rounded-[11px] p-[7px] flex gap-1.5 max-w-[520px] mx-auto shadow-stamp">
+        <form action="/finder" method="get" class="bg-paper rounded-[11px] p-[7px] flex gap-1.5 max-w-[520px] mx-auto shadow-stamp">
           <input
             type="text"
+            name="q"
             placeholder="Where to, friend?"
             class="flex-1 border-none outline-none bg-transparent px-4 py-2.5 font-display text-base text-forest-deep placeholder:text-sage"
           />
-          <button class="bg-clay text-white border-none px-6 rounded-[7px] font-bold text-sm cursor-pointer hover:bg-clay-deep transition-colors">
+          <button type="submit" class="bg-clay text-white border-none px-6 rounded-[7px] font-bold text-sm cursor-pointer hover:bg-clay-deep transition-colors">
             Search
           </button>
-        </div>
+        </form>
       </div>
     </div>
   </section>
@@ -89,8 +88,55 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
     </div>
   </section>
 
-  <!-- TOP COURSES -->
-  <CourseRegister courses={topCourses} />
+  <!-- HOW THE FINDER MATCHES YOU TO COURSES -->
+  <section class="max-w-[1240px] mx-auto px-8 py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-14 items-center">
+      <div>
+        <div class="eyebrow mb-3">§ Find your round</div>
+        <h2 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-6 max-w-[760px]">
+          Courses matched to <em class="italic text-clay">how you play</em>
+        </h2>
+        <p class="text-[17px] text-ink-soft leading-[1.65] mb-4 max-w-[560px]">
+          FindFrolf isn't a wall of pins — it's a way to find the course that fits your game. Search a
+          city or course, then narrow by difficulty (from easy to brutal), hole count, course length, and
+          whether a round is free or pay-to-play.
+        </p>
+        <p class="text-[17px] text-ink-soft leading-[1.65] max-w-[560px]">
+          Then filter by the amenities that matter — dog-friendly tracks for the pup, lit baskets for a
+          night round, pro shops, cart-friendly fairways, camping, and more. Every result links to a full
+          course page with hole-by-hole data, ratings, and local tips.
+        </p>
+      </div>
+      <div class="bg-paper text-ink rounded-[12px] border-[1.5px] border-forest p-7 shadow-stamp">
+        <h4 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-5">Try a search</h4>
+        <div class="flex flex-wrap gap-2.5">
+          {[
+            ['dog friendly', '🐕'],
+            ['wooded', '🌲'],
+            ['free', '💸'],
+            ['beginner friendly', '🥏'],
+            ['18 holes', '⛓️'],
+            ['night play', '🌙'],
+            ['camping', '⛺'],
+            ['pro shop', '🛍️'],
+          ].map(([q, icon]) => (
+            <a
+              href={`/finder?q=${encodeURIComponent(q)}`}
+              class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border-[1.5px] border-line text-[13px] font-bold text-forest no-underline transition-all hover:bg-forest hover:text-cream hover:border-forest"
+            >
+              <span>{icon}</span>{q}
+            </a>
+          ))}
+        </div>
+        <a
+          href="/finder"
+          class="inline-flex items-center gap-2 mt-6 bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors"
+        >
+          Open the course finder →
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- NEW HERE -->
   <section class="bg-forest-deep text-cream">
@@ -118,7 +164,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
           <b class="text-clay">$8–$15</b>
         </div>
         <a
-          href="https://infinitediscs.com/category/Midrange/?tag=0DC81397597B451"
+          href="https://infinitediscs.com/?tag=0DC81397597B451"
           class="block text-xs text-moss no-underline hover:text-clay hover:underline transition-colors pt-2 pb-3 border-b border-dashed border-line"
         >
           Shop beginner midranges →

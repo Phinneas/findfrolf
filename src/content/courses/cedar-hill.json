@@ -6,13 +6,11 @@
   "citySlug": "nashville",
   "stateSlug": "tn",
   "area": "Madison",
-
   "location": {
     "address": "Cedar Hill Park, Madison, TN",
     "lat": 36.2724,
     "lng": -86.7452
   },
-
   "holes": 21,
   "par": 68,
   "parSource": "map",
@@ -20,29 +18,27 @@
   "courseLength": "medium",
   "difficulty": "Moderate",
   "difficultyRating": 3,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Cedar Hill Park — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "alt": "Cedar Hill Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-
   "rating": 4.4,
   "reviewCount": 4413,
-
-  "tags": ["Varied terrain", "Free", "21 holes", "Inner loop"],
-
+  "tags": [
+    "Varied terrain",
+    "Free",
+    "21 holes",
+    "Inner loop"
+  ],
   "amenities": {
     "restrooms": false,
     "parking": true,
@@ -54,61 +50,177 @@
     "handicapAccessible": false,
     "camping": false
   },
-
   "yearEstablished": 1998,
   "lastVerified": "2026-08-27",
   "courseDesigner": null,
-
   "teeType": "Concrete",
   "basketType": "DISCatcher",
   "elevation": null,
   "foliage": null,
-
   "aboutParagraphs": [
     "Cedar Hill Park in Madison is Nashville's quiet heavyweight — a 21-hole course with quite varied terrain that threads a 3-hole inner loop between holes 2 and 3, giving the round an unusual rhythm. From the standard tees it plays 6,828 feet at par 68.",
     "Free to play and very cart friendly, with concrete tees and DISCatcher baskets. The baskets move regularly, so the course stays fresh even for regulars — every visit can play a little differently.",
     "It's less famous than Seven Oaks but just as loved by the locals who prefer a longer, more varied walk in the woods."
   ],
-
   "holeData": [
-    { "number": 1, "par": 4, "distance": 450, "character": "450 feet — a par 4 opener that stretches the legs.", "difficultyPct": 54 },
-    { "number": 2, "par": 3, "distance": 238, "character": "238 feet, a clean early line.", "difficultyPct": 24 },
-    { "number": 3, "par": 3, "distance": 220, "character": "Inner-loop hole: 220 feet, the first of the bonus three.", "difficultyPct": 22 },
-    { "number": 4, "par": 3, "distance": 170, "character": "Inner-loop hole: 170 feet, a short putter shot.", "difficultyPct": 16 },
-    { "number": 5, "par": 3, "distance": 190, "character": "Inner-loop hole: 190 feet to rejoin the main layout.", "difficultyPct": 18 },
-    { "number": 6, "par": 3, "distance": 277, "character": "277 feet, straight and fair.", "difficultyPct": 28 },
-    { "number": 7, "par": 3, "distance": 247, "character": "247 feet with the terrain rolling.", "difficultyPct": 26 },
-    { "number": 8, "par": 3, "distance": 241, "character": "241 feet, a clean corridor.", "difficultyPct": 24 },
-    { "number": 9, "par": 3, "distance": 275, "character": "275 feet through the varied terrain.", "difficultyPct": 30 },
-    { "number": 10, "par": 4, "distance": 610, "character": "610 feet — the longest hole on the card.", "difficultyPct": 66 },
-    { "number": 11, "par": 3, "distance": 324, "character": "324 feet, a guarded green.", "difficultyPct": 38 },
-    { "number": 12, "par": 3, "distance": 245, "character": "245 feet, straight and true.", "difficultyPct": 24 },
-    { "number": 13, "par": 4, "distance": 521, "character": "521 feet of par 4 — a placed drive sets it up.", "difficultyPct": 60 },
-    { "number": 14, "par": 3, "distance": 316, "character": "316 feet with the woods framing the line.", "difficultyPct": 36 },
-    { "number": 15, "par": 3, "distance": 215, "character": "215 feet, a brief breather.", "difficultyPct": 20 },
-    { "number": 16, "par": 3, "distance": 271, "character": "271 feet, fair and demanding.", "difficultyPct": 28 },
-    { "number": 17, "par": 3, "distance": 278, "character": "278 feet, a clean line.", "difficultyPct": 30 },
-    { "number": 18, "par": 4, "distance": 468, "character": "468 feet of par 4 through the park.", "difficultyPct": 56 },
-    { "number": 19, "par": 3, "distance": 286, "character": "286 feet, straight and wooded.", "difficultyPct": 32 },
-    { "number": 20, "par": 3, "distance": 416, "character": "416 feet — one of the longer par 3s.", "difficultyPct": 48 },
-    { "number": 21, "par": 4, "distance": 570, "character": "The signature: 570 feet to finish the 21-hole loop.", "difficultyPct": 64, "isSignature": true }
+    {
+      "number": 1,
+      "par": 4,
+      "distance": 450,
+      "character": "450 feet — a par 4 opener that stretches the legs.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 238,
+      "character": "238 feet, a clean early line.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 220,
+      "character": "Inner-loop hole: 220 feet, the first of the bonus three.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 170,
+      "character": "Inner-loop hole: 170 feet, a short putter shot.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 190,
+      "character": "Inner-loop hole: 190 feet to rejoin the main layout.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 277,
+      "character": "277 feet, straight and fair.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 247,
+      "character": "247 feet with the terrain rolling.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 241,
+      "character": "241 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 275,
+      "character": "275 feet through the varied terrain.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "distance": 610,
+      "character": "610 feet — the longest hole on the card.",
+      "difficultyPct": 66
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 324,
+      "character": "324 feet, a guarded green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, straight and true.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "distance": 521,
+      "character": "521 feet of par 4 — a placed drive sets it up.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 316,
+      "character": "316 feet with the woods framing the line.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, a brief breather.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 271,
+      "character": "271 feet, fair and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 278,
+      "character": "278 feet, a clean line.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 468,
+      "character": "468 feet of par 4 through the park.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 286,
+      "character": "286 feet, straight and wooded.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 416,
+      "character": "416 feet — one of the longer par 3s.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 21,
+      "par": 4,
+      "distance": 570,
+      "character": "The signature: 570 feet to finish the 21-hole loop.",
+      "difficultyPct": 64,
+      "isSignature": true
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 21 closes Cedar Hill at 570 feet — a par 4 that ends the 21-hole loop the way it started: long, fair, and full of variety. The inner-loop rhythm of the course makes this final stretch feel earned, and the finish is one of the most satisfying in Nashville's stable of park courses.",
-
   "localTips": "The course is 21 holes with a 3-hole inner loop between holes 2 and 3 — on the course signs the loop holes are labeled I1–I3. Baskets move regularly, so check the current layout. Free to play and very cart friendly.",
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": false,
   "isWooded": false,
   "isOpen": true,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Unknown",

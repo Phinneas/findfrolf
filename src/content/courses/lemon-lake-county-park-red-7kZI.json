@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Lemon Lake County Park - Red \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Lemon Lake County Park - Red disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Lemon Lake County Park - Red is an 20-hole course in Cedar Lake, Indiana, playing 6,828 feet at par 64. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Lemon Lake County Park - Red is a 20-hole course in Cedar Lake, Indiana. The layout stretches 6,828 feet at par 64.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

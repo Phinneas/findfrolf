@@ -1,5 +1,5 @@
 {
-  "name": "Ecclesia (Piney\u00a0Point)",
+  "name": "Ecclesia (Piney Point)",
   "code": "TX-1238",
   "city": "Houston",
   "state": "Texas",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Ecclesia (Piney\u00a0Point) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Ecclesia (Piney Point) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Ecclesia (Piney\u00a0Point) is an 6-hole course in Houston, Texas, playing 1,238 feet at par 18. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Ecclesia (Piney Point) is a 6-hole course in Houston, Texas. A quick 1,238-foot round at par 18.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

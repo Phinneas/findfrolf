@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Sar Ko Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Sar Ko Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Sar Ko Park is an 9-hole course in Lenexa, Kansas, playing 1,377 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Sar Ko Park is a 9-hole course in Lenexa, Kansas. It's a short, 1,377-foot layout at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

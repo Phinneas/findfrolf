@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Robert L. Smith: Ravine \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Robert L. Smith: Ravine disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Robert L. Smith: Ravine is an 20-hole course in Charlotte, North Carolina, playing 5,837 feet at par 64. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Robert L. Smith: Ravine is a 20-hole course in Charlotte, North Carolina. It runs 5,837 feet at par 64.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

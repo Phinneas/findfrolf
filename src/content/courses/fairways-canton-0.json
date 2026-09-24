@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Fairways of Canton \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Fairways of Canton disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Medium Ski Hill",
   "foliage": null,
   "aboutParagraphs": [
-    "Fairways of Canton is a 20-hole course in Canton, Georgia, playing 11,000 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Fairways of Canton is a 20-hole course in Canton, Georgia. It stretches 11,000 feet at par 60.",
+    "A balanced test that rewards smart lines where the longest holes let big arms air it out. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

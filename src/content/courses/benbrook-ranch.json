@@ -25,13 +25,12 @@
   "websiteUrl": "https://www.leandertx.gov/Facilities/Facility/Details/Benbrook-Ranch-Park-Disc-Golf-Course-9",
   "photos": [
     {
-      "url": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
-      "alt": "Hole 15 at Benbrook Ranch Park Disc Golf Course — the 641-foot signature par 4",
-      "caption": "Hole 15 · PDGA course photo"
+      "url": "/images/course-wooded.svg",
+      "alt": "Benbrook Ranch Park Disc Golf Course disc golf course"
     }
   ],
-  "heroImage": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
-  "thumbnail": "https://www.pdga.com/files/course_photos/hole_15.jpeg",
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.5,
   "reviewCount": 1309,
   "tags": [

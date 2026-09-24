@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Southern Virginia Disc Golf Club \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Southern Virginia Disc Golf Club disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Southern Virginia Disc Golf Club is an 18-hole course in Raleigh, North Carolina, playing 4,247 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Southern Virginia Disc Golf Club is an 18-hole course in Raleigh, North Carolina. A quick 4,247-foot round at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

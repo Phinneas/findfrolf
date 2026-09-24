@@ -13,7 +13,7 @@ import SidebarFacts from '../../../components/course/SidebarFacts.astro';
 import SidebarTournaments from '../../../components/course/SidebarTournaments.astro';
 import NearbyCourses from '../../../components/course/NearbyCourses.astro';
 import { getCollection } from 'astro:content';
-import { getCourse, getCoursesBySlugs, courseUrl } from '../../../lib/data';
+import { getCourse, getCoursesBySlugs, courseUrl, formatGreenFee } from '../../../lib/data';
 
 export async function getStaticPaths() {
   const courses = await getCollection('courses');
@@ -53,6 +53,12 @@ const zipMatch = course.data.location.address.match(/(\d{5})$/);
 const postalCode = zipMatch?.[1] ?? '';
 
 const coursePageUrl = `https://findfrolf.com${courseUrl(course)}`;
+const greenFeeLabel = formatGreenFee(course.data.isFree, course.data.greenFee);
+
+// Omit openingHours when it's genuinely unknown rather than emitting "Unknown".
+const rawHours = course.data.facts?.hours;
+const hasHours = !!rawHours && !/unknown/i.test(rawHours) && rawHours.trim() !== '';
+const openingHours = rawHours === 'Dawn-dusk' ? 'Mo-Su 06:00-22:00' : rawHours;
 
 const courseSchema = {
   '@context': 'https://schema.org',
@@ -74,8 +80,8 @@ const courseSchema = {
     latitude: course.data.location.lat,
     longitude: course.data.location.lng,
   },
-  openingHours: course.data.facts?.hours === 'Dawn-dusk' ? 'Mo-Su 06:00-22:00' : course.data.facts?.hours ?? 'Mo-Su 06:00-22:00',
-  priceRange: course.data.greenFee,
+  ...(hasHours ? { openingHours } : {}),
+  priceRange: greenFeeLabel,
   sport: 'Disc Golf',
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -119,7 +125,7 @@ const courseSchema = {
     totalFeet={course.data.totalFeet}
     pdgaTier={course.data.pdgaTier}
     difficulty={course.data.difficulty}
-    greenFee={course.data.greenFee}
+    greenFee={greenFeeLabel}
   />
 
   <div class="max-w-[1240px] mx-auto px-8 py-[70px] pb-[90px] grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-14 items-start">

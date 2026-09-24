@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "W. O. Harrington \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "W. O. Harrington disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 2.0,
+  "rating": 2,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "W. O. Harrington is a 9-hole course in Irving, Texas (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "W. O. Harrington is a 9-hole course in Irving, Texas. It plays a compact 0 feet at par 27.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

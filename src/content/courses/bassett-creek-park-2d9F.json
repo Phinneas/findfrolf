@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bassett Creek Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Bassett Creek Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Bassett Creek Park is an 18-hole course in Minneapolis, Minnesota, playing 5,306 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Bassett Creek Park is an 18-hole course in Minneapolis, Minnesota. It plays 5,306 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

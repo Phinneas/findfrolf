@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Autrey Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Autrey Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Autrey Park is an 9-hole course in Louisville, Colorado, playing 2,008 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Autrey Park is a 9-hole course in Louisville, Colorado. A quick 2,008-foot round at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

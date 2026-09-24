@@ -6,13 +6,11 @@
   "citySlug": "raleigh",
   "stateSlug": "nc",
   "area": "Raleigh",
-
   "location": {
     "address": "4531 Kaplan Drive, Raleigh, NC 27606",
     "lat": 35.7768,
     "lng": -78.6962
   },
-
   "holes": 18,
   "par": 54,
   "parSource": "map",
@@ -20,29 +18,28 @@
   "courseLength": "short",
   "difficulty": "Easy",
   "difficultyRating": 2,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kentwood — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "alt": "Kentwood disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-
   "rating": 4.2,
   "reviewCount": 5522,
-
-  "tags": ["Short", "Free", "Beginner-friendly", "Practice baskets", "Busy"],
-
+  "tags": [
+    "Short",
+    "Free",
+    "Beginner-friendly",
+    "Practice baskets",
+    "Busy"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
@@ -54,58 +51,156 @@
     "handicapAccessible": false,
     "camping": false
   },
-
   "yearEstablished": 1983,
   "lastVerified": "2026-08-27",
   "courseDesigner": null,
-
   "teeType": "Concrete",
   "basketType": "DISCatcher",
   "elevation": null,
   "foliage": null,
-
   "aboutParagraphs": [
     "Kentwood is one of Raleigh's oldest and busiest courses — 18 short par 3s across 4,085 feet, with birdie opportunities on almost every hole. Since 1983 it's been the course where Raleigh players learn the game and where everyone goes for a quick, friendly round.",
     "Free to play with concrete tees and DISCatcher baskets, plus two extra practice baskets for putting warm-ups. It's a classic pitch-and-putt with real community character — expect a crowd and a welcoming one.",
     "Bring a putter and a midrange; that's the whole bag you need."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 182, "character": "182 feet — a gentle opener.", "difficultyPct": 16 },
-    { "number": 2, "par": 3, "distance": 250, "character": "250 feet, straight and fair.", "difficultyPct": 24 },
-    { "number": 3, "par": 3, "distance": 220, "character": "220 feet with a guarded green.", "difficultyPct": 22 },
-    { "number": 4, "par": 3, "distance": 225, "character": "225 feet, a clean line.", "difficultyPct": 22 },
-    { "number": 5, "par": 3, "distance": 253, "character": "253 feet — one of the longer par 3s.", "difficultyPct": 26 },
-    { "number": 6, "par": 3, "distance": 154, "character": "154 feet — the shortest hole on the card.", "difficultyPct": 12 },
-    { "number": 7, "par": 3, "distance": 222, "character": "222 feet, straight and true.", "difficultyPct": 22 },
-    { "number": 8, "par": 3, "distance": 288, "character": "288 feet — the longest hole at Kentwood.", "difficultyPct": 32, "isSignature": true },
-    { "number": 9, "par": 3, "distance": 214, "character": "214 feet, a genuine birdie look.", "difficultyPct": 20 },
-    { "number": 10, "par": 3, "distance": 237, "character": "237 feet, fair and friendly.", "difficultyPct": 24 },
-    { "number": 11, "par": 3, "distance": 249, "character": "249 feet with the trees edging in.", "difficultyPct": 26 },
-    { "number": 12, "par": 3, "distance": 225, "character": "225 feet, a clean corridor.", "difficultyPct": 22 },
-    { "number": 13, "par": 3, "distance": 210, "character": "210 feet, short and sweet.", "difficultyPct": 20 },
-    { "number": 14, "par": 3, "distance": 295, "character": "295 feet — the back nine's longest.", "difficultyPct": 34 },
-    { "number": 15, "par": 3, "distance": 205, "character": "205 feet, a putter shot.", "difficultyPct": 18 },
-    { "number": 16, "par": 3, "distance": 209, "character": "209 feet, straight and fair.", "difficultyPct": 18 },
-    { "number": 17, "par": 3, "distance": 215, "character": "215 feet, a clean line to the pin.", "difficultyPct": 20 },
-    { "number": 18, "par": 3, "distance": 232, "character": "232 feet to finish the classic 18.", "difficultyPct": 22 }
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 182,
+      "character": "182 feet — a gentle opener.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet, straight and fair.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 220,
+      "character": "220 feet with a guarded green.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 253,
+      "character": "253 feet — one of the longer par 3s.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 154,
+      "character": "154 feet — the shortest hole on the card.",
+      "difficultyPct": 12
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 222,
+      "character": "222 feet, straight and true.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 288,
+      "character": "288 feet — the longest hole at Kentwood.",
+      "difficultyPct": 32,
+      "isSignature": true
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 214,
+      "character": "214 feet, a genuine birdie look.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 237,
+      "character": "237 feet, fair and friendly.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 249,
+      "character": "249 feet with the trees edging in.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet, a clean corridor.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, short and sweet.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 295,
+      "character": "295 feet — the back nine's longest.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 205,
+      "character": "205 feet, a putter shot.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 209,
+      "character": "209 feet, straight and fair.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 215,
+      "character": "215 feet, a clean line to the pin.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 232,
+      "character": "232 feet to finish the classic 18.",
+      "difficultyPct": 22
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 8 is the longest at Kentwood at 288 feet — still a par 3, still friendly, but the one hole where you can actually air out a midrange. It's the perfect taste of what makes this course great: short, social golf with just enough challenge to keep you coming back.",
-
   "localTips": "Raleigh's busiest course — weekday mornings are the quiet window. There are two extra practice baskets for putting warm-ups. Free to play, all par 3s, and a putter plus a midrange is the whole bag you need.",
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": true,
   "isWooded": false,
   "isOpen": true,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Yes",

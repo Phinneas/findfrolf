@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "KC Ranch House DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "KC Ranch House DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1488,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "KC Ranch House DGC is an 9-hole course in Littleton, Colorado, playing 1,383 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "KC Ranch House DGC is a 9-hole course in Littleton, Colorado. A quick 1,383-foot round at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

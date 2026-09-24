@@ -1,5 +1,5 @@
 {
-  "name": "The Owl\u2019s Den",
+  "name": "The Owl’s Den",
   "code": "CO-1042",
   "city": "Thornton",
   "state": "Colorado",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Owl\u2019s Den \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Owl’s Den disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Owl\u2019s Den is an 18-hole course in Thornton, Colorado, playing 5,928 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Owl’s Den is an 18-hole course in Thornton, Colorado. It runs 5,928 feet at par 57.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

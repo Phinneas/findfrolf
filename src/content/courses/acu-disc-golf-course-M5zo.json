@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "ACU disc golf course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "ACU disc golf course disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.7,
   "reviewCount": 23,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "ACU disc golf course is an 18-hole course in Glendale, Arizona, playing 4,750 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "ACU disc golf course is an 18-hole course in Glendale, Arizona. It plays a compact 4,750 feet at par 54.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

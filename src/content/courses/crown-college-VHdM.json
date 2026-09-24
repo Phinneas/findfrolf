@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Crown College \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Crown College disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1582,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Crown College is an 18-hole course in Waconia, Minnesota, playing 6,383 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Crown College is an 18-hole course in Waconia, Minnesota. It plays 6,383 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

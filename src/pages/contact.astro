@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contactEmail = 'chester@salishaseaconsulting.com';
+
+const reasons = [
+  {
+    title: 'Add or correct a course',
+    text: 'Know a course we\'re missing, or spotted an error in a listing? Send the details — name, city, and whatever you know about holes, fees, and layout — and we\'ll get it mapped.',
+  },
+  {
+    title: 'A review or local tip',
+    text: 'Play a course regularly? Your local knowledge is what makes the maps honest. Share what a visitor should know.',
+  },
+  {
+    title: 'Press or partnerships',
+    text: 'Writing about disc golf, or want to work together? We\'re glad to talk.',
+  },
+  {
+    title: 'Privacy & data requests',
+    text: 'Want to access, correct, or remove your information? See the Privacy Policy, then email us and we\'ll sort it out.',
+  },
+];
+---
+
+<BaseLayout
+  title="Contact — Find Frolf"
+  description="Contact Find Frolf to add or correct a course, share a local tip, or ask about press, partnerships, and privacy."
+>
+  <slot name="head">
+    <link rel="canonical" href="https://findfrolf.com/contact" />
+  </slot>
+
+  <!-- HERO -->
+  <section class="max-w-[1080px] mx-auto mt-[60px] px-8">
+    <h1 class="font-display font-normal text-[clamp(40px,6vw,64px)] tracking-[-2px] text-forest-deep leading-[1.02]">
+      Say <span class="script text-[1.05em] text-clay">hello</span>
+    </h1>
+    <p class="text-[17px] text-ink-soft max-w-[680px] mt-6 leading-[1.6]">
+      Find Frolf is a small operation, and every message lands with a real person. If you have a course to add, a correction to make, or a question, we'd love to hear from you.
+    </p>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <a
+        href={`mailto:${contactEmail}`}
+        class="bg-clay text-white px-7 py-3.5 rounded-full font-bold text-[15px] no-clip hover:bg-clay-deep transition-colors"
+      >
+        Email {contactEmail}
+      </a>
+      <span class="font-mono text-xs uppercase tracking-[2px] text-moss">Pacific Northwest, WA · est. 2026</span>
+    </div>
+  </section>
+
+  <!-- WHAT TO REACH OUT ABOUT -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line mt-16">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">01</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-8">
+      What we can <em class="italic text-clay">help with</em>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      {reasons.map((reason) => (
+        <div class="bg-paper border border-line rounded-[10px] p-6 border-l-4 border-l-clay">
+          <h3 class="font-display font-semibold text-[19px] text-forest-deep mb-1.5">{reason.title}</h3>
+          <p class="text-sm text-ink-soft leading-[1.6]">{reason.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- EMAIL -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">02</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      The fastest way <em class="italic text-clay">to reach us</em>
+    </h2>
+    <div class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      <p>
+        Email is best. Include as much detail as you can — for course submissions, the course name, city, and anything you know about holes, fees, and layout helps us get it right the first time.
+      </p>
+      <p class="mt-4">
+        Email:
+        <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href={`mailto:${contactEmail}`}>{contactEmail}</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

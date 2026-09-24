@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Conocido Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Conocido Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.8,
   "reviewCount": 2563,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Conocido Park is an 18-hole course in Phoenix, Arizona, playing 6,323 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Conocido Park is an 18-hole course in Phoenix, Arizona. It runs 6,323 feet at par 54.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

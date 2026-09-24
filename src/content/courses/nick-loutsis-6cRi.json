@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Nick Loutsis \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Nick Loutsis disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 751,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Nick Loutsis is an 18-hole course in Carnation, Washington, playing 4,433 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Nick Loutsis is an 18-hole course in Carnation, Washington. It's a short, 4,433-foot layout at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

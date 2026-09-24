@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Haslet Community \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Haslet Community disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Haslet Community is an 18-hole course in Haslet, Texas, playing 6,065 feet at par 58. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Haslet Community is an 18-hole course in Haslet, Texas. It plays 6,065 feet at par 58.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

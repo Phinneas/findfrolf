@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Paschall Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Paschall Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1838,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Paschall Park is an 18-hole course in Mesquite, Texas, playing 4,403 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Paschall Park is an 18-hole course in Mesquite, Texas. It's a short, 4,403-foot layout at par 55.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

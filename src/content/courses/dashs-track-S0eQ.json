@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Dash's Track \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Dash's Track disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Dash's Track is an 18-hole course in Frisco, Texas, playing 3,613 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Dash's Track is an 18-hole course in Frisco, Texas. It plays a compact 3,613 feet at par 54.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

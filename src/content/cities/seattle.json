@@ -3,92 +3,84 @@
   "state": "Washington",
   "stateSlug": "wa",
   "heroImage": "/images/city-seattle.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "Evergreen disc golf from the airport flight paths to the old-growth pines \u2014 Seattle's courses are green, hilly, and quietly excellent. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Evergreen disc golf from the airport flight paths to the old-growth pines — Seattle's courses are green, hilly, and quietly excellent. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Seattle disc golf is an evergreen affair. SeaTac DGC plays 27 holes through a former neighborhood under the constant roar of the airport \u2014 open fields, wooded tunnels, and nearly 10,000 feet of golf. Fort Steilacoom in Lakewood offers a 40-acre natural setting of mature pines that dates to 1986.",
-    "Closer to the city, Mineral Springs packs an old arboretum into four acres of technical par 3s, and Ralph Williamson in White Center pairs rolling hills with a water carry on the final hole. All four of our published Seattle courses are free.",
-    "New here? Mineral Springs is a quick, technical intro; SeaTac is the full-day marathon."
+    "Seattle disc golf is an evergreen affair. SeaTac DGC plays 27 holes through a former neighborhood under the constant roar of the airport — open fields, wooded tunnels, and nearly 10,000 feet of golf. Fort Steilacoom in Lakewood offers a 40-acre natural setting of mature pines that dates to 1986.",
+    "Closer to the city, Mineral Springs packs an old arboretum into four acres of technical par 3s, and Ralph Williamson in White Center pairs rolling hills with a water carry on the final hole. The Olympic Rebel Alliance and other local clubs run weekly leagues, and the Pacific Northwest's disc golf community is one of the most active in the country.",
+    "New here? Mineral Springs is a quick, technical intro; SeaTac is the full-day marathon. For gear, Emerald City Discs in Seattle is the dedicated pro shop with a curated selection and knowledgeable staff."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "seatac",
-      "x": 48,
-      "y": 34,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "fort-steilacoom-nw",
-      "x": 38,
-      "y": 66,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "mineral-springs",
-      "x": 60,
-      "y": 28,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "seatac", "x": 48, "y": 34, "isGold": true },
+    { "rank": 2, "courseSlug": "fort-steilacoom-nw", "x": 38, "y": 66, "isGold": false },
+    { "rank": 3, "courseSlug": "mineral-springs", "x": 60, "y": 28, "isGold": false },
+    { "rank": 4, "courseSlug": "ralph-williamson", "x": 44, "y": 48, "isGold": false },
+    { "rank": 5, "courseSlug": "kayak-point", "x": 32, "y": 16, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The 27-hole marathon",
       "tag": "Big round",
-      "courseSlugs": [
-        "seatac"
-      ]
+      "courseSlugs": ["seatac"]
     },
     {
       "title": "The old-growth classic",
       "tag": "Scenic",
-      "courseSlugs": [
-        "fort-steilacoom-nw"
-      ]
+      "courseSlugs": ["fort-steilacoom-nw"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["mineral-springs", "ralph-williamson"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Pay-to-play",
+      "courseSlugs": ["kayak-point"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "03", "month": "Jun", "title": "Olympic Rebel Alliance Tags", "description": "Weekly tag league across the Seattle metro. Newcomers welcome.", "cta": "Join" },
+    { "day": "12", "month": "Jun", "title": "SeaTac Doubles", "description": "Random doubles at SeaTac DGC. Beat the summer crowds with an early tee time.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Pacific Northwest Championship · A-Tier", "description": "PDGA A-tier at Fort Steilacoom. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Olympic Rebel Alliance", "meta": "Seattle's largest club · est. 2010" },
+    { "icon": "🏪", "name": "Emerald City Discs", "meta": "SW 98th St · dedicated pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Renton · new & used discs" },
+    { "icon": "🥏", "name": "SeaTac DGC Community", "meta": "Weekly leagues & events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "SeaTac"
-    },
-    {
-      "count": 1,
-      "name": "Lakewood"
-    },
-    {
-      "count": 1,
-      "name": "Seattle"
-    }
+    { "count": 12, "name": "Seattle" },
+    { "count": 8, "name": "Lakewood" },
+    { "count": 6, "name": "SeaTac" },
+    { "count": 4, "name": "Renton" },
+    { "count": 3, "name": "White Center" },
+    { "count": 2, "name": "Everett" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Seattle metro?",
-      "answer": "Around <b>45 courses</b> across the metro including the Tacoma side. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "answer": "There are <b>53 courses</b> across the Seattle metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Seattle?",
-      "answer": "<b>SeaTac DGC</b> \u2014 a 27-hole course under the airport flight paths with a mix of open fields and wooded tunnels. Fort Steilacoom in Lakewood is the scenic runner-up among the published courses."
+      "answer": "<b>SeaTac DGC</b> — a 27-hole course under the airport flight paths with a mix of open fields and wooded tunnels. Fort Steilacoom in Lakewood is the scenic runner-up among the published courses."
     },
     {
       "question": "Are Seattle's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (SeaTac, Fort Steilacoom, Mineral Springs, Ralph Williamson) are free to play."
+      "answer": "Most are. 47 of the 53 mapped courses are free to play, and 6 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Seattle?",
-      "answer": "Mineral Springs is short and technical \u2014 a great putter-and-midrange course to learn lines. Ralph Williamson is another friendly option with hills and a memorable water carry on 18."
+      "answer": "Mineral Springs is short and technical — a great putter-and-midrange course to learn lines. Ralph Williamson is another friendly option with hills and a memorable water carry on 18."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Seattle?",
+      "answer": "Emerald City Discs on SW 98th St is the dedicated pro shop with a curated selection. Play It Again Sports in Renton carries new and used discs."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "Portland",
-      "courseCount": "55 courses",
-      "distance": "175 mi",
-      "slug": "/or/portland"
-    }
+    { "name": "Portland", "courseCount": "39 courses", "distance": "175 mi", "slug": "/or/portland" }
   ]
 }

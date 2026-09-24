@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Apex Nature Park — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-wooded.svg",
+      "alt": "Apex Nature Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.3,
   "reviewCount": 3475,
   "tags": [

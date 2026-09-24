@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bear Creek Bible Church DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Bear Creek Bible Church DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Bear Creek Bible Church DGC is an 6-hole course in Keller, Texas, playing 967 feet at par 18. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Bear Creek Bible Church DGC is a 6-hole course in Keller, Texas. A quick 967-foot round at par 18.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

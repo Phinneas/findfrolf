@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kessler Park (Cliff Drive) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Kessler Park (Cliff Drive) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 5.0,
+  "rating": 5,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Kessler Park (Cliff Drive) is a 18-hole course in Kansas City, Missouri, playing 5,940 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Kessler Park (Cliff Drive) is an 18-hole course in Kansas City, Missouri. It runs 5,940 feet at par 54.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

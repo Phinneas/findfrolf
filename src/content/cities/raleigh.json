@@ -1,94 +1,85 @@
 {
-  "name": "Raleigh\u2013Durham",
+  "name": "Raleigh–Durham",
   "state": "North Carolina",
   "stateSlug": "nc",
   "heroImage": "/images/city-raleigh.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
+  "heroFlag": "📍 City guide · Updated August 2026",
   "lede": "The Triangle's disc golf runs from the championship woods of Diavolo to the classic short course everyone learns on. We're publishing the region's best first.",
   "introParagraphs": [
-    "The Triangle's crown jewel is Diavolo at New Hope in Cary \u2014 a 22-hole championship course opened in 2020 with water holes and fusion pairs, already one of the most-loved courses in the region. Cedar Hills Rotary Park is the old-school wooded test from 1984, and Kentwood is the classic short course where generations of Raleigh players learned the game.",
-    "Apex Nature Park rounds out the top tier with its short, creek-crossed woodland loop. All four of our published Triangle courses are free.",
-    "New here? Kentwood to learn, Cedar Hills to test, Diavolo to be impressed."
+    "The Triangle's crown jewel is Diavolo at New Hope in Cary — a 22-hole championship course opened in 2020 with water holes and fusion pairs, already one of the most-loved courses in the region. Cedar Hills Rotary Park is the old-school wooded test from 1984, and Kentwood is the classic short course where generations of Raleigh players learned the game.",
+    "Apex Nature Park rounds out the top tier with its short, creek-crossed woodland loop. The Kentwood Summer Doubles and Cedar Hills doubles leagues keep the scene active, and Eastern Disc Golf is the local pro shop. Nearly all of Raleigh–Durham's mapped courses are free to play.",
+    "New here? Kentwood to learn, Cedar Hills to test, Diavolo to be impressed. For gear, Eastern Disc Golf in Raleigh and Play It Again Sports are the local options."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "diavolo",
-      "x": 44,
-      "y": 38,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "cedar-hills",
-      "x": 54,
-      "y": 30,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "kentwood",
-      "x": 48,
-      "y": 52,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "diavolo", "x": 44, "y": 38, "isGold": true },
+    { "rank": 2, "courseSlug": "cedar-hills", "x": 54, "y": 30, "isGold": false },
+    { "rank": 3, "courseSlug": "kentwood", "x": 48, "y": 52, "isGold": false },
+    { "rank": 4, "courseSlug": "apex-nature", "x": 38, "y": 44, "isGold": false },
+    { "rank": 5, "courseSlug": "forest-hills", "x": 56, "y": 58, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The championship round",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "diavolo"
-      ]
+      "courseSlugs": ["diavolo"]
     },
     {
       "title": "The classic short course",
       "tag": "Learn the game",
-      "courseSlugs": [
-        "kentwood"
-      ]
+      "courseSlugs": ["kentwood"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Wooded & technical",
+      "courseSlugs": ["cedar-hills", "forest-hills"]
+    },
+    {
+      "title": "A quick nine",
+      "tag": "Lunch-break length",
+      "courseSlugs": ["kentwood", "apex-nature"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "04", "month": "Jun", "title": "Kentwood Summer Doubles", "description": "Weekly doubles at Kentwood — the classic short course. All skill levels.", "cta": "Join" },
+    { "day": "10", "month": "Jun", "title": "Cedar Hills Doubles", "description": "18-week summer doubles season at Cedar Hills. The wooded test.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Triangle Open · B-Tier", "description": "PDGA B-tier at Diavolo. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Raleigh Disc Golf Club", "meta": "500+ members · est. 1998" },
+    { "icon": "🏪", "name": "Eastern Disc Golf", "meta": "Raleigh · dedicated pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Raleigh · new & used discs" },
+    { "icon": "🥏", "name": "Triangle Disc Golf", "meta": "Weekly doubles & events" }
+  ],
   "areas": [
-    {
-      "count": 2,
-      "name": "Raleigh"
-    },
-    {
-      "count": 1,
-      "name": "Cary"
-    },
-    {
-      "count": 1,
-      "name": "Apex"
-    }
+    { "count": 10, "name": "Raleigh" },
+    { "count": 6, "name": "Cary" },
+    { "count": 4, "name": "Durham" },
+    { "count": 3, "name": "Apex" },
+    { "count": 2, "name": "Chapel Hill" }
   ],
   "faqs": [
     {
-      "question": "How many disc golf courses are in the Raleigh\u2013Durham area?",
-      "answer": "Around <b>35 courses</b> across the Triangle. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "question": "How many disc golf courses are in the Raleigh–Durham area?",
+      "answer": "There are <b>42 courses</b> across the Raleigh–Durham area, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in the Triangle?",
-      "answer": "<b>Diavolo at New Hope</b> in Cary \u2014 the 22-hole championship course with water and fusion holes, opened in 2020 and already the region's favorite."
+      "answer": "<b>Diavolo at New Hope</b> in Cary — the 22-hole championship course with water and fusion holes, opened in 2020 and already the region's favorite."
     },
     {
       "question": "Are the Triangle's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (Diavolo, Kentwood, Cedar Hills, Apex Nature) are free to play."
+      "answer": "Most are. 40 of the 42 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in the Triangle?",
-      "answer": "Kentwood \u2014 the short, friendly classic in Raleigh where most local players started. Apex Nature Park is another gentle option."
+      "answer": "Kentwood — the short, friendly classic in Raleigh where most local players started. Apex Nature Park is another gentle option."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Raleigh?",
+      "answer": "Eastern Disc Golf in Raleigh is the dedicated pro shop. Play It Again Sports carries new and used discs and starter sets."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "Charlotte",
-      "courseCount": "50 courses",
-      "distance": "130 mi",
-      "slug": "/nc/charlotte"
-    }
+    { "name": "Charlotte", "courseCount": "56 courses", "distance": "130 mi", "slug": "/nc/charlotte" }
   ]
 }

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Seabourne Creek DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Seabourne Creek DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Seabourne Creek DGC is an 9-hole course in Rosenberg, Texas, playing 2,802 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Seabourne Creek DGC is a 9-hole course in Rosenberg, Texas. It's a short, 2,802-foot layout at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

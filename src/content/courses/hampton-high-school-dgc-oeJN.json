@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hampton High School DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hampton High School DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Hampton High School DGC is an 9-hole course in Hampton, Georgia, playing 3,000 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Hampton High School DGC is a 9-hole course in Hampton, Georgia. A quick 3,000-foot round at par 28.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

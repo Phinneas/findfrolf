@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Walnut Creek DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Walnut Creek DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Walnut Creek DGC is an 18-hole course in Springtown, Texas, playing 5,171 feet at par 58. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Walnut Creek DGC is an 18-hole course in Springtown, Texas. The layout stretches 5,171 feet at par 58.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

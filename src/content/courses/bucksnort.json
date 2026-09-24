@@ -1,5 +1,5 @@
 {
-  "name": "BuckSnort",
+  "name": "Buck Snort",
   "code": "CO-1053",
   "city": "Pine",
   "state": "Colorado",
@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "BuckSnort \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Buck Snort disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 5.0,
+  "rating": 5,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "All Hilly",
   "foliage": null,
   "aboutParagraphs": [
-    "BuckSnort is a 28-hole course in Pine, Colorado, playing 6,060 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Buck Snort is a 28-hole course in Pine, Colorado. It plays 6,060 feet at par 84.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

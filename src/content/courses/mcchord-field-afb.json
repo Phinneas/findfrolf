@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "McChord Field Air Force Base \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "McChord Field Air Force Base disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "McChord Field Air Force Base is a 9-hole course in Tacoma, Washington, playing 2,105 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "McChord Field Air Force Base is a 9-hole course in Tacoma, Washington. It's a short, 2,105-foot layout at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

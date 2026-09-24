@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Land Trust for Tennessee Glen Leven Farm \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Land Trust for Tennessee Glen Leven Farm disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 5.0,
+  "rating": 5,
   "reviewCount": 5,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Land Trust for Tennessee Glen Leven Farm is an 5-hole course in Nashville, Tennessee, playing 872 feet at par 15. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Land Trust for Tennessee Glen Leven Farm is a 5-hole course in Nashville, Tennessee. A quick 872-foot round at par 15.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

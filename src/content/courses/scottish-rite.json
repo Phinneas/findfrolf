@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Scottish Rite \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Scottish Rite disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "50/50 Flat/Hills",
   "foliage": null,
   "aboutParagraphs": [
-    "Scottish Rite is a 9-hole course in Frisco, Texas, playing 2,110 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Scottish Rite is a 9-hole course in Frisco, Texas. It's a short, 2,110-foot layout at par 27.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Plymouth Creek Woods \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Plymouth Creek Woods disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Plymouth Creek Woods is an 16-hole course in Plymouth, Minnesota, playing 3,540 feet at par 49. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Plymouth Creek Woods is a 16-hole course in Plymouth, Minnesota. A quick 3,540-foot round at par 49.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

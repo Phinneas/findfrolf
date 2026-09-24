@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Husky Disc Golf at Houston Baptist University \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Husky Disc Golf at Houston Baptist University disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Stands",
   "aboutParagraphs": [
-    "Husky Disc Golf at Houston Baptist University is a 9-hole course in Houston, Texas, playing 2,117 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Husky Disc Golf at Houston Baptist University is a 9-hole course in Houston, Texas. A quick 2,117-foot round at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

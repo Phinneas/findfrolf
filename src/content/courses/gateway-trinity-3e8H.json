@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Gateway Trinity \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Gateway Trinity disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Gateway Trinity is an 18-hole course in Fort Worth, Texas, playing 4,996 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Gateway Trinity is an 18-hole course in Fort Worth, Texas. It plays a compact 4,996 feet at par 56.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

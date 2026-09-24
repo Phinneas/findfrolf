@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Beerburg Brewery Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Beerburg Brewery Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Beerburg Brewery Course is an 18-hole course in Austin, Texas, playing 3,601 feet at par 57. Course details sourced from UDisc on 2026-09-06."
+    "Beerburg Brewery Course is an 18-hole course in Austin, Texas. It plays a compact 3,601 feet at par 57.",
+    "A gentle, approachable round where most holes are short and gettable. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

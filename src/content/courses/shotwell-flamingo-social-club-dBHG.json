@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Shotwell Flamingo Social Club \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Shotwell Flamingo Social Club disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Shotwell Flamingo Social Club is an 9-hole course in Clayton, North Carolina, playing 2,179 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Shotwell Flamingo Social Club is a 9-hole course in Clayton, North Carolina. A quick 2,179-foot round at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

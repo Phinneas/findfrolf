@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Lindsey Estates DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Lindsey Estates DGC disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.4,
   "reviewCount": 54,
   "tags": [
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Lindsey Estates DGC is an 6-hole course in Gilbert, Arizona, playing 1,554 feet at par 19. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Lindsey Estates DGC is a 6-hole course in Gilbert, Arizona. A quick 1,554-foot round at par 19.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Liberty Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Liberty Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Liberty Park is an 10-hole course in Franklin, Tennessee, playing 2,010 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Liberty Park is a 10-hole course in Franklin, Tennessee. It's a short, 2,010-foot layout at par 30.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "ViewPoint Golf Resort \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "ViewPoint Golf Resort disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": null,
   "aboutParagraphs": [
-    "ViewPoint Golf Resort is a 36-hole course in Mesa, Arizona, playing 6,000 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "ViewPoint Golf Resort is a 36-hole course in Mesa, Arizona. It runs 6,000 feet at par 108.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

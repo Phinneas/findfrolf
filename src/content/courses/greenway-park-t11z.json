@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Greenway Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Greenway Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Greenway Park is an 9-hole course in Beaverton, Oregon, playing 2,348 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Greenway Park is a 9-hole course in Beaverton, Oregon. A quick 2,348-foot round at par 27.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

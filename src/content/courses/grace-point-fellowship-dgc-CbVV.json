@@ -1,5 +1,5 @@
 {
-  "name": "GracePointFellowship DGC",
+  "name": "Grace Point Fellowship DGC",
   "code": "TX-1160",
   "city": "Magnolia",
   "state": "Texas",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "GracePointFellowship DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Grace Point Fellowship DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "GracePointFellowship DGC is an 18-hole course in Magnolia, Texas, playing 5,211 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Grace Point Fellowship DGC is an 18-hole course in Magnolia, Texas. It runs 5,211 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

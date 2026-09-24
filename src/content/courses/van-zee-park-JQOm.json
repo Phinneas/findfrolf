@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Van Zee Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Van Zee Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Van Zee Park is an 9-hole course in Port Orchard, Washington, playing 1,745 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Van Zee Park is a 9-hole course in Port Orchard, Washington. A quick 1,745-foot round at par 27.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Marvin Efird Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Marvin Efird Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Marvin Efird Park is an 9-hole course in Waxhaw, North Carolina, playing 1,254 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Marvin Efird Park is a 9-hole course in Waxhaw, North Carolina. It's a short, 1,254-foot layout at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

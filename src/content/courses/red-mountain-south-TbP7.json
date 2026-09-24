@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Red Mountain - South \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Red Mountain - South disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 4,
   "reviewCount": 2112,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Red Mountain - South is an 18-hole course in Mesa, Arizona, playing 6,199 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Red Mountain - South is an 18-hole course in Mesa, Arizona. It runs 6,199 feet at par 55.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

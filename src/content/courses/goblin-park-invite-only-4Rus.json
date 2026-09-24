@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Goblin park (invite only) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Goblin park (invite only) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 5.0,
+  "rating": 5,
   "reviewCount": 10,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Goblin park (invite only) is an 20-hole course in Nashville, Tennessee, playing 5,151 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Goblin park (invite only) is a 20-hole course in Nashville, Tennessee. It plays 5,151 feet at par 63.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

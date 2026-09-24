@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Last Resort Disc Golf \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Last Resort Disc Golf disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Last Resort Disc Golf is an 19-hole course in Conifer, Colorado, playing 7,106 feet at par 61. Course details sourced from UDisc on 2026-09-04."
+    "Last Resort Disc Golf is a 19-hole course in Conifer, Colorado. It runs a long 7,106 feet at par 61.",
+    "It's a fair test for most players with real length on the drive holes. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

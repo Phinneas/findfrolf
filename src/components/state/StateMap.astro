@@ -1,0 +1,97 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { courseUrl } from '../../lib/data';
+import { buildStateMap, projectPoint } from '../../lib/stateMap';
+
+interface Props {
+  stateName: string;
+  courses: CollectionEntry<'courses'>[];
+}
+
+const { stateName, courses } = Astro.props;
+
+const map = buildStateMap(
+  stateName,
+  courses.map((c) => ({ lat: c.data.location.lat, lng: c.data.location.lng })),
+);
+
+// Rank pins so the highest-rated courses sit on top (clay vs. gold).
+const sorted = [...courses].sort((a, b) => b.data.rating - a.data.rating);
+---
+
+{map ? (
+  <svg
+    class="state-map"
+    viewBox={map.viewBox}
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    aria-label={`Disc golf courses in ${stateName}`}
+  >
+    <path d={map.pathD} class="state-outline" fill-rule="evenodd" vector-effect="non-scaling-stroke" />
+    {sorted.map((course) => {
+      const { x, y } = projectPoint(course.data.location.lat, course.data.location.lng);
+      const isTop = course.data.rating >= 4.5;
+      return (
+        <a href={courseUrl(course)} class="state-pin-link" aria-label={course.data.name}>
+          <circle
+            cx={x}
+            cy={y}
+            r={map.pinRadius}
+            stroke-width={map.pinRadius * 0.28}
+            class={`state-pin${isTop ? ' state-pin--top' : ''}`}
+          />
+          <title>{`${course.data.name} — ${course.data.rating}★`}</title>
+        </a>
+      );
+    })}
+  </svg>
+) : (
+  <div class="state-map-fallback font-display text-sage">{stateName}</div>
+)}
+
+<style>
+  .state-map {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .state-outline {
+    fill: var(--color-cream-2);
+    stroke: var(--color-forest);
+    stroke-width: 1.5px;
+    stroke-linejoin: round;
+  }
+
+  .state-pin {
+    fill: var(--color-clay);
+    stroke: var(--color-paper);
+    transition: fill 0.15s;
+  }
+
+  .state-pin--top {
+    fill: var(--color-sun);
+    stroke: var(--color-forest-deep);
+  }
+
+  .state-pin-link {
+    cursor: pointer;
+  }
+
+  .state-pin-link:hover .state-pin {
+    fill: var(--color-forest);
+    stroke: var(--color-paper);
+  }
+
+  .state-pin-link:hover .state-pin--top {
+    fill: var(--color-forest-deep);
+  }
+
+  .state-map-fallback {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+  }
+</style>

@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "First Calvary Baptist \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "First Calvary Baptist disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1079,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "First Calvary Baptist is an 20-hole course in Inver Grove Heights, Minnesota, playing 4,729 feet at par 61. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "First Calvary Baptist is a 20-hole course in Inver Grove Heights, Minnesota. It's a short, 4,729-foot layout at par 61.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

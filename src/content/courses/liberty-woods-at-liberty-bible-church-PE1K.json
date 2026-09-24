@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Liberty Woods at Liberty Bible Church \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Liberty Woods at Liberty Bible Church disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 694,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Liberty Woods at Liberty Bible Church is an 18-hole course in Chesterton, Indiana, playing 5,221 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Liberty Woods at Liberty Bible Church is an 18-hole course in Chesterton, Indiana. The layout stretches 5,221 feet at par 56.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

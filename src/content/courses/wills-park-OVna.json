@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Wills Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Wills Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 3557,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Wills Park is an 14-hole course in Alpharetta, Georgia, playing 3,565 feet at par 43. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Wills Park is a 14-hole course in Alpharetta, Georgia. It plays a compact 3,565 feet at par 43.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Fewell Park Aceplace \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Fewell Park Aceplace disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 698,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Fewell Park Aceplace is an 18-hole course in Rock Hill, South Carolina, playing 2,847 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Fewell Park Aceplace is an 18-hole course in Rock Hill, South Carolina. It plays a compact 2,847 feet at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

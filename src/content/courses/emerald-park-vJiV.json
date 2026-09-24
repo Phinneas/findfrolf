@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Emerald Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Emerald Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 4,
   "reviewCount": 2840,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Emerald Park is an 18-hole course in Mesa, Arizona, playing 5,470 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Emerald Park is an 18-hole course in Mesa, Arizona. It plays 5,470 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

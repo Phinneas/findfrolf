@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Jones Creek Ranch Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Jones Creek Ranch Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Jones Creek Ranch Park is an 21-hole course in Richmond, Texas, playing 7,497 feet at par 67. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Jones Creek Ranch Park is a 21-hole course in Richmond, Texas. The layout reaches 7,497 feet at par 67.",
+    "A balanced test that rewards smart lines with real length on the drive holes. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

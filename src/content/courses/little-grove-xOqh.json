@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Little Grove \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Little Grove disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Little Grove is an 18-hole course in Kingwood, Texas, playing 2,780 feet at par 36. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Little Grove is an 18-hole course in Kingwood, Texas. A quick 2,780-foot round at par 36.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

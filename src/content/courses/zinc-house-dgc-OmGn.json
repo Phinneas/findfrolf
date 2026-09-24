@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "ZincHouse DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "ZincHouse DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "ZincHouse DGC is an 18-hole course in Durham, North Carolina, playing 5,504 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "ZincHouse DGC is an 18-hole course in Durham, North Carolina. It runs 5,504 feet at par 56.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

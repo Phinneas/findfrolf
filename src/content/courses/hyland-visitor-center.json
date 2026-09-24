@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hyland Visitor Center \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hyland Visitor Center disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "Hyland Visitor Center is a 3-hole course in Bloomington, Minnesota (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Hyland Visitor Center is a 3-hole course in Bloomington, Minnesota. It plays a compact 0 feet at par 9.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

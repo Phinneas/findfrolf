@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kress Creek Farm (Manville Oaks) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Kress Creek Farm (Manville Oaks) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Kress Creek Farm (Manville Oaks) is an 18-hole course in West Chicago, Illinois, playing 5,555 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Kress Creek Farm (Manville Oaks) is an 18-hole course in West Chicago, Illinois. It plays 5,555 feet at par 57.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

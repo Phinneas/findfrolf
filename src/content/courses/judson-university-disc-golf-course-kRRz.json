@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Judson University Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Judson University Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Judson University Disc Golf Course is an 18-hole course in Elgin, Illinois, playing 3,125 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Judson University Disc Golf Course is an 18-hole course in Elgin, Illinois. It plays a compact 3,125 feet at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

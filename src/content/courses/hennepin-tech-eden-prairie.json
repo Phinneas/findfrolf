@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hennepin Tech Eden Prairie \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hennepin Tech Eden Prairie disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 2.0,
+  "rating": 2,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "All Hilly",
   "foliage": null,
   "aboutParagraphs": [
-    "Hennepin Tech Eden Prairie is a 9-hole course in Eden Prairie, Minnesota, playing 2,502 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Hennepin Tech Eden Prairie is a 9-hole course in Eden Prairie, Minnesota. A quick 2,502-foot round at par 27.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Doogan Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Doogan Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Doogan Park is an 9-hole course in Orland Park, Illinois, playing 1,893 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Doogan Park is a 9-hole course in Orland Park, Illinois. A quick 1,893-foot round at par 29.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

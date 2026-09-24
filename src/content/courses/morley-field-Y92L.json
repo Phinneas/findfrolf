@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Morley Field \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Morley Field disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Morley Field is an 19-hole course in San Diego, California, playing 5,555 feet at par 57. Sourced from UDisc on 2026-09-10."
+    "Morley Field is a 19-hole course in San Diego, California. It plays 5,555 feet at par 57.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

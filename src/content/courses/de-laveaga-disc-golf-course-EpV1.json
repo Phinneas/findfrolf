@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "DeLaveaga Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "DeLaveaga Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "DeLaveaga Disc Golf Course is an 27-hole course in Santa Cruz, California, playing 8,908 feet at par 82. Sourced from UDisc on 2026-09-10."
+    "DeLaveaga Disc Golf Course is a 27-hole course in Santa Cruz, California. The layout reaches 8,908 feet at par 82.",
+    "A balanced test that rewards smart lines where the longest holes let big arms air it out. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

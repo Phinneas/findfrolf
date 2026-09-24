@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Lombard Common Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Lombard Common Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Lombard Common Park is an 11-hole course in Lombard, Illinois, playing 3,003 feet at par 33. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Lombard Common Park is an 11-hole course in Lombard, Illinois. A quick 3,003-foot round at par 33.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

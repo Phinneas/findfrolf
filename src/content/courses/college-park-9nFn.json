@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "College Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "College Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.7,
   "reviewCount": 272,
   "tags": [
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "College Park is an 9-hole course in Casa Grande, Arizona, playing 2,317 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "College Park is a 9-hole course in Casa Grande, Arizona. It's a short, 2,317-foot layout at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

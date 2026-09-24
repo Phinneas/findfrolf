@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "DeKalb Memorial Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "DeKalb Memorial Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "DeKalb Memorial Park DGC is an 18-hole course in Atlanta, Georgia, playing 4,812 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "DeKalb Memorial Park DGC is an 18-hole course in Atlanta, Georgia. It plays a compact 4,812 feet at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

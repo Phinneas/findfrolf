@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "White Oak Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "White Oak Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "White Oak Park DGC is an 18-hole course in Dallas, Georgia, playing 5,861 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "White Oak Park DGC is an 18-hole course in Dallas, Georgia. The layout stretches 5,861 feet at par 57.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

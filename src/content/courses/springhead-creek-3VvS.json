@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Springhead Creek \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Springhead Creek disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Springhead Creek is an 18-hole course in Mooresville, North Carolina, playing 4,442 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Springhead Creek is an 18-hole course in Mooresville, North Carolina. It's a short, 4,442-foot layout at par 56.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

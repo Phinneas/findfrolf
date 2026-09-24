@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Texas Army Trail DGC — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-open.svg",
+      "alt": "Texas Army Trail DGC disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-open.svg",
+  "thumbnail": "/images/course-open.svg",
   "rating": 4.5,
   "reviewCount": 3396,
   "tags": [

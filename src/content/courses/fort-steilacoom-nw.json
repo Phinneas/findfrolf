@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Fort Steilacoom Park (Northwest) — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-wooded.svg",
+      "alt": "Fort Steilacoom Park (Northwest) disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.5,
   "reviewCount": 3706,
   "tags": [

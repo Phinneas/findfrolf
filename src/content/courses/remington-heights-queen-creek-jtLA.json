@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Remington Heights Queen Creek \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Remington Heights Queen Creek disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.1,
   "reviewCount": 134,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Remington Heights Queen Creek is an 18-hole course in Queen Creek, Arizona, playing 6,231 feet at par 61. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Remington Heights Queen Creek is an 18-hole course in Queen Creek, Arizona. It plays 6,231 feet at par 61.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

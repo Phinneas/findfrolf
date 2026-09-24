@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Redline \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Redline disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.2,
   "reviewCount": 1096,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Redline is an 18-hole course in Glendale, Arizona, playing 8,647 feet at par 62. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Redline is an 18-hole course in Glendale, Arizona. The layout reaches 8,647 feet at par 62.",
+    "A solid mid-level round where the longest holes let big arms air it out. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Glencliff Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Glencliff Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 3.0,
+  "rating": 3,
   "reviewCount": 109,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Glencliff Disc Golf Course is an 9-hole course in Nashville, Tennessee, playing 1,825 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Glencliff Disc Golf Course is a 9-hole course in Nashville, Tennessee. A quick 1,825-foot round at par 28.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Hoot \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Hoot disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Hoot is an 18-hole course in Canby, Oregon, playing 6,694 feet at par 61. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Hoot is an 18-hole course in Canby, Oregon. The layout stretches 6,694 feet at par 61.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

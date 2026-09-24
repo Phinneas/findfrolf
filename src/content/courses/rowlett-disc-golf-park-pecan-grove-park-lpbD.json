@@ -1,5 +1,5 @@
 {
-  "name": "Rowlett DiscGolfPark @ Pecan Grove Park",
+  "name": "Rowlett Disc Golf Park @ Pecan Grove Park",
   "code": "TX-1336",
   "city": "Rowlett",
   "state": "Texas",
@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Rowlett DiscGolfPark @ Pecan Grove Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Rowlett Disc Golf Park @ Pecan Grove Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 836,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Rowlett DiscGolfPark @ Pecan Grove Park is an 18-hole course in Rowlett, Texas, playing 6,259 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Rowlett Disc Golf Park @ Pecan Grove Park is an 18-hole course in Rowlett, Texas. It plays 6,259 feet at par 56.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

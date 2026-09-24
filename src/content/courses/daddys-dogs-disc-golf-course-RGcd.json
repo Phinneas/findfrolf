@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Daddy's Dogs Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Daddy's Dogs Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Daddy's Dogs Disc Golf Course is an 9-hole course in Nashville, Tennessee, playing 2,551 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Daddy's Dogs Disc Golf Course is a 9-hole course in Nashville, Tennessee. It plays a compact 2,551 feet at par 28.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Woodland Mound Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Woodland Mound Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Woodland Mound Park is an 18-hole course in Cincinnati, Ohio, playing 3,318 feet at par 71. Course details sourced from UDisc on 2026-09-06."
+    "Woodland Mound Park is an 18-hole course in Cincinnati, Ohio. It's a short, 3,318-foot layout at par 71.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

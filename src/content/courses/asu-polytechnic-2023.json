@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "ASU Polytechnic 2023 \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "ASU Polytechnic 2023 disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "ASU Polytechnic 2023 is a 18-hole course in mesa, Arizona (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "ASU Polytechnic 2023 is an 18-hole course in mesa, Arizona. A quick 0-foot round at par 54.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

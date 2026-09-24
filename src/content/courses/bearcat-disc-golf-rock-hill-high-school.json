@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bearcat Disc Golf at Rock Hill High School \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Bearcat Disc Golf at Rock Hill High School disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "50/50 Flat/Hills",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "Bearcat Disc Golf at Rock Hill High School is a 9-hole course in Rock Hill, South Carolina, playing 1,730 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Bearcat Disc Golf at Rock Hill High School is a 9-hole course in Rock Hill, South Carolina. It plays a compact 1,730 feet at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

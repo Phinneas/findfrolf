@@ -38,15 +38,17 @@ Drivers look cool but they're the hardest to throw correctly. A beginner throwin
 
 ## Top Picks for Your First Disc
 
-[**Innova Mako3**](https://infinitediscs.com/Innova-Mako3/?tag=0DC81397597B451) — Straight flight, minimal fade, extremely predictable. The most beginner-friendly disc on the market.
+*Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*
 
-[**Discraft Buzzz**](https://infinitediscs.com/Discraft-Buzzz/?tag=0DC81397597B451) — The best-selling midrange in disc golf history. Slight fade at the end, works in all conditions.
+[**Innova Mako3**](https://infinitediscs.com/innova-mako3/?tag=0DC81397597B451) — Straight flight, minimal fade, extremely predictable. The most beginner-friendly disc on the market.
 
-[**Dynamic Discs Truth**](https://infinitediscs.com/Dynamic-Discs-Truth/?tag=0DC81397597B451) — Straight with a reliable finish. Slightly more overstable than the Buzzz.
+[**Discraft Buzzz**](https://infinitediscs.com/discraft-buzzz/?tag=0DC81397597B451) — The best-selling midrange in disc golf history. Slight fade at the end, works in all conditions.
 
-[**Latitude 64 Pearl**](https://infinitediscs.com/Latitude-64-Pearl/?tag=0DC81397597B451) — Designed specifically for beginners. Understable, easy to throw straight.
+[**Dynamic Discs Truth**](https://infinitediscs.com/dynamic-discs-truth/?tag=0DC81397597B451) — Straight with a reliable finish. Slightly more overstable than the Buzzz.
 
-Most of these are also available in beginner-friendly [starter sets](https://infinitediscs.com/category/Starter-Sets/?tag=0DC81397597B451).
+[**Latitude 64 Pearl**](https://infinitediscs.com/latitude-64-pearl/?tag=0DC81397597B451) — Designed specifically for beginners. Understable, easy to throw straight.
+
+Most of these are also available in beginner-friendly starter sets on [Infinite Discs](https://infinitediscs.com/?tag=0DC81397597B451).
 
 ## Weight and Plastic
 
@@ -71,7 +73,7 @@ Don't rush it. Master your midrange first — it'll teach you more about form th
 
 ## Find a Course and Throw It
 
-You've got the disc — now you need a place to throw it. Use our [disc golf course finder](/finder) to locate a beginner-friendly course near you, or jump straight into a city guide:
+You've got the disc — now you need a place to throw it. You can play your first round with one borrowed midrange. Buying a starter set is convenient, not mandatory. Use our [disc golf course finder](/finder) to locate a beginner-friendly course near you, or jump straight into a city guide:
 
 - [Disc golf in Austin, TX](/tx/austin) — free, open, and beginner-friendly
 - [Disc golf in Charlotte, NC](/nc/charlotte) — one of the densest course networks in the country

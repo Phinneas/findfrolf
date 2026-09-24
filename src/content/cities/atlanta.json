@@ -3,76 +3,65 @@
   "state": "Georgia",
   "stateSlug": "ga",
   "heroImage": "/images/city-atlanta.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "From the friendliest par-3 course in the region to a championship-caliber test near downtown \u2014 Atlanta's four published courses cover every level. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "From the friendliest par-3 course in the region to a championship-caliber test near downtown — Atlanta's courses cover every level. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Atlanta disc golf spans the whole spectrum. Oregon Park in Marietta is the region's favorite beginner course \u2014 18 gentle par 3s where a huge slice of Atlanta's players took their first putts. Little Mulberry in Dacula is the wooded technical step up, and East Roswell's tight fairways and hills teach accuracy the hard way.",
-    "Perkerson Park near downtown is the championship test \u2014 a John Ritger design that the locals call the most challenging of the city's top tracks. All four of our published Atlanta courses are free.",
-    "New here? Oregon Park to learn, then Little Mulberry, then Perkerson when you're ready."
+    "Atlanta disc golf spans the whole spectrum. Oregon Park in Marietta is the region's favorite beginner course — 18 gentle par 3s where a huge slice of Atlanta's players took their first putts. Little Mulberry in Dacula is the wooded technical step up, and East Roswell's tight fairways and hills teach accuracy the hard way.",
+    "Perkerson Park near downtown is the championship test — a John Ritger design that the locals call the most challenging of the city's top tracks. The Sunday Service league is one of the biggest weekly events in the Southeast, and the Atlanta disc golf community is one of the most active in the country. Nearly all of Atlanta's mapped courses are free to play.",
+    "New here? Oregon Park to learn, then Little Mulberry, then Perkerson when you're ready. For gear, Full Blast Disc Golf Pro Shop at North Landing and Play It Again Sports are the local options."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "little-mulberry",
-      "x": 58,
-      "y": 40,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "oregon-park",
-      "x": 38,
-      "y": 34,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "perkerson",
-      "x": 46,
-      "y": 62,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "little-mulberry", "x": 58, "y": 40, "isGold": true },
+    { "rank": 2, "courseSlug": "oregon-park", "x": 38, "y": 34, "isGold": false },
+    { "rank": 3, "courseSlug": "perkerson", "x": 46, "y": 62, "isGold": false },
+    { "rank": 4, "courseSlug": "east-roswell", "x": 62, "y": 28, "isGold": false },
+    { "rank": 5, "courseSlug": "jp-moseley", "x": 50, "y": 52, "isGold": false }
   ],
   "bestFor": [
     {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["oregon-park", "jp-moseley"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Wooded & technical",
+      "courseSlugs": ["little-mulberry", "perkerson"]
+    },
+    {
       "title": "The championship test",
       "tag": "Serious golf",
-      "courseSlugs": [
-        "perkerson"
-      ]
+      "courseSlugs": ["perkerson"]
     },
     {
-      "title": "The friendly classic",
-      "tag": "Learn the game",
-      "courseSlugs": [
-        "oregon-park"
-      ]
+      "title": "A quick nine",
+      "tag": "Lunch-break length",
+      "courseSlugs": ["oregon-park", "east-roswell"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "01", "month": "Jun", "title": "Sunday Service · Week 42", "description": "Atlanta's legendary weekly doubles at rotating courses. One of the biggest in the Southeast.", "cta": "Join" },
+    { "day": "10", "month": "Jun", "title": "Little Mulberry Tag League", "description": "Weekly tag league at the metro's highest-rated course. All skill levels.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Georgia State Championship · A-Tier", "description": "PDGA A-tier at Perkerson Park. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Atlanta Disc Golf Club", "meta": "700+ members · est. 2001" },
+    { "icon": "🏪", "name": "Full Blast Disc Golf Pro Shop", "meta": "North Landing · full pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Sandy Springs · new & used discs" },
+    { "icon": "🥏", "name": "Sunday Service Disc Golf", "meta": "Weekly doubles · one of the biggest in the Southeast" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Marietta"
-    },
-    {
-      "count": 1,
-      "name": "Dacula"
-    },
-    {
-      "count": 1,
-      "name": "Roswell"
-    },
-    {
-      "count": 1,
-      "name": "Atlanta"
-    }
+    { "count": 10, "name": "Atlanta" },
+    { "count": 5, "name": "Marietta" },
+    { "count": 4, "name": "Roswell" },
+    { "count": 3, "name": "Dacula" },
+    { "count": 2, "name": "Stockbridge" },
+    { "count": 2, "name": "Alpharetta" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Atlanta metro?",
-      "answer": "Around <b>55 courses</b> across the metro. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "answer": "There are <b>52 courses</b> across the Atlanta metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Atlanta?",
@@ -80,25 +69,19 @@
     },
     {
       "question": "Are Atlanta's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (Oregon Park, Little Mulberry, East Roswell, Perkerson) are free to play."
+      "answer": "Most are. 48 of the 52 mapped courses are free to play, and 4 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Atlanta?",
-      "answer": "Oregon Park in Marietta \u2014 the friendliest par-3 course in the region and where most local players started."
+      "answer": "Oregon Park in Marietta — the friendliest par-3 course in the region and where most local players started. JP Moseley is another approachable option."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Atlanta?",
+      "answer": "Full Blast Disc Golf Pro Shop at North Landing is the dedicated shop. Play It Again Sports in Sandy Springs carries new and used discs."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "Charlotte",
-      "courseCount": "50 courses",
-      "distance": "245 mi",
-      "slug": "/nc/charlotte"
-    },
-    {
-      "name": "Nashville",
-      "courseCount": "25 courses",
-      "distance": "250 mi",
-      "slug": "/tn/nashville"
-    }
+    { "name": "Charlotte", "courseCount": "56 courses", "distance": "245 mi", "slug": "/nc/charlotte" },
+    { "name": "Nashville", "courseCount": "43 courses", "distance": "250 mi", "slug": "/tn/nashville" }
   ]
 }

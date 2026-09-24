@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Wildflower Micro DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Wildflower Micro DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Wildflower Micro DGC is an 5-hole course in Cedar Park, Texas, playing 459 feet at par 11. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Wildflower Micro DGC is a 5-hole course in Cedar Park, Texas. It plays a compact 459 feet at par 11.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

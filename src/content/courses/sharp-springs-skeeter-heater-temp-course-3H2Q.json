@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Sharp Springs Skeeter Heater Temp course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Sharp Springs Skeeter Heater Temp course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Sharp Springs Skeeter Heater Temp course is an 18-hole course in Smyrna, Tennessee, playing 6,967 feet at par 60. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Sharp Springs Skeeter Heater Temp course is an 18-hole course in Smyrna, Tennessee. It plays 6,967 feet at par 60.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

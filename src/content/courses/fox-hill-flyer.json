@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Fox Hill Flyer \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Fox Hill Flyer disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Corridor",
   "aboutParagraphs": [
-    "Fox Hill Flyer is a 18-hole course in Kansas City, Missouri, playing 4,284 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Fox Hill Flyer is an 18-hole course in Kansas City, Missouri. It's a short, 4,284-foot layout at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

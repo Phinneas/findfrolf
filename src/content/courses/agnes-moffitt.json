@@ -6,13 +6,11 @@
   "citySlug": "houston",
   "stateSlug": "tx",
   "area": "Houston",
-
   "location": {
     "address": "10625 Hammerly Blvd, Houston, TX 77043",
     "lat": 29.8126,
     "lng": -95.5591
   },
-
   "holes": 21,
   "par": 63,
   "parSource": "map",
@@ -20,29 +18,28 @@
   "courseLength": "medium",
   "difficulty": "Moderate",
   "difficultyRating": 3,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Agnes Moffitt Park — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "alt": "Agnes Moffitt Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-
   "rating": 4.1,
   "reviewCount": 3261,
-
-  "tags": ["Flat", "Trees", "Free", "21 holes", "Cart friendly"],
-
+  "tags": [
+    "Flat",
+    "Trees",
+    "Free",
+    "21 holes",
+    "Cart friendly"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
@@ -54,61 +51,177 @@
     "handicapAccessible": false,
     "camping": false
   },
-
   "yearEstablished": 1993,
   "lastVerified": "2026-08-27",
   "courseDesigner": "Andi Lehmann",
-
   "teeType": "Concrete",
   "basketType": "Dynamic Veteran",
   "elevation": "Flat",
   "foliage": "Numerous trees",
-
   "aboutParagraphs": [
     "Agnes Moffitt is Houston's flat, tree-lined 21-hole course — numerous trees and a friendly layout at 5,911 feet and par 63 from the short tees. Andi Lehmann's 1993 design works on two levels: the red posts make a fun casual round, the white posts add distance and difficulty.",
     "Free to play with concrete tees and Dynamic Veteran baskets, it's very cart friendly with restrooms on site. The trees are the whole game here — every fairway has a line, and every line has a tree waiting for the careless.",
     "A classic Houston park course that rewards a calm, accurate round."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 306, "character": "306 feet through the trees to start.", "difficultyPct": 36 },
-    { "number": 2, "par": 3, "distance": 325, "character": "325 feet, straight and fair.", "difficultyPct": 38 },
-    { "number": 3, "par": 3, "distance": 289, "character": "289 feet with a guarded green.", "difficultyPct": 34 },
-    { "number": 4, "par": 3, "distance": 263, "character": "263 feet, a clean line.", "difficultyPct": 28 },
-    { "number": 5, "par": 3, "distance": 315, "character": "315 feet — the trees tighten.", "difficultyPct": 40 },
-    { "number": 6, "par": 3, "distance": 247, "character": "247 feet, a placed midrange.", "difficultyPct": 26 },
-    { "number": 7, "par": 3, "distance": 358, "character": "The signature: 358 feet, the longest hole at Agnes Moffitt.", "difficultyPct": 44, "isSignature": true },
-    { "number": 8, "par": 3, "distance": 242, "character": "242 feet, straight and true.", "difficultyPct": 24 },
-    { "number": 9, "par": 3, "distance": 239, "character": "239 feet, a genuine birdie look.", "difficultyPct": 24 },
-    { "number": 10, "par": 3, "distance": 230, "character": "230 feet, fair and friendly.", "difficultyPct": 22 },
-    { "number": 11, "par": 3, "distance": 327, "character": "327 feet with the trees framing.", "difficultyPct": 40 },
-    { "number": 12, "par": 3, "distance": 333, "character": "333 feet — one of the longer par 3s.", "difficultyPct": 42 },
-    { "number": 13, "par": 3, "distance": 290, "character": "290 feet, straight and wooded.", "difficultyPct": 34 },
-    { "number": 14, "par": 3, "distance": 289, "character": "289 feet with a guarded approach.", "difficultyPct": 34 },
-    { "number": 15, "par": 3, "distance": 233, "character": "233 feet, a brief breather.", "difficultyPct": 22 },
-    { "number": 16, "par": 3, "distance": 241, "character": "241 feet, a clean corridor.", "difficultyPct": 24 },
-    { "number": 17, "par": 3, "distance": 259, "character": "259 feet, fair and demanding.", "difficultyPct": 28 },
-    { "number": 18, "par": 3, "distance": 292, "character": "292 feet, straight and true.", "difficultyPct": 34 },
-    { "number": 19, "par": 3, "distance": 272, "character": "272 feet — the bonus holes keep the round going.", "difficultyPct": 30 },
-    { "number": 20, "par": 3, "distance": 232, "character": "232 feet, a clean line.", "difficultyPct": 22 },
-    { "number": 21, "par": 3, "distance": 329, "character": "329 feet to complete all 21.", "difficultyPct": 40 }
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 306,
+      "character": "306 feet through the trees to start.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 325,
+      "character": "325 feet, straight and fair.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 289,
+      "character": "289 feet with a guarded green.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 263,
+      "character": "263 feet, a clean line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 315,
+      "character": "315 feet — the trees tighten.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 247,
+      "character": "247 feet, a placed midrange.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 358,
+      "character": "The signature: 358 feet, the longest hole at Agnes Moffitt.",
+      "difficultyPct": 44,
+      "isSignature": true
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 242,
+      "character": "242 feet, straight and true.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 239,
+      "character": "239 feet, a genuine birdie look.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 230,
+      "character": "230 feet, fair and friendly.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 327,
+      "character": "327 feet with the trees framing.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 333,
+      "character": "333 feet — one of the longer par 3s.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 290,
+      "character": "290 feet, straight and wooded.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 289,
+      "character": "289 feet with a guarded approach.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 233,
+      "character": "233 feet, a brief breather.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 241,
+      "character": "241 feet, a clean corridor.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet, fair and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 292,
+      "character": "292 feet, straight and true.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 19,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet — the bonus holes keep the round going.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 20,
+      "par": 3,
+      "distance": 232,
+      "character": "232 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 21,
+      "par": 3,
+      "distance": 329,
+      "character": "329 feet to complete all 21.",
+      "difficultyPct": 40
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 7 is the longest at Agnes Moffitt at 358 feet — a par 3 that threads the course's best tree line and asks for the kind of calm, accurate shot that defines the whole round. It's the hole that rewards the player who trusts their midrange.",
-
   "localTips": "Red posts are the casual tees; white posts add distance and difficulty. Free to play, flat and very cart friendly with restrooms on site. The trees make accuracy everything — bring a midrange you trust.",
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": false,
   "isWooded": true,
   "isOpen": false,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Yes",

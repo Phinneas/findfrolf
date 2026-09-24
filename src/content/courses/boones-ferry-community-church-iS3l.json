@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Boones Ferry Community Church \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Boones Ferry Community Church disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Boones Ferry Community Church is an 15-hole course in Tualatin, Oregon, playing 3,996 feet at par 47. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Boones Ferry Community Church is a 15-hole course in Tualatin, Oregon. A quick 3,996-foot round at par 47.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

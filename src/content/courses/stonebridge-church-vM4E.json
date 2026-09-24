@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Stonebridge Church \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Stonebridge Church disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Stonebridge Church is an 18-hole course in Magnolia, Texas, playing 5,157 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Stonebridge Church is an 18-hole course in Magnolia, Texas. It runs 5,157 feet at par 55.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

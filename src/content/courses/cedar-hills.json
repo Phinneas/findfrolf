@@ -6,13 +6,11 @@
   "citySlug": "raleigh",
   "stateSlug": "nc",
   "area": "Raleigh",
-
   "location": {
     "address": "5600 Sweetbriar St, Raleigh, NC 27609",
     "lat": 35.8573,
     "lng": -78.6291
   },
-
   "holes": 18,
   "par": 54,
   "parSource": "map",
@@ -20,29 +18,28 @@
   "courseLength": "short",
   "difficulty": "Moderate",
   "difficultyRating": 3,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Cedar Hills Rotary Park — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-wooded.svg",
+      "alt": "Cedar Hills Rotary Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.2,
   "reviewCount": 4534,
-
-  "tags": ["Wooded", "Technical", "Hilly", "Free", "Championship"],
-
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Hilly",
+    "Free",
+    "Championship"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
@@ -54,58 +51,156 @@
     "handicapAccessible": false,
     "camping": false
   },
-
   "yearEstablished": 1984,
   "lastVerified": "2026-08-27",
   "courseDesigner": null,
-
   "teeType": "Mixed",
   "basketType": "DISCatcher",
   "elevation": "Hilly",
   "foliage": "Wooded",
-
   "aboutParagraphs": [
     "Cedar Hills Rotary Park is a tight, wooded, hilly course of championship caliber that winds through a scenic underdeveloped city park in Raleigh. From the red tees it plays 4,907 feet at par 54, with blue and yellow layouts adding distance and a couple of par 4s for the advanced crowd.",
     "Free to play with mixed tees and DISCatcher baskets, it's the course where Raleigh's woods players sharpen their lines. The hills make the walks honest and the shots interesting — every fairway is a corridor, every green is guarded.",
     "It's older than the internet (1984) and still one of the most respected technical tests in the Triangle."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 207, "character": "207 feet through the woods to open.", "difficultyPct": 22 },
-    { "number": 2, "par": 3, "distance": 316, "character": "316 feet — the corridors start.", "difficultyPct": 40 },
-    { "number": 3, "par": 3, "distance": 261, "character": "261 feet, straight and wooded.", "difficultyPct": 30 },
-    { "number": 4, "par": 3, "distance": 208, "character": "208 feet, a clean line.", "difficultyPct": 22 },
-    { "number": 5, "par": 3, "distance": 304, "character": "304 feet with a guarded green.", "difficultyPct": 36 },
-    { "number": 6, "par": 3, "distance": 243, "character": "243 feet, fair and demanding.", "difficultyPct": 28 },
-    { "number": 7, "par": 3, "distance": 250, "character": "250 feet through the timber.", "difficultyPct": 30 },
-    { "number": 8, "par": 3, "distance": 265, "character": "265 feet, straight and hilly.", "difficultyPct": 32 },
-    { "number": 9, "par": 3, "distance": 320, "character": "320 feet — the hills make it play longer.", "difficultyPct": 42 },
-    { "number": 10, "par": 3, "distance": 245, "character": "245 feet, a clean corridor.", "difficultyPct": 28 },
-    { "number": 11, "par": 3, "distance": 288, "character": "288 feet with the trees closing in.", "difficultyPct": 34 },
-    { "number": 12, "par": 3, "distance": 280, "character": "280 feet, straight and true.", "difficultyPct": 32 },
-    { "number": 13, "par": 3, "distance": 370, "character": "370 feet — one of the longest par 3s.", "difficultyPct": 48 },
-    { "number": 14, "par": 3, "distance": 262, "character": "262 feet, a placed midrange.", "difficultyPct": 30 },
-    { "number": 15, "par": 3, "distance": 238, "character": "238 feet, a brief breather.", "difficultyPct": 26 },
-    { "number": 16, "par": 3, "distance": 260, "character": "260 feet with a guarded green.", "difficultyPct": 30 },
-    { "number": 17, "par": 3, "distance": 210, "character": "210 feet, straight and fair.", "difficultyPct": 22 },
-    { "number": 18, "par": 3, "distance": 380, "character": "The signature: 380 feet, the longest hole at Cedar Hills.", "difficultyPct": 52, "isSignature": true }
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 207,
+      "character": "207 feet through the woods to open.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 316,
+      "character": "316 feet — the corridors start.",
+      "difficultyPct": 40
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 261,
+      "character": "261 feet, straight and wooded.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 208,
+      "character": "208 feet, a clean line.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 304,
+      "character": "304 feet with a guarded green.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 243,
+      "character": "243 feet, fair and demanding.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 250,
+      "character": "250 feet through the timber.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 265,
+      "character": "265 feet, straight and hilly.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet — the hills make it play longer.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet, a clean corridor.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 288,
+      "character": "288 feet with the trees closing in.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 280,
+      "character": "280 feet, straight and true.",
+      "difficultyPct": 32
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 370,
+      "character": "370 feet — one of the longest par 3s.",
+      "difficultyPct": 48
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 262,
+      "character": "262 feet, a placed midrange.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 238,
+      "character": "238 feet, a brief breather.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet with a guarded green.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 210,
+      "character": "210 feet, straight and fair.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 380,
+      "character": "The signature: 380 feet, the longest hole at Cedar Hills.",
+      "difficultyPct": 52,
+      "isSignature": true
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 18 closes Cedar Hills at 380 feet — the longest hole on the card and the perfect final exam for a course built on tight lines and honest hills. From the tee you're threading the woods; from the landing zone you're attacking a green that the terrain defends. It's the hole that makes a clean round here feel earned.",
-
   "localTips": "The red tees are the standard loop; blue and yellow add distance and turn holes 13 and 18 into par 4s. Free to play but genuinely technical — the hills and woods don't let up. Wear grippy shoes and bring your accuracy game.",
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": false,
   "isWooded": true,
   "isOpen": false,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Yes",

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Boone Woods Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Boone Woods Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Boone Woods Park is an 16-hole course in Burlington, Kentucky, playing 4,291 feet at par 48. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Boone Woods Park is a 16-hole course in Burlington, Kentucky. A quick 4,291-foot round at par 48.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

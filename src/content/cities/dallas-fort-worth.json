@@ -1,108 +1,87 @@
 {
-  "name": "Dallas\u2013Fort Worth",
+  "name": "Dallas–Fort Worth",
   "state": "Texas",
   "stateSlug": "tx",
   "heroImage": "/images/city-dallas-fort-worth.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "The biggest disc golf market in Texas \u2014 from the legendary 755-foot par 3 at Z Boaz to John Houck's long designs in the suburbs. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The biggest disc golf market in Texas — from the legendary 755-foot par 3 at Z Boaz to John Houck's long designs in the suburbs. We're publishing the metro's best first.",
   "introParagraphs": [
-    "DFW is disc golf at Texas scale. Z Boaz in Fort Worth is the legendary one \u2014 19 holes with real elevation and the most famous hole in the state, a 755-foot par 3. Harry Myers in Rockwall is John Houck's long, varied design with three par 5s, and Veterans Park in Arlington has been a community anchor since 1988.",
-    "Fritz Park in Irving brings Delaware Creek and a pecan orchard to the table, and Tom McCutcheon in Lewisville is the friendly open course for working on distance control. All five of our published DFW courses are free.",
+    "DFW is disc golf at Texas scale. Z Boaz in Fort Worth is the legendary one — 19 holes with real elevation and the most famous hole in the state, a 755-foot par 3. Harry Myers in Rockwall is John Houck's long, varied design with three par 5s, and Veterans Park in Arlington has been a community anchor since 1988.",
+    "Fritz Park in Irving brings Delaware Creek and a pecan orchard to the table, and Tom McCutcheon in Lewisville is the friendly open course for working on distance control. The Frisbetarian Disc Golf Club and Fellowship of the Disc run weekly leagues, and Dynamic Discs Carrollton and Another Round Dallas are the local pro shops. Nearly all of DFW's mapped courses are free to play.",
     "New here? Tom McCutcheon to warm up, then Z Boaz to see what Texas distance golf really means."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "z-boaz",
-      "x": 36,
-      "y": 44,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "harry-myers",
-      "x": 60,
-      "y": 36,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "veterans",
-      "x": 46,
-      "y": 56,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "z-boaz", "x": 36, "y": 44, "isGold": true },
+    { "rank": 2, "courseSlug": "harry-myers", "x": 60, "y": 36, "isGold": false },
+    { "rank": 3, "courseSlug": "veterans", "x": 46, "y": 56, "isGold": false },
+    { "rank": 4, "courseSlug": "tom-mccutcheon", "x": 52, "y": 48, "isGold": false },
+    { "rank": 5, "courseSlug": "fritz-park", "x": 40, "y": 38, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The legendary hole",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "z-boaz"
-      ]
+      "courseSlugs": ["z-boaz"]
     },
     {
       "title": "The Houck design",
       "tag": "Varied",
-      "courseSlugs": [
-        "harry-myers"
-      ]
+      "courseSlugs": ["harry-myers"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["tom-mccutcheon", "veterans"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Championship",
+      "courseSlugs": ["z-boaz", "fritz-park"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "02", "month": "Jun", "title": "Frisbetarian Bead Round @ Founders", "description": "Weekly doubles at Founders. One of DFW's most popular recurring events.", "cta": "Join" },
+    { "day": "08", "month": "Jun", "title": "Fellowship of the Disc · League", "description": "Weekly league rotating across DFW courses. All skill levels.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Texas State Championship · A-Tier", "description": "PDGA A-tier at Z Boaz. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Frisbetarian Disc Golf Club", "meta": "800+ members · est. 2003" },
+    { "icon": "🏪", "name": "Dynamic Discs Carrollton", "meta": "Carrollton · full pro shop" },
+    { "icon": "🏪", "name": "Another Round Dallas", "meta": "Dallas · DG shop + taproom" },
+    { "icon": "🥏", "name": "Fellowship of the Disc", "meta": "Weekly leagues & events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Fort Worth"
-    },
-    {
-      "count": 1,
-      "name": "Arlington"
-    },
-    {
-      "count": 1,
-      "name": "Rockwall"
-    },
-    {
-      "count": 1,
-      "name": "Irving"
-    },
-    {
-      "count": 1,
-      "name": "Lewisville"
-    }
+    { "count": 15, "name": "Fort Worth" },
+    { "count": 12, "name": "Dallas" },
+    { "count": 6, "name": "Arlington" },
+    { "count": 5, "name": "Rockwall" },
+    { "count": 4, "name": "Carrollton" },
+    { "count": 3, "name": "Lewisville" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the DFW metro?",
-      "answer": "Around <b>110 courses</b> across the metro \u2014 one of the largest markets in the country. We're publishing the best first \u2014 5 are live today, with more added every week."
+      "answer": "There are <b>88 courses</b> across the DFW metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in DFW?",
-      "answer": "<b>Z Boaz</b> in Fort Worth is the most famous \u2014 home to the 755-foot par 3 that defines Texas distance golf. Harry Myers in Rockwall is the highest-rated published course."
+      "answer": "<b>Z Boaz</b> in Fort Worth is the most famous — home to the 755-foot par 3 that defines Texas distance golf. Harry Myers in Rockwall is the highest-rated published course."
     },
     {
       "question": "Are DFW's disc golf courses free?",
-      "answer": "Yes \u2014 all five of our published courses (Veterans Park, Harry Myers, Z Boaz, Fritz Park, Tom McCutcheon) are free to play."
+      "answer": "Most are. 83 of the 88 mapped courses are free to play, and 5 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in DFW?",
-      "answer": "Tom McCutcheon in Lewisville \u2014 open, friendly, and built for learning distance control. Veterans Park is another approachable classic."
+      "answer": "Tom McCutcheon in Lewisville — open, friendly, and built for learning distance control. Veterans Park is another approachable classic."
+    },
+    {
+      "question": "Where can I buy disc golf gear in DFW?",
+      "answer": "Dynamic Discs Carrollton is the full pro shop. Another Round Dallas is a DG shop + taproom. Play It Again Sports carries new and used discs."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "Austin",
-      "courseCount": "52 courses",
-      "distance": "195 mi",
-      "slug": "/tx/austin"
-    },
-    {
-      "name": "Houston",
-      "courseCount": "88 courses",
-      "distance": "240 mi",
-      "slug": "/tx/houston"
-    }
+    { "name": "Austin", "courseCount": "51 courses", "distance": "195 mi", "slug": "/tx/austin" },
+    { "name": "Houston", "courseCount": "84 courses", "distance": "240 mi", "slug": "/tx/houston" }
   ]
 }

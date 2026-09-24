@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "the discO at Eastmark \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "the discO at Eastmark disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 4.1,
   "reviewCount": 1309,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "the discO at Eastmark is an 18-hole course in Mesa, Arizona, playing 4,259 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "the discO at Eastmark is an 18-hole course in Mesa, Arizona. It's a short, 4,259-foot layout at par 63.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Cascade Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Cascade Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Cascade Park is an 9-hole course in Arlington, Washington, playing 2,205 feet at par 27. Course details sourced from UDisc on 2026-09-06."
+    "Cascade Park is a 9-hole course in Arlington, Washington. It plays a compact 2,205 feet at par 27.",
+    "An easy-going round for all arms with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -6,13 +6,11 @@
   "citySlug": "charlotte",
   "stateSlug": "nc",
   "area": "Charlotte",
-
   "location": {
     "address": "6000 Statesville Rd, Charlotte, NC 28269",
     "lat": 35.3019,
     "lng": -80.8398
   },
-
   "holes": 18,
   "par": 64,
   "parSource": "map",
@@ -20,29 +18,28 @@
   "courseLength": "long",
   "difficulty": "Hard",
   "difficultyRating": 4,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Nevin Park (Nightmare) — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-wooded.svg",
+      "alt": "Nevin Park (Nightmare) disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.6,
   "reviewCount": 4828,
-
-  "tags": ["Wooded", "Technical", "Free", "Long", "Championship"],
-
+  "tags": [
+    "Wooded",
+    "Technical",
+    "Free",
+    "Long",
+    "Championship"
+  ],
   "amenities": {
     "restrooms": false,
     "parking": true,
@@ -54,58 +51,156 @@
     "handicapAccessible": false,
     "camping": false
   },
-
   "yearEstablished": 2009,
   "lastVerified": "2026-08-27",
   "courseDesigner": null,
-
   "teeType": "Concrete",
   "basketType": "DISCatcher",
   "elevation": "Moderately Hilly",
   "foliage": "Heavily Wooded",
-
   "aboutParagraphs": [
     "Nevin Park's Nightmare layout is exactly what the name promises — a long, almost completely wooded test that has become a proving ground for Charlotte's tournament players. From the red tees it plays 7,401 feet at par 64, with tight fairways, water on three holes, and no room for loose shots.",
     "Free to play with concrete tees and DISCatcher baskets, the Nightmare is the serious half of Nevin Park — the shorter Daydream layout shares the property for players who want a gentler round. There's a practice basket on site for warming up.",
     "This is the course that separates Charlotte's weekend players from its competitors: accuracy, distance, and nerve, in that order."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 320, "character": "320 feet through the woods to open.", "difficultyPct": 42 },
-    { "number": 2, "par": 3, "distance": 240, "character": "240 feet, a clean early line.", "difficultyPct": 28 },
-    { "number": 3, "par": 3, "distance": 288, "character": "288 feet with the trees closing in.", "difficultyPct": 38 },
-    { "number": 4, "par": 4, "distance": 538, "character": "538 feet — the first par 4 demands a placed drive.", "difficultyPct": 60 },
-    { "number": 5, "par": 5, "distance": 656, "character": "656 feet of par 5 through the timber.", "difficultyPct": 66 },
-    { "number": 6, "par": 3, "distance": 317, "character": "317 feet, straight and wooded.", "difficultyPct": 42 },
-    { "number": 7, "par": 3, "distance": 202, "character": "202 feet — the briefest breather on the card.", "difficultyPct": 22 },
-    { "number": 8, "par": 3, "distance": 329, "character": "329 feet with a tight corridor.", "difficultyPct": 46 },
-    { "number": 9, "par": 4, "distance": 493, "character": "493 feet of par 4 — the woods make it play longer.", "difficultyPct": 58 },
-    { "number": 10, "par": 3, "distance": 260, "character": "260 feet, a clean midrange line.", "difficultyPct": 34 },
-    { "number": 11, "par": 4, "distance": 595, "character": "595 feet — water comes into play on the approach.", "difficultyPct": 66 },
-    { "number": 12, "par": 4, "distance": 630, "character": "630 feet of par 4, the longest so far.", "difficultyPct": 68 },
-    { "number": 13, "par": 3, "distance": 274, "character": "274 feet with a guarded green.", "difficultyPct": 38 },
-    { "number": 14, "par": 4, "distance": 624, "character": "624 feet — the fairways stay tight all the way.", "difficultyPct": 66 },
-    { "number": 15, "par": 3, "distance": 255, "character": "255 feet, straight and demanding.", "difficultyPct": 36 },
-    { "number": 16, "par": 4, "distance": 415, "character": "415 feet — the water returns near the line.", "difficultyPct": 54 },
-    { "number": 17, "par": 4, "distance": 425, "character": "425 feet of wooded par 4.", "difficultyPct": 56 },
-    { "number": 18, "par": 4, "distance": 540, "character": "The signature: 540 feet to finish the Nightmare, with water in play.", "difficultyPct": 72, "isSignature": true }
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 320,
+      "character": "320 feet through the woods to open.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, a clean early line.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 288,
+      "character": "288 feet with the trees closing in.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "distance": 538,
+      "character": "538 feet — the first par 4 demands a placed drive.",
+      "difficultyPct": 60
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "distance": 656,
+      "character": "656 feet of par 5 through the timber.",
+      "difficultyPct": 66
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 317,
+      "character": "317 feet, straight and wooded.",
+      "difficultyPct": 42
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 202,
+      "character": "202 feet — the briefest breather on the card.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 329,
+      "character": "329 feet with a tight corridor.",
+      "difficultyPct": 46
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "distance": 493,
+      "character": "493 feet of par 4 — the woods make it play longer.",
+      "difficultyPct": 58
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 260,
+      "character": "260 feet, a clean midrange line.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "distance": 595,
+      "character": "595 feet — water comes into play on the approach.",
+      "difficultyPct": 66
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "distance": 630,
+      "character": "630 feet of par 4, the longest so far.",
+      "difficultyPct": 68
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 274,
+      "character": "274 feet with a guarded green.",
+      "difficultyPct": 38
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "distance": 624,
+      "character": "624 feet — the fairways stay tight all the way.",
+      "difficultyPct": 66
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 255,
+      "character": "255 feet, straight and demanding.",
+      "difficultyPct": 36
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "distance": 415,
+      "character": "415 feet — the water returns near the line.",
+      "difficultyPct": 54
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "distance": 425,
+      "character": "425 feet of wooded par 4.",
+      "difficultyPct": 56
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "distance": 540,
+      "character": "The signature: 540 feet to finish the Nightmare, with water in play.",
+      "difficultyPct": 72,
+      "isSignature": true
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 18 closes the Nightmare with 540 feet of par 4 and water in play — a fitting final exam for a course built on tight fairways and nerve. From the tee you're committing to a line through the woods; from the landing zone you're throwing at a green the water guards. It's the hole that decides whether you survived the Nightmare or it survived you.",
-
   "localTips": "Bring your A game — 7,400 feet of tight, wooded golf with water on three holes. The shorter Daydream layout is right there if you want a gentler round. Free to play, practice basket on site, and give yourself time: this one earns every stroke.",
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": false,
   "isWooded": true,
   "isOpen": false,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Unknown",

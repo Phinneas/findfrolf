@@ -1,5 +1,5 @@
 {
-  "name": "St Edward\u2019s",
+  "name": "St Edward’s",
   "code": "TX-1207",
   "city": "Austin",
   "state": "Texas",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "St Edward\u2019s \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "St Edward’s disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "St Edward\u2019s is an 9-hole course in Austin, Texas, playing 2,363 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "St Edward’s is a 9-hole course in Austin, Texas. It's a short, 2,363-foot layout at par 28.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

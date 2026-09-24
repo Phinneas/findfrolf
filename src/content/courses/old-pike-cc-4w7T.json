@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Old Pike CC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Old Pike CC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 299,
   "tags": [
     "Paid",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Old Pike CC is an 18-hole course in Gladstone, Missouri, playing 4,527 feet at par 54. Course details sourced from UDisc on 2026-09-06."
+    "Old Pike CC is an 18-hole course in Gladstone, Missouri. A quick 4,527-foot round at par 54.",
+    "A gentle, approachable round with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

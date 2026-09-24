@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Illinois Tech \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Illinois Tech disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Illinois Tech is an 8-hole course in Chicago, Illinois, playing 1,907 feet at par 22. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Illinois Tech is an 8-hole course in Chicago, Illinois. It plays a compact 1,907 feet at par 22.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

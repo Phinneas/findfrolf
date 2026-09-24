@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "50-Acre Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "50-Acre Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "50-Acre Park is an 18-hole course in Evergreen Park, Illinois, playing 5,371 feet at par 59. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "50-Acre Park is an 18-hole course in Evergreen Park, Illinois. It runs 5,371 feet at par 59.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

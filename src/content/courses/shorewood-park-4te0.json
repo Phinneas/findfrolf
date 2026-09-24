@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Shorewood Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Shorewood Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Shorewood Park is an 18-hole course in Shorewood, Illinois, playing 4,053 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Shorewood Park is an 18-hole course in Shorewood, Illinois. It's a short, 4,053-foot layout at par 55.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

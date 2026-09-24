@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Skunk Creek Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Skunk Creek Disc Golf Course disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 4,
   "reviewCount": 1430,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Skunk Creek Disc Golf Course is an 18-hole course in Glendale, Arizona, playing 4,395 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Skunk Creek Disc Golf Course is an 18-hole course in Glendale, Arizona. It's a short, 4,395-foot layout at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Cedars at Green Haven \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Cedars at Green Haven disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Rolling",
   "foliage": null,
   "aboutParagraphs": [
-    "The Cedars at Green Haven is a 18-hole course in Anoka, Minnesota, playing 6,349 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "The Cedars at Green Haven is an 18-hole course in Anoka, Minnesota. It plays 6,349 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

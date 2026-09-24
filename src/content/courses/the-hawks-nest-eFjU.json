@@ -1,5 +1,5 @@
 {
-  "name": "The Hawk\u2019s Nest",
+  "name": "The Hawk’s Nest",
   "code": "TX-1342",
   "city": "Irving",
   "state": "Texas",
@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Hawk\u2019s Nest \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Hawk’s Nest disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 119,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Hawk\u2019s Nest is an 9-hole course in Irving, Texas, playing 2,141 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Hawk’s Nest is a 9-hole course in Irving, Texas. It's a short, 2,141-foot layout at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

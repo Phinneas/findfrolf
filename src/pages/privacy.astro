@@ -1,0 +1,216 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contactEmail = 'chester@salishaseaconsulting.com';
+
+const collectItems = [
+  {
+    title: 'Automatically collected information',
+    text: 'When you visit the Site, we automatically collect certain information about your device, including your IP address, browser type, operating system, and the pages you view. We collect this using cookies, log files, and similar technologies.',
+  },
+  {
+    title: 'Location information',
+    text: 'If you use our course finder or location-based features, we may collect your general location (city/region level) based on your IP address or browser geolocation settings. We do not store precise GPS coordinates unless you explicitly enable and grant permission for enhanced location features.',
+  },
+  {
+    title: 'User-submitted information',
+    text: 'If you submit a course review, correction, or contact form, we collect the information you provide, such as your name, email address, and message content.',
+  },
+  {
+    title: 'Information from third parties',
+    text: 'We source course data (names, locations, layouts) from public directories and user submissions. This data is aggregated and displayed on the Site.',
+  },
+];
+
+const useItems = [
+  'To operate, maintain, and improve the Site and its features',
+  'To respond to your inquiries and process your submissions',
+  'To analyze usage trends and optimize the user experience',
+  'To display personalized or contextual advertising through Google AdSense and similar partners',
+];
+
+const rightsItems = [
+  'Access the personal information we hold about you',
+  'Request correction or deletion of your personal information',
+  'Object to or restrict certain processing activities',
+  'Withdraw consent where processing is based on consent',
+];
+---
+
+<BaseLayout
+  title="Privacy Policy — Find Frolf"
+  description="How Find Frolf collects, uses, and shares your information when you visit findfrolf.com."
+>
+  <slot name="head">
+    <link rel="canonical" href="https://findfrolf.com/privacy" />
+  </slot>
+
+  <!-- HERO -->
+  <section class="max-w-[1080px] mx-auto mt-[60px] px-8">
+    <h1 class="font-display font-normal text-[clamp(40px,6vw,64px)] tracking-[-2px] text-forest-deep leading-[1.02]">
+      Privacy <span class="script text-[1.05em] text-clay">Policy</span>
+    </h1>
+    <p class="font-mono text-xs uppercase tracking-[3px] text-moss mt-5">Last updated: September 11, 2026</p>
+    <p class="text-[17px] text-ink-soft max-w-[680px] mt-6 leading-[1.6]">
+      This Privacy Policy describes how FindFrolf ("we," "us," or "our") collects, uses, and shares your personal information when you visit findfrolf.com (the "Site").
+    </p>
+  </section>
+
+  <!-- INFORMATION WE COLLECT -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line mt-16">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">01</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Information we <em class="italic text-clay">collect</em>
+    </h2>
+    <div class="space-y-5">
+      {collectItems.map((item) => (
+        <div class="bg-paper border border-line rounded-[10px] p-6">
+          <h3 class="font-display font-semibold text-[19px] text-forest-deep mb-1.5">{item.title}</h3>
+          <p class="text-[15px] text-ink-soft leading-[1.65]">{item.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- HOW WE USE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">02</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      How we <em class="italic text-clay">use</em> your information
+    </h2>
+    <ul class="space-y-3 max-w-[720px]">
+      {useItems.map((item) => (
+        <li class="flex gap-3 text-[15px] text-ink-soft leading-[1.65]">
+          <span class="text-clay font-mono text-sm mt-0.5">→</span>
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- ADVERTISING & COOKIES -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">03</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Advertising <em class="italic text-clay">&amp;</em> cookies
+    </h2>
+    <div class="max-w-[720px] space-y-4 text-[15px] text-ink-soft leading-[1.65]">
+      <p>
+        We use Google AdSense to serve ads on the Site. Google, as a third-party vendor, uses cookies to serve ads based on your prior visits to this Site and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to our Site and/or other sites on the Internet.
+      </p>
+      <p>
+        You may opt out of personalized advertising by visiting <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href="https://www.google.com/settings/ads">Google Ads Settings</a>. Alternatively, you can opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href="https://www.aboutads.info/choices/">aboutads.info/choices</a>.
+      </p>
+      <p>
+        You can also set your browser to refuse cookies or alert you when cookies are being sent. Note that some parts of the Site may not function properly without cookies.
+      </p>
+    </div>
+  </section>
+
+  <!-- THIRD-PARTY SERVICES -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">04</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Third-party <em class="italic text-clay">services</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65] mb-4">We use the following third-party services:</p>
+    <ul class="space-y-3 max-w-[720px]">
+      <li class="flex gap-3 text-[15px] text-ink-soft leading-[1.65]">
+        <span class="text-clay font-mono text-sm mt-0.5">→</span>
+        <span>Google AdSense (advertising)</span>
+      </li>
+      <li class="flex gap-3 text-[15px] text-ink-soft leading-[1.65]">
+        <span class="text-clay font-mono text-sm mt-0.5">→</span>
+        <span>Google Analytics (usage analytics)</span>
+      </li>
+      <li class="flex gap-3 text-[15px] text-ink-soft leading-[1.65]">
+        <span class="text-clay font-mono text-sm mt-0.5">→</span>
+        <span>Hosting and infrastructure providers</span>
+      </li>
+    </ul>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65] mt-4">
+      These services may collect and process your data according to their own privacy policies.
+    </p>
+  </section>
+
+  <!-- DATA RETENTION -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">05</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Data <em class="italic text-clay">retention</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      We retain automatically collected information for as long as necessary to fulfill the purposes described above. User-submitted content (reviews, corrections) is retained unless you request its removal.
+    </p>
+  </section>
+
+  <!-- YOUR RIGHTS -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">06</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Your <em class="italic text-clay">rights</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65] mb-4">Depending on your location, you may have the right to:</p>
+    <ul class="space-y-3 max-w-[720px]">
+      {rightsItems.map((item) => (
+        <li class="flex gap-3 text-[15px] text-ink-soft leading-[1.65]">
+          <span class="text-clay font-mono text-sm mt-0.5">→</span>
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65] mt-4">
+      To exercise these rights, contact us at <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+    </p>
+  </section>
+
+  <!-- CHILDREN'S PRIVACY -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">07</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Children's <em class="italic text-clay">privacy</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      The Site is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, contact us and we will delete it.
+    </p>
+  </section>
+
+  <!-- CHANGES -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">08</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Changes to this <em class="italic text-clay">policy</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      We may update this Privacy Policy from time to time. We will post the updated version on this page with a revised "Last updated" date.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">09</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Contact <em class="italic text-clay">us</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      If you have questions about this Privacy Policy, contact us at:
+      <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href={`mailto:${contactEmail}`}>{contactEmail}</a>
+    </p>
+  </section>
+
+  <!-- AD NETWORK DISCLOSURE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">10</div>
+    <h2 class="font-display font-normal text-[clamp(24px,3.5vw,34px)] tracking-[-1px] text-forest-deep mb-6">
+      Third-party ad network <em class="italic text-clay">disclosure</em>
+    </h2>
+    <div class="max-w-[720px] space-y-4 text-[15px] text-ink-soft leading-[1.65]">
+      <p>
+        Some of the ads on this Site are served by Google. Google's advertising requirements can be found at <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.
+      </p>
+      <p>
+        Google uses cookies and other technologies to collect and use data for advertising purposes. For more information, see Google's Privacy Policy at <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href="https://policies.google.com/privacy">policies.google.com/privacy</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

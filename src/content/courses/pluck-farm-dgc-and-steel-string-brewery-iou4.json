@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Pluck Farm DGC & Steel String Brewery \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Pluck Farm DGC & Steel String Brewery disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Pluck Farm DGC & Steel String Brewery is an 18-hole course in Mebane, North Carolina, playing 6,503 feet at par 62. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Pluck Farm DGC & Steel String Brewery is an 18-hole course in Mebane, North Carolina. The layout stretches 6,503 feet at par 62.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

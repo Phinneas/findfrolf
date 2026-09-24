@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Dutchman Creek Middle School \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Dutchman Creek Middle School disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Dutchman Creek Middle School is an 10-hole course in Rock Hill, South Carolina, playing 1,899 feet at par 31. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Dutchman Creek Middle School is a 10-hole course in Rock Hill, South Carolina. It's a short, 1,899-foot layout at par 31.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

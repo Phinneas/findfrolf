@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Jack Culverhouse DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Jack Culverhouse DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Jack Culverhouse DGC is an 20-hole course in Princeton, Texas, playing 6,637 feet at par 65. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Jack Culverhouse DGC is a 20-hole course in Princeton, Texas. It runs 6,637 feet at par 65.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

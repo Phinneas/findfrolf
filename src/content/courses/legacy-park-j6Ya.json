@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Legacy Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Legacy Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Legacy Park is an 18-hole course in Lee's Summit, Missouri, playing 4,911 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Legacy Park is an 18-hole course in Lee's Summit, Missouri. It's a short, 4,911-foot layout at par 55.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

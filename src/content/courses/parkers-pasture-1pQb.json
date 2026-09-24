@@ -1,5 +1,5 @@
 {
-  "name": "Parker\u2019s Pasture",
+  "name": "Parker’s Pasture",
   "code": "GA-1034",
   "city": "Covington",
   "state": "Georgia",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Parker\u2019s Pasture \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Parker’s Pasture disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Parker\u2019s Pasture is an 18-hole course in Covington, Georgia, playing 5,663 feet at par 61. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Parker’s Pasture is an 18-hole course in Covington, Georgia. It plays 5,663 feet at par 61.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

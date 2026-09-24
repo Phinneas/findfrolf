@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Desert disc golf course illustration">
+  <defs>
+    <linearGradient id="dsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d7a8"/>
+      <stop offset="1" stop-color="#f7e8c8"/>
+    </linearGradient>
+    <linearGradient id="dground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b98a"/>
+      <stop offset="1" stop-color="#c09a64"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="470" fill="url(#dsky)"/>
+  <circle cx="150" cy="120" r="60" fill="#edb441"/>
+  <circle cx="150" cy="120" r="82" fill="#edb441" opacity="0.2"/>
+
+  <!-- mesas -->
+  <g fill="#b3441f">
+    <path d="M40 470 L120 360 L200 470 Z"/>
+    <path d="M560 470 L660 330 L760 470 Z"/>
+  </g>
+  <g fill="#d35a35" opacity="0.7">
+    <path d="M640 470 L705 392 L770 470 Z"/>
+  </g>
+
+  <!-- saguaro silhouettes -->
+  <g fill="#21402f">
+    <rect x="228" y="360" width="14" height="110" rx="7"/>
+    <rect x="216" y="384" width="10" height="40" rx="5"/>
+    <rect x="244" y="380" width="10" height="44" rx="5"/>
+    <rect x="232" y="356" width="6" height="14" rx="3"/>
+    <rect x="520" y="372" width="12" height="98" rx="6"/>
+    <rect x="510" y="392" width="8" height="36" rx="4"/>
+    <rect x="534" y="388" width="8" height="40" rx="4"/>
+  </g>
+
+  <path d="M0 470 L800 470 L800 600 L0 600 Z" fill="url(#dground)"/>
+
+  <g>
+    <circle cx="268" cy="196" r="36" fill="#edb441"/>
+    <circle cx="268" cy="196" r="36" fill="none" stroke="#d35a35" stroke-width="5"/>
+    <circle cx="268" cy="196" r="11" fill="#f7d78a"/>
+    <path d="M312 244 q 46 -26 66 -46" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  </g>
+
+  <g>
+    <rect x="388" y="306" width="24" height="18" rx="4" fill="#d35a35"/>
+    <rect x="376" y="322" width="48" height="9" rx="4.5" fill="#4a3d2f"/>
+    <g stroke="#8a7a66" stroke-width="3" stroke-linecap="round">
+      <line x1="381" y1="331" x2="381" y2="398"/>
+      <line x1="400" y1="331" x2="400" y2="398"/>
+      <line x1="419" y1="331" x2="419" y2="398"/>
+    </g>
+    <rect x="396" y="331" width="8" height="96" rx="3" fill="#6b5840"/>
+    <ellipse cx="400" cy="418" rx="36" ry="13" fill="#b3441f"/>
+    <ellipse cx="400" cy="413" rx="36" ry="13" fill="#e8754f"/>
+    <ellipse cx="400" cy="413" rx="20" ry="7" fill="#f6a07f"/>
+  </g>
+</svg>

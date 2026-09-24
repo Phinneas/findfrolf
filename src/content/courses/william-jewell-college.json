@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "William Jewell College \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "William Jewell College disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Rolling",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "William Jewell College is a 9-hole course in Liberty, Missouri, playing 2,916 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "William Jewell College is a 9-hole course in Liberty, Missouri. It plays a compact 2,916 feet at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

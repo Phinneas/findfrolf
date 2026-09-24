@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Oak Park High School 9 Hole \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Oak Park High School 9 Hole disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Oak Park High School 9 Hole is an 9-hole course in Kansas City, Missouri, playing 1,799 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Oak Park High School 9 Hole is a 9-hole course in Kansas City, Missouri. It plays a compact 1,799 feet at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

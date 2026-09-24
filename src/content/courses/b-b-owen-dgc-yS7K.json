@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "B. B. Owen DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "B. B. Owen DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "B. B. Owen DGC is an 18-hole course in Dallas, Texas, playing 5,929 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "B. B. Owen DGC is an 18-hole course in Dallas, Texas. The layout stretches 5,929 feet at par 56.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

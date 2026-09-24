@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Muddy Run Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Muddy Run Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Muddy Run Disc Golf Course is an 18-hole course in Bethesda, Pennsylvania, playing 6,472 feet at par 60. Sourced from UDisc on 2026-09-10."
+    "Muddy Run Disc Golf Course is an 18-hole course in Holtwood, Pennsylvania. It runs 6,472 feet at par 60.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

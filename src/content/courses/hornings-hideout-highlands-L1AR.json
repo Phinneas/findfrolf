@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hornings Hideout- Highlands \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hornings Hideout- Highlands disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Hornings Hideout- Highlands is an 18-hole course in North Plains, Oregon, playing 2,957 feet at par 54. Course details sourced from UDisc on 2026-09-06."
+    "Hornings Hideout- Highlands is an 18-hole course in North Plains, Oregon. It's a short, 2,957-foot layout at par 54.",
+    "A gentle, approachable round with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

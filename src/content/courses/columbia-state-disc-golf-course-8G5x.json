@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Columbia State Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Columbia State Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Columbia State Disc Golf Course is an 9-hole course in Columbia, Tennessee, playing 3,207 feet at par 32. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Columbia State Disc Golf Course is a 9-hole course in Columbia, Tennessee. It's a short, 3,207-foot layout at par 32.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

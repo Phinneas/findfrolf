@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Woodland Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Woodland Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Woodland Park DGC is an 18-hole course in Columbia, Tennessee, playing 5,052 feet at par 58. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Woodland Park DGC is an 18-hole course in Columbia, Tennessee. It runs 5,052 feet at par 58.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

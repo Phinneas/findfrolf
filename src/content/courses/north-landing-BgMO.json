@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "North Landing \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "North Landing disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "North Landing is an 18-hole course in Marietta, Georgia, playing 4,042 feet at par 54. Course details sourced from UDisc on 2026-09-06."
+    "North Landing is an 18-hole course in Marietta, Georgia. It plays a compact 4,042 feet at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

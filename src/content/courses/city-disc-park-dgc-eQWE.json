@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "City Disc Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "City Disc Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 1383,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "City Disc Park DGC is an 10-hole course in Fort Worth, Texas, playing 2,627 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "City Disc Park DGC is a 10-hole course in Fort Worth, Texas. It's a short, 2,627-foot layout at par 30.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

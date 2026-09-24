@@ -6,13 +6,11 @@
   "citySlug": "lincoln",
   "stateSlug": "ne",
   "area": "Interstate Park",
-
   "location": {
     "address": "Fairfield St & N 3rd St, Lincoln, NE 68521",
     "lat": 40.8493,
     "lng": -96.714917
   },
-
   "holes": 18,
   "par": 58,
   "parSource": "pdga",
@@ -20,29 +18,28 @@
   "courseLength": "long",
   "difficulty": "Moderate",
   "difficultyRating": 3,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": "25145",
   "pdgaTier": null,
   "websiteUrl": "https://www.lincoln.org/listing/roper-park-disc-golf-course/1313/",
-
   "photos": [
     {
-      "url": "https://www.pdga.com/files/course_photos/DSC01634.JPG",
-      "alt": "Roper Park West disc golf course fairway in Lincoln, NE",
-      "caption": "Open fairway with gentle slopes at Roper Park West"
+      "url": "/images/course-open.svg",
+      "alt": "Max E. Roper Interstate Park - West disc golf course"
     }
   ],
-  "heroImage": "https://www.pdga.com/files/course_photos/DSC01634.JPG",
-  "thumbnail": "https://www.pdga.com/files/course_photos/DSC01634.JPG",
-
+  "heroImage": "/images/course-open.svg",
+  "thumbnail": "/images/course-open.svg",
   "rating": 3.8,
   "reviewCount": 5,
-
-  "tags": ["Open", "Free", "Creek hazards", "Cart friendly", "Family friendly"],
-
+  "tags": [
+    "Open",
+    "Free",
+    "Creek hazards",
+    "Cart friendly",
+    "Family friendly"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
@@ -54,37 +51,28 @@
     "handicapAccessible": true,
     "camping": true
   },
-
   "yearEstablished": 1990,
   "lastVerified": "2026-07-08",
   "courseDesigner": "Albert Nelson / Brad Packett / Dominic Sawtelle",
-
   "teeType": "Concrete",
   "basketType": "Dynamic Discs Veteran",
   "elevation": "50/50 Flat/Hills",
   "foliage": "Scattered",
-
   "aboutParagraphs": [
     "Roper Park West is Lincoln's flagship disc golf course, set in a well-kept park with playground, creek hazards, and a mix of open and gently rolling terrain. The 2018 redesign trimmed the old 27-hole layout to a tighter 18 with three tee positions — short (red), medium (blue), and long (gold) — making it playable for beginners and pros alike.",
     "The creek runs through the course and comes into play on several holes, adding a layer of shot-shaping strategy to what would otherwise be a grip-and-rip layout. Long open fairways are a big arm's dream, while the scattered trees and elevation changes keep things from feeling like a practice field.",
     "There's a second course on the east side of the park if 18 isn't enough — the two layouts share the park and make for a full day of disc golf."
   ],
-
   "holeData": [],
   "layoutMapUrl": null,
   "signatureHoleDescription": null,
   "localTips": null,
-
   "reviews": [],
-
   "tournaments": [],
-
   "nearbyCourseSlugs": [],
-
   "isBeginnerFriendly": true,
   "isWooded": false,
   "isOpen": true,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Yes",

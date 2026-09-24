@@ -1,9 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-  <rect width="800" height="600" fill="#f2e7d4"/>
-  <circle cx="400" cy="245" r="95" fill="#C96F4A"/>
-  <circle cx="400" cy="245" r="95" fill="none" stroke="#f2e7d4" stroke-width="7"/>
-  <circle cx="400" cy="245" r="64" fill="none" stroke="#f2e7d4" stroke-width="4"/>
-  <circle cx="400" cy="245" r="12" fill="#f2e7d4"/>
-  <text x="400" y="405" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#1F3D2B" letter-spacing="1">FindFrolf</text>
-  <text x="400" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#6B7F6E" font-style="italic">Photo coming soon</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Disc golf course illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe7ef"/>
+      <stop offset="1" stop-color="#f6efe1"/>
+    </linearGradient>
+    <linearGradient id="fairway" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fae76"/>
+      <stop offset="1" stop-color="#5c7b4d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="470" fill="url(#sky)"/>
+  <circle cx="640" cy="120" r="58" fill="#edb441"/>
+  <circle cx="640" cy="120" r="78" fill="#edb441" opacity="0.22"/>
+
+  <!-- distant tree line -->
+  <g fill="#21402f">
+    <circle cx="90" cy="400" r="46"/>
+    <circle cx="150" cy="380" r="56"/>
+    <circle cx="215" cy="404" r="42"/>
+    <circle cx="560" cy="398" r="50"/>
+    <circle cx="625" cy="376" r="60"/>
+    <circle cx="695" cy="402" r="44"/>
+    <circle cx="760" cy="382" r="52"/>
+  </g>
+  <g fill="#2e5e43" opacity="0.55">
+    <circle cx="120" cy="410" r="34"/>
+    <circle cx="590" cy="408" r="36"/>
+    <circle cx="725" cy="410" r="32"/>
+  </g>
+
+  <!-- ground -->
+  <path d="M0 470 L800 470 L800 600 L0 600 Z" fill="url(#fairway)"/>
+  <path d="M0 470 Q 200 452 400 470 T 800 470 L800 486 Q 400 470 0 486 Z" fill="#6d8f57" opacity="0.6"/>
+
+  <!-- disc in flight -->
+  <g>
+    <circle cx="268" cy="196" r="36" fill="#edb441"/>
+    <circle cx="268" cy="196" r="36" fill="none" stroke="#d35a35" stroke-width="5"/>
+    <circle cx="268" cy="196" r="11" fill="#f7d78a"/>
+    <path d="M312 244 q 46 -26 66 -46" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  </g>
+
+  <!-- basket -->
+  <g>
+    <rect x="388" y="306" width="24" height="18" rx="4" fill="#d35a35"/>
+    <rect x="376" y="322" width="48" height="9" rx="4.5" fill="#4a3d2f"/>
+    <g stroke="#8a7a66" stroke-width="3" stroke-linecap="round">
+      <line x1="381" y1="331" x2="381" y2="398"/>
+      <line x1="400" y1="331" x2="400" y2="398"/>
+      <line x1="419" y1="331" x2="419" y2="398"/>
+    </g>
+    <rect x="396" y="331" width="8" height="96" rx="3" fill="#6b5840"/>
+    <ellipse cx="400" cy="418" rx="36" ry="13" fill="#b3441f"/>
+    <ellipse cx="400" cy="413" rx="36" ry="13" fill="#e8754f"/>
+    <ellipse cx="400" cy="413" rx="20" ry="7" fill="#f6a07f"/>
+  </g>
 </svg>

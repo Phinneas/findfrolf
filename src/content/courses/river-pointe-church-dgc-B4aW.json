@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "River Pointe Church DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "River Pointe Church DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 740,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "River Pointe Church DGC is an 18-hole course in Richmond, Texas, playing 5,748 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "River Pointe Church DGC is an 18-hole course in Richmond, Texas. It runs 5,748 feet at par 55.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

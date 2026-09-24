@@ -1,5 +1,5 @@
 {
-  "name": "The Emerald Links at The Roseland\u2019s",
+  "name": "The Emerald Links at The Roseland’s",
   "code": "MN-1056",
   "city": "Andover",
   "state": "Minnesota",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Emerald Links at The Roseland\u2019s \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Emerald Links at The Roseland’s disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Emerald Links at The Roseland\u2019s is an 18-hole course in Andover, Minnesota, playing 4,424 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Emerald Links at The Roseland’s is an 18-hole course in Andover, Minnesota. A quick 4,424-foot round at par 57.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

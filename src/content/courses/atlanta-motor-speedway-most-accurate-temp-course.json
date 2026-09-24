@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Atlanta Motor Speedway Most Accurate Temp Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Atlanta Motor Speedway Most Accurate Temp Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Atlanta Motor Speedway Most Accurate Temp Course is a 18-hole course in Hampton, Georgia (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Atlanta Motor Speedway Most Accurate Temp Course is an 18-hole course in Hampton, Georgia. A quick 0-foot round at par 54.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

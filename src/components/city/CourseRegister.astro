@@ -1,5 +1,5 @@
 ---
-import { courseUrl } from '../../lib/data';
+import { courseUrl, formatGreenFee } from '../../lib/data';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -13,7 +13,6 @@ const { courses, totalCount, cityName } = Astro.props;
 const chips = ['All', 'Free', 'Beginner-friendly', 'Wooded', '18+ holes', 'Quick 9', 'Dog friendly', 'Open now'];
 
 const fmtFeet = (n: number) => (n > 0 ? `${n.toLocaleString('en-US')} ft` : '—');
-const fmtCost = (isFree: boolean, greenFee: string) => (isFree ? 'Free' : greenFee || '—');
 ---
 
 <section class="max-w-[1240px] mx-auto px-8 py-20">
@@ -66,7 +65,7 @@ const fmtCost = (isFree: boolean, greenFee: string) => (isFree ? 'Free' : greenF
             <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{course.data.par}</td>
             <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{fmtFeet(course.data.totalFeet)}</td>
             <td class="px-3 py-4 text-sm text-ink-soft whitespace-nowrap">{course.data.difficulty}</td>
-            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{fmtCost(course.data.isFree, course.data.greenFee)}</td>
+            <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{formatGreenFee(course.data.isFree, course.data.greenFee)}</td>
             <td class="px-5 py-4 text-right font-display font-bold text-[20px] text-clay whitespace-nowrap">{course.data.rating}</td>
           </tr>
         ))}

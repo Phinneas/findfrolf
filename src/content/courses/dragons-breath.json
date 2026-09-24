@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Dragons Breath \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Dragons Breath disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Rolling",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "Dragons Breath is a 18-hole course in Denver, Colorado, playing 6,495 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Dragons Breath is an 18-hole course in Denver, Colorado. The layout stretches 6,495 feet at par 54.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

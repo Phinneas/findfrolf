@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hackberry Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hackberry Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 21,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Hackberry Park is an 18-hole course in Mont Belvieu, Texas, playing 8,225 feet at par 62. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Hackberry Park is an 18-hole course in Mont Belvieu, Texas. It stretches 8,225 feet at par 62.",
+    "A solid mid-level round where the longest holes let big arms air it out. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

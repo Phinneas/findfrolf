@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Lemon Lake County Park - Gold \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Lemon Lake County Park - Gold disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Lemon Lake County Park - Gold is an 18-hole course in Crown Point, Indiana, playing 8,377 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Lemon Lake County Park - Gold is an 18-hole course in Crown Point, Indiana. It runs a long 8,377 feet at par 63.",
+    "A balanced test that rewards smart lines with real length on the drive holes. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -1,40 +1,79 @@
 ---
-interface Facts {
-  parking: string;
-  restrooms: string;
-  proShop: string;
-  dogs: string;
-  baskets: string;
-  lighting: string;
-  hours: string;
-}
-
 interface Props {
-  facts: Facts;
+  facts?: {
+    parking?: string;
+    restrooms?: string;
+    proShop?: string;
+    dogs?: string;
+    baskets?: string;
+    lighting?: string;
+    hours?: string;
+  } | null;
 }
 
 const { facts } = Astro.props;
 
-const factList = [
-  { icon: '🅿️', label: 'Parking', value: facts.parking, yes: facts.parking.toLowerCase().includes('free') },
-  { icon: '🚻', label: 'Restrooms', value: facts.restrooms, yes: facts.restrooms.toLowerCase() === 'yes' },
-  { icon: '🛒', label: 'Pro shop', value: facts.proShop, yes: facts.proShop.toLowerCase().includes('on-site') },
-  { icon: '🐕', label: 'Dogs', value: facts.dogs, yes: facts.dogs.toLowerCase().includes('ok') },
-  { icon: '🧺', label: 'Baskets', value: facts.baskets },
-  { icon: '💡', label: 'Lighting', value: facts.lighting, yes: false, no: facts.lighting.toLowerCase() === 'none' },
-  { icon: '🕗', label: 'Hours', value: facts.hours },
+// Hide any fact whose value is genuinely unknown rather than showing "Unknown".
+const isUnknown = (v?: string) => !v || /unknown/i.test(v) || v.trim() === '';
+const lower = (v?: string) => (v ? v.toLowerCase() : '');
+
+const allFacts = [
+  {
+    icon: '🅿️',
+    label: 'Parking',
+    value: facts?.parking,
+    yes: lower(facts?.parking).includes('free'),
+  },
+  {
+    icon: '🚻',
+    label: 'Restrooms',
+    value: facts?.restrooms,
+    yes: lower(facts?.restrooms) === 'yes',
+  },
+  {
+    icon: '🛒',
+    label: 'Pro shop',
+    value: facts?.proShop,
+    yes: lower(facts?.proShop).includes('on-site'),
+  },
+  {
+    icon: '🐕',
+    label: 'Dogs',
+    value: facts?.dogs,
+    yes: lower(facts?.dogs).includes('ok'),
+  },
+  {
+    icon: '🧺',
+    label: 'Baskets',
+    value: facts?.baskets,
+  },
+  {
+    icon: '💡',
+    label: 'Lighting',
+    value: facts?.lighting,
+    no: lower(facts?.lighting) === 'none',
+  },
+  {
+    icon: '🕗',
+    label: 'Hours',
+    value: facts?.hours,
+  },
 ];
+
+const factList = allFacts.filter((f) => !isUnknown(f.value));
 ---
 
-<div class="bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
-  <div class="font-mono text-[10px] uppercase tracking-[2px] text-moss px-[22px] pt-[18px]">Course facts</div>
-  <div class="px-[22px] pb-5 pt-2">
-    {factList.map((fact) => (
-      <div class="flex items-center gap-3 py-[11px] border-b border-dashed border-line last:border-b-0 text-sm text-forest-deep">
-        <span class="w-[26px] h-[26px] rounded-md bg-cream-2 grid place-items-center shrink-0 text-xs">{fact.icon}</span>
-        <span>{fact.label}</span>
-        <span class={`ml-auto font-bold ${fact.yes ? 'text-moss' : fact.no ? 'text-clay' : 'text-forest'}`}>{fact.value}</span>
-      </div>
-    ))}
+{factList.length > 0 && (
+  <div class="bg-paper border-[1.5px] border-forest rounded-[12px] overflow-hidden">
+    <div class="font-mono text-[10px] uppercase tracking-[2px] text-moss px-[22px] pt-[18px]">Course facts</div>
+    <div class="px-[22px] pb-5 pt-2">
+      {factList.map((fact) => (
+        <div class="flex items-center gap-3 py-[11px] border-b border-dashed border-line last:border-b-0 text-sm text-forest-deep">
+          <span class="w-[26px] h-[26px] rounded-md bg-cream-2 grid place-items-center shrink-0 text-xs">{fact.icon}</span>
+          <span>{fact.label}</span>
+          <span class={`ml-auto font-bold ${fact.yes ? 'text-moss' : fact.no ? 'text-clay' : 'text-forest'}`}>{fact.value}</span>
+        </div>
+      ))}
+    </div>
   </div>
-</div>
+)}

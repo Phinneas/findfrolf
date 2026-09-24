@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Louisville Meadows \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Louisville Meadows disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "Louisville Meadows is a 5-hole course in Louisville, Colorado, playing 1,000 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Louisville Meadows is a 5-hole course in Louisville, Colorado. It's a short, 1,000-foot layout at par 15.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

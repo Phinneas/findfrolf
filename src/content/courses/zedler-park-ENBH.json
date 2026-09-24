@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Zedler Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Zedler Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 3.0,
+  "rating": 3,
   "reviewCount": 170,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Zedler Park is an 18-hole course in Luling, Texas, playing 6,250 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Zedler Park is an 18-hole course in Luling, Texas. It runs 6,250 feet at par 56.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

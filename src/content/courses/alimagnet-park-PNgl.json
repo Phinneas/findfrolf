@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Alimagnet Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Alimagnet Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Alimagnet Park is an 12-hole course in Apple Valley, Minnesota, playing 2,528 feet at par 42. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Alimagnet Park is a 12-hole course in Apple Valley, Minnesota. It's a short, 2,528-foot layout at par 42.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

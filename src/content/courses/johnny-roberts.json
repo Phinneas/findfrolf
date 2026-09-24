@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Johnny Roberts Memorial DGC — photo coming soon",
-      "caption": "Placeholder — upgrade when a real photo becomes available"
+      "url": "/images/course-wooded.svg",
+      "alt": "Johnny Roberts Memorial DGC disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-wooded.svg",
+  "thumbnail": "/images/course-wooded.svg",
   "rating": 4.4,
   "reviewCount": 9808,
   "tags": [

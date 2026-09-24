@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hopkins Park DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hopkins Park DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 3.0,
+  "rating": 3,
   "reviewCount": 35,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Hopkins Park DGC is an 6-hole course in Powder Springs, Georgia, playing 1,734 feet at par 19. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Hopkins Park DGC is a 6-hole course in Powder Springs, Georgia. It plays a compact 1,734 feet at par 19.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Maryknoll Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Maryknoll Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Maryknoll Park is an 9-hole course in Glen Ellyn, Illinois, playing 2,616 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Maryknoll Park is a 9-hole course in Glen Ellyn, Illinois. A quick 2,616-foot round at par 29.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

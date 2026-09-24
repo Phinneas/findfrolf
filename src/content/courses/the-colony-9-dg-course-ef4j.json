@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Colony 9 DG Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Colony 9 DG Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Colony 9 DG Course is an 9-hole course in Bastrop, Texas, playing 3,152 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Colony 9 DG Course is a 9-hole course in Bastrop, Texas. A quick 3,152-foot round at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Brookview Blue course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Brookview Blue course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Brookview Blue course is an 18-hole course in Golden Valley, Minnesota, playing 6,936 feet at par 59. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Brookview Blue course is an 18-hole course in Golden Valley, Minnesota. It runs 6,936 feet at par 59.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

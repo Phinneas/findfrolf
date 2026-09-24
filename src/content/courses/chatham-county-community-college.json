@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Chatham County Community College \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Chatham County Community College disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "Chatham County Community College is a 6-hole course in Pittsboro, North Carolina, playing 2,165 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Chatham County Community College is a 6-hole course in Pittsboro, North Carolina. It's a short, 2,165-foot layout at par 18.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

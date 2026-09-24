@@ -1,94 +1,83 @@
 {
-  "name": "Minneapolis\u2013St. Paul",
+  "name": "Minneapolis–St. Paul",
   "state": "Minnesota",
   "stateSlug": "mn",
   "heroImage": "/images/city-minneapolis-st-paul.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "One of the best disc golf metros in America \u2014 Blue Ribbon Pines, Bryant Lake, Kaposia, and the deep bench behind them. We're publishing the Twin Cities' best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "One of the best disc golf metros in America — Blue Ribbon Pines, Bryant Lake, Kaposia, and the deep bench behind them. We're publishing the Twin Cities' best first.",
   "introParagraphs": [
-    "The Twin Cities are a top-three disc golf metro in the country, and the top tier shows it. Blue Ribbon Pines in East Bethel is the crown jewel \u2014 27 holes of open-and-wooded design with ponds and doglegs, a pro shop, and a reputation that draws players from across the region. Bryant Lake in Eden Prairie is the scenic technical test with the lake views.",
-    "Kaposia in South St. Paul is the 27-hole championship course, Lakewood Hills is the friendly rolling-hills favorite, and Acorn in Roseville rounds out the published five with its dual-tee, dual-basket variety. The destination courses are pay to play; the rest are free.",
-    "New here? Lakewood Hills to learn, Blue Ribbon for the full experience."
+    "The Twin Cities are a top-three disc golf metro in the country, and the top tier shows it. Blue Ribbon Pines in East Bethel is the crown jewel — 27 holes of open-and-wooded design with ponds and doglegs, a pro shop, and a reputation that draws players from across the region. Bryant Lake in Eden Prairie is the scenic technical test with the lake views.",
+    "Kaposia in South St. Paul is the 27-hole championship course, Lakewood Hills is the friendly rolling-hills favorite, and Acorn in Roseville rounds out the lineup with its dual-tee, dual-basket variety. The Riverfront League and Derelict League run weekly events, and Gotta Go Gotta Throw is the legendary Twin Cities disc golf retailer. The destination courses are pay to play; the rest are free.",
+    "New here? Lakewood Hills to learn, Blue Ribbon for the full experience. For gear, Blue Ribbon Pines Pro Shop, Flying High Disc and Apparel, and Gotta Go Gotta Throw are the local options."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "blue-ribbon-pines",
-      "x": 52,
-      "y": 28,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "bryant-lake",
-      "x": 42,
-      "y": 48,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "kaposia",
-      "x": 54,
-      "y": 56,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "blue-ribbon-pines", "x": 52, "y": 28, "isGold": true },
+    { "rank": 2, "courseSlug": "bryant-lake", "x": 42, "y": 48, "isGold": false },
+    { "rank": 3, "courseSlug": "kaposia", "x": 54, "y": 56, "isGold": false },
+    { "rank": 4, "courseSlug": "lakewood-hills", "x": 48, "y": 34, "isGold": false },
+    { "rank": 5, "courseSlug": "acorn", "x": 58, "y": 42, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The crown jewel",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "blue-ribbon-pines"
-      ]
+      "courseSlugs": ["blue-ribbon-pines"]
     },
     {
       "title": "The scenic technical round",
       "tag": "Lake views",
-      "courseSlugs": [
-        "bryant-lake"
-      ]
+      "courseSlugs": ["bryant-lake"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["lakewood-hills", "acorn"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Championship",
+      "courseSlugs": ["kaposia", "blue-ribbon-pines"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "03", "month": "Jun", "title": "Riverfront League", "description": "Weekly league at Minneapolis courses. All skill levels — newcomer-friendly.", "cta": "Join" },
+    { "day": "08", "month": "Jun", "title": "Derelict League · August", "description": "Monthly league at Twin Cities courses. One of the most active in the region.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Minnesota State Championship · A-Tier", "description": "PDGA A-tier at Blue Ribbon Pines. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Twin Cities Disc Golf Club", "meta": "600+ members · est. 2004" },
+    { "icon": "🏪", "name": "Blue Ribbon Pines Pro Shop", "meta": "East Bethel · on-site at BRP" },
+    { "icon": "🏪", "name": "Flying High Disc and Apparel", "meta": "St. Paul · dedicated pro shop" },
+    { "icon": "🏪", "name": "Gotta Go Gotta Throw", "meta": "Minneapolis · legendary retailer" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "East Bethel"
-    },
-    {
-      "count": 1,
-      "name": "Eden Prairie"
-    },
-    {
-      "count": 1,
-      "name": "South St. Paul"
-    },
-    {
-      "count": 1,
-      "name": "White Bear Lake"
-    },
-    {
-      "count": 1,
-      "name": "Roseville"
-    }
+    { "count": 12, "name": "Minneapolis" },
+    { "count": 8, "name": "St. Paul" },
+    { "count": 5, "name": "Eden Prairie" },
+    { "count": 4, "name": "East Bethel" },
+    { "count": 3, "name": "South St. Paul" },
+    { "count": 2, "name": "Roseville" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Twin Cities metro?",
-      "answer": "Around <b>60 courses</b> across the metro \u2014 one of the deepest markets in the country. We're publishing the best first \u2014 5 are live today, with more added every week."
+      "answer": "There are <b>65 courses</b> across the Twin Cities metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in the Twin Cities?",
-      "answer": "<b>Blue Ribbon Pines</b> in East Bethel \u2014 the 27-hole crown jewel with ponds, doglegs, and a pro shop. Bryant Lake is the scenic runner-up."
+      "answer": "<b>Blue Ribbon Pines</b> in East Bethel — the 27-hole crown jewel with ponds, doglegs, and a pro shop. Bryant Lake is the scenic runner-up."
     },
     {
       "question": "Are the Twin Cities' disc golf courses free?",
-      "answer": "It's a mix \u2014 Lakewood Hills and Acorn are free, while the destination courses are pay to play (Blue Ribbon $8, Bryant Lake $10, Kaposia $5)."
+      "answer": "Most are. 57 of the 65 mapped courses are free to play, and 8 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in the Twin Cities?",
-      "answer": "Lakewood Hills in White Bear Lake \u2014 friendly rolling hills with dual tees on most holes. Acorn in Roseville is another approachable option."
+      "answer": "Lakewood Hills in White Bear Lake — friendly rolling hills with dual tees on most holes. Acorn in Roseville is another approachable option."
+    },
+    {
+      "question": "Where can I buy disc golf gear in the Twin Cities?",
+      "answer": "Blue Ribbon Pines Pro Shop, Flying High Disc and Apparel in St. Paul, and Gotta Go Gotta Throw in Minneapolis are all excellent options."
     }
   ],
   "nearbyCities": []

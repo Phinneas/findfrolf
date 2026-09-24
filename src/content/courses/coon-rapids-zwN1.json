@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Coon Rapids \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Coon Rapids disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 4314,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Coon Rapids is an 20-hole course in Coon Rapids, Minnesota, playing 5,799 feet at par 62. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Coon Rapids is a 20-hole course in Coon Rapids, Minnesota. It plays 5,799 feet at par 62.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

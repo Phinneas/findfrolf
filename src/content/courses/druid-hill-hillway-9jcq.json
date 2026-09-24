@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Druid Hill - Hillway \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Druid Hill - Hillway disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Druid Hill - Hillway is an 18-hole course in Baltimore, Maryland, playing 5,502 feet at par 57. Sourced from UDisc on 2026-09-10."
+    "Druid Hill - Hillway is an 18-hole course in Baltimore, Maryland. It runs 5,502 feet at par 57.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

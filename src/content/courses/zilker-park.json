@@ -6,13 +6,11 @@
   "citySlug": "austin",
   "stateSlug": "tx",
   "area": "Central / Zilker",
-
   "location": {
     "address": "2207 Lou Neff Rd, Austin, TX 78746",
     "lat": 30.2669,
     "lng": -97.7728
   },
-
   "holes": 18,
   "par": 54,
   "parSource": "map",
@@ -20,29 +18,28 @@
   "courseLength": "short",
   "difficulty": "Easy",
   "difficultyRating": 2,
-
   "isFree": true,
   "greenFee": "$0",
-
   "pdgaCourseId": null,
   "pdgaTier": null,
   "websiteUrl": null,
-
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Zilker Park — photo coming soon",
-      "caption": "Placeholder — upgrade when a real photo becomes available"
+      "url": "/images/course-open.svg",
+      "alt": "Zilker Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-
+  "heroImage": "/images/course-open.svg",
+  "thumbnail": "/images/course-open.svg",
   "rating": 4.3,
   "reviewCount": 7263,
-
-  "tags": ["Open", "Iconic", "Beginner-friendly", "Free", "Dog friendly"],
-
+  "tags": [
+    "Open",
+    "Iconic",
+    "Beginner-friendly",
+    "Free",
+    "Dog friendly"
+  ],
   "amenities": {
     "restrooms": true,
     "parking": true,
@@ -54,60 +51,169 @@
     "handicapAccessible": true,
     "camping": false
   },
-
   "yearEstablished": null,
   "lastVerified": "2026-07-08",
   "courseDesigner": null,
-
   "teeType": "Concrete",
   "basketType": "DISCatcher Pro",
   "elevation": "Flat",
   "foliage": "Scattered",
-
   "aboutParagraphs": [
     "Zilker Park is where Austin learns to play disc golf. Wide-open fairways with the city skyline as your backdrop, gentle distances, and baskets that forgive the wobbly first throw. It's the course every local recommends to a friend picking up a disc for the first time.",
     "Don't let the beginner label fool you — the wind coming off Lady Bird Lake turns the longer, exposed holes into genuine challenge. And on a Saturday afternoon, you'll be sharing the park with every other disc golfer in town, so pack patience along with your putter.",
     "Free to play, dawn to dusk, with plenty of parking near the Zilker Botanical Garden entrance."
   ],
-
   "holeData": [
-    { "number": 1, "par": 3, "distance": 245, "character": "245 feet of open fairway to ease you in.", "difficultyPct": 18 },
-    { "number": 2, "par": 3, "distance": 240, "character": "240 feet, straight and friendly.", "difficultyPct": 16 },
-    { "number": 3, "par": 3, "distance": 272, "character": "272 feet with a touch of tree line to aim around.", "difficultyPct": 24 },
-    { "number": 4, "par": 3, "distance": 222, "character": "Short 222-footer — an early ace run.", "difficultyPct": 14 },
-    { "number": 5, "par": 3, "distance": 232, "character": "232 feet across the open grass.", "difficultyPct": 16 },
-    { "number": 6, "par": 3, "distance": 225, "character": "225 feet, flat and simple.", "difficultyPct": 15 },
-    { "number": 7, "par": 3, "distance": 353, "character": "The longest front-nine par 3 — the lake wind makes it play longer.", "difficultyPct": 34 },
-    { "number": 8, "par": 3, "distance": 281, "character": "281 feet back toward the park.", "difficultyPct": 22 },
-    { "number": 9, "par": 3, "distance": 188, "character": "The shortest hole on the card at 188 feet.", "difficultyPct": 10 },
-    { "number": 10, "par": 3, "distance": 367, "character": "The signature: 367 feet, the longest hole at Zilker, fully exposed to the breeze.", "difficultyPct": 40, "isSignature": true },
-    { "number": 11, "par": 3, "distance": 248, "character": "248 feet with the skyline on the horizon.", "difficultyPct": 18 },
-    { "number": 12, "par": 3, "distance": 259, "character": "259 feet of gentle green.", "difficultyPct": 20 },
-    { "number": 13, "par": 3, "distance": 325, "character": "325 feet — one of the longer back-nine 3s.", "difficultyPct": 30 },
-    { "number": 14, "par": 3, "distance": 264, "character": "264 feet, straightforward.", "difficultyPct": 20 },
-    { "number": 15, "par": 3, "distance": 309, "character": "309 feet with a tree guarding the approach.", "difficultyPct": 26 },
-    { "number": 16, "par": 3, "distance": 291, "character": "291 feet back toward the open fields.", "difficultyPct": 22 },
-    { "number": 17, "par": 3, "distance": 318, "character": "318 feet — wind exposure keeps you honest.", "difficultyPct": 28 },
-    { "number": 18, "par": 3, "distance": 307, "character": "307 feet to finish the gentle 18.", "difficultyPct": 26 }
+    {
+      "number": 1,
+      "par": 3,
+      "distance": 245,
+      "character": "245 feet of open fairway to ease you in.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "distance": 240,
+      "character": "240 feet, straight and friendly.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "distance": 272,
+      "character": "272 feet with a touch of tree line to aim around.",
+      "difficultyPct": 24
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "distance": 222,
+      "character": "Short 222-footer — an early ace run.",
+      "difficultyPct": 14
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "distance": 232,
+      "character": "232 feet across the open grass.",
+      "difficultyPct": 16
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "distance": 225,
+      "character": "225 feet, flat and simple.",
+      "difficultyPct": 15
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "distance": 353,
+      "character": "The longest front-nine par 3 — the lake wind makes it play longer.",
+      "difficultyPct": 34
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "distance": 281,
+      "character": "281 feet back toward the park.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "distance": 188,
+      "character": "The shortest hole on the card at 188 feet.",
+      "difficultyPct": 10
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "distance": 367,
+      "character": "The signature: 367 feet, the longest hole at Zilker, fully exposed to the breeze.",
+      "difficultyPct": 40,
+      "isSignature": true
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "distance": 248,
+      "character": "248 feet with the skyline on the horizon.",
+      "difficultyPct": 18
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "distance": 259,
+      "character": "259 feet of gentle green.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "distance": 325,
+      "character": "325 feet — one of the longer back-nine 3s.",
+      "difficultyPct": 30
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "distance": 264,
+      "character": "264 feet, straightforward.",
+      "difficultyPct": 20
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "distance": 309,
+      "character": "309 feet with a tree guarding the approach.",
+      "difficultyPct": 26
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "distance": 291,
+      "character": "291 feet back toward the open fields.",
+      "difficultyPct": 22
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "distance": 318,
+      "character": "318 feet — wind exposure keeps you honest.",
+      "difficultyPct": 28
+    },
+    {
+      "number": 18,
+      "par": 3,
+      "distance": 307,
+      "character": "307 feet to finish the gentle 18.",
+      "difficultyPct": 26
+    }
   ],
-
   "layoutMapUrl": null,
   "signatureHoleDescription": "Hole 10 is the longest at Zilker at 367 feet, and the one that separates the tourists from the locals. It's wide open to the wind off Lady Bird Lake, so a calm putter shot can suddenly be a 60-mph negotiation. On a good day it's just another par 3; on a breezy Saturday it's the round's real test.",
   "localTips": "Gets crowded on weekends — go early morning or after 5pm. The wind off the lake is the real challenge, not the layout. Grab a taco on Barton Springs Road after your round.",
-
   "reviews": [],
-
   "tournaments": [
-    { "name": "Dawn Patrol Doubles", "tier": "Weekly", "date": "Every Sat" },
-    { "name": "Zilker Spring Fling", "tier": "C-Tier", "date": "14 Apr" }
+    {
+      "name": "Dawn Patrol Doubles",
+      "tier": "Weekly",
+      "date": "Every Sat"
+    },
+    {
+      "name": "Zilker Spring Fling",
+      "tier": "C-Tier",
+      "date": "14 Apr"
+    }
   ],
-
-  "nearbyCourseSlugs": ["mary-moore-searight"],
-
+  "nearbyCourseSlugs": [
+    "mary-moore-searight"
+  ],
   "isBeginnerFriendly": true,
   "isWooded": false,
   "isOpen": true,
-
   "facts": {
     "parking": "Free lot",
     "restrooms": "Yes",

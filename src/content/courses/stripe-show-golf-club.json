@@ -25,14 +25,13 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Freedom Disc Golf at Stripe Show Golf Club \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Freedom Disc Golf at Stripe Show Golf Club disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Some Low Hills",
   "foliage": null,
   "aboutParagraphs": [
-    "Freedom Disc Golf at Stripe Show Golf Club is a 18-hole course in Mesa, Arizona (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Freedom Disc Golf at Stripe Show Golf Club is an 18-hole course in Mesa, Arizona. It's a short, 0-foot layout at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

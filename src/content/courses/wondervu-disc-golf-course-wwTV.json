@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Wondervu Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Wondervu Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Wondervu Disc Golf Course is an 22-hole course in Golden, Colorado, playing 6,257 feet at par 68. Course details sourced from UDisc on 2026-09-06."
+    "Wondervu Disc Golf Course is a 22-hole course in Golden, Colorado. It runs 6,257 feet at par 68.",
+    "It's a friendly, low-pressure round. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Camp Canaan - Riverbend \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Camp Canaan - Riverbend disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Camp Canaan - Riverbend is an 18-hole course in Rock Hill, South Carolina, playing 6,871 feet at par 59. Course details sourced from UDisc on 2026-09-06."
+    "Camp Canaan - Riverbend is an 18-hole course in Rock Hill, South Carolina. The layout stretches 6,871 feet at par 59.",
+    "It's a friendly, low-pressure round. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

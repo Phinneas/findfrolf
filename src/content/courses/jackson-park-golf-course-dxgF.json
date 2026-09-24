@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Jackson Park Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Jackson Park Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Jackson Park Golf Course is an 18-hole course in Seattle, Washington, playing 5,991 feet at par 60. Course details sourced from UDisc on 2026-09-06."
+    "Jackson Park Golf Course is an 18-hole course in Seattle, Washington. It plays 5,991 feet at par 60.",
+    "It's a friendly, low-pressure round. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

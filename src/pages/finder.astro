@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Schema from '../components/Schema.astro';
-import { getAllCourses, getAllCities, courseUrl, cityUrl } from '../lib/data';
+import { getAllCourses, getAllCities, courseUrl, cityUrl, formatGreenFee } from '../lib/data';
 import { mapboxAccessToken } from '../lib/mapConfig';
 
 const allCourses = await getAllCourses();
@@ -28,30 +28,62 @@ for (const c of allCourses) {
 const statesWithCounts = [...statesMap.values()].sort((a, b) => b.courseCount - a.courseCount);
 
 // Serialize course data for client-side filtering
-const courseData = allCourses.map((c) => ({
-  id: c.id,
-  name: c.data.name,
-  city: c.data.city,
-  state: c.data.state,
-  citySlug: c.data.citySlug,
-  stateSlug: c.data.stateSlug,
-  area: c.data.area,
-  lat: c.data.location.lat,
-  lng: c.data.location.lng,
-  holes: c.data.holes,
-  par: c.data.par,
-  difficulty: c.data.difficulty,
-  difficultyRating: c.data.difficultyRating,
-  isFree: c.data.isFree,
-  greenFee: c.data.greenFee,
-  courseLength: c.data.courseLength,
-  rating: c.data.rating,
-  reviewCount: c.data.reviewCount,
-  thumbnail: c.data.thumbnail,
-  tags: c.data.tags,
-  amenities: c.data.amenities,
-  url: courseUrl(c),
-}));
+const amenityTokens = (a: { [k: string]: boolean }) => {
+  const t: string[] = [];
+  if (a.dogFriendly) t.push('dog friendly', 'dogs');
+  if (a.restrooms) t.push('restrooms', 'bathrooms');
+  if (a.water) t.push('water', 'drinking water');
+  if (a.lighting) t.push('lighting', 'lit', 'night play');
+  if (a.proShop) t.push('pro shop');
+  if (a.cartFriendly) t.push('cart friendly');
+  if (a.handicapAccessible) t.push('accessible');
+  if (a.camping) t.push('camping');
+  if (a.parking) t.push('parking');
+  return t.join(' ');
+};
+
+const courseData = allCourses.map((c) => {
+  const searchText = [
+    c.data.name,
+    c.data.city,
+    c.data.state,
+    c.data.area,
+    (c.data.tags || []).join(' '),
+    c.data.isWooded ? 'wooded woods forest' : '',
+    c.data.isBeginnerFriendly ? 'beginner friendly beginners beginner' : '',
+    c.data.isFree ? 'free' : 'paid pay to play',
+    amenityTokens(c.data.amenities),
+  ]
+    .join(' ')
+    .toLowerCase();
+
+  return {
+    id: c.id,
+    name: c.data.name,
+    city: c.data.city,
+    state: c.data.state,
+    citySlug: c.data.citySlug,
+    stateSlug: c.data.stateSlug,
+    area: c.data.area,
+    lat: c.data.location.lat,
+    lng: c.data.location.lng,
+    holes: c.data.holes,
+    par: c.data.par,
+    difficulty: c.data.difficulty,
+    difficultyRating: c.data.difficultyRating,
+    isFree: c.data.isFree,
+    greenFee: c.data.greenFee,
+    costLabel: formatGreenFee(c.data.isFree, c.data.greenFee),
+    courseLength: c.data.courseLength,
+    rating: c.data.rating,
+    reviewCount: c.data.reviewCount,
+    thumbnail: c.data.thumbnail,
+    tags: c.data.tags,
+    amenities: c.data.amenities,
+    searchText,
+    url: courseUrl(c),
+  };
+});
 
 const finderSchemas = [
   {
@@ -121,7 +153,7 @@ const finderSchemas = [
         name: 'Which cities does the disc golf course finder cover?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The finder currently covers 15 metro areas — Austin, Denver, Portland, Chicago, Seattle, Charlotte, Houston, Phoenix, Nashville, Raleigh–Durham, Dallas–Fort Worth, Kansas City, Atlanta, Cincinnati, and Minneapolis–St. Paul — with more courses added every week.',
+          text: `The finder currently covers ${allCities.length} metro areas — Austin, Denver, Portland, Chicago, Seattle, Charlotte, Houston, Phoenix, Nashville, Raleigh–Durham, Dallas–Fort Worth, Kansas City, Atlanta, Cincinnati, and Minneapolis–St. Paul — with more courses added every week.`,
         },
       },
       {
@@ -139,7 +171,7 @@ const finderSchemas = [
 
 <BaseLayout
   title="Disc Golf Course Finder — Find Courses Near You | Find Frolf"
-  description="Find a disc golf course near you with the Find Frolf course finder. Search 64+ courses by city, difficulty, hole count, and amenities — or use the map to discover courses nearby."
+  description={`Find a disc golf course near you with the Find Frolf course finder. Search ${allCourses.length}+ courses by city, difficulty, hole count, and amenities — or use the map to discover courses nearby.`}
 >
   <Fragment slot="head">
     <link rel="canonical" href="https://findfrolf.com/finder" />
@@ -155,7 +187,7 @@ const finderSchemas = [
       Find a disc golf course <em class="italic text-clay">near you</em>
     </h1>
     <p class="text-lg text-ink-soft max-w-[660px] leading-[1.7] mb-7">
-      FindFrolf's disc golf course finder covers 64 courses across 15 metro areas — search by city,
+      FindFrolf's disc golf course finder covers {allCourses.length} courses across {allCities.length} metro areas — search by city,
       filter by difficulty, hole count, cost, and amenities, or hit <b>near me</b> to see the closest
       courses ranked by distance. Every course is mapped, rated, and reviewed by the locals who play it.
     </p>
@@ -284,6 +316,23 @@ const finderSchemas = [
     <div class="finder-content">
       <!-- List view -->
       <div id="list-view" class="list-view active">
+        <div id="empty-state" class="empty-state">
+          <div class="empty-state-inner">
+            <div class="font-display text-[44px] text-sage mb-2">⌕</div>
+            <h3 class="font-display font-semibold text-[24px] text-forest-deep mb-1">Search {allCourses.length} courses</h3>
+            <p class="text-sm text-ink-soft max-w-[460px] mb-6 leading-[1.65]">
+              Type a city, course, or state above — or tap <b>near me</b> — and the courses that
+              match will appear here and on the map. Nothing loads until you search.
+            </p>
+            <div class="empty-state-chips">
+              <button class="empty-chip" data-q="dog friendly">Dog friendly</button>
+              <button class="empty-chip" data-q="wooded">Wooded</button>
+              <button class="empty-chip" data-q="free">Free</button>
+              <button class="empty-chip" data-q="beginner friendly">Beginner friendly</button>
+              <button class="empty-chip" data-q="18 holes">18 holes</button>
+            </div>
+          </div>
+        </div>
         <div id="course-list" class="course-list"></div>
         <div id="no-results" class="no-results" style="display:none;">
           <div class="no-results-inner">
@@ -860,6 +909,47 @@ const finderSchemas = [
       align-items: center;
     }
 
+    /* Empty state (shown before any search/filter is applied) */
+    .empty-state {
+      display: none;
+      padding: 3.5rem 1rem 4rem;
+      text-align: center;
+    }
+
+    .empty-state.visible {
+      display: block;
+    }
+
+    .empty-state-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .empty-state-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+
+    .empty-chip {
+      padding: 0.45rem 0.9rem;
+      border-radius: 99px;
+      border: 1.5px solid var(--color-line);
+      background: var(--color-paper);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--color-forest);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .empty-chip:hover {
+      border-color: var(--color-clay);
+      color: var(--color-clay);
+    }
+
     /* Map view */
     .map-view {
       display: none;
@@ -1040,6 +1130,7 @@ const finderSchemas = [
       const noResultsClear = document.getElementById('no-results-clear');
       const resultsCount = document.getElementById('results-count');
       const courseList = document.getElementById('course-list');
+      const emptyState = document.getElementById('empty-state');
       const noResults = document.getElementById('no-results');
       const viewListBtn = document.getElementById('view-list-btn');
       const viewMapBtn = document.getElementById('view-map-btn');
@@ -1066,12 +1157,24 @@ const finderSchemas = [
       }
 
       // ── Filtering ──
+      function hasActiveQuery() {
+        return (
+          state.search.trim() !== '' ||
+          state.sortByDistance ||
+          state.difficultyRating.size > 0 ||
+          state.holes.size > 0 ||
+          state.courseLength.size > 0 ||
+          state.isFree.size > 0 ||
+          state.amenities.size > 0
+        );
+      }
+
       function getFilteredCourses() {
         let filtered = courses.filter((c) => {
           // Text search
           if (state.search) {
             const q = state.search.toLowerCase();
-            const haystack = (c.name + ' ' + c.city + ' ' + c.state + ' ' + c.area + ' ' + c.tags.join(' ')).toLowerCase();
+            const haystack = c.searchText || (c.name + ' ' + c.city + ' ' + c.state).toLowerCase();
             if (!haystack.includes(q)) return false;
           }
 
@@ -1124,6 +1227,8 @@ const finderSchemas = [
       function renderList() {
         const filtered = getFilteredCourses();
 
+        emptyState.classList.remove('visible');
+
         resultsCount.textContent = filtered.length + ' course' + (filtered.length !== 1 ? 's' : '') +
           (state.sortByDistance ? ' · sorted by distance' : ' · sorted by rating');
 
@@ -1156,7 +1261,7 @@ const finderSchemas = [
             '<div class="course-card-right">' +
               '<span class="course-card-rating">' + c.rating + '</span>' +
               distHtml +
-              '<span class="course-card-spec">' + (c.isFree ? 'Free' : c.greenFee) + '</span>' +
+              '<span class="course-card-spec">' + (c.costLabel || (c.isFree ? 'Free' : c.greenFee)) + '</span>' +
             '</div>' +
           '</a>';
         }).join('');
@@ -1268,10 +1373,32 @@ const finderSchemas = [
       }
 
       // ── Update everything ──
+      function clearMarkers() {
+        markers.forEach((m) => m.remove());
+        markers = [];
+      }
+
+      function renderEmpty() {
+        resultsCount.textContent = courses.length + ' courses loaded — search to see matches';
+        courseList.innerHTML = '';
+        noResults.style.display = 'none';
+        emptyState.classList.add('visible');
+        clearMarkers();
+      }
+
       function update() {
+        updateFilterCount();
+
+        // Don't render the full directory before the user searches — show a
+        // prompt instead, and only populate the list/map once a query or
+        // filter is active.
+        if (!hasActiveQuery()) {
+          renderEmpty();
+          return;
+        }
+
         renderList();
         renderMap();
-        updateFilterCount();
       }
 
       function updateFilterCount() {
@@ -1418,31 +1545,48 @@ const finderSchemas = [
         if (!map) {
           setTimeout(() => {
             initMap();
-            renderMap();
+            update();
           }, 300);
         } else {
           setTimeout(() => map.resize(), 100);
         }
       });
 
+      // ── Empty-state example chips ──
+      document.querySelectorAll('.empty-chip').forEach((chip) => {
+        chip.addEventListener('click', () => {
+          const q = chip.dataset.q || '';
+          state.search = q;
+          searchInput.value = q;
+          update();
+        });
+      });
+
       // ── Init ──
-      renderList();
+      // Honor a pre-filled query from the URL (e.g. /finder?q=dog friendly).
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialQ = (urlParams.get('q') || '').trim();
+      if (initialQ) {
+        state.search = initialQ;
+        searchInput.value = initialQ;
+      }
+      update();
 
       // Auto-open filters on desktop
       if (window.innerWidth >= 1024) {
         filterPanel.classList.add('open');
-        // Init map immediately on desktop
+        // Init map immediately on desktop (markers only appear once a search is active).
         setTimeout(() => {
           if (window.mapboxgl) {
             initMap();
-            renderMap();
+            update();
           } else {
             // Wait for Mapbox JS to load
             const checkMapbox = setInterval(() => {
               if (window.mapboxgl) {
                 clearInterval(checkMapbox);
                 initMap();
-                renderMap();
+                update();
               }
             }, 200);
             setTimeout(() => clearInterval(checkMapbox), 5000);

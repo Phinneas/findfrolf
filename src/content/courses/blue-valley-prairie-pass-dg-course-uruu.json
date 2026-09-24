@@ -1,5 +1,5 @@
 {
-  "name": "Blue Valley \u201cPrairie Pass\u201d DG Course",
+  "name": "Blue Valley “Prairie Pass” DG Course",
   "code": "KS-1004",
   "city": "Overland Park",
   "state": "Kansas",
@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Blue Valley \u201cPrairie Pass\u201d DG Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Blue Valley “Prairie Pass” DG Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 2087,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Blue Valley \u201cPrairie Pass\u201d DG Course is an 18-hole course in Overland Park, Kansas, playing 4,208 feet at par 54. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Blue Valley “Prairie Pass” DG Course is an 18-hole course in Overland Park, Kansas. It's a short, 4,208-foot layout at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

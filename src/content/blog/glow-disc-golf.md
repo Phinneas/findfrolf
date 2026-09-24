@@ -33,6 +33,8 @@ Here's a secret the day players don't know: **some of the best rounds of disc go
 
 ## What you actually need
 
+*Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*
+
 The glow-golf starter kit is small and cheap:
 
 - **One or two glow discs** ($15–25 each) — or glow tape on your existing discs
@@ -95,7 +97,7 @@ Everything from the [disc golf etiquette guide](/blog/disc-golf-etiquette) appli
 | Basket light / glow sticks | $5–10 |
 | **Total to get started** | **~$30–50** |
 
-That's less than a single dinner out, and it buys you a summer's worth of night rounds.
+That's less than a single dinner out, and it buys you a summer's worth of night rounds. Check [Infinite Discs](https://infinitediscs.com/?tag=0DC81397597B451) for glow discs, tape, and UV lights.
 
 ## The honest take
 

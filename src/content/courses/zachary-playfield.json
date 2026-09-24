@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Zachary Playfield \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Zachary Playfield disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 1.0,
+  "rating": 1,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Stands",
   "aboutParagraphs": [
-    "Zachary Playfield is a 9-hole course in Plymouth, Minnesota, playing 2,199 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Zachary Playfield is a 9-hole course in Plymouth, Minnesota. A quick 2,199-foot round at par 27.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Lawnview Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Lawnview Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 3.0,
+  "rating": 3,
   "reviewCount": 95,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Lawnview Park is an 9-hole course in Dallas, Texas, playing 3,273 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Lawnview Park is a 9-hole course in Dallas, Texas. It plays a compact 3,273 feet at par 29.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Downs Farm \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Downs Farm disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Downs Farm is an 13-hole course in Chaska, Minnesota, playing 2,661 feet at par 41. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Downs Farm is a 13-hole course in Chaska, Minnesota. It plays a compact 2,661 feet at par 41.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

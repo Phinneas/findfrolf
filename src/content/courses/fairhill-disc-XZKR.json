@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Fairhill  Disc \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Fairhill  Disc disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 23,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Fairhill  Disc is an 9-hole course in Buffalo, Minnesota, playing 3,070 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Fairhill  Disc is a 9-hole course in Buffalo, Minnesota. It plays a compact 3,070 feet at par 30.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

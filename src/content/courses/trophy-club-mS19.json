@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Trophy Club \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Trophy Club disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Trophy Club is an 18-hole course in Trophy Club, Texas, playing 5,687 feet at par 56. Course details sourced from UDisc on 2026-09-06."
+    "Trophy Club is an 18-hole course in Trophy Club, Texas. It runs 5,687 feet at par 56.",
+    "It's a friendly, low-pressure round. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

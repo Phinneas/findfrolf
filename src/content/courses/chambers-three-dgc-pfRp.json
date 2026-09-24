@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Chambers Three DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Chambers Three DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Chambers Three DGC is an 18-hole course in Farmersville, Texas, playing 7,499 feet at par 64. Course details sourced from UDisc on 2026-09-06."
+    "Chambers Three DGC is an 18-hole course in Farmersville, Texas. It runs a long 7,499 feet at par 64.",
+    "It's a fair test for most players where the longest holes let big arms air it out. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

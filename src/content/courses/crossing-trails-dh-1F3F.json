@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Crossing Trails @ DH \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Crossing Trails @ DH disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Crossing Trails @ DH is an 11-hole course in Spicewood, Texas, playing 2,917 feet at par 35. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Crossing Trails @ DH is an 11-hole course in Spicewood, Texas. It's a short, 2,917-foot layout at par 35.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

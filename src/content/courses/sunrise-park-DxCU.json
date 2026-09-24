@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Sunrise Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Sunrise Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Sunrise Park is an 18-hole course in Bartlett, Illinois, playing 5,756 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Sunrise Park is an 18-hole course in Bartlett, Illinois. The layout stretches 5,756 feet at par 57.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

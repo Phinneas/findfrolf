@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kensington Toboggan \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Kensington Toboggan disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Kensington Toboggan is an 18-hole course in Milford Charter Township, Michigan, playing 10,905 feet at par 66. Sourced from UDisc on 2026-09-10."
+    "Kensington Toboggan is an 18-hole course in Milford Charter Township, Michigan. It runs a long 10,905 feet at par 66.",
+    "A solid mid-level round with real length on the drive holes. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

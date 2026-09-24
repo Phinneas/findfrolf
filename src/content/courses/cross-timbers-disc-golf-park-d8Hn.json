@@ -1,5 +1,5 @@
 {
-  "name": "Cross Timbers DiscGolfPark",
+  "name": "Cross Timbers Disc Golf Park",
   "code": "TX-1302",
   "city": "North Richland Hills",
   "state": "Texas",
@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Cross Timbers DiscGolfPark \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Cross Timbers Disc Golf Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 4.0,
+  "rating": 4,
   "reviewCount": 305,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Cross Timbers DiscGolfPark is an 9-hole course in North Richland Hills, Texas, playing 2,285 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Cross Timbers Disc Golf Park is a 9-hole course in North Richland Hills, Texas. It plays a compact 2,285 feet at par 27.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

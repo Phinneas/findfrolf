@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contactEmail = 'chester@salishaseaconsulting.com';
+---
+
+<BaseLayout
+  title="Terms of Service — Find Frolf"
+  description="The terms of service for Find Frolf — how you may use findfrolf.com, how user submissions work, and the limits of our course information."
+>
+  <slot name="head">
+    <link rel="canonical" href="https://findfrolf.com/terms" />
+  </slot>
+
+  <!-- HERO -->
+  <section class="max-w-[1080px] mx-auto mt-[60px] px-8">
+    <h1 class="font-display font-normal text-[clamp(40px,6vw,64px)] tracking-[-2px] text-forest-deep leading-[1.02]">
+      Terms of <span class="script text-[1.05em] text-clay">Service</span>
+    </h1>
+    <p class="font-mono text-xs uppercase tracking-[3px] text-moss mt-5">Last updated: September 11, 2026</p>
+    <p class="text-[17px] text-ink-soft max-w-[680px] mt-6 leading-[1.6]">
+      These Terms of Service ("Terms") govern your use of findfrolf.com (the "Site"), operated by Find Frolf ("we," "us," or "our"). By using the Site, you agree to these Terms.
+    </p>
+  </section>
+
+  <!-- USE OF THE SITE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line mt-16">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">01</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Using the <em class="italic text-clay">Site</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      Find Frolf is a disc golf course directory. The Site is provided for informational and personal use. You may browse course listings, search for courses, and read reviews. You agree not to scrape, republish, or resell the Site's content without our prior written permission, and not to use the Site in any way that disrupts its operation.
+    </p>
+  </section>
+
+  <!-- USER SUBMISSIONS -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">02</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      User <em class="italic text-clay">submissions</em>
+    </h2>
+    <div class="max-w-[720px] space-y-4 text-[15px] text-ink-soft leading-[1.65]">
+      <p>
+        If you submit a course review, correction, course suggestion, or other content ("Submissions"), you grant us a non-exclusive, royalty-free, worldwide license to use, edit, display, and distribute that content on the Site. You represent that your Submissions are accurate to the best of your knowledge and that you have the right to share them.
+      </p>
+      <p>
+        We may edit Submissions for clarity, length, or accuracy, and we may remove any Submission at our discretion. Submissions must be truthful and constructive — no spam, no fabricated reviews, and no content that is unlawful, defamatory, or misleading.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTENT OWNERSHIP -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">03</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Content <em class="italic text-clay">ownership</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      All original text, illustrations, design, and code on the Site are owned by Find Frolf and protected by applicable intellectual property laws. Course facts (names, locations, layouts, fees) are compiled from public directories and user submissions, and are provided as a factual reference. You may link to any page on the Site; you may not copy and republish our original editorial content without permission.
+    </p>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">04</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Disclaimer <em class="italic text-clay">&amp; liability</em>
+    </h2>
+    <div class="max-w-[720px] space-y-4 text-[15px] text-ink-soft leading-[1.65]">
+      <p>
+        The Site is provided on an "as is" and "as available" basis. Course details — hours, fees, conditions, and accessibility — can change without notice. While we work to keep listings accurate, we do not guarantee the completeness or accuracy of any course information.
+      </p>
+      <p>
+        Disc golf, like any outdoor activity, carries inherent risk. Always confirm hours, fees, and course conditions with the course or park directly before you travel, and play safely. To the fullest extent permitted by law, Find Frolf is not liable for any loss, injury, or damage arising from your use of the Site or from visiting any course listed on it.
+      </p>
+    </div>
+  </section>
+
+  <!-- ADVERTISING -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">05</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Advertising <em class="italic text-clay">&amp; third parties</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      The Site displays advertising served by Google AdSense and may contain links to third-party websites. We are not responsible for the content, policies, or practices of any third-party site. Please review our <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href="/privacy">Privacy Policy</a> for details on how advertising and analytics partners handle data.
+    </p>
+  </section>
+
+  <!-- CHANGES -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">06</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Changes to these <em class="italic text-clay">Terms</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      We may update these Terms from time to time. The revised version will be posted on this page with a new "Last updated" date. Your continued use of the Site after any changes means you accept the updated Terms.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">07</div>
+    <h2 class="font-display font-normal text-[clamp(28px,4vw,40px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Contact <em class="italic text-clay">us</em>
+    </h2>
+    <p class="max-w-[720px] text-[15px] text-ink-soft leading-[1.65]">
+      Questions about these Terms? Contact us at
+      <a class="text-clay underline decoration-clay/40 underline-offset-2 hover:text-clay-deep" href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+    </p>
+  </section>
+</BaseLayout>

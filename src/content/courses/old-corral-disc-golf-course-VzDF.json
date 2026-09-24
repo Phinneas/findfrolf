@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Old Corral Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Old Corral Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Old Corral Disc Golf Course is an 18-hole course in Bailey, Colorado, playing 4,314 feet at par 55. Course details sourced from UDisc on 2026-09-06."
+    "Old Corral Disc Golf Course is an 18-hole course in Bailey, Colorado. It's a short, 4,314-foot layout at par 55.",
+    "An easy-going round for all arms with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

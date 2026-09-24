@@ -3,89 +3,83 @@
   "state": "Arizona",
   "stateSlug": "az",
   "heroImage": "/images/city-phoenix.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "Desert disc golf with water hazards and mountain views \u2014 from the iconic fountain course to a rugged 27 on the ridge. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Desert disc golf with water hazards and mountain views — from the iconic fountain course to a rugged 27 on the ridge. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Phoenix disc golf trades the woods for wide-open desert and man-made lakes. Fountain Hills is the postcard \u2014 20 holes around a lake beneath the iconic 300-foot fountain, with nine water hazards and the most photographed basket in Arizona. Buffalo Ridge is the rugged counterpart: 27 holes of elevation and blind throws alongside the mountain.",
-    "Paseo Vista in Chandler is the friendly former-landfill course, wide open and perfect for beginners, while Vista del Camino in Scottsdale is the classic park course with lakes in play on seven holes. All four of our published Phoenix courses are free.",
-    "New here? Paseo Vista to learn, Fountain Hills for the views, Buffalo Ridge for the workout."
+    "Phoenix disc golf trades the woods for wide-open desert and man-made lakes. Fountain Hills is the postcard — 20 holes around a lake beneath the iconic 300-foot fountain, with nine water hazards and the most photographed basket in Arizona. Buffalo Ridge is the rugged counterpart: 27 holes of elevation and blind throws alongside the mountain.",
+    "Paseo Vista in Chandler is the friendly former-landfill course, wide open and perfect for beginners, while Vista del Camino in Scottsdale is the classic park course with lakes in play on seven holes. The Phoenix Ladies League runs Sunday Funday events, and all of Phoenix's mapped courses are free to play.",
+    "New here? Paseo Vista to learn, Fountain Hills for the views, Buffalo Ridge for the workout. For gear, Disc Golf HQ and Spinners on the Green are the local pro shops."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "fountain-hills",
-      "x": 46,
-      "y": 34,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "buffalo-ridge",
-      "x": 36,
-      "y": 46,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "paseo-vista",
-      "x": 58,
-      "y": 62,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "fountain-hills", "x": 46, "y": 34, "isGold": true },
+    { "rank": 2, "courseSlug": "buffalo-ridge", "x": 36, "y": 46, "isGold": false },
+    { "rank": 3, "courseSlug": "paseo-vista", "x": 58, "y": 62, "isGold": false },
+    { "rank": 4, "courseSlug": "vista-del-camino", "x": 52, "y": 40, "isGold": false },
+    { "rank": 5, "courseSlug": "conocido", "x": 42, "y": 52, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The scenic round",
       "tag": "Postcard",
-      "courseSlugs": [
-        "fountain-hills"
-      ]
+      "courseSlugs": ["fountain-hills"]
     },
     {
       "title": "The mountain workout",
       "tag": "Rugged",
-      "courseSlugs": [
-        "buffalo-ridge"
-      ]
+      "courseSlugs": ["buffalo-ridge"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["paseo-vista", "vista-del-camino"]
+    },
+    {
+      "title": "A quick nine",
+      "tag": "Lunch-break length",
+      "courseSlugs": ["conocido"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "01", "month": "Jun", "title": "Phoenix Ladies League · Sunday Funday", "description": "Weekly women's league at rotating Phoenix courses. All skill levels.", "cta": "Join" },
+    { "day": "07", "month": "Jun", "title": "Fountain Hills Doubles", "description": "Random doubles at the city's most iconic course. Beat the heat with an early tee time.", "cta": "Join" },
+    { "day": "21", "month": "Jun", "title": "Arizona State Championship · A-Tier", "description": "PDGA A-tier at Fountain Hills. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Phoenix Disc Golf Club", "meta": "400+ members · est. 2007" },
+    { "icon": "🏪", "name": "Disc Golf HQ", "meta": "Phoenix · dedicated pro shop" },
+    { "icon": "🏪", "name": "Spinners on the Green", "meta": "Scottsdale · disc golf store" },
+    { "icon": "🥏", "name": "Phoenix Ladies League", "meta": "Weekly women's events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Fountain Hills"
-    },
-    {
-      "count": 1,
-      "name": "Phoenix"
-    },
-    {
-      "count": 1,
-      "name": "Chandler"
-    },
-    {
-      "count": 1,
-      "name": "Scottsdale"
-    }
+    { "count": 10, "name": "Phoenix" },
+    { "count": 5, "name": "Scottsdale" },
+    { "count": 4, "name": "Chandler" },
+    { "count": 3, "name": "Fountain Hills" },
+    { "count": 2, "name": "Mesa" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Phoenix metro?",
-      "answer": "Around <b>45 courses</b> across the metro. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "answer": "There are <b>43 courses</b> across the Phoenix metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Phoenix?",
-      "answer": "<b>Fountain Hills</b> \u2014 the lake-side course beneath the iconic fountain with nine water hazards. Buffalo Ridge is the runner-up for players who want a mountain workout."
+      "answer": "<b>Fountain Hills</b> — the lake-side course beneath the iconic fountain with nine water hazards. Buffalo Ridge is the runner-up for players who want a mountain workout."
     },
     {
       "question": "Are Phoenix's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (Fountain Hills, Buffalo Ridge, Paseo Vista, Vista del Camino) are free to play."
+      "answer": "Yes — every one of the 43 mapped courses is free to play."
     },
     {
       "question": "What's the best beginner course in Phoenix?",
-      "answer": "Paseo Vista in Chandler \u2014 wide open, friendly, and great for learning distance control. Vista del Camino is another approachable classic."
+      "answer": "Paseo Vista in Chandler — wide open, friendly, and great for learning distance control. Vista del Camino is another approachable classic."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Phoenix?",
+      "answer": "Disc Golf HQ is the dedicated pro shop. Spinners on the Green in Scottsdale carries a curated selection of discs and gear."
     }
   ],
-  "nearbyCities": []
+  "nearbyCities": [
+    { "name": "Tucson", "courseCount": "22 courses", "distance": "115 mi", "slug": "#" }
+  ]
 }

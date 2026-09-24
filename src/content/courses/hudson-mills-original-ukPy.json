@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Hudson Mills Original \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Hudson Mills Original disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Hudson Mills Original is an 18-hole course in Dexter, Michigan, playing 4,670 feet at par 54. Sourced from UDisc on 2026-09-10."
+    "Hudson Mills Original is an 18-hole course in Dexter, Michigan. It plays a compact 4,670 feet at par 54.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

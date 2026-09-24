@@ -27,6 +27,9 @@ export const GET: APIRoute = async () => {
   urls.push(url('/cities', 0.6, undefined, 'weekly'));
   urls.push(url('/blog', 0.6, undefined, 'weekly'));
   urls.push(url('/about', 0.5, undefined, 'monthly'));
+  urls.push(url('/privacy', 0.3, undefined, 'yearly'));
+  urls.push(url('/terms', 0.3, undefined, 'yearly'));
+  urls.push(url('/contact', 0.3, undefined, 'yearly'));
 
   // State directory pages (priority 0.9 — same tier as city directory pages)
   const stateSlugs = new Set<string>();

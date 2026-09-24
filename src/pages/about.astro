@@ -11,7 +11,7 @@ const promises = [
   {
     num: '02',
     title: 'Tell the truth',
-    text: 'Verified rounds only. No paid placements, no fake reviews, no algorithm deciding what you see.',
+    text: 'Verified rounds only. No fake reviews, no algorithm deciding what you see.',
   },
   {
     num: '03',
@@ -23,7 +23,7 @@ const promises = [
 
 <BaseLayout
   title="About Find Frolf — Our promise"
-  description="Find Frolf is a field guide, not a billboard. We map every disc golf course on earth and tell the honest truth about each one."
+  description="Find Frolf is a disc golf field guide. We map every course and tell the honest truth about each one."
 >
   <!-- HERO -->
   <section class="max-w-[1080px] mx-auto mt-[60px] px-8 text-center">
@@ -44,7 +44,7 @@ const promises = [
       What we're <em class="italic text-clay">building</em>
     </h2>
     <p class="text-[17px] text-ink-soft max-w-[680px] mb-10 leading-[1.6]">
-      Find Frolf is a field guide, not a billboard. We map every disc golf course on earth and tell the honest truth about each one — for the weekend beginner and the touring pro alike. Everything in this guide protects that promise.
+      Find Frolf is a field guide. We map every disc golf course on earth and tell the honest truth about each one — for the weekend beginner and the touring pro alike. Everything in this guide protects that promise.
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-9">
@@ -108,8 +108,44 @@ const promises = [
       Free <em class="italic text-clay">forever</em>
     </h2>
     <p class="text-[17px] text-ink-soft max-w-[680px] leading-[1.6]">
-      No paid placements. No premium tier. No algorithm deciding what you see. Find Frolf is a field guide built by disc golfers, for disc golfers — and it stays that way.
+      No premium tier. No algorithm deciding what you see. Find Frolf is a field guide built by disc golfers, for disc golfers — and it stays that way.
     </p>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="max-w-[1080px] mx-auto px-8 py-16 border-t border-line">
+    <div class="font-mono text-xs text-clay tracking-[1px] mb-2">04</div>
+    <h2 class="font-display font-normal text-[clamp(30px,4vw,44px)] tracking-[-1.2px] text-forest-deep mb-4">
+      Who's behind <em class="italic text-clay">Find Frolf</em>
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-10 items-start mt-6">
+      <div class="space-y-4 text-[17px] text-ink-soft leading-[1.6]">
+        <p>
+          Find Frolf is built and run by <b class="text-forest-deep">Chester Beard</b>, an independent developer and disc golfer based in the Pacific Northwest, through Salish Sea Consulting. It launched in 2026 with one idea: every course deserves an honest, up-to-date map, drawn by the people who actually play it.
+        </p>
+        <p>
+          That's the whole operation — no board, no investors, just someone who plays, maps, and cares about getting the details right. When you send a correction or point out a course we're missing, it lands with the person who built the page.
+        </p>
+      </div>
+
+      <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-7 shadow-stamp">
+        <h4 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-4">Find Frolf at a glance</h4>
+        <div class="flex justify-between py-[11px] border-b border-dashed border-line text-sm">
+          <span>Founded</span><b class="text-forest">2026</b>
+        </div>
+        <div class="flex justify-between py-[11px] border-b border-dashed border-line text-sm">
+          <span>Run by</span><b class="text-forest">Chester Beard</b>
+        </div>
+        <div class="flex justify-between py-[11px] border-b border-dashed border-line text-sm">
+          <span>Based in</span><b class="text-forest">Pacific Northwest, WA</b>
+        </div>
+        <div class="flex justify-between py-[11px] text-sm">
+          <span>Contact</span>
+          <a href="mailto:chester@salishaseaconsulting.com" class="text-clay font-bold no-underline hover:text-clay-deep">chester@salishaseaconsulting.com</a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <CTACard

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Open disc golf course illustration">
+  <defs>
+    <linearGradient id="osky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd7ee"/>
+      <stop offset="1" stop-color="#eaf3ee"/>
+    </linearGradient>
+    <linearGradient id="oground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7c585"/>
+      <stop offset="1" stop-color="#6d8f57"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="470" fill="url(#osky)"/>
+  <circle cx="400" cy="120" r="72" fill="#edb441"/>
+  <circle cx="400" cy="120" r="98" fill="#edb441" opacity="0.22"/>
+
+  <!-- low distant trees -->
+  <g fill="#8fae76">
+    <circle cx="40" cy="452" r="30"/>
+    <circle cx="90" cy="444" r="38"/>
+    <circle cx="700" cy="446" r="36"/>
+    <circle cx="760" cy="454" r="30"/>
+  </g>
+
+  <path d="M0 470 L800 470 L800 600 L0 600 Z" fill="url(#oground)"/>
+  <path d="M0 470 Q 200 456 400 470 T 800 470" stroke="#7f9b6b" stroke-width="3" fill="none"/>
+
+  <g>
+    <circle cx="250" cy="190" r="36" fill="#edb441"/>
+    <circle cx="250" cy="190" r="36" fill="none" stroke="#d35a35" stroke-width="5"/>
+    <circle cx="250" cy="190" r="11" fill="#f7d78a"/>
+    <path d="M296 236 q 50 -30 72 -50" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g>
+    <rect x="388" y="306" width="24" height="18" rx="4" fill="#d35a35"/>
+    <rect x="376" y="322" width="48" height="9" rx="4.5" fill="#4a3d2f"/>
+    <g stroke="#8a7a66" stroke-width="3" stroke-linecap="round">
+      <line x1="381" y1="331" x2="381" y2="398"/>
+      <line x1="400" y1="331" x2="400" y2="398"/>
+      <line x1="419" y1="331" x2="419" y2="398"/>
+    </g>
+    <rect x="396" y="331" width="8" height="96" rx="3" fill="#6b5840"/>
+    <ellipse cx="400" cy="418" rx="36" ry="13" fill="#b3441f"/>
+    <ellipse cx="400" cy="413" rx="36" ry="13" fill="#e8754f"/>
+    <ellipse cx="400" cy="413" rx="20" ry="7" fill="#f6a07f"/>
+  </g>
+</svg>

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Griffin MS Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Griffin MS Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Griffin MS Course is an 6-hole course in The Colony, Texas, playing 1,601 feet at par 19. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Griffin MS Course is a 6-hole course in The Colony, Texas. It plays a compact 1,601 feet at par 19.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Howling Coyote \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Howling Coyote disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Howling Coyote is an 10-hole course in Bothell, Washington, playing 2,287 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Howling Coyote is a 10-hole course in Bothell, Washington. It plays a compact 2,287 feet at par 30.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

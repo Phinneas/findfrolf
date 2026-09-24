@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Rooster Rock - West \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Rooster Rock - West disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Rooster Rock - West is an 9-hole course in Corbett, Oregon, playing 2,836 feet at par 30. Course details sourced from UDisc on 2026-09-06."
+    "Rooster Rock - West is a 9-hole course in Corbett, Oregon. It's a short, 2,836-foot layout at par 30.",
+    "A gentle, approachable round with short, gettable holes throughout. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

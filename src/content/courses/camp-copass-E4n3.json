@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Camp Copass \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Camp Copass disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Camp Copass is an 9-hole course in Denton, Texas, playing 2,581 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Camp Copass is a 9-hole course in Denton, Texas. It plays a compact 2,581 feet at par 29.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

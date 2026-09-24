@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Kenwood Trails DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Kenwood Trails DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Kenwood Trails DGC is an 18-hole course in Lakeville, Minnesota, playing 5,288 feet at par 60. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Kenwood Trails DGC is an 18-hole course in Lakeville, Minnesota. It runs 5,288 feet at par 60.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -22,6 +22,8 @@ faqItems: [
 ---
 New to disc golf? Start here. Every course on this list is marked **beginner-friendly** in our directory — open fairways, forgiving layouts, and the kind of course where a first round is fun instead of frustrating. They're ranked by player rating from the 65 courses we've verified.
 
+You can play your first round with one borrowed midrange. Buying a starter set is convenient, not mandatory.
+
 Search every course with the [disc golf course finder](https://findfrolf.com/finder).
 
 ### 1. [Pier Park](/or/portland/pier-park)
@@ -106,4 +108,4 @@ Hole 18 closes Fehringer Ranch at 388 feet with the foothills on the horizon —
 
 The best way to learn is to play — pick the course closest to you and just go. Most of these are free, and nobody will judge your first throw.
 
-Search every course with the [disc golf course finder](https://findfrolf.com/finder).
+Search every course with the [disc golf course finder](https://findfrolf.com/finder). If you're ready to buy your first disc, read our guide to [choosing your first disc golf disc](/blog/choosing-first-disc-golf-disc) — it links to the beginner-friendly midranges and starter sets we'd actually recommend.

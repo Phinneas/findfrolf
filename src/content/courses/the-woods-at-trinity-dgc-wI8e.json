@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Woods at Trinity DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Woods at Trinity DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Woods at Trinity DGC is an 21-hole course in McKinney, Texas, playing 4,897 feet at par 64. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Woods at Trinity DGC is a 21-hole course in McKinney, Texas. It's a short, 4,897-foot layout at par 64.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

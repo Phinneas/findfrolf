@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "USDGC Spectator Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "USDGC Spectator Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "USDGC Spectator Course is an 18-hole course in Rock Hill, South Carolina, playing 5,176 feet at par 59. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "USDGC Spectator Course is an 18-hole course in Rock Hill, South Carolina. The layout stretches 5,176 feet at par 59.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

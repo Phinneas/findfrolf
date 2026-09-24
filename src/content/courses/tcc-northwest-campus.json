@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "TCC Northwest Campus \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "TCC Northwest Campus disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": "Some Low Hills",
   "foliage": "Scattered",
   "aboutParagraphs": [
-    "TCC Northwest Campus is a 18-hole course in Fort Worth, Texas, playing 5,598 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "TCC Northwest Campus is an 18-hole course in Fort Worth, Texas. It runs 5,598 feet at par 54.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

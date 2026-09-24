@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Animal House \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Animal House disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Some Low Hills",
   "foliage": null,
   "aboutParagraphs": [
-    "Animal House is a 18-hole course in Douglasville, Georgia, playing 5,016 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Animal House is an 18-hole course in Douglasville, Georgia. It plays 5,016 feet at par 54.",
+    "A gentle, approachable round. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

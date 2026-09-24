@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The REC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The REC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The REC is an 9-hole course in McKinney, Texas, playing 2,175 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "The REC is a 9-hole course in McKinney, Texas. It plays a compact 2,175 feet at par 27.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Bird's Nest Disc Park — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-open.svg",
+      "alt": "Bird's Nest Disc Park disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-open.svg",
+  "thumbnail": "/images/course-open.svg",
   "rating": 4.1,
   "reviewCount": 5956,
   "tags": [

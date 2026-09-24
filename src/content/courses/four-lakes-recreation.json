@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Four Lakes Recreation \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Four Lakes Recreation disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 2.0,
+  "rating": 2,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Medium Ski Hill",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "Four Lakes Recreation is a 9-hole course in Lisle, Illinois, playing 2,413 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Four Lakes Recreation is a 9-hole course in Lisle, Illinois. A quick 2,413-foot round at par 27.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

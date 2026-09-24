@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Buck Hill Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Buck Hill Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Buck Hill Disc Golf Course is an 18-hole course in Burnsville, Minnesota, playing 5,897 feet at par 55. Course details sourced from UDisc on 2026-09-06."
+    "Buck Hill Disc Golf Course is an 18-hole course in Burnsville, Minnesota. The layout stretches 5,897 feet at par 55.",
+    "An easy-going round for all arms. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

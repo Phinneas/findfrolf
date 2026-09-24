@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Timber Lane Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Timber Lane Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Timber Lane Park is an 9-hole course in Spring, Texas, playing 2,285 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Timber Lane Park is a 9-hole course in Spring, Texas. It's a short, 2,285-foot layout at par 28.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

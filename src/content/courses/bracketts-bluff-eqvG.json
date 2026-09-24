@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Brackett's Bluff \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Brackett's Bluff disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Brackett's Bluff is an 21-hole course in Davidson, North Carolina, playing 5,598 feet at par 65. Course details sourced from UDisc on 2026-09-06."
+    "Brackett's Bluff is a 21-hole course in Davidson, North Carolina. It plays 5,598 feet at par 65.",
+    "An easy-going round for all arms. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

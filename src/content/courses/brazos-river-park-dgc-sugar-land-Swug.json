@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Brazos River Park  DGC.  (Sugar land) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Brazos River Park  DGC.  (Sugar land) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Brazos River Park  DGC.  (Sugar land) is an 9-hole course in Sugar Land, Texas, playing 3,371 feet at par 29. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Brazos River Park  DGC.  (Sugar land) is a 9-hole course in Sugar Land, Texas. It's a short, 3,371-foot layout at par 29.",
+    "An easy-going round for all arms with short, gettable holes throughout. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

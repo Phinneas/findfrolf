@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "North Valley \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "North Valley disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "North Valley is an 18-hole course in Inver Grove Heights, Minnesota, playing 6,228 feet at par 59. Course details sourced from UDisc on 2026-09-06."
+    "North Valley is an 18-hole course in Inver Grove Heights, Minnesota. It plays 6,228 feet at par 59.",
+    "It's a friendly, low-pressure round. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

@@ -3,92 +3,84 @@
   "state": "Tennessee",
   "stateSlug": "tn",
   "heroImage": "/images/city-nashville.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "Music City's disc golf is friendly, woodsy, and busier than the stats suggest \u2014 Seven Oaks is one of the South's great community courses. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Music City's disc golf is friendly, woodsy, and busier than the stats suggest — Seven Oaks is one of the South's great community courses. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Nashville disc golf revolves around Seven Oaks \u2014 the impeccably maintained 21-hole course that's been the city's beating heart since 1989, with a bonus three-hole loop the locals treat as a warm-down. Cedar Hill in Madison adds another 21 holes with a 3-hole inner loop and varied terrain, and Crockett Park in Brentwood is the gentle rolling-hills option.",
-    "All three of our published Nashville courses are free, and the community is famously welcoming \u2014 expect to leave with new friends and a few new disc golf plans.",
-    "New here? Seven Oaks first \u2014 it's the course everyone means when they talk about Nashville disc golf."
+    "Nashville disc golf revolves around Seven Oaks — the impeccably maintained 21-hole course that's been the city's beating heart since 1989, with a bonus three-hole loop the locals treat as a warm-down. Cedar Hill in Madison adds another 21 holes with a 3-hole inner loop and varied terrain, and Crockett Park in Brentwood is the gentle rolling-hills option.",
+    "The Nashville Disc Golf Store is the local pro shop, and the Hyzer Flippers league keeps the competitive scene alive. Most of Nashville's mapped courses are free, and the community is famously welcoming — expect to leave with new friends and a few new disc golf plans. The Music City Open is a DGPT event that draws pros from across the country.",
+    "New here? Seven Oaks first — it's the course everyone means when they talk about Nashville disc golf. For gear, the Nashville Disc Golf Store and Play It Again Sports are your best bets."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "seven-oaks",
-      "x": 46,
-      "y": 42,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "cedar-hill",
-      "x": 56,
-      "y": 30,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "crockett",
-      "x": 40,
-      "y": 62,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "seven-oaks", "x": 46, "y": 42, "isGold": true },
+    { "rank": 2, "courseSlug": "cedar-hill", "x": 56, "y": 30, "isGold": false },
+    { "rank": 3, "courseSlug": "crockett", "x": 40, "y": 62, "isGold": false },
+    { "rank": 4, "courseSlug": "mccabe", "x": 44, "y": 48, "isGold": false },
+    { "rank": 5, "courseSlug": "two-rivers", "x": 52, "y": 54, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The essential Nashville round",
       "tag": "Community",
-      "courseSlugs": [
-        "seven-oaks"
-      ]
+      "courseSlugs": ["seven-oaks"]
     },
     {
       "title": "The longer loop",
       "tag": "Varied terrain",
-      "courseSlugs": [
-        "cedar-hill"
-      ]
+      "courseSlugs": ["cedar-hill"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["crockett", "two-rivers"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Wooded & technical",
+      "courseSlugs": ["seven-oaks", "mccabe"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "05", "month": "Jun", "title": "Hyzer Flippers League", "description": "Weekly league rotating across Nashville courses. All skill levels — newcomer-friendly.", "cta": "Join" },
+    { "day": "14", "month": "Jun", "title": "Seven Oaks Singles", "description": "Monthly singles event at the city's most iconic course. All divisions.", "cta": "Register" },
+    { "day": "21", "month": "Jun", "title": "Music City Open · DGPT", "description": "Disc Golf Pro Tour event at multiple Nashville courses. The city's biggest tournament.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Nashville Disc Golf Association", "meta": "500+ members · est. 1995" },
+    { "icon": "🏪", "name": "Nashville Disc Golf Store", "meta": "Nashville · dedicated pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Nashville · new & used discs" },
+    { "icon": "🥏", "name": "Hyzer Flippers", "meta": "Weekly leagues & events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Nashville"
-    },
-    {
-      "count": 1,
-      "name": "Madison"
-    },
-    {
-      "count": 1,
-      "name": "Brentwood"
-    }
+    { "count": 8, "name": "Nashville" },
+    { "count": 4, "name": "Madison" },
+    { "count": 3, "name": "Brentwood" },
+    { "count": 2, "name": "Murfreesboro" },
+    { "count": 2, "name": "Gallatin" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Nashville metro?",
-      "answer": "Around <b>25 courses</b> across the metro. We're publishing the best first \u2014 3 are live today, with more added every week."
+      "answer": "There are <b>43 courses</b> across the Nashville metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Nashville?",
-      "answer": "<b>Seven Oaks</b> \u2014 the exquisitely maintained 21-hole course that anchors the city's scene. Cedar Hill in Madison is the varied-terrain runner-up."
+      "answer": "<b>Seven Oaks</b> — the exquisitely maintained 21-hole course that anchors the city's scene. Cedar Hill in Madison is the varied-terrain runner-up."
     },
     {
       "question": "Are Nashville's disc golf courses free?",
-      "answer": "Yes \u2014 all three of our published courses (Seven Oaks, Cedar Hill, Crockett) are free to play."
+      "answer": "Most are. 41 of the 43 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Nashville?",
-      "answer": "Crockett Park in Brentwood \u2014 gentle rolling hills and a friendly layout. Seven Oaks is also welcoming despite being the local favorite."
+      "answer": "Crockett Park in Brentwood — gentle rolling hills and a friendly layout. Two Rivers is another approachable option close to downtown."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Nashville?",
+      "answer": "The Nashville Disc Golf Store is the dedicated pro shop. Play It Again Sports in Nashville carries new and used discs and starter sets."
     }
   ],
   "nearbyCities": [
-    {
-      "name": "Atlanta",
-      "courseCount": "55 courses",
-      "distance": "250 mi",
-      "slug": "/ga/atlanta"
-    }
+    { "name": "Atlanta", "courseCount": "52 courses", "distance": "250 mi", "slug": "/ga/atlanta" },
+    { "name": "Charlotte", "courseCount": "56 courses", "distance": "400 mi", "slug": "/nc/charlotte" }
   ]
 }

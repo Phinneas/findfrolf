@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bear Run Finesse \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Bear Run Finesse disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Bear Run Finesse is an 18-hole course in Houston, Texas, playing 2,331 feet at par 36. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Bear Run Finesse is an 18-hole course in Houston, Texas. It's a short, 2,331-foot layout at par 36.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

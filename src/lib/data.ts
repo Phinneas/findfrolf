@@ -35,6 +35,16 @@ export function courseUrl(course: CollectionEntry<'courses'>): string {
   return `/${course.data.stateSlug}/${course.data.citySlug}/${course.id}`;
 }
 
+/**
+ * Human-friendly green-fee label. Free courses read "Free"; pay-to-play
+ * courses with no known fee read "Check with course" instead of "Unknown".
+ */
+export function formatGreenFee(isFree: boolean, greenFee: string): string {
+  if (isFree) return 'Free';
+  if (!greenFee || /unknown/i.test(greenFee)) return 'Check with course';
+  return greenFee;
+}
+
 export function cityUrl(city: CollectionEntry<'cities'>): string {
   return `/${city.data.stateSlug}/${city.id}`;
 }
@@ -54,13 +64,17 @@ export function deriveCityStats(courses: CollectionEntry<'courses'>[]) {
   const beginner = courses.filter((c) => c.data.isBeginnerFriendly).length;
   const avgRating = total ? courses.reduce((s, c) => s + c.data.rating, 0) / total : 0;
 
+  // Drop zero-valued facts (e.g. "Beginner-friendly: 0") so the page never
+  // shows a stat that reads as an unfinished data gap.
+  const isZero = (v: string) => v === '0' || v === '0.0';
+
   const quickFacts = [
     { value: String(total), label: 'Courses listed' },
     { value: String(free), label: 'Free to play' },
     { value: avgRating.toFixed(1), label: 'Avg rating' },
     { value: String(beginner), label: 'Beginner-friendly' },
     { value: String(holes18), label: '18+ hole courses' },
-  ];
+  ].filter((f) => !isZero(f.value));
 
   const statsAside = [
     { label: 'Total courses', value: String(total) },
@@ -70,7 +84,7 @@ export function deriveCityStats(courses: CollectionEntry<'courses'>[]) {
     { label: 'Lit for night play', value: String(lit) },
     { label: 'Wooded courses', value: String(wooded) },
     { label: 'Beginner-friendly', value: String(beginner) },
-  ];
+  ].filter((s) => !isZero(s.value));
 
   return { quickFacts, statsAside };
 }

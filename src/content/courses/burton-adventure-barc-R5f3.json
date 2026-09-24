@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Burton Adventure (BARC) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Burton Adventure (BARC) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Burton Adventure (BARC) is an 12-hole course in Vashon, Washington, playing 2,767 feet at par 36. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Burton Adventure (BARC) is a 12-hole course in Vashon, Washington. A quick 2,767-foot round at par 36.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

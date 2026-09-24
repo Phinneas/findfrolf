@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Club at Stonegate Apartments DGC \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Club at Stonegate Apartments DGC disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 2.0,
+  "rating": 2,
   "reviewCount": 21,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Club at Stonegate Apartments DGC is an 9-hole course in Fort Worth, Texas, playing 2,322 feet at par 27. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Club at Stonegate Apartments DGC is a 9-hole course in Fort Worth, Texas. A quick 2,322-foot round at par 27.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

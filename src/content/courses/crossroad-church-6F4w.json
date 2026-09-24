@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Crossroad Church \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Crossroad Church disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Crossroad Church is an 9-hole course in Katy, Texas, playing 2,521 feet at par 28. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Crossroad Church is a 9-hole course in Katy, Texas. It plays a compact 2,521 feet at par 28.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

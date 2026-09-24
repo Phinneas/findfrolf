@@ -1,5 +1,5 @@
 {
-  "name": "The Meadows DiscGolfPark",
+  "name": "The Meadows Disc Golf Park",
   "code": "IL-1049",
   "city": "Tinley Park",
   "state": "Illinois",
@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "The Meadows DiscGolfPark \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "The Meadows Disc Golf Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "The Meadows DiscGolfPark is an 18-hole course in Tinley Park, Illinois, playing 6,142 feet at par 56. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "The Meadows Disc Golf Park is an 18-hole course in Tinley Park, Illinois. It runs 6,142 feet at par 56.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

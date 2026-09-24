@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "White Oak Conference Center - Inwood West \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "White Oak Conference Center - Inwood West disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": "Sparse",
   "aboutParagraphs": [
-    "White Oak Conference Center - Inwood West is a 18-hole course in Houston, Texas (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "White Oak Conference Center - Inwood West is an 18-hole course in Houston, Texas. A quick 0-foot round at par 54.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

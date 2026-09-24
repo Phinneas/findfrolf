@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "River Grove \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "River Grove disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "River Grove is an 18-hole course in Houston, Texas, playing 5,160 feet at par 55. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "River Grove is an 18-hole course in Houston, Texas. It plays 5,160 feet at par 55.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

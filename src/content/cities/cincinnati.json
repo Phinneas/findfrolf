@@ -3,85 +3,82 @@
   "state": "Ohio",
   "stateSlug": "oh",
   "heroImage": "/images/city-cincinnati.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "The Tri-State's serious disc golf runs through Kentucky \u2014 Idlewild's 24-hole marathon is one of the toughest rounds in the Midwest. We're publishing the region's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The Tri-State's serious disc golf runs through Kentucky — Idlewild's 24-hole marathon is one of the toughest rounds in the Midwest. We're publishing the region's best first.",
   "introParagraphs": [
-    "Cincinnati's marquee is Idlewild, just across the river in Burlington, Kentucky \u2014 24 holes, 9,574 feet, par 86, and a 1,001-foot signature par 5 that has humbled the region's best since it opened. Lincoln Ridge in Independence, Kentucky adds another 24-hole loop with lake, road, and creek all in play as OB.",
-    "On the Ohio side, Mt. Airy Forest is the pro-caliber original \u2014 the course that hosted the 1995 Am Worlds and 1998 Pro Worlds, with punishing rough and constant elevation. All three of our published Cincinnati courses are free.",
-    "New here? Mt. Airy is the historic test; Idlewild is the pilgrimage."
+    "Cincinnati's marquee is Idlewild, just across the river in Burlington, Kentucky — 24 holes, 9,574 feet, par 86, and a 1,001-foot signature par 5 that has humbled the region's best since it opened. Lincoln Ridge in Independence, Kentucky adds another 24-hole loop with lake, road, and creek all in play as OB.",
+    "On the Ohio side, Mt. Airy Forest is the pro-caliber original — the course that hosted the 1995 Am Worlds and 1998 Pro Worlds, with punishing rough and constant elevation. The Founding Fathers Disc Golf Club runs weekly events, and The Nati Disc Golf is the local pro shop. The 2026 LWS Open at Idlewild brings the DGPT to the region.",
+    "New here? Mt. Airy is the historic test; Idlewild is the pilgrimage. For gear, The Nati Disc Golf and Play It Again Sports are the local options."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "idlewild",
-      "x": 42,
-      "y": 62,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "mt-airy",
-      "x": 44,
-      "y": 34,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "lincoln-ridge",
-      "x": 56,
-      "y": 58,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "idlewild", "x": 42, "y": 62, "isGold": true },
+    { "rank": 2, "courseSlug": "mt-airy", "x": 44, "y": 34, "isGold": false },
+    { "rank": 3, "courseSlug": "lincoln-ridge", "x": 56, "y": 58, "isGold": false },
+    { "rank": 4, "courseSlug": "burnet-woods", "x": 48, "y": 42, "isGold": false },
+    { "rank": 5, "courseSlug": "embshoff-woods", "x": 38, "y": 48, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The marathon",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "idlewild"
-      ]
+      "courseSlugs": ["idlewild"]
     },
     {
       "title": "The historic test",
       "tag": "Worlds history",
-      "courseSlugs": [
-        "mt-airy"
-      ]
+      "courseSlugs": ["mt-airy"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["burnet-woods", "lincoln-ridge"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Championship",
+      "courseSlugs": ["idlewild", "mt-airy"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "04", "month": "Jun", "title": "Founding Fathers Weekly League", "description": "Weekly league rotating across Cincinnati-area courses. All skill levels.", "cta": "Join" },
+    { "day": "14", "month": "Jun", "title": "Idlewild Doubles", "description": "Random doubles at the region's most famous course. A bucket-list experience.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "LWS Open at Idlewild · DGPT", "description": "Disc Golf Pro Tour event at Idlewild. The region's biggest tournament.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Founding Fathers Disc Golf Club", "meta": "300+ members · est. 2007" },
+    { "icon": "🏪", "name": "The Nati Disc Golf", "meta": "Cincinnati · dedicated pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Cincinnati · new & used discs" },
+    { "icon": "🥏", "name": "Tri-State Disc Golf", "meta": "Weekly leagues & events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Burlington, KY"
-    },
-    {
-      "count": 1,
-      "name": "Cincinnati"
-    },
-    {
-      "count": 1,
-      "name": "Independence, KY"
-    }
+    { "count": 6, "name": "Cincinnati" },
+    { "count": 4, "name": "Burlington, KY" },
+    { "count": 3, "name": "Independence, KY" },
+    { "count": 2, "name": "Mt. Airy" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Cincinnati metro?",
-      "answer": "Around <b>25 courses</b> across the metro including Northern Kentucky. We're publishing the best first \u2014 3 are live today, with more added every week."
+      "answer": "There are <b>22 courses</b> across the Cincinnati metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Cincinnati?",
-      "answer": "<b>Idlewild</b> in Burlington, Kentucky \u2014 a 24-hole, 9,574-foot championship marathon with a 1,001-foot signature par 5. It's the most famous round in the region."
+      "answer": "<b>Idlewild</b> in Burlington, Kentucky — a 24-hole, 9,574-foot championship marathon with a 1,001-foot signature par 5. It's the most famous round in the region."
     },
     {
       "question": "Are Cincinnati's disc golf courses free?",
-      "answer": "Yes \u2014 all three of our published courses (Idlewild, Mt. Airy, Lincoln Ridge) are free to play."
+      "answer": "Most are. 20 of the 22 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Cincinnati?",
-      "answer": "None of the published three are beginner-friendly \u2014 this is a serious disc golf market. Start with Lincoln Ridge's 24 par 3s and work up to Idlewild."
+      "answer": "Burnet Woods is the most beginner-friendly option in the metro — a park course with shorter holes. Lincoln Ridge is another approachable choice with 24 par 3s."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Cincinnati?",
+      "answer": "The Nati Disc Golf is the dedicated pro shop. Play It Again Sports in Cincinnati carries new and used discs."
     }
   ],
-  "nearbyCities": []
+  "nearbyCities": [
+    { "name": "Louisville", "courseCount": "18 courses", "distance": "100 mi", "slug": "#" }
+  ]
 }

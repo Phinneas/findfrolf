@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Carellton Neighborhood \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Carellton Neighborhood disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Carellton Neighborhood is an 3-hole course in Gallatin, Tennessee, playing 755 feet at par 9. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Carellton Neighborhood is a 3-hole course in Gallatin, Tennessee. It's a short, 755-foot layout at par 9.",
+    "A gentle, approachable round with short, gettable holes throughout. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

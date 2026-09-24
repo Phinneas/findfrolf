@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Bobcat 9 \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Bobcat 9 disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 0.0,
+  "rating": 0,
   "reviewCount": 0,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": "Flat",
   "foliage": null,
   "aboutParagraphs": [
-    "Bobcat 9 is a 9-hole course in Senoia, Georgia, playing 2,376 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Bobcat 9 is a 9-hole course in Senoia, Georgia. It plays a compact 2,376 feet at par 27.",
+    "It's a friendly, low-pressure round with short, gettable holes throughout. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

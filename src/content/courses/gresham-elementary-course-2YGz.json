@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Gresham Elementary course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Gresham Elementary course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 5.0,
+  "rating": 5,
   "reviewCount": 1,
   "tags": [
     "Free",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Gresham Elementary course is an 9-hole course in Atlanta, Georgia, playing 3,032 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-04."
+    "Gresham Elementary course is a 9-hole course in Atlanta, Georgia. A quick 3,032-foot round at par 30.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

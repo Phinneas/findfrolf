@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Pioneer Creek Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Pioneer Creek Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Pioneer Creek Park is an 9-hole course in Independence, Minnesota, playing 2,075 feet at par 30. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Pioneer Creek Park is a 9-hole course in Independence, Minnesota. It's a short, 2,075-foot layout at par 30.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

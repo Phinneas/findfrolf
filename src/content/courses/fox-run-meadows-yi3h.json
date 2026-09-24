@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Fox Run Meadows \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Fox Run Meadows disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Fox Run Meadows is an 18-hole course in Cambridge, Vermont, playing 8,675 feet at par 63. Sourced from UDisc on 2026-09-10."
+    "Fox Run Meadows is an 18-hole course in Cambridge, Vermont. It runs a long 8,675 feet at par 63.",
+    "A balanced test that rewards smart lines with real length on the drive holes. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

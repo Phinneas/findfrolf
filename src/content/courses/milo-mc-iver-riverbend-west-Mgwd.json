@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Milo McIver (Riverbend West) \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Milo McIver (Riverbend West) disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Milo McIver (Riverbend West) is an 18-hole course in Estacada, Oregon, playing 6,383 feet at par 57. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Milo McIver (Riverbend West) is an 18-hole course in Estacada, Oregon. The layout stretches 6,383 feet at par 57.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

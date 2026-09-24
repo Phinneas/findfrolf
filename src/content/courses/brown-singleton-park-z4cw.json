@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Brown-Singleton Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Brown-Singleton Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Brown-Singleton Park is an 21-hole course in Waxahachie, Texas, playing 6,426 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Brown-Singleton Park is a 21-hole course in Waxahachie, Texas. It plays 6,426 feet at par 63.",
+    "An easy-going round for all arms. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,

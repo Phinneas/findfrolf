@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Wooded disc golf course illustration">
+  <defs>
+    <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0d2"/>
+      <stop offset="1" stop-color="#eef1e4"/>
+    </linearGradient>
+    <linearGradient id="wground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d8f57"/>
+      <stop offset="1" stop-color="#3f5a37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="470" fill="url(#wsky)"/>
+  <circle cx="150" cy="110" r="48" fill="#edb441" opacity="0.9"/>
+
+  <!-- tree trunks -->
+  <g fill="#5a4632">
+    <rect x="88" y="300" width="30" height="180" rx="6"/>
+    <rect x="180" y="260" width="34" height="220" rx="6"/>
+    <rect x="300" y="320" width="26" height="160" rx="6"/>
+    <rect x="500" y="280" width="32" height="200" rx="6"/>
+    <rect x="610" y="250" width="36" height="230" rx="6"/>
+    <rect x="710" y="300" width="28" height="180" rx="6"/>
+  </g>
+  <!-- canopy -->
+  <g fill="#21402f">
+    <ellipse cx="103" cy="290" rx="66" ry="74"/>
+    <ellipse cx="197" cy="248" rx="74" ry="84"/>
+    <ellipse cx="313" cy="308" rx="58" ry="64"/>
+    <ellipse cx="516" cy="270" rx="70" ry="78"/>
+    <ellipse cx="628" cy="238" rx="80" ry="90"/>
+    <ellipse cx="724" cy="292" rx="62" ry="68"/>
+  </g>
+  <g fill="#2e5e43" opacity="0.7">
+    <ellipse cx="140" cy="300" rx="44" ry="46"/>
+    <ellipse cx="560" cy="282" rx="48" ry="50"/>
+    <ellipse cx="680" cy="300" rx="40" ry="42"/>
+  </g>
+
+  <path d="M0 470 L800 470 L800 600 L0 600 Z" fill="url(#wground)"/>
+
+  <g>
+    <circle cx="300" cy="200" r="34" fill="#edb441"/>
+    <circle cx="300" cy="200" r="34" fill="none" stroke="#d35a35" stroke-width="5"/>
+    <circle cx="300" cy="200" r="10" fill="#f7d78a"/>
+    <path d="M342 244 q 42 -22 60 -40" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="388" y="306" width="24" height="18" rx="4" fill="#d35a35"/>
+    <rect x="376" y="322" width="48" height="9" rx="4.5" fill="#4a3d2f"/>
+    <g stroke="#8a7a66" stroke-width="3" stroke-linecap="round">
+      <line x1="381" y1="331" x2="381" y2="398"/>
+      <line x1="400" y1="331" x2="400" y2="398"/>
+      <line x1="419" y1="331" x2="419" y2="398"/>
+    </g>
+    <rect x="396" y="331" width="8" height="96" rx="3" fill="#6b5840"/>
+    <ellipse cx="400" cy="418" rx="36" ry="13" fill="#b3441f"/>
+    <ellipse cx="400" cy="413" rx="36" ry="13" fill="#e8754f"/>
+    <ellipse cx="400" cy="413" rx="20" ry="7" fill="#f6a07f"/>
+  </g>
+</svg>

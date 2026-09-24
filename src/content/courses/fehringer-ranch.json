@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Fehringer Ranch — photo coming soon",
-      "caption": "Placeholder — real photo pending (Photo Sourcing Policy fallback)"
+      "url": "/images/course-open.svg",
+      "alt": "Fehringer Ranch disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-open.svg",
+  "thumbnail": "/images/course-open.svg",
   "rating": 4.2,
   "reviewCount": 6763,
   "tags": [

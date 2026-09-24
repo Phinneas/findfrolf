@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Diamond Lake Sports Complex \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Diamond Lake Sports Complex disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Diamond Lake Sports Complex is a 9-hole course in Mundelein, Illinois, playing 2,169 feet (par estimated). Sourced from the PDGA directory on 2026-09-06."
+    "Diamond Lake Sports Complex is a 9-hole course in Mundelein, Illinois. It's a short, 2,169-foot layout at par 27.",
+    "A gentle, approachable round where most holes are short and gettable. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

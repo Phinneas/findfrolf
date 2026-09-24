@@ -3,85 +3,84 @@
   "state": "Colorado",
   "stateSlug": "co",
   "heroImage": "/images/city-denver.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "Mile-high disc golf where the foothills meet the plains \u2014 from the pine corridors of Beaver Ranch to the most-played course in the country. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "Mile-high disc golf where the foothills meet the plains — from the pine corridors of Beaver Ranch to the most-played course in the country. We're publishing the metro's best first.",
   "introParagraphs": [
-    "Denver disc golf runs on altitude and attitude. The metro's crown jewel is Beaver Ranch in the foothills above Conifer \u2014 a mountain course with three tee sets that turns the same 21 holes into a friendly loop or a 7,500-foot monster. Closer to town, Bird's Nest is one of the most-played courses in the United States, and Fehringer Ranch offers the city's best practice area with the foothills as a backdrop.",
-    "The thin air is real \u2014 discs fly farther here, which makes the big holes slightly kinder and the short holes sneakier. Come for the scenery, stay for the community.",
-    "New to the area? Start at Fehringer Ranch, then graduate to the wooded tests once your lines are dialed."
+    "Denver disc golf runs on altitude and attitude. The metro's crown jewel is Beaver Ranch in the foothills above Conifer — a mountain course with three tee sets that turns the same 21 holes into a friendly loop or a 7,500-foot monster. Closer to town, Bird's Nest is one of the most-played courses in the United States, and Fehringer Ranch offers the city's best practice area with the foothills as a backdrop.",
+    "The thin air is real — discs fly farther here, which makes the big holes slightly kinder and the short holes sneakier. The Dragon Disc Golf Club runs Wednesday tags and weekend doubles, and the community is one of the friendliest in the West. Winter play is year-round on the lower-elevation courses, though snow shovels are standard equipment from November through March.",
+    "New to the area? Start at Fehringer Ranch, then graduate to the wooded tests once your lines are dialed. For gear, Bad Habit Disc Golf & Collectibles in Denver is the local shop, and Play It Again Sports carries new and used discs."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "beaver-ranch",
-      "x": 30,
-      "y": 32,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "birds-nest",
-      "x": 58,
-      "y": 46,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "fehringer-ranch",
-      "x": 48,
-      "y": 68,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "beaver-ranch", "x": 30, "y": 32, "isGold": true },
+    { "rank": 2, "courseSlug": "birds-nest", "x": 58, "y": 46, "isGold": false },
+    { "rank": 3, "courseSlug": "fehringer-ranch", "x": 48, "y": 68, "isGold": false },
+    { "rank": 4, "courseSlug": "armstrong", "x": 42, "y": 54, "isGold": false },
+    { "rank": 5, "courseSlug": "pfrock", "x": 36, "y": 40, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The mountain round",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "beaver-ranch"
-      ]
+      "courseSlugs": ["beaver-ranch"]
     },
     {
       "title": "The most-played course in America",
       "tag": "Must play",
-      "courseSlugs": [
-        "birds-nest"
-      ]
+      "courseSlugs": ["birds-nest"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["fehringer-ranch", "armstrong"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Wooded & technical",
+      "courseSlugs": ["beaver-ranch", "pfrock"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "04", "month": "Jun", "title": "Dragon DGC Wednesday Tags", "description": "Weekly tag league rotating across Denver courses. All skill levels welcome.", "cta": "Join" },
+    { "day": "08", "month": "Jun", "title": "Park Hill Doubles", "description": "Random doubles at Park Hill DGC. Coffee provided, paired with a local.", "cta": "Join" },
+    { "day": "21", "month": "Jun", "title": "Colorado State Championship · A-Tier", "description": "PDGA A-tier at Beaver Ranch. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Dragon Disc Golf Club", "meta": "600+ members · est. 2008" },
+    { "icon": "🏪", "name": "Bad Habit Disc Golf & Collectibles", "meta": "Denver · full pro shop" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Centennial · new & used discs" },
+    { "icon": "🥏", "name": "Park Hill DGC", "meta": "Weekly doubles & tags" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Conifer"
-    },
-    {
-      "count": 1,
-      "name": "Arvada"
-    },
-    {
-      "count": 1,
-      "name": "Littleton"
-    }
+    { "count": 8, "name": "Denver" },
+    { "count": 6, "name": "Arvada" },
+    { "count": 5, "name": "Littleton" },
+    { "count": 4, "name": "Lakewood" },
+    { "count": 3, "name": "Conifer" },
+    { "count": 2, "name": "Boulder" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Denver metro?",
-      "answer": "Around <b>55 courses</b> across the metro including the foothills communities. We're publishing the best first \u2014 3 are live today, with more added every week."
+      "answer": "There are <b>57 courses</b> across the Denver metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Denver?",
-      "answer": "By player rating, <b>Beaver Ranch</b> is the metro's most-loved course \u2014 a pay-to-play mountain course with three tee sets and 21 holes. Bird's Nest in Arvada is the most-played course in the country if you want the full community experience."
+      "answer": "By player rating, <b>Beaver Ranch</b> is the metro's most-loved course — a pay-to-play mountain course with three tee sets and 21 holes. Bird's Nest in Arvada is the most-played course in the country if you want the full community experience."
     },
     {
       "question": "Are Denver's disc golf courses free?",
-      "answer": "All three of our published courses are free to play, including the most-played Bird's Nest. Beaver Ranch is the exception as a pay-to-play destination course."
+      "answer": "Most are. 48 of the 57 mapped courses are free to play, and 9 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Denver?",
-      "answer": "Fehringer Ranch is the friendliest of the published trio \u2014 open fairways, the city's best practice area, and views of the foothills to make the walk worth it."
+      "answer": "Fehringer Ranch is one of the friendliest published courses — open fairways, the city's best practice area, and views of the foothills to make the walk worth it."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Denver?",
+      "answer": "Bad Habit Disc Golf & Collectibles in Denver is the dedicated pro shop. Play It Again Sports in Centennial carries new and used discs and starter sets."
     }
   ],
-  "nearbyCities": []
+  "nearbyCities": [
+    { "name": "Colorado Springs", "courseCount": "18 courses", "distance": "70 mi", "slug": "#" }
+  ]
 }

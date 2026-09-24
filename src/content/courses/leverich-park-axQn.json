@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Leverich Park \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Leverich Park disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Leverich Park is an 12-hole course in Vancouver, Washington, playing 3,050 feet at par 37. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Leverich Park is a 12-hole course in Vancouver, Washington. It's a short, 3,050-foot layout at par 37.",
+    "It's a friendly, low-pressure round where most holes are short and gettable. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

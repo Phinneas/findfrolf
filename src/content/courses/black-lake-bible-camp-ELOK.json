@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Black Lake Bible Camp \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Black Lake Bible Camp disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -58,7 +57,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Black Lake Bible Camp is an 9-hole course in Olympia, Washington, playing 1,737 feet at par 27. Course details sourced from UDisc on 2026-09-04."
+    "Black Lake Bible Camp is a 9-hole course in Olympia, Washington. It plays a compact 1,737 feet at par 27.",
+    "An easy-going round for all arms where most holes are short and gettable. It's pay-to-play — check with the course for current green fees."
   ],
   "holeData": [],
   "layoutMapUrl": null,

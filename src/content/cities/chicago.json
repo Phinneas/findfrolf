@@ -3,88 +3,80 @@
   "state": "Illinois",
   "stateSlug": "il",
   "heroImage": "/images/city-chicago.svg",
-  "heroFlag": "\ud83d\udccd City guide \u00b7 Updated August 2026",
-  "lede": "The Canyons, the Oaks, and a deep bench of park gems \u2014 Chicago's disc golf lives in the suburbs and it is seriously good. We're publishing the metro's best first.",
+  "heroFlag": "📍 City guide · Updated August 2026",
+  "lede": "The Canyons, the Oaks, and a deep bench of park gems — Chicago's disc golf lives in the suburbs and it is seriously good. We're publishing the metro's best first.",
   "introParagraphs": [
     "Chicago's disc golf scene is a suburban circuit with a superstar: The Canyons at Dellwood Park in Lockport, a 27-hole championship layout with variant holes, water hazards, and an on-site pro shop that draws players from across the Midwest. The Oaks in Mokena offers another 27-hole marathon through giant oaks, free and friendly.",
-    "Katherine Legge in Hinsdale is the gentle park-style course with a dog park attached, and Highland Park in Joliet rounds out the top tier with wooded-and-open variety. All four of our published Chicago courses are free.",
-    "New here? Start at Katherine Legge, then work your way up to The Canyons \u2014 it's a full day."
+    "Katherine Legge in Hinsdale is the gentle park-style course with a dog park attached, and Highland Park in Joliet rounds out the top tier with wooded-and-open variety. The Birdbrain Disc Golf Club runs weekly events, and Play It Again Sports is the local gear shop. Nearly all of Chicago's mapped courses are free to play.",
+    "New here? Start at Katherine Legge, then work your way up to The Canyons — it's a full day."
   ],
   "mapPins": [
-    {
-      "rank": 1,
-      "courseSlug": "the-canyons",
-      "x": 32,
-      "y": 62,
-      "isGold": true
-    },
-    {
-      "rank": 2,
-      "courseSlug": "the-oaks",
-      "x": 44,
-      "y": 52,
-      "isGold": false
-    },
-    {
-      "rank": 3,
-      "courseSlug": "katherine-legge",
-      "x": 56,
-      "y": 34,
-      "isGold": false
-    }
+    { "rank": 1, "courseSlug": "the-canyons", "x": 32, "y": 62, "isGold": true },
+    { "rank": 2, "courseSlug": "the-oaks", "x": 44, "y": 52, "isGold": false },
+    { "rank": 3, "courseSlug": "katherine-legge", "x": 56, "y": 34, "isGold": false },
+    { "rank": 4, "courseSlug": "highland-park", "x": 40, "y": 44, "isGold": false },
+    { "rank": 5, "courseSlug": "black-bear", "x": 50, "y": 38, "isGold": false }
   ],
   "bestFor": [
     {
       "title": "The championship 27",
       "tag": "Bucket list",
-      "courseSlugs": [
-        "the-canyons"
-      ]
+      "courseSlugs": ["the-canyons"]
     },
     {
       "title": "The friendly park round",
       "tag": "Family friendly",
-      "courseSlugs": [
-        "katherine-legge"
-      ]
+      "courseSlugs": ["katherine-legge"]
+    },
+    {
+      "title": "Your first round",
+      "tag": "Beginner-friendly",
+      "courseSlugs": ["katherine-legge", "the-oaks"]
+    },
+    {
+      "title": "A real challenge",
+      "tag": "Championship",
+      "courseSlugs": ["the-canyons", "highland-park"]
     }
   ],
-  "events": [],
-  "clubs": [],
+  "events": [
+    { "day": "02", "month": "Jun", "title": "Birdbrain @ Black Bear", "description": "Weekly doubles at Black Bear. One of the Chicago area's most popular events.", "cta": "Join" },
+    { "day": "10", "month": "Jun", "title": "Early Bird Disc Golf League", "description": "Morning league rotating across suburban courses. All skill levels.", "cta": "Join" },
+    { "day": "28", "month": "Jun", "title": "Illinois State Championship · A-Tier", "description": "PDGA A-tier at The Canyons. Divisions from Novice to MPO.", "cta": "Register" }
+  ],
+  "clubs": [
+    { "icon": "🥏", "name": "Birdbrain Disc Golf Club", "meta": "300+ members · est. 2009" },
+    { "icon": "🏪", "name": "The Canyons Pro Shop", "meta": "Lockport · on-site at Dellwood Park" },
+    { "icon": "🏪", "name": "Play It Again Sports", "meta": "Schaumburg · new & used discs" },
+    { "icon": "🥏", "name": "Early Bird Disc Golf", "meta": "Morning leagues & events" }
+  ],
   "areas": [
-    {
-      "count": 1,
-      "name": "Lockport"
-    },
-    {
-      "count": 1,
-      "name": "Mokena"
-    },
-    {
-      "count": 1,
-      "name": "Hinsdale"
-    },
-    {
-      "count": 1,
-      "name": "Joliet"
-    }
+    { "count": 18, "name": "Chicago suburbs" },
+    { "count": 5, "name": "Lockport" },
+    { "count": 4, "name": "Mokena" },
+    { "count": 3, "name": "Hinsdale" },
+    { "count": 3, "name": "Joliet" }
   ],
   "faqs": [
     {
       "question": "How many disc golf courses are in the Chicago metro?",
-      "answer": "Around <b>65 courses</b> across the metro and its suburbs. We're publishing the best first \u2014 4 are live today, with more added every week."
+      "answer": "There are <b>79 courses</b> across the Chicago metro and its suburbs, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Chicago?",
-      "answer": "<b>The Canyons at Dellwood Park</b> \u2014 a 27-hole championship layout with variant holes, water hazards, and an on-site pro shop. It's the highest-rated course in the metro by a wide margin."
+      "answer": "<b>The Canyons at Dellwood Park</b> — a 27-hole championship layout with variant holes, water hazards, and an on-site pro shop. It's the highest-rated course in the metro by a wide margin."
     },
     {
       "question": "Are Chicago's disc golf courses free?",
-      "answer": "Yes \u2014 all four of our published courses (The Canyons, The Oaks, Katherine Legge, Highland Park) are free to play."
+      "answer": "Most are. 77 of the 79 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Chicago?",
-      "answer": "Katherine Legge in Hinsdale \u2014 a short, friendly park course that also doubles as a dog park. The Oaks is another approachable option with its 27 gentle holes."
+      "answer": "Katherine Legge in Hinsdale — a short, friendly park course that also doubles as a dog park. The Oaks is another approachable option with its 27 gentle holes."
+    },
+    {
+      "question": "Where can I buy disc golf gear in Chicago?",
+      "answer": "The Canyons Pro Shop at Dellwood Park is the on-site option. Play It Again Sports in Schaumburg carries new and used discs."
     }
   ],
   "nearbyCities": []

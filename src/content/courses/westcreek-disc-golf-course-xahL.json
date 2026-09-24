@@ -26,8 +26,7 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Westcreek Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Westcreek Disc Golf Course disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Westcreek Disc Golf Course is an 18-hole course in Parker, Colorado, playing 7,067 feet at par 63. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Westcreek Disc Golf Course is an 18-hole course in Parker, Colorado. The layout reaches 7,067 feet at par 63.",
+    "A balanced test that rewards smart lines where the longest holes let big arms air it out. It's free to play."
   ],
   "holeData": [],
   "layoutMapUrl": null,

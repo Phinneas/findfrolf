@@ -25,13 +25,12 @@
   "websiteUrl": null,
   "photos": [
     {
-      "url": "/images/course-placeholder.svg",
-      "alt": "Coldwater Ranch 2.0-CWR Disc Golf Course \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "url": "/images/course-desert.svg",
+      "alt": "Coldwater Ranch 2.0-CWR Disc Golf Course disc golf course"
     }
   ],
-  "heroImage": "/images/course-placeholder.svg",
-  "thumbnail": "/images/course-placeholder.svg",
+  "heroImage": "/images/course-desert.svg",
+  "thumbnail": "/images/course-desert.svg",
   "rating": 3.7,
   "reviewCount": 139,
   "tags": [
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Coldwater Ranch 2.0-CWR Disc Golf Course is an 18-hole course in Peoria, Arizona, playing 5,761 feet at par 59. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Coldwater Ranch 2.0-CWR Disc Golf Course is an 18-hole course in Peoria, Arizona. It plays 5,761 feet at par 59.",
+    "It's a friendly, low-pressure round. There's no green fee."
   ],
   "holeData": [],
   "layoutMapUrl": null,

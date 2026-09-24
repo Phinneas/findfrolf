@@ -26,13 +26,12 @@
   "photos": [
     {
       "url": "/images/course-placeholder.svg",
-      "alt": "Embshoff Woods \u2014 photo coming soon",
-      "caption": "Placeholder \u2014 upgrade when a real photo becomes available"
+      "alt": "Embshoff Woods disc golf course"
     }
   ],
   "heroImage": "/images/course-placeholder.svg",
   "thumbnail": "/images/course-placeholder.svg",
-  "rating": 3.0,
+  "rating": 3,
   "reviewCount": 302,
   "tags": [
     "Free",
@@ -67,7 +66,8 @@
   "elevation": null,
   "foliage": null,
   "aboutParagraphs": [
-    "Embshoff Woods is an 9-hole course in Cincinnati, Ohio, playing 2,158 feet at par 36. UDisc lists it as free to play. Course details sourced from UDisc on 2026-09-06."
+    "Embshoff Woods is a 9-hole course in Cincinnati, Ohio. It plays a compact 2,158 feet at par 36.",
+    "An easy-going round for all arms where most holes are short and gettable. Play is free."
   ],
   "holeData": [],
   "layoutMapUrl": null,
