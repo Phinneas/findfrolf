@@ -12,7 +12,11 @@
     "astro": "astro",
     "check:courses": "node scripts/check-courses.mjs",
     "generate:listicles": "node scripts/generate-listicles.mjs",
-    "count:metros": "node scripts/count-metro-courses.mjs"
+    "count:metros": "node scripts/count-metro-courses.mjs",
+    "test": "vitest run",
+    "seed:observations": "node scripts/seed-observations.mjs",
+    "export:trust": "node scripts/export-trust.mjs",
+    "db:migrate": "wrangler d1 migrations apply findfrolf-trust --remote --config worker/wrangler.toml"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
@@ -20,7 +24,10 @@
     "tailwindcss": "^4.3.2"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260924.1",
     "topojson-client": "^3.1.0",
-    "us-atlas": "^3.0.1"
+    "us-atlas": "^3.0.1",
+    "vitest": "^5.0.1",
+    "wrangler": "^4.139.0"
   }
 }

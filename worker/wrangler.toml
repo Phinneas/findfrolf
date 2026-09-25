@@ -1,0 +1,16 @@
+# Cloudflare Worker for the Course Trust Data Layer (docs/HANDOFF-data-layer.md).
+# Placeholder values — replace `database_id` and confirm the binding name with
+# Buzz (open question #3) before running any remote command.
+
+name = "findfrolf-trust"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"                       # referenced as env.DB in worker code
+database_name = "findfrolf-trust"    # TODO: confirm actual D1 name with Buzz
+database_id = "REPLACE_WITH_DATABASE_ID"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["0 7 * * *"]                # nightly resolver run (07:00 UTC)

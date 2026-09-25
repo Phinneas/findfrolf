@@ -15,6 +15,16 @@ export async function getCity(slug: string): Promise<CollectionEntry<'cities'> |
   return cities.find((c) => c.id === slug);
 }
 
+/**
+ * Return the generated trust snapshot for a course slug, or `undefined` when
+ * no snapshot exists yet. Callers must treat `undefined` as "unverified" so a
+ * course with no trust file still renders exactly as before.
+ */
+export async function getTrust(slug: string): Promise<CollectionEntry<'trust'> | undefined> {
+  const trust = await getCollection('trust');
+  return trust.find((t) => t.id === slug);
+}
+
 export async function getAllCourses(): Promise<CollectionEntry<'courses'>[]> {
   const courses = await getCollection('courses');
   return courses.sort((a, b) => b.data.rating - a.data.rating);
