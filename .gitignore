@@ -40,6 +40,9 @@ pnpm-debug.log*
 # scratch copy of the project (vite-excluded)
 absent-apogee/
 
+# Cloudflare Wrangler local state (SQLite/dev artifacts, regenerable)
+.wrangler/
+
 # agent tooling
 .mimocode/
 
