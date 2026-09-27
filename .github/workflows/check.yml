@@ -1,25 +1,11 @@
 name: course-data-check
 
-# Fails the build if a course file is missing required fields or violates the
-# schema — runs on any change to course/city content or the check script.
+# Validates course data and builds the site. Runs on every push to main and
+# every pull request — no path filters, so any change triggers a build.
 on:
   push:
     branches: [main]
-    paths:
-      - 'src/content/courses/**'
-      - 'src/content/cities/**'
-      - 'src/content.config.ts'
-      - 'scripts/**'
-      - 'package.json'
-      - 'package-lock.json'
   pull_request:
-    paths:
-      - 'src/content/courses/**'
-      - 'src/content/cities/**'
-      - 'src/content.config.ts'
-      - 'scripts/**'
-      - 'package.json'
-      - 'package-lock.json'
 
 jobs:
   check:
