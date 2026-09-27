@@ -16,7 +16,8 @@
     "test": "vitest run",
     "seed:observations": "node scripts/seed-observations.mjs",
     "export:trust": "node scripts/export-trust.mjs",
-    "db:migrate": "wrangler d1 migrations apply findfrolf-trust --remote --config worker/wrangler.toml"
+    "db:migrate": "wrangler d1 migrations apply findfrolf-trust --remote --config worker/wrangler.toml",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=findfrolf --commit-dirty --branch=main"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
