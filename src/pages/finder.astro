@@ -145,7 +145,7 @@ const finderSchemas = [
         name: 'How are disc golf courses ranked on FindFrolf?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Courses are ranked by player rating by default, and by distance when you use the near-me feature. Every course includes real hole-by-hole data, verified ratings, and editorial notes from local players.',
+          text: 'Courses are ranked by player rating by default, and by distance when you use the near-me feature. Every course lists holes, par, length, difficulty, cost, and its public player rating.',
         },
       },
       {
@@ -449,7 +449,7 @@ const finderSchemas = [
         ['How do I find disc golf courses near me?', "Tap the <b>Near me</b> button on this page and the finder sorts every course by distance from your location — you'll see the closest courses instantly, no typing required."],
         ['What does the FindFrolf disc golf course finder do?', 'Search by city or course name, filter by difficulty, hole count, length, cost, and amenities, and explore every course on an interactive map.'],
         ['Is the disc golf course finder free?', "Yes — the finder is free, and so are most of the courses it lists. Each course page shows whether it's free to play or pay-to-play."],
-        ['How are disc golf courses ranked?', 'By player rating by default, and by distance when you use near me. Every course includes real hole-by-hole data and verified ratings.'],
+        ['How are disc golf courses ranked?', 'By player rating by default, and by distance when you use near me. Every course lists holes, par, length, difficulty, and its public player rating.'],
         ['Can I browse the disc golf course finder by state?', 'Yes — scroll to <b>Browse by state</b> below the city list. Each state page shows every course we\'ve mapped there, with the top-rated picks up front and a link back into the full finder to filter by difficulty, holes, cost, or amenities.'],
       ].map(([q, a]) => (
         <div class="border-b border-line py-6">

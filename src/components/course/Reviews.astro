@@ -25,7 +25,7 @@ function starString(stars: number): string {
   <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-2">
     What players <em class="italic text-clay">are saying</em>
   </h2>
-  <p class="text-ink-soft text-[15px] mb-6">From verified rounds · {reviewCount.toLocaleString()} reviews · {avgRating} average</p>
+  <p class="text-ink-soft text-[15px] mb-6">{avgRating} average from {reviewCount.toLocaleString()} public player ratings{reviews.length === 0 && ' · no Find Frolf reviews yet'}</p>
 
   {reviews.map((review) => (
     <div class="flex gap-4 py-6 border-b border-line last:border-b-0">
