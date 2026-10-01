@@ -7,9 +7,24 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  /** Override the canonical path (e.g. '/finder'). Defaults to the current URL path. */
+  canonicalPath?: string;
+  /** Emit `noindex` and skip the canonical tag (e.g. the 404 page). */
+  noindex?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, description, canonicalPath, noindex = false } = Astro.props;
+
+// One canonical form for every page: https://findfrolf.com + path with no
+// trailing slash and no `.html` (the root stays `/`). Query strings are dropped.
+const SITE = 'https://findfrolf.com';
+function normalizePath(path: string): string {
+  let p = path.split(/[?#]/)[0] || '/';
+  p = p.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+  if (p.length > 1) p = p.replace(/\/+$/, '');
+  return p || '/';
+}
+const canonicalUrl = SITE + normalizePath(canonicalPath ?? Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -19,6 +34,7 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonicalUrl} />}
     <meta name="google-adsense-account" content="ca-pub-5424097145643842" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

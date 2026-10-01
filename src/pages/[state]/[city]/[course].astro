@@ -83,12 +83,9 @@ const courseSchema = {
   ...(hasHours ? { openingHours } : {}),
   priceRange: greenFeeLabel,
   sport: 'Disc Golf',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: course.data.rating,
-    reviewCount: course.data.reviewCount,
-    bestRating: 5,
-  },
+  // No aggregateRating: the rating and count come from third-party player data
+  // (UDisc), and Google's review-snippet policy only allows ratings collected
+  // on this site. Re-add once Find Frolf has first-party reviews.
 };
 ---
 
