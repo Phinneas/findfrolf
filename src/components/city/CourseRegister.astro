@@ -1,5 +1,5 @@
 ---
-import { courseUrl, formatGreenFee } from '../../lib/data';
+import { courseUrl, formatGreenFee, isPlaceholderImage } from '../../lib/data';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -21,7 +21,7 @@ const fmtFeet = (n: number) => (n > 0 ? `${n.toLocaleString('en-US')} ft` : '—
     The best disc golf courses {cityName && <em class="italic text-clay">in {cityName}</em>}
   </h2>
   <p class="text-base text-ink-soft max-w-[580px] mb-10">
-    Ordered by player rating across verified rounds. Filter by what you're in the mood for.
+    Ordered by player rating (sourced from UDisc). Filter by what you're in the mood for.
   </p>
 
   <div class="flex gap-2.5 flex-wrap mb-8">
@@ -54,7 +54,11 @@ const fmtFeet = (n: number) => (n > 0 ? `${n.toLocaleString('en-US')} ft` : '—
           <tr class="border-b border-line transition-colors hover:bg-cream-2">
             <td class="px-5 py-4">
               <a href={courseUrl(course)} class="no-underline text-inherit flex items-center gap-3.5">
-                <img src={course.data.thumbnail} alt="" loading="lazy" class="shrink-0 w-12 h-[46px] rounded-md object-cover border-[1.5px] border-forest" />
+                {isPlaceholderImage(course.data.thumbnail) ? (
+                  <span class="shrink-0 w-12 h-[46px] rounded-md border-[1.5px] border-line bg-cream-2 flex items-center justify-center text-moss text-[10px]">—</span>
+                ) : (
+                  <img src={course.data.thumbnail} alt="" loading="lazy" class="shrink-0 w-12 h-[46px] rounded-md object-cover border-[1.5px] border-forest" />
+                )}
                 <span>
                   <span class="block font-display font-semibold text-[19px] text-forest-deep tracking-[-0.5px] leading-[1.08]">{course.data.name}</span>
                   <span class="block font-mono text-[10px] uppercase tracking-[0.5px] text-moss mt-1">{course.data.area}</span>
@@ -66,7 +70,15 @@ const fmtFeet = (n: number) => (n > 0 ? `${n.toLocaleString('en-US')} ft` : '—
             <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{fmtFeet(course.data.totalFeet)}</td>
             <td class="px-3 py-4 text-sm text-ink-soft whitespace-nowrap">{course.data.difficulty}</td>
             <td class="px-3 py-4 font-mono text-xs text-forest whitespace-nowrap">{formatGreenFee(course.data.isFree, course.data.greenFee)}</td>
-            <td class="px-5 py-4 text-right font-display font-bold text-[20px] text-clay whitespace-nowrap">{course.data.rating}</td>
+            <td class="px-5 py-4 text-right whitespace-nowrap">
+              {course.data.rating > 0 ? (
+                <span class="font-display font-bold text-[20px] text-clay">{course.data.rating}</span>
+              ) : course.data.tags.includes('Private') ? (
+                <span class="font-mono text-[10px] uppercase tracking-[1px] text-moss">Private</span>
+              ) : (
+                <span class="font-mono text-[11px] text-moss">—</span>
+              )}
+            </td>
           </tr>
         ))}
       </tbody>

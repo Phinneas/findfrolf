@@ -74,14 +74,14 @@ Don't want to buy glow plastic yet? **Glow tape** (available at any disc golf sh
 
 Two options, and both are great:
 
-1. **A lit course.** Some courses have permanent lighting for night play — our [course finder](/finder) lets you filter by the lighting amenity. [MetCenter](/tx/austin/metcenter) and a handful of others keep the lights on for evening leagues.
-2. **A dark park course that stays open.** Most glow rounds happen on unlit park courses after sunset — just make sure the park allows it and check the hours. A course like [Fountain Hills](/az/phoenix/fountain-hills) with open fairways and no water is a near-perfect first glow venue; a heavily wooded course like [Mary Moore Searight](/tx/austin/mary-moore-searight) is an adventure for experienced glow players only.
+1. **A lit course.** Some courses have permanent lighting for night play — our [course finder](/finder/) lets you filter by the lighting amenity. [MetCenter](/tx/austin/metcenter/) and a handful of others keep the lights on for evening leagues.
+2. **A dark park course that stays open.** Most glow rounds happen on unlit park courses after sunset — just make sure the park allows it and check the hours. A course like [Fountain Hills](/az/phoenix/fountain-hills/) with open fairways and no water is a near-perfect first glow venue; a heavily wooded course like [Mary Moore Searight](/tx/austin/mary-moore-searight/) is an adventure for experienced glow players only.
 
 **The rule that matters:** never play a closed park after hours. If the gate is locked or the sign says dusk, respect it — glow golf is welcome at plenty of courses that say so.
 
 ## Glow etiquette
 
-Everything from the [disc golf etiquette guide](/blog/disc-golf-etiquette) applies at night, plus three glow-specific rules:
+Everything from the [disc golf etiquette guide](/blog/disc-golf-etiquette/) applies at night, plus three glow-specific rules:
 
 - **No headlamps toward the thrower.** Point your light down or away while someone is throwing — a light in the face ruins the throw and the mood.
 - **Charge efficiently.** Don't hog the UV light; a five-second sweep each is plenty. This is a team sport now.
@@ -101,4 +101,4 @@ That's less than a single dinner out, and it buys you a summer's worth of night 
 
 ## The honest take
 
-Glow golf won't make you a better thrower — but it will make you *love the game more*, which is a better return. The first time you see a disc arc green through a black sky and land in a glowing basket, you'll understand why night rounds are a tradition in every disc golf town. Charge up, grab your friends, and find a course with the [disc golf course finder](/finder) — the sunset is only the beginning.
+Glow golf won't make you a better thrower — but it will make you *love the game more*, which is a better return. The first time you see a disc arc green through a black sky and land in a glowing basket, you'll understand why night rounds are a tradition in every disc golf town. Charge up, grab your friends, and find a course with the [disc golf course finder](/finder/) — the sunset is only the beginning.

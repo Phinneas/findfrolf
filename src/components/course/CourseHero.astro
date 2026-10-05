@@ -1,16 +1,19 @@
 ---
+import { isPlaceholderImage } from '../../lib/data';
+
 interface Props {
   name: string;
   heroImage: string;
   rating: number;
   reviewCount: number;
+  hasReviews: boolean;
   tags: string[];
   location: string;
   stateSlug: string;
   citySlug: string;
 }
 
-const { name, heroImage, rating, reviewCount, tags, location, stateSlug, citySlug } = Astro.props;
+const { name, heroImage, rating, reviewCount, hasReviews, tags, location, stateSlug, citySlug } = Astro.props;
 
 // Split name to emphasize the last part
 const nameParts = name.split(' ');
@@ -19,8 +22,10 @@ const firstName = nameParts.join(' ');
 ---
 
 <section class="relative max-w-[1240px] mx-auto mt-[18px] px-8">
-  <div class="relative rounded-[14px] overflow-hidden min-h-[460px] border-[1.5px] border-forest shadow-stamp-lg flex items-end">
-    <div class="absolute inset-0 bg-cover bg-center" style={`background-image: url('${heroImage}')`}></div>
+  <div class="relative rounded-[14px] overflow-hidden min-h-[460px] border-[1.5px] border-forest shadow-stamp-lg flex items-end bg-forest-deep">
+    {!isPlaceholderImage(heroImage) && (
+      <div class="absolute inset-0 bg-cover bg-center" style={`background-image: url('${heroImage}')`}></div>
+    )}
     <div class="absolute inset-0 bg-gradient-to-r from-forest-deep/88 via-forest-deep/45 to-forest-deep/15"></div>
 
     <!-- Action buttons -->
@@ -36,9 +41,6 @@ const firstName = nameParts.join(' ');
     </div>
 
     <div class="relative z-2 p-8 lg:p-[52px] text-cream max-md:pt-[32px] max-md:px-[26px]">
-      <span class="inline-flex items-center gap-2 bg-clay text-white font-mono text-[10px] uppercase tracking-[2px] px-3 py-1.5 mb-4.5">
-        ★ Editor's pick · No. 01 this week
-      </span>
       <h1 class="font-display font-normal text-[clamp(40px,5.5vw,72px)] leading-[0.95] tracking-[-2px] mb-3.5">
         {firstName} <em class="italic text-sun">{lastPart}</em>
       </h1>
@@ -47,9 +49,11 @@ const firstName = nameParts.join(' ');
         {location}
       </p>
       <div class="flex items-center gap-[22px] flex-wrap">
-        <div class="font-display font-semibold text-[26px] text-white">
-          <span class="text-sun">★</span> {rating} <small class="font-body text-[13px] text-sage font-medium ml-1">· {reviewCount.toLocaleString()} reviews</small>
-        </div>
+        {hasReviews && (
+          <div class="font-display font-semibold text-[26px] text-white">
+            <span class="text-sun">★</span> {rating} <small class="font-body text-[13px] text-sage font-medium ml-1">· {reviewCount.toLocaleString()} reviews · Ratings from UDisc</small>
+          </div>
+        )}
         <div class="flex gap-2 flex-wrap">
           {tags.map((tag) => (
             <span class="bg-cream/15 text-white border border-cream/25 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-[2px]">{tag}</span>

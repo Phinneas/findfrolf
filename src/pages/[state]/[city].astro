@@ -66,7 +66,7 @@ const citySchema = {
     item: {
       '@type': 'SportsActivityLocation',
       name: course.data.name,
-      url: `https://findfrolf.com${courseUrl(course)}`,
+      url: `https://www.findfrolf.com${courseUrl(course)}`,
     },
   })),
 };
@@ -98,7 +98,7 @@ if (cityData.data.faqs.length > 0) {
   </Fragment>
   <Breadcrumbs
     crumbs={[
-      { label: 'Courses', href: '/courses' },
+      { label: 'Courses', href: '/courses/' },
       { label: cityData.data.state, href: `/${state}` },
       { label: cityData.data.name },
     ]}

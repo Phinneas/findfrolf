@@ -2,7 +2,7 @@
 title: "How to Choose Your First Disc Golf Disc"
 description: "Picking your first disc doesn't have to be complicated. Here's exactly what to buy, what to skip, and why one disc is all you need to start."
 pubDate: "2026-07-08"
-heroImage: "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg"
+heroImage: "/images/blog-hero.svg"
 tags: ["beginner", "gear", "guide"]
 faqItems:
   - question: "What is the best first disc for disc golf?"
@@ -15,7 +15,7 @@ faqItems:
     answer: "No. You only need one disc to play. Most casual players carry 3–5 discs (a putter, midrange, and fairway driver), but a single midrange is enough for your first several rounds."
 ---
 
-Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start, and picking it is simpler than you think. (New to the sport entirely? Start with our [how to play disc golf](/blog/how-to-play-disc-golf) beginner's guide, then come back here.)
+Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start, and picking it is simpler than you think. (New to the sport entirely? Start with our [how to play disc golf](/blog/how-to-play-disc-golf/) beginner's guide, then come back here.)
 
 ## The One-Disc Start
 
@@ -73,10 +73,10 @@ Don't rush it. Master your midrange first — it'll teach you more about form th
 
 ## Find a Course and Throw It
 
-You've got the disc — now you need a place to throw it. You can play your first round with one borrowed midrange. Buying a starter set is convenient, not mandatory. Use our [disc golf course finder](/finder) to locate a beginner-friendly course near you, or jump straight into a city guide:
+You've got the disc — now you need a place to throw it. You can play your first round with one borrowed midrange. Buying a starter set is convenient, not mandatory. Use our [disc golf course finder](/finder/) to locate a beginner-friendly course near you, or jump straight into a city guide:
 
-- [Disc golf in Austin, TX](/tx/austin) — free, open, and beginner-friendly
-- [Disc golf in Charlotte, NC](/nc/charlotte) — one of the densest course networks in the country
-- [Disc golf in Seattle, WA](/wa/seattle) — forgiving park courses to learn on
+- [Disc golf in Austin, TX](/tx/austin/) — free, open, and beginner-friendly
+- [Disc golf in Charlotte, NC](/nc/charlotte/) — one of the densest course networks in the country
+- [Disc golf in Seattle, WA](/wa/seattle/) — forgiving park courses to learn on
 
-Once you've played a few rounds, read our [disc golf scoring guide](/blog/disc-golf-scoring-guide) so you can track your progress — and the [official rules](/blog/disc-golf-rules-explained) for when OB lines start mattering.
+Once you've played a few rounds, read our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) so you can track your progress — and the [official rules](/blog/disc-golf-rules-explained/) for when OB lines start mattering.

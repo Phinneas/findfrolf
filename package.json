@@ -11,6 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "check:courses": "node scripts/check-courses.mjs",
+    "enrich:course": "node scripts/enrich-course.mjs",
+    "enrich:all": "node scripts/enrich-all.mjs",
     "generate:listicles": "node scripts/generate-listicles.mjs",
     "count:metros": "node scripts/count-metro-courses.mjs",
     "test": "vitest run",

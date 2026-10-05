@@ -117,14 +117,14 @@ Now you know exactly which **disc golf discs for beginners** to buy. You can pla
 
 A few great places to test that new starter set:
 
-- Playing in Texas? Check out our guide to [disc golf courses in Austin](/tx/austin), home to some of the most played courses in the country.
-- Headed to Colorado? These [disc golf courses in Denver](/co/denver) come with a bonus — mile-high altitude makes your discs fly even farther.
-- In the Pacific Northwest? [Portland disc golf courses](/or/portland) rank among the best in the U.S., rain or shine.
+- Playing in Texas? Check out our guide to [disc golf courses in Austin](/tx/austin/), home to some of the most played courses in the country.
+- Headed to Colorado? These [disc golf courses in Denver](/co/denver/) come with a bonus — mile-high altitude makes your discs fly even farther.
+- In the Pacific Northwest? [Portland disc golf courses](/or/portland/) rank among the best in the U.S., rain or shine.
 
-New to the rules, scoring, or etiquette? Read our [How to Play Disc Golf](/blog/how-to-play-disc-golf) guide before your first tee-off.
+New to the rules, scoring, or etiquette? Read our [How to Play Disc Golf](/blog/how-to-play-disc-golf/) guide before your first tee-off.
 
 ## Ready to Throw?
 
 You need three discs — a putter, a mid-range, and a driver. A starter set costs less than $40. A course is probably five minutes from your door.
 
-**Find a free course near you with [FindFrolf](/finder)** — search your city, grab your three discs, and go frolf.
+**Find a free course near you with [FindFrolf](/finder/)** — search your city, grab your three discs, and go frolf.

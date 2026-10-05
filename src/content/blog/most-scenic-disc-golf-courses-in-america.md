@@ -47,7 +47,7 @@ Beaver Ranch is the course Denver players drive 40 minutes into the foothills to
 
 **The shot you'll remember:** Hole 14 from the long tee, downhill 520 feet through a pine corridor to a basket framed by the mountains.
 
-[→ Browse Denver disc golf](/co/denver) · [Best disc golf in Denver](/blog/best-disc-golf-courses-denver)
+[→ Browse Denver disc golf](/co/denver/) · [Best disc golf in Denver](/blog/best-disc-golf-courses-denver/)
 
 ### Wondervu — Golden, Colorado
 
@@ -57,7 +57,7 @@ Wondervu is the "other" Colorado mountain course, and it shouldn't be. A 22-hole
 
 **The shot you'll remember:** The tee on the upper loop, where the entire Front Range spreads out below you and you can see Golden's downtown spires in the distance.
 
-[→ Browse Denver disc golf](/co/denver)
+[→ Browse Denver disc golf](/co/denver/)
 
 ---
 
@@ -75,7 +75,7 @@ The course is flat and walkable, which means you notice the trees more — they 
 
 **The shot you'll remember:** Any tee shot on the back nine, where the fairway narrows between massive firs and the light filters green.
 
-[→ Browse Portland disc golf](/or/portland) · [Best disc golf in Portland](/blog/best-disc-golf-courses-portland)
+[→ Browse Portland disc golf](/or/portland/) · [Best disc golf in Portland](/blog/best-disc-golf-courses-portland/)
 
 ### DeLaveaga — Santa Cruz, California
 
@@ -87,7 +87,7 @@ The course is old, established, and beloved — the trees are enormous, the fair
 
 **The shot you'll remember:** Top of the World, obviously. The tee pad looks out over the Monterey Bay, and your disc disappears downhill toward a basket you can barely see.
 
-[→ Browse Santa Cruz disc golf](/ca/santa-cruz)
+[→ Browse Santa Cruz disc golf](/ca/santa-cruz/)
 
 ### Morley Field — San Diego, California
 
@@ -97,7 +97,7 @@ Morley Field doesn't have the ocean views, but it has something else: a canyon s
 
 **The shot you'll remember:** Hole 17, a 600-foot par 4 that plays along the canyon rim with views of the city skyline to the south.
 
-[→ Browse San Diego disc golf](/ca/san-diego)
+[→ Browse San Diego disc golf](/ca/san-diego/)
 
 ---
 
@@ -113,7 +113,7 @@ Blue Ribbon Pines is Minnesota's crown jewel — 27 holes alternating between op
 
 **The shot you'll remember:** The approach to the island green on the back nine, with the pond shimmering in front of you and the woods closing in behind.
 
-[→ Browse Minneapolis–St. Paul disc golf](/mn/minneapolis-st-paul) · [Best disc golf in Minneapolis](/blog/best-disc-golf-courses-minneapolis)
+[→ Browse Minneapolis–St. Paul disc golf](/mn/minneapolis-st-paul/) · [Best disc golf in Minneapolis](/blog/best-disc-golf-courses-minneapolis/)
 
 ### Idlewild — Burlington, Kentucky
 
@@ -123,7 +123,7 @@ Idlewild is the course that makes Kentucky a disc golf destination. A 24-hole ch
 
 **The shot you'll remember:** The drive on the signature par 5, where the fairway disappears into a tunnel of hardwoods and you have to trust your line.
 
-[→ Browse Cincinnati disc golf](/oh/cincinnati) · [Best disc golf in Cincinnati](/blog/best-disc-golf-courses-cincinnati)
+[→ Browse Cincinnati disc golf](/oh/cincinnati/) · [Best disc golf in Cincinnati](/blog/best-disc-golf-courses-cincinnati/)
 
 ### Flip City — Shelby, Michigan
 
@@ -133,7 +133,7 @@ Flip City is the legendary private course in western Michigan — rolling farmla
 
 **The shot you'll remember:** The tee on the elevated back-nine holes, where the fairway drops away and the Michigan countryside rolls out below.
 
-[→ Browse Michigan disc golf](/mi)
+[→ Browse Michigan disc golf](/mi/)
 
 ### Maple Hill — Leicester, Massachusetts
 
@@ -143,7 +143,7 @@ Maple Hill is the #1 course in the world by player rating, and the scenery is a 
 
 **The shot you'll remember:** The approach to the island green on 18, with the pond, the crowd ropes, and the New England hills behind it.
 
-[→ Browse Massachusetts disc golf](/ma) · [Best disc golf in the US](/blog/best-disc-golf-courses-in-the-us)
+[→ Browse Massachusetts disc golf](/ma/) · [Best disc golf in the US](/blog/best-disc-golf-courses-in-the-us/)
 
 ---
 
@@ -159,7 +159,7 @@ Fountain Hills is the most photographed disc golf course in Arizona. Twenty hole
 
 **The shot you'll remember:** The tee on the peninsula hole, with the fountain mid-eruption behind the basket and the mountains glowing pink at sunset.
 
-[→ Browse Phoenix disc golf](/az/phoenix) · [Best disc golf in Phoenix](/blog/best-disc-golf-courses-phoenix)
+[→ Browse Phoenix disc golf](/az/phoenix/) · [Best disc golf in Phoenix](/blog/best-disc-golf-courses-phoenix/)
 
 ### Buffalo Ridge — Phoenix, Arizona
 
@@ -169,7 +169,7 @@ Buffalo Ridge is the rugged counterpoint to Fountain Hills — 27 holes of eleva
 
 **The shot you'll remember:** The tee on the high loop, where the entire Valley of the Sun spreads out below you and the sun is setting behind the White Tank Mountains.
 
-[→ Browse Phoenix disc golf](/az/phoenix)
+[→ Browse Phoenix disc golf](/az/phoenix/)
 
 ### Conocido Park — Chandler, Arizona
 
@@ -177,7 +177,7 @@ Buffalo Ridge is the rugged counterpoint to Fountain Hills — 27 holes of eleva
 
 Conocido is the quiet desert course that doesn't make the highlight reels but rewards the player who shows up. Flat, open, and surrounded by desert scrub with mountain views in every direction — the beauty here is in the sky. Arizona sunsets turn the mountains purple and the desert floor gold.
 
-[→ Browse Phoenix disc golf](/az/phoenix)
+[→ Browse Phoenix disc golf](/az/phoenix/)
 
 ---
 
@@ -193,7 +193,7 @@ Mary Moore is Austin's crown jewel — pure Texas Hill Country scenery: dense ce
 
 **The shot you'll remember:** The downhill drive through the cedar corridor on the back nine, where the limestone bluffs frame the fairway and the Austin skyline is barely visible through the trees.
 
-[→ Browse Austin disc golf](/tx/austin) · [Best disc golf in Austin](/blog/best-disc-golf-courses-austin)
+[→ Browse Austin disc golf](/tx/austin/) · [Best disc golf in Austin](/blog/best-disc-golf-courses-austin/)
 
 ### Horning's Hideout — North Plains, Oregon
 
@@ -203,7 +203,7 @@ Horning's Hideout is the private three-course complex west of Portland — camp,
 
 **The shot you'll remember:** The tee on the Canyon course, where the fairway drops 150 feet into the ravine and you can hear the creek at the bottom.
 
-[→ Browse Portland disc golf](/or/portland) · [Best disc golf in Portland](/blog/best-disc-golf-courses-portland)
+[→ Browse Portland disc golf](/or/portland/) · [Best disc golf in Portland](/blog/best-disc-golf-courses-portland/)
 
 ### The Canyons at Dellwood Park — Lockport, Illinois
 
@@ -213,7 +213,7 @@ The Canyons is the highest-rated course in the Chicago metro — a 27-hole champ
 
 **The shot you'll remember:** The tee on the canyon holes, where the fairway drops into a ravine and the basket is hidden behind a wall of green.
 
-[→ Browse Chicago disc golf](/il/chicago) · [Best disc golf in Chicago](/blog/best-disc-golf-courses-chicago)
+[→ Browse Chicago disc golf](/il/chicago/) · [Best disc golf in Chicago](/blog/best-disc-golf-courses-chicago/)
 
 ---
 
@@ -231,4 +231,4 @@ Every course links to its city's FindFrolf directory, where you can browse nearb
 
 ---
 
-*Disc golf is free — and the best courses in the country don't cost a dime. Browse every course in our [course finder](/finder) or start with a [city guide](/tx/austin) to plan your next round.*
+*Disc golf is free — and the best courses in the country don't cost a dime. Browse every course in our [course finder](/finder/) or start with a [city guide](/tx/austin/) to plan your next round.*

@@ -2,7 +2,7 @@
 title: "Disc Golf Scoring Explained: How to Keep Score Like a Pro"
 description: "Understand disc golf scoring — strokes, pars, birdies, bogeys, and tournament scoring formats. Plus a free printable scorecard."
 pubDate: "2026-07-08"
-heroImage: "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg"
+heroImage: "/images/blog-hero.svg"
 tags: ["beginner", "scoring", "guide"]
 faqItems:
   - question: "What is par in disc golf?"
@@ -15,7 +15,7 @@ faqItems:
     answer: "Circle 1 is within 10 meters (33 feet) of the basket — the putting zone. Circle 2 is 10–20 meters (33–66 feet) out. These are used in professional stats to track putting accuracy from different distances."
 ---
 
-Scoring in disc golf is straightforward once you know the terminology. Here's how it works — from casual rounds to tournament play. (Brand new? Skim our [how to play disc golf](/blog/how-to-play-disc-golf) guide first — this article assumes you know the basics.)
+Scoring in disc golf is straightforward once you know the terminology. Here's how it works — from casual rounds to tournament play. (Brand new? Skim our [how to play disc golf](/blog/how-to-play-disc-golf/) guide first — this article assumes you know the basics.)
 
 ## The Basics
 
@@ -77,10 +77,10 @@ Don't stress about your score early on. The goal is to have fun, get outside, an
 
 ## Find a Course and Start Scoring
 
-You can't keep score until you've played a round. Use our [disc golf course finder](/finder) to pick a beginner-friendly course near you, or browse a city guide:
+You can't keep score until you've played a round. Use our [disc golf course finder](/finder/) to pick a beginner-friendly course near you, or browse a city guide:
 
-- [Disc golf in Austin, TX](/tx/austin) — short, free courses perfect for your first scorecard
-- [Disc golf in Denver, CO](/co/denver) — open layouts where pars feel attainable
-- [Disc golf in Portland, OR](/or/portland) — forgiving wooded tracks to learn on
+- [Disc golf in Austin, TX](/tx/austin/) — short, free courses perfect for your first scorecard
+- [Disc golf in Denver, CO](/co/denver/) — open layouts where pars feel attainable
+- [Disc golf in Portland, OR](/or/portland/) — forgiving wooded tracks to learn on
 
-When OB lines and mandatories start affecting your score, keep our [official rules reference](/blog/disc-golf-rules-explained) handy — and our [first-disc guide](/blog/choosing-first-disc-golf-disc) if you still need the disc that'll throw your first birdie.
+When OB lines and mandatories start affecting your score, keep our [official rules reference](/blog/disc-golf-rules-explained/) handy — and our [first-disc guide](/blog/choosing-first-disc-golf-disc/) if you still need the disc that'll throw your first birdie.

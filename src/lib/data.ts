@@ -42,7 +42,7 @@ export async function getCoursesBySlugs(slugs: string[]): Promise<CollectionEntr
 }
 
 export function courseUrl(course: CollectionEntry<'courses'>): string {
-  return `/${course.data.stateSlug}/${course.data.citySlug}/${course.id}`;
+  return `/${course.data.stateSlug}/${course.data.citySlug}/${course.id}/`;
 }
 
 /**
@@ -56,7 +56,7 @@ export function formatGreenFee(isFree: boolean, greenFee: string): string {
 }
 
 export function cityUrl(city: CollectionEntry<'cities'>): string {
-  return `/${city.data.stateSlug}/${city.id}`;
+  return `/${city.data.stateSlug}/${city.id}/`;
 }
 
 /**
@@ -97,4 +97,83 @@ export function deriveCityStats(courses: CollectionEntry<'courses'>[]) {
   ].filter((s) => !isZero(s.value));
 
   return { quickFacts, statsAside };
+}
+
+/* ------------------------------------------------------------------ */
+/*  CONTENT TIER (AdSense remediation §4.7)                           */
+/*                                                                     */
+/*  A course page is indexable ("enriched") only when it clears ALL    */
+/*  five bars below. This SINGLE flag drives:                          */
+/*    - the <meta name="robots" noindex> on thin course pages          */
+/*    - sitemap.xml inclusion/exclusion                                */
+/*    - the §6 re-index rule (a course returns to the index when it    */
+/*      clears the bar AND sits under a live city guide)               */
+/*  Do not build separate noindex/sitemap rules — wire them all off    */
+/*  this one computed flag.                                            */
+/* ------------------------------------------------------------------ */
+
+export type ContentTier = 'enriched' | 'thin';
+
+/**
+ * Heuristic floor for "course-specific" local tips vs. templated filler.
+ * This is a backstop only — the final call is editorial. A short, formulaic
+ * tips string will fail the bar even if it exceeds this length.
+ */
+const LOCAL_TIPS_MIN_CHARS = 80;
+
+export function getContentTier(course: CollectionEntry<'courses'>): ContentTier {
+  const d = course.data;
+
+  // 1. At least one real photo. Every current course uses a placeholder SVG
+  //    (course-open/wooded/desert/placeholder.svg). A real photo is a raster
+  //    (jpg/png/webp) local asset or a remote image URL — never an .svg.
+  const hasRealPhoto = d.photos.some((p) => !p.url.endsWith('.svg'));
+
+  // 2. Written hole-by-hole scorecard data.
+  const hasHoleData = Array.isArray(d.holeData) && d.holeData.length > 0;
+
+  // 3. At least one written review with a named source.
+  const hasReview =
+    Array.isArray(d.reviews) &&
+    d.reviews.some((r) => r.name.trim() !== '' && r.text.trim() !== '');
+
+  // 4. Course-specific local tips (non-templated). Length floor + editorial
+  //    review; see note above.
+  const hasLocalTips =
+    typeof d.localTips === 'string' && d.localTips.trim().length >= LOCAL_TIPS_MIN_CHARS;
+
+  // 5. Known green fee or confirmed free.
+  const feeKnown =
+    d.isFree === true ||
+    (typeof d.greenFee === 'string' &&
+      d.greenFee.trim() !== '' &&
+      !/unknown/i.test(d.greenFee));
+
+  return hasRealPhoto && hasHoleData && hasReview && hasLocalTips && feeKnown
+    ? 'enriched'
+    : 'thin';
+}
+
+/** Convenience wrapper: a course is indexable only at the "enriched" tier. */
+export function isIndexableCourse(course: CollectionEntry<'courses'>): boolean {
+  return getContentTier(course) === 'enriched';
+}
+
+/* ------------------------------------------------------------------ */
+/*  PLACEHOLDER IMAGE DETECTION (AdSense remediation §4.5)             */
+/*                                                                     */
+/*  Every course currently uses a decorative SVG as its "photo". These */
+/*  are not real photos, so callers should treat them as "no photo"    */
+/*  and render an honest empty state instead of a fake image.          */
+/* ------------------------------------------------------------------ */
+
+const PLACEHOLDER_IMAGES = new Set([
+  '/images/course-open.svg',
+  '/images/course-wooded.svg',
+  '/images/course-desert.svg',
+  '/images/course-placeholder.svg',
+]);
+
+export function isPlaceholderImage(url: string): boolean {
+  return PLACEHOLDER_IMAGES.has(url);
 }

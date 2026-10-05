@@ -19,7 +19,7 @@ const stateGroups = [...groups.values()].sort((a, b) => b.courses.length - a.cou
 
 <BaseLayout
   title="Disc Golf Courses by State — Find Frolf"
-  description="Browse every disc golf course mapped on Find Frolf, grouped by state. Each state shows an outline map with a pin for every course we've verified."
+  description="Browse every disc golf course mapped on Find Frolf, grouped by state. Each state shows an outline map with a pin for every mapped course."
 >
   <section class="max-w-[1240px] mx-auto px-8 pt-16 pb-10">
     <div class="eyebrow mb-3">§ The directory</div>
@@ -27,7 +27,7 @@ const stateGroups = [...groups.values()].sort((a, b) => b.courses.length - a.cou
       Disc golf courses <em class="italic text-clay">by state</em>
     </h1>
     <p class="text-base text-ink-soft max-w-[620px] mb-8">
-      Every course we've mapped so far, grouped by state. Each map shows a pin for every verified
+      Every course we've mapped so far, grouped by state. Each map shows a pin for every mapped
       course — click a state to see its full list, or hover any pin to see the course.
     </p>
     <p class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss">
@@ -43,7 +43,7 @@ const stateGroups = [...groups.values()].sort((a, b) => b.courses.length - a.cou
             <StateMap stateName={group.state} courses={group.courses} />
           </div>
           <div class="flex items-center justify-between gap-4 px-5 py-4">
-            <a href={`/${group.stateSlug}`} class="no-clip text-inherit hover:text-clay transition-colors">
+            <a href={`/${group.stateSlug}/`} class="no-clip text-inherit hover:text-clay transition-colors">
               <span class="font-display font-semibold text-[21px] text-forest-deep tracking-[-0.5px] leading-none group-hover:text-clay transition-colors">
                 {group.state}
               </span>

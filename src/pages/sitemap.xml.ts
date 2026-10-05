@@ -1,12 +1,15 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { getAllCourses, getAllCities, courseUrl, cityUrl } from '../lib/data';
+import { getAllCourses, getAllCities, courseUrl, cityUrl, getContentTier } from '../lib/data';
 
-const SITE = 'https://findfrolf.com';
+const SITE = 'https://www.findfrolf.com';
 
 function url(loc: string, priority: number, lastmod?: string, changefreq = 'weekly') {
   const lm = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : '';
-  return `  <url>\n    <loc>${SITE}${loc}</loc>${lm}\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority.toFixed(1)}</priority>\n  </url>`;
+  // Enforce a trailing slash so sitemap URLs match the served (directory)
+  // URLs and never 308-redirect.
+  const normalized = loc.endsWith('/') ? loc : `${loc}/`;
+  return `  <url>\n    <loc>${SITE}${normalized}</loc>${lm}\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority.toFixed(1)}</priority>\n  </url>`;
 }
 
 export const GET: APIRoute = async () => {
@@ -30,27 +33,26 @@ export const GET: APIRoute = async () => {
   urls.push(url('/privacy', 0.3, undefined, 'yearly'));
   urls.push(url('/terms', 0.3, undefined, 'yearly'));
   urls.push(url('/contact', 0.3, undefined, 'yearly'));
+  urls.push(url('/disclosure', 0.3, undefined, 'yearly'));
 
-  // State directory pages (priority 0.9 — same tier as city directory pages)
-  const stateSlugs = new Set<string>();
-  for (const c of courses) stateSlugs.add(c.data.stateSlug);
-  for (const city of cities) stateSlugs.add(city.data.stateSlug);
-  for (const stateSlug of stateSlugs) {
-    urls.push(url(`/${stateSlug}`, 0.9, undefined, 'weekly'));
-  }
+  // State directory pages are noindexed until each has real editorial
+  // content (AdSense remediation §4.2), so they are intentionally NOT listed.
+  // Re-add them here once a state has a real editorial intro.
 
   // City directory pages (priority 0.9)
   for (const city of cities) {
     urls.push(url(cityUrl(city), 0.9, undefined, 'weekly'));
   }
 
-  // Course pages (priority 0.8) — use lastVerified as lastmod when present
+  // Course pages (priority 0.8) — only ENRICHED courses are indexable.
+  // Thin courses are noindexed and excluded here (AdSense remediation §4.1/§4.7).
   for (const course of courses) {
+    if (getContentTier(course) !== 'enriched') continue;
     const lastmod = course.data.lastVerified || undefined;
     urls.push(url(courseUrl(course), 0.8, lastmod, 'weekly'));
   }
 
-  // Blog posts (priority 0.7) — use updatedDate or pubDate as lastmod
+  // Blog posts (priority 0.7)
   for (const post of posts) {
     const lastmod = post.data.updatedDate ?? post.data.pubDate;
     urls.push(url(`/blog/${post.id}`, 0.7, lastmod, 'monthly'));

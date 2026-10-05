@@ -65,10 +65,10 @@ Disc golf has no referees. There's no official walking the fairways, no replay b
 
 ## Respect the course's rules
 
-- **Check the hours.** Many park courses close at dusk or 10pm — and lit courses have their own hours. Our [course finder](/finder) shows restrooms, hours, and lighting so you can plan ahead.
-- **Leash your dog** if dogs are allowed at all — some courses (like [Blue Lake Regional Park](/or/portland/blue-lake)) are strictly no-pets. Check before you go.
-- **Pay your fees.** On pay-to-play courses like [Milo McIver](/or/portland/milo-mciver-riverbend), the day fee is what keeps the course great. Pay it, and thank the people who run the shop.
-- **Respect private property.** Church courses like [Northside Christian](/tx/houston/northside-christian) welcome players — but not during services. Know the schedule.
+- **Check the hours.** Many park courses close at dusk or 10pm — and lit courses have their own hours. Our [course finder](/finder/) shows restrooms, hours, and lighting so you can plan ahead.
+- **Leash your dog** if dogs are allowed at all — some courses (like [Blue Lake Regional Park](/or/portland/blue-lake/)) are strictly no-pets. Check before you go.
+- **Pay your fees.** On pay-to-play courses like [Milo McIver](/or/portland/milo-mciver-riverbend/), the day fee is what keeps the course great. Pay it, and thank the people who run the shop.
+- **Respect private property.** Church courses like [Northside Christian](/tx/houston/northside-christian/) welcome players — but not during services. Know the schedule.
 
 ## Tournament etiquette (the short version)
 
@@ -78,4 +78,4 @@ Tournament rounds run the same rules as casual rounds, plus: keep your card movi
 
 Etiquette in disc golf is simple: **be safe, be patient, and treat the course and the other players the way you'd want to be treated.** The sport is one of the most welcoming on earth — because the people who play it keep it that way, one fairway at a time.
 
-New to the game? Start with the [basics of how to play](/blog/how-to-play-disc-golf), then find a friendly local course with the [disc golf course finder](/finder) — and go be the reason someone smiles about the sport.
+New to the game? Start with the [basics of how to play](/blog/how-to-play-disc-golf/), then find a friendly local course with the [disc golf course finder](/finder/) — and go be the reason someone smiles about the sport.

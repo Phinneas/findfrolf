@@ -2,7 +2,7 @@
 title: "Disc Golf Rules Explained: The Official Rules of Play"
 description: "Master the official PDGA rules of disc golf — from tee shots and lies to out-of-bounds, mandatories, and stroke penalties. The complete rules reference."
 pubDate: "2026-07-08"
-heroImage: "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg"
+heroImage: "/images/blog-hero.svg"
 tags: ["rules", "pdga", "beginner"]
 faqItems:
   - question: "What happens if your disc goes out of bounds in disc golf?"
@@ -15,7 +15,7 @@ faqItems:
     answer: "A courtesy violation occurs when a player disturbs another player's concentration during a throw — talking, moving, or making noise. The first offense is a warning; subsequent violations add a one-stroke penalty."
 ---
 
-Whether you're new to the sport or sharpening your competitive edge, understanding the official rules of disc golf keeps the game fair and fun. Here's a clear breakdown of the rules that matter most on the course. (Never played at all? Read our [how to play disc golf](/blog/how-to-play-disc-golf) guide first.)
+Whether you're new to the sport or sharpening your competitive edge, understanding the official rules of disc golf keeps the game fair and fun. Here's a clear breakdown of the rules that matter most on the course. (Never played at all? Read our [how to play disc golf](/blog/how-to-play-disc-golf/) guide first.)
 
 ## The Object of the Game
 
@@ -81,7 +81,7 @@ Putting is the throw that finishes the hole — your disc counts as "in" only wh
 - You may putt from any stance on or behind your lie within 10 meters (33 feet) of the target
 - Beyond 10 meters, a "jump putt" or "step putt" is allowed — you may not putt from a stanced position and follow through past your lie
 
-(Confused by par, birdie, and bogey? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide) explains every term.)
+(Confused by par, birdie, and bogey? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) explains every term.)
 
 ## Courtesy and Sportsmanship
 
@@ -94,10 +94,10 @@ Courtesy rules keep play safe and fair — stay quiet and still during others' t
 
 ## Put the Rules Into Practice
 
-Knowing the rules is one thing — getting out and playing is another. Use our [disc golf course finder](/finder) to find a course near you, or start with a city guide:
+Knowing the rules is one thing — getting out and playing is another. Use our [disc golf course finder](/finder/) to find a course near you, or start with a city guide:
 
-- [Disc golf in Austin, TX](/tx/austin) — beginner-friendly and free to play
-- [Disc golf in Chicago, IL](/il/chicago) — open park courses great for learning the OB rules
-- [Disc golf in Raleigh, NC](/nc/raleigh) — a growing scene with forgiving first-round layouts
+- [Disc golf in Austin, TX](/tx/austin/) — beginner-friendly and free to play
+- [Disc golf in Chicago, IL](/il/chicago/) — open park courses great for learning the OB rules
+- [Disc golf in Raleigh, NC](/nc/raleigh/) — a growing scene with forgiving first-round layouts
 
-Once you're comfortable with the rules, our [disc golf scoring guide](/blog/disc-golf-scoring-guide) will help you keep score the right way.
+Once you're comfortable with the rules, our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) will help you keep score the right way.

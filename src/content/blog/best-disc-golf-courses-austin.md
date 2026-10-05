@@ -35,7 +35,7 @@ The ranking isn't just a volume stat, either. Austin is a genuine pro hub — a 
 
 This guide is the eight courses worth planning around, with location, difficulty, and hole count for each, plus a straight answer on who each one is for. We also flag the best beginner round and the best free rounds, because Austin's biggest flex is this: you can play a 4.7-star championship course for **$0**.
 
-One note on honesty before the list: every stat below — holes, par, difficulty, rating, and cost — comes from our course data cross-checked against PDGA and UDisc. We don't pad a guide with courses we haven't verified, and we don't invent a "hidden gem" that isn't real.
+One note on honesty before the list: every stat below — holes, par, difficulty, rating, and cost — comes from our course data cross-checked against PDGA and UDisc. We don't pad a guide with courses we haven't mapped, and we don't invent a "hidden gem" that isn't real.
 
 **Quick picks:**
 - **Best overall:** Roy G. Guerrero — 4.7★ championship distance
@@ -59,49 +59,49 @@ One note on honesty before the list: every stat below — holes, par, difficulty
 
 Austin's big-arm proving ground. Roy G. Guerrero is an open, sprawling course along the Colorado River — a Mike Olse redesign into a modern distance test. From the long tees it plays nearly **9,600 feet at par 61**, with flat ground and Mach X baskets that leave nowhere to hide a weak drive.
 
-At 4.7 stars from over 7,000 player reviews, it's the course Austin points to when someone wants the closest thing to a tournament round inside the city. It's **free**, and it's the pick if you only play one course here. [Full course details](/tx/austin/roy-g-guerrero).
+At 4.7 stars from over 7,000 player reviews, it's the course Austin points to when someone wants the closest thing to a tournament round inside the city. It's **free**, and it's the pick if you only play one course here. [Full course details](/tx/austin/roy-g-guerrero/).
 
 ## 2. Circle C Ranch — Southwest Austin (Best Free Test)
 
 Circle C is the course Austin players name when they want a real test without leaving town. The park is woodsy with **rolling terrain and water in play**, and dual tees on most holes mean the same course can read as a fair warm-up or a full par-64 grind. It's been in the ground since 1993 and still holds up.
 
-At 4.6 stars, it's the best free "hard" round in the city — the kind of course that teaches you line-shaping by making you earn every par. [See the course](/tx/austin/circle-c-ranch).
+At 4.6 stars, it's the best free "hard" round in the city — the kind of course that teaches you line-shaping by making you earn every par. [See the course](/tx/austin/circle-c-ranch/).
 
 ## 3. Mary Moore Searight — South Austin (Highest Rated)
 
 The crown jewel of Austin's wooded disc golf. Mary Moore Searight carves 18 holes through **dense cedar and oak corridors**, where every shot demands a disciplined line and the slightest miss kicks into unforgiving rough. It's rolling, it's tight, and it's the highest-rated course in our Austin directory at **4.8 stars**.
 
-At par 56 and a little over 5,100 feet, it's not the longest course in town — but it's the most technical, and the one locals argue about most fondly. Free to play. [Full layout here](/tx/austin/mary-moore-searight).
+At par 56 and a little over 5,100 feet, it's not the longest course in town — but it's the most technical, and the one locals argue about most fondly. Free to play. [Full layout here](/tx/austin/mary-moore-searight/).
 
 ## 4. Zilker Park — Central Austin (Best for Beginners)
 
 Zilker is where Austin learns to play disc golf. Wide-open fairways with the **city skyline as your backdrop**, gentle distances, and forgiving baskets — it's the course every local recommends for a first round. Par 54 across 18 holes, flat, and dead simple to get to from downtown.
 
-At 4.3 stars from over 7,000 reviews, it's not just a beginner course; it's an institution. **Free**, central, and the correct answer to "where should I play my first disc golf round in Austin?" [Course details](/tx/austin/zilker-park).
+At 4.3 stars from over 7,000 reviews, it's not just a beginner course; it's an institution. **Free**, central, and the correct answer to "where should I play my first disc golf round in Austin?" [Course details](/tx/austin/zilker-park/).
 
 ## 5. MetCenter — East Austin (The Longest Test)
 
 MetCenter is Austin's long, flat, out-of-bounds-heavy test on the city's east side. The PDGA description says it best: lots of OB, with most holes playing along a small creek. There's nowhere to hide — open fairways make every loose throw count.
 
-At **par 67 and nearly 9,800 feet**, it's the longest 18 in the city, and at 4.3 stars it rewards the player who can keep a drive in bounds for 18 straight holes. Free to play, with the course's own way of separating the accurate from the merely strong-armed. [See the course](/tx/austin/metcenter).
+At **par 67 and nearly 9,800 feet**, it's the longest 18 in the city, and at 4.3 stars it rewards the player who can keep a drive in bounds for 18 straight holes. Free to play, with the course's own way of separating the accurate from the merely strong-armed. [See the course](/tx/austin/metcenter/).
 
 ## 6. Sprinkle Valley — East Austin (The 4.7 Underdog)
 
 A newer east-side 18 that quietly carries a **4.7 rating** — high enough to belong on any Austin shortlist. Par 64, moderate difficulty, and a layout that splits the difference between the open bombers of Roy G and the technical woods of Mary Moore.
 
-It's the "if you like Circle C but want something a little friendlier" pick — note it sits on private property, so confirm access before you go. [Course details](/tx/austin/sprinkle-valley-disc-golf-course-alol).
+It's the "if you like Circle C but want something a little friendlier" pick — note it sits on private property, so confirm access before you go. [Course details](/tx/austin/sprinkle-valley-disc-golf-course-alol/).
 
 ## 7. Wells Branch — North Austin (Beginner-Friendly North)
 
 If Zilker is the central beginner course, Wells Branch is the north-Austin answer. Eighteen holes at **par 54**, easy difficulty, and a 4.2-star rating that tells you it's forgiving without being forgettable.
 
-It's free, it's in a part of town that's short on easy courses, and it's a smart warm-up if you're headed to the northern suburbs. [See the course](/tx/austin/wells-branch-dgc-sfg9).
+It's free, it's in a part of town that's short on easy courses, and it's a smart warm-up if you're headed to the northern suburbs. [See the course](/tx/austin/wells-branch-dgc-sfg9/).
 
 ## 8. Flying Armadillo — San Marcos (The Fun Detour)
 
 Thirty minutes south of downtown, and worth the drive. Flying Armadillo's **Gold Mini course** is the most purely fun round in the metro — 18 holes at **par 36**, every one of them short, and a 4.8-star rating that ties it with Mary Moore Searight for the highest in our directory.
 
-It's the one pay-to-play course on this list, and the kind of place that turns "one more round" into an afternoon. Bring a putter and a sense of humor. [Course details](/tx/austin/flying-armadillo-dgc-gold-mini-lvyq).
+It's the one pay-to-play course on this list, and the kind of place that turns "one more round" into an afternoon. Bring a putter and a sense of humor. [Course details](/tx/austin/flying-armadillo-dgc-gold-mini-lvyq/).
 
 ## The Best Beginner Disc Golf in Austin
 
@@ -145,8 +145,8 @@ A quicker way to pick: if you're new, stay central and start with Zilker. If you
 
 ## How We Ranked These Courses
 
-Methodology, because it matters: we rank by **player rating from verified player reviews** (UDisc review counts, not one person's opinion), and every fact — hole count, par, length, fees, and location — comes from course data cross-checked against PDGA and UDisc. We don't claim to have played every course on this list, and we don't publish a course we haven't verified.
+Methodology, because it matters: we rank by **player rating from UDisc player reviews** (UDisc review counts, not one person's opinion), and every fact — hole count, par, length, fees, and location — comes from course data cross-checked against PDGA and UDisc. We don't claim to have played every course on this list, and we don't publish a course we haven't mapped.
 
 ---
 
-Every course above — with full maps, hole-by-hole data, and current details — lives in the [FindFrolf Austin directory](/tx/austin). Wondering how Austin stacks up nationally? We break it down in [the best disc golf course in every state we cover](/blog/best-disc-golf-course-in-every-state).
+Every course above — with full maps, hole-by-hole data, and current details — lives in the [FindFrolf Austin directory](/tx/austin/). Wondering how Austin stacks up nationally? We break it down in [the best disc golf course in every state we cover](/blog/best-disc-golf-course-in-every-state/).

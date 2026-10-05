@@ -38,7 +38,7 @@ const itemList = {
     item: {
       '@type': 'SportsActivityLocation',
       name: course.data.name,
-      url: `https://findfrolf.com${courseUrl(course)}`,
+      url: `https://www.findfrolf.com${courseUrl(course)}`,
     },
   })),
 };
@@ -47,15 +47,15 @@ const itemList = {
 <BaseLayout
   title={`Disc Golf Courses in ${stateName} — Find Frolf`}
   description={`Find disc golf courses in ${stateName} with the Find Frolf course finder — ranked, mapped, and reviewed by locals. ${courses.length} courses across ${cities.length} metro areas.`}
+  noindex={true}
 >
   <Fragment slot="head">
-    <link rel="canonical" href={`https://findfrolf.com/${state}`} />
     <Schema schema={itemList} />
   </Fragment>
 
   <Breadcrumbs
     crumbs={[
-      { label: 'Courses', href: '/courses' },
+      { label: 'Courses', href: '/courses/' },
       { label: stateName },
     ]}
   />
@@ -69,7 +69,7 @@ const itemList = {
       The Find Frolf disc golf course finder for {stateName}: <b>{courses.length} courses</b> across
       {cities.length > 0 ? ` ${cities.length} metro areas` : ' the state'}, ranked, mapped, and reviewed
       by the locals who play them. Browse by city below, or use the
-      <a href="/finder" class="text-clay font-semibold no-underline border-b border-clay"> full course finder</a>
+      <a href="/finder/" class="text-clay font-semibold no-underline border-b border-clay"> full course finder</a>
       to search and filter every course.
     </p>
   </section>
@@ -121,7 +121,7 @@ const itemList = {
     </div>
     <p class="mt-8 text-sm text-ink-soft">
       Looking for something specific? Search all {courses.length} {stateName} courses with the
-      <a href="/finder" class="text-clay font-semibold no-underline border-b border-clay"> disc golf course finder</a>.
+      <a href="/finder/" class="text-clay font-semibold no-underline border-b border-clay"> disc golf course finder</a>.
     </p>
   </section>
 </BaseLayout>

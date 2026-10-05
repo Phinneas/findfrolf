@@ -8,13 +8,18 @@ interface Props {
   crumbs: Crumb[];
 }
 const { crumbs } = Astro.props;
+
+// Normalize trailing slash so breadcrumb links never 308-redirect.
+function crumbHref(href: string): string {
+  return href.endsWith('/') ? href : `${href}/`;
+}
 ---
 
 <div class="max-w-[1240px] mx-auto px-8 pt-2.5 font-mono text-[11px] uppercase tracking-[1.2px] text-moss">
   {crumbs.map((crumb, i) => (
     <>
       {crumb.href ? (
-        <a href={crumb.href} class="no-underline text-moss hover:text-clay transition-colors">{crumb.label}</a>
+        <a href={crumbHref(crumb.href)} class="no-underline text-moss hover:text-clay transition-colors">{crumb.label}</a>
       ) : (
         <span class="text-forest">{crumb.label}</span>
       )}

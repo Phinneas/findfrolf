@@ -22,7 +22,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
   <!-- HERO -->
   <section class="max-w-[1240px] mx-auto mt-[18px] px-8">
     <div class="relative rounded-[14px] overflow-hidden min-h-[480px] border-[1.5px] border-forest shadow-stamp-lg flex items-center justify-center text-center">
-      <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg')"></div>
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('/images/blog-hero.svg')"></div>
       <div class="absolute inset-0 bg-forest-deep/70"></div>
       <div class="relative z-2 px-8 py-16 text-cream max-w-[760px]">
         <span class="inline-flex items-center gap-2 bg-clay text-white font-mono text-[10px] uppercase tracking-[2px] px-3 py-1.5 mb-5">
@@ -121,7 +121,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
             ['pro shop', '🛍️'],
           ].map(([q, icon]) => (
             <a
-              href={`/finder?q=${encodeURIComponent(q)}`}
+              href={`/finder/?q=${encodeURIComponent(q)}`}
               class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border-[1.5px] border-line text-[13px] font-bold text-forest no-underline transition-all hover:bg-forest hover:text-cream hover:border-forest"
             >
               <span>{icon}</span>{q}
@@ -129,7 +129,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
           ))}
         </div>
         <a
-          href="/finder"
+          href="/finder/"
           class="inline-flex items-center gap-2 mt-6 bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors"
         >
           Open the course finder →
@@ -149,7 +149,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
         <p class="text-[17px] text-cream/85 leading-[1.65] mb-6 max-w-[520px]">
           Disc golf is the most welcoming sport you'll ever try. Most courses are free, you only need one disc to start, and the regulars are genuinely happy to see someone new on the tee pad. We've got you.
         </p>
-        <a href="/about" class="inline-flex items-center gap-2 bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors">
+        <a href="/about/" class="inline-flex items-center gap-2 bg-clay text-white px-6 py-3 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors">
           Read the beginner's guide →
         </a>
       </div>

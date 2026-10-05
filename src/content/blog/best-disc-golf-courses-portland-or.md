@@ -30,9 +30,9 @@ faqItems: [
 ]
 ---
 
-Portland is one of those rare cities where you can play a genuinely great round of disc golf without leaving the city limits — and world-class wooded golf within 45 minutes of downtown. Between a championship-tested classic that hosts a PDGA event every June, a breezy hillside 18-holer with views of Mount Hood, and several state park layouts a short drive away, disc golf in Portland is as good as it gets in the Pacific Northwest. It stacks up so well that Portland courses earn spots in our ranking of the [best disc golf courses in the United States](/blog/best-disc-golf-courses-in-the-us).
+Portland is one of those rare cities where you can play a genuinely great round of disc golf without leaving the city limits — and world-class wooded golf within 45 minutes of downtown. Between a championship-tested classic that hosts a PDGA event every June, a breezy hillside 18-holer with views of Mount Hood, and several state park layouts a short drive away, disc golf in Portland is as good as it gets in the Pacific Northwest. It stacks up so well that Portland courses earn spots in our ranking of the [best disc golf courses in the United States](/blog/best-disc-golf-courses-in-the-us/).
 
-Most people searching "disc golf Portland" want the same three things: the best course, the closest course, and the cheapest course. This guide covers all three — with drive times, costs, difficulty ratings, and who each layout is best for. New to the area? Browse FindFrolf's [Portland disc golf directory](/or/portland) for maps, listings, and local leagues.
+Most people searching "disc golf Portland" want the same three things: the best course, the closest course, and the cheapest course. This guide covers all three — with drive times, costs, difficulty ratings, and who each layout is best for. New to the area? Browse FindFrolf's [Portland disc golf directory](/or/portland/) for maps, listings, and local leagues.
 
 **Quick answer:** The best disc golf course in Portland is **Pier Park** in North Portland — an 18-hole, fir-lined classic that hosts the Rose City Open each June. **Gateway Green** is the closest true 18-hole course to downtown, and **Wilsonville Memorial Park** is the most beginner-friendly. All three are free to play.
 
@@ -99,7 +99,7 @@ Bring water, plan for hills, and budget time: McIver isn't a quick stop, but it'
 
 ## Honorable Mentions
 
-Willing to roam? **Old Crossing** in St. Helens, about 30 minutes north, serves up 18 riverside holes along Multnomah Channel and is worth the detour. For everything else in the metro — new short courses, practice baskets, and league-night venues — check FindFrolf's [Portland disc golf directory](/or/portland), which stays more current than any single article can.
+Willing to roam? **Old Crossing** in St. Helens, about 30 minutes north, serves up 18 riverside holes along Multnomah Channel and is worth the detour. For everything else in the metro — new short courses, practice baskets, and league-night venues — check FindFrolf's [Portland disc golf directory](/or/portland/), which stays more current than any single article can.
 
 ## Disc Golf Courses Near Downtown Portland
 
@@ -151,4 +151,4 @@ Wilsonville Memorial Park, thanks to open fairways and family-friendly amenities
 
 ## The Bottom Line
 
-Few metros do disc golf like Portland: a historic, tournament-tested course inside the city, a quick-hit 18 wedged between two freeways, and scenic state park golf within 45 minutes. Start with Pier Park, squeeze in Gateway Green on a lunch break, then work outward to Dabney, Stub Stewart, and McIver. Map every course, league, and new layout on FindFrolf's [Portland disc golf directory](/or/portland) — and see how the Rose City compares in our guide to the [best disc golf courses in the U.S.](/blog/best-disc-golf-courses-in-the-us)
+Few metros do disc golf like Portland: a historic, tournament-tested course inside the city, a quick-hit 18 wedged between two freeways, and scenic state park golf within 45 minutes. Start with Pier Park, squeeze in Gateway Green on a lunch break, then work outward to Dabney, Stub Stewart, and McIver. Map every course, league, and new layout on FindFrolf's [Portland disc golf directory](/or/portland/) — and see how the Rose City compares in our guide to the [best disc golf courses in the U.S.](/blog/best-disc-golf-courses-in-the-us/)

@@ -12,6 +12,12 @@ interface Props {
 }
 
 const { cities, stateName } = Astro.props;
+
+// Normalize nearby-city slugs to trailing-slash paths (skip "#" placeholders).
+function cityHref(slug: string): string {
+  if (slug === '#') return slug;
+  return slug.endsWith('/') ? slug : `${slug}/`;
+}
 ---
 
 <section class="bg-cream-2 border-t border-b border-line">
@@ -23,7 +29,7 @@ const { cities, stateName } = Astro.props;
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[18px]">
       {cities.map((city) => (
         <a
-          href={city.slug}
+          href={cityHref(city.slug)}
           class="flex justify-between items-center bg-paper border-[1.5px] border-forest rounded-[10px] px-5 py-[18px] no-clip text-inherit transition-all hover:bg-cream hover:-translate-y-0.5"
         >
           <div>

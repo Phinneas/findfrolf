@@ -9,7 +9,7 @@ tags: ["course management", "strategy", "intermediate", "how to"]
 
 Most intermediate players can throw far. Far fewer can *score*. The difference usually isn't mechanics — it's what happens in the 60 seconds you spend on the tee pad before you ever pull a disc out of the bag. Reading a course is essentially doing your own **disc golf course review** in real time: walking the fairway with your eyes, spotting the danger, and building a plan before your first throw.
 
-If you're still learning the basics, start with our guide on [how to play disc golf](/blog/how-to-play-disc-golf), then come back here. This post assumes you can already drive, approach, and putt — and now you want to stop leaving strokes on the course. We'll cover how to assess wind, identify your landing zone, choose a flight path, read elevation, and finally decode what course difficulty ratings actually mean.
+If you're still learning the basics, start with our guide on [how to play disc golf](/blog/how-to-play-disc-golf/), then come back here. This post assumes you can already drive, approach, and putt — and now you want to stop leaving strokes on the course. We'll cover how to assess wind, identify your landing zone, choose a flight path, read elevation, and finally decode what course difficulty ratings actually mean.
 
 ## What "Reading a Course" Actually Means
 
@@ -50,7 +50,7 @@ A safe 220–280 foot shot to an open zone beats a hero line that flirts with OB
 
 ## Step 3: Choose a Flight Path That Matches the Hole Shape
 
-Once you know where the disc needs to land, pick the line. (If you need a refresher on the physical throws themselves, see our breakdown of [disc golf throwing technique](/blog/disc-golf-throwing-technique).)
+Once you know where the disc needs to land, pick the line. (If you need a refresher on the physical throws themselves, see our breakdown of [disc golf throwing technique](/blog/disc-golf-throwing-technique/).)
 
 For a right-handed backhand thrower (RHBH), match hole shape to shot shape like this:
 
@@ -101,14 +101,14 @@ This is exactly why our directory exists. Instead of guessing whether a course f
 
 Start with a course directory near you:
 
-- [Disc golf courses in Austin](/tx/austin)
-- [Disc golf courses in Denver](/co/denver)
-- [Disc golf courses in Portland](/or/portland)
-- [Disc golf courses in Charlotte](/nc/charlotte)
-- [Disc golf courses in Chicago](/il/chicago)
-- [Disc golf courses in Seattle](/wa/seattle)
+- [Disc golf courses in Austin](/tx/austin/)
+- [Disc golf courses in Denver](/co/denver/)
+- [Disc golf courses in Portland](/or/portland/)
+- [Disc golf courses in Charlotte](/nc/charlotte/)
+- [Disc golf courses in Chicago](/il/chicago/)
+- [Disc golf courses in Seattle](/wa/seattle/)
 
-Or browse the [full city directory](/cities) to find courses anywhere — and check the difficulty ratings and community reviews before you go. Match the course to your skill level, and every read you make on the tee pad gets easier.
+Or browse the [full city directory](/cities/) to find courses anywhere — and check the difficulty ratings and community reviews before you go. Match the course to your skill level, and every read you make on the tee pad gets easier.
 
 ## Key Takeaways
 

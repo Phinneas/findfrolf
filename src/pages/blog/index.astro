@@ -22,7 +22,7 @@ const posts = (await getCollection('blog')).sort(
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post) => (
-        <a href={`/blog/${post.id}`} class="group block">
+        <a href={`/blog/${post.id}/`} class="group block">
           <div class="rounded-[14px] overflow-hidden border-[1.5px] border-forest shadow-stamp mb-4">
             <div class="aspect-[16/10] bg-cover bg-center" style={`background-image:url('${post.data.heroImage}')`}></div>
           </div>

@@ -1,0 +1,9 @@
+# Canonical host: 301 the apex (non-www) domain to www.
+# Note: verify the apex -> www redirect is also enabled for the custom
+# domain in the Cloudflare dashboard (the "Redirect" setting on the
+# findfrolf.com custom domain).
+https://findfrolf.com/* https://www.findfrolf.com/:splat 301
+
+# Dedupe: Arlington "Veterans Park" (TX-1145) 301s to the canonical
+# listing (TX-1352). See AdSense remediation spec §3.2 / §4.5.
+/tx/dallas-fort-worth/veterans/ /tx/dallas-fort-worth/veterans-park-J93i/ 301

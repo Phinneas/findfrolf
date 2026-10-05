@@ -19,13 +19,20 @@ const { reviews, reviewCount, avgRating } = Astro.props;
 function starString(stars: number): string {
   return '★'.repeat(stars) + '☆'.repeat(5 - stars);
 }
+
+// AdSense remediation §4.3: never render a review count or rating block when
+// there are no written reviews — drop the whole section rather than showing
+// a count we can't back with actual review text.
+if (reviews.length === 0) {
+  return null;
+}
 ---
 
 <div class="mb-14">
   <h2 class="font-display font-normal text-[32px] tracking-[-1px] text-forest-deep mb-2">
     What players <em class="italic text-clay">are saying</em>
   </h2>
-  <p class="text-ink-soft text-[15px] mb-6">From verified rounds · {reviewCount.toLocaleString()} reviews · {avgRating} average</p>
+  <p class="text-ink-soft text-[15px] mb-6">Ratings from UDisc · {reviewCount.toLocaleString()} reviews · {avgRating} average</p>
 
   {reviews.map((review) => (
     <div class="flex gap-4 py-6 border-b border-line last:border-b-0">

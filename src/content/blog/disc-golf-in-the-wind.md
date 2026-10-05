@@ -60,12 +60,12 @@ In wind, throw **low hyzer lines** — discs that stay under the wind and never 
 
 Fight the urge to muscle up. A hard, fast throw in wind tends to wobble and give the air more to grab. A smooth, 70% throw with a clean release holds its line dramatically better. Shorten your reachback slightly, slow your x-step, and let the disc fly itself.
 
-**Bonus rule:** a low, stable forehand is the best escape shot in wind — it stays under the breeze and bends predictably. If you haven't added the forehand yet, see our [backhand & forehand technique guide](/blog/disc-golf-throwing-technique).
+**Bonus rule:** a low, stable forehand is the best escape shot in wind — it stays under the breeze and bends predictably. If you haven't added the forehand yet, see our [backhand & forehand technique guide](/blog/disc-golf-throwing-technique/).
 
 ## Wind-specific course management
 
 - **Open holes play longer into the wind, shorter with it.** Adjust your disc selection before you adjust your aim.
-- **On elevated or exposed tees**, assume 10–15% more wind than you feel at ground level. Many courses — like [Water Works Park](/mo/kansas-city/water-works) or [Roy G. Guerrero](/tx/austin/roy-g-guerrero) — have famous exposed holes where locals automatically disc up.
+- **On elevated or exposed tees**, assume 10–15% more wind than you feel at ground level. Many courses — like [Water Works Park](/mo/kansas-city/water-works/) or [Roy G. Guerrero](/tx/austin/roy-g-guerrero/) — have famous exposed holes where locals automatically disc up.
 - **Putting in wind:** putt with more hyzer and aim slightly into the wind. On gusty days, a lag putt (thrown softly, dropping into the chains) is more predictable than a flat run at the chains.
 - **Don't let wind change your tempo.** The round isn't windier than it is; it's the same wind for everyone on the card. The player who manages it wins, not the player who complains about it.
 
@@ -73,4 +73,4 @@ Fight the urge to muscle up. A hard, fast throw in wind tends to wobble and give
 
 When it's breezy, that's your practice day. Throw the same disc into a headwind and a tailwind and watch the difference. Try the same putter on a low line and a high line. You'll learn more about disc flight in one windy hour than in a month of calm-field work — and you'll never dread windy rounds again.
 
-Find a course near you and go test it: use the [disc golf course finder](/finder) to pick one, and remember — on a windy day, the open courses are the ones that punish you. A wooded course like [Circle C Ranch](/tx/austin/circle-c-ranch) will be your friend when the breeze picks up.
+Find a course near you and go test it: use the [disc golf course finder](/finder/) to pick one, and remember — on a windy day, the open courses are the ones that punish you. A wooded course like [Circle C Ranch](/tx/austin/circle-c-ranch/) will be your friend when the breeze picks up.

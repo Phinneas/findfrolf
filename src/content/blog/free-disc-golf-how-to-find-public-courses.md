@@ -49,7 +49,7 @@ The result: the vast majority of the 8,000+ courses in the U.S. are free, public
 
 You *can* sort through generic search results, but you'll wade through pay-to-play venues, outdated listings, and private courses along the way. A dedicated directory gets you there faster. Here's how to find free courses on FindFrolf:
 
-1. **Search your city.** Head to FindFrolf and pull up your metro's course directory — we maintain dedicated pages for [Austin](/tx/austin), [Denver](/co/denver), [Portland](/or/portland), [Chicago](/il/chicago), and dozens of other cities.
+1. **Search your city.** Head to FindFrolf and pull up your metro's course directory — we maintain dedicated pages for [Austin](/tx/austin/), [Denver](/co/denver/), [Portland](/or/portland/), [Chicago](/il/chicago/), and dozens of other cities.
 2. **Filter by price.** Toggle the free courses filter to hide anything with greens fees or required memberships.
 3. **Check the course details.** Each listing shows hole count, terrain, tee type, and nearby amenities like parking and restrooms — so you can match the course to your skill level and schedule.
 4. **Read the notes.** Community-reported info on crowds, seasonal conditions, and layout changes helps you know what you're walking into.
@@ -62,27 +62,27 @@ Course details change over time, so confirm hole counts and current conditions o
 
 ### 1. Zilker Park — Austin, TX
 
-Zilker is disc golf at its most accessible: a compact, short-hole layout steps from Barton Creek in the heart of Austin. It's quick, it's social, and it's one of the busiest courses in Texas for a reason. Bring your patient game — weekends get crowded — and stick around for a swim at Barton Springs Pool afterward. Browse the full [Austin disc golf directory](/tx/austin) for more free options around town.
+Zilker is disc golf at its most accessible: a compact, short-hole layout steps from Barton Creek in the heart of Austin. It's quick, it's social, and it's one of the busiest courses in Texas for a reason. Bring your patient game — weekends get crowded — and stick around for a swim at Barton Springs Pool afterward. Browse the full [Austin disc golf directory](/tx/austin/) for more free options around town.
 
 ### 2. Mary Moore Searight Metropolitan Park — Austin, TX
 
-If Zilker feels too tight, head south to Mary Moore Searight. This full-length 18-hole course winds through mature woods with more elevation and breathing room than Zilker — a proper round that still costs nothing. It's a favorite among Austin locals for league play and solo practice rounds alike. See all free courses on the [FindFrolf Austin page](/tx/austin).
+If Zilker feels too tight, head south to Mary Moore Searight. This full-length 18-hole course winds through mature woods with more elevation and breathing room than Zilker — a proper round that still costs nothing. It's a favorite among Austin locals for league play and solo practice rounds alike. See all free courses on the [FindFrolf Austin page](/tx/austin/).
 
 ### 3. Johnson-Habitat Park — Denver, CO
 
-Right along the South Platte River, this 9-hole course is perfect for a quick loop on a lunch break or before a Rockies game. Denver proper keeps its course count modest, but the metro area more than makes up for it — full 18-hole courses dot the suburbs in every direction. The [Denver disc golf directory](/co/denver) maps out the whole scene, including free full-length options within 30 minutes of downtown.
+Right along the South Platte River, this 9-hole course is perfect for a quick loop on a lunch break or before a Rockies game. Denver proper keeps its course count modest, but the metro area more than makes up for it — full 18-hole courses dot the suburbs in every direction. The [Denver disc golf directory](/co/denver/) maps out the whole scene, including free full-length options within 30 minutes of downtown.
 
 ### 4. Pier Park — Portland, OR
 
-The Pacific Northwest disc golf experience, distilled: 18 holes under towering firs and bigleaf maples in North Portland, with mossy lines and that unmistakable forest hum. It's free, it's beloved, and it's one of the classic Portland courses that helped define Northwest disc golf. Expect mud in the rainy season — and expect to love it anyway. Explore more on the [Portland course directory](/or/portland).
+The Pacific Northwest disc golf experience, distilled: 18 holes under towering firs and bigleaf maples in North Portland, with mossy lines and that unmistakable forest hum. It's free, it's beloved, and it's one of the classic Portland courses that helped define Northwest disc golf. Expect mud in the rainy season — and expect to love it anyway. Explore more on the [Portland course directory](/or/portland/).
 
 ### 5. Techny Prairie Park & Fields — Northbrook, IL
 
-About 30 minutes from downtown Chicago, this free 18-hole course carves through restored prairie with open sightlines and rolling terrain. It's well-maintained, beginner-friendly, and proof that you don't need mountains to build a great course. It's one of the easiest free rounds to reach from the city — find it and more on the [FindFrolf Chicago page](/il/chicago).
+About 30 minutes from downtown Chicago, this free 18-hole course carves through restored prairie with open sightlines and rolling terrain. It's well-maintained, beginner-friendly, and proof that you don't need mountains to build a great course. It's one of the easiest free rounds to reach from the city — find it and more on the [FindFrolf Chicago page](/il/chicago/).
 
 ### 6. Anna Page Park — Rockford, IL
 
-Worth the 90-minute drive from Chicago, Anna Page Park is one of Illinois' most historic courses — an established, woodsy 18-hole layout that's been drawing players for decades. Mature trees define nearly every fairway, so pack your accuracy discs. It pairs well with a Chicago-area trip; see both on the [Chicago disc golf directory](/il/chicago).
+Worth the 90-minute drive from Chicago, Anna Page Park is one of Illinois' most historic courses — an established, woodsy 18-hole layout that's been drawing players for decades. Mature trees define nearly every fairway, so pack your accuracy discs. It pairs well with a Chicago-area trip; see both on the [Chicago disc golf directory](/il/chicago/).
 
 ## Tips for Playing Free Public Courses
 
@@ -108,7 +108,7 @@ Not at all. Some of the most famous courses in the country — including every c
 
 There's no cheaper way to spend an afternoon outside. Search "free disc golf courses near me" the easy way: pull up your city on FindFrolf, filter for free, and pick your first tee time (which is whenever you show up).
 
-- [Austin disc golf courses](/tx/austin)
-- [Denver disc golf courses](/co/denver)
-- [Portland disc golf courses](/or/portland)
-- [Chicago disc golf courses](/il/chicago)
+- [Austin disc golf courses](/tx/austin/)
+- [Denver disc golf courses](/co/denver/)
+- [Portland disc golf courses](/or/portland/)
+- [Chicago disc golf courses](/il/chicago/)

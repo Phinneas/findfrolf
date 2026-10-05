@@ -1,6 +1,6 @@
 ---
 title: "Best Disc Golf Courses in the US: 20 You Need to Play"
-description: "The 20 highest-rated disc golf courses in the US — from Maple Hill to Idlewild — ranked by verified player reviews and organized by region."
+description: "The 20 highest-rated disc golf courses in the US — from Maple Hill to Idlewild — ranked by UDisc player reviews and organized by region."
 pubDate: "2026-09-09"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
@@ -8,7 +8,7 @@ tags: ["best courses", "top 20", "rankings", "course guide"]
 faqItems: [
   {
     "question": "What is the best disc golf course in the US?",
-    "answer": "Maple Hill in Leicester, Massachusetts — 4.9 stars from over 12,000 verified reviews and the perennial #1 course in the world. Brewster Ridge and Fox Run Meadows at Smugglers' Notch, Vermont, are the two other 4.9-rated courses on our list."
+    "answer": "Maple Hill in Leicester, Massachusetts — 4.9 stars from over 12,000 UDisc reviews and the perennial #1 course in the world. Brewster Ridge and Fox Run Meadows at Smugglers' Notch, Vermont, are the two other 4.9-rated courses on our list."
   },
   {
     "question": "What is the highest-rated disc golf course?",
@@ -21,7 +21,7 @@ faqItems: [
 ]
 ---
 
-This is the list we built the whole directory for: the **best disc golf courses in the US** — the 20 highest-rated courses across our directory, ranked by player rating from verified reviews (not one writer's opinion) and organized by region.
+This is the list we built the whole directory for: the **best disc golf courses in the US** — the 20 highest-rated courses across our directory, ranked by player rating from UDisc reviews (not one writer's opinion) and organized by region.
 
 One note on how we got here: this list now includes the national legends — **Maple Hill**, **Smugglers' Notch**, **DeLaveaga** — alongside the best of our 15 city metros. We'll keep adding courses as coverage expands, but the top of this list is already where it should be.
 
@@ -60,27 +60,27 @@ The top of the list lives here. New England holds the #1 course in the world and
 
 ### Maple Hill — Leicester, Massachusetts
 
-Maple Hill is, by broad consensus, the best disc golf course in the world — the host of the MVP Open on the Disc Golf Pro Tour. **4.9 stars from over 12,000 reviews** makes it the highest-rated course in our entire directory, and it's the answer to "what course do I need to play once before I die?" [View the course](/ma/leicester/maple-hill-lcej).
+Maple Hill is, by broad consensus, the best disc golf course in the world — the host of the MVP Open on the Disc Golf Pro Tour. **4.9 stars from over 12,000 reviews** makes it the highest-rated course in our entire directory, and it's the answer to "what course do I need to play once before I die?" [View the course](/ma/leicester/maple-hill-lcej/).
 
 ### Brewster Ridge — Cambridge, Vermont
 
-Brewster Ridge is the wooded half of Smugglers' Notch's DGPT duo — tight, technical lines through Vermont forest. **4.9 stars from ~4,700 reviews.** [View the course](/vt/cambridge/brewster-ridge-disc-golf-course-dvua).
+Brewster Ridge is the wooded half of Smugglers' Notch's DGPT duo — tight, technical lines through Vermont forest. **4.9 stars from ~4,700 reviews.** [View the course](/vt/cambridge/brewster-ridge-disc-golf-course-dvua/).
 
 ### Fox Run Meadows — Cambridge, Vermont
 
-Fox Run Meadows is Brewster's open, long-distance sibling across the same resort — the "bomber" course of the pair. **4.9 stars from ~4,000 reviews.** Together, Fox Run and Brewster form the best two-course disc golf destination in the Northeast. [View the course](/vt/cambridge/fox-run-meadows-yi3h).
+Fox Run Meadows is Brewster's open, long-distance sibling across the same resort — the "bomber" course of the pair. **4.9 stars from ~4,000 reviews.** Together, Fox Run and Brewster form the best two-course disc golf destination in the Northeast. [View the course](/vt/cambridge/fox-run-meadows-yi3h/).
 
 ### Muddy Run — Holtwood, Pennsylvania
 
-Muddy Run is southern Pennsylvania's hilly, wooded test — **4.7 stars from ~2,900 reviews**, and a course that's quietly become a Northeast staple. [View the course](/pa/holtwood/muddy-run-disc-golf-course-8uqz).
+Muddy Run is southern Pennsylvania's hilly, wooded test — **4.7 stars from ~2,900 reviews**, and a course that's quietly become a Northeast staple. [View the course](/pa/holtwood/muddy-run-disc-golf-course-8uqz/).
 
 ## The West
 
-California's iconic downhill shot, Colorado's altitude, and Oregon's firs. [Browse all Western courses](/finder).
+California's iconic downhill shot, Colorado's altitude, and Oregon's firs. [Browse all Western courses](/finder/).
 
 ### Beaver Ranch — Conifer, Colorado
 
-Beaver Ranch is the mountain course Denver players drive 40 minutes for: **21 holes at roughly 8,000 feet** in the Colorado Rockies, with three tee sets and tight pine lines. **4.8 stars from ~9,800 reviews.** Explore the [Denver directory](/co/denver) and read the full [Denver guide](/blog/best-disc-golf-courses-denver).
+Beaver Ranch is the mountain course Denver players drive 40 minutes for: **21 holes at roughly 8,000 feet** in the Colorado Rockies, with three tee sets and tight pine lines. **4.8 stars from ~9,800 reviews.** Explore the [Denver directory](/co/denver/) and read the full [Denver guide](/blog/best-disc-golf-courses-denver/).
 
 ### Wondervu — Golden, Colorado
 
@@ -88,7 +88,7 @@ A foothills gem outside Golden — a 22-hole mountain course with big views and 
 
 ### Pier Park — Portland, Oregon
 
-Pier Park is Portland's backyard classic: **18 par 3s** threading through 200-foot Douglas firs. Free and endlessly replayable — **4.7 stars from ~9,500 reviews.** [Browse Portland disc golf](/or/portland).
+Pier Park is Portland's backyard classic: **18 par 3s** threading through 200-foot Douglas firs. Free and endlessly replayable — **4.7 stars from ~9,500 reviews.** [Browse Portland disc golf](/or/portland/).
 
 ### Milo McIver (Riverbend East) — Estacada, Oregon
 
@@ -96,19 +96,19 @@ Milo McIver is Oregon's tournament cathedral — home of the Beaver State Fling.
 
 ### DeLaveaga — Santa Cruz, California
 
-DeLaveaga is Santa Cruz's legendary 27-hole course — home of the iconic **"Top of the World" downhill shot** that sits on every disc golfer's bucket list. **4.7 stars from ~6,200 reviews.** [View the course](/ca/santa-cruz/de-laveaga-disc-golf-course-epv1).
+DeLaveaga is Santa Cruz's legendary 27-hole course — home of the iconic **"Top of the World" downhill shot** that sits on every disc golfer's bucket list. **4.7 stars from ~6,200 reviews.** [View the course](/ca/santa-cruz/de-laveaga-disc-golf-course-epv1/).
 
 ## The Midwest
 
-The heartland is the deepest region on this list — Minnesota, Michigan, and the Cincinnati area all hold 4.8-rated courses. [Browse all Midwest courses](/finder).
+The heartland is the deepest region on this list — Minnesota, Michigan, and the Cincinnati area all hold 4.8-rated courses. [Browse all Midwest courses](/finder/).
 
 ### The Canyons at Dellwood Park — Lockport, Illinois
 
-The Canyons is the crown jewel of Chicago disc golf: a **27-hole championship layout** in a historic park with hills, woods, and eight water hazards. **4.8 stars from ~9,600 reviews.** [Browse Chicago disc golf](/il/chicago).
+The Canyons is the crown jewel of Chicago disc golf: a **27-hole championship layout** in a historic park with hills, woods, and eight water hazards. **4.8 stars from ~9,600 reviews.** [Browse Chicago disc golf](/il/chicago/).
 
 ### Blue Ribbon Pines — East Bethel, Minnesota
 
-Blue Ribbon Pines is Minnesota's crown jewel: **27 holes** of open-and-wooded design with ponds, doglegs, and risk-reward on almost every tee. **4.8 stars from ~8,600 reviews.** [Browse Minneapolis–St. Paul](/mn/minneapolis-st-paul).
+Blue Ribbon Pines is Minnesota's crown jewel: **27 holes** of open-and-wooded design with ponds, doglegs, and risk-reward on almost every tee. **4.8 stars from ~8,600 reviews.** [Browse Minneapolis–St. Paul](/mn/minneapolis-st-paul/).
 
 ### Bryant Lake Park — Eden Prairie, Minnesota
 
@@ -116,23 +116,23 @@ Bryant Lake is the Twin Cities' scenic technical test — a 1999 Timmy Gill desi
 
 ### Idlewild — Burlington, Kentucky
 
-Idlewild is the Cincinnati area's professional-caliber course: a **24-hole, gold-level layout playing 9,574 feet at par 86** that hosts the Disc Golf Pro Tour. **4.8 stars from ~8,100 reviews.** [Browse Cincinnati disc golf](/oh/cincinnati).
+Idlewild is the Cincinnati area's professional-caliber course: a **24-hole, gold-level layout playing 9,574 feet at par 86** that hosts the Disc Golf Pro Tour. **4.8 stars from ~8,100 reviews.** [Browse Cincinnati disc golf](/oh/cincinnati/).
 
 ### Flip City — Shelby, Michigan
 
-Flip City is the legendary private course in Shelby, Michigan — widely considered the best course in the state and one of the best in the entire Midwest. **4.7 stars from ~4,400 reviews.** [View the course](/mi/shelby/flip-city-disc-golf-park-q6sd).
+Flip City is the legendary private course in Shelby, Michigan — widely considered the best course in the state and one of the best in the entire Midwest. **4.7 stars from ~4,400 reviews.** [View the course](/mi/shelby/flip-city-disc-golf-park-q6sd/).
 
 ### Kensington Toboggan — Milford, Michigan
 
-Kensington Toboggan is the championship course at Kensington Metropark, home of the Discraft Great Lakes Open. Long, open, and punishing. **4.7 stars from ~3,300 reviews.** [View the course](/mi/milford-charter-township/kensington-toboggan-7nwq).
+Kensington Toboggan is the championship course at Kensington Metropark, home of the Discraft Great Lakes Open. Long, open, and punishing. **4.7 stars from ~3,300 reviews.** [View the course](/mi/milford-charter-township/kensington-toboggan-7nwq/).
 
 ## The South
 
-Texas, Georgia, and the Carolinas — long, hot fairways where distance gets rewarded. [Browse all Southern courses](/finder).
+Texas, Georgia, and the Carolinas — long, hot fairways where distance gets rewarded. [Browse all Southern courses](/finder/).
 
 ### Mary Moore Searight — Austin, Texas
 
-Mary Moore is Austin's crown jewel of wooded disc golf: **18 holes** through dense cedar and oak corridors. **4.8 stars from ~2,100 reviews** — the highest-rated wooded course in Texas. Read the [Austin guide](/blog/best-disc-golf-courses-austin) or browse the [Austin directory](/tx/austin).
+Mary Moore is Austin's crown jewel of wooded disc golf: **18 holes** through dense cedar and oak corridors. **4.8 stars from ~2,100 reviews** — the highest-rated wooded course in Texas. Read the [Austin guide](/blog/best-disc-golf-courses-austin/) or browse the [Austin directory](/tx/austin/).
 
 ### Roy G. Guerrero — Austin, Texas
 
@@ -140,15 +140,15 @@ Roy G is Austin's big-arm proving ground — an open, sprawling course along the
 
 ### Diavolo at New Hope — Cary, North Carolina
 
-Diavolo is the Triangle's championship showpiece — a long, wooded course that opened in 2020 and became an instant regional favorite. **4.8 stars from ~7,200 reviews.** [Browse Raleigh disc golf](/nc/raleigh).
+Diavolo is the Triangle's championship showpiece — a long, wooded course that opened in 2020 and became an instant regional favorite. **4.8 stars from ~7,200 reviews.** [Browse Raleigh disc golf](/nc/raleigh/).
 
 ### Bradford Park — Huntersville, North Carolina
 
-A free 18 in Huntersville with a **4.7 rating from ~5,100 reviews** — one of the Charlotte area's most-played and best-loved courses. [Browse Charlotte disc golf](/nc/charlotte).
+A free 18 in Huntersville with a **4.7 rating from ~5,100 reviews** — one of the Charlotte area's most-played and best-loved courses. [Browse Charlotte disc golf](/nc/charlotte/).
 
 ### Little Mulberry Park — Dacula, Georgia
 
-Little Mulberry is the wooded, technical test Atlanta players graduate to: **18 holes of corridor golf**. **4.7 stars from ~5,100 reviews.** [Browse Atlanta disc golf](/ga/atlanta).
+Little Mulberry is the wooded, technical test Atlanta players graduate to: **18 holes of corridor golf**. **4.7 stars from ~5,100 reviews.** [Browse Atlanta disc golf](/ga/atlanta/).
 
 ## Honorable Mentions
 
@@ -185,8 +185,8 @@ Three weekend itineraries worth stealing:
 
 Useful links:
 
-- Browse every course by city in the [course finder](/finder) or the [full city directory](/cities).
-- Just getting started? Read [how to play disc golf](/blog/how-to-play-disc-golf) and [how to read a course before you throw](/blog/how-to-read-a-disc-golf-course).
-- Need the right gear first? Here's [what discs you actually need](/blog/disc-golf-discs-for-beginners).
+- Browse every course by city in the [course finder](/finder/) or the [full city directory](/cities/).
+- Just getting started? Read [how to play disc golf](/blog/how-to-play-disc-golf/) and [how to read a course before you throw](/blog/how-to-read-a-disc-golf-course/).
+- Need the right gear first? Here's [what discs you actually need](/blog/disc-golf-discs-for-beginners/).
 
 The best way to use this list: pick a region, load the city directory, and go play the one that's closest to you. Rankings are a starting point — your favorite course is the one you keep coming back to.

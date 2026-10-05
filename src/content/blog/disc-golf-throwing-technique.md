@@ -31,7 +31,7 @@ faqItems: [
 
 New to disc golf and wondering why your throws go nowhere — or worse, everywhere except the fairway? You're not alone, and the fix isn't a stronger arm. Disc golf distance and accuracy come from **grip, timing, and a flat release**, in that order. This guide walks you through both of the sport's two essential throws — the backhand and the forehand — the way a patient local would explain it on the tee pad.
 
-If you haven't picked your first discs yet, read [how to choose your first disc golf disc](/blog/choosing-first-disc-golf-disc) first, then come back here. One disc is enough to practice everything below.
+If you haven't picked your first discs yet, read [how to choose your first disc golf disc](/blog/choosing-first-disc-golf-disc/) first, then come back here. One disc is enough to practice everything below.
 
 ## The backhand: the throw you'll use most
 
@@ -114,9 +114,9 @@ That said — if the forehand feels natural to you on day one, lean into it. The
 
 ## Three practice drills that actually work
 
-1. **The standstill drill** — go to a field (find one near you with the [disc golf course finder](/finder)), and throw only standstill backhands for 30 minutes. No run-up. Focus on the flat release and the straight pull. This builds the muscle memory that a run-up can hide.
+1. **The standstill drill** — go to a field (find one near you with the [disc golf course finder](/finder/)), and throw only standstill backhands for 30 minutes. No run-up. Focus on the flat release and the straight pull. This builds the muscle memory that a run-up can hide.
 2. **The towel snap** — hold a towel by its corner and snap your wrist like a forehand. When the towel cracks, your wrist is snapping correctly. This is the fastest way to fix a dead forehand.
-3. **The putter-only round** — play an entire round with nothing but a putter (see [how to play disc golf](/blog/how-to-play-disc-golf) if you're new to the game itself). Putters forgive less, so every bad release is obvious — and fixing it is instant feedback.
+3. **The putter-only round** — play an entire round with nothing but a putter (see [how to play disc golf](/blog/how-to-play-disc-golf/) if you're new to the game itself). Putters forgive less, so every bad release is obvious — and fixing it is instant feedback.
 
 ## When each throw wins
 
@@ -130,4 +130,4 @@ You don't need both to have a great round — but having both means there's almo
 
 Your first field session, 200 feet will feel far. Your tenth, it'll feel routine. The players who bomb 400-foot drives didn't find a secret — they threw thousands of flat, relaxed practice throws and let the form settle. **Slow down, relax the grip, and keep the release flat.** The distance follows the form, not the other way around.
 
-When you're ready to try what you've learned on a real course, the [disc golf course finder](/finder) will show you the closest one — and if you're brand new, start with a beginner-friendly course where the fairways forgive a first-round wobble. And don't forget to check out our [disc golf scoring guide](/blog/disc-golf-scoring-guide) so you know what the numbers on the scorecard actually mean.
+When you're ready to try what you've learned on a real course, the [disc golf course finder](/finder/) will show you the closest one — and if you're brand new, start with a beginner-friendly course where the fairways forgive a first-round wobble. And don't forget to check out our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) so you know what the numbers on the scorecard actually mean.

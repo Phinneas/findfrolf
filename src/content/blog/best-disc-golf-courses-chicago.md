@@ -34,7 +34,7 @@ Chicago disc golf is bigger than its reputation — and harder to navigate than 
 
 This guide covers the nine courses actually worth your time, split three ways: what's in Chicago proper, the best suburban courses, and your options near the Lakefront — with Metra, CTA, and South Shore Line notes for every pick, because this is one of the few major metros where plenty of players don't own a car.
 
-Want the full list? Every course in the metro is mapped in [FindFrolf's Chicago disc golf directory](/il/chicago).
+Want the full list? Every course in the metro is mapped in [FindFrolf's Chicago disc golf directory](/il/chicago/).
 
 **The short version**
 
@@ -93,7 +93,7 @@ The northwest excursion. Lippold's 18-hole course is the pick of McHenry County:
 
 Technically beyond suburb status, but Chicago players have made the drive for decades and it earns its spot. Anna Page is one of Illinois' original courses — old-school, mature, and big: 27 holes of hills and towering trees that older park layouts handle beautifully. Short on time? The front nine alone is worth it.
 
-**Getting there:** No practical rail option — drive, roughly 90 minutes via I-90. If you're building a bucket-list season, this is the day trip; our guide to [the best disc golf courses in the U.S.](/blog/best-disc-golf-courses-in-the-us) has the longer list.
+**Getting there:** No practical rail option — drive, roughly 90 minutes via I-90. If you're building a bucket-list season, this is the day trip; our guide to [the best disc golf courses in the U.S.](/blog/best-disc-golf-courses-in-the-us/) has the longer list.
 
 ## Disc Golf Courses Near the Chicago Lakefront
 
@@ -130,7 +130,7 @@ Other tips: nearly every course here is free, UDisc is the standard for live map
 ## FAQ
 
 **How many disc golf courses are in Chicago?**
-The metro has 40-plus, but only a handful inside city limits — most of the quality sits in the suburbs. [FindFrolf's Chicago directory](/il/chicago) maps every one.
+The metro has 40-plus, but only a handful inside city limits — most of the quality sits in the suburbs. [FindFrolf's Chicago directory](/il/chicago/) maps every one.
 
 **What's the closest disc golf course to downtown Chicago?**
 Jackson Park on the South Side (check the current layout) and Big Marsh Park on the Far South Side. Among reliably full-length suburban options, Busse Woods is closest in.
@@ -146,6 +146,6 @@ Busse Woods — flat, open, forgiving, and the only top-tier course you can pair
 
 ## The Full Chicago Disc Golf Picture
 
-Nine courses is a strong summer, but it's a fraction of what the metro offers — hidden nines across McHenry County, league nights in Joliet, and new basket installs every season. [FindFrolf's Chicago directory](/il/chicago) keeps the full, updated map of all 40-plus courses, and when you're ready to expand past Illinois, our [Best Disc Golf Courses in the U.S.](/blog/best-disc-golf-courses-in-the-us) guide covers where to play nationwide.
+Nine courses is a strong summer, but it's a fraction of what the metro offers — hidden nines across McHenry County, league nights in Joliet, and new basket installs every season. [FindFrolf's Chicago directory](/il/chicago/) keeps the full, updated map of all 40-plus courses, and when you're ready to expand past Illinois, our [Best Disc Golf Courses in the U.S.](/blog/best-disc-golf-courses-in-the-us/) guide covers where to play nationwide.
 
 See you on the tee — mind the wind.

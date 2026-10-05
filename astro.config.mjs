@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://www.findfrolf.com',
+  trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],
     cacheDir: 'node_modules/.vite-cache-clean',

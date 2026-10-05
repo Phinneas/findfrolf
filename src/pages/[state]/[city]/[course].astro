@@ -13,7 +13,7 @@ import SidebarFacts from '../../../components/course/SidebarFacts.astro';
 import SidebarTournaments from '../../../components/course/SidebarTournaments.astro';
 import NearbyCourses from '../../../components/course/NearbyCourses.astro';
 import { getCollection } from 'astro:content';
-import { getCourse, getCoursesBySlugs, courseUrl, formatGreenFee } from '../../../lib/data';
+import { getCourse, getCoursesBySlugs, courseUrl, formatGreenFee, isIndexableCourse } from '../../../lib/data';
 
 export async function getStaticPaths() {
   const courses = await getCollection('courses');
@@ -36,6 +36,14 @@ if (!course) {
   return Astro.redirect('/404');
 }
 
+// AdSense remediation §4.1/§4.7: thin course pages are noindexed.
+// §4.3: ratings/review counts only render when real written reviews exist.
+const indexable = isIndexableCourse(course);
+const hasReviews = course.data.reviews.length > 0;
+const metaDescription = hasReviews
+  ? `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`
+  : `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}.`;
+
 const stateNames: Record<string, string> = {
   tx: 'Texas',
   nc: 'North Carolina',
@@ -52,7 +60,7 @@ const streetAddress = addressParts[0]?.trim() ?? '';
 const zipMatch = course.data.location.address.match(/(\d{5})$/);
 const postalCode = zipMatch?.[1] ?? '';
 
-const coursePageUrl = `https://findfrolf.com${courseUrl(course)}`;
+const coursePageUrl = `https://www.findfrolf.com${courseUrl(course)}`;
 const greenFeeLabel = formatGreenFee(course.data.isFree, course.data.greenFee);
 
 // Omit openingHours when it's genuinely unknown rather than emitting "Unknown".
@@ -64,7 +72,9 @@ const courseSchema = {
   '@context': 'https://schema.org',
   '@type': 'SportsActivityLocation',
   name: course.data.name,
-  description: `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`,
+  description: hasReviews
+    ? `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`
+    : `Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}.`,
   url: coursePageUrl,
   image: course.data.heroImage,
   address: {
@@ -83,25 +93,30 @@ const courseSchema = {
   ...(hasHours ? { openingHours } : {}),
   priceRange: greenFeeLabel,
   sport: 'Disc Golf',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: course.data.rating,
-    reviewCount: course.data.reviewCount,
-    bestRating: 5,
-  },
+  ...(hasReviews
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: course.data.rating,
+          reviewCount: course.data.reviewCount,
+          bestRating: 5,
+        },
+      }
+    : {}),
 };
 ---
 
 <BaseLayout
   title={`${course.data.name} — Find Frolf`}
-  description={`Disc golf at ${course.data.name} in ${course.data.area}. ${course.data.holes} holes, par ${course.data.par}, rated ${course.data.rating} by ${course.data.reviewCount} players.`}
+  description={metaDescription}
+  noindex={!indexable}
 >
   <Fragment slot="head">
     <Schema schema={courseSchema} />
   </Fragment>
   <Breadcrumbs
     crumbs={[
-      { label: 'Courses', href: '/courses' },
+      { label: 'Courses', href: '/courses/' },
       { label: stateName, href: `/${course.data.stateSlug}` },
       { label: course.data.area, href: `/${course.data.stateSlug}/${course.data.citySlug}` },
       { label: course.data.name },
@@ -113,6 +128,7 @@ const courseSchema = {
     heroImage={course.data.heroImage}
     rating={course.data.rating}
     reviewCount={course.data.reviewCount}
+    hasReviews={hasReviews}
     tags={course.data.tags}
     location={location}
     stateSlug={course.data.stateSlug}
@@ -164,13 +180,13 @@ const courseSchema = {
         </p>
       </div>
       <div class="flex gap-3 flex-wrap">
-        <a href={`/${course.data.stateSlug}/${course.data.citySlug}`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
+        <a href={`/${course.data.stateSlug}/${course.data.citySlug}/`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
           {course.data.city} courses →
         </a>
-        <a href={`/${course.data.stateSlug}`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
+        <a href={`/${course.data.stateSlug}/`} class="bg-forest text-cream px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-forest-deep transition-colors whitespace-nowrap">
           {stateName} courses →
         </a>
-        <a href="/finder" class="bg-clay text-white px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors whitespace-nowrap">
+        <a href="/finder/" class="bg-clay text-white px-5 py-2.5 rounded-full font-bold text-sm no-clip hover:bg-clay-deep transition-colors whitespace-nowrap">
           Course finder →
         </a>
       </div>

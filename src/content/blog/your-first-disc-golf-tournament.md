@@ -39,7 +39,7 @@ Start small. The ideal first event is:
 - **A PDGA B-tier or C-tier in a recreational division** — sanctioned, but with divisions for every level, including Novice and Recreational where nobody is bombing 450-foot drives.
 - **At a course you already know.** Playing your first tournament on a course you've played ten times removes half the variables.
 
-Where to find them: local disc golf club pages, UDisc event listings, and the course pages of your local courses — [use the finder](/finder) to find the courses near you, then check the events on the ones you like. If you see "Novice" or "Recreational" divisions on the flyer, that's your event.
+Where to find them: local disc golf club pages, UDisc event listings, and the course pages of your local courses — [use the finder](/finder/) to find the courses near you, then check the events on the ones you like. If you see "Novice" or "Recreational" divisions on the flyer, that's your event.
 
 ## Step 2: What happens on the morning of the event
 
@@ -58,7 +58,7 @@ Your card will be a mix of experience levels, and the experienced players will a
 
 **Everyone keeps someone else's score.** It's called "marking" — you write the scores for the player on your card, and someone writes yours. It's the honor system made visible, and it's why the game works without referees. At the end of the round, your card confirms each other's totals and signs.
 
-**Rules you'll actually use:** the furthest-out throws first, OB and mandos (marked with signs or flags — the players meeting covers them), and you may not move or break vegetation to improve your lie. For everything else, [the rules are simpler than you think](/blog/disc-golf-rules-explained) — and asking your card is always allowed.
+**Rules you'll actually use:** the furthest-out throws first, OB and mandos (marked with signs or flags — the players meeting covers them), and you may not move or break vegetation to improve your lie. For everything else, [the rules are simpler than you think](/blog/disc-golf-rules-explained/) — and asking your card is always allowed.
 
 ## Step 4: What to bring
 
@@ -90,4 +90,4 @@ What actually happens at your first tournament:
 
 Stick around after your round. There's usually food, the awards ceremony (where every division winner gets called up — including last place in Novice, sometimes with a cheer), and the general debrief where everyone compares rounds. **This is where you actually join the community** — the disc golf in your city runs through these people, and they love new faces.
 
-When you're ready, find your local courses with the [disc golf course finder](/finder), check out what's happening near you, and sign up for something small. The first tournament is the scariest part of the sport — and it's also the best part.
+When you're ready, find your local courses with the [disc golf course finder](/finder/), check out what's happening near you, and sign up for something small. The first tournament is the scariest part of the sport — and it's also the best part.

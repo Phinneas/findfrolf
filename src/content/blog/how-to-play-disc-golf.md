@@ -2,7 +2,7 @@
 title: "How to Play Disc Golf: The Complete Beginner's Guide"
 description: "Learn disc golf from scratch — rules, scoring, equipment, and etiquette explained for first-timers. Everything you need for your first round."
 pubDate: "2026-07-08"
-heroImage: "https://www.innovadiscs.com/wp-content/uploads/2015/06/disc-golf-beauty.jpg"
+heroImage: "/images/blog-hero.svg"
 tags: ["beginner", "rules", "getting-started"]
 faqItems:
   - question: "How do you score in disc golf?"
@@ -19,7 +19,7 @@ Disc golf is one of the fastest-growing sports in the world, and for good reason
 
 ## The Basic Rules
 
-The concept is simple: throw a disc from a tee pad toward a metal basket, and keep throwing until the disc lands in the basket. Each throw counts as one stroke. Complete the hole in the fewest strokes possible. For the full official rulebook, see our [disc golf rules explained](/blog/disc-golf-rules-explained) guide.
+The concept is simple: throw a disc from a tee pad toward a metal basket, and keep throwing until the disc lands in the basket. Each throw counts as one stroke. Complete the hole in the fewest strokes possible. For the full official rulebook, see our [disc golf rules explained](/blog/disc-golf-rules-explained/) guide.
 
 **Tee order:** The player with the lowest score on the previous hole tees off first. On hole 1, it's typically a coin flip or random draw.
 
@@ -36,11 +36,11 @@ In disc golf, every throw counts as one stroke, and the goal is to finish each h
 - **Bogey** = one over par (no big deal)
 - **Ace** = hole-in-one (the holy grail)
 
-After all 18 holes, total your strokes. Lowest score wins. (New to keeping score? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide) breaks down every term and tournament format.)
+After all 18 holes, total your strokes. Lowest score wins. (New to keeping score? Our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) breaks down every term and tournament format.)
 
 ## Your First Disc
 
-You don't need a bag full of discs. Start with one midrange disc — it handles both short and medium distances well and is the most forgiving for new players. (Our [guide to choosing your first disc](/blog/choosing-first-disc-golf-disc) walks through exactly which one to buy.) Popular beginner choices:
+You don't need a bag full of discs. Start with one midrange disc — it handles both short and medium distances well and is the most forgiving for new players. (Our [guide to choosing your first disc](/blog/choosing-first-disc-golf-disc/) walks through exactly which one to buy.) Popular beginner choices:
 
 *Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*
 
@@ -60,14 +60,14 @@ Disc golf etiquette is a short set of courtesies that keep the game moving and s
 
 ## Finding Your First Course
 
-Use our [disc golf course finder](/finder) to discover free courses near you. Start with a course tagged "Beginner-friendly" — these have open fairways, shorter distances, and forgiving layouts. Once you're comfortable, try a wooded course for a different challenge.
+Use our [disc golf course finder](/finder/) to discover free courses near you. Start with a course tagged "Beginner-friendly" — these have open fairways, shorter distances, and forgiving layouts. Once you're comfortable, try a wooded course for a different challenge.
 
 ### Find a course near you
 
 Ready to play? Here are a few city guides to get you started — each lists the beginner-friendly courses in the area:
 
-- [Disc golf in Austin, TX](/tx/austin) — Zilker Park is the classic first round
-- [Disc golf in Denver, CO](/co/denver) — wide-open mountain-city courses
-- [Disc golf in Portland, OR](/or/portland) — wooded, forgiving, and free
+- [Disc golf in Austin, TX](/tx/austin/) — Zilker Park is the classic first round
+- [Disc golf in Denver, CO](/co/denver/) — wide-open mountain-city courses
+- [Disc golf in Portland, OR](/or/portland/) — wooded, forgiving, and free
 
-Once you've played a few rounds, come back and read our [disc golf scoring guide](/blog/disc-golf-scoring-guide) to start tracking your scores like a pro.
+Once you've played a few rounds, come back and read our [disc golf scoring guide](/blog/disc-golf-scoring-guide/) to start tracking your scores like a pro.
