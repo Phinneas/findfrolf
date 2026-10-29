@@ -125,7 +125,7 @@ Three notes: Metra day passes are cheap, bikes are allowed on weekends and off-p
 
 Chicago disc golf peaks June through September — days are long, courses are dry and fast, and every course on this list runs leagues and casual events. Saturday mornings get busy; weekday evenings are the local secret. October is criminally underrated for fall color, and committed players keep playing through winter — snow rounds are a badge of honor, so throw within yourself and use bright discs.
 
-Other tips: nearly every course here is free, UDisc is the standard for live maps and checking whether forest preserve maintenance has rerouted a hole, and a three-disc starter set covers 95% of what these courses ask of you.
+Other tips: nearly every course here is free, UDisc is the standard for live maps and checking whether forest preserve maintenance has rerouted a hole, and a three-disc starter set covers 95% of what these courses ask of you. For a full breakdown, here's [what disc golf really costs](/blog/is-disc-golf-expensive/).
 
 ## FAQ
 

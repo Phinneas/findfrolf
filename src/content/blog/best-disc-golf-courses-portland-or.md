@@ -116,6 +116,8 @@ The cheat sheet: 90 free minutes → Gateway Green. A free afternoon and the bes
 
 ## Best Free Disc Golf in Portland
 
+Course fees are only part of the picture. Here's [what disc golf really costs](/blog/is-disc-golf-expensive/), from your first disc to tournament entry.
+
 Here's the good news: the three best-known in-city courses won't cost you a cent.
 
 - **Pier Park** — free play, free parking, restrooms, and full amenities in a North Portland city park.

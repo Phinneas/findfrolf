@@ -47,6 +47,8 @@ A note on honesty before the list: we don't pad this guide with every course on 
 | Fehringer Ranch | Littleton | ~25 min | Free | Foothills, windy, views, best practice area |
 | Johnny Roberts Memorial | Arvada | ~20 min | Free | Short, technical, historic (1978) |
 
+Three of the four are free. For the rest of the budget, here's [what disc golf really costs](/blog/is-disc-golf-expensive/).
+
 ## 1. Beaver Ranch — Conifer (Best Overall)
 
 Forty-five minutes southwest on US-285, at roughly 8,000 feet in the pine forest above Conifer, sits the course most Colorado disc golfers will tell you is the best in the state. Beaver Ranch is a true mountain course: **21 holes across three tee sets** — the short set plays 4,745 feet at par 63, while the long set stretches past 7,500 feet at par 65. The elevation is constant, the lines are tight, and the awareness that a bad hyzer is disappearing into the trees never leaves you.

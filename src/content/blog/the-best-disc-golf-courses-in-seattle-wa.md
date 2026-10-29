@@ -1,8 +1,8 @@
 ---
 title: "The Best Disc Golf Courses in Seattle, WA"
 description: "For disc golf Seattle rewards a short memory about rankings and a long one about driving distance."
-pubDate: 2026-10-28
-updatedDate: 2026-10-28
+pubDate: "2026-10-28"
+updatedDate: "2026-10-28"
 author: "Chester Beard"
 heroImage: "/images/course-placeholder.svg"
 tags: ["disc golf seattle"]
@@ -98,7 +98,7 @@ One more note on the community side. The SeaTac association name shows up on bot
 
 ### Do people pay to play disc golf?
 
-Sometimes, but plenty of courses are free. ThrowSpot lists both PDGA-listed courses inside Seattle, Ralph Williamson Memorial and North Park (Mineral Springs), as free to play. The PDGA directory also lists Ralph Williamson Memorial with "Pay to Play: no." Where you do pay, it's usually a day pass or a green fee at a resort or a ball golf course that added disc golf. Lakewood @ Dick Thurnau Park offers restrooms, drinking water and cart-friendly paths, and it still carries no fee. If this were my call, I'd treat paid disc golf as the exception, not the default.
+Sometimes, but plenty of courses are free. ThrowSpot lists both PDGA-listed courses inside Seattle, Ralph Williamson Memorial and North Park (Mineral Springs), as free to play. The PDGA directory also lists Ralph Williamson Memorial with "Pay to Play: no." Where you do pay, it's usually a day pass or a green fee at a resort or a ball golf course that added disc golf. Lakewood @ Dick Thurnau Park offers restrooms, drinking water and cart-friendly paths, and it still carries no fee. If this were my call, I'd treat paid disc golf as the exception, not the default. For gear, leagues and tournament fees, see [what disc golf really costs](/blog/is-disc-golf-expensive/).
 
 ### How much does it cost to join the Seattle golf Club?
 
