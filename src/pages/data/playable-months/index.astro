@@ -1,0 +1,352 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Schema from '../../../components/Schema.astro';
+import { getEntry, render } from 'astro:content';
+import hub from '../../../data/hubs/playable-months.json';
+
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const MONTHS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+// Owner position block (src/content/hubs/playable-months-position.md).
+const positionEntry = await getEntry('hubs', 'playable-months-position');
+if (!positionEntry) throw new Error('Missing src/content/hubs/playable-months-position.md');
+const { Content: PositionContent } = await render(positionEntry);
+
+// One-sentence summary computed from the data.
+const sorted = [...hub.cities].sort((a, b) => b.playableMonthCount - a.playableMonthCount);
+const most = sorted[0];
+const mostTied = sorted.filter((c) => c.playableMonthCount === most.playableMonthCount);
+const least = sorted[sorted.length - 1];
+const leastTied = sorted.filter((c) => c.playableMonthCount === least.playableMonthCount);
+const names = (list: typeof sorted) => list.map((c) => c.name).join(', ');
+const summary =
+  `${names(mostTied)} lead${mostTied.length === 1 ? 's' : ''} with ${most.playableMonthCount} playable months a year, ` +
+  `while ${names(leastTied)} ${leastTied.length === 1 ? 'has' : 'have'} the fewest at ${least.playableMonthCount}.`;
+
+// Compact payload for the interactive island (city lookup + heatmap detail).
+const islandData = hub.cities.map((c) => ({
+  slug: c.slug,
+  name: c.name,
+  playableMonthCount: c.playableMonthCount,
+  months: c.months.map((m) => ({
+    month: m.month,
+    tmaxF: m.tmaxF,
+    tminF: m.tminF,
+    prcpIn: m.prcpIn,
+    rainDays: m.rainDays,
+    duskLocal: m.duskLocal,
+    daylightAfter5pmMin: m.daylightAfter5pmMin,
+    status: m.status,
+  })),
+}));
+
+const STATUS_LABEL: Record<string, string> = {
+  playable: 'Playable',
+  marginal: 'Marginal',
+  'off-season': 'Off-season',
+};
+
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: hub.name,
+  description: hub.description,
+  creator: { '@type': 'Organization', name: 'FindFrolf', url: 'https://www.findfrolf.com/' },
+  temporalCoverage: '1991/2020',
+  license: 'https://creativecommons.org/publicdomain/mark/1.0/',
+  isBasedOn: hub.sourceUrl,
+  dateModified: hub.pulledAt,
+  distribution: {
+    '@type': 'DataDownload',
+    encodingFormat: 'application/json',
+    contentUrl: 'https://www.findfrolf.com/data/playable-months.json',
+  },
+};
+---
+
+<BaseLayout
+  title="Playable Months by City — Find Frolf Data Hub"
+  description={hub.description}
+>
+  <Fragment slot="head">
+    <Schema schema={[datasetSchema]} />
+  </Fragment>
+
+  <!-- 1. H1 + computed summary -->
+  <section class="max-w-[1080px] mx-auto px-8 pt-20 pb-10">
+    <div class="eyebrow mb-3">§ Data hub · Technique &amp; Conditions</div>
+    <h1 class="font-display font-normal text-[clamp(30px,4.5vw,52px)] leading-[1.04] tracking-[-1.5px] text-forest-deep mb-4 max-w-[820px]">
+      Playable Months <em class="italic text-clay">by City</em>
+    </h1>
+    <p class="text-lg text-ink-soft max-w-[720px] leading-[1.6]">{summary}</p>
+    <p class="font-mono text-[11px] text-moss mt-4 uppercase tracking-[1.5px]">
+      NOAA 1991–2020 normals · pulled {hub.pulledAt} · rule v{hub.ruleVersion}
+    </p>
+  </section>
+
+  <!-- 2. Owner position block -->
+  <section class="max-w-[1080px] mx-auto px-8 pb-14">
+    <div class="bg-paper border-[1.5px] border-forest rounded-[14px] p-7 shadow-stamp border-l-4 border-l-clay">
+      <h2 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-4">Our take</h2>
+      <div class="prose prose-forest max-w-none text-ink-soft">
+        <PositionContent />
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Interactive heatmap (static table enhanced by the island below) -->
+  <section class="max-w-[1080px] mx-auto px-8 pb-16" id="heatmap">
+    <h2 class="font-display font-normal text-[clamp(26px,3.4vw,38px)] tracking-[-1.2px] text-forest-deep mb-3">
+      The <em class="italic text-clay">heatmap</em>
+    </h2>
+    <p class="text-base text-ink-soft max-w-[680px] mb-5 leading-[1.6]">
+      Fifteen cities, twelve months. Activate any cell (click, tap, or Enter) for the full month: normal high and low,
+      rain days, and civil dusk.
+    </p>
+
+    <div class="flex flex-wrap items-center gap-4 mb-4">
+      <button
+        id="pm-sort"
+        type="button"
+        aria-pressed="false"
+        class="font-mono text-[12px] uppercase tracking-[1px] bg-forest text-cream px-4 py-2 rounded-full hover:bg-clay transition-colors"
+      >
+        Sort by playable months
+      </button>
+      <div class="flex items-center gap-4 font-mono text-[11px] text-ink-soft" aria-hidden="true">
+        <span class="flex items-center gap-1.5"><span class="inline-block w-3.5 h-3.5 rounded-[4px] bg-[#3d6b4f]"></span>Playable</span>
+        <span class="flex items-center gap-1.5"><span class="inline-block w-3.5 h-3.5 rounded-[4px] bg-[#d9a441]"></span>Marginal</span>
+        <span class="flex items-center gap-1.5"><span class="inline-block w-3.5 h-3.5 rounded-[4px] bg-[#d8d3c3]"></span>Off-season</span>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-[12px] border border-line bg-paper" tabindex="0" role="region" aria-label="Scrollable playable-months heatmap table">
+      <table id="pm-heatmap" class="border-collapse text-[12px] min-w-[860px] w-full">
+        <caption class="sr-only">
+          Playable months by city. Rows are cities, columns are months. Each cell shows whether the month is playable,
+          marginal, or off-season, and can be activated for the month's normal high, low, rain days and dusk time.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col" class="text-left font-mono text-[10px] uppercase tracking-[1px] text-moss px-3 py-2 sticky left-0 bg-paper">City</th>
+            {MONTHS.map((m) => (
+              <th scope="col" class="font-mono text-[10px] uppercase tracking-[1px] text-moss px-1 py-2 text-center">{m}</th>
+            ))}
+            <th scope="col" class="font-mono text-[10px] uppercase tracking-[1px] text-moss px-3 py-2 text-center">Playable</th>
+          </tr>
+        </thead>
+        <tbody id="pm-rows">
+          {hub.cities.map((city) => (
+            <tr data-slug={city.slug} data-count={city.playableMonthCount} data-name={city.name} class="border-t border-line">
+              <th scope="row" class="text-left font-display font-semibold text-[14px] text-forest-deep px-3 py-1.5 whitespace-nowrap sticky left-0 bg-paper">
+                {city.name}
+              </th>
+              {city.months.map((m, i) => (
+                <td class="px-[3px] py-1.5 text-center">
+                  <button
+                    type="button"
+                    class:list={[
+                      'pm-cell inline-block w-[44px] h-[34px] rounded-[6px] align-middle transition-transform hover:scale-105 focus-visible:scale-105 focus-visible:outline-2 focus-visible:outline-clay',
+                      m.status === 'playable' && 'bg-[#3d6b4f]',
+                      m.status === 'marginal' && 'bg-[#d9a441]',
+                      m.status === 'off-season' && 'bg-[#d8d3c3]',
+                    ]}
+                    data-city={city.slug}
+                    data-month={m.month}
+                    aria-label={`${city.name}, ${MONTHS_FULL[i]}: ${STATUS_LABEL[m.status]}. Normal high ${m.tmaxF} degrees, low ${m.tminF} degrees, ${m.rainDays} rain days, dusk ${m.duskLocal}.`}
+                  >
+                    <span class="sr-only">{STATUS_LABEL[m.status]}</span>
+                  </button>
+                </td>
+              ))}
+              <td class="px-3 py-1.5 text-center font-mono font-bold text-forest">{city.playableMonthCount}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div
+      id="pm-detail"
+      role="status"
+      aria-live="polite"
+      class="mt-4 bg-paper border border-line rounded-[12px] px-5 py-4 text-[15px] text-ink-soft min-h-[58px]"
+    >
+      Select a month cell above to see the numbers.
+    </div>
+  </section>
+
+  <!-- 4. City lookup -->
+  <section class="max-w-[1080px] mx-auto px-8 pb-16" id="lookup">
+    <h2 class="font-display font-normal text-[clamp(26px,3.4vw,38px)] tracking-[-1.2px] text-forest-deep mb-3">
+      City <em class="italic text-clay">lookup</em>
+    </h2>
+    <label for="pm-city" class="block font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-2">Choose a city</label>
+    <select
+      id="pm-city"
+      class="bg-paper border-[1.5px] border-forest rounded-[10px] px-4 py-2.5 text-[15px] text-forest-deep font-semibold mb-5 max-w-full"
+    >
+      {hub.cities.map((c) => <option value={c.slug}>{c.name}</option>)}
+    </select>
+
+    <div id="pm-city-out" aria-live="polite">
+      <div id="pm-strip" class="flex flex-wrap gap-1.5 mb-4" aria-label="12-month strip"></div>
+      <p id="pm-best" class="text-[15px] text-ink-soft mb-1.5"></p>
+      <p id="pm-dusk" class="text-[15px] text-ink-soft"></p>
+    </div>
+  </section>
+
+  <!-- 5. How this was made (static) -->
+  <section class="max-w-[1080px] mx-auto px-8 pb-16 border-t border-line pt-14" id="methodology">
+    <h2 class="font-display font-normal text-[clamp(26px,3.4vw,38px)] tracking-[-1.2px] text-forest-deep mb-6">
+      How this was <em class="italic text-clay">made</em>
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div class="space-y-4 text-[15px] text-ink-soft leading-[1.65]">
+        <p>
+          <strong class="text-forest-deep">Climate source.</strong> {hub.source} —{' '}
+          <a class="text-clay underline decoration-clay/50 underline-offset-[3px]" href={hub.sourceUrl} target="_blank" rel="noopener">NCEI Access Data Service</a>.
+          Dataset version {hub.datasetVersion}. <strong class="text-forest-deep">NOAA data is public domain.</strong>
+        </p>
+        <p>
+          <strong class="text-forest-deep">Per month, per city:</strong> normal high (MLY-TMAX-NORMAL), normal low
+          (MLY-TMIN-NORMAL), normal precipitation (MLY-PRCP-NORMAL), and average days with precipitation ≥ 0.10&nbsp;in
+          (MLY-PRCP-AVGNDS-GE010HI).
+        </p>
+        <p>
+          <strong class="text-forest-deep">Dusk.</strong> Civil dusk for the 15th of each month, computed with the
+          suncalc library and shown in the city's local time zone.
+        </p>
+        <p>
+          <strong class="text-forest-deep">The rule (v{hub.ruleVersion}).</strong> {hub.rule.playable}. Marginal: {hub.rule.marginal}.
+          Off-season: {hub.rule.offSeason}.
+        </p>
+        <p>
+          <strong class="text-forest-deep">Pulled</strong> {hub.pulledAt}. <strong class="text-forest-deep">Next scheduled refresh</strong> {hub.nextRefresh}.
+          Raw data: <a class="text-clay underline decoration-clay/50 underline-offset-[3px]" href="/data/playable-months.json">playable-months.json</a>.
+        </p>
+        <p>
+          <strong class="text-forest-deep">Known limits.</strong> A station's normals are not a course's microclimate;
+          normals are 30-year averages, not forecasts; wind is not factored in yet (v1).
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-3">Station per city</h3>
+        <table class="w-full text-[13px] border-collapse">
+          <thead>
+            <tr class="text-left font-mono text-[10px] uppercase tracking-[1px] text-moss">
+              <th class="py-1.5 pr-3">City</th><th class="py-1.5 pr-3">Station</th><th class="py-1.5">Distance</th>
+            </tr>
+          </thead>
+          <tbody>
+            {hub.cities.map((c) => (
+              <tr class="border-t border-line">
+                <td class="py-1.5 pr-3 font-semibold text-forest-deep">{c.name}</td>
+                <td class="py-1.5 pr-3 text-ink-soft">{c.station.name} <span class="font-mono text-[11px] text-moss">({c.station.id})</span></td>
+                <td class="py-1.5 text-ink-soft whitespace-nowrap">{c.station.distanceKm} km</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p class="font-mono text-[11px] text-moss mt-3 leading-[1.5]">
+          Nearest airport (WBAN) station with complete monthly normals. Distance from the metro centroid of mapped courses.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Related guides -->
+  <section class="max-w-[1080px] mx-auto px-8 pb-20 border-t border-line pt-14">
+    <h2 class="font-display font-normal text-[clamp(26px,3.4vw,38px)] tracking-[-1.2px] text-forest-deep mb-6">
+      Related <em class="italic text-clay">guides</em>
+    </h2>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0">
+      <li><a class="block bg-paper border border-line rounded-[10px] px-5 py-4 font-display font-semibold text-forest-deep hover:text-clay hover:border-clay transition-colors" href="/blog/disc-golf-throwing-technique/">Disc Golf Throwing Technique →</a></li>
+      <li><a class="block bg-paper border border-line rounded-[10px] px-5 py-4 font-display font-semibold text-forest-deep hover:text-clay hover:border-clay transition-colors" href="/blog/disc-golf-in-the-wind/">Disc Golf in the Wind →</a></li>
+      <li><a class="block bg-paper border border-line rounded-[10px] px-5 py-4 font-display font-semibold text-forest-deep hover:text-clay hover:border-clay transition-colors" href="/blog/how-to-read-a-disc-golf-course/">How to Read a Disc Golf Course →</a></li>
+      <li><a class="block bg-paper border border-line rounded-[10px] px-5 py-4 font-display font-semibold text-forest-deep hover:text-clay hover:border-clay transition-colors" href="/blog/glow-disc-golf/">Glow Disc Golf →</a></li>
+    </ul>
+  </section>
+
+  <script type="application/json" id="pm-data" is:inline set:html={JSON.stringify(islandData)} />
+
+  <script>
+    interface PmMonth {
+      month: number; tmaxF: number; tminF: number; prcpIn: number; rainDays: number;
+      duskLocal: string; daylightAfter5pmMin: number; status: 'playable' | 'marginal' | 'off-season';
+    }
+    interface PmCity { slug: string; name: string; playableMonthCount: number; months: PmMonth[]; }
+
+    const MONTHS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    const STATUS_COLOR: Record<PmMonth['status'], string> = {
+      playable: '#3d6b4f', marginal: '#d9a441', 'off-season': '#d8d3c3',
+    };
+
+    const data: PmCity[] = JSON.parse(document.getElementById('pm-data')!.textContent!);
+    const bySlug = new Map(data.map((c) => [c.slug, c]));
+
+    /* ---- Heatmap: detail panel + sort ---- */
+    const detail = document.getElementById('pm-detail')!;
+    function showDetail(slug: string, month: number) {
+      const city = bySlug.get(slug);
+      const m = city?.months.find((x) => x.month === month);
+      if (!city || !m) return;
+      detail.innerHTML =
+        `<strong class="text-forest-deep">${city.name} — ${MONTHS_FULL[m.month - 1]}</strong> ` +
+        `<span class="font-mono text-[11px] uppercase tracking-[1px]" style="color:${STATUS_COLOR[m.status]}">${m.status.replace('-', ' ')}</span><br>` +
+        `Normal high <b>${m.tmaxF}°F</b> · low <b>${m.tminF}°F</b> · rain days (≥0.10″) <b>${m.rainDays}</b> · ` +
+        `precip <b>${m.prcpIn}″</b> · civil dusk <b>${m.duskLocal}</b> (${m.daylightAfter5pmMin} min of light after 5pm)`;
+    }
+    document.querySelectorAll<HTMLButtonElement>('.pm-cell').forEach((btn) => {
+      const show = () => showDetail(btn.dataset.city!, parseInt(btn.dataset.month!, 10));
+      btn.addEventListener('click', show);
+      btn.addEventListener('focus', show);
+    });
+
+    const sortBtn = document.getElementById('pm-sort') as HTMLButtonElement;
+    const rowsBody = document.getElementById('pm-rows')!;
+    let sortedByCount = false;
+    sortBtn.addEventListener('click', () => {
+      sortedByCount = !sortedByCount;
+      const rows = Array.from(rowsBody.querySelectorAll('tr'));
+      rows.sort((a, b) =>
+        sortedByCount
+          ? parseInt(b.dataset.count!, 10) - parseInt(a.dataset.count!, 10) || a.dataset.name!.localeCompare(b.dataset.name!)
+          : a.dataset.name!.localeCompare(b.dataset.name!),
+      );
+      rows.forEach((r) => rowsBody.appendChild(r));
+      sortBtn.setAttribute('aria-pressed', String(sortedByCount));
+      sortBtn.textContent = sortedByCount ? 'Sort A–Z' : 'Sort by playable months';
+    });
+
+    /* ---- City lookup ---- */
+    const select = document.getElementById('pm-city') as HTMLSelectElement;
+    const strip = document.getElementById('pm-strip')!;
+    const best = document.getElementById('pm-best')!;
+    const dusk = document.getElementById('pm-dusk')!;
+    function renderCity() {
+      const city = bySlug.get(select.value)!;
+      strip.innerHTML = city.months
+        .map(
+          (m) =>
+            `<span title="${MONTHS_FULL[m.month - 1]}: ${m.status}" class="inline-flex items-center justify-center w-[46px] h-[34px] rounded-[6px] font-mono text-[10px] font-bold" ` +
+            `style="background:${STATUS_COLOR[m.status]};color:${m.status === 'off-season' ? '#5a5648' : '#fffdf6'}">${MONTHS_FULL[m.month - 1].slice(0, 3)}</span>`,
+        )
+        .join('');
+      // Best 3: playable months first, then most daylight after 5pm, then fewest rain days.
+      const ranked = [...city.months].sort(
+        (a, b) =>
+          (b.status === 'playable' ? 1 : 0) - (a.status === 'playable' ? 1 : 0) ||
+          b.daylightAfter5pmMin - a.daylightAfter5pmMin ||
+          a.rainDays - b.rainDays,
+      );
+      best.innerHTML = `<strong class="text-forest-deep">Best 3 months:</strong> ${ranked.slice(0, 3).map((m) => MONTHS_FULL[m.month - 1]).join(', ')}.`;
+      const earliest = [...city.months].sort((a, b) => a.duskLocal.localeCompare(b.duskLocal))[0];
+      dusk.innerHTML = `<strong class="text-forest-deep">Earliest dusk:</strong> ${earliest.duskLocal} in ${MONTHS_FULL[earliest.month - 1]}.`;
+    }
+    select.addEventListener('change', renderCity);
+    renderCity();
+  </script>
+</BaseLayout>

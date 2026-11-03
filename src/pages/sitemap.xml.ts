@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { getAllCourses, getAllCities, courseUrl, cityUrl, getContentTier } from '../lib/data';
+import playableMonths from '../data/hubs/playable-months.json';
 
 const SITE = 'https://www.findfrolf.com';
 
@@ -29,6 +30,8 @@ export const GET: APIRoute = async () => {
   urls.push(url('/courses', 0.6, undefined, 'weekly'));
   urls.push(url('/cities', 0.6, undefined, 'weekly'));
   urls.push(url('/blog', 0.6, undefined, 'weekly'));
+  urls.push(url('/data', 0.6, undefined, 'monthly'));
+  urls.push(url('/data/playable-months', 0.7, playableMonths.pulledAt, 'yearly'));
   urls.push(url('/about', 0.5, undefined, 'monthly'));
   urls.push(url('/privacy', 0.3, undefined, 'yearly'));
   urls.push(url('/terms', 0.3, undefined, 'yearly'));

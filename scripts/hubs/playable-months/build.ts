@@ -10,7 +10,7 @@
  * Run: node scripts/hubs/playable-months/build.ts
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as SunCalc from 'suncalc';
 import { RULE, RULE_VERSION, classifyMonth, type MonthStatus } from './rule.ts';
@@ -18,6 +18,10 @@ import { RULE, RULE_VERSION, classifyMonth, type MonthStatus } from './rule.ts';
 const ROOT = process.cwd();
 const CLIMATE_FILE = join(ROOT, 'src', 'data', 'hubs', 'playable-months.climate.json');
 const OUT_FILE = join(ROOT, 'src', 'data', 'hubs', 'playable-months.json');
+// Public distribution copy (Dataset JSON-LD contentUrl). A static file, not
+// an endpoint — vite's JSON plugin chokes on any route path containing
+// ".json". Both copies are committed and regenerated together.
+const PUBLIC_OUT_FILE = join(ROOT, 'public', 'data', 'playable-months.json');
 
 interface ClimateMonth {
   month: number;
@@ -125,5 +129,8 @@ const payload = {
 };
 
 writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2) + '\n');
+mkdirSync(join(ROOT, 'public', 'data'), { recursive: true });
+writeFileSync(PUBLIC_OUT_FILE, JSON.stringify(payload, null, 2) + '\n');
 console.log(`✓ wrote ${OUT_FILE}`);
+console.log(`✓ wrote ${PUBLIC_OUT_FILE} (public distribution copy)`);
 console.log(`  ${cities.length} cities × 12 months, rule v${RULE_VERSION}, pulled ${climate.pulledAt}, next refresh ${nextRefresh}`);

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Data Hubs — Find Frolf"
+  description="Open disc golf datasets from FindFrolf — computed from public sources, documented methodology, free to reuse."
+>
+  <section class="max-w-[1080px] mx-auto px-8 py-20">
+    <div class="eyebrow mb-3">§ Open data</div>
+    <h1 class="font-display font-normal text-[clamp(30px,4vw,46px)] leading-[1.04] tracking-[-1.2px] text-forest-deep mb-3 max-w-[760px]">
+      Data <em class="italic text-clay">hubs</em>
+    </h1>
+    <p class="text-base text-ink-soft max-w-[580px] mb-12">
+      Disc golf datasets computed from public sources, with the methodology on the page. Free to reuse with attribution.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <a href="/data/playable-months/" class="group block bg-paper border-[1.5px] border-forest rounded-[14px] p-7 shadow-stamp hover:border-clay transition-colors">
+        <div class="font-mono text-[10px] uppercase tracking-[1.5px] text-moss mb-2">Technique &amp; Conditions cluster</div>
+        <h2 class="font-display font-semibold text-[24px] text-forest-deep group-hover:text-clay transition-colors leading-tight mb-2">
+          Playable Months by City
+        </h2>
+        <p class="text-sm text-ink-soft leading-[1.6]">
+          Which months are actually playable in 15 US disc golf cities — NOAA 30-year climate normals, rain days, and civil dusk, in one heatmap.
+        </p>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

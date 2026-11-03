@@ -326,4 +326,13 @@ const trust = defineCollection({
   }),
 });
 
-export const collections = { cities, courses, blog, trust };
+/* ------------------------------------------------------------------ */
+/*  HUB EDITORIAL BLOCKS (owner-authored position pieces for data hubs)*/
+/* ------------------------------------------------------------------ */
+
+const hubs = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/hubs' }),
+  schema: z.object({}),
+});
+
+export const collections = { cities, courses, blog, trust, hubs };

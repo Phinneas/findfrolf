@@ -88,6 +88,29 @@ Candidates for v2 (monthly mean wind speed by station). None ingested yet.
 - No wind yet (v1); gusts matter more than monthly means for play.
 - Playable rule is editorial (rule.ts), not a NOAA definition.
 
+## Implementation notes (Steps 2–4)
+
+- Hub page: `/data/playable-months/` (+ `/data/` index). Heatmap is a static,
+  semantic HTML table enhanced by a vanilla-JS island (sort + detail panel);
+  city lookup is the second island. Methodology and the station table are
+  static HTML. Dataset JSON-LD in `<head>`.
+- Distribution: `public/data/playable-months.json` (served at
+  `/data/playable-months.json`) is written by `build.ts` alongside the
+  `src/data` copy — a static file, because vite's JSON plugin chokes on any
+  route path containing `.json`. Both copies are committed and regenerated
+  together.
+- `<DataShows />` contract: blog posts are plain `.md` (no MDX in this
+  site), so the reusable box is implemented as a container directive —
+  `:::datashows{hub="playable-months" city="<slug>"}` — rendered at build
+  time by `src/lib/mdast-datashows.ts`. Unknown hub or city fails the build.
+  The directive body is the copy slot; the placeholder body is
+  `TODO: owner copy (100–200 words).`
+- `npm run hubs:refresh` = Step 4 (fetch + build; see Pipeline above).
+- Not run here: Lighthouse a11y audit (no Chrome in this environment). The
+  heatmap uses native buttons with per-cell `aria-label`s, a table caption,
+  a live region for the detail panel, and a scrollable region with
+  `tabindex="0"` — run Lighthouse before shipping to confirm ≥ 95.
+
 ## Owner TODOs
 
 1. Write the owner position block: `src/content/hubs/playable-months-position.md` (placeholder only — do not let anyone else draft it).
