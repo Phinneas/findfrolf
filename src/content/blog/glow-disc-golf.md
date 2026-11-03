@@ -32,7 +32,7 @@ faqItems: [
 Here's a secret the day players don't know: **some of the best rounds of disc golf happen after sunset.** Glow golf — throwing discs charged with ultraviolet light through a dark park — turns a familiar course into a completely new game. The fairways feel longer, the chains sound louder, and the whole thing has the energy of a night hike with friends and frisbees. This guide covers everything you need to play your first glow round without a single wasted trip.
 
 :::datashows{hub="playable-months" city="minneapolis-st-paul"}
-TODO: owner copy (100–200 words).
+Glow rounds hit different in January. Minneapolis–St. Paul clears our playable bar only 7 of 12 months — a January overnight low around 8.8°F means the outdoor season shuts down entirely for part of the year. That's not a reason to hang up the bag; it's a reason glow rounds exist. The full calendar: <a href="/data/playable-months/">Playable Months data page</a>.
 :::
 
 ## What you actually need

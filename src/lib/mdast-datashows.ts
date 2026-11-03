@@ -97,7 +97,9 @@ export const datashowsPlugin = defineMdastPlugin({
       );
     }
 
-    // Copy slot: the directive body's raw source, as plain paragraphs.
+    // Copy slot: the directive body's raw source, split into paragraphs.
+    // Owner-authored content (committed to the repo), rendered RAW so links
+    // and inline HTML in the copy work — never escaped. Keep it prose-only.
     let copy = '';
     const children = (node.children ?? []) as { position?: { start: { offset?: number }; end: { offset?: number } } }[];
     if (children.length > 0) {
@@ -109,7 +111,7 @@ export const datashowsPlugin = defineMdastPlugin({
     }
     const paragraphs = (copy || 'TODO: owner copy (100–200 words).')
       .split(/\n{2,}/)
-      .map((p) => `<p>${escapeHtml(p.replace(/\n/g, ' '))}</p>`)
+      .map((p) => `<p>${p.replace(/\n/g, ' ')}</p>`)
       .join('');
 
     const html =

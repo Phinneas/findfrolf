@@ -113,8 +113,8 @@ Candidates for v2 (monthly mean wind speed by station). None ingested yet.
 
 ## Owner TODOs
 
-1. Write the owner position block: `src/content/hubs/playable-months-position.md` (placeholder only — do not let anyone else draft it).
-2. Write 100–200 words of copy for each `<DataShows hub="playable-months" />` slot in the four cluster posts.
+1. ~~Write the owner position block~~ — done 2026-11-03 (adapted by owner from the SoundDip draft, domain terms rewritten, all data claims preserved).
+2. ~~Write copy for each datashows slot~~ — done 2026-11-03 (same adaptation; [N] values filled from the committed JSON: Austin 12, Chicago 7, Denver 7, MSP 7).
 3. Confirm the rule thresholds in `scripts/hubs/playable-months/rule.ts` (50°F / 28°F / ≤10 rain days).
 4. Pick a v2 wind source from the candidates above.
 5. Confirm the metro-centroid method for city centers (mean of course coordinates) is acceptable.

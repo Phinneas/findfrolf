@@ -34,7 +34,7 @@ New to disc golf and wondering why your throws go nowhere — or worse, everywhe
 If you haven't picked your first discs yet, read [how to choose your first disc golf disc](/blog/choosing-first-disc-golf-disc/) first, then come back here. One disc is enough to practice everything below.
 
 :::datashows{hub="playable-months" city="austin"}
-TODO: owner copy (100–200 words).
+Technique only gets so far when the weather fights back. Austin is one of the friendliest places on our climate map — 12 of 12 months clear our "playable" bar — which is one reason players there can build a year-round practice habit outdoors. The full month-by-month table lives on our <a href="/data/playable-months/">Playable Months data page</a>.
 :::
 
 ## The backhand: the throw you'll use most

@@ -12,7 +12,7 @@ Most intermediate players can throw far. Far fewer can *score*. The difference u
 If you're still learning the basics, start with our guide on [how to play disc golf](/blog/how-to-play-disc-golf/), then come back here. This post assumes you can already drive, approach, and putt — and now you want to stop leaving strokes on the course. We'll cover how to assess wind, identify your landing zone, choose a flight path, read elevation, and finally decode what course difficulty ratings actually mean.
 
 :::datashows{hub="playable-months" city="denver"}
-TODO: owner copy (100–200 words).
+Denver is why you read the whole row, not one cell. Its 7 playable months sit at altitude, where a month that averages fine can still swing hard between a 70-degree afternoon and a freezing night. Climate normals smooth those swings; the table shows you the shape of the season, and your eyes should check the actual forecast. Full table: <a href="/data/playable-months/">Playable Months data page</a>.
 :::
 
 ## What "Reading a Course" Actually Means
