@@ -19,7 +19,7 @@ const COURSES_DIR = fileURLToPath(new URL('../src/content/courses/', import.meta
 const BLOG_DIR = fileURLToPath(new URL('../src/content/blog/', import.meta.url));
 const PUB_DATE = '2026-08-28';
 const HERO = '/images/course-placeholder.svg';
-const FINDER_LINK = 'Search every course with the [disc golf course finder](https://findfrolf.com/finder).';
+const FINDER_LINK = 'Search every course with the [disc golf course finder](https://www.findfrolf.com/finder/).';
 
 function readCourses() {
   return readdirSync(COURSES_DIR)
@@ -28,7 +28,7 @@ function readCourses() {
       const data = JSON.parse(readFileSync(`${COURSES_DIR}${f}`, 'utf8'));
       return {
         slug: f.replace(/\.json$/, ''),
-        url: `/${data.stateSlug}/${data.citySlug}/${f.replace(/\.json$/, '')}`,
+        url: `/${data.stateSlug}/${data.citySlug}/${f.replace(/\.json$/, '')}/`,
         data,
       };
     });
@@ -40,7 +40,7 @@ function line(c) {
   const d = c.data;
   const sig = d.signatureHoleDescription ? d.signatureHoleDescription.split('.')[0] + '.' : '';
   const fee = d.isFree ? 'Free' : d.greenFee;
-  return `**${d.name}** — ${d.city}, ${d.state} · ${d.holes} holes, par ${d.par}, ${d.difficulty} · ★ ${d.rating} · ${fee}\n\n${sig}\n\n[View course page](${c.url}) · [all ${d.city} courses](/${d.stateSlug}/${d.citySlug})`;
+  return `**${d.name}** — ${d.city}, ${d.state} · ${d.holes} holes, par ${d.par}, ${d.difficulty} · ★ ${d.rating} · ${fee}\n\n${sig}\n\n[View course page](${c.url}) · [all ${d.city} courses](/${d.stateSlug}/${d.citySlug}/)`;
 }
 
 function entry(c, rank) {
@@ -186,13 +186,13 @@ const out = [];
   const intro = `Traveling? Every one of these is the **highest-rated verified course in its state** — the one locals would tell you to play first. Ranked overall by player rating.\n\n${FINDER_LINK}`;
   const outro = `The best course in the state is a great starting point — but every metro we cover has a full top tier waiting. Browse by city in the finder.\n\n${FINDER_LINK}`;
   const faqs = [
-    { question: 'How were these courses chosen?', answer: 'One per state: the highest-rated verified course we publish in each of the 15 states covered so far.' },
+    { question: 'How were these courses chosen?', answer: `One per state: the highest-rated verified course we publish in each of the ${byState.size} states covered so far.` },
     { question: 'What is the best disc golf state?', answer: 'It depends what you want — Texas and North Carolina have the deepest top tiers in our directory; Minnesota and Oregon have the highest-rated individual courses.' },
   ];
   const md = render(
     'best-disc-golf-course-in-every-state',
     'The Best Disc Golf Course in Every State We Cover',
-    'One per state — the highest-rated verified disc golf course in each of the 13 states in our directory.',
+    `One per state — the highest-rated verified disc golf course in each of the ${byState.size} states in our directory.`,
     intro,
     list.map((c, i) => entry(c, i + 1)),
     outro,
