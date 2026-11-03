@@ -11,6 +11,14 @@ interface Props {
 }
 
 const { title, description, noindex = false } = Astro.props;
+
+// Canonical URL: always the www host (astro.config `site`) with a trailing
+// slash, matching the served directory URLs and the sitemap exactly.
+const site = Astro.site ?? new URL('https://www.findfrolf.com');
+const canonicalPath = Astro.url.pathname.endsWith('/')
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`;
+const canonical = new URL(canonicalPath, site).href;
 ---
 
 <!doctype html>
@@ -22,7 +30,7 @@ const { title, description, noindex = false } = Astro.props;
     {description && <meta name="description" content={description} />}
     <meta name="google-adsense-account" content="ca-pub-5424097145643842" />
     {noindex && <meta name="robots" content="noindex, follow" />}
-    <link rel="canonical" href={Astro.url} />
+    <link rel="canonical" href={canonical} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
