@@ -49,3 +49,6 @@ absent-apogee/
 # backup files
 *.bak
 
+
+# hub pipeline cache (regenerable)
+scripts/hubs/playable-months/.cache/

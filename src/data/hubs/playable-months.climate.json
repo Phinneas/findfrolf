@@ -1,0 +1,1570 @@
+{
+  "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
+  "sourceUrl": "https://www.ncei.noaa.gov/access/services/data/v1",
+  "stationInventoryUrl": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt",
+  "datasetVersion": "1991-2020",
+  "license": "NOAA data is public domain",
+  "pulledAt": "2026-11-03",
+  "cities": [
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "stateSlug": "tx",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 30.2946,
+        "lng": -97.7505,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013958",
+        "name": "AUSTIN-CAMP MABRY",
+        "lat": 30.3208,
+        "lng": -97.7603,
+        "distanceKm": 3.1
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 62.5,
+          "tminF": 41.8,
+          "prcpIn": 2.64,
+          "rainDays": 4.1
+        },
+        {
+          "month": 2,
+          "tmaxF": 66.5,
+          "tminF": 45.8,
+          "prcpIn": 1.89,
+          "rainDays": 3.6
+        },
+        {
+          "month": 3,
+          "tmaxF": 73.3,
+          "tminF": 52.2,
+          "prcpIn": 2.88,
+          "rainDays": 4.7
+        },
+        {
+          "month": 4,
+          "tmaxF": 80.3,
+          "tminF": 58.9,
+          "prcpIn": 2.42,
+          "rainDays": 3.9
+        },
+        {
+          "month": 5,
+          "tmaxF": 86.9,
+          "tminF": 66.8,
+          "prcpIn": 5.04,
+          "rainDays": 5.5
+        },
+        {
+          "month": 6,
+          "tmaxF": 93.2,
+          "tminF": 72.9,
+          "prcpIn": 3.68,
+          "rainDays": 5.2
+        },
+        {
+          "month": 7,
+          "tmaxF": 96.6,
+          "tminF": 75,
+          "prcpIn": 1.96,
+          "rainDays": 3
+        },
+        {
+          "month": 8,
+          "tmaxF": 97.8,
+          "tminF": 75.1,
+          "prcpIn": 2.74,
+          "rainDays": 3.1
+        },
+        {
+          "month": 9,
+          "tmaxF": 91.4,
+          "tminF": 70.1,
+          "prcpIn": 3.45,
+          "rainDays": 4.3
+        },
+        {
+          "month": 10,
+          "tmaxF": 82.5,
+          "tminF": 60.8,
+          "prcpIn": 3.91,
+          "rainDays": 4.5
+        },
+        {
+          "month": 11,
+          "tmaxF": 71.5,
+          "tminF": 50.5,
+          "prcpIn": 2.92,
+          "rainDays": 3.8
+        },
+        {
+          "month": 12,
+          "tmaxF": 63.9,
+          "tminF": 43.4,
+          "prcpIn": 2.72,
+          "rainDays": 4
+        }
+      ]
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "stateSlug": "co",
+      "timeZone": "America/Denver",
+      "center": {
+        "lat": 39.7069,
+        "lng": -105.0606,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00023062",
+        "name": "DENVER-STAPLETON",
+        "lat": 39.7633,
+        "lng": -104.8694,
+        "distanceKm": 17.5
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 46.5,
+          "tminF": 17.6,
+          "prcpIn": 0.46,
+          "rainDays": 1.6
+        },
+        {
+          "month": 2,
+          "tmaxF": 47.5,
+          "tminF": 19.3,
+          "prcpIn": 0.53,
+          "rainDays": 2.1
+        },
+        {
+          "month": 3,
+          "tmaxF": 56.4,
+          "tminF": 27.1,
+          "prcpIn": 1.12,
+          "rainDays": 2.8
+        },
+        {
+          "month": 4,
+          "tmaxF": 62.5,
+          "tminF": 33.7,
+          "prcpIn": 1.67,
+          "rainDays": 4.4
+        },
+        {
+          "month": 5,
+          "tmaxF": 71.7,
+          "tminF": 43.4,
+          "prcpIn": 2.29,
+          "rainDays": 5.2
+        },
+        {
+          "month": 6,
+          "tmaxF": 84.1,
+          "tminF": 52.9,
+          "prcpIn": 1.68,
+          "rainDays": 4.1
+        },
+        {
+          "month": 7,
+          "tmaxF": 90.2,
+          "tminF": 59.3,
+          "prcpIn": 2.12,
+          "rainDays": 4
+        },
+        {
+          "month": 8,
+          "tmaxF": 87.9,
+          "tminF": 57.2,
+          "prcpIn": 1.83,
+          "rainDays": 3.5
+        },
+        {
+          "month": 9,
+          "tmaxF": 80.1,
+          "tminF": 48.2,
+          "prcpIn": 1.51,
+          "rainDays": 3.3
+        },
+        {
+          "month": 10,
+          "tmaxF": 66.7,
+          "tminF": 35.7,
+          "prcpIn": 0.98,
+          "rainDays": 2.7
+        },
+        {
+          "month": 11,
+          "tmaxF": 54.8,
+          "tminF": 25.5,
+          "prcpIn": 0.7,
+          "rainDays": 2.2
+        },
+        {
+          "month": 12,
+          "tmaxF": 45.9,
+          "tminF": 17.7,
+          "prcpIn": 0.47,
+          "rainDays": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "stateSlug": "or",
+      "timeZone": "America/Los_Angeles",
+      "center": {
+        "lat": 45.5307,
+        "lng": -122.6277,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00024229",
+        "name": "PORTLAND INTL AP",
+        "lat": 45.5958,
+        "lng": -122.6092,
+        "distanceKm": 7.4
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 47.5,
+          "tminF": 36.2,
+          "prcpIn": 5.03,
+          "rainDays": 12.3
+        },
+        {
+          "month": 2,
+          "tmaxF": 51.5,
+          "tminF": 36.8,
+          "prcpIn": 3.68,
+          "rainDays": 9.3
+        },
+        {
+          "month": 3,
+          "tmaxF": 56.8,
+          "tminF": 39.7,
+          "prcpIn": 3.97,
+          "rainDays": 11.1
+        },
+        {
+          "month": 4,
+          "tmaxF": 62,
+          "tminF": 43.7,
+          "prcpIn": 2.89,
+          "rainDays": 9
+        },
+        {
+          "month": 5,
+          "tmaxF": 69.3,
+          "tminF": 49.4,
+          "prcpIn": 2.51,
+          "rainDays": 7.3
+        },
+        {
+          "month": 6,
+          "tmaxF": 74.3,
+          "tminF": 54.1,
+          "prcpIn": 1.63,
+          "rainDays": 4.6
+        },
+        {
+          "month": 7,
+          "tmaxF": 81.9,
+          "tminF": 58.5,
+          "prcpIn": 0.51,
+          "rainDays": 1.5
+        },
+        {
+          "month": 8,
+          "tmaxF": 82.3,
+          "tminF": 58.9,
+          "prcpIn": 0.54,
+          "rainDays": 1.6
+        },
+        {
+          "month": 9,
+          "tmaxF": 76.7,
+          "tminF": 54.1,
+          "prcpIn": 1.52,
+          "rainDays": 3.5
+        },
+        {
+          "month": 10,
+          "tmaxF": 64.4,
+          "tminF": 46.7,
+          "prcpIn": 3.42,
+          "rainDays": 7.9
+        },
+        {
+          "month": 11,
+          "tmaxF": 53.5,
+          "tminF": 40.6,
+          "prcpIn": 5.45,
+          "rainDays": 12.2
+        },
+        {
+          "month": 12,
+          "tmaxF": 46.9,
+          "tminF": 36.2,
+          "prcpIn": 5.77,
+          "rainDays": 13
+        }
+      ]
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "stateSlug": "il",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 41.8018,
+        "lng": -87.8367,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00014819",
+        "name": "CHICAGO MIDWAY AP",
+        "lat": 41.7842,
+        "lng": -87.7553,
+        "distanceKm": 7
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 32.7,
+          "tminF": 19.4,
+          "prcpIn": 1.48,
+          "rainDays": 3.4
+        },
+        {
+          "month": 2,
+          "tmaxF": 36.8,
+          "tminF": 22.6,
+          "prcpIn": 1.46,
+          "rainDays": 3.4
+        },
+        {
+          "month": 3,
+          "tmaxF": 47.6,
+          "tminF": 31.7,
+          "prcpIn": 1.88,
+          "rainDays": 5
+        },
+        {
+          "month": 4,
+          "tmaxF": 59.9,
+          "tminF": 41.4,
+          "prcpIn": 3.57,
+          "rainDays": 6.9
+        },
+        {
+          "month": 5,
+          "tmaxF": 71.1,
+          "tminF": 52,
+          "prcpIn": 4.09,
+          "rainDays": 8.2
+        },
+        {
+          "month": 6,
+          "tmaxF": 80.9,
+          "tminF": 62.3,
+          "prcpIn": 4.01,
+          "rainDays": 8
+        },
+        {
+          "month": 7,
+          "tmaxF": 85,
+          "tminF": 67.7,
+          "prcpIn": 3.55,
+          "rainDays": 5.5
+        },
+        {
+          "month": 8,
+          "tmaxF": 82.7,
+          "tminF": 66.4,
+          "prcpIn": 3.99,
+          "rainDays": 6.4
+        },
+        {
+          "month": 9,
+          "tmaxF": 76.3,
+          "tminF": 58.8,
+          "prcpIn": 2.77,
+          "rainDays": 5.4
+        },
+        {
+          "month": 10,
+          "tmaxF": 63.4,
+          "tminF": 46.5,
+          "prcpIn": 3.48,
+          "rainDays": 6.3
+        },
+        {
+          "month": 11,
+          "tmaxF": 49.1,
+          "tminF": 35,
+          "prcpIn": 2.35,
+          "rainDays": 4.7
+        },
+        {
+          "month": 12,
+          "tmaxF": 37.6,
+          "tminF": 25,
+          "prcpIn": 1.79,
+          "rainDays": 4.3
+        }
+      ]
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "stateSlug": "wa",
+      "timeZone": "America/Los_Angeles",
+      "center": {
+        "lat": 47.5258,
+        "lng": -122.3421,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00024234",
+        "name": "SEATTLE BOEING FLD",
+        "lat": 47.5456,
+        "lng": -122.3147,
+        "distanceKm": 3
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 48.6,
+          "tminF": 36.8,
+          "prcpIn": 5.21,
+          "rainDays": 12.1
+        },
+        {
+          "month": 2,
+          "tmaxF": 50.7,
+          "tminF": 36.8,
+          "prcpIn": 3.71,
+          "rainDays": 9
+        },
+        {
+          "month": 3,
+          "tmaxF": 54.8,
+          "tminF": 39.4,
+          "prcpIn": 3.94,
+          "rainDays": 10.5
+        },
+        {
+          "month": 4,
+          "tmaxF": 59.8,
+          "tminF": 43.6,
+          "prcpIn": 2.89,
+          "rainDays": 8
+        },
+        {
+          "month": 5,
+          "tmaxF": 66.5,
+          "tminF": 49.3,
+          "prcpIn": 1.98,
+          "rainDays": 5.6
+        },
+        {
+          "month": 6,
+          "tmaxF": 71.2,
+          "tminF": 54,
+          "prcpIn": 1.22,
+          "rainDays": 3.6
+        },
+        {
+          "month": 7,
+          "tmaxF": 77.3,
+          "tminF": 57.5,
+          "prcpIn": 0.56,
+          "rainDays": 1.3
+        },
+        {
+          "month": 8,
+          "tmaxF": 77.4,
+          "tminF": 58.1,
+          "prcpIn": 0.83,
+          "rainDays": 1.8
+        },
+        {
+          "month": 9,
+          "tmaxF": 71.7,
+          "tminF": 53.9,
+          "prcpIn": 1.37,
+          "rainDays": 3.8
+        },
+        {
+          "month": 10,
+          "tmaxF": 61,
+          "tminF": 46.4,
+          "prcpIn": 3.49,
+          "rainDays": 7.8
+        },
+        {
+          "month": 11,
+          "tmaxF": 53,
+          "tminF": 39.9,
+          "prcpIn": 5.8,
+          "rainDays": 11.3
+        },
+        {
+          "month": 12,
+          "tmaxF": 47.8,
+          "tminF": 36.2,
+          "prcpIn": 5.49,
+          "rainDays": 11.4
+        }
+      ]
+    },
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "stateSlug": "nc",
+      "timeZone": "America/New_York",
+      "center": {
+        "lat": 35.1731,
+        "lng": -80.8411,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013881",
+        "name": "CHARLOTTE DOUGLAS AP",
+        "lat": 35.2225,
+        "lng": -80.9544,
+        "distanceKm": 11.7
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 52.3,
+          "tminF": 31.8,
+          "prcpIn": 3.49,
+          "rainDays": 7.1
+        },
+        {
+          "month": 2,
+          "tmaxF": 56.6,
+          "tminF": 34.9,
+          "prcpIn": 3.13,
+          "rainDays": 6.4
+        },
+        {
+          "month": 3,
+          "tmaxF": 64.2,
+          "tminF": 41.2,
+          "prcpIn": 3.95,
+          "rainDays": 7.3
+        },
+        {
+          "month": 4,
+          "tmaxF": 73.2,
+          "tminF": 49.1,
+          "prcpIn": 3.84,
+          "rainDays": 6.1
+        },
+        {
+          "month": 5,
+          "tmaxF": 80.1,
+          "tminF": 58,
+          "prcpIn": 3.36,
+          "rainDays": 5.9
+        },
+        {
+          "month": 6,
+          "tmaxF": 86.9,
+          "tminF": 66.2,
+          "prcpIn": 3.99,
+          "rainDays": 6.7
+        },
+        {
+          "month": 7,
+          "tmaxF": 90.3,
+          "tminF": 69.9,
+          "prcpIn": 3.74,
+          "rainDays": 6.1
+        },
+        {
+          "month": 8,
+          "tmaxF": 88.6,
+          "tminF": 68.7,
+          "prcpIn": 4.35,
+          "rainDays": 6.3
+        },
+        {
+          "month": 9,
+          "tmaxF": 82.8,
+          "tminF": 62.6,
+          "prcpIn": 3.71,
+          "rainDays": 5.1
+        },
+        {
+          "month": 10,
+          "tmaxF": 73.3,
+          "tminF": 50.4,
+          "prcpIn": 3.16,
+          "rainDays": 4.4
+        },
+        {
+          "month": 11,
+          "tmaxF": 62.9,
+          "tminF": 39.8,
+          "prcpIn": 3.31,
+          "rainDays": 5.3
+        },
+        {
+          "month": 12,
+          "tmaxF": 54.9,
+          "tminF": 34.5,
+          "prcpIn": 3.57,
+          "rainDays": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "stateSlug": "tx",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 29.8221,
+        "lng": -95.4213,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00012960",
+        "name": "HOUSTON INTERCONTINENTAL AP",
+        "lat": 29.9844,
+        "lng": -95.3608,
+        "distanceKm": 19
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 63.8,
+          "tminF": 43.7,
+          "prcpIn": 3.76,
+          "rainDays": 5.7
+        },
+        {
+          "month": 2,
+          "tmaxF": 67.8,
+          "tminF": 47.6,
+          "prcpIn": 2.97,
+          "rainDays": 4.9
+        },
+        {
+          "month": 3,
+          "tmaxF": 74,
+          "tminF": 53.6,
+          "prcpIn": 3.47,
+          "rainDays": 4.8
+        },
+        {
+          "month": 4,
+          "tmaxF": 80.1,
+          "tminF": 59.8,
+          "prcpIn": 3.95,
+          "rainDays": 4.4
+        },
+        {
+          "month": 5,
+          "tmaxF": 86.9,
+          "tminF": 67.8,
+          "prcpIn": 5.01,
+          "rainDays": 5.4
+        },
+        {
+          "month": 6,
+          "tmaxF": 92.3,
+          "tminF": 73.7,
+          "prcpIn": 6,
+          "rainDays": 6.6
+        },
+        {
+          "month": 7,
+          "tmaxF": 94.5,
+          "tminF": 75.7,
+          "prcpIn": 3.77,
+          "rainDays": 5.7
+        },
+        {
+          "month": 8,
+          "tmaxF": 94.9,
+          "tminF": 75.4,
+          "prcpIn": 4.84,
+          "rainDays": 5.8
+        },
+        {
+          "month": 9,
+          "tmaxF": 90.4,
+          "tminF": 70.6,
+          "prcpIn": 4.71,
+          "rainDays": 5.8
+        },
+        {
+          "month": 10,
+          "tmaxF": 82.8,
+          "tminF": 60.9,
+          "prcpIn": 5.46,
+          "rainDays": 4.9
+        },
+        {
+          "month": 11,
+          "tmaxF": 72.6,
+          "tminF": 51.5,
+          "prcpIn": 3.87,
+          "rainDays": 4.7
+        },
+        {
+          "month": 12,
+          "tmaxF": 65.3,
+          "tminF": 45.6,
+          "prcpIn": 4.03,
+          "rainDays": 5.7
+        }
+      ]
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "stateSlug": "az",
+      "timeZone": "America/Phoenix",
+      "center": {
+        "lat": 33.3914,
+        "lng": -111.9672,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00023183",
+        "name": "PHOENIX AP",
+        "lat": 33.4278,
+        "lng": -112.0036,
+        "distanceKm": 5.3
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 67.6,
+          "tminF": 46,
+          "prcpIn": 0.87,
+          "rainDays": 2.2
+        },
+        {
+          "month": 2,
+          "tmaxF": 70.8,
+          "tminF": 49,
+          "prcpIn": 0.87,
+          "rainDays": 2.1
+        },
+        {
+          "month": 3,
+          "tmaxF": 78.1,
+          "tminF": 54.5,
+          "prcpIn": 0.83,
+          "rainDays": 1.7
+        },
+        {
+          "month": 4,
+          "tmaxF": 85.5,
+          "tminF": 60.8,
+          "prcpIn": 0.22,
+          "rainDays": 0.7
+        },
+        {
+          "month": 5,
+          "tmaxF": 94.5,
+          "tminF": 69.5,
+          "prcpIn": 0.13,
+          "rainDays": 0.4
+        },
+        {
+          "month": 6,
+          "tmaxF": 104.2,
+          "tminF": 78.6,
+          "prcpIn": 0.02,
+          "rainDays": 0.1
+        },
+        {
+          "month": 7,
+          "tmaxF": 106.5,
+          "tminF": 84.5,
+          "prcpIn": 0.91,
+          "rainDays": 2
+        },
+        {
+          "month": 8,
+          "tmaxF": 105.1,
+          "tminF": 83.6,
+          "prcpIn": 0.93,
+          "rainDays": 2.4
+        },
+        {
+          "month": 9,
+          "tmaxF": 100.4,
+          "tminF": 78.1,
+          "prcpIn": 0.57,
+          "rainDays": 1.2
+        },
+        {
+          "month": 10,
+          "tmaxF": 89.2,
+          "tminF": 65.6,
+          "prcpIn": 0.56,
+          "rainDays": 1.1
+        },
+        {
+          "month": 11,
+          "tmaxF": 76.5,
+          "tminF": 53.7,
+          "prcpIn": 0.57,
+          "rainDays": 1.2
+        },
+        {
+          "month": 12,
+          "tmaxF": 66.2,
+          "tminF": 45.3,
+          "prcpIn": 0.74,
+          "rainDays": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "nashville",
+      "name": "Nashville",
+      "stateSlug": "tn",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 36.1223,
+        "lng": -86.6818,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013897",
+        "name": "NASHVILLE INTL AP",
+        "lat": 36.1106,
+        "lng": -86.6881,
+        "distanceKm": 1.4
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 49.1,
+          "tminF": 30.1,
+          "prcpIn": 4.02,
+          "rainDays": 6.6
+        },
+        {
+          "month": 2,
+          "tmaxF": 53.8,
+          "tminF": 33,
+          "prcpIn": 4.47,
+          "rainDays": 7.2
+        },
+        {
+          "month": 3,
+          "tmaxF": 62.7,
+          "tminF": 40.2,
+          "prcpIn": 4.52,
+          "rainDays": 8
+        },
+        {
+          "month": 4,
+          "tmaxF": 72.6,
+          "tminF": 48.9,
+          "prcpIn": 4.72,
+          "rainDays": 7.5
+        },
+        {
+          "month": 5,
+          "tmaxF": 80.4,
+          "tminF": 58.3,
+          "prcpIn": 5.02,
+          "rainDays": 7.8
+        },
+        {
+          "month": 6,
+          "tmaxF": 87.7,
+          "tminF": 66.4,
+          "prcpIn": 4.36,
+          "rainDays": 7
+        },
+        {
+          "month": 7,
+          "tmaxF": 90.9,
+          "tminF": 70.5,
+          "prcpIn": 4.16,
+          "rainDays": 6.7
+        },
+        {
+          "month": 8,
+          "tmaxF": 90.4,
+          "tminF": 69,
+          "prcpIn": 3.79,
+          "rainDays": 5.7
+        },
+        {
+          "month": 9,
+          "tmaxF": 84.4,
+          "tminF": 61.8,
+          "prcpIn": 3.8,
+          "rainDays": 5.1
+        },
+        {
+          "month": 10,
+          "tmaxF": 73.5,
+          "tminF": 49.9,
+          "prcpIn": 3.36,
+          "rainDays": 5.6
+        },
+        {
+          "month": 11,
+          "tmaxF": 61.4,
+          "tminF": 39.2,
+          "prcpIn": 3.86,
+          "rainDays": 5.9
+        },
+        {
+          "month": 12,
+          "tmaxF": 52.2,
+          "tminF": 33.3,
+          "prcpIn": 4.43,
+          "rainDays": 7.6
+        }
+      ]
+    },
+    {
+      "slug": "raleigh",
+      "name": "Raleigh",
+      "stateSlug": "nc",
+      "timeZone": "America/New_York",
+      "center": {
+        "lat": 35.82,
+        "lng": -78.7625,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013722",
+        "name": "RALEIGH AP",
+        "lat": 35.8922,
+        "lng": -78.7819,
+        "distanceKm": 8.2
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 51.9,
+          "tminF": 31.8,
+          "prcpIn": 3.43,
+          "rainDays": 6.6
+        },
+        {
+          "month": 2,
+          "tmaxF": 55.8,
+          "tminF": 34.2,
+          "prcpIn": 2.78,
+          "rainDays": 5.9
+        },
+        {
+          "month": 3,
+          "tmaxF": 63.3,
+          "tminF": 40.3,
+          "prcpIn": 4.1,
+          "rainDays": 7.1
+        },
+        {
+          "month": 4,
+          "tmaxF": 72.7,
+          "tminF": 48.9,
+          "prcpIn": 3.53,
+          "rainDays": 5.9
+        },
+        {
+          "month": 5,
+          "tmaxF": 80,
+          "tminF": 57.7,
+          "prcpIn": 3.38,
+          "rainDays": 6.6
+        },
+        {
+          "month": 6,
+          "tmaxF": 87.4,
+          "tminF": 66,
+          "prcpIn": 3.89,
+          "rainDays": 7
+        },
+        {
+          "month": 7,
+          "tmaxF": 90.8,
+          "tminF": 70.2,
+          "prcpIn": 5.02,
+          "rainDays": 7.5
+        },
+        {
+          "month": 8,
+          "tmaxF": 88.7,
+          "tminF": 68.9,
+          "prcpIn": 4.71,
+          "rainDays": 7.1
+        },
+        {
+          "month": 9,
+          "tmaxF": 82.5,
+          "tminF": 62.7,
+          "prcpIn": 5.15,
+          "rainDays": 5.8
+        },
+        {
+          "month": 10,
+          "tmaxF": 73,
+          "tminF": 50.3,
+          "prcpIn": 3.37,
+          "rainDays": 4.9
+        },
+        {
+          "month": 11,
+          "tmaxF": 63,
+          "tminF": 40,
+          "prcpIn": 3.32,
+          "rainDays": 5
+        },
+        {
+          "month": 12,
+          "tmaxF": 54.7,
+          "tminF": 34.4,
+          "prcpIn": 3.39,
+          "rainDays": 5.8
+        }
+      ]
+    },
+    {
+      "slug": "dallas-fort-worth",
+      "name": "Dallas–Fort Worth",
+      "stateSlug": "tx",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 32.8561,
+        "lng": -96.9246,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013960",
+        "name": "DALLAS FAA AP",
+        "lat": 32.8383,
+        "lng": -96.8358,
+        "distanceKm": 8.5
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 57.7,
+          "tminF": 37.9,
+          "prcpIn": 2.59,
+          "rainDays": 4
+        },
+        {
+          "month": 2,
+          "tmaxF": 62,
+          "tminF": 41.9,
+          "prcpIn": 2.78,
+          "rainDays": 4.2
+        },
+        {
+          "month": 3,
+          "tmaxF": 69.9,
+          "tminF": 49.4,
+          "prcpIn": 3.45,
+          "rainDays": 4.7
+        },
+        {
+          "month": 4,
+          "tmaxF": 77.4,
+          "tminF": 56.8,
+          "prcpIn": 3.15,
+          "rainDays": 4.5
+        },
+        {
+          "month": 5,
+          "tmaxF": 84.9,
+          "tminF": 66,
+          "prcpIn": 4.57,
+          "rainDays": 6.3
+        },
+        {
+          "month": 6,
+          "tmaxF": 92.7,
+          "tminF": 73.8,
+          "prcpIn": 3.83,
+          "rainDays": 5.2
+        },
+        {
+          "month": 7,
+          "tmaxF": 96.9,
+          "tminF": 77.7,
+          "prcpIn": 1.71,
+          "rainDays": 3
+        },
+        {
+          "month": 8,
+          "tmaxF": 97.1,
+          "tminF": 77.4,
+          "prcpIn": 2.19,
+          "rainDays": 3.5
+        },
+        {
+          "month": 9,
+          "tmaxF": 90,
+          "tminF": 70.1,
+          "prcpIn": 3.1,
+          "rainDays": 3.8
+        },
+        {
+          "month": 10,
+          "tmaxF": 79.5,
+          "tminF": 58.7,
+          "prcpIn": 4.79,
+          "rainDays": 4.9
+        },
+        {
+          "month": 11,
+          "tmaxF": 67.8,
+          "tminF": 47.8,
+          "prcpIn": 2.93,
+          "rainDays": 4.1
+        },
+        {
+          "month": 12,
+          "tmaxF": 59.2,
+          "tminF": 39.8,
+          "prcpIn": 3.23,
+          "rainDays": 4.1
+        }
+      ]
+    },
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "stateSlug": "mo",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 39.0725,
+        "lng": -94.5601,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00013988",
+        "name": "KANSAS CITY DWTN AP",
+        "lat": 39.1278,
+        "lng": -94.5892,
+        "distanceKm": 6.6
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 39.9,
+          "tminF": 22.2,
+          "prcpIn": 1.02,
+          "rainDays": 2.2
+        },
+        {
+          "month": 2,
+          "tmaxF": 45.1,
+          "tminF": 26.4,
+          "prcpIn": 1.53,
+          "rainDays": 2.7
+        },
+        {
+          "month": 3,
+          "tmaxF": 56.6,
+          "tminF": 36.2,
+          "prcpIn": 2.08,
+          "rainDays": 4.6
+        },
+        {
+          "month": 4,
+          "tmaxF": 66.8,
+          "tminF": 46.3,
+          "prcpIn": 3.89,
+          "rainDays": 6.5
+        },
+        {
+          "month": 5,
+          "tmaxF": 76.2,
+          "tminF": 57.2,
+          "prcpIn": 5.1,
+          "rainDays": 7.7
+        },
+        {
+          "month": 6,
+          "tmaxF": 85.8,
+          "tminF": 67.2,
+          "prcpIn": 5.33,
+          "rainDays": 7.5
+        },
+        {
+          "month": 7,
+          "tmaxF": 90.2,
+          "tminF": 71.9,
+          "prcpIn": 4.38,
+          "rainDays": 6.2
+        },
+        {
+          "month": 8,
+          "tmaxF": 88.6,
+          "tminF": 69.9,
+          "prcpIn": 4.68,
+          "rainDays": 5.5
+        },
+        {
+          "month": 9,
+          "tmaxF": 80.4,
+          "tminF": 61,
+          "prcpIn": 3.78,
+          "rainDays": 5.7
+        },
+        {
+          "month": 10,
+          "tmaxF": 68.2,
+          "tminF": 48.7,
+          "prcpIn": 3.24,
+          "rainDays": 4.8
+        },
+        {
+          "month": 11,
+          "tmaxF": 54.5,
+          "tminF": 36.3,
+          "prcpIn": 1.8,
+          "rainDays": 3.4
+        },
+        {
+          "month": 12,
+          "tmaxF": 43.9,
+          "tminF": 26.7,
+          "prcpIn": 1.3,
+          "rainDays": 2.8
+        }
+      ]
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "stateSlug": "ga",
+      "timeZone": "America/New_York",
+      "center": {
+        "lat": 33.768,
+        "lng": -84.3419,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00053863",
+        "name": "ATLANTA DEKALB PEACHTREE AP",
+        "lat": 33.8783,
+        "lng": -84.2981,
+        "distanceKm": 12.9
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 51.9,
+          "tminF": 32.7,
+          "prcpIn": 4.57,
+          "rainDays": 6.9
+        },
+        {
+          "month": 2,
+          "tmaxF": 56.4,
+          "tminF": 35.9,
+          "prcpIn": 4.47,
+          "rainDays": 7.1
+        },
+        {
+          "month": 3,
+          "tmaxF": 64.4,
+          "tminF": 42.2,
+          "prcpIn": 4.7,
+          "rainDays": 7.1
+        },
+        {
+          "month": 4,
+          "tmaxF": 72.7,
+          "tminF": 49.2,
+          "prcpIn": 3.87,
+          "rainDays": 6.7
+        },
+        {
+          "month": 5,
+          "tmaxF": 80.3,
+          "tminF": 58.5,
+          "prcpIn": 3.83,
+          "rainDays": 6.7
+        },
+        {
+          "month": 6,
+          "tmaxF": 86.2,
+          "tminF": 66.3,
+          "prcpIn": 4.69,
+          "rainDays": 7.1
+        },
+        {
+          "month": 7,
+          "tmaxF": 89.4,
+          "tminF": 69.9,
+          "prcpIn": 4.71,
+          "rainDays": 7.4
+        },
+        {
+          "month": 8,
+          "tmaxF": 88.2,
+          "tminF": 69.1,
+          "prcpIn": 4.51,
+          "rainDays": 6.5
+        },
+        {
+          "month": 9,
+          "tmaxF": 82.9,
+          "tminF": 62.8,
+          "prcpIn": 4.12,
+          "rainDays": 4.7
+        },
+        {
+          "month": 10,
+          "tmaxF": 72.8,
+          "tminF": 50.9,
+          "prcpIn": 3.39,
+          "rainDays": 4.2
+        },
+        {
+          "month": 11,
+          "tmaxF": 62.5,
+          "tminF": 40.6,
+          "prcpIn": 4.21,
+          "rainDays": 5.5
+        },
+        {
+          "month": 12,
+          "tmaxF": 54.4,
+          "tminF": 35.5,
+          "prcpIn": 4.36,
+          "rainDays": 7.2
+        }
+      ]
+    },
+    {
+      "slug": "cincinnati",
+      "name": "Cincinnati",
+      "stateSlug": "oh",
+      "timeZone": "America/New_York",
+      "center": {
+        "lat": 39.1558,
+        "lng": -84.5054,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00093812",
+        "name": "CINCINNATI MUNI AP LUNKEN FLD",
+        "lat": 39.1061,
+        "lng": -84.4161,
+        "distanceKm": 9.5
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 40.6,
+          "tminF": 23.6,
+          "prcpIn": 2.86,
+          "rainDays": 6.2
+        },
+        {
+          "month": 2,
+          "tmaxF": 45,
+          "tminF": 25.7,
+          "prcpIn": 2.79,
+          "rainDays": 5.6
+        },
+        {
+          "month": 3,
+          "tmaxF": 54.6,
+          "tminF": 33.4,
+          "prcpIn": 3.94,
+          "rainDays": 7.8
+        },
+        {
+          "month": 4,
+          "tmaxF": 66.6,
+          "tminF": 42.5,
+          "prcpIn": 4.37,
+          "rainDays": 8.2
+        },
+        {
+          "month": 5,
+          "tmaxF": 75.4,
+          "tminF": 52.7,
+          "prcpIn": 4.7,
+          "rainDays": 8.7
+        },
+        {
+          "month": 6,
+          "tmaxF": 83.3,
+          "tminF": 61.2,
+          "prcpIn": 4.61,
+          "rainDays": 7.6
+        },
+        {
+          "month": 7,
+          "tmaxF": 86.6,
+          "tminF": 65.3,
+          "prcpIn": 4.39,
+          "rainDays": 7.4
+        },
+        {
+          "month": 8,
+          "tmaxF": 85.9,
+          "tminF": 63.7,
+          "prcpIn": 3.39,
+          "rainDays": 5.5
+        },
+        {
+          "month": 9,
+          "tmaxF": 79.7,
+          "tminF": 55.9,
+          "prcpIn": 3.07,
+          "rainDays": 5
+        },
+        {
+          "month": 10,
+          "tmaxF": 67.9,
+          "tminF": 44.2,
+          "prcpIn": 3.05,
+          "rainDays": 5.7
+        },
+        {
+          "month": 11,
+          "tmaxF": 55.1,
+          "tminF": 34.1,
+          "prcpIn": 2.91,
+          "rainDays": 6
+        },
+        {
+          "month": 12,
+          "tmaxF": 44.6,
+          "tminF": 28,
+          "prcpIn": 3.32,
+          "rainDays": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "minneapolis-st-paul",
+      "name": "Minneapolis–St. Paul",
+      "stateSlug": "mn",
+      "timeZone": "America/Chicago",
+      "center": {
+        "lat": 45.0242,
+        "lng": -93.3471,
+        "method": "mean of course coordinates in src/content/courses"
+      },
+      "station": {
+        "id": "USW00014922",
+        "name": "MINNEAPOLIS-ST PAUL INTL AP",
+        "lat": 44.8853,
+        "lng": -93.2314,
+        "distanceKm": 17.9
+      },
+      "months": [
+        {
+          "month": 1,
+          "tmaxF": 23.6,
+          "tminF": 8.8,
+          "prcpIn": 0.89,
+          "rainDays": 3.1
+        },
+        {
+          "month": 2,
+          "tmaxF": 28.5,
+          "tminF": 12.7,
+          "prcpIn": 0.87,
+          "rainDays": 2.5
+        },
+        {
+          "month": 3,
+          "tmaxF": 41.7,
+          "tminF": 24.9,
+          "prcpIn": 1.68,
+          "rainDays": 4.6
+        },
+        {
+          "month": 4,
+          "tmaxF": 56.6,
+          "tminF": 37.5,
+          "prcpIn": 2.91,
+          "rainDays": 6.3
+        },
+        {
+          "month": 5,
+          "tmaxF": 69.2,
+          "tminF": 49.9,
+          "prcpIn": 3.91,
+          "rainDays": 8
+        },
+        {
+          "month": 6,
+          "tmaxF": 79,
+          "tminF": 60.4,
+          "prcpIn": 4.58,
+          "rainDays": 7.5
+        },
+        {
+          "month": 7,
+          "tmaxF": 83.4,
+          "tminF": 65.3,
+          "prcpIn": 4.06,
+          "rainDays": 6.6
+        },
+        {
+          "month": 8,
+          "tmaxF": 80.7,
+          "tminF": 62.8,
+          "prcpIn": 4.34,
+          "rainDays": 6.1
+        },
+        {
+          "month": 9,
+          "tmaxF": 72.9,
+          "tminF": 54.2,
+          "prcpIn": 3.02,
+          "rainDays": 5.3
+        },
+        {
+          "month": 10,
+          "tmaxF": 58.1,
+          "tminF": 40.9,
+          "prcpIn": 2.58,
+          "rainDays": 4.9
+        },
+        {
+          "month": 11,
+          "tmaxF": 41.9,
+          "tminF": 27.7,
+          "prcpIn": 1.61,
+          "rainDays": 3.6
+        },
+        {
+          "month": 12,
+          "tmaxF": 28.8,
+          "tminF": 15.2,
+          "prcpIn": 1.17,
+          "rainDays": 3.3
+        }
+      ]
+    }
+  ]
+}
