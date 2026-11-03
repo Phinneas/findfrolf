@@ -31,6 +31,10 @@ faqItems: [
 
 Here's a secret the day players don't know: **some of the best rounds of disc golf happen after sunset.** Glow golf — throwing discs charged with ultraviolet light through a dark park — turns a familiar course into a completely new game. The fairways feel longer, the chains sound louder, and the whole thing has the energy of a night hike with friends and frisbees. This guide covers everything you need to play your first glow round without a single wasted trip.
 
+:::datashows{hub="playable-months" city="minneapolis-st-paul"}
+TODO: owner copy (100–200 words).
+:::
+
 ## What you actually need
 
 *Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*

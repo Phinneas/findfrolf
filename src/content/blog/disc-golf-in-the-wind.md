@@ -31,6 +31,10 @@ faqItems: [
 
 The wind is the most common excuse in disc golf — and the most beatable opponent. A 15 mph breeze will turn your best drive into a roller, your straight putt into a three-putt, and your calm golf into chaos. But here's the good news: wind is physics, and physics is predictable. Learn the four rules below and you'll outscore players with better throws but worse wind management.
 
+:::datashows{hub="playable-months" city="chicago"}
+TODO: owner copy (100–200 words).
+:::
+
 ## Rule 1: Know what the wind is doing
 
 Before every tee shot, check the wind — wet finger in the air, grass clippings, the flag on a nearby basket, or just watch the trees. Then classify it:

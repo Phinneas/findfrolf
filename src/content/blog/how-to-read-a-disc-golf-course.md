@@ -11,6 +11,10 @@ Most intermediate players can throw far. Far fewer can *score*. The difference u
 
 If you're still learning the basics, start with our guide on [how to play disc golf](/blog/how-to-play-disc-golf/), then come back here. This post assumes you can already drive, approach, and putt — and now you want to stop leaving strokes on the course. We'll cover how to assess wind, identify your landing zone, choose a flight path, read elevation, and finally decode what course difficulty ratings actually mean.
 
+:::datashows{hub="playable-months" city="denver"}
+TODO: owner copy (100–200 words).
+:::
+
 ## What "Reading a Course" Actually Means
 
 Course management is the skill of separating your rounds into two kinds of holes:

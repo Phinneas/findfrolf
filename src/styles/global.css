@@ -89,3 +89,77 @@ body {
     color: var(--color-clay);
   }
 }
+
+/* "What the data shows" box (:::datashows directive in blog posts) */
+.ds-box {
+  background: var(--color-paper);
+  border: 1.5px solid var(--color-forest);
+  border-left: 4px solid var(--color-clay);
+  border-radius: 14px;
+  box-shadow: var(--shadow-stamp-sm);
+  padding: 24px;
+  margin: 32px 0;
+}
+
+.ds-head {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-moss);
+  margin-bottom: 14px;
+}
+
+.ds-figure {
+  margin-bottom: 14px;
+}
+
+.ds-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.ds-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 30px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fffdf6;
+}
+
+.ds-count {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-forest);
+}
+
+.ds-copy p {
+  font-size: 15px;
+  color: var(--color-ink-soft);
+  margin: 0 0 10px;
+}
+
+.ds-link {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-forest-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--color-clay);
+  text-underline-offset: 3px;
+  margin-top: 4px;
+}
+
+.ds-link:hover {
+  color: var(--color-clay);
+}

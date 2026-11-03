@@ -33,6 +33,10 @@ New to disc golf and wondering why your throws go nowhere — or worse, everywhe
 
 If you haven't picked your first discs yet, read [how to choose your first disc golf disc](/blog/choosing-first-disc-golf-disc/) first, then come back here. One disc is enough to practice everything below.
 
+:::datashows{hub="playable-months" city="austin"}
+TODO: owner copy (100–200 words).
+:::
+
 ## The backhand: the throw you'll use most
 
 The backhand is disc golf's power throw — the one that generates the most distance for the most people. If you've thrown a frisbee casually, you already have the muscle memory; we're just going to make it repeatable.
