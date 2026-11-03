@@ -29,7 +29,7 @@ faqItems: [
 ]
 ---
 
-Austin is the **#1 disc golf city in the United States** per UDisc, and the reason shows up the first time you throw a disc here. Warm weather nearly year-round, real elevation change on the west side, and a scene that runs from downtown park rounds to championship-caliber tracks. Within city limits that's roughly **30 courses**; stretch to the metro — Round Rock up north to San Marcos down south — and our directory tracks **51**.
+Austin is the **#1 disc golf city in the United States** per UDisc, and the reason shows up the first time you throw a disc here. Warm weather nearly year-round, real elevation change on the west side, and a scene that runs from downtown park rounds to championship-caliber tracks. Within city limits that's roughly **30 courses**; stretch to the metro — Round Rock up north to San Marcos down south — and our directory tracks **{{stats:city:austin}}**.
 
 The ranking isn't just a volume stat, either. Austin is a genuine pro hub — a Disc Golf Pro Tour event plays here (our directory even lists the tour's Harvey Penick layout), and the mix of warm weather, free courses, and a scene that spans everything from first-timers to touring pros is hard to match anywhere in the country. That's the short version of why "disc golf Austin" keeps climbing.
 

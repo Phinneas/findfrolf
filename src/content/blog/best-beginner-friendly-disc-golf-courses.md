@@ -20,7 +20,7 @@ faqItems: [
   }
 ]
 ---
-New to disc golf? Start here. Every course on this list is marked **beginner-friendly** in our directory — open fairways, forgiving layouts, and the kind of course where a first round is fun instead of frustrating. They're ranked by player rating from the 836 courses we've mapped.
+New to disc golf? Start here. Every course on this list is marked **beginner-friendly** in our directory — open fairways, forgiving layouts, and the kind of course where a first round is fun instead of frustrating. They're ranked by player rating from the {{stats:totalCourses}} courses we've mapped.
 
 You can play your first round with one borrowed midrange. Buying a starter set is convenient, not mandatory.
 

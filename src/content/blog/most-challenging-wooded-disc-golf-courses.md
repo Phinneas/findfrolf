@@ -96,7 +96,7 @@ Hole 9 is the longest at Kaposia at 615 feet — a par 4 that rolls with the cou
 
 **Mt. Airy Forest** — Cincinnati, Ohio · 18 holes, par 56, Hard · ★ 4.5 · Free
 
-Hole 17 is the longest at Mt.
+Hole 17 is the longest at Mt. Airy Forest — 510 feet, par 4, and the course's signature hole.
 
 [View course page](/oh/cincinnati/mt-airy/) · [all Cincinnati courses](/oh/cincinnati/)
 

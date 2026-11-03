@@ -8,7 +8,7 @@ tags: ["free","disc golf courses","listicle"]
 faqItems: [
   {
     "question": "Are most disc golf courses free?",
-    "answer": "765 of the 834 courses we publish are free to play — the majority."
+    "answer": "{{stats:freeCourses}} of the {{stats:totalCourses}} courses we publish are free to play — the majority."
   },
   {
     "question": "What is the best free disc golf course?",

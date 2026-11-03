@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Schema from '../../components/Schema.astro';
 import { getCollection, render } from 'astro:content';
 import { formatPostDateLong } from '../../lib/dates';
+import { interpolateStats } from '../../lib/stats';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -17,11 +18,15 @@ const { Content } = await render(post);
 
 const postUrl = `https://www.findfrolf.com/blog/${post.id}/`;
 
+// Frontmatter strings never pass through the remark pipeline, so
+// {{stats:...}} tokens in them are interpolated here (src/lib/stats.ts).
+const description = interpolateStats(post.data.description);
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: post.data.title,
-  description: post.data.description,
+  description,
   datePublished: post.data.pubDate,
   dateModified: post.data.updatedDate ?? post.data.pubDate,
   author: {
@@ -48,10 +53,10 @@ if (post.data.faqItems && post.data.faqItems.length > 0) {
     '@type': 'FAQPage',
     mainEntity: post.data.faqItems.map((item) => ({
       '@type': 'Question',
-      name: item.question,
+      name: interpolateStats(item.question),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: item.answer,
+        text: interpolateStats(item.answer),
       },
     })),
   });
@@ -60,7 +65,7 @@ if (post.data.faqItems && post.data.faqItems.length > 0) {
 
 <BaseLayout
   title={`${post.data.title} — Find Frolf`}
-  description={post.data.description}
+  description={description}
 >
   <Fragment slot="head">
     <Schema schema={schemas} />
@@ -76,7 +81,7 @@ if (post.data.faqItems && post.data.faqItems.length > 0) {
       <h1 class="font-display font-normal text-[clamp(28px,4vw,42px)] leading-[1.1] tracking-[-1px] text-forest-deep mb-4">
         {post.data.title}
       </h1>
-      <p class="text-lg text-ink-soft mb-4">{post.data.description}</p>
+      <p class="text-lg text-ink-soft mb-4">{description}</p>
       <div class="flex items-center gap-4 text-sm text-moss">
         <span>{post.data.author}</span>
         <span>·</span>

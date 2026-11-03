@@ -8,7 +8,7 @@ tags: ["denver", "colorado", "best courses", "city guide"]
 faqItems: [
   {
     "question": "Is Denver good for disc golf?",
-    "answer": "Yes — the city proper is thin on courses, but the suburbs and foothills ringing the metro are home to around 55 courses per our directory research, including consistently top-ranked mountain tracks. We've published 4 mapped courses so far, with more added weekly."
+    "answer": "Yes — the city proper is thin on courses, but the suburbs and foothills ringing the metro are home to {{stats:city:denver}} mapped courses in our directory, including consistently top-ranked mountain tracks, with more added weekly."
   },
   {
     "question": "What is the best disc golf course in Denver?",
@@ -29,9 +29,9 @@ faqItems: [
 ]
 ---
 
-Denver might be the best disc golf city in America that doesn't brag about it. The catch: the Mile High City proper has almost no courses — the real scene lives in the suburbs and foothills ringing the metro, where **around 55 courses** sit within a 45-minute drive, per our directory research. Disc golf has been having a moment here lately, but the definitive local guide hasn't been written. This is ours.
+Denver might be the best disc golf city in America that doesn't brag about it. The catch: the Mile High City proper has almost no courses — the real scene lives in the suburbs and foothills ringing the metro, where **{{stats:city:denver}} courses** sit within a 45-minute drive, per our directory. Disc golf has been having a moment here lately, but the definitive local guide hasn't been written. This is ours.
 
-A note on honesty before the list: we don't pad this guide with every course on the map. **These are the 4 courses we've actually mapped** — real hole-by-hole data, real player ratings, and real addresses — with the rest of the metro on the way. Quality over quantity is the whole point.
+A note on honesty before the list: we don't pad this guide with every course on the map. **These 4 are drawn from the {{stats:city:denver}} courses we've mapped** — real hole-by-hole data, real player ratings, and real addresses. Quality over quantity is the whole point.
 
 **Quick picks:**
 - **Best overall:** Beaver Ranch (Conifer) — ★4.8

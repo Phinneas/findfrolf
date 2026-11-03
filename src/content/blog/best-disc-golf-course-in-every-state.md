@@ -1,6 +1,6 @@
 ---
 title: "The Best Disc Golf Course in Every State We Cover"
-description: "One per state — the highest-rated mapped disc golf course in each of the 23 states in our directory."
+description: "One per state — the highest-rated mapped disc golf course in each of the {{stats:totalStates}} states in our directory."
 pubDate: "2026-08-28"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
@@ -8,7 +8,7 @@ tags: ["by state","best courses","disc golf","listicle"]
 faqItems: [
   {
     "question": "How were these courses chosen?",
-    "answer": "One per state: the highest-rated mapped course we publish in each of the 23 states covered so far."
+    "answer": "One per state: the highest-rated mapped course we publish in each of the {{stats:totalStates}} states covered so far."
   },
   {
     "question": "What is the best disc golf state?",
@@ -120,7 +120,7 @@ Hole 5 is the longest at Fort Steilacoom at 575 feet — a par 4 that threads th
 
 **Mt. Airy Forest** — Cincinnati, Ohio · 18 holes, par 56, Hard · ★ 4.5 · Free
 
-Hole 17 is the longest at Mt.
+Hole 17 is the longest at Mt. Airy Forest — 510 feet, par 4, and the course's signature hole.
 
 [View course page](/oh/cincinnati/mt-airy/) · [all Cincinnati courses](/oh/cincinnati/)
 
