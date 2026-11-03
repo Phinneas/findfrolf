@@ -115,6 +115,8 @@ What makes Austin great for beginners isn't one course; it's that the easy cours
 
 ## The Best Free Disc Golf in Austin
 
+Course fees are only part of the picture. Here's [what disc golf really costs](/blog/is-disc-golf-expensive/), from your first disc to tournament entry.
+
 This is Austin's real selling point, so say it plainly: **the best courses in this city are free.** Specifically:
 
 - **Roy G. Guerrero** — 4.7★, free. A championship-length round for $0.
