@@ -244,23 +244,38 @@ const cities = defineCollection({
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    pubDate: z.string(),
-    updatedDate: z.string().optional(),
-    author: z.string().default('FindFrolf Team'),
-    heroImage: z.string(),
-    tags: z.array(z.string()).default([]),
-    faqItems: z
-      .array(
-        z.object({
-          question: z.string(),
-          answer: z.string(),
-        }),
-      )
-      .optional(),
-  }),
+  schema: z
+    .object({
+      title: z.string(),
+      description: z.string(),
+      pubDate: z.string(),
+      updatedDate: z.string().optional(),
+      author: z.string().default('FindFrolf Team'),
+      heroImage: z.string(),
+      tags: z.array(z.string()).default([]),
+      faqItems: z
+        .array(
+          z.object({
+            question: z.string(),
+            answer: z.string(),
+          }),
+        )
+        .optional(),
+    })
+    // Build-time invariant: an update can never predate publication.
+    // Throws and fails the build when violated.
+    .superRefine((data, ctx) => {
+      if (
+        data.updatedDate &&
+        new Date(`${data.updatedDate}T00:00:00Z`).getTime() <
+          new Date(`${data.pubDate}T00:00:00Z`).getTime()
+      ) {
+        ctx.addIssue({
+          code: 'custom',
+          message: `updatedDate (${data.updatedDate}) is earlier than pubDate (${data.pubDate})`,
+        });
+      }
+    }),
 });
 
 /* ------------------------------------------------------------------ */

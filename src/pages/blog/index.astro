@@ -1,9 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { parsePostDate, formatPostDateShort } from '../../lib/dates';
 
+// Newest first, by the most recent meaningful date (updatedDate ?? pubDate).
 const posts = (await getCollection('blog')).sort(
-  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+  (a, b) =>
+    parsePostDate(b.data.updatedDate ?? b.data.pubDate) -
+    parsePostDate(a.data.updatedDate ?? a.data.pubDate),
 );
 ---
 
@@ -36,7 +40,7 @@ const posts = (await getCollection('blog')).sort(
           </h2>
           <p class="text-sm text-ink-soft line-clamp-2">{post.data.description}</p>
           <time class="block mt-2 font-mono text-[11px] text-moss">
-            {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            {formatPostDateShort(post.data.pubDate)}
           </time>
         </a>
       ))}

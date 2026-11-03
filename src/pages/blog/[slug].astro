@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Schema from '../../components/Schema.astro';
 import { getCollection, render } from 'astro:content';
+import { formatPostDateLong } from '../../lib/dates';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -80,12 +81,12 @@ if (post.data.faqItems && post.data.faqItems.length > 0) {
         <span>{post.data.author}</span>
         <span>·</span>
         <time>
-          {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+          {formatPostDateLong(post.data.pubDate)}
         </time>
         {post.data.updatedDate && (
           <>
             <span>·</span>
-            <span>Updated {new Date(post.data.updatedDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+            <span>Updated {formatPostDateLong(post.data.updatedDate)}</span>
           </>
         )}
       </div>

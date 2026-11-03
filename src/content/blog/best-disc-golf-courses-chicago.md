@@ -2,7 +2,6 @@
 title: "Best Disc Golf Courses in Chicago, IL: Top 9 + Transit Guide"
 description: "The 9 best disc golf courses in Chicago, IL — ranked for locals and visitors. Drive times, Metra and South Shore Line routes, and where to play near the Lakefront."
 pubDate: "2026-08-12"
-updatedDate: "2026-05-15"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
 tags: ["chicago", "illinois", "best courses", "city guide", "disc golf chicago", "disc golf courses near me"]
