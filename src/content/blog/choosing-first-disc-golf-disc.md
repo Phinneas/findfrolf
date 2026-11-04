@@ -40,6 +40,8 @@ Drivers look cool but they're the hardest to throw correctly. A beginner throwin
 
 *Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*
 
+<!-- TODO: owner affiliate picks -->
+
 [**Innova Mako3**](https://infinitediscs.com/innova-mako3/?tag=0DC81397597B451) — Straight flight, minimal fade, extremely predictable. The most beginner-friendly disc on the market.
 
 [**Discraft Buzzz**](https://infinitediscs.com/discraft-buzzz/?tag=0DC81397597B451) — The best-selling midrange in disc golf history. Slight fade at the end, works in all conditions.
@@ -70,6 +72,8 @@ After 10–15 rounds, you'll start noticing gaps in your game. That's when to ad
 2. **A fairway driver** (for longer tee shots when you're ready)
 
 Don't rush it. Master your midrange first — it'll teach you more about form than any bag full of discs.
+
+Ready to build out your bag? Read our [full guide to beginner disc golf discs](/blog/disc-golf-discs-for-beginners/) for the three-disc kit and the starter sets under $40.
 
 ## Find a Course and Throw It
 

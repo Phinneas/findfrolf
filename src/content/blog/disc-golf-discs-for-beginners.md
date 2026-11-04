@@ -1,6 +1,6 @@
 ---
 title: "What Discs Do You Need for Disc Golf? A Beginner's Guide"
-description: "New to the sport? Here are the disc golf discs for beginners you actually need — putter, mid-range, and driver — plus 3 starter sets under $40."
+description: "New to the sport? Start with one disc, a mid-range, then upgrade to the three-disc kit. Here are the beginner discs and 3 starter sets under $40."
 pubDate: "2026-09-09"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
@@ -21,13 +21,13 @@ faqItems: [
 ]
 ---
 
-If you've researched disc golf for more than five minutes, you've probably stared down a wall of plastic: hundreds of disc molds, flight numbers, plastic blends, and conflicting advice. So let's clear it up right now. **Disc golf discs for beginners** boil down to exactly three: a **driver, a mid-range, and a putter**. That's it. A complete starter set costs $25–$40 — less than a tank of gas — and it's genuinely everything you need to play your first round.
+If you've researched disc golf for more than five minutes, you've probably stared down a wall of plastic: hundreds of disc molds, flight numbers, plastic blends, and conflicting advice. So let's clear it up right now. **Disc golf discs for beginners** start with exactly one: a **mid-range**. A single $12 mid-range is everything you need to play your first round. The three-disc kit (a driver, a mid-range, and a putter) is the upgrade once you're hooked, and a complete starter set costs $25–$40.
 
 And if you're reading this in the fall? Perfect timing. Disc golf searches and course traffic peak in October, when cool air, quiet fairways, and golden-hour rounds make it the best time of year to learn the game.
 
-## The Short Answer: Three Discs
+## The Short Answer: Start With One
 
-Every disc in your bag does one job. You need one disc for each:
+Start with one mid-range. Not sure which one to buy? Read our guide to [choosing your first disc](/blog/choosing-first-disc-golf-disc/) for the exact pick. When you're ready to upgrade, the three-disc kit is one disc for each job:
 
 | Disc | What It's For | Beginner Staples |
 |---|---|---|
@@ -35,7 +35,7 @@ Every disc in your bag does one job. You need one disc for each:
 | **Mid-range** | Straight, controlled shots from 100–200 ft | Innova Shark, EMAC Truth |
 | **Driver** | Tee shots and long throws | Innova Leopard, Latitude 64 Diamond |
 
-You could technically play an entire round with just the putter — and plenty of players do. But with three discs, you'll have the right tool for every shot on the course, and you'll learn faster.
+You can absolutely play an entire round with just one disc, and plenty of players do. But the three-disc kit gives you the right tool for every shot on the course, and it's how you'll learn faster.
 
 ## The 3 Discs Every Beginner Needs, Explained
 
@@ -76,6 +76,8 @@ Two more buying tips:
 ## The Best Disc Golf Starter Sets Under $40
 
 *Some links below are affiliate links. If you buy through one, Find Frolf may earn a commission at no extra cost to you.*
+
+<!-- TODO: owner affiliate picks -->
 
 Rather than picking discs one at a time, the easiest and cheapest way to get your three discs is a packaged starter set. These three are the best disc golf starter sets under $40:
 
@@ -125,6 +127,6 @@ New to the rules, scoring, or etiquette? Read our [How to Play Disc Golf](/blog/
 
 ## Ready to Throw?
 
-You need three discs — a putter, a mid-range, and a driver. A starter set costs less than $40. A course is probably five minutes from your door.
+You need one disc to start: a mid-range. Add a putter and a driver when you're ready, or grab a three-disc starter set for less than $40. A course is probably five minutes from your door.
 
-**Find a free course near you with [FindFrolf](/finder/)** — search your city, grab your three discs, and go frolf.
+**Find a free course near you with [FindFrolf](/finder/)** — search your city, grab your disc, and go frolf.
