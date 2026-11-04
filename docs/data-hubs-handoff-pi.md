@@ -182,6 +182,16 @@ F3. Courses per 100k: add the Census notice to the methodology section.
 F4. Asana: Confirm PDGA terms and USFS canopy license (1219118464446109).
     Owner or Pi reads both pages and records the result in this doc. No canopy
     data and no gear hub until confirmed.
+
+    RESULT (read 2026-11-04):
+    - PDGA Terms of Use (api.pdga.com/tos): "personal, non-commercial
+      transitory viewing only"; may not modify, copy, or use commercially.
+      PDGA Developer Program is CLOSED ("not accepting new applications at
+      this time"); API data "must not store ... only retrieve and display on
+      request." => PDGA data is NOT usable for FindFrolf hubs (commercial, and
+      we persist data). Any gear hub must source from a non-PDGA feed.
+    - USFS NLCD Tree Canopy Cover (data.fs.usda.gov / mrlc.gov): explicitly
+      "public domain". => CANOPY IS OK. Terrain-index v2 may ingest USFS TCC.
 F5. Per hub: add the position file placeholder, datashows boxes in its
     cluster posts, and sitemap entry. Same copy rules as Step C.
 
