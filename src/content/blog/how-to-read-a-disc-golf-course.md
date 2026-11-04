@@ -11,8 +11,14 @@ Most intermediate players can throw far. Far fewer can *score*. The difference u
 
 If you're still learning the basics, start with our guide on [how to play disc golf](/blog/how-to-play-disc-golf/), then come back here. This post assumes you can already drive, approach, and putt — and now you want to stop leaving strokes on the course. We'll cover how to assess wind, identify your landing zone, choose a flight path, read elevation, and finally decode what course difficulty ratings actually mean.
 
-:::datashows{hub="playable-months" city="denver"}
-Denver is why you read the whole row, not one cell. Its 7 playable months sit at altitude, where a month that averages fine can still swing hard between a 70-degree afternoon and a freezing night. Climate normals smooth those swings; the table shows you the shape of the season, and your eyes should check the actual forecast. Full table: <a href="/data/playable-months/">Playable Months data page</a>.
+:::datashows{hub="playable-months" city="seattle"}
+Reading a course includes reading the ground. Seattle averages {{pm:rainDays:1}} rain days in January and {{pm:rainDays:7}} in July. That's the same course playing two different ways. Wet months mean slick tee pads, soft landing zones, and fewer skips.
+
+My recommendation: in rainy months, lay up more and drop the long skip shots. Pick lines that land on the fairway instead of rolling to it. Plant your feet before you throw.
+
+The tradeoff is score. Playing safe adds strokes on holes you'd attack in summer. Wet footing is how players slip, and a slip costs more than a stroke.
+
+The Playable Months page shows your city's wettest months.
 :::
 
 ## What "Reading a Course" Actually Means

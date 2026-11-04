@@ -32,7 +32,11 @@ faqItems: [
 The wind is the most common excuse in disc golf — and the most beatable opponent. A 15 mph breeze will turn your best drive into a roller, your straight putt into a three-putt, and your calm golf into chaos. But here's the good news: wind is physics, and physics is predictable. Learn the four rules below and you'll outscore players with better throws but worse wind management.
 
 :::datashows{hub="playable-months" city="chicago"}
-Chicago is the test case for what this data can't tell you. On paper it's playable 7 of 12 months; on the lakefront, wind can undo a warm afternoon. We scored rain and temperature but left wind blank on purpose — we'd rather admit the gap than fake a number. Until wind is scored, treat Chicago's playable months as a floor, not a promise. Full table: <a href="/data/playable-months/">Playable Months data page</a>.
+Chicago shows what this data can't tell you yet. On paper it has {{pm:playableMonths}} playable months. On the lakefront, wind can wreck a warm afternoon. I score temperature and rain on the Playable Months page, but wind is still blank. A month marked playable is the best case, not a promise.
+
+My recommendation: in open, windy months, throw lower and slower. Pick stable discs and keep your release flat. Low shots stay under gusts that push high throws off line.
+
+The tradeoff is distance. Low, controlled throws give up feet off the tee. You'll take more short approaches. That costs less than chasing a disc into the rough.
 :::
 
 ## Rule 1: Know what the wind is doing

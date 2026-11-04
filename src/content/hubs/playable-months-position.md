@@ -1,5 +1,7 @@
-Most disc golf guides assume weather doesn't matter. Ours does. A round on a 40-degree morning is a different game than the same course in July, and "playable" is our word for the difference: a month where daytime highs average at least 50°F, overnight lows stay at or above 28°F, and rain averages 10 days or fewer.
+I built this page because most disc golf guides treat a course the same in January and July. It isn't the same. Cold plastic flies differently. Wet tee pads change your footing. Short winter days end rounds early.
 
-We built this page from NOAA's 1991-2020 climate normals — thirty years of averaged monthly data from the airport weather station nearest each of our 15 cities. That's deliberate. Normals describe what a month is usually like, not what next Saturday will be, so treat this as a planning tool, not a forecast. Wind isn't scored yet; we'd rather leave a blank than pretend we measured it.
+"Playable" is my word for a month when the weather stops working against you. The rule is below, and you can check it against the raw data.
 
-The heatmap below is the whole dataset. Your city's row tells you when the season runs — and, just as usefully, when it doesn't.
+The numbers come from NOAA's 1991 to 2020 climate normals. That's 30 years of monthly averages from the airport station nearest each of our 15 cities. Normals tell you what a month usually looks like. They don't tell you what Saturday will bring. Use this to plan a season, not a single round.
+
+Wind isn't scored yet. I'd rather leave it blank than guess.

@@ -61,6 +61,73 @@ function loadHub(): HubFile {
 const escapeHtml = (s: string): string =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+/** 24h "HH:MM" -> 12h "H:MM a.m./p.m." (matches owner prose, e.g. "9:39 p.m."). */
+const to12Hour = (hhmm: string): string => {
+  const [h, m] = hhmm.split(':').map(Number);
+  const period = h >= 12 ? 'p.m.' : 'a.m.';
+  const hour12 = h % 12 === 0 ? 12 : h % 12;
+  return `${hour12}:${String(m).padStart(2, '0')} ${period}`;
+};
+
+/**
+ * Resolve {{pm:...}} tokens inside the copy against the committed hub data, so
+ * owner prose never hardcodes a climate figure that can drift with the rule.
+ *
+ * Forms (city defaults to the box's `city` attribute):
+ *   {{pm:playableMonths}}                       city playable-month count
+ *   {{pm:tminF:1}}  {{pm:rainDays:7}}            city month value (1..12)
+ *   {{pm:dusk12:6}}                              city dusk in 12h "9:39 p.m."
+ *   {{pm:chicago:dusk12:12}}                     another city's value
+ *   {{pm:janBelowFreezingCount}}  {{pm:cityCount}}   cross-city aggregates
+ */
+function resolvePmTokens(copy: string, city: HubCity, hub: HubFile): string {
+  const cityBySlug = new Map(hub.cities.map((c) => [c.slug, c]));
+  const monthOf = (c: HubCity, month: number): HubMonth => {
+    const m = c.months.find((x) => x.month === month);
+    if (!m) throw new Error(`datashows: city ${c.slug} has no month ${month}`);
+    return m;
+  };
+  return copy.replace(
+    /\{\{\s*pm:([a-zA-Z0-9-]+)(?::([a-zA-Z0-9-]+))?(?::([0-9]{1,2}))?\s*\}\}/g,
+    (match, a: string, b?: string, c?: string) => {
+      let target = city;
+      let field = '';
+      let month: number | undefined;
+      if (cityBySlug.has(a)) {
+        target = cityBySlug.get(a)!;
+        field = b ?? '';
+        month = c ? parseInt(c, 10) : undefined;
+      } else if (b && /^\d{1,2}$/.test(b)) {
+        field = a;
+        month = parseInt(b, 10);
+      } else {
+        field = a;
+        month = c ? parseInt(c, 10) : undefined;
+      }
+      switch (field) {
+        case 'playableMonths':
+          return String(target.playableMonthCount);
+        case 'cityCount':
+          return String(hub.cities.length);
+        case 'janBelowFreezingCount':
+          return String(hub.cities.filter((cc) => monthOf(cc, 1).tminF < 32).length);
+        case 'tminF':
+          return String(monthOf(target, month!).tminF);
+        case 'tmaxF':
+          return String(monthOf(target, month!).tmaxF);
+        case 'rainDays':
+          return String(monthOf(target, month!).rainDays);
+        case 'duskLocal':
+          return monthOf(target, month!).duskLocal;
+        case 'dusk12':
+          return to12Hour(monthOf(target, month!).duskLocal);
+        default:
+          throw new Error(`datashows: unknown pm token "${match}"`);
+      }
+    },
+  );
+}
+
 function miniStrip(city: HubCity): string {
   const cells = city.months
     .map((m) => {
@@ -109,6 +176,7 @@ export const datashowsPlugin = defineMdastPlugin({
         copy = ctx.source.slice(first.start.offset, last.end.offset).trim();
       }
     }
+    copy = resolvePmTokens(copy, city, hub);
     const paragraphs = (copy || 'TODO: owner copy (100–200 words).')
       .split(/\n{2,}/)
       .map((p) => `<p>${p.replace(/\n/g, ' ')}</p>`)

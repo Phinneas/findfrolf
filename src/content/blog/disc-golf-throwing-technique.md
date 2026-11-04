@@ -33,8 +33,14 @@ New to disc golf and wondering why your throws go nowhere — or worse, everywhe
 
 If you haven't picked your first discs yet, read [how to choose your first disc golf disc](/blog/choosing-first-disc-golf-disc/) first, then come back here. One disc is enough to practice everything below.
 
-:::datashows{hub="playable-months" city="austin"}
-Technique only gets so far when the weather fights back. Austin is one of the friendliest places on our climate map — 12 of 12 months clear our "playable" bar — which is one reason players there can build a year-round practice habit outdoors. The full month-by-month table lives on our <a href="/data/playable-months/">Playable Months data page</a>.
+:::datashows{hub="playable-months" city="chicago"}
+Your grip changes with the season. In {{pm:janBelowFreezingCount}} of our {{pm:cityCount}} cities, the average January low drops below freezing. Chicago's sits at {{pm:tminF:1}}°F. Cold plastic gets stiff and slick. A disc that feels locked in during July can slip out early in January.
+
+My recommendation: carry a grippier blend for winter rounds, and keep a towel in your bag. Base plastic and softer blends hold better in the cold.
+
+The tradeoff is durability. Grippy plastic scuffs and wears faster on trees and chains. You may replace a winter putter sooner than a premium one.
+
+Check your city's coldest months on the Playable Months page before you plan your bag.
 :::
 
 ## The backhand: the throw you'll use most
