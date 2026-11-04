@@ -1,6 +1,6 @@
 ---
-title: "The Best Disc Golf Course in Every State We Cover"
-description: "One per state — the highest-rated mapped disc golf course in each of the {{stats:totalStates}} states in our directory."
+title: "The Best Disc Golf Course in 15 States We Cover"
+description: "One per state — the highest-rated mapped disc golf course in each of the 15 states featured below."
 pubDate: "2026-08-28"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
@@ -8,7 +8,7 @@ tags: ["by state","best courses","disc golf","listicle"]
 faqItems: [
   {
     "question": "How were these courses chosen?",
-    "answer": "One per state: the highest-rated mapped course we publish in each of the {{stats:totalStates}} states covered so far."
+    "answer": "One per state: the highest-rated mapped course we publish in each of the 15 states featured here."
   },
   {
     "question": "What is the best disc golf state?",

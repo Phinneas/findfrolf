@@ -13,7 +13,7 @@ faqItems: [
   },
   {
     "question": "What do I need to play disc golf?",
-    "answer": "Three discs is the classic starter kit: a driver, a midrange, and a putter. Anywhere from $25–$40 gets you fully equipped for years of free rounds."
+    "answer": "You can start with a single disc — the classic full starter kit is three: a driver, a midrange, and a putter. Anywhere from $25–$40 gets you fully equipped for years of free rounds."
   },
   {
     "question": "Are free disc golf courses lower quality?",
@@ -99,7 +99,7 @@ Free courses come with a little shared-space responsibility. A few quick etiquet
 Yes — the overwhelming majority of courses in the U.S. are free public courses built in city and county parks. You may occasionally pay for parking at a state park or a downtown lot, but the round itself costs nothing.
 
 **What do I need to play?**
-Three discs is the classic starter kit: a driver, a midrange, and a putter. Anywhere from $25–$40 gets you fully equipped for years of free rounds.
+You can start with a single disc — the classic full starter kit is three: a driver, a midrange, and a putter. Anywhere from $25–$40 gets you fully equipped for years of free rounds.
 
 **Are free courses lower quality?**
 Not at all. Some of the most famous courses in the country — including every course on this list — are free public layouts maintained by parks departments and dedicated local clubs.

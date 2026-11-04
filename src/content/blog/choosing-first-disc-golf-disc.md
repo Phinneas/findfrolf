@@ -15,7 +15,7 @@ faqItems:
     answer: "No. You only need one disc to play. Most casual players carry 3–5 discs (a putter, midrange, and fairway driver), but a single midrange is enough for your first several rounds."
 ---
 
-Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start, and picking it is simpler than you think. (New to the sport entirely? Start with our [how to play disc golf](/blog/how-to-play-disc-golf/) beginner's guide, then come back here.)
+Walk into any disc golf section and you'll see hundreds of discs in every color and weight. It's overwhelming. Here's the truth: you only need one disc to start — the classic full kit (driver, midrange, putter) can come later — and picking it is simpler than you think. (New to the sport entirely? Start with our [how to play disc golf](/blog/how-to-play-disc-golf/) beginner's guide, then come back here.)
 
 ## The One-Disc Start
 

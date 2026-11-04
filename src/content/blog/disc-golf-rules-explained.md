@@ -2,13 +2,16 @@
 title: "Disc Golf Rules Explained: The Official Rules of Play"
 description: "Master the official PDGA rules of disc golf — from tee shots and lies to out-of-bounds, mandatories, and stroke penalties. The complete rules reference."
 pubDate: "2026-07-08"
+updatedDate: "2026-11-03"
 heroImage: "/images/blog-hero.svg"
 tags: ["rules", "pdga", "beginner"]
 faqItems:
   - question: "What happens if your disc goes out of bounds in disc golf?"
-    answer: "You receive a one-throw penalty stroke and must throw your next shot from the last in-bounds lie (where your disc last crossed the OB line going out), or from a designated drop zone if one is marked."
+    # Verified against PDGA 806.02.D (updated 2024-12-31): one penalty throw; next lie is the previous lie, OR within 1 m of where the disc was last in-bounds, OR a drop zone (Director's discretion).
+    answer: "You receive a one-throw penalty and choose your next lie: throw again from your previous lie, or mark a new lie within one meter of where your disc was last in-bounds — or use the drop zone if one is marked."
   - question: "What is a mandatory (mando) in disc golf?"
-    answer: "A mandatory is a marked obstacle or direction that your disc must pass on a specific side. Missing a mando adds a one-stroke penalty, and you throw again from the tee or a drop zone."
+    # Verified against PDGA 804.01.C: missed mando = one penalty throw; next lie is the mando's drop zone, else the previous lie (the tee only if the missed throw was a tee shot).
+    answer: "A mandatory is a marked obstacle or direction that your disc must pass on a specific side. Missing a mando adds a one-stroke penalty, and your next throw is from that mando's drop zone — or from your previous lie if no drop zone is marked."
   - question: "Can you move your lie in disc golf?"
     answer: "No. Your lie is the spot directly behind where your disc came to rest, on the line of play. You must take your stance with one foot on or behind your lie. You cannot move your lie to a more favorable position."
   - question: "What is a courtesy violation in disc golf?"
@@ -43,15 +46,17 @@ After your tee shot, every throw is taken from your lie — the spot directly be
 
 Out of bounds (OB) is any marked area where your disc can't legally come to rest — landing there adds a one-stroke penalty. OB areas are marked with white stakes, lines, or natural boundaries (roads, water, fences).
 
+<!-- PDGA 806.02.D: one penalty throw; next lie is the previous lie OR within one meter of the point where the disc was last in-bounds; drop zone at the Director's discretion -->
 - **Penalty:** One stroke added to your score
-- **Next throw:** From the last in-bounds point on the line of play where the disc crossed going out, or from a designated drop zone
+- **Next throw:** Your choice — throw again from your previous lie, or mark a new lie within one meter of where your disc was last in-bounds, or use the designated drop zone if one is marked
 - **Provisional throw:** If you're unsure whether a disc is OB, you may throw a provisional to save time, then resolve the ruling later
 
 ## Mandatories (Mandos)
 
 A mandatory is a marked obstacle that your disc must pass on a specified side (left or right, or above/below).
 
-- **Penalty for missing:** One stroke, and you re-throw from the tee or designated drop zone
+<!-- PDGA 804.01.C: missed mando = one penalty throw; next lie is the mando's drop zone, else the previous lie -->
+- **Penalty for missing:** One stroke, and your next throw is from the mando's drop zone — or from your previous lie if no drop zone is marked
 - Mandos are marked with arrows or signage on the course
 
 ## Casual Obstacles and Relief
@@ -64,13 +69,14 @@ Casual relief lets you move your lie without penalty when your disc lands in tem
 
 ## Penalties Summary
 
+<!-- Verified against PDGA rules: 806.02.D (OB options), 804.01.C (mando: drop zone else previous lie), 802.03.B (excessive time: warning first), 812.C (courtesy: warning first) -->
 | Violation | Penalty |
 |-----------|---------|
-| OB throw | +1 stroke, re-throw from last lie or drop zone |
-| Missing a mando | +1 stroke, re-throw from tee or drop zone |
-| Foot fault (stance violation) | +1 stroke if called by another player |
+| OB throw | +1 stroke; next throw from your previous lie, within one meter of the last in-bounds point, or a drop zone |
+| Missing a mando | +1 stroke; next throw from the mando's drop zone (or your previous lie if none is marked) |
+| Foot fault (stance violation) | +1 stroke if called and confirmed by another player |
 | Courtesy violation | Warning first, then +1 stroke per occurrence |
-| Exceeding time limit | +1 stroke (30 seconds to throw once it's your turn) |
+| Exceeding time limit | Warning first, then +1 stroke (30 seconds to throw once it's your turn) |
 
 ## Putting
 
