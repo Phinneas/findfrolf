@@ -1,6 +1,6 @@
 # Content Audit Inventory (Step 2 — current state)
 
-Generated 2026-11-04. 25 posts.
+Generated 2026-11-04. 26 posts.
 
 Objective signals only. Scoring against the owner 12-point rubric is done separately — this table is the raw material for that pass, and for the before/after delta vs the Oct 2 baseline (still to be supplied).
 
@@ -15,8 +15,9 @@ Objective signals only. Scoring against the owner 12-point rubric is done separa
 | best-disc-golf-courses-in-the-us | 1830 | 3 | ✓ | — | — | — | 10 | 16 | ✓ |
 | best-disc-golf-courses-portland-or | 2060 | 5 | ✓ | — | — | — | 3 | 3 | ✓ |
 | best-free-disc-golf-courses | 757 | 2 | — | ✓ | — | — | 0 | 36 | ✓ |
-| choosing-first-disc-golf-disc | 605 | 0 | ✓ | — | — | — | 4 | 3 | ✓ |
-| disc-golf-discs-for-beginners | 1502 | 3 | ✓ | — | — | — | 2 | 3 | ✓ |
+| choosing-first-disc-golf-disc | 636 | 0 | ✓ | — | — | — | 5 | 3 | ✓ |
+| disc-golf-discs-for-beginners | 1542 | 3 | ✓ | — | — | — | 3 | 3 | ✓ |
+| disc-golf-etiquette-the-unwritten-rules-every-player-should-know | 2122 | 0 | — | — | — | — | 0 | 0 | ✓ |
 | disc-golf-etiquette | 806 | 5 | — | — | — | — | 3 | 3 | — |
 | disc-golf-in-the-wind | 812 | 5 | — | — | ✓ | ✓ | 2 | 3 | ✓ |
 | disc-golf-rules-explained | 1035 | 0 | ✓ | — | — | — | 4 | 3 | ✓ |
