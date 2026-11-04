@@ -1,0 +1,5452 @@
+{
+  "name": "Free-to-Play Disc Golf Map by City",
+  "description": "Free vs pay-to-play course distribution for 15 US metros, plus a point map of every free course, from FindFrolf course data.",
+  "source": "FindFrolf course directory (isFree flag, greenFee, location)",
+  "sourceUrl": "https://www.findfrolf.com/courses/",
+  "datasetVersion": "1.0",
+  "license": "FindFrolf course data",
+  "pulledAt": "2026-11-04",
+  "nextRefresh": "2027-11-04",
+  "cities": [
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "stateSlug": "tx",
+      "courseCount": 84,
+      "freeCount": 83,
+      "paidCount": 1,
+      "freePct": 98.8,
+      "center": {
+        "lat": 29.822,
+        "lng": -95.421
+      }
+    },
+    {
+      "slug": "dallas-fort-worth",
+      "name": "Dallas–Fort Worth",
+      "stateSlug": "tx",
+      "courseCount": 87,
+      "freeCount": 82,
+      "paidCount": 5,
+      "freePct": 94.3,
+      "center": {
+        "lat": 32.856,
+        "lng": -96.925
+      }
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "stateSlug": "il",
+      "courseCount": 79,
+      "freeCount": 77,
+      "paidCount": 2,
+      "freePct": 97.5,
+      "center": {
+        "lat": 41.802,
+        "lng": -87.837
+      }
+    },
+    {
+      "slug": "minneapolis-st-paul",
+      "name": "Minneapolis–St. Paul",
+      "stateSlug": "mn",
+      "courseCount": 65,
+      "freeCount": 57,
+      "paidCount": 8,
+      "freePct": 87.7,
+      "center": {
+        "lat": 45.024,
+        "lng": -93.347
+      }
+    },
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "stateSlug": "nc",
+      "courseCount": 56,
+      "freeCount": 52,
+      "paidCount": 4,
+      "freePct": 92.9,
+      "center": {
+        "lat": 35.173,
+        "lng": -80.841
+      }
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "stateSlug": "co",
+      "courseCount": 57,
+      "freeCount": 48,
+      "paidCount": 9,
+      "freePct": 84.2,
+      "center": {
+        "lat": 39.707,
+        "lng": -105.061
+      }
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "stateSlug": "wa",
+      "courseCount": 53,
+      "freeCount": 47,
+      "paidCount": 6,
+      "freePct": 88.7,
+      "center": {
+        "lat": 47.526,
+        "lng": -122.342
+      }
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "stateSlug": "ga",
+      "courseCount": 51,
+      "freeCount": 47,
+      "paidCount": 4,
+      "freePct": 92.2,
+      "center": {
+        "lat": 33.768,
+        "lng": -84.342
+      }
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "stateSlug": "tx",
+      "courseCount": 51,
+      "freeCount": 44,
+      "paidCount": 7,
+      "freePct": 86.3,
+      "center": {
+        "lat": 30.295,
+        "lng": -97.751
+      }
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "stateSlug": "az",
+      "courseCount": 43,
+      "freeCount": 43,
+      "paidCount": 0,
+      "freePct": 100,
+      "center": {
+        "lat": 33.391,
+        "lng": -111.967
+      }
+    },
+    {
+      "slug": "nashville",
+      "name": "Nashville",
+      "stateSlug": "tn",
+      "courseCount": 43,
+      "freeCount": 41,
+      "paidCount": 2,
+      "freePct": 95.3,
+      "center": {
+        "lat": 36.122,
+        "lng": -86.682
+      }
+    },
+    {
+      "slug": "raleigh",
+      "name": "Raleigh",
+      "stateSlug": "nc",
+      "courseCount": 42,
+      "freeCount": 40,
+      "paidCount": 2,
+      "freePct": 95.2,
+      "center": {
+        "lat": 35.82,
+        "lng": -78.762
+      }
+    },
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "stateSlug": "mo",
+      "courseCount": 45,
+      "freeCount": 40,
+      "paidCount": 5,
+      "freePct": 88.9,
+      "center": {
+        "lat": 39.072,
+        "lng": -94.56
+      }
+    },
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "stateSlug": "or",
+      "courseCount": 39,
+      "freeCount": 28,
+      "paidCount": 11,
+      "freePct": 71.8,
+      "center": {
+        "lat": 45.531,
+        "lng": -122.628
+      }
+    },
+    {
+      "slug": "cincinnati",
+      "name": "Cincinnati",
+      "stateSlug": "oh",
+      "courseCount": 22,
+      "freeCount": 20,
+      "paidCount": 2,
+      "freePct": 90.9,
+      "center": {
+        "lat": 39.156,
+        "lng": -84.505
+      }
+    }
+  ],
+  "freeCourses": [
+    {
+      "slug": "50-acre-park-98pu",
+      "name": "50-Acre Park",
+      "citySlug": "chicago",
+      "lat": 41.728,
+      "lng": -87.689
+    },
+    {
+      "slug": "abrams-park-cphe",
+      "name": "Abrams Park",
+      "citySlug": "portland",
+      "lat": 45.82,
+      "lng": -122.739
+    },
+    {
+      "slug": "acorn",
+      "name": "Acorn Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.021,
+      "lng": -93.173
+    },
+    {
+      "slug": "acu-disc-golf-course-M5zo",
+      "name": "ACU disc golf course",
+      "citySlug": "phoenix",
+      "lat": 33.622,
+      "lng": -112.18
+    },
+    {
+      "slug": "adams-hollow-dgc-9b8o",
+      "name": "Adams Hollow DGC",
+      "citySlug": "denver",
+      "lat": 39.933,
+      "lng": -104.868
+    },
+    {
+      "slug": "adler-park-0rFv",
+      "name": "Adler Park",
+      "citySlug": "chicago",
+      "lat": 42.303,
+      "lng": -87.955
+    },
+    {
+      "slug": "agnes-moffitt",
+      "name": "Agnes Moffitt Park",
+      "citySlug": "houston",
+      "lat": 29.813,
+      "lng": -95.559
+    },
+    {
+      "slug": "alex-clark-memorial-dgc-Ym2S",
+      "name": "Alex Clark Memorial DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.187,
+      "lng": -96.644
+    },
+    {
+      "slug": "alexander-park-evQo",
+      "name": "Alexander Park",
+      "citySlug": "atlanta",
+      "lat": 33.915,
+      "lng": -84.004
+    },
+    {
+      "slug": "alimagnet-park-PNgl",
+      "name": "Alimagnet Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.74,
+      "lng": -93.245
+    },
+    {
+      "slug": "andorra-bend-fOQE",
+      "name": "Andorra Bend",
+      "citySlug": "houston",
+      "lat": 30.095,
+      "lng": -95.189
+    },
+    {
+      "slug": "angry-beaver-at-elon-park-YDB6",
+      "name": "Angry Beaver at Elon Park",
+      "citySlug": "charlotte",
+      "lat": 35.019,
+      "lng": -80.839
+    },
+    {
+      "slug": "animal-house",
+      "name": "Animal House",
+      "citySlug": "atlanta",
+      "lat": 33.76,
+      "lng": -84.857
+    },
+    {
+      "slug": "apex-nature",
+      "name": "Apex Nature Park",
+      "citySlug": "raleigh",
+      "lat": 35.713,
+      "lng": -78.906
+    },
+    {
+      "slug": "ar-austin-ace-run-park-V86N",
+      "name": "AR Austin Ace Run Park",
+      "citySlug": "austin",
+      "lat": 30.235,
+      "lng": -97.827
+    },
+    {
+      "slug": "arapahoe-community-college",
+      "name": "Arapahoe Community College",
+      "citySlug": "denver",
+      "lat": 39.608,
+      "lng": -105.019
+    },
+    {
+      "slug": "arcadia-park-CO5e",
+      "name": "Arcadia Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.876,
+      "lng": -97.276
+    },
+    {
+      "slug": "arcola-heights-park-disc-golf-course-kRUn",
+      "name": "Arcola Heights Park Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.094,
+      "lng": -92.792
+    },
+    {
+      "slug": "arrowhead-park-dgc-Ta4J",
+      "name": "Arrowhead Park DGC",
+      "citySlug": "austin",
+      "lat": 30.448,
+      "lng": -98.011
+    },
+    {
+      "slug": "arroyo-ranch-dgc-imNY",
+      "name": "Arroyo Ranch DGC",
+      "citySlug": "austin",
+      "lat": 30.02,
+      "lng": -97.911
+    },
+    {
+      "slug": "asante-disc-golf-course-WPqq",
+      "name": "Asante Disc Golf Course",
+      "citySlug": "phoenix",
+      "lat": 33.697,
+      "lng": -112.422
+    },
+    {
+      "slug": "ash-creek-dgc-2ecV",
+      "name": "Ash Creek DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.886,
+      "lng": -97.537
+    },
+    {
+      "slug": "asu-polytechnic-2023",
+      "name": "ASU Polytechnic 2023",
+      "citySlug": "phoenix",
+      "lat": 33.306,
+      "lng": -111.678
+    },
+    {
+      "slug": "audubon-park-hKa4",
+      "name": "Audubon Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.846,
+      "lng": -96.615
+    },
+    {
+      "slug": "aurora-highlands-bEFT",
+      "name": "Aurora Highlands",
+      "citySlug": "denver",
+      "lat": 39.77,
+      "lng": -104.697
+    },
+    {
+      "slug": "austin-county-rotary-club-dgc-YDqm",
+      "name": "Austin County Rotary Club DGC",
+      "citySlug": "houston",
+      "lat": 29.768,
+      "lng": -96.166
+    },
+    {
+      "slug": "austin-ridge-bible-church-dgc-eXDA",
+      "name": "Austin Ridge Bible Church DGC",
+      "citySlug": "austin",
+      "lat": 30.322,
+      "lng": -97.871
+    },
+    {
+      "slug": "autrey-park-FgHG",
+      "name": "Autrey Park",
+      "citySlug": "denver",
+      "lat": 39.937,
+      "lng": -105.143
+    },
+    {
+      "slug": "autumn-creek-park-disc-golf-course-M15z",
+      "name": "Autumn Creek Park Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.485,
+      "lng": -87.418
+    },
+    {
+      "slug": "avalon-peaks-apartments",
+      "name": "Avalon Peaks Apartments",
+      "citySlug": "raleigh",
+      "lat": 35.721,
+      "lng": -78.816
+    },
+    {
+      "slug": "avery-preserve-disc-golf-park-74LA",
+      "name": "Avery Preserve Disc Golf Park",
+      "citySlug": "chicago",
+      "lat": 41.609,
+      "lng": -88.17
+    },
+    {
+      "slug": "b-b-owen-dgc-yS7K",
+      "name": "B. B. Owen DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.882,
+      "lng": -96.7
+    },
+    {
+      "slug": "b1-disc-golf-course-tfL6",
+      "name": "B1 Disc Golf Course",
+      "citySlug": "atlanta",
+      "lat": 33.365,
+      "lng": -84.518
+    },
+    {
+      "slug": "bad-rock-creek",
+      "name": "Bad Rock Creek",
+      "citySlug": "kansas-city",
+      "lat": 39.231,
+      "lng": -94.393
+    },
+    {
+      "slug": "bailey-lake-disc-golf-course-VlcQ",
+      "name": "Bailey Lake Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.525,
+      "lng": -97.323
+    },
+    {
+      "slug": "bailey-road-park-2Cnh",
+      "name": "Bailey Road Park",
+      "citySlug": "charlotte",
+      "lat": 35.464,
+      "lng": -80.844
+    },
+    {
+      "slug": "baker-campground",
+      "name": "Baker Campground",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.018,
+      "lng": -93.635
+    },
+    {
+      "slug": "ballantyne-crash-course-SrAf",
+      "name": "Ballantyne Crash Course",
+      "citySlug": "charlotte",
+      "lat": 35.057,
+      "lng": -80.838
+    },
+    {
+      "slug": "bandimere-park-ZQTk",
+      "name": "Bandimere Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.837,
+      "lng": -93.537
+    },
+    {
+      "slug": "barfield-crescent-dgc-gDpR",
+      "name": "Barfield Crescent DGC",
+      "citySlug": "nashville",
+      "lat": 35.781,
+      "lng": -86.413
+    },
+    {
+      "slug": "bartholomew-park-dgc-Xp6R",
+      "name": "Bartholomew Park DGC",
+      "citySlug": "austin",
+      "lat": 30.302,
+      "lng": -97.692
+    },
+    {
+      "slug": "bassett-creek-park-2d9F",
+      "name": "Bassett Creek Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.013,
+      "lng": -93.353
+    },
+    {
+      "slug": "bates-park-dgc-fLL9",
+      "name": "Bates Park DGC",
+      "citySlug": "houston",
+      "lat": 29.159,
+      "lng": -95.444
+    },
+    {
+      "slug": "battle-point-park-disc-golf-Mne1",
+      "name": "Battle Point Park Disc Golf",
+      "citySlug": "seattle",
+      "lat": 47.662,
+      "lng": -122.579
+    },
+    {
+      "slug": "bay-street-park-zxKx",
+      "name": "Bay Street Park",
+      "citySlug": "houston",
+      "lat": 29.402,
+      "lng": -94.893
+    },
+    {
+      "slug": "bayou-bandit-white-oak-rJMc",
+      "name": "Bayou Bandit (White Oak)",
+      "citySlug": "houston",
+      "lat": 29.872,
+      "lng": -95.511
+    },
+    {
+      "slug": "bayou-bend-disc-golf-course-wPVz",
+      "name": "Bayou Bend Disc Golf Course",
+      "citySlug": "houston",
+      "lat": 29.673,
+      "lng": -95.127
+    },
+    {
+      "slug": "bear-branch-dgc-DIhr",
+      "name": "Bear Branch DGC",
+      "citySlug": "houston",
+      "lat": 30.193,
+      "lng": -95.495
+    },
+    {
+      "slug": "bear-creek-bible-church-dgc-gymI",
+      "name": "Bear Creek Bible Church DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.902,
+      "lng": -97.218
+    },
+    {
+      "slug": "bear-run-finesse-ziZ6",
+      "name": "Bear Run Finesse",
+      "citySlug": "houston",
+      "lat": 30.071,
+      "lng": -95.169
+    },
+    {
+      "slug": "bearcat-disc-golf-rock-hill-high-school",
+      "name": "Bearcat Disc Golf at Rock Hill High School",
+      "citySlug": "charlotte",
+      "lat": 34.905,
+      "lng": -80.979
+    },
+    {
+      "slug": "bearskin-creek-kF5j",
+      "name": "Bearskin Creek",
+      "citySlug": "charlotte",
+      "lat": 34.988,
+      "lng": -80.56
+    },
+    {
+      "slug": "ben-gill-disc-golf-course-SXjN",
+      "name": "Ben Gill Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.743,
+      "lng": -96.297
+    },
+    {
+      "slug": "benbrook-ranch",
+      "name": "Benbrook Ranch Park Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 30.587,
+      "lng": -97.877
+    },
+    {
+      "slug": "benders-landing-liberty-park-ElID",
+      "name": "Benders Landing (Liberty Park)",
+      "citySlug": "houston",
+      "lat": 30.11,
+      "lng": -95.367
+    },
+    {
+      "slug": "benedict-park-aG8G",
+      "name": "Benedict Park",
+      "citySlug": "denver",
+      "lat": 39.98,
+      "lng": -104.8
+    },
+    {
+      "slug": "bennett-park-disc-golf-course-J43k",
+      "name": "Bennett Park Disc Golf Course",
+      "citySlug": "kansas-city",
+      "lat": 39.256,
+      "lng": -94.441
+    },
+    {
+      "slug": "bethany-lakes-XiRm",
+      "name": "Bethany Lakes",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.087,
+      "lng": -96.642
+    },
+    {
+      "slug": "bethel-university-Ot5G",
+      "name": "Bethel University",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.062,
+      "lng": -93.164
+    },
+    {
+      "slug": "bevier-park-disc-golf-bVwt",
+      "name": "Bevier Park Disc Golf",
+      "citySlug": "chicago",
+      "lat": 42.409,
+      "lng": -87.863
+    },
+    {
+      "slug": "bill-allen-memorial-park-xt7x",
+      "name": "Bill Allen Memorial Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.098,
+      "lng": -96.858
+    },
+    {
+      "slug": "birds-nest",
+      "name": "Bird's Nest Disc Park",
+      "citySlug": "denver",
+      "lat": 39.815,
+      "lng": -105.202
+    },
+    {
+      "slug": "black-bear-park-5C8i",
+      "name": "Black Bear Park",
+      "citySlug": "chicago",
+      "lat": 42.054,
+      "lng": -88.229
+    },
+    {
+      "slug": "black-hoof-launched-by-ks-flying-disc-kfhe",
+      "name": "Black Hoof Launched by KS Flying Disc",
+      "citySlug": "kansas-city",
+      "lat": 38.966,
+      "lng": -94.842
+    },
+    {
+      "slug": "blair-mill-park-12-Nnt6",
+      "name": "Blair Mill Park 12",
+      "citySlug": "charlotte",
+      "lat": 35.116,
+      "lng": -80.649
+    },
+    {
+      "slug": "blue-valley-park-championship-course-VJgu",
+      "name": "Blue Valley Park Championship Course",
+      "citySlug": "kansas-city",
+      "lat": 39.082,
+      "lng": -94.51
+    },
+    {
+      "slug": "blue-valley-prairie-pass-dg-course-uruu",
+      "name": "Blue Valley “Prairie Pass” DG Course",
+      "citySlug": "kansas-city",
+      "lat": 38.83,
+      "lng": -94.69
+    },
+    {
+      "slug": "bob-bryant-disc-golf-course-iOjW",
+      "name": "Bob Bryant Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 30.121,
+      "lng": -97.338
+    },
+    {
+      "slug": "bobcat-9",
+      "name": "Bobcat 9",
+      "citySlug": "atlanta",
+      "lat": 33.264,
+      "lng": -84.58
+    },
+    {
+      "slug": "boone-woods-park-EY5Y",
+      "name": "Boone Woods Park",
+      "citySlug": "cincinnati",
+      "lat": 39.028,
+      "lng": -84.707
+    },
+    {
+      "slug": "boones-ferry-community-church-iS3l",
+      "name": "Boones Ferry Community Church",
+      "citySlug": "portland",
+      "lat": 45.371,
+      "lng": -122.771
+    },
+    {
+      "slug": "boundary-waters-dgc-buzzard-4MXe",
+      "name": "Boundary Waters DGC - Buzzard",
+      "citySlug": "atlanta",
+      "lat": 33.667,
+      "lng": -84.663
+    },
+    {
+      "slug": "boundary-waters-dgc-falcon-4vO2",
+      "name": "Boundary Waters DGC - Falcon",
+      "citySlug": "atlanta",
+      "lat": 33.667,
+      "lng": -84.663
+    },
+    {
+      "slug": "boyd-hill-Ifht",
+      "name": "Boyd Hill",
+      "citySlug": "charlotte",
+      "lat": 34.943,
+      "lng": -81.043
+    },
+    {
+      "slug": "bradford-park-GZWb",
+      "name": "Bradford Park",
+      "citySlug": "charlotte",
+      "lat": 35.444,
+      "lng": -80.79
+    },
+    {
+      "slug": "bradley-center-dbNH",
+      "name": "Bradley Center",
+      "citySlug": "charlotte",
+      "lat": 35.283,
+      "lng": -81.163
+    },
+    {
+      "slug": "bramble-pines-Zk8o",
+      "name": "Bramble Pines",
+      "citySlug": "raleigh",
+      "lat": 35.904,
+      "lng": -78.443
+    },
+    {
+      "slug": "brazos-park-dgc-rosenberg-pYxS",
+      "name": "Brazos Park DGC (ROSENBERG)",
+      "citySlug": "houston",
+      "lat": 29.564,
+      "lng": -95.811
+    },
+    {
+      "slug": "brazos-river-park-dgc-sugar-land-Swug",
+      "name": "Brazos River Park  DGC.  (Sugar land)",
+      "citySlug": "houston",
+      "lat": 29.567,
+      "lng": -95.657
+    },
+    {
+      "slug": "brazos-town-center-IXJp",
+      "name": "Brazos Town Center",
+      "citySlug": "houston",
+      "lat": 29.55,
+      "lng": -95.758
+    },
+    {
+      "slug": "breckinridge-park-dgc-R3n7",
+      "name": "Breckinridge Park DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.987,
+      "lng": -96.624
+    },
+    {
+      "slug": "brekke-park-y75i",
+      "name": "Brekke Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.029,
+      "lng": -92.811
+    },
+    {
+      "slug": "bridgeland-putter-course-GYhX",
+      "name": "Bridgeland Putter Course",
+      "citySlug": "houston",
+      "lat": 29.947,
+      "lng": -95.736
+    },
+    {
+      "slug": "briscoe-park-dgc-e3zC",
+      "name": "Briscoe Park DGC",
+      "citySlug": "houston",
+      "lat": 29.393,
+      "lng": -95.245
+    },
+    {
+      "slug": "brock-park-disc-golf-course-qrL2",
+      "name": "Brock Park Disc Golf Course",
+      "citySlug": "houston",
+      "lat": 29.843,
+      "lng": -95.23
+    },
+    {
+      "slug": "brockway-park-aLbz",
+      "name": "Brockway Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.752,
+      "lng": -93.122
+    },
+    {
+      "slug": "brook-run-Aysi",
+      "name": "Brook Run",
+      "citySlug": "atlanta",
+      "lat": 33.932,
+      "lng": -84.3
+    },
+    {
+      "slug": "brookmeade-park-disc-golf-course-CirC",
+      "name": "Brookmeade Park Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 36.131,
+      "lng": -86.904
+    },
+    {
+      "slug": "brookview-blue-course-mW6F",
+      "name": "Brookview Blue course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.977,
+      "lng": -93.385
+    },
+    {
+      "slug": "brown-singleton-park-z4cw",
+      "name": "Brown-Singleton Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.397,
+      "lng": -96.828
+    },
+    {
+      "slug": "brushy-creek-dgc-kq8p",
+      "name": "Brushy Creek DGC",
+      "citySlug": "austin",
+      "lat": 30.506,
+      "lng": -97.782
+    },
+    {
+      "slug": "buchanan-park-disc-golf-course-WCcs",
+      "name": "Buchanan Park Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.687,
+      "lng": -105.362
+    },
+    {
+      "slug": "bucksnort",
+      "name": "Buck Snort",
+      "citySlug": "denver",
+      "lat": 39.408,
+      "lng": -105.316
+    },
+    {
+      "slug": "bud-kelley-park-dgc-SqoB",
+      "name": "Bud Kelley Park DGC",
+      "citySlug": "atlanta",
+      "lat": 33.545,
+      "lng": -84.094
+    },
+    {
+      "slug": "buffalo-covenant-dgc-Ygmz",
+      "name": "Buffalo Covenant DGC",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.194,
+      "lng": -93.875
+    },
+    {
+      "slug": "buffalo-ridge",
+      "name": "Buffalo Ridge Park",
+      "citySlug": "phoenix",
+      "lat": 33.661,
+      "lng": -112.046
+    },
+    {
+      "slug": "bull-branch-dgc-PbYa",
+      "name": "Bull Branch DGC",
+      "citySlug": "austin",
+      "lat": 30.584,
+      "lng": -97.418
+    },
+    {
+      "slug": "burnet-woods-DN0x",
+      "name": "Burnet Woods",
+      "citySlug": "cincinnati",
+      "lat": 39.14,
+      "lng": -84.519
+    },
+    {
+      "slug": "burton-adventure-barc-R5f3",
+      "name": "Burton Adventure (BARC)",
+      "citySlug": "seattle",
+      "lat": 47.4,
+      "lng": -122.469
+    },
+    {
+      "slug": "c-p-adams-park-v4zo",
+      "name": "C.P. Adams Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.729,
+      "lng": -92.833
+    },
+    {
+      "slug": "c3-disc-golf-course-opZg",
+      "name": "C3 Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 35.953,
+      "lng": -86.883
+    },
+    {
+      "slug": "camenisch-park-lower-badlands-erJ2",
+      "name": "Camenisch Park - Lower Badlands",
+      "citySlug": "denver",
+      "lat": 39.855,
+      "lng": -105.014
+    },
+    {
+      "slug": "camenisch-park-upper-badlands-WMUS",
+      "name": "Camenisch Park - Upper Badlands",
+      "citySlug": "denver",
+      "lat": 39.86,
+      "lng": -105.019
+    },
+    {
+      "slug": "camp-copass-E4n3",
+      "name": "Camp Copass",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.185,
+      "lng": -97.036
+    },
+    {
+      "slug": "cane-ridge-park-zVST",
+      "name": "Cane Ridge Park",
+      "citySlug": "nashville",
+      "lat": 35.991,
+      "lng": -86.623
+    },
+    {
+      "slug": "canyon-trails-KvYc",
+      "name": "Canyon Trails",
+      "citySlug": "phoenix",
+      "lat": 33.443,
+      "lng": -112.419
+    },
+    {
+      "slug": "carellton-neighborhood-SSAD",
+      "name": "Carellton Neighborhood",
+      "citySlug": "nashville",
+      "lat": 36.391,
+      "lng": -86.548
+    },
+    {
+      "slug": "carolina-springs-disc-golf-course-4gGL",
+      "name": "Carolina Springs Disc Golf Course",
+      "citySlug": "raleigh",
+      "lat": 35.684,
+      "lng": -78.876
+    },
+    {
+      "slug": "cascade-disc-golf-tM7Y",
+      "name": "Cascade disc golf",
+      "citySlug": "seattle",
+      "lat": 47.447,
+      "lng": -121.776
+    },
+    {
+      "slug": "castaldo-park-14v7",
+      "name": "Castaldo Park",
+      "citySlug": "chicago",
+      "lat": 41.757,
+      "lng": -88.059
+    },
+    {
+      "slug": "cat-hollow-5qPH",
+      "name": "Cat Hollow",
+      "citySlug": "austin",
+      "lat": 30.506,
+      "lng": -97.73
+    },
+    {
+      "slug": "cave-creek-sweetwater-ceRv",
+      "name": "Cave Creek Sweetwater",
+      "citySlug": "phoenix",
+      "lat": 33.603,
+      "lng": -112.112
+    },
+    {
+      "slug": "ccu-pcor",
+      "name": "CCU",
+      "citySlug": "denver",
+      "lat": 39.712,
+      "lng": -105.107
+    },
+    {
+      "slug": "cedar-hill",
+      "name": "Cedar Hill Park",
+      "citySlug": "nashville",
+      "lat": 36.272,
+      "lng": -86.745
+    },
+    {
+      "slug": "cedar-hills",
+      "name": "Cedar Hills Rotary Park",
+      "citySlug": "raleigh",
+      "lat": 35.857,
+      "lng": -78.629
+    },
+    {
+      "slug": "cedar-valley-college-lk8V",
+      "name": "Cedar Valley College",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.628,
+      "lng": -96.765
+    },
+    {
+      "slug": "cedars-green-haven",
+      "name": "The Cedars at Green Haven",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.209,
+      "lng": -93.4
+    },
+    {
+      "slug": "cedars-of-lebanon-state-park-aQRl",
+      "name": "Cedars of Lebanon State Park",
+      "citySlug": "nashville",
+      "lat": 36.081,
+      "lng": -86.317
+    },
+    {
+      "slug": "centennial-park-P59K",
+      "name": "Centennial Park",
+      "citySlug": "houston",
+      "lat": 29.548,
+      "lng": -95.297
+    },
+    {
+      "slug": "central-park-3aFi",
+      "name": "Central Park",
+      "citySlug": "atlanta",
+      "lat": 34.246,
+      "lng": -84.098
+    },
+    {
+      "slug": "central-park-dfEV",
+      "name": "Central Park",
+      "citySlug": "chicago",
+      "lat": 42.348,
+      "lng": -88.037
+    },
+    {
+      "slug": "central-park-dgc-HRv1",
+      "name": "Central Park DGC",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.105,
+      "lng": -93.346
+    },
+    {
+      "slug": "central-park-dgc-irI7",
+      "name": "Central Park DGC",
+      "citySlug": "chicago",
+      "lat": 41.837,
+      "lng": -87.952
+    },
+    {
+      "slug": "central-valley-YcEy",
+      "name": "Central Valley",
+      "citySlug": "nashville",
+      "lat": 35.945,
+      "lng": -86.392
+    },
+    {
+      "slug": "centre-hills-dgc-VH32",
+      "name": "Centre Hills DGC",
+      "citySlug": "denver",
+      "lat": 39.715,
+      "lng": -104.799
+    },
+    {
+      "slug": "challenger-7-memorial-course-7zWS",
+      "name": "Challenger 7 - Memorial Course",
+      "citySlug": "houston",
+      "lat": 29.509,
+      "lng": -95.132
+    },
+    {
+      "slug": "challenger-park-E9uP",
+      "name": "Challenger Park",
+      "citySlug": "houston",
+      "lat": 29.44,
+      "lng": -95.401
+    },
+    {
+      "slug": "chapel-hill-dgc-sVY4",
+      "name": "Chapel Hill DGC",
+      "citySlug": "austin",
+      "lat": 30.644,
+      "lng": -97.627
+    },
+    {
+      "slug": "chapel-hill-high-school-oSmL",
+      "name": "Chapel Hill High School",
+      "citySlug": "raleigh",
+      "lat": 35.945,
+      "lng": -79.081
+    },
+    {
+      "slug": "chapman-landing-dgc-17rG",
+      "name": "Chapman Landing DGC",
+      "citySlug": "portland",
+      "lat": 45.746,
+      "lng": -122.841
+    },
+    {
+      "slug": "chatham-county-community-college",
+      "name": "Chatham County Community College",
+      "citySlug": "raleigh",
+      "lat": 35.724,
+      "lng": -79.189
+    },
+    {
+      "slug": "cherry-creek-Qnjj",
+      "name": "Cherry Creek",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.507,
+      "lng": -96.811
+    },
+    {
+      "slug": "chief-kitsap-academy-l3pG",
+      "name": "Chief Kitsap Academy",
+      "citySlug": "seattle",
+      "lat": 47.711,
+      "lng": -122.605
+    },
+    {
+      "slug": "circle-c-ranch",
+      "name": "Circle C Ranch on Slaughter Creek",
+      "citySlug": "austin",
+      "lat": 30.199,
+      "lng": -97.888
+    },
+    {
+      "slug": "city-disc-park-dgc-eQWE",
+      "name": "City Disc Park DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.762,
+      "lng": -97.191
+    },
+    {
+      "slug": "city-park-0tH0",
+      "name": "City Park",
+      "citySlug": "kansas-city",
+      "lat": 39.101,
+      "lng": -94.665
+    },
+    {
+      "slug": "city-park-AS0l",
+      "name": "City Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.57,
+      "lng": -93.234
+    },
+    {
+      "slug": "clear-sky-farm-7qmm",
+      "name": "Clear Sky Farm",
+      "citySlug": "nashville",
+      "lat": 35.889,
+      "lng": -86.738
+    },
+    {
+      "slug": "cleveland-lake-tfvM",
+      "name": "Cleveland Lake",
+      "citySlug": "kansas-city",
+      "lat": 38.808,
+      "lng": -94.55
+    },
+    {
+      "slug": "club-at-stonegate-apartments-dgc-VBl7",
+      "name": "Club at Stonegate Apartments DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.713,
+      "lng": -97.383
+    },
+    {
+      "slug": "coal-creek-disc-golf-course-wzBo",
+      "name": "Coal Creek Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 40.044,
+      "lng": -105.042
+    },
+    {
+      "slug": "coldwater-ranch-2-0-cwr-disc-golf-course-KziU",
+      "name": "Coldwater Ranch 2.0-CWR Disc Golf Course",
+      "citySlug": "phoenix",
+      "lat": 33.716,
+      "lng": -112.319
+    },
+    {
+      "slug": "college-park-9nFn",
+      "name": "College Park",
+      "citySlug": "phoenix",
+      "lat": 32.902,
+      "lng": -111.752
+    },
+    {
+      "slug": "colorado-christian-university",
+      "name": "Colorado Christian University",
+      "citySlug": "denver",
+      "lat": 39.712,
+      "lng": -105.094
+    },
+    {
+      "slug": "columbia-state-disc-golf-course-8G5x",
+      "name": "Columbia State Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 35.618,
+      "lng": -87.099
+    },
+    {
+      "slug": "common-ground-disc-golf-course-coUd",
+      "name": "Common Ground Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 35.838,
+      "lng": -86.494
+    },
+    {
+      "slug": "community-park-west-9wFo",
+      "name": "Community Park West",
+      "citySlug": "chicago",
+      "lat": 42.073,
+      "lng": -87.862
+    },
+    {
+      "slug": "conocido-park-j4oD",
+      "name": "Conocido Park",
+      "citySlug": "phoenix",
+      "lat": 33.631,
+      "lng": -112.127
+    },
+    {
+      "slug": "coon-rapids-zwN1",
+      "name": "Coon Rapids",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.156,
+      "lng": -93.282
+    },
+    {
+      "slug": "coopers-run-kkY7",
+      "name": "Cooper's Run",
+      "citySlug": "raleigh",
+      "lat": 35.837,
+      "lng": -79.071
+    },
+    {
+      "slug": "copper-sky-disc-golf-course-S0uy",
+      "name": "Copper Sky Disc Golf Course",
+      "citySlug": "phoenix",
+      "lat": 33.042,
+      "lng": -112.042
+    },
+    {
+      "slug": "cornelius-road-park-NRBJ",
+      "name": "Cornelius Road Park",
+      "citySlug": "charlotte",
+      "lat": 35.615,
+      "lng": -80.844
+    },
+    {
+      "slug": "cornerstone-baptist-church-RIUR",
+      "name": "Cornerstone Baptist Church",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.733,
+      "lng": -96.545
+    },
+    {
+      "slug": "cornerstone-church-NfnJ",
+      "name": "Cornerstone Church",
+      "citySlug": "houston",
+      "lat": 29.053,
+      "lng": -95.53
+    },
+    {
+      "slug": "cornwallis-road-park-m62A",
+      "name": "Cornwallis Road Park",
+      "citySlug": "raleigh",
+      "lat": 35.978,
+      "lng": -78.951
+    },
+    {
+      "slug": "coserv-lost-pines",
+      "name": "CoServ Lost Pines",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.139,
+      "lng": -97.046
+    },
+    {
+      "slug": "country-view-dgc-325H",
+      "name": "Country View, DGC",
+      "citySlug": "kansas-city",
+      "lat": 38.81,
+      "lng": -94.561
+    },
+    {
+      "slug": "creek-bend-disc-golf-course-8yvT",
+      "name": "Creek Bend Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.466,
+      "lng": -96.977
+    },
+    {
+      "slug": "creek-ridge-county-park-disc-golf-course-0E4r",
+      "name": "Creek Ridge County Park Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.67,
+      "lng": -86.85
+    },
+    {
+      "slug": "creekside-eoJ5",
+      "name": "Creekside",
+      "citySlug": "charlotte",
+      "lat": 35.065,
+      "lng": -80.619
+    },
+    {
+      "slug": "crockett",
+      "name": "Crockett Park",
+      "citySlug": "nashville",
+      "lat": 35.98,
+      "lng": -86.772
+    },
+    {
+      "slug": "cross-timbers-disc-golf-park-d8Hn",
+      "name": "Cross Timbers Disc Golf Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.888,
+      "lng": -97.228
+    },
+    {
+      "slug": "crossing-trails-dh-1F3F",
+      "name": "Crossing Trails @ DH",
+      "citySlug": "austin",
+      "lat": 30.495,
+      "lng": -98.234
+    },
+    {
+      "slug": "crossroad-church-6F4w",
+      "name": "Crossroad Church",
+      "citySlug": "houston",
+      "lat": 29.778,
+      "lng": -95.737
+    },
+    {
+      "slug": "crossroads-disc-golf-course-U8Fe",
+      "name": "Crossroads Disc Golf Course",
+      "citySlug": "raleigh",
+      "lat": 35.853,
+      "lng": -78.589
+    },
+    {
+      "slug": "crossroads-fellowship-0rnT",
+      "name": "Crossroads Fellowship",
+      "citySlug": "houston",
+      "lat": 29.898,
+      "lng": -95.202
+    },
+    {
+      "slug": "crossroads-of-life-qy1D",
+      "name": "Crossroads of Life",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.625,
+      "lng": -96.91
+    },
+    {
+      "slug": "crown-college-VHdM",
+      "name": "Crown College",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.886,
+      "lng": -93.744
+    },
+    {
+      "slug": "ctp-disc-golf-park-AGMs",
+      "name": "CTP Disc Golf Park",
+      "citySlug": "denver",
+      "lat": 39.782,
+      "lng": -105.114
+    },
+    {
+      "slug": "cypresswood-dXOa",
+      "name": "Cypresswood",
+      "citySlug": "houston",
+      "lat": 30.035,
+      "lng": -95.468
+    },
+    {
+      "slug": "dabney-state-park-naFa",
+      "name": "Dabney State Park",
+      "citySlug": "portland",
+      "lat": 45.517,
+      "lng": -122.352
+    },
+    {
+      "slug": "daddys-dogs-disc-golf-course-RGcd",
+      "name": "Daddy's Dogs Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 36.156,
+      "lng": -86.871
+    },
+    {
+      "slug": "dairy-creek-disc-golf-course-29q9",
+      "name": "Dairy Creek Disc Golf Course",
+      "citySlug": "portland",
+      "lat": 45.518,
+      "lng": -123.008
+    },
+    {
+      "slug": "danny-aguirre-disc-golf-course-tcc-se-N4Dr",
+      "name": "Danny Aguirre Disc Golf Course TCC SE",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.637,
+      "lng": -97.071
+    },
+    {
+      "slug": "danny-cunniff-park",
+      "name": "Danny Cunniff Park",
+      "citySlug": "chicago",
+      "lat": 42.213,
+      "lng": -87.836
+    },
+    {
+      "slug": "dashs-track-S0eQ",
+      "name": "Dash's Track",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.126,
+      "lng": -96.861
+    },
+    {
+      "slug": "davis-spring-park-Rk9Y",
+      "name": "Davis Spring Park",
+      "citySlug": "austin",
+      "lat": 30.488,
+      "lng": -97.77
+    },
+    {
+      "slug": "dawson-school-3QBO",
+      "name": "Dawson School",
+      "citySlug": "denver",
+      "lat": 40.066,
+      "lng": -105.107
+    },
+    {
+      "slug": "de-busk-park-rLCm",
+      "name": "DeBusk Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.782,
+      "lng": -96.629
+    },
+    {
+      "slug": "de-kalb-memorial-park-dgc-iE1D",
+      "name": "DeKalb Memorial Park DGC",
+      "citySlug": "atlanta",
+      "lat": 33.743,
+      "lng": -84.329
+    },
+    {
+      "slug": "deer-lick-park-e5po",
+      "name": "Deer Lick Park",
+      "citySlug": "atlanta",
+      "lat": 33.747,
+      "lng": -84.685
+    },
+    {
+      "slug": "delano-tiger-drive-disc-golf-MnND",
+      "name": "Delano Tiger Drive Disc Golf",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.045,
+      "lng": -93.776
+    },
+    {
+      "slug": "deussen-park-dgc-6iAk",
+      "name": "Deussen Park DGC",
+      "citySlug": "houston",
+      "lat": 29.909,
+      "lng": -95.153
+    },
+    {
+      "slug": "devou-park-NcvD",
+      "name": "Devou Park",
+      "citySlug": "cincinnati",
+      "lat": 39.078,
+      "lng": -84.536
+    },
+    {
+      "slug": "diamond-lake-sports-complex",
+      "name": "Diamond Lake Sports Complex",
+      "citySlug": "chicago",
+      "lat": 42.264,
+      "lng": -88.028
+    },
+    {
+      "slug": "diavolo",
+      "name": "Diavolo at New Hope",
+      "citySlug": "raleigh",
+      "lat": 35.816,
+      "lng": -78.922
+    },
+    {
+      "slug": "dog-river-kW92",
+      "name": "Dog River",
+      "citySlug": "atlanta",
+      "lat": 33.638,
+      "lng": -84.83
+    },
+    {
+      "slug": "dogwood-at-southern-community-park-Rnkg",
+      "name": "Dogwood  at Southern Community Park",
+      "citySlug": "raleigh",
+      "lat": 35.874,
+      "lng": -79.069
+    },
+    {
+      "slug": "donald-robertson-park-ZAHQ",
+      "name": "Donald Robertson Park",
+      "citySlug": "portland",
+      "lat": 45.536,
+      "lng": -122.412
+    },
+    {
+      "slug": "doogan-park-iN2C",
+      "name": "Doogan Park",
+      "citySlug": "chicago",
+      "lat": 41.621,
+      "lng": -87.867
+    },
+    {
+      "slug": "dorton-park-putt-and-approach-course-omAV",
+      "name": "Dorton Park Putt & Approach Course",
+      "citySlug": "charlotte",
+      "lat": 35.409,
+      "lng": -80.674
+    },
+    {
+      "slug": "dougs-course-SdMZ",
+      "name": "Doug’s course",
+      "citySlug": "houston",
+      "lat": 30.223,
+      "lng": -94.942
+    },
+    {
+      "slug": "downs-farm-XHrR",
+      "name": "Downs Farm",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.847,
+      "lng": -93.717
+    },
+    {
+      "slug": "dragonfly-HBaN",
+      "name": "Dragonfly",
+      "citySlug": "raleigh",
+      "lat": 35.824,
+      "lng": -78.83
+    },
+    {
+      "slug": "dragons-breath",
+      "name": "Dragons Breath",
+      "citySlug": "denver",
+      "lat": 39.647,
+      "lng": -105.091
+    },
+    {
+      "slug": "dry-creek-at-spcc-rTlE",
+      "name": "Dry Creek at SPCC",
+      "citySlug": "charlotte",
+      "lat": 35.031,
+      "lng": -80.625
+    },
+    {
+      "slug": "dunham-QG9z",
+      "name": "Dunham",
+      "citySlug": "cincinnati",
+      "lat": 39.124,
+      "lng": -84.591
+    },
+    {
+      "slug": "dupree-park-TK3G",
+      "name": "Dupree Park",
+      "citySlug": "atlanta",
+      "lat": 34.105,
+      "lng": -84.494
+    },
+    {
+      "slug": "dutchman-creek-middle-school-qLBb",
+      "name": "Dutchman Creek Middle School",
+      "citySlug": "charlotte",
+      "lat": 35.009,
+      "lng": -81.067
+    },
+    {
+      "slug": "eager-beaver-at-elon-park-9BtI",
+      "name": "Eager Beaver at Elon Park",
+      "citySlug": "charlotte",
+      "lat": 35.019,
+      "lng": -80.839
+    },
+    {
+      "slug": "eagle-ranch-park-QupQ",
+      "name": "Eagle Ranch Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.869,
+      "lng": -97.431
+    },
+    {
+      "slug": "eagle-ridge-civic-center-Qg42",
+      "name": "Eagle Ridge/Civic Center",
+      "citySlug": "chicago",
+      "lat": 41.702,
+      "lng": -88.345
+    },
+    {
+      "slug": "east-clayton-dgc-kWsL",
+      "name": "East Clayton DGC",
+      "citySlug": "raleigh",
+      "lat": 35.638,
+      "lng": -78.416
+    },
+    {
+      "slug": "east-metro-park-PWlL",
+      "name": "East Metro Park",
+      "citySlug": "austin",
+      "lat": 30.288,
+      "lng": -97.53
+    },
+    {
+      "slug": "east-park-interlocken-kkxN",
+      "name": "East Park - Interlocken",
+      "citySlug": "denver",
+      "lat": 39.921,
+      "lng": -105.109
+    },
+    {
+      "slug": "east-roswell",
+      "name": "East Roswell Park",
+      "citySlug": "atlanta",
+      "lat": 34.002,
+      "lng": -84.297
+    },
+    {
+      "slug": "eastway-park-9ZoP",
+      "name": "Eastway Park",
+      "citySlug": "charlotte",
+      "lat": 35.255,
+      "lng": -80.774
+    },
+    {
+      "slug": "ecclesia-piney-point-GwT4",
+      "name": "Ecclesia (Piney Point)",
+      "citySlug": "houston",
+      "lat": 29.757,
+      "lng": -95.518
+    },
+    {
+      "slug": "ej-roberts-disc-golf-course-sP8o",
+      "name": "EJ Roberts Disc Golf Course",
+      "citySlug": "seattle",
+      "lat": 47.497,
+      "lng": -121.774
+    },
+    {
+      "slug": "ellis-crossing-Lzi4",
+      "name": "Ellis Crossing",
+      "citySlug": "raleigh",
+      "lat": 35.953,
+      "lng": -78.86
+    },
+    {
+      "slug": "embshoff-woods-updf",
+      "name": "Embshoff Woods",
+      "citySlug": "cincinnati",
+      "lat": 39.089,
+      "lng": -84.586
+    },
+    {
+      "slug": "emerald-park-vJiV",
+      "name": "Emerald Park",
+      "citySlug": "phoenix",
+      "lat": 33.388,
+      "lng": -111.796
+    },
+    {
+      "slug": "empire-7VzD",
+      "name": "Empire",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.659,
+      "lng": -93.117
+    },
+    {
+      "slug": "english-landing-park-dgc-nr7E",
+      "name": "English Landing Park DGC",
+      "citySlug": "kansas-city",
+      "lat": 39.188,
+      "lng": -94.682
+    },
+    {
+      "slug": "ennis-disc-golf-FYAf",
+      "name": "Ennis Disc Golf",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.322,
+      "lng": -96.661
+    },
+    {
+      "slug": "eric-paddy-memorial-epm-yQDU",
+      "name": "Eric Paddy Memorial (EPM)",
+      "citySlug": "houston",
+      "lat": 30.073,
+      "lng": -95.664
+    },
+    {
+      "slug": "evergreen-state-college-B2ox",
+      "name": "Evergreen State College",
+      "citySlug": "seattle",
+      "lat": 47.073,
+      "lng": -122.969
+    },
+    {
+      "slug": "excalibur-disc-golf-course-silver-lake-Qvfz",
+      "name": "Excalibur Disc Golf Course @ Silver Lake",
+      "citySlug": "seattle",
+      "lat": 47.892,
+      "lng": -122.215
+    },
+    {
+      "slug": "exposition-park-FnW2",
+      "name": "Exposition Park",
+      "citySlug": "denver",
+      "lat": 39.705,
+      "lng": -104.86
+    },
+    {
+      "slug": "fairfield-park-Ceow",
+      "name": "Fairfield Park",
+      "citySlug": "chicago",
+      "lat": 42.354,
+      "lng": -88.112
+    },
+    {
+      "slug": "fairhill-disc-XZKR",
+      "name": "Fairhill  Disc",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.133,
+      "lng": -93.779
+    },
+    {
+      "slug": "fairways-canton-0",
+      "name": "Fairways of Canton",
+      "citySlug": "atlanta",
+      "lat": 34.268,
+      "lng": -84.518
+    },
+    {
+      "slug": "fall-creek-disc-golf-course-G5pD",
+      "name": "Fall Creek Disc Golf Course",
+      "citySlug": "houston",
+      "lat": 29.925,
+      "lng": -95.243
+    },
+    {
+      "slug": "farmers-park-disc-golf-course-EGC5",
+      "name": "Farmers Park Disc Golf Course",
+      "citySlug": "seattle",
+      "lat": 47.21,
+      "lng": -122.038
+    },
+    {
+      "slug": "fehringer-ranch",
+      "name": "Fehringer Ranch",
+      "citySlug": "denver",
+      "lat": 39.645,
+      "lng": -105.123
+    },
+    {
+      "slug": "fellowship-ZPov",
+      "name": "Fellowship",
+      "citySlug": "austin",
+      "lat": 30.665,
+      "lng": -97.926
+    },
+    {
+      "slug": "ferguson-park-Ol3z",
+      "name": "Ferguson Park",
+      "citySlug": "seattle",
+      "lat": 47.93,
+      "lng": -122.098
+    },
+    {
+      "slug": "fewell-park-aceplace-QMrK",
+      "name": "Fewell Park Aceplace",
+      "citySlug": "charlotte",
+      "lat": 34.949,
+      "lng": -81.035
+    },
+    {
+      "slug": "fink-park-zA6O",
+      "name": "Fink Park",
+      "citySlug": "chicago",
+      "lat": 42.164,
+      "lng": -87.806
+    },
+    {
+      "slug": "fircrest-recreation-center-disc-golf-UVBM",
+      "name": "Fircrest Recreation Center Disc Golf",
+      "citySlug": "seattle",
+      "lat": 47.234,
+      "lng": -122.512
+    },
+    {
+      "slug": "first-calvary-baptist-gpGq",
+      "name": "First Calvary Baptist",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.869,
+      "lng": -93.082
+    },
+    {
+      "slug": "first-colony-aquatic-center",
+      "name": "First Colony Aquatic Center",
+      "citySlug": "houston",
+      "lat": 29.569,
+      "lng": -95.581
+    },
+    {
+      "slug": "fischer-park-disc-golf-course-mYM9",
+      "name": "Fischer Park Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 35.709,
+      "lng": -86.899
+    },
+    {
+      "slug": "fit-fort-dg-course-fortnight-brewery-75Ln",
+      "name": "Fit Fort DG Course @ Fortnight Brewery",
+      "citySlug": "raleigh",
+      "lat": 35.777,
+      "lng": -78.802
+    },
+    {
+      "slug": "flewellen-creek-dgc-kEfT",
+      "name": "Flewellen Creek DGC",
+      "citySlug": "houston",
+      "lat": 29.705,
+      "lng": -95.861
+    },
+    {
+      "slug": "fluke-disc-golf-course-4DCC",
+      "name": "Fluke Disc golf course",
+      "citySlug": "seattle",
+      "lat": 47.937,
+      "lng": -122.27
+    },
+    {
+      "slug": "forest-ridge-park-vqSf",
+      "name": "Forest Ridge Park",
+      "citySlug": "raleigh",
+      "lat": 35.964,
+      "lng": -78.582
+    },
+    {
+      "slug": "fort-steilacoom-nw-nmrf",
+      "name": "Fort Steilacoom NW",
+      "citySlug": "seattle",
+      "lat": 47.184,
+      "lng": -122.564
+    },
+    {
+      "slug": "fort-steilacoom-nw",
+      "name": "Fort Steilacoom Park (Northwest)",
+      "citySlug": "seattle",
+      "lat": 47.172,
+      "lng": -122.561
+    },
+    {
+      "slug": "founders-park-uKU4",
+      "name": "Founders Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.761,
+      "lng": -96.818
+    },
+    {
+      "slug": "fountain-hills",
+      "name": "Fountain Hills DGC",
+      "citySlug": "phoenix",
+      "lat": 33.604,
+      "lng": -111.715
+    },
+    {
+      "slug": "four-lakes-recreation",
+      "name": "Four Lakes Recreation",
+      "citySlug": "chicago",
+      "lat": 41.782,
+      "lng": -88.084
+    },
+    {
+      "slug": "fox-hill-flyer",
+      "name": "Fox Hill Flyer",
+      "citySlug": "kansas-city",
+      "lat": 39.285,
+      "lng": -94.569
+    },
+    {
+      "slug": "frank-grimes-disc-golf-course-nOBg",
+      "name": "Frank Grimes Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.472,
+      "lng": -88.183
+    },
+    {
+      "slug": "frank-liske-park-CWzT",
+      "name": "Frank Liske Park",
+      "citySlug": "charlotte",
+      "lat": 35.362,
+      "lng": -80.618
+    },
+    {
+      "slug": "franklin-simpson-dgc-Cmm4",
+      "name": "Franklin - Simpson DGC",
+      "citySlug": "nashville",
+      "lat": 36.731,
+      "lng": -86.548
+    },
+    {
+      "slug": "fredericksen-wilderness-park-0WhJ",
+      "name": "Fredericksen Wilderness Park",
+      "citySlug": "seattle",
+      "lat": 47.763,
+      "lng": -122.638
+    },
+    {
+      "slug": "freedom-park-disc-golf-course-Nxbd",
+      "name": "Freedom Park Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.654,
+      "lng": -87.732
+    },
+    {
+      "slug": "freestone-Qmm7",
+      "name": "Freestone",
+      "citySlug": "phoenix",
+      "lat": 33.364,
+      "lng": -111.765
+    },
+    {
+      "slug": "fritz",
+      "name": "Fritz Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.801,
+      "lng": -96.942
+    },
+    {
+      "slug": "frog-rock-disc-golf-course-ycA3",
+      "name": "Frog Rock Disc Golf Course",
+      "citySlug": "atlanta",
+      "lat": 33.804,
+      "lng": -84.636
+    },
+    {
+      "slug": "fronterra-park-DmtV",
+      "name": "Fronterra Park",
+      "citySlug": "denver",
+      "lat": 39.881,
+      "lng": -104.801
+    },
+    {
+      "slug": "gaffneys-grove-C7ry",
+      "name": "Gaffney's Grove",
+      "citySlug": "seattle",
+      "lat": 47.38,
+      "lng": -122.043
+    },
+    {
+      "slug": "galloway-park-ljoB",
+      "name": "Galloway Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.201,
+      "lng": -93.42
+    },
+    {
+      "slug": "garner-high-school-disc-golf-course-pjlA",
+      "name": "Garner High School Disc Golf Course",
+      "citySlug": "raleigh",
+      "lat": 35.712,
+      "lng": -78.635
+    },
+    {
+      "slug": "gateway-briar-jkhU",
+      "name": "Gateway Briar",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.763,
+      "lng": -97.277
+    },
+    {
+      "slug": "gateway-middle-school-AbzC",
+      "name": "Gateway Middle School",
+      "citySlug": "seattle",
+      "lat": 47.854,
+      "lng": -122.156
+    },
+    {
+      "slug": "gateway-trinity-3e8H",
+      "name": "Gateway Trinity",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.762,
+      "lng": -97.273
+    },
+    {
+      "slug": "generations-park-disc-golf-course-56nT",
+      "name": "Generations Park Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.851,
+      "lng": -97.149
+    },
+    {
+      "slug": "glass-jug-pitch-and-putt-tBnz",
+      "name": "Glass Jug Pitch-and-Putt",
+      "citySlug": "raleigh",
+      "lat": 35.89,
+      "lng": -78.898
+    },
+    {
+      "slug": "glencliff-disc-golf-course-dgAz",
+      "name": "Glencliff Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 36.101,
+      "lng": -86.724
+    },
+    {
+      "slug": "glendoveer-east-cvxp",
+      "name": "Glendoveer - East",
+      "citySlug": "portland",
+      "lat": 45.529,
+      "lng": -122.518
+    },
+    {
+      "slug": "glenn-christopher-nicholson-memorial-dgc-jD3h",
+      "name": "Glenn Christopher Nicholson Memorial DGC",
+      "citySlug": "chicago",
+      "lat": 41.553,
+      "lng": -87.211
+    },
+    {
+      "slug": "glenwood-community-church-utT8",
+      "name": "Glenwood Community Church",
+      "citySlug": "portland",
+      "lat": 45.711,
+      "lng": -122.596
+    },
+    {
+      "slug": "goat-island-tc2Q",
+      "name": "Goat Island",
+      "citySlug": "charlotte",
+      "lat": 35.239,
+      "lng": -81.069
+    },
+    {
+      "slug": "goblin-park-invite-only-4Rus",
+      "name": "Goblin park (invite only)",
+      "citySlug": "nashville",
+      "lat": 36.316,
+      "lng": -86.887
+    },
+    {
+      "slug": "gold-park-W9IQ",
+      "name": "Gold Park",
+      "citySlug": "seattle",
+      "lat": 47.818,
+      "lng": -122.32
+    },
+    {
+      "slug": "grace-park-zhhk",
+      "name": "Grace Park",
+      "citySlug": "nashville",
+      "lat": 36.464,
+      "lng": -86.681
+    },
+    {
+      "slug": "grace-point-fellowship-dgc-CbVV",
+      "name": "Grace Point Fellowship DGC",
+      "citySlug": "houston",
+      "lat": 30.227,
+      "lng": -95.617
+    },
+    {
+      "slug": "greenbelt-dgc-00oT",
+      "name": "Greenbelt DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.995,
+      "lng": -96.885
+    },
+    {
+      "slug": "greenwater-EAsp",
+      "name": "Greenwater",
+      "citySlug": "seattle",
+      "lat": 47.148,
+      "lng": -121.645
+    },
+    {
+      "slug": "greenway-park-t11z",
+      "name": "Greenway Park",
+      "citySlug": "portland",
+      "lat": 45.459,
+      "lng": -122.795
+    },
+    {
+      "slug": "greg-cuoio-disc-golf-course-K5kE",
+      "name": "Greg Cuoio Disc Golf Course",
+      "citySlug": "seattle",
+      "lat": 47.076,
+      "lng": -122.804
+    },
+    {
+      "slug": "gregory-wayne-fulton-disc-golf-course-Rsl7",
+      "name": "Gregory Wayne Fulton Disc Golf Course",
+      "citySlug": "phoenix",
+      "lat": 33.701,
+      "lng": -112.404
+    },
+    {
+      "slug": "gresham-elementary-course-2YGz",
+      "name": "Gresham Elementary course",
+      "citySlug": "atlanta",
+      "lat": 33.7,
+      "lng": -84.314
+    },
+    {
+      "slug": "griffin-ms-course-tYlf",
+      "name": "Griffin MS Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.096,
+      "lng": -96.88
+    },
+    {
+      "slug": "gwen-hruska-memorial-park-dgc-Hjwd",
+      "name": "Gwen Hruska Memorial Park DGC",
+      "citySlug": "houston",
+      "lat": 30.245,
+      "lng": -95.443
+    },
+    {
+      "slug": "hackberry-park-pmov",
+      "name": "Hackberry Park",
+      "citySlug": "houston",
+      "lat": 29.833,
+      "lng": -94.86
+    },
+    {
+      "slug": "haines-wayside-park-mtC9",
+      "name": "Haines Wayside Park",
+      "citySlug": "chicago",
+      "lat": 41.518,
+      "lng": -87.971
+    },
+    {
+      "slug": "hampton-high-school-dgc-oeJN",
+      "name": "Hampton High School DGC",
+      "citySlug": "atlanta",
+      "lat": 33.381,
+      "lng": -84.255
+    },
+    {
+      "slug": "hansen-park-bfi0",
+      "name": "Hansen Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.056,
+      "lng": -93.203
+    },
+    {
+      "slug": "harlow-platts-disc-golf-course-rzPE",
+      "name": "Harlow Platts Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.974,
+      "lng": -105.248
+    },
+    {
+      "slug": "harry-myers",
+      "name": "Harry Myers 2.0",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.93,
+      "lng": -96.45
+    },
+    {
+      "slug": "hartwood-disc-golf-park-NyNP",
+      "name": "Hartwood Disc Golf Park",
+      "citySlug": "portland",
+      "lat": 45.593,
+      "lng": -122.317
+    },
+    {
+      "slug": "haslet-community-VRF9",
+      "name": "Haslet Community",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.974,
+      "lng": -97.351
+    },
+    {
+      "slug": "hassan-meadow-park-disc-golf-course-wzvT",
+      "name": "Hassan Meadow Park Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.157,
+      "lng": -93.605
+    },
+    {
+      "slug": "hawks-run-at-paul-kinder-ms-Xcye",
+      "name": "Hawks Run at Paul Kinder MS",
+      "citySlug": "kansas-city",
+      "lat": 39.042,
+      "lng": -94.313
+    },
+    {
+      "slug": "hawthorn-hill-elementary-0zbO",
+      "name": "Hawthorn Hill Elementary",
+      "citySlug": "kansas-city",
+      "lat": 38.87,
+      "lng": -94.415
+    },
+    {
+      "slug": "heirloom-wilds",
+      "name": "Heirloom Wilds",
+      "citySlug": "portland",
+      "lat": 45.61,
+      "lng": -122.94
+    },
+    {
+      "slug": "hennepin-tech-eden-prairie",
+      "name": "Hennepin Tech Eden Prairie",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.835,
+      "lng": -93.441
+    },
+    {
+      "slug": "heritage-park",
+      "name": "Heritage Park",
+      "citySlug": "kansas-city",
+      "lat": 38.867,
+      "lng": -94.742
+    },
+    {
+      "slug": "hidden-valley-dgc-izSI",
+      "name": "Hidden Valley DGC",
+      "citySlug": "phoenix",
+      "lat": 32.948,
+      "lng": -112.157
+    },
+    {
+      "slug": "hidden-valley-dgc-l8FE",
+      "name": "Hidden Valley DGC",
+      "citySlug": "kansas-city",
+      "lat": 39.167,
+      "lng": -94.506
+    },
+    {
+      "slug": "higher-ground",
+      "name": "Higher Ground",
+      "citySlug": "raleigh",
+      "lat": 35.632,
+      "lng": -78.72
+    },
+    {
+      "slug": "highland-hills-park-8gmY",
+      "name": "Highland Hills Park",
+      "citySlug": "cincinnati",
+      "lat": 39.08,
+      "lng": -84.454
+    },
+    {
+      "slug": "highland-park",
+      "name": "Highland Park",
+      "citySlug": "chicago",
+      "lat": 41.535,
+      "lng": -88.031
+    },
+    {
+      "slug": "hobby-hill-dgc-C5q0",
+      "name": "Hobby Hill DGC",
+      "citySlug": "kansas-city",
+      "lat": 39.233,
+      "lng": -94.581
+    },
+    {
+      "slug": "homestead-42rT",
+      "name": "Homestead",
+      "citySlug": "phoenix",
+      "lat": 33.065,
+      "lng": -112.004
+    },
+    {
+      "slug": "hop-springs-beer-park-QfEh",
+      "name": "Hop Springs Beer Park",
+      "citySlug": "nashville",
+      "lat": 35.822,
+      "lng": -86.267
+    },
+    {
+      "slug": "hopkins-park-dgc-ycFK",
+      "name": "Hopkins Park DGC",
+      "citySlug": "atlanta",
+      "lat": 33.87,
+      "lng": -84.655
+    },
+    {
+      "slug": "hornets-nest",
+      "name": "Hornets Nest Park",
+      "citySlug": "charlotte",
+      "lat": 35.32,
+      "lng": -80.865
+    },
+    {
+      "slug": "howard-park-xKF7",
+      "name": "Howard Park",
+      "citySlug": "kansas-city",
+      "lat": 38.975,
+      "lng": -94.367
+    },
+    {
+      "slug": "howling-coyote-ZsOi",
+      "name": "Howling Coyote",
+      "citySlug": "seattle",
+      "lat": 47.751,
+      "lng": -122.209
+    },
+    {
+      "slug": "hunter-memorial-park-fOFs",
+      "name": "Hunter Memorial Park",
+      "citySlug": "atlanta",
+      "lat": 33.74,
+      "lng": -84.771
+    },
+    {
+      "slug": "huskie-oaks-dchs-HzK7",
+      "name": "Huskie Oaks @DCHS",
+      "citySlug": "denver",
+      "lat": 39.387,
+      "lng": -104.854
+    },
+    {
+      "slug": "husky-disc-golf-houston-baptist-university",
+      "name": "Husky Disc Golf at Houston Baptist University",
+      "citySlug": "houston",
+      "lat": 29.693,
+      "lng": -95.515
+    },
+    {
+      "slug": "hyland-visitor-center",
+      "name": "Hyland Visitor Center",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.825,
+      "lng": -93.372
+    },
+    {
+      "slug": "idlewild",
+      "name": "Idlewild",
+      "citySlug": "cincinnati",
+      "lat": 39.04,
+      "lng": -84.741
+    },
+    {
+      "slug": "illinois-tech-0xmW",
+      "name": "Illinois Tech",
+      "citySlug": "chicago",
+      "lat": 41.834,
+      "lng": -87.627
+    },
+    {
+      "slug": "imperial-park-dgc-RTIL",
+      "name": "Imperial Park DGC",
+      "citySlug": "houston",
+      "lat": 29.616,
+      "lng": -95.64
+    },
+    {
+      "slug": "iron-hoof-EayO",
+      "name": "Iron Hoof",
+      "citySlug": "atlanta",
+      "lat": 33.671,
+      "lng": -83.933
+    },
+    {
+      "slug": "isanti-middle-school-yWJ6",
+      "name": "Isanti Middle School",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.49,
+      "lng": -93.261
+    },
+    {
+      "slug": "ivor-davies-DAsS",
+      "name": "Ivor Davies",
+      "citySlug": "portland",
+      "lat": 45.137,
+      "lng": -122.568
+    },
+    {
+      "slug": "j-p-moseley-park-dgc-YiCf",
+      "name": "J.P. Moseley Park DGC",
+      "citySlug": "atlanta",
+      "lat": 33.534,
+      "lng": -84.163
+    },
+    {
+      "slug": "jaars-disc-golf-course-aAmN",
+      "name": "JAARS Disc Golf Course",
+      "citySlug": "charlotte",
+      "lat": 34.862,
+      "lng": -80.745
+    },
+    {
+      "slug": "jack-culverhouse-dgc-nGWr",
+      "name": "Jack Culverhouse DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.184,
+      "lng": -96.508
+    },
+    {
+      "slug": "jackson-park-nC0p",
+      "name": "Jackson Park",
+      "citySlug": "chicago",
+      "lat": 41.781,
+      "lng": -87.584
+    },
+    {
+      "slug": "james-o-breen-park-FC1u",
+      "name": "James O. Breen Park",
+      "citySlug": "chicago",
+      "lat": 41.915,
+      "lng": -88.374
+    },
+    {
+      "slug": "james-shackelford-park-N4EQ",
+      "name": "James Shackelford Park",
+      "citySlug": "atlanta",
+      "lat": 33.988,
+      "lng": -83.845
+    },
+    {
+      "slug": "jaranator-W5bO",
+      "name": "Jaranator",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.547,
+      "lng": -96.769
+    },
+    {
+      "slug": "jenkins-park-VnRu",
+      "name": "Jenkins Park",
+      "citySlug": "houston",
+      "lat": 29.776,
+      "lng": -94.939
+    },
+    {
+      "slug": "jim-creek-Zy6Q",
+      "name": "Jim Creek",
+      "citySlug": "seattle",
+      "lat": 48.221,
+      "lng": -121.942
+    },
+    {
+      "slug": "jimmy-porter-park-dgc-ElEO",
+      "name": "Jimmy Porter Park DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.971,
+      "lng": -96.888
+    },
+    {
+      "slug": "john-burge-park-dgc-U0UR",
+      "name": "John Burge Park DGC",
+      "citySlug": "houston",
+      "lat": 30.385,
+      "lng": -95.521
+    },
+    {
+      "slug": "john-reid-memorial-dgc-scNr",
+      "name": "John Reid Memorial DGC",
+      "citySlug": "atlanta",
+      "lat": 33.819,
+      "lng": -83.704
+    },
+    {
+      "slug": "johnny-roberts",
+      "name": "Johnny Roberts Memorial DGC",
+      "citySlug": "denver",
+      "lat": 39.804,
+      "lng": -105.086
+    },
+    {
+      "slug": "jones-creek-ranch-park-taRJ",
+      "name": "Jones Creek Ranch Park",
+      "citySlug": "houston",
+      "lat": 29.64,
+      "lng": -95.824
+    },
+    {
+      "slug": "jones-park-1uX5",
+      "name": "Jones Park",
+      "citySlug": "raleigh",
+      "lat": 35.659,
+      "lng": -78.829
+    },
+    {
+      "slug": "jt-dunbar-park-158J",
+      "name": "J.T. Dunbar Park",
+      "citySlug": "houston",
+      "lat": 29.054,
+      "lng": -95.461
+    },
+    {
+      "slug": "judson-nashville-gJ5Q",
+      "name": "Judson Nashville",
+      "citySlug": "nashville",
+      "lat": 36.077,
+      "lng": -86.772
+    },
+    {
+      "slug": "judson-university-disc-golf-course-kRRz",
+      "name": "Judson University Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 42.06,
+      "lng": -88.292
+    },
+    {
+      "slug": "juel-park-6FNW",
+      "name": "Juel Park",
+      "citySlug": "seattle",
+      "lat": 47.702,
+      "lng": -122.088
+    },
+    {
+      "slug": "jumano-disc-golf-course-vn8M",
+      "name": "Jumano Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 30.554,
+      "lng": -97.822
+    },
+    {
+      "slug": "karl-von-coldewey-Jv8X",
+      "name": "Karl Von Coldewey",
+      "citySlug": "cincinnati",
+      "lat": 39.192,
+      "lng": -84.223
+    },
+    {
+      "slug": "katherine-legge",
+      "name": "Katherine Legge Memorial Park",
+      "citySlug": "chicago",
+      "lat": 41.782,
+      "lng": -87.917
+    },
+    {
+      "slug": "kaufman-city-lake-park-1djd",
+      "name": "Kaufman City Lake Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.598,
+      "lng": -96.285
+    },
+    {
+      "slug": "kc-ranch-house-dgc-ab5x",
+      "name": "KC Ranch House DGC",
+      "citySlug": "denver",
+      "lat": 39.578,
+      "lng": -105.118
+    },
+    {
+      "slug": "keller-shepard-park-OxPi",
+      "name": "Keller/Shepard Park",
+      "citySlug": "chicago",
+      "lat": 42.16,
+      "lng": -87.856
+    },
+    {
+      "slug": "kennesaw-church-vuZs",
+      "name": "Kennesaw Church",
+      "citySlug": "atlanta",
+      "lat": 34.029,
+      "lng": -84.604
+    },
+    {
+      "slug": "kennesaw-state-u-marietta-campus-QLKH",
+      "name": "Kennesaw State U - Marietta Campus",
+      "citySlug": "atlanta",
+      "lat": 33.939,
+      "lng": -84.518
+    },
+    {
+      "slug": "kenneth-rosland-park-dIrV",
+      "name": "Kenneth Rosland Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.886,
+      "lng": -93.337
+    },
+    {
+      "slug": "kentwood",
+      "name": "Kentwood",
+      "citySlug": "raleigh",
+      "lat": 35.777,
+      "lng": -78.696
+    },
+    {
+      "slug": "kenwood-trails-dgc-pXpL",
+      "name": "Kenwood Trails DGC",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.67,
+      "lng": -93.271
+    },
+    {
+      "slug": "kessler-park-cliff-drive",
+      "name": "Kessler Park (Cliff Drive)",
+      "citySlug": "kansas-city",
+      "lat": 39.114,
+      "lng": -94.55
+    },
+    {
+      "slug": "kever-park-zfWO",
+      "name": "Kever Park",
+      "citySlug": "nashville",
+      "lat": 36.102,
+      "lng": -86.866
+    },
+    {
+      "slug": "kilborne",
+      "name": "Kilborne TPC",
+      "citySlug": "charlotte",
+      "lat": 35.22,
+      "lng": -80.771
+    },
+    {
+      "slug": "kitsap-fairgrounds-disc-golf-park-OoQq",
+      "name": "Kitsap Fairgrounds Disc Golf Park",
+      "citySlug": "seattle",
+      "lat": 47.633,
+      "lng": -122.669
+    },
+    {
+      "slug": "knoch-knolls-dgc-6aZZ",
+      "name": "Knoch Knolls DGC",
+      "citySlug": "chicago",
+      "lat": 41.714,
+      "lng": -88.143
+    },
+    {
+      "slug": "kraxberger-middle-school-z2Mr",
+      "name": "Kraxberger Middle School",
+      "citySlug": "portland",
+      "lat": 45.394,
+      "lng": -122.586
+    },
+    {
+      "slug": "kress-creek-farm-manville-oaks-tzt8",
+      "name": "Kress Creek Farm (Manville Oaks)",
+      "citySlug": "chicago",
+      "lat": 41.856,
+      "lng": -88.208
+    },
+    {
+      "slug": "kueck-park-disc-golf-axjR",
+      "name": "Kueck Park Disc Golf",
+      "citySlug": "seattle",
+      "lat": 47.401,
+      "lng": -122.572
+    },
+    {
+      "slug": "lake-fenwick-JC9w",
+      "name": "Lake Fenwick",
+      "citySlug": "seattle",
+      "lat": 47.368,
+      "lng": -122.275
+    },
+    {
+      "slug": "lake-hills-disc-golf-course-h7vT",
+      "name": "Lake Hills Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.463,
+      "lng": -87.446
+    },
+    {
+      "slug": "lake-stevens-kSF3",
+      "name": "Lake Stevens",
+      "citySlug": "seattle",
+      "lat": 48.015,
+      "lng": -122.057
+    },
+    {
+      "slug": "lakeside-hills-jpb3",
+      "name": "Lakeside Hills",
+      "citySlug": "kansas-city",
+      "lat": 38.872,
+      "lng": -94.866
+    },
+    {
+      "slug": "lakeside-retreats-dgc-Niyn",
+      "name": "Lakeside Retreats DGC",
+      "citySlug": "raleigh",
+      "lat": 35.716,
+      "lng": -78.453
+    },
+    {
+      "slug": "lakewood-dick-thurnau-park-bszL",
+      "name": "Lakewood @ Dick Thurnau Park",
+      "citySlug": "seattle",
+      "lat": 47.504,
+      "lng": -122.346
+    },
+    {
+      "slug": "lakewood-hills",
+      "name": "Lakewood Hills",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.04,
+      "lng": -93.011
+    },
+    {
+      "slug": "land-trust-for-tennessee-glen-leven-farm-gWz3",
+      "name": "Land Trust for Tennessee Glen Leven Farm",
+      "citySlug": "nashville",
+      "lat": 36.102,
+      "lng": -86.772
+    },
+    {
+      "slug": "laurie-la-motte-park-disc-golf-course-nKQT",
+      "name": "Laurie LaMotte Park Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.159,
+      "lng": -93.06
+    },
+    {
+      "slug": "lawnview-park-aafB",
+      "name": "Lawnview Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.768,
+      "lng": -96.722
+    },
+    {
+      "slug": "legacy-park-j6Ya",
+      "name": "Legacy Park",
+      "citySlug": "kansas-city",
+      "lat": 38.943,
+      "lng": -94.314
+    },
+    {
+      "slug": "leigh-farm-park-OCcU",
+      "name": "Leigh Farm Park",
+      "citySlug": "raleigh",
+      "lat": 35.922,
+      "lng": -78.983
+    },
+    {
+      "slug": "lemon-lake-county-park-blue-GTMS",
+      "name": "Lemon Lake County Park - Blue",
+      "citySlug": "chicago",
+      "lat": 41.382,
+      "lng": -87.407
+    },
+    {
+      "slug": "lemon-lake-county-park-gold-5GRO",
+      "name": "Lemon Lake County Park - Gold",
+      "citySlug": "chicago",
+      "lat": 41.383,
+      "lng": -87.408
+    },
+    {
+      "slug": "lemon-lake-county-park-red-7kZI",
+      "name": "Lemon Lake County Park - Red",
+      "citySlug": "chicago",
+      "lat": 41.382,
+      "lng": -87.407
+    },
+    {
+      "slug": "lemon-lake-county-park-silver-0hpF",
+      "name": "Lemon Lake County Park - Silver",
+      "citySlug": "chicago",
+      "lat": 41.383,
+      "lng": -87.407
+    },
+    {
+      "slug": "lemon-lake-county-park-white-X65S",
+      "name": "Lemon Lake County Park - White",
+      "citySlug": "chicago",
+      "lat": 41.384,
+      "lng": -87.408
+    },
+    {
+      "slug": "lenard-l-woods-park-ZUru",
+      "name": "Lenard L. Woods Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.055,
+      "lng": -97.039
+    },
+    {
+      "slug": "leo-leathers-park-4vxN",
+      "name": "Leo Leathers Park",
+      "citySlug": "chicago",
+      "lat": 42.275,
+      "lng": -88.029
+    },
+    {
+      "slug": "lester-lorch-dgc-beaver-bdoL",
+      "name": "Lester Lorch DGC - Beaver",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.557,
+      "lng": -96.992
+    },
+    {
+      "slug": "lester-lorch-dgc-coyote-84eo",
+      "name": "Lester Lorch DGC - Coyote",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.557,
+      "lng": -96.992
+    },
+    {
+      "slug": "leverich-park-axQn",
+      "name": "Leverich Park",
+      "citySlug": "portland",
+      "lat": 45.651,
+      "lng": -122.658
+    },
+    {
+      "slug": "liberty-municipal-HWwH",
+      "name": "Liberty municipal",
+      "citySlug": "houston",
+      "lat": 30.084,
+      "lng": -94.784
+    },
+    {
+      "slug": "liberty-park-wvTC",
+      "name": "Liberty Park",
+      "citySlug": "nashville",
+      "lat": 35.93,
+      "lng": -86.797
+    },
+    {
+      "slug": "liberty-woods-at-liberty-bible-church-PE1K",
+      "name": "Liberty Woods at Liberty Bible Church",
+      "citySlug": "chicago",
+      "lat": 41.554,
+      "lng": -87.038
+    },
+    {
+      "slug": "lil-g-6ctv",
+      "name": "Lil G",
+      "citySlug": "austin",
+      "lat": 30.245,
+      "lng": -97.712
+    },
+    {
+      "slug": "lincoln-ridge",
+      "name": "Lincoln Ridge Park (Banklick)",
+      "citySlug": "cincinnati",
+      "lat": 38.964,
+      "lng": -84.563
+    },
+    {
+      "slug": "lincolnwood-centennial-park-ZyJC",
+      "name": "Lincolnwood Centennial Park",
+      "citySlug": "chicago",
+      "lat": 42.008,
+      "lng": -87.711
+    },
+    {
+      "slug": "lindsey-estates-dgc-pH52",
+      "name": "Lindsey Estates DGC",
+      "citySlug": "phoenix",
+      "lat": 33.311,
+      "lng": -111.771
+    },
+    {
+      "slug": "lions-head-71qf",
+      "name": "Lions Head",
+      "citySlug": "denver",
+      "lat": 39.519,
+      "lng": -105.358
+    },
+    {
+      "slug": "lions-park-i-V9xj",
+      "name": "Lions Park I",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.785,
+      "lng": -93.539
+    },
+    {
+      "slug": "lippold-park-vqyx",
+      "name": "Lippold Park",
+      "citySlug": "chicago",
+      "lat": 42.244,
+      "lng": -88.357
+    },
+    {
+      "slug": "little-grove-xOqh",
+      "name": "Little Grove",
+      "citySlug": "houston",
+      "lat": 30.029,
+      "lng": -95.24
+    },
+    {
+      "slug": "little-mulberry",
+      "name": "Little Mulberry Park",
+      "citySlug": "atlanta",
+      "lat": 34.053,
+      "lng": -83.892
+    },
+    {
+      "slug": "little-scraggy-warmup-course-ZrtK",
+      "name": "Little Scraggy warmup course",
+      "citySlug": "denver",
+      "lat": 39.298,
+      "lng": -105.275
+    },
+    {
+      "slug": "live-oak-brewing-dgc-4gge",
+      "name": "Live Oak Brewing DGC",
+      "citySlug": "austin",
+      "lat": 30.221,
+      "lng": -97.662
+    },
+    {
+      "slug": "living-waters-2fAH",
+      "name": "Living Waters",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.628,
+      "lng": -93.26
+    },
+    {
+      "slug": "lochmere-6EH6",
+      "name": "Lochmere",
+      "citySlug": "raleigh",
+      "lat": 35.725,
+      "lng": -78.765
+    },
+    {
+      "slug": "lockhart-city-park-r838",
+      "name": "Lockhart City Park",
+      "citySlug": "austin",
+      "lat": 29.889,
+      "lng": -97.67
+    },
+    {
+      "slug": "lombard-common-park-RZT2",
+      "name": "Lombard Common Park",
+      "citySlug": "chicago",
+      "lat": 41.885,
+      "lng": -88.006
+    },
+    {
+      "slug": "lone-star-disc-nine-rdsh",
+      "name": "Lone Star Disc Nine",
+      "citySlug": "houston",
+      "lat": 30.269,
+      "lng": -95.413
+    },
+    {
+      "slug": "long-hollow-church-orQa",
+      "name": "Long Hollow Church",
+      "citySlug": "nashville",
+      "lat": 36.368,
+      "lng": -86.614
+    },
+    {
+      "slug": "lord-corp",
+      "name": "LORD Corp",
+      "citySlug": "raleigh",
+      "lat": 35.731,
+      "lng": -78.809
+    },
+    {
+      "slug": "los-olivos-dgc-SVu1",
+      "name": "Los Olivos DGC",
+      "citySlug": "phoenix",
+      "lat": 33.497,
+      "lng": -112.02
+    },
+    {
+      "slug": "louisville-meadows",
+      "name": "Louisville Meadows",
+      "citySlug": "denver",
+      "lat": 39.962,
+      "lng": -105.155
+    },
+    {
+      "slug": "lucy-franklin-elementary-8Zrf",
+      "name": "Lucy Franklin Elementary",
+      "citySlug": "kansas-city",
+      "lat": 39.046,
+      "lng": -94.262
+    },
+    {
+      "slug": "mac-naughton-multi-golf-park-UVVd",
+      "name": "MacNaughton Multi Golf Park",
+      "citySlug": "houston",
+      "lat": 29.569,
+      "lng": -95.552
+    },
+    {
+      "slug": "madison-meadow-park-M9E8",
+      "name": "Madison Meadow Park",
+      "citySlug": "chicago",
+      "lat": 41.874,
+      "lng": -87.999
+    },
+    {
+      "slug": "magnolias-first-dgc-aemZ",
+      "name": "Magnolia’s First DGC",
+      "citySlug": "houston",
+      "lat": 30.213,
+      "lng": -95.751
+    },
+    {
+      "slug": "mansker-creek-disc-golf-course-kfwv",
+      "name": "Mansker Creek Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 36.332,
+      "lng": -86.706
+    },
+    {
+      "slug": "marbella-south-gilbert-cLYj",
+      "name": "Marbella  South Gilbert",
+      "citySlug": "phoenix",
+      "lat": 33.242,
+      "lng": -111.716
+    },
+    {
+      "slug": "margreth-riemer-reservoir-75IW",
+      "name": "Margreth Riemer Reservoir",
+      "citySlug": "chicago",
+      "lat": 42.115,
+      "lng": -88.063
+    },
+    {
+      "slug": "maricopa-meadows-private-course-WLUE",
+      "name": "Maricopa Meadows (Private Course)",
+      "citySlug": "phoenix",
+      "lat": 33.054,
+      "lng": -112.057
+    },
+    {
+      "slug": "marquette-park-disc-golf-course-qjza",
+      "name": "Marquette Park Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.618,
+      "lng": -87.254
+    },
+    {
+      "slug": "marshalls-secret-course",
+      "name": "Marshall&#039;s Secret Course",
+      "citySlug": "portland",
+      "lat": 45.644,
+      "lng": -122.909
+    },
+    {
+      "slug": "martin-walworth-disc-golf-grace-presbyterian-church",
+      "name": "Martin Walworth Disc Golf at Grace Presbyterian Church",
+      "citySlug": "denver",
+      "lat": 39.541,
+      "lng": -105.035
+    },
+    {
+      "slug": "marvin-efird-park-uRWw",
+      "name": "Marvin Efird Park",
+      "citySlug": "charlotte",
+      "lat": 34.989,
+      "lng": -80.791
+    },
+    {
+      "slug": "mary-jo-peckham-dgc-RyOP",
+      "name": "Mary Jo Peckham DGC",
+      "citySlug": "houston",
+      "lat": 29.805,
+      "lng": -95.82
+    },
+    {
+      "slug": "mary-moore-searight",
+      "name": "Mary Moore Searight",
+      "citySlug": "austin",
+      "lat": 30.153,
+      "lng": -97.786
+    },
+    {
+      "slug": "maryknoll-park-Hl1W",
+      "name": "Maryknoll Park",
+      "citySlug": "chicago",
+      "lat": 41.856,
+      "lng": -88.051
+    },
+    {
+      "slug": "mason-sports-park-SHx3",
+      "name": "Mason Sports Park",
+      "citySlug": "cincinnati",
+      "lat": 39.377,
+      "lng": -84.274
+    },
+    {
+      "slug": "matney-park-hhrQ",
+      "name": "Matney Park",
+      "citySlug": "denver",
+      "lat": 39.355,
+      "lng": -104.801
+    },
+    {
+      "slug": "mayer-town-course-l5uC",
+      "name": "Mayer Town Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.894,
+      "lng": -93.879
+    },
+    {
+      "slug": "mc-cormick-park-tWZU",
+      "name": "McCormick Park",
+      "citySlug": "portland",
+      "lat": 45.851,
+      "lng": -122.816
+    },
+    {
+      "slug": "mc-curry-park-wDG2",
+      "name": "McCurry Park",
+      "citySlug": "atlanta",
+      "lat": 33.459,
+      "lng": -84.413
+    },
+    {
+      "slug": "mc-dade-park-QesY",
+      "name": "McDade Park",
+      "citySlug": "houston",
+      "lat": 30.316,
+      "lng": -95.515
+    },
+    {
+      "slug": "mcchord-field-afb",
+      "name": "McChord Field Air Force Base",
+      "citySlug": "seattle",
+      "lat": 47.136,
+      "lng": -122.488
+    },
+    {
+      "slug": "memorial-park-dskU",
+      "name": "Memorial Park",
+      "citySlug": "portland",
+      "lat": 45.298,
+      "lng": -122.755
+    },
+    {
+      "slug": "mesquite-grove-dgc-oRWE",
+      "name": "Mesquite Grove DGC",
+      "citySlug": "phoenix",
+      "lat": 33.224,
+      "lng": -111.756
+    },
+    {
+      "slug": "metcenter",
+      "name": "MetCenter Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 30.205,
+      "lng": -97.697
+    },
+    {
+      "slug": "metzler-county-park-P6wg",
+      "name": "Metzler County Park",
+      "citySlug": "portland",
+      "lat": 45.229,
+      "lng": -122.366
+    },
+    {
+      "slug": "miami-hamilton-eJhI",
+      "name": "Miami Hamilton",
+      "citySlug": "cincinnati",
+      "lat": 39.377,
+      "lng": -84.561
+    },
+    {
+      "slug": "middle-creek-dgc-ivLN",
+      "name": "Middle Creek DGC",
+      "citySlug": "raleigh",
+      "lat": 35.665,
+      "lng": -78.763
+    },
+    {
+      "slug": "middleton-brewing-putting-course-igF4",
+      "name": "Middleton Brewing Putting Course",
+      "citySlug": "austin",
+      "lat": 29.931,
+      "lng": -98.072
+    },
+    {
+      "slug": "milby-park-dWpl",
+      "name": "Milby Park",
+      "citySlug": "houston",
+      "lat": 29.705,
+      "lng": -95.264
+    },
+    {
+      "slug": "miller-meadow-temp-course-67wr",
+      "name": "Miller Meadow Temp Course",
+      "citySlug": "chicago",
+      "lat": 41.858,
+      "lng": -87.831
+    },
+    {
+      "slug": "millikin-mile-nkod",
+      "name": "Millikin Mile",
+      "citySlug": "cincinnati",
+      "lat": 39.412,
+      "lng": -84.593
+    },
+    {
+      "slug": "milo-mc-iver-riverbend-west-Mgwd",
+      "name": "Milo McIver (Riverbend West)",
+      "citySlug": "portland",
+      "lat": 45.31,
+      "lng": -122.378
+    },
+    {
+      "slug": "mineral-springs",
+      "name": "Mineral Springs Park",
+      "citySlug": "seattle",
+      "lat": 47.706,
+      "lng": -122.336
+    },
+    {
+      "slug": "miramar-park-o3TL",
+      "name": "Miramar Park",
+      "citySlug": "houston",
+      "lat": 29.568,
+      "lng": -95.017
+    },
+    {
+      "slug": "miranda-farms-dgc-6IWS",
+      "name": "Miranda Farms DGC",
+      "citySlug": "atlanta",
+      "lat": 33.515,
+      "lng": -83.934
+    },
+    {
+      "slug": "missile-ridge-disc-golf-course-RIQc",
+      "name": "Missile Ridge Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.381,
+      "lng": -87.444
+    },
+    {
+      "slug": "missouri-city-community-park-dgc-E8LR",
+      "name": "Missouri City Community Park DGC",
+      "citySlug": "houston",
+      "lat": 29.565,
+      "lng": -95.527
+    },
+    {
+      "slug": "moir-park-gCgI",
+      "name": "Moir Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.816,
+      "lng": -93.307
+    },
+    {
+      "slug": "montissippi-regional-park-zwHT",
+      "name": "Montissippi Regional Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.326,
+      "lng": -93.827
+    },
+    {
+      "slug": "moose-hills-executive-disc-golf-course-6UFR",
+      "name": "Moose Hills Executive Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.583,
+      "lng": -104.671
+    },
+    {
+      "slug": "morrow-park-7w6O",
+      "name": "Morrow Park",
+      "citySlug": "austin",
+      "lat": 30.033,
+      "lng": -98.133
+    },
+    {
+      "slug": "mosaic-disc-golf-course-uMS3",
+      "name": "Mosaic Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.744,
+      "lng": -104.906
+    },
+    {
+      "slug": "mountain-creek-1biC",
+      "name": "Mountain Creek",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.711,
+      "lng": -96.979
+    },
+    {
+      "slug": "mt-airy",
+      "name": "Mt. Airy Forest",
+      "citySlug": "cincinnati",
+      "lat": 39.176,
+      "lng": -84.571
+    },
+    {
+      "slug": "nad-park-U4Ao",
+      "name": "NAD Park",
+      "citySlug": "seattle",
+      "lat": 47.579,
+      "lng": -122.694
+    },
+    {
+      "slug": "nasa-disc-golf-course-AQrV",
+      "name": "NASA Disc Golf Course",
+      "citySlug": "houston",
+      "lat": 29.568,
+      "lng": -95.084
+    },
+    {
+      "slug": "naval-hill-shelby-park-Hc2f",
+      "name": "Naval Hill Shelby Park",
+      "citySlug": "nashville",
+      "lat": 36.166,
+      "lng": -86.741
+    },
+    {
+      "slug": "nc-state-centennial-campus-RNf8",
+      "name": "NC State Centennial Campus",
+      "citySlug": "raleigh",
+      "lat": 35.768,
+      "lng": -78.678
+    },
+    {
+      "slug": "neely-farms-dgc-f40q",
+      "name": "Neely Farms DGC",
+      "citySlug": "phoenix",
+      "lat": 33.332,
+      "lng": -111.781
+    },
+    {
+      "slug": "nelson-park-U6mm",
+      "name": "Nelson Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.987,
+      "lng": -93.57
+    },
+    {
+      "slug": "nevin-nightmare",
+      "name": "Nevin Park (Nightmare)",
+      "citySlug": "charlotte",
+      "lat": 35.302,
+      "lng": -80.84
+    },
+    {
+      "slug": "new-life-academy-sY69",
+      "name": "New Life Academy",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.893,
+      "lng": -92.973
+    },
+    {
+      "slug": "nick-loutsis-6cRi",
+      "name": "Nick Loutsis",
+      "citySlug": "seattle",
+      "lat": 47.648,
+      "lng": -121.908
+    },
+    {
+      "slug": "north-lakes-park-creekside-VEQt",
+      "name": "North Lakes Park- Creekside",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.237,
+      "lng": -97.16
+    },
+    {
+      "slug": "north-lakes-park-lakeside-0xuo",
+      "name": "North Lakes Park- Lakeside",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.237,
+      "lng": -97.16
+    },
+    {
+      "slug": "north-midway-park-xx9d",
+      "name": "North Midway Park",
+      "citySlug": "denver",
+      "lat": 39.925,
+      "lng": -105.089
+    },
+    {
+      "slug": "north-park-NsGJ",
+      "name": "North Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.841,
+      "lng": -97.259
+    },
+    {
+      "slug": "northside-christian",
+      "name": "Northside Christian Church DGC",
+      "citySlug": "houston",
+      "lat": 30.072,
+      "lng": -95.512
+    },
+    {
+      "slug": "northtown-park-qaTi",
+      "name": "Northtown Park",
+      "citySlug": "austin",
+      "lat": 30.419,
+      "lng": -97.644
+    },
+    {
+      "slug": "nottingham-park-dgc-DkjP",
+      "name": "Nottingham Park DGC",
+      "citySlug": "houston",
+      "lat": 29.777,
+      "lng": -95.599
+    },
+    {
+      "slug": "o-brien-park-dgc-DnUX",
+      "name": "O'Brien Park DGC",
+      "citySlug": "chicago",
+      "lat": 41.761,
+      "lng": -88.017
+    },
+    {
+      "slug": "oak-grove-9bGg",
+      "name": "Oak Grove",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.329,
+      "lng": -93.381
+    },
+    {
+      "slug": "oak-meadow-park-bridgeland-z4ZE",
+      "name": "Oak Meadow Park (Bridgeland)",
+      "citySlug": "houston",
+      "lat": 29.958,
+      "lng": -95.719
+    },
+    {
+      "slug": "oak-park-community-church-OMDG",
+      "name": "Oak Park Community Church",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.189,
+      "lng": -93.233
+    },
+    {
+      "slug": "oak-park-high-school-9-hole-joOi",
+      "name": "Oak Park High School 9 Hole",
+      "citySlug": "kansas-city",
+      "lat": 39.236,
+      "lng": -94.568
+    },
+    {
+      "slug": "oakwood-park-BRzf",
+      "name": "Oakwood Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.836,
+      "lng": -92.958
+    },
+    {
+      "slug": "oncor-lavon-park-VEEy",
+      "name": "Oncor/Lavon Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.018,
+      "lng": -96.522
+    },
+    {
+      "slug": "orchard-park-JQyL",
+      "name": "Orchard Park",
+      "citySlug": "portland",
+      "lat": 45.536,
+      "lng": -122.892
+    },
+    {
+      "slug": "oregon-park",
+      "name": "Oregon Park",
+      "citySlug": "atlanta",
+      "lat": 33.958,
+      "lng": -84.662
+    },
+    {
+      "slug": "overland-grove-community-oT5p",
+      "name": "Overland Grove Community",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.727,
+      "lng": -96.48
+    },
+    {
+      "slug": "palomino-park-BegH",
+      "name": "Palomino Park",
+      "citySlug": "denver",
+      "lat": 39.559,
+      "lng": -104.916
+    },
+    {
+      "slug": "papago-aka-moeur-park-CXWf",
+      "name": "Papago (aka Moeur Park)",
+      "citySlug": "phoenix",
+      "lat": 33.439,
+      "lng": -111.944
+    },
+    {
+      "slug": "paradise-pointe-beaver-creek-gkw4",
+      "name": "Paradise Pointe - Beaver Creek",
+      "citySlug": "kansas-city",
+      "lat": 39.409,
+      "lng": -94.551
+    },
+    {
+      "slug": "paradise-pointe-blackthorn-PNH7",
+      "name": "Paradise Pointe - Blackthorn",
+      "citySlug": "kansas-city",
+      "lat": 39.411,
+      "lng": -94.549
+    },
+    {
+      "slug": "paradise-pointe-wood-henge-32Aj",
+      "name": "Paradise Pointe - Wood Henge",
+      "citySlug": "kansas-city",
+      "lat": 39.414,
+      "lng": -94.543
+    },
+    {
+      "slug": "parkers-pasture-1pQb",
+      "name": "Parker’s Pasture",
+      "citySlug": "atlanta",
+      "lat": 33.59,
+      "lng": -83.864
+    },
+    {
+      "slug": "parkland-pitchn-putt-at-gunsmoke-hill-xbS1",
+      "name": "Parkland Pitchn'Putt at Gunsmoke Hill",
+      "citySlug": "seattle",
+      "lat": 47.161,
+      "lng": -122.442
+    },
+    {
+      "slug": "paschall-park-UFhN",
+      "name": "Paschall Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.758,
+      "lng": -96.609
+    },
+    {
+      "slug": "paseo-vista",
+      "name": "Paseo Vista",
+      "citySlug": "phoenix",
+      "lat": 33.252,
+      "lng": -111.826
+    },
+    {
+      "slug": "patriots-park-UGyP",
+      "name": "Patriots Park",
+      "citySlug": "chicago",
+      "lat": 41.55,
+      "lng": -87.648
+    },
+    {
+      "slug": "pebble-creek-disc-golf-course-KsuV",
+      "name": "Pebble Creek Disc Golf Course",
+      "citySlug": "kansas-city",
+      "lat": 39.051,
+      "lng": -94.367
+    },
+    {
+      "slug": "pecan-grove-park-dgc-tvPu",
+      "name": "Pecan Grove Park DGC",
+      "citySlug": "houston",
+      "lat": 29.608,
+      "lng": -95.738
+    },
+    {
+      "slug": "pecan-plantation-Gxau",
+      "name": "Pecan Plantation",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.368,
+      "lng": -97.66
+    },
+    {
+      "slug": "perkerson",
+      "name": "Perkerson Park",
+      "citySlug": "atlanta",
+      "lat": 33.711,
+      "lng": -84.413
+    },
+    {
+      "slug": "phoenix-rising-disc-golf-course-aAII",
+      "name": "Phoenix Rising Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.893,
+      "lng": -96.615
+    },
+    {
+      "slug": "pier-park",
+      "name": "Pier Park",
+      "citySlug": "portland",
+      "lat": 45.603,
+      "lng": -122.758
+    },
+    {
+      "slug": "pinnacle-park-7L19",
+      "name": "Pinnacle Park",
+      "citySlug": "austin",
+      "lat": 30.608,
+      "lng": -97.653
+    },
+    {
+      "slug": "pioneer-creek-park-aiMS",
+      "name": "Pioneer Creek Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.016,
+      "lng": -93.692
+    },
+    {
+      "slug": "pioneer-trails-disc-golf-course-ULSq",
+      "name": "Pioneer Trails Disc Golf Course",
+      "citySlug": "kansas-city",
+      "lat": 39.088,
+      "lng": -94.364
+    },
+    {
+      "slug": "plantation-ruins-at-winget-8lbp",
+      "name": "Plantation Ruins at Winget",
+      "citySlug": "charlotte",
+      "lat": 35.133,
+      "lng": -81.001
+    },
+    {
+      "slug": "pleasant-valley-dgc-YQQ8",
+      "name": "Pleasant Valley DGC",
+      "citySlug": "kansas-city",
+      "lat": 39.267,
+      "lng": -94.45
+    },
+    {
+      "slug": "pluck-farm-dgc-and-steel-string-brewery-iou4",
+      "name": "Pluck Farm DGC & Steel String Brewery",
+      "citySlug": "raleigh",
+      "lat": 35.951,
+      "lng": -79.252
+    },
+    {
+      "slug": "plummer-elementary-yoGN",
+      "name": "Plummer Elementary",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.566,
+      "lng": -96.941
+    },
+    {
+      "slug": "plymouth-creek-woods-lFBu",
+      "name": "Plymouth Creek Woods",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.023,
+      "lng": -93.465
+    },
+    {
+      "slug": "porter-park-wHte",
+      "name": "Porter Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.827,
+      "lng": -96.605
+    },
+    {
+      "slug": "poston-junior-high-school-rwkf",
+      "name": "Poston Junior High School",
+      "citySlug": "phoenix",
+      "lat": 33.428,
+      "lng": -111.779
+    },
+    {
+      "slug": "prairie-center-park-rUsn",
+      "name": "Prairie Center Park",
+      "citySlug": "kansas-city",
+      "lat": 38.888,
+      "lng": -94.846
+    },
+    {
+      "slug": "pulaski-park-7Gwl",
+      "name": "Pulaski Park",
+      "citySlug": "chicago",
+      "lat": 41.645,
+      "lng": -87.519
+    },
+    {
+      "slug": "putterdale-dgc-ZDcJ",
+      "name": "Putterdale DGC",
+      "citySlug": "atlanta",
+      "lat": 33.574,
+      "lng": -83.901
+    },
+    {
+      "slug": "q-center-disc-golf-GY5I",
+      "name": "Q Center Disc Golf",
+      "citySlug": "chicago",
+      "lat": 41.936,
+      "lng": -88.311
+    },
+    {
+      "slug": "ra-jones-MpQC",
+      "name": "RA Jones",
+      "citySlug": "cincinnati",
+      "lat": 38.989,
+      "lng": -84.618
+    },
+    {
+      "slug": "ralph-williamson",
+      "name": "Ralph Williamson Memorial DGC",
+      "citySlug": "seattle",
+      "lat": 47.526,
+      "lng": -122.348
+    },
+    {
+      "slug": "rancho-santa-fe-YuMX",
+      "name": "Rancho Santa Fe",
+      "citySlug": "phoenix",
+      "lat": 33.467,
+      "lng": -112.332
+    },
+    {
+      "slug": "ranger-community-disc-golf-course-t9DT",
+      "name": "Ranger Community Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.272,
+      "lng": -92.998
+    },
+    {
+      "slug": "rankin-lake-gnYu",
+      "name": "Rankin Lake",
+      "citySlug": "charlotte",
+      "lat": 35.293,
+      "lng": -81.192
+    },
+    {
+      "slug": "rawlinson-road-middle-school-HbXL",
+      "name": "Rawlinson Road Middle School",
+      "citySlug": "charlotte",
+      "lat": 34.951,
+      "lng": -81.088
+    },
+    {
+      "slug": "recreation-park-SJ4F",
+      "name": "Recreation Park",
+      "citySlug": "kansas-city",
+      "lat": 38.787,
+      "lng": -94.453
+    },
+    {
+      "slug": "red-mountain-north-2-0-qZjK",
+      "name": "Red Mountain - North 2.0",
+      "citySlug": "phoenix",
+      "lat": 33.436,
+      "lng": -111.669
+    },
+    {
+      "slug": "red-mountain-south-TbP7",
+      "name": "Red Mountain - South",
+      "citySlug": "phoenix",
+      "lat": 33.433,
+      "lng": -111.666
+    },
+    {
+      "slug": "red-oak-park-5TwE",
+      "name": "Red Oak Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.783,
+      "lng": -93.234
+    },
+    {
+      "slug": "redhawks-disc-golf-course-XIrb",
+      "name": "Redhawks Disc Golf Course",
+      "citySlug": "charlotte",
+      "lat": 35.31,
+      "lng": -80.585
+    },
+    {
+      "slug": "redline-ro17",
+      "name": "Redline",
+      "citySlug": "phoenix",
+      "lat": 33.523,
+      "lng": -112.236
+    },
+    {
+      "slug": "reedy-creek",
+      "name": "Reedy Creek Park",
+      "citySlug": "charlotte",
+      "lat": 35.276,
+      "lng": -80.718
+    },
+    {
+      "slug": "remington-heights-queen-creek-jtLA",
+      "name": "Remington Heights Queen Creek",
+      "citySlug": "phoenix",
+      "lat": 33.264,
+      "lng": -111.667
+    },
+    {
+      "slug": "renaissance-park-dgc-ren-ske-VGER",
+      "name": "Renaissance Park DGC - RenSke",
+      "citySlug": "charlotte",
+      "lat": 35.178,
+      "lng": -80.909
+    },
+    {
+      "slug": "renaissance-park-gold-QXIp",
+      "name": "Renaissance Park - Gold",
+      "citySlug": "charlotte",
+      "lat": 35.173,
+      "lng": -80.902
+    },
+    {
+      "slug": "reserves-park-6hG7",
+      "name": "Reserves Park",
+      "citySlug": "cincinnati",
+      "lat": 39.382,
+      "lng": -84.448
+    },
+    {
+      "slug": "resoft-county-park-dgc-fFs8",
+      "name": "Resoft County Park - DGC",
+      "citySlug": "houston",
+      "lat": 29.477,
+      "lng": -95.25
+    },
+    {
+      "slug": "retreat-artesian-lakes",
+      "name": "The Retreat at Artesian Lakes",
+      "citySlug": "houston",
+      "lat": 30.44,
+      "lng": -94.823
+    },
+    {
+      "slug": "reynas-falcon-flight-I5LU",
+      "name": "Reyna's Falcon Flight",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.92,
+      "lng": -96.534
+    },
+    {
+      "slug": "rhyolite-disc-golf-park-HDVm",
+      "name": "Rhyolite Disc Golf Park",
+      "citySlug": "denver",
+      "lat": 39.341,
+      "lng": -104.841
+    },
+    {
+      "slug": "richard-barry-park-6SGE",
+      "name": "Richard Barry Park",
+      "citySlug": "charlotte",
+      "lat": 35.4,
+      "lng": -80.929
+    },
+    {
+      "slug": "richard-moya-park-OCg0",
+      "name": "Richard Moya Park",
+      "citySlug": "austin",
+      "lat": 30.171,
+      "lng": -97.667
+    },
+    {
+      "slug": "river-grove-Kv1X",
+      "name": "River Grove",
+      "citySlug": "houston",
+      "lat": 30.027,
+      "lng": -95.209
+    },
+    {
+      "slug": "river-pointe-church-dgc-B4aW",
+      "name": "River Pointe Church DGC",
+      "citySlug": "houston",
+      "lat": 29.561,
+      "lng": -95.7
+    },
+    {
+      "slug": "riverbend-park-fY3b",
+      "name": "Riverbend Park",
+      "citySlug": "austin",
+      "lat": 30.019,
+      "lng": -97.147
+    },
+    {
+      "slug": "riverfront-13-dgc-nETa",
+      "name": "Riverfront 13 DGC",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.058,
+      "lng": -93.282
+    },
+    {
+      "slug": "riverpark-dgc-3W61",
+      "name": "Riverpark DGC",
+      "citySlug": "houston",
+      "lat": 29.566,
+      "lng": -95.683
+    },
+    {
+      "slug": "rivers-edge-disc-golf-course-C1Dt",
+      "name": "River's Edge Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.578,
+      "lng": -87.525
+    },
+    {
+      "slug": "riverside-disc-golf-park-yRbA",
+      "name": "Riverside Disc Golf Park",
+      "citySlug": "seattle",
+      "lat": 47.186,
+      "lng": -122.213
+    },
+    {
+      "slug": "riverside-park-disc-golf-course-EcCe",
+      "name": "Riverside Park Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.572,
+      "lng": -87.505
+    },
+    {
+      "slug": "riverwood-middle-school-WTkE",
+      "name": "Riverwood Middle School",
+      "citySlug": "houston",
+      "lat": 30.061,
+      "lng": -95.156
+    },
+    {
+      "slug": "rivery-park-wFkY",
+      "name": "Rivery Park",
+      "citySlug": "austin",
+      "lat": 30.648,
+      "lng": -97.685
+    },
+    {
+      "slug": "robbins-park-9-hole-UKZy",
+      "name": "Robbins Park- 9 Hole",
+      "citySlug": "charlotte",
+      "lat": 35.459,
+      "lng": -80.884
+    },
+    {
+      "slug": "robert-l-smith-gully-8TJH",
+      "name": "Robert L. Smith: Gully",
+      "citySlug": "charlotte",
+      "lat": 35.258,
+      "lng": -80.944
+    },
+    {
+      "slug": "robert-l-smith-ravine-axqZ",
+      "name": "Robert L. Smith: Ravine",
+      "citySlug": "charlotte",
+      "lat": 35.258,
+      "lng": -80.944
+    },
+    {
+      "slug": "rockwood-central-park-eixq",
+      "name": "Rockwood Central Park",
+      "citySlug": "portland",
+      "lat": 45.514,
+      "lng": -122.481
+    },
+    {
+      "slug": "rolling-knolls-rjAy",
+      "name": "Rolling Knolls",
+      "citySlug": "chicago",
+      "lat": 42.037,
+      "lng": -88.23
+    },
+    {
+      "slug": "rosedale-park-dgc-down-under-cRA7",
+      "name": "Rosedale Park DGC - Down Under",
+      "citySlug": "kansas-city",
+      "lat": 39.054,
+      "lng": -94.623
+    },
+    {
+      "slug": "rosedale-park-dgc-up-top-QiF9",
+      "name": "Rosedale Park DGC - Up Top",
+      "citySlug": "kansas-city",
+      "lat": 39.054,
+      "lng": -94.623
+    },
+    {
+      "slug": "rosewood-dekalb-dgc-lyxq",
+      "name": "Rosewood-Dekalb DGC",
+      "citySlug": "atlanta",
+      "lat": 33.737,
+      "lng": -84.133
+    },
+    {
+      "slug": "round-barn-farm-wMUf",
+      "name": "Round Barn Farm",
+      "citySlug": "chicago",
+      "lat": 41.45,
+      "lng": -88
+    },
+    {
+      "slug": "rowlett-disc-golf-park-pecan-grove-park-lpbD",
+      "name": "Rowlett Disc Golf Park @ Pecan Grove Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.9,
+      "lng": -96.55
+    },
+    {
+      "slug": "roy-g-guerrero",
+      "name": "Roy G. Guerrero Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 30.245,
+      "lng": -97.707
+    },
+    {
+      "slug": "s-e-free-will-baptist-college-SOpb",
+      "name": "S.E. Free Will Baptist College",
+      "citySlug": "raleigh",
+      "lat": 35.801,
+      "lng": -78.416
+    },
+    {
+      "slug": "saddle-creek-dgc-TCCJ",
+      "name": "Saddle Creek DGC",
+      "citySlug": "austin",
+      "lat": 30.619,
+      "lng": -97.635
+    },
+    {
+      "slug": "saddle-hills-o6at",
+      "name": "Saddle Hills",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.77,
+      "lng": -97.462
+    },
+    {
+      "slug": "saint-martins-university-EM1t",
+      "name": "Saint Martins University",
+      "citySlug": "seattle",
+      "lat": 47.041,
+      "lng": -122.817
+    },
+    {
+      "slug": "salem-baptist-dgc-OPgX",
+      "name": "Salem Baptist DGC",
+      "citySlug": "atlanta",
+      "lat": 33.5,
+      "lng": -84.145
+    },
+    {
+      "slug": "saloon-door-west-mini-NXqE",
+      "name": "Saloon Door West - Mini",
+      "citySlug": "houston",
+      "lat": 29.543,
+      "lng": -95.222
+    },
+    {
+      "slug": "samsung-austin-semiconductor",
+      "name": "Samsung Austin Semiconductor",
+      "citySlug": "austin",
+      "lat": 30.375,
+      "lng": -97.638
+    },
+    {
+      "slug": "san-gabriel-park-O6dU",
+      "name": "San Gabriel Park",
+      "citySlug": "austin",
+      "lat": 30.653,
+      "lng": -97.665
+    },
+    {
+      "slug": "san-tan-ranch-dgc-YMxs",
+      "name": "San Tan Ranch DGC",
+      "citySlug": "phoenix",
+      "lat": 33.284,
+      "lng": -111.711
+    },
+    {
+      "slug": "sanders-ferry-park-Hooq",
+      "name": "Sanders Ferry Park",
+      "citySlug": "nashville",
+      "lat": 36.253,
+      "lng": -86.606
+    },
+    {
+      "slug": "sar-ko-park-9LIA",
+      "name": "Sar Ko Park",
+      "citySlug": "kansas-city",
+      "lat": 38.97,
+      "lng": -94.754
+    },
+    {
+      "slug": "sarsparillas-loop",
+      "name": "Sarsparilla’s Loop",
+      "citySlug": "cincinnati",
+      "lat": 39.009,
+      "lng": -84.186
+    },
+    {
+      "slug": "sas-institute",
+      "name": "SAS Institute",
+      "citySlug": "raleigh",
+      "lat": 35.829,
+      "lng": -78.767
+    },
+    {
+      "slug": "schiller-playfield-temp-course-1RED",
+      "name": "Schiller Playfield Temp Course",
+      "citySlug": "chicago",
+      "lat": 41.959,
+      "lng": -87.834
+    },
+    {
+      "slug": "scottish-rite",
+      "name": "Scottish Rite",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.125,
+      "lng": -96.821
+    },
+    {
+      "slug": "scrapyard",
+      "name": "The Scrapyard",
+      "citySlug": "charlotte",
+      "lat": 35.164,
+      "lng": -80.7
+    },
+    {
+      "slug": "seabourne-creek-dgc-62xS",
+      "name": "Seabourne Creek DGC",
+      "citySlug": "houston",
+      "lat": 29.526,
+      "lng": -95.802
+    },
+    {
+      "slug": "seatac",
+      "name": "SeaTac DGC",
+      "citySlug": "seattle",
+      "lat": 47.487,
+      "lng": -122.308
+    },
+    {
+      "slug": "sequoyah-park-LMob",
+      "name": "Sequoyah Park",
+      "citySlug": "atlanta",
+      "lat": 34.155,
+      "lng": -84.415
+    },
+    {
+      "slug": "sergeant-means-park-kG2V",
+      "name": "Sergeant Means Park",
+      "citySlug": "chicago",
+      "lat": 41.513,
+      "lng": -87.675
+    },
+    {
+      "slug": "seven-oaks",
+      "name": "Seven Oaks Park",
+      "citySlug": "nashville",
+      "lat": 36.108,
+      "lng": -86.699
+    },
+    {
+      "slug": "shadow-creek-dgc-fP2D",
+      "name": "Shadow Creek DGC",
+      "citySlug": "chicago",
+      "lat": 41.838,
+      "lng": -87.8
+    },
+    {
+      "slug": "shadow-creek-ranch-NXZq",
+      "name": "Shadow Creek Ranch",
+      "citySlug": "houston",
+      "lat": 29.559,
+      "lng": -95.407
+    },
+    {
+      "slug": "shady-grove-park-rRDy",
+      "name": "Shady Grove Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.148,
+      "lng": -96.741
+    },
+    {
+      "slug": "shady-oaks-park-UxLh",
+      "name": "Shady Oaks Park",
+      "citySlug": "chicago",
+      "lat": 42.02,
+      "lng": -88.181
+    },
+    {
+      "slug": "sharp-springs-pIQV",
+      "name": "Sharp Springs",
+      "citySlug": "nashville",
+      "lat": 36.003,
+      "lng": -86.481
+    },
+    {
+      "slug": "sharp-springs-skeeter-heater-temp-course-3H2Q",
+      "name": "Sharp Springs Skeeter Heater Temp course",
+      "citySlug": "nashville",
+      "lat": 36.004,
+      "lng": -86.489
+    },
+    {
+      "slug": "shawnee-park-3OZW",
+      "name": "Shawnee Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.043,
+      "lng": -96.689
+    },
+    {
+      "slug": "shelly-sharpe-memorial-dgc-south-9-oHR3",
+      "name": "Shelly Sharpe Memorial DGC South 9",
+      "citySlug": "phoenix",
+      "lat": 33.457,
+      "lng": -111.914
+    },
+    {
+      "slug": "shorewood-park-4te0",
+      "name": "Shorewood Park",
+      "citySlug": "chicago",
+      "lat": 41.51,
+      "lng": -88.202
+    },
+    {
+      "slug": "shotwell-flamingo-social-club-dBHG",
+      "name": "Shotwell Flamingo Social Club",
+      "citySlug": "raleigh",
+      "lat": 35.683,
+      "lng": -78.476
+    },
+    {
+      "slug": "silver-lake-excalibur",
+      "name": "Silver Lake Excalibur",
+      "citySlug": "seattle",
+      "lat": 47.543,
+      "lng": -123.214
+    },
+    {
+      "slug": "silverview-park-gwpC",
+      "name": "Silverview Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.105,
+      "lng": -93.218
+    },
+    {
+      "slug": "singer-creek-park-Jexj",
+      "name": "Singer Creek Park",
+      "citySlug": "portland",
+      "lat": 45.346,
+      "lng": -122.604
+    },
+    {
+      "slug": "skunk-creek-disc-golf-course-lAln",
+      "name": "Skunk Creek Disc Golf Course",
+      "citySlug": "phoenix",
+      "lat": 33.655,
+      "lng": -112.184
+    },
+    {
+      "slug": "sonora-park-dgc-L19L",
+      "name": "Sonora Park DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.642,
+      "lng": -97.224
+    },
+    {
+      "slug": "south-fork-landing-BtiO",
+      "name": "South Fork Landing",
+      "citySlug": "seattle",
+      "lat": 47.473,
+      "lng": -121.765
+    },
+    {
+      "slug": "south-fork-park-2S8f",
+      "name": "South Fork Park",
+      "citySlug": "cincinnati",
+      "lat": 38.976,
+      "lng": -84.679
+    },
+    {
+      "slug": "south-main-baptist-dgc-9TXI",
+      "name": "South Main Baptist DGC",
+      "citySlug": "houston",
+      "lat": 29.645,
+      "lng": -95.161
+    },
+    {
+      "slug": "southeastern-baptist-seminary-sebts-MRpc",
+      "name": "Southeastern Baptist Seminary (SEBTS)",
+      "citySlug": "raleigh",
+      "lat": 35.982,
+      "lng": -78.516
+    },
+    {
+      "slug": "southern-virginia-disc-golf-club-DOFA",
+      "name": "Southern Virginia Disc Golf Club",
+      "citySlug": "raleigh",
+      "lat": 35.975,
+      "lng": -78.677
+    },
+    {
+      "slug": "southwest-high-school-memorial-eAJQ",
+      "name": "Southwest High School Memorial",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.654,
+      "lng": -97.382
+    },
+    {
+      "slug": "spirit-of-joy-B9ZC",
+      "name": "Spirit of Joy",
+      "citySlug": "charlotte",
+      "lat": 35.024,
+      "lng": -80.693
+    },
+    {
+      "slug": "spokes-on-southern-dg-t0nj",
+      "name": "Spokes On Southern DG",
+      "citySlug": "phoenix",
+      "lat": 33.394,
+      "lng": -111.914
+    },
+    {
+      "slug": "spring-baptist-church-disc-golf-course-iKeX",
+      "name": "Spring Baptist Church Disc Golf Course",
+      "citySlug": "houston",
+      "lat": 30.07,
+      "lng": -95.487
+    },
+    {
+      "slug": "spring-creek-dgc-gKM2",
+      "name": "Spring Creek DGC",
+      "citySlug": "houston",
+      "lat": 30.11,
+      "lng": -95.653
+    },
+    {
+      "slug": "spring-hill-XYrQ",
+      "name": "Spring Hill",
+      "citySlug": "atlanta",
+      "lat": 33.537,
+      "lng": -83.897
+    },
+    {
+      "slug": "springhead-creek-3VvS",
+      "name": "Springhead Creek",
+      "citySlug": "charlotte",
+      "lat": 35.608,
+      "lng": -80.681
+    },
+    {
+      "slug": "springvale-county-park-0rOA",
+      "name": "Springvale County Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.588,
+      "lng": -93.353
+    },
+    {
+      "slug": "springvale-park-S4nL",
+      "name": "Springvale Park",
+      "citySlug": "denver",
+      "lat": 39.945,
+      "lng": -104.921
+    },
+    {
+      "slug": "squirrel-lake-at44",
+      "name": "Squirrel Lake",
+      "citySlug": "charlotte",
+      "lat": 35.1,
+      "lng": -80.723
+    },
+    {
+      "slug": "st-edwards-kTHb",
+      "name": "St Edward’s",
+      "citySlug": "austin",
+      "lat": 30.228,
+      "lng": -97.753
+    },
+    {
+      "slug": "st-john-lutheran-church-m0Cu",
+      "name": "St. John Lutheran Church",
+      "citySlug": "houston",
+      "lat": 29.983,
+      "lng": -95.656
+    },
+    {
+      "slug": "staring-lake-park-P0Uo",
+      "name": "Staring Lake Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.834,
+      "lng": -93.462
+    },
+    {
+      "slug": "steeplechase-disc-golf-course-aWRo",
+      "name": "Steeplechase Disc Golf Course",
+      "citySlug": "austin",
+      "lat": 29.996,
+      "lng": -97.861
+    },
+    {
+      "slug": "stepping-stone-Slrb",
+      "name": "Stepping Stone",
+      "citySlug": "denver",
+      "lat": 39.511,
+      "lng": -104.824
+    },
+    {
+      "slug": "stevenson-park-llqi",
+      "name": "Stevenson Park",
+      "citySlug": "houston",
+      "lat": 29.519,
+      "lng": -95.193
+    },
+    {
+      "slug": "stix-icehouse-uE9F",
+      "name": "Stix Icehouse",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.178,
+      "lng": -96.623
+    },
+    {
+      "slug": "stonebridge-church-vM4E",
+      "name": "Stonebridge Church",
+      "citySlug": "houston",
+      "lat": 30.221,
+      "lng": -95.543
+    },
+    {
+      "slug": "stonegate-village-Yj8O",
+      "name": "Stonegate Village",
+      "citySlug": "denver",
+      "lat": 39.529,
+      "lng": -104.806
+    },
+    {
+      "slug": "stripe-show-golf-club",
+      "name": "Freedom Disc Golf at Stripe Show Golf Club",
+      "citySlug": "phoenix",
+      "lat": 33.388,
+      "lng": -111.849
+    },
+    {
+      "slug": "stumpy-creek-BgXd",
+      "name": "Stumpy Creek",
+      "citySlug": "charlotte",
+      "lat": 35.629,
+      "lng": -80.895
+    },
+    {
+      "slug": "sugaw-creek-park-dgc-myyg",
+      "name": "Sugaw Creek Park DGC",
+      "citySlug": "charlotte",
+      "lat": 35.273,
+      "lng": -80.794
+    },
+    {
+      "slug": "summit-park-npxl",
+      "name": "Summit Park",
+      "citySlug": "chicago",
+      "lat": 41.788,
+      "lng": -87.815
+    },
+    {
+      "slug": "summit-park-tahoma-high-school-izNL",
+      "name": "Summit Park / Tahoma High School",
+      "citySlug": "seattle",
+      "lat": 47.357,
+      "lng": -122.027
+    },
+    {
+      "slug": "sun-ray-park-dgc-K3dv",
+      "name": "Sun Ray Park DGC",
+      "citySlug": "phoenix",
+      "lat": 33.32,
+      "lng": -111.997
+    },
+    {
+      "slug": "sundance-park-OISe",
+      "name": "Sundance Park",
+      "citySlug": "phoenix",
+      "lat": 33.424,
+      "lng": -112.52
+    },
+    {
+      "slug": "sunrise-park-DxCU",
+      "name": "Sunrise Park",
+      "citySlug": "chicago",
+      "lat": 41.963,
+      "lng": -88.198
+    },
+    {
+      "slug": "swinging-fairways-on-the-kp-Eje1",
+      "name": "Swinging Fairways on The KP",
+      "citySlug": "seattle",
+      "lat": 47.384,
+      "lng": -122.693
+    },
+    {
+      "slug": "tabbs-bay-dgc-fHO2",
+      "name": "Tabbs Bay DGC",
+      "citySlug": "houston",
+      "lat": 29.706,
+      "lng": -94.962
+    },
+    {
+      "slug": "tallgrass-park-dgc-9nxN",
+      "name": "Tallgrass Park DGC",
+      "citySlug": "denver",
+      "lat": 39.642,
+      "lng": -104.74
+    },
+    {
+      "slug": "tamarack-disc-golf-course-zFxs",
+      "name": "Tamarack Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.922,
+      "lng": -92.943
+    },
+    {
+      "slug": "tarkington-disc-golf-course-Vc13",
+      "name": "Tarkington disc golf course",
+      "citySlug": "houston",
+      "lat": 30.224,
+      "lng": -94.943
+    },
+    {
+      "slug": "tc-jester",
+      "name": "T.C. Jester Park",
+      "citySlug": "houston",
+      "lat": 29.826,
+      "lng": -95.455
+    },
+    {
+      "slug": "tcc-northwest-campus",
+      "name": "TCC Northwest Campus",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.83,
+      "lng": -97.393
+    },
+    {
+      "slug": "temple-avenue-park-qAps",
+      "name": "Temple Avenue Park",
+      "citySlug": "atlanta",
+      "lat": 33.386,
+      "lng": -84.816
+    },
+    {
+      "slug": "terrace-creek-MNUT",
+      "name": "Terrace Creek",
+      "citySlug": "seattle",
+      "lat": 47.789,
+      "lng": -122.298
+    },
+    {
+      "slug": "terramont-park-dgc-FaUs",
+      "name": "Terramont Park DGC",
+      "citySlug": "houston",
+      "lat": 30.203,
+      "lng": -95.557
+    },
+    {
+      "slug": "texas-army-trail",
+      "name": "Texas Army Trail DGC",
+      "citySlug": "houston",
+      "lat": 29.998,
+      "lng": -95.654
+    },
+    {
+      "slug": "texas-state-campus-west-park-7bHP",
+      "name": "Texas State Campus West Park",
+      "citySlug": "austin",
+      "lat": 29.888,
+      "lng": -97.953
+    },
+    {
+      "slug": "the-art-nine-at-shawnee-mission-park-WyeC",
+      "name": "The Art Nine at Shawnee Mission Park",
+      "citySlug": "kansas-city",
+      "lat": 38.982,
+      "lng": -94.788
+    },
+    {
+      "slug": "the-badlands-2Toj",
+      "name": "The Badlands",
+      "citySlug": "austin",
+      "lat": 30.386,
+      "lng": -97.929
+    },
+    {
+      "slug": "the-basin-dgc-3rAi",
+      "name": "The Basin DGC",
+      "citySlug": "houston",
+      "lat": 29.864,
+      "lng": -95.464
+    },
+    {
+      "slug": "the-canyons",
+      "name": "The Canyons at Dellwood Park",
+      "citySlug": "chicago",
+      "lat": 41.574,
+      "lng": -88.06
+    },
+    {
+      "slug": "the-cedars-disc-golf-course-EAzE",
+      "name": "The Cedars Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.955,
+      "lng": -96.383
+    },
+    {
+      "slug": "the-colony-9-dg-course-ef4j",
+      "name": "The Colony 9 DG Course",
+      "citySlug": "austin",
+      "lat": 30.124,
+      "lng": -97.387
+    },
+    {
+      "slug": "the-disc-o-at-eastmark-s2d6",
+      "name": "the discO at Eastmark",
+      "citySlug": "phoenix",
+      "lat": 33.343,
+      "lng": -111.618
+    },
+    {
+      "slug": "the-emerald-links-at-the-roselands-dMu2",
+      "name": "The Emerald Links at The Roseland’s",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.272,
+      "lng": -93.349
+    },
+    {
+      "slug": "the-forge-at-idlewild-Ey3I",
+      "name": "The Forge at Idlewild",
+      "citySlug": "charlotte",
+      "lat": 35.165,
+      "lng": -80.704
+    },
+    {
+      "slug": "the-gauntlet-HGI2",
+      "name": "The Gauntlet",
+      "citySlug": "raleigh",
+      "lat": 35.796,
+      "lng": -78.47
+    },
+    {
+      "slug": "the-hawks-nest-eFjU",
+      "name": "The Hawk’s Nest",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.822,
+      "lng": -96.955
+    },
+    {
+      "slug": "the-highlands-at-j-travis-price-park-XAUm",
+      "name": "The Highlands at J. Travis Price Park",
+      "citySlug": "nashville",
+      "lat": 36.527,
+      "lng": -86.857
+    },
+    {
+      "slug": "the-hoot-vRwZ",
+      "name": "The Hoot",
+      "citySlug": "portland",
+      "lat": 45.149,
+      "lng": -122.711
+    },
+    {
+      "slug": "the-links-at-wheeler-park-9Q8j",
+      "name": "The Links at Wheeler Park",
+      "citySlug": "chicago",
+      "lat": 41.894,
+      "lng": -88.304
+    },
+    {
+      "slug": "the-meadows-disc-golf-park-TTpz",
+      "name": "The Meadows Disc Golf Park",
+      "citySlug": "chicago",
+      "lat": 41.588,
+      "lng": -87.801
+    },
+    {
+      "slug": "the-mountain-course-at-lakeside-zUgt",
+      "name": "The Mountain Course At Lakeside",
+      "citySlug": "nashville",
+      "lat": 36.178,
+      "lng": -86.624
+    },
+    {
+      "slug": "the-oaks",
+      "name": "The Oaks",
+      "citySlug": "chicago",
+      "lat": 41.526,
+      "lng": -87.885
+    },
+    {
+      "slug": "the-owls-den-5Be9",
+      "name": "The Owl’s Den",
+      "citySlug": "denver",
+      "lat": 39.863,
+      "lng": -104.934
+    },
+    {
+      "slug": "the-rec-DU0B",
+      "name": "The REC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.181,
+      "lng": -96.639
+    },
+    {
+      "slug": "the-timberwolf-cSRT",
+      "name": "The Timberwolf",
+      "citySlug": "atlanta",
+      "lat": 34.034,
+      "lng": -84.766
+    },
+    {
+      "slug": "the-tracks-at-mc-donough-E8Xe",
+      "name": "The Tracks at McDonough",
+      "citySlug": "atlanta",
+      "lat": 33.449,
+      "lng": -84.155
+    },
+    {
+      "slug": "the-woods-at-trinity-dgc-wI8e",
+      "name": "The Woods at Trinity DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.285,
+      "lng": -96.609
+    },
+    {
+      "slug": "thomas-memorial-dgc-EChk",
+      "name": "Thomas Memorial DGC",
+      "citySlug": "austin",
+      "lat": 30.344,
+      "lng": -97.364
+    },
+    {
+      "slug": "thunderbird-paseo-O0q5",
+      "name": "Thunderbird-Paseo",
+      "citySlug": "phoenix",
+      "lat": 33.608,
+      "lng": -112.186
+    },
+    {
+      "slug": "timber-lane-park-91jr",
+      "name": "Timber Lane Park",
+      "citySlug": "houston",
+      "lat": 30.044,
+      "lng": -95.389
+    },
+    {
+      "slug": "tirzah-arp-church-akGu",
+      "name": "Tirzah ARP Church",
+      "citySlug": "charlotte",
+      "lat": 34.998,
+      "lng": -81.115
+    },
+    {
+      "slug": "tom-bass-park-dgc-LcVA",
+      "name": "Tom Bass Park DGC",
+      "citySlug": "houston",
+      "lat": 29.591,
+      "lng": -95.378
+    },
+    {
+      "slug": "tom-mc-cutcheon-dgc-BnM7",
+      "name": "Tom McCutcheon DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.078,
+      "lng": -97.009
+    },
+    {
+      "slug": "tom-mccutcheon",
+      "name": "Tom McCutcheon DGP",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.075,
+      "lng": -97.002
+    },
+    {
+      "slug": "tommy-and-sue-brown-dgc-VNPK",
+      "name": "Tommy and Sue Brown DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.9,
+      "lng": -97.202
+    },
+    {
+      "slug": "tortosa-G7Ev",
+      "name": "Tortosa",
+      "citySlug": "phoenix",
+      "lat": 33.064,
+      "lng": -111.958
+    },
+    {
+      "slug": "towne-lake-UhZR",
+      "name": "Towne Lake",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.183,
+      "lng": -96.631
+    },
+    {
+      "slug": "trail-of-heroes-ZlXe",
+      "name": "Trail of Heroes",
+      "citySlug": "kansas-city",
+      "lat": 39.214,
+      "lng": -94.502
+    },
+    {
+      "slug": "triple-creek-park-oh9f",
+      "name": "Triple Creek Park",
+      "citySlug": "nashville",
+      "lat": 36.408,
+      "lng": -86.428
+    },
+    {
+      "slug": "turner-park-MoVN",
+      "name": "Turner Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.753,
+      "lng": -96.996
+    },
+    {
+      "slug": "turtle-woods-simpson-co-schools-lDNf",
+      "name": "Turtle Woods- Simpson Co Schools",
+      "citySlug": "nashville",
+      "lat": 36.715,
+      "lng": -86.581
+    },
+    {
+      "slug": "twin-creeks-park-vGQl",
+      "name": "Twin Creeks Park",
+      "citySlug": "chicago",
+      "lat": 42.182,
+      "lng": -87.967
+    },
+    {
+      "slug": "twin-rivers-kmJv",
+      "name": "Twin Rivers",
+      "citySlug": "seattle",
+      "lat": 48.203,
+      "lng": -122.121
+    },
+    {
+      "slug": "two-rivers-wjfB",
+      "name": "Two Rivers",
+      "citySlug": "nashville",
+      "lat": 36.186,
+      "lng": -86.69
+    },
+    {
+      "slug": "uc-blue-ash-1vWj",
+      "name": "UC Blue Ash",
+      "citySlug": "cincinnati",
+      "lat": 39.233,
+      "lng": -84.399
+    },
+    {
+      "slug": "unc-disc-golf-course-LAbU",
+      "name": "UNC Disc Golf Course",
+      "citySlug": "raleigh",
+      "lat": 35.908,
+      "lng": -79.031
+    },
+    {
+      "slug": "university-of-phoenix-gFxI",
+      "name": "University Of Phoenix",
+      "citySlug": "phoenix",
+      "lat": 33.412,
+      "lng": -112.015
+    },
+    {
+      "slug": "usdgc-spectator-course-bW9o",
+      "name": "USDGC Spectator Course",
+      "citySlug": "charlotte",
+      "lat": 34.943,
+      "lng": -81.01
+    },
+    {
+      "slug": "uta-disc-golf-course-5NZr",
+      "name": "UTA - Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.728,
+      "lng": -97.116
+    },
+    {
+      "slug": "valley-springs-park-qnnz",
+      "name": "Valley Springs Park",
+      "citySlug": "raleigh",
+      "lat": 36.054,
+      "lng": -78.961
+    },
+    {
+      "slug": "valley-view-middle-school-v1Fq",
+      "name": "Valley View Middle School",
+      "citySlug": "seattle",
+      "lat": 47.868,
+      "lng": -122.102
+    },
+    {
+      "slug": "valmont-disc-park-E1eT",
+      "name": "Valmont Disc Park",
+      "citySlug": "denver",
+      "lat": 40.029,
+      "lng": -105.235
+    },
+    {
+      "slug": "valparaiso-university-disc-golf-course-HQAh",
+      "name": "Valparaiso University Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 41.461,
+      "lng": -87.043
+    },
+    {
+      "slug": "van-horn-woods-disc-golf-park-i3Lm",
+      "name": "Van Horn Woods Disc Golf Park",
+      "citySlug": "chicago",
+      "lat": 41.57,
+      "lng": -88.191
+    },
+    {
+      "slug": "van-zee-park-JQOm",
+      "name": "Van Zee Park",
+      "citySlug": "seattle",
+      "lat": 47.525,
+      "lng": -122.644
+    },
+    {
+      "slug": "vance-park-Kmve",
+      "name": "Vance Park",
+      "citySlug": "portland",
+      "lat": 45.512,
+      "lng": -122.475
+    },
+    {
+      "slug": "venture-park-LIyx",
+      "name": "Venture Park",
+      "citySlug": "denver",
+      "lat": 39.995,
+      "lng": -104.747
+    },
+    {
+      "slug": "veterans-memorial-park-disc-golf-course-VYTs",
+      "name": "Veterans Memorial Park Disc Golf Course",
+      "citySlug": "charlotte",
+      "lat": 35.178,
+      "lng": -80.635
+    },
+    {
+      "slug": "veterans-park-J93i",
+      "name": "Veterans Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.7,
+      "lng": -97.164
+    },
+    {
+      "slug": "veterans-park-uXVb",
+      "name": "Veterans Park",
+      "citySlug": "charlotte",
+      "lat": 35.218,
+      "lng": -80.804
+    },
+    {
+      "slug": "vietnam-veterans-park-SeMX",
+      "name": "Vietnam Veterans Park",
+      "citySlug": "charlotte",
+      "lat": 35.443,
+      "lng": -80.637
+    },
+    {
+      "slug": "viewpoint-golf-resort",
+      "name": "ViewPoint Golf Resort",
+      "citySlug": "phoenix",
+      "lat": 33.427,
+      "lng": -111.65
+    },
+    {
+      "slug": "village-green-tGvu",
+      "name": "Village Green",
+      "citySlug": "atlanta",
+      "lat": 33.4,
+      "lng": -84.582
+    },
+    {
+      "slug": "village-greens-vCUY",
+      "name": "Village Greens",
+      "citySlug": "denver",
+      "lat": 39.638,
+      "lng": -104.878
+    },
+    {
+      "slug": "vintage-dRvZ",
+      "name": "Vintage",
+      "citySlug": "nashville",
+      "lat": 35.907,
+      "lng": -86.828
+    },
+    {
+      "slug": "virginia-lee-crosby-memorial-dgc-TxIq",
+      "name": "Virginia Lee Crosby Memorial DGC",
+      "citySlug": "denver",
+      "lat": 39.727,
+      "lng": -105.201
+    },
+    {
+      "slug": "vista-del-camino",
+      "name": "Vista del Camino (Shelly Sharpe Memorial)",
+      "citySlug": "phoenix",
+      "lat": 33.459,
+      "lng": -111.915
+    },
+    {
+      "slug": "vogelei-park-multi-golf-course-mPQS",
+      "name": "Vogelei Park Multi-Golf Course",
+      "citySlug": "chicago",
+      "lat": 42.051,
+      "lng": -88.097
+    },
+    {
+      "slug": "vol-state-disc-golf-course-vHNT",
+      "name": "Vol State Disc Golf Course",
+      "citySlug": "nashville",
+      "lat": 36.362,
+      "lng": -86.5
+    },
+    {
+      "slug": "w-o-harrington",
+      "name": "W. O. Harrington",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.887,
+      "lng": -96.998
+    },
+    {
+      "slug": "walnut-creek-dgc-XoOj",
+      "name": "Walnut Creek DGC",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.965,
+      "lng": -97.683
+    },
+    {
+      "slug": "walnut-disc-golf-course-GtrG",
+      "name": "Walnut Disc Golf Course",
+      "citySlug": "chicago",
+      "lat": 42.046,
+      "lng": -88.127
+    },
+    {
+      "slug": "waneka-lake-ZR8H",
+      "name": "Waneka Lake",
+      "citySlug": "denver",
+      "lat": 39.994,
+      "lng": -105.109
+    },
+    {
+      "slug": "warlick-academy-dgc-ONKc",
+      "name": "Warlick Academy DGC",
+      "citySlug": "charlotte",
+      "lat": 35.283,
+      "lng": -81.133
+    },
+    {
+      "slug": "warren-township-dgc-ZuIu",
+      "name": "Warren Township DGC",
+      "citySlug": "chicago",
+      "lat": 42.362,
+      "lng": -87.983
+    },
+    {
+      "slug": "washington-park-s0I5",
+      "name": "Washington Park",
+      "citySlug": "chicago",
+      "lat": 41.794,
+      "lng": -87.614
+    },
+    {
+      "slug": "water-works",
+      "name": "Water Works Park",
+      "citySlug": "kansas-city",
+      "lat": 39.161,
+      "lng": -94.577
+    },
+    {
+      "slug": "watertown-dgc-kVBF",
+      "name": "Watertown DGC",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 44.961,
+      "lng": -93.823
+    },
+    {
+      "slug": "watts-park-bXre",
+      "name": "Watts Park",
+      "citySlug": "chicago",
+      "lat": 42.125,
+      "lng": -87.754
+    },
+    {
+      "slug": "waxhaw-dgc-waxhaw-elem-3DBt",
+      "name": "Waxhaw DGC @Waxhaw Elem.",
+      "citySlug": "charlotte",
+      "lat": 34.919,
+      "lng": -80.734
+    },
+    {
+      "slug": "weatherford-disc-golf-course-ZeDm",
+      "name": "Weatherford Disc Golf Course",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.768,
+      "lng": -97.677
+    },
+    {
+      "slug": "weischel-park-WYy9",
+      "name": "Weischel Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.827,
+      "lng": -96.834
+    },
+    {
+      "slug": "welch-college-dg-course-ZqkT",
+      "name": "Welch College DG Course",
+      "citySlug": "nashville",
+      "lat": 36.368,
+      "lng": -86.549
+    },
+    {
+      "slug": "wellington-7SHM",
+      "name": "Wellington",
+      "citySlug": "dallas-fort-worth",
+      "lat": 33.028,
+      "lng": -97.085
+    },
+    {
+      "slug": "wells-branch-dgc-SFG9",
+      "name": "Wells Branch DGC",
+      "citySlug": "austin",
+      "lat": 30.433,
+      "lng": -97.673
+    },
+    {
+      "slug": "wendell-park-tPe2",
+      "name": "Wendell Park",
+      "citySlug": "raleigh",
+      "lat": 35.781,
+      "lng": -78.38
+    },
+    {
+      "slug": "west-fork-disc-golf-course-BG0Z",
+      "name": "West Fork Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.552,
+      "lng": -104.992
+    },
+    {
+      "slug": "west-park-EzH5",
+      "name": "West Park",
+      "citySlug": "chicago",
+      "lat": 41.51,
+      "lng": -88.107
+    },
+    {
+      "slug": "west-pulaski-AHzy",
+      "name": "West Pulaski",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.202,
+      "lng": -93.865
+    },
+    {
+      "slug": "west-side-elementary-dgc-TUHt",
+      "name": "West Side Elementary DGC",
+      "citySlug": "atlanta",
+      "lat": 33.956,
+      "lng": -84.563
+    },
+    {
+      "slug": "westcreek-disc-golf-course-xahL",
+      "name": "Westcreek Disc Golf Course",
+      "citySlug": "denver",
+      "lat": 39.545,
+      "lng": -104.783
+    },
+    {
+      "slug": "western-union-elementary-Rs8m",
+      "name": "Western Union Elementary",
+      "citySlug": "charlotte",
+      "lat": 34.924,
+      "lng": -80.69
+    },
+    {
+      "slug": "westheight-dgc-t2nZ",
+      "name": "Westheight DGC",
+      "citySlug": "kansas-city",
+      "lat": 39.123,
+      "lng": -94.653
+    },
+    {
+      "slug": "westlake-middle-school-p1i0",
+      "name": "Westlake Middle School",
+      "citySlug": "houston",
+      "lat": 29.956,
+      "lng": -95.19
+    },
+    {
+      "slug": "westminster-city-park-oTvD",
+      "name": "Westminster City Park",
+      "citySlug": "denver",
+      "lat": 39.891,
+      "lng": -105.057
+    },
+    {
+      "slug": "wheeler-park-HUJg",
+      "name": "Wheeler Park",
+      "citySlug": "atlanta",
+      "lat": 33.651,
+      "lng": -84.019
+    },
+    {
+      "slug": "white-house-park-yxgL",
+      "name": "White House Park",
+      "citySlug": "nashville",
+      "lat": 36.475,
+      "lng": -86.666
+    },
+    {
+      "slug": "white-oak-cc-north",
+      "name": "White Oak Conference Center - Inwood North",
+      "citySlug": "houston",
+      "lat": 29.876,
+      "lng": -95.475
+    },
+    {
+      "slug": "white-oak-cc-west",
+      "name": "White Oak Conference Center - Inwood West",
+      "citySlug": "houston",
+      "lat": 29.874,
+      "lng": -95.475
+    },
+    {
+      "slug": "white-oak-park-dgc-H0KF",
+      "name": "White Oak Park DGC",
+      "citySlug": "atlanta",
+      "lat": 33.877,
+      "lng": -84.832
+    },
+    {
+      "slug": "white-river-Vjug",
+      "name": "White River",
+      "citySlug": "seattle",
+      "lat": 47.279,
+      "lng": -122.197
+    },
+    {
+      "slug": "wilbur-young-park-XVti",
+      "name": "Wilbur Young Park",
+      "citySlug": "kansas-city",
+      "lat": 39.007,
+      "lng": -94.252
+    },
+    {
+      "slug": "wildcat-dgc-WQMU",
+      "name": "Wildcat DGC",
+      "citySlug": "atlanta",
+      "lat": 33.856,
+      "lng": -84.522
+    },
+    {
+      "slug": "wildflower-micro-dgc-KPf7",
+      "name": "Wildflower Micro DGC",
+      "citySlug": "austin",
+      "lat": 30.465,
+      "lng": -97.844
+    },
+    {
+      "slug": "wildwood-9-disc-golf-course-7hpB",
+      "name": "Wildwood 9 Disc Golf Course",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.214,
+      "lng": -93.433
+    },
+    {
+      "slug": "wildwood-park-Lsvp",
+      "name": "Wildwood Park",
+      "citySlug": "atlanta",
+      "lat": 33.931,
+      "lng": -84.523
+    },
+    {
+      "slug": "william-harbin-park-eqlU",
+      "name": "William Harbin Park",
+      "citySlug": "cincinnati",
+      "lat": 39.315,
+      "lng": -84.574
+    },
+    {
+      "slug": "william-jewell-college",
+      "name": "William Jewell College",
+      "citySlug": "kansas-city",
+      "lat": 39.255,
+      "lng": -94.411
+    },
+    {
+      "slug": "williams-park-oCLY",
+      "name": "Williams Park",
+      "citySlug": "nashville",
+      "lat": 35.736,
+      "lng": -86.907
+    },
+    {
+      "slug": "willow-fork-dgc-yyM3",
+      "name": "Willow Fork DGC",
+      "citySlug": "houston",
+      "lat": 29.75,
+      "lng": -95.777
+    },
+    {
+      "slug": "willow-stream-park-hCHK",
+      "name": "Willow Stream Park",
+      "citySlug": "chicago",
+      "lat": 42.162,
+      "lng": -87.971
+    },
+    {
+      "slug": "wills-park-OVna",
+      "name": "Wills Park",
+      "citySlug": "atlanta",
+      "lat": 34.072,
+      "lng": -84.31
+    },
+    {
+      "slug": "wimberley-first-baptist-church-dgc-GpgH",
+      "name": "Wimberley First Baptist Church DGC",
+      "citySlug": "austin",
+      "lat": 30.026,
+      "lng": -98.098
+    },
+    {
+      "slug": "winthrop-meadows-Wcvg",
+      "name": "Winthrop Meadows",
+      "citySlug": "charlotte",
+      "lat": 34.943,
+      "lng": -81.011
+    },
+    {
+      "slug": "winthrop-university-3ati",
+      "name": "Winthrop University",
+      "citySlug": "charlotte",
+      "lat": 34.941,
+      "lng": -81.016
+    },
+    {
+      "slug": "wolf-den-disc-golf-course-5tvv",
+      "name": "Wolf Den Disc Golf Course",
+      "citySlug": "kansas-city",
+      "lat": 38.897,
+      "lng": -94.868
+    },
+    {
+      "slug": "wooded-prairie-at-shawnee-mission-park-3war",
+      "name": "Wooded Prairie at Shawnee Mission Park",
+      "citySlug": "kansas-city",
+      "lat": 38.983,
+      "lng": -94.787
+    },
+    {
+      "slug": "woodland-creek-community-park-FxFx",
+      "name": "Woodland Creek Community Park",
+      "citySlug": "seattle",
+      "lat": 47.037,
+      "lng": -122.792
+    },
+    {
+      "slug": "woodland-park-dgc-cUHs",
+      "name": "Woodland Park DGC",
+      "citySlug": "nashville",
+      "lat": 35.611,
+      "lng": -87.05
+    },
+    {
+      "slug": "woods-edge-church-6xHf",
+      "name": "Woods Edge Church",
+      "citySlug": "houston",
+      "lat": 30.132,
+      "lng": -95.511
+    },
+    {
+      "slug": "wsu-vancouver",
+      "name": "WSU-Vancouver",
+      "citySlug": "portland",
+      "lat": 45.73,
+      "lng": -122.633
+    },
+    {
+      "slug": "xavier-university-3fSH",
+      "name": "Xavier University",
+      "citySlug": "cincinnati",
+      "lat": 39.15,
+      "lng": -84.469
+    },
+    {
+      "slug": "xerox-k9pO",
+      "name": "Xerox",
+      "citySlug": "portland",
+      "lat": 45.325,
+      "lng": -122.767
+    },
+    {
+      "slug": "yacolt-recreational-park-2Bbg",
+      "name": "Yacolt Recreational Park",
+      "citySlug": "portland",
+      "lat": 45.862,
+      "lng": -122.397
+    },
+    {
+      "slug": "yelm-prairie-disc-golf-course-1nnZ",
+      "name": "Yelm Prairie Disc Golf Course",
+      "citySlug": "seattle",
+      "lat": 46.927,
+      "lng": -122.589
+    },
+    {
+      "slug": "ymca-vic-coppinger-dgc-OUIA",
+      "name": "YMCA Vic Coppinger DGC",
+      "citySlug": "houston",
+      "lat": 29.555,
+      "lng": -95.269
+    },
+    {
+      "slug": "z-boaz",
+      "name": "Z Boaz Park",
+      "citySlug": "dallas-fort-worth",
+      "lat": 32.728,
+      "lng": -97.437
+    },
+    {
+      "slug": "zachary-playfield",
+      "name": "Zachary Playfield",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.035,
+      "lng": -93.421
+    },
+    {
+      "slug": "zebulon-community-park-ZxWn",
+      "name": "Zebulon Community Park",
+      "citySlug": "raleigh",
+      "lat": 35.818,
+      "lng": -78.308
+    },
+    {
+      "slug": "zedler-park-ENBH",
+      "name": "Zedler Park",
+      "citySlug": "austin",
+      "lat": 29.667,
+      "lng": -97.654
+    },
+    {
+      "slug": "zilker-park",
+      "name": "Zilker Park",
+      "citySlug": "austin",
+      "lat": 30.267,
+      "lng": -97.773
+    },
+    {
+      "slug": "zimmerman-city-park-fSdX",
+      "name": "Zimmerman City Park",
+      "citySlug": "minneapolis-st-paul",
+      "lat": 45.437,
+      "lng": -93.585
+    },
+    {
+      "slug": "zinc-house-dgc-OmGn",
+      "name": "ZincHouse DGC",
+      "citySlug": "raleigh",
+      "lat": 35.982,
+      "lng": -78.76
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Disc Golf Terrain Index by City",
+  "description": "Per-city terrain challenge for disc golf, from the directory difficultyRating rubric (length, woods, elevation, hazards) plus wooded share and average course length.",
+  "source": "FindFrolf course directory (difficultyRating rubric, wooded flag, foliage, total feet)",
+  "sourceUrl": "https://www.findfrolf.com/courses/",
+  "datasetVersion": "1.0",
+  "license": "FindFrolf course data",
+  "pulledAt": "2026-11-04",
+  "nextRefresh": "2027-11-04",
+  "cities": [
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "stateSlug": "az",
+      "courseCount": 43,
+      "avgDifficultyRating": 1.98,
+      "woodedCount": 0,
+      "woodedPct": 0,
+      "avgTotalFeet": 4812
+    },
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "stateSlug": "nc",
+      "courseCount": 56,
+      "avgDifficultyRating": 1.89,
+      "woodedCount": 5,
+      "woodedPct": 8.9,
+      "avgTotalFeet": 4299
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "stateSlug": "ga",
+      "courseCount": 51,
+      "avgDifficultyRating": 1.86,
+      "woodedCount": 3,
+      "woodedPct": 5.9,
+      "avgTotalFeet": 4437
+    },
+    {
+      "slug": "cincinnati",
+      "name": "Cincinnati",
+      "stateSlug": "oh",
+      "courseCount": 22,
+      "avgDifficultyRating": 1.82,
+      "woodedCount": 3,
+      "woodedPct": 13.6,
+      "avgTotalFeet": 3868
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "stateSlug": "tx",
+      "courseCount": 51,
+      "avgDifficultyRating": 1.8,
+      "woodedCount": 2,
+      "woodedPct": 3.9,
+      "avgTotalFeet": 4096
+    },
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "stateSlug": "mo",
+      "courseCount": 45,
+      "avgDifficultyRating": 1.8,
+      "woodedCount": 3,
+      "woodedPct": 6.7,
+      "avgTotalFeet": 4326
+    },
+    {
+      "slug": "raleigh",
+      "name": "Raleigh",
+      "stateSlug": "nc",
+      "courseCount": 42,
+      "avgDifficultyRating": 1.74,
+      "woodedCount": 3,
+      "woodedPct": 7.1,
+      "avgTotalFeet": 3838
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "stateSlug": "tx",
+      "courseCount": 84,
+      "avgDifficultyRating": 1.73,
+      "woodedCount": 2,
+      "woodedPct": 2.4,
+      "avgTotalFeet": 4206
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "stateSlug": "wa",
+      "courseCount": 53,
+      "avgDifficultyRating": 1.72,
+      "woodedCount": 2,
+      "woodedPct": 3.8,
+      "avgTotalFeet": 3883
+    },
+    {
+      "slug": "nashville",
+      "name": "Nashville",
+      "stateSlug": "tn",
+      "courseCount": 43,
+      "avgDifficultyRating": 1.72,
+      "woodedCount": 0,
+      "woodedPct": 0,
+      "avgTotalFeet": 4186
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "stateSlug": "co",
+      "courseCount": 57,
+      "avgDifficultyRating": 1.7,
+      "woodedCount": 2,
+      "woodedPct": 3.5,
+      "avgTotalFeet": 3999
+    },
+    {
+      "slug": "minneapolis-st-paul",
+      "name": "Minneapolis–St. Paul",
+      "stateSlug": "mn",
+      "courseCount": 65,
+      "avgDifficultyRating": 1.65,
+      "woodedCount": 4,
+      "woodedPct": 6.2,
+      "avgTotalFeet": 4103
+    },
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "stateSlug": "or",
+      "courseCount": 39,
+      "avgDifficultyRating": 1.64,
+      "woodedCount": 3,
+      "woodedPct": 7.7,
+      "avgTotalFeet": 3954
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "stateSlug": "il",
+      "courseCount": 79,
+      "avgDifficultyRating": 1.62,
+      "woodedCount": 3,
+      "woodedPct": 3.8,
+      "avgTotalFeet": 3993
+    },
+    {
+      "slug": "dallas-fort-worth",
+      "name": "Dallas–Fort Worth",
+      "stateSlug": "tx",
+      "courseCount": 87,
+      "avgDifficultyRating": 1.62,
+      "woodedCount": 3,
+      "woodedPct": 3.4,
+      "avgTotalFeet": 4288
+    }
+  ]
+}

@@ -32,6 +32,9 @@ export const GET: APIRoute = async () => {
   urls.push(url('/blog', 0.6, undefined, 'weekly'));
   urls.push(url('/data', 0.6, undefined, 'monthly'));
   urls.push(url('/data/playable-months', 0.7, playableMonths.pulledAt, 'yearly'));
+  urls.push(url('/data/courses-per-100k', 0.7, undefined, 'yearly'));
+  urls.push(url('/data/terrain-index', 0.7, undefined, 'yearly'));
+  urls.push(url('/data/free-play-map', 0.7, undefined, 'yearly'));
   urls.push(url('/about', 0.5, undefined, 'monthly'));
   urls.push(url('/privacy', 0.3, undefined, 'yearly'));
   urls.push(url('/terms', 0.3, undefined, 'yearly'));

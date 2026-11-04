@@ -1,0 +1,162 @@
+{
+  "name": "Disc Golf Courses per 100,000 Residents by City",
+  "description": "Course supply per 100,000 residents for 15 US metros, from FindFrolf course data and 2020 Census metropolitan population.",
+  "source": "U.S. Census Bureau 2020 decennial census (MSA population) + FindFrolf course directory",
+  "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html",
+  "datasetVersion": "1.0",
+  "license": "U.S. Census Bureau 2020 decennial census (public domain)",
+  "pulledAt": "2026-11-04",
+  "nextRefresh": "2027-11-04",
+  "cities": [
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "stateSlug": "tx",
+      "msaName": "Austin–Round Rock–San Marcos, TX MSA",
+      "population2020": 2283371,
+      "courseCount": 51,
+      "coursesPer100k": 2.2,
+      "freeCount": 44
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "stateSlug": "co",
+      "msaName": "Denver–Aurora–Centennial, CO MSA",
+      "population2020": 2963821,
+      "courseCount": 57,
+      "coursesPer100k": 1.9,
+      "freeCount": 48
+    },
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "stateSlug": "or",
+      "msaName": "Portland–Vancouver–Hillsboro, OR-WA MSA",
+      "population2020": 2512859,
+      "courseCount": 39,
+      "coursesPer100k": 1.6,
+      "freeCount": 28
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "stateSlug": "il",
+      "msaName": "Chicago–Naperville–Elgin, IL-IN MSA",
+      "population2020": 9449351,
+      "courseCount": 79,
+      "coursesPer100k": 0.8,
+      "freeCount": 77
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "stateSlug": "wa",
+      "msaName": "Seattle–Tacoma–Bellevue, WA MSA",
+      "population2020": 4018762,
+      "courseCount": 53,
+      "coursesPer100k": 1.3,
+      "freeCount": 47
+    },
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "stateSlug": "nc",
+      "msaName": "Charlotte–Concord–Gastonia, NC-SC MSA",
+      "population2020": 2660329,
+      "courseCount": 56,
+      "coursesPer100k": 2.1,
+      "freeCount": 52
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "stateSlug": "tx",
+      "msaName": "Houston–Pasadena–The Woodlands, TX MSA",
+      "population2020": 7149642,
+      "courseCount": 84,
+      "coursesPer100k": 1.2,
+      "freeCount": 83
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "stateSlug": "az",
+      "msaName": "Phoenix–Mesa–Chandler, AZ MSA",
+      "population2020": 4845832,
+      "courseCount": 43,
+      "coursesPer100k": 0.9,
+      "freeCount": 43
+    },
+    {
+      "slug": "nashville",
+      "name": "Nashville",
+      "stateSlug": "tn",
+      "msaName": "Nashville-Davidson–Murfreesboro–Franklin, TN MSA",
+      "population2020": 2014444,
+      "courseCount": 43,
+      "coursesPer100k": 2.1,
+      "freeCount": 41
+    },
+    {
+      "slug": "raleigh",
+      "name": "Raleigh",
+      "stateSlug": "nc",
+      "msaName": "Raleigh–Cary, NC MSA",
+      "population2020": 1413982,
+      "courseCount": 42,
+      "coursesPer100k": 3,
+      "freeCount": 40
+    },
+    {
+      "slug": "dallas-fort-worth",
+      "name": "Dallas–Fort Worth",
+      "stateSlug": "tx",
+      "msaName": "Dallas–Fort Worth–Arlington, TX MSA",
+      "population2020": 7637387,
+      "courseCount": 87,
+      "coursesPer100k": 1.1,
+      "freeCount": 82
+    },
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "stateSlug": "mo",
+      "msaName": "Kansas City, MO-KS MSA",
+      "population2020": 2192035,
+      "courseCount": 45,
+      "coursesPer100k": 2.1,
+      "freeCount": 40
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "stateSlug": "ga",
+      "msaName": "Atlanta–Sandy Springs–Roswell, GA MSA",
+      "population2020": 6104803,
+      "courseCount": 51,
+      "coursesPer100k": 0.8,
+      "freeCount": 47
+    },
+    {
+      "slug": "cincinnati",
+      "name": "Cincinnati",
+      "stateSlug": "oh",
+      "msaName": "Cincinnati, OH-KY-IN MSA",
+      "population2020": 2249797,
+      "courseCount": 22,
+      "coursesPer100k": 1,
+      "freeCount": 20
+    },
+    {
+      "slug": "minneapolis-st-paul",
+      "name": "Minneapolis–St. Paul",
+      "stateSlug": "mn",
+      "msaName": "Minneapolis–St. Paul–Bloomington, MN-WI MSA",
+      "population2020": 3690261,
+      "courseCount": 65,
+      "coursesPer100k": 1.8,
+      "freeCount": 57
+    }
+  ]
+}
