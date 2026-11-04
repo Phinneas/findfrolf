@@ -111,6 +111,18 @@ B4. Grep post bodies and the position file for hardcoded counts that the new
 B5. Optional, only if the owner picks a humidity option: add dew point normals
     to fetch.ts and compute heat index. Same stations.
 
+RESULT (2026-11-04): D1 = 90F. B1-B3 done (rule v1.1 committed fa08ab4).
+New playable counts: Phoenix 12->7, Austin 12->8, Houston 12->8, Dallas 12->9,
+Nashville 10->9, Denver 7->6, Charlotte/Raleigh/KC July now marginal.
+B4 FLAGS (owner copy, will fix in Step C rewrite):
+- disc-golf-throwing-technique.md datashows: "Austin ... 12 of 12 months"
+  -> now 8 of 12 (and "year-round practice habit" no longer holds).
+- how-to-read-a-disc-golf-course.md datashows: "Denver ... 7 playable months"
+  -> now 6.
+- playable-months-position.md: "playable" definition lists 50F low / 28F /
+  10 rain days but omits the new 90F upper cap.
+B5 skipped (no humidity option chosen).
+
 ## Step C. Copy swap (owner writes, Pi inserts)
 
 The owner is rewriting this copy in another writing tool. It waits on Step B,
@@ -215,7 +227,7 @@ G2. Asana: Search Console checks at 30, 60, 90 days per hub (1219118435686394).
 
 ## Owner decisions, in one place
 
-- D1. Heat cap for the playable rule (Step B). Blocks B, C, E.
+- D1. Heat cap for the playable rule (Step B). Blocks B, C, E. **DECIDED: 90F.**
 - D2. Affiliate picks for the gear posts (Step D3).
 - D3. Ship, upgrade or hold the 3 Phase 3 hubs (Step A3, Step F). Blocks deploy.
 - D4. Wind source for playable-months v2.
