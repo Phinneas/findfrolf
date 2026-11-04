@@ -43,7 +43,7 @@ const datasetSchema = {
     </h1>
     <p class="text-lg text-ink-soft max-w-[720px] leading-[1.6]">{summary}</p>
     <p class="font-mono text-[11px] text-moss mt-4 uppercase tracking-[1.5px]">
-      2020 Census MSA population · pulled {hub.pulledAt}
+      ACS 5-year metro population · pulled {hub.pulledAt}
     </p>
   </section>
 
@@ -55,7 +55,7 @@ const datasetSchema = {
           <tr class="text-left font-mono text-[11px] uppercase tracking-[1px] text-moss border-b border-line">
             <th class="px-5 py-3">City</th>
             <th class="px-5 py-3">Courses</th>
-            <th class="px-5 py-3">Metro population (2020)</th>
+            <th class="px-5 py-3">Metro population (ACS 5-yr)</th>
             <th class="px-5 py-3">Courses / 100k</th>
           </tr>
         </thead>
@@ -64,7 +64,7 @@ const datasetSchema = {
             <tr class={i % 2 ? 'bg-paper' : 'bg-cream/40'}>
               <td class="px-5 py-3 font-semibold text-forest-deep">{c.name}</td>
               <td class="px-5 py-3">{c.courseCount}</td>
-              <td class="px-5 py-3">{c.population2020.toLocaleString()}</td>
+              <td class="px-5 py-3">{c.population.toLocaleString()}</td>
               <td class="px-5 py-3 font-semibold">{c.coursesPer100k}</td>
             </tr>
           ))}
@@ -76,13 +76,16 @@ const datasetSchema = {
       <h2 class="font-display text-forest-deep">Methodology</h2>
       <p>
         Course counts come from the FindFrolf directory (<a href="/courses/">all courses</a>),
-        grouped by metro. Population is the U.S. Census Bureau's 2020 decennial census
-        metropolitan statistical area (MSA) total for each metro. Courses per 100,000 is
+        grouped by metro. Population is the U.S. Census Bureau's American Community Survey
+        (ACS) 5-year estimate for each metro's core-based statistical area. Courses per 100,000 is
         <code>course count ÷ (population ÷ 100,000)</code>, rounded to one decimal.
       </p>
       <p>
         This measures course <em>supply relative to population</em>, not raw course count — a
         metro can have many courses yet rank low per capita if it is very large.
+      </p>
+      <p class="text-sm text-ink-soft">
+        This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau.
       </p>
     </div>
   </section>
