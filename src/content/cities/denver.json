@@ -61,7 +61,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Denver metro?",
-      "answer": "There are <b>57 courses</b> across the Denver metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:denver}} courses</b> across the Denver metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Denver?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Are Denver's disc golf courses free?",
-      "answer": "Most are. 48 of the 57 mapped courses are free to play, and 9 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:denver}} of the {{stats:city:denver}} mapped courses are free to play, and {{stats:paidCity:denver}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Denver?",

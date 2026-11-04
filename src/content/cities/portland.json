@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Portland metro?",
-      "answer": "There are <b>39 courses</b> across the Portland metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:portland}} courses</b> across the Portland metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Portland?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Portland's disc golf courses free?",
-      "answer": "Most are. 28 of the 39 mapped courses are free to play, and 11 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:portland}} of the {{stats:city:portland}} mapped courses are free to play, and {{stats:paidCity:portland}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Portland?",
@@ -80,6 +80,6 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Seattle", "courseCount": "53 courses", "distance": "175 mi", "slug": "/wa/seattle" }
+    { "name": "Seattle", "courseCount": "{{stats:city:seattle}} courses", "distance": "175 mi", "slug": "/wa/seattle" }
   ]
 }

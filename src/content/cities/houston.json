@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Houston metro?",
-      "answer": "There are <b>84 courses</b> across the Houston metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:houston}} courses</b> across the Houston metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Houston?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Houston's disc golf courses free?",
-      "answer": "Most are. 83 of the 84 mapped courses are free to play, and 1 is pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:houston}} of the {{stats:city:houston}} mapped courses are free to play, and {{stats:paidCity:houston}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Houston?",
@@ -80,8 +80,8 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Austin", "courseCount": "51 courses", "distance": "165 mi", "slug": "/tx/austin" },
-    { "name": "Dallas–Fort Worth", "courseCount": "88 courses", "distance": "240 mi", "slug": "/tx/dallas-fort-worth" },
+    { "name": "Austin", "courseCount": "{{stats:city:austin}} courses", "distance": "165 mi", "slug": "/tx/austin" },
+    { "name": "Dallas–Fort Worth", "courseCount": "{{stats:city:dallas-fort-worth}} courses", "distance": "240 mi", "slug": "/tx/dallas-fort-worth" },
     { "name": "San Antonio", "courseCount": "52 courses", "distance": "200 mi", "slug": "#" }
   ]
 }

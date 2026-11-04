@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Raleigh–Durham area?",
-      "answer": "There are <b>42 courses</b> across the Raleigh–Durham area, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:raleigh}} courses</b> across the Raleigh–Durham area, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in the Triangle?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are the Triangle's disc golf courses free?",
-      "answer": "Most are. 40 of the 42 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:raleigh}} of the {{stats:city:raleigh}} mapped courses are free to play, and {{stats:paidCity:raleigh}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in the Triangle?",
@@ -80,6 +80,6 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Charlotte", "courseCount": "56 courses", "distance": "130 mi", "slug": "/nc/charlotte" }
+    { "name": "Charlotte", "courseCount": "{{stats:city:charlotte}} courses", "distance": "130 mi", "slug": "/nc/charlotte" }
   ]
 }

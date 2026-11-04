@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Kansas City metro?",
-      "answer": "There are <b>45 courses</b> across the Kansas City metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:kansas-city}} courses</b> across the Kansas City metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Kansas City?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Kansas City's disc golf courses free?",
-      "answer": "Most are. 40 of the 45 mapped courses are free to play, and 5 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:kansas-city}} of the {{stats:city:kansas-city}} mapped courses are free to play, and {{stats:paidCity:kansas-city}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Kansas City?",

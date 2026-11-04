@@ -61,7 +61,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Seattle metro?",
-      "answer": "There are <b>53 courses</b> across the Seattle metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:seattle}} courses</b> across the Seattle metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Seattle?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Are Seattle's disc golf courses free?",
-      "answer": "Most are. 47 of the 53 mapped courses are free to play, and 6 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:seattle}} of the {{stats:city:seattle}} mapped courses are free to play, and {{stats:paidCity:seattle}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Seattle?",
@@ -81,6 +81,6 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Portland", "courseCount": "39 courses", "distance": "175 mi", "slug": "/or/portland" }
+    { "name": "Portland", "courseCount": "{{stats:city:portland}} courses", "distance": "175 mi", "slug": "/or/portland" }
   ]
 }

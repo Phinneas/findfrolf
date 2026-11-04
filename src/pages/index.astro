@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CTACard from '../components/city/CTACard.astro';
 import { getAllCourses, getAllCities, cityUrl, deriveCityStats } from '../lib/data';
+import { interpolateStats } from '../lib/stats';
 import type { CollectionEntry } from 'astro:content';
 
 const allCourses = await getAllCourses();
@@ -70,7 +71,7 @@ const cityFacts = (city: CollectionEntry<'cities'>) =>
           <div class="relative z-2 p-7 text-cream">
             <div class="font-mono text-[10px] uppercase tracking-[2px] text-sun mb-2">{city.data.state}</div>
             <h3 class="font-display font-normal text-[34px] tracking-[-1px] leading-none mb-2">{city.data.name}</h3>
-            <p class="text-sm text-cream/80 line-clamp-2">{city.data.lede}</p>
+            <p class="text-sm text-cream/80 line-clamp-2">{interpolateStats(city.data.lede)}</p>
             <div class="flex gap-3 mt-4 font-mono text-[11px] uppercase tracking-[1px] text-sage">
               {cityFacts(city).slice(0, 3).map((f) => (
                 <span>{f.value} {f.label}</span>

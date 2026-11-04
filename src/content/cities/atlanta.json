@@ -61,7 +61,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Atlanta metro?",
-      "answer": "There are <b>52 courses</b> across the Atlanta metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:atlanta}} courses</b> across the Atlanta metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Atlanta?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Are Atlanta's disc golf courses free?",
-      "answer": "Most are. 48 of the 52 mapped courses are free to play, and 4 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:atlanta}} of the {{stats:city:atlanta}} mapped courses are free to play, and {{stats:paidCity:atlanta}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Atlanta?",
@@ -81,7 +81,7 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Charlotte", "courseCount": "56 courses", "distance": "245 mi", "slug": "/nc/charlotte" },
-    { "name": "Nashville", "courseCount": "43 courses", "distance": "250 mi", "slug": "/tn/nashville" }
+    { "name": "Charlotte", "courseCount": "{{stats:city:charlotte}} courses", "distance": "245 mi", "slug": "/nc/charlotte" },
+    { "name": "Nashville", "courseCount": "{{stats:city:nashville}} courses", "distance": "250 mi", "slug": "/tn/nashville" }
   ]
 }

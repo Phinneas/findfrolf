@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Chicago metro?",
-      "answer": "There are <b>79 courses</b> across the Chicago metro and its suburbs, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:chicago}} courses</b> across the Chicago metro and its suburbs, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Chicago?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Chicago's disc golf courses free?",
-      "answer": "Most are. 77 of the 79 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:chicago}} of the {{stats:city:chicago}} mapped courses are free to play, and {{stats:paidCity:chicago}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Chicago?",

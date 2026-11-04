@@ -61,7 +61,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Twin Cities metro?",
-      "answer": "There are <b>65 courses</b> across the Twin Cities metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:minneapolis-st-paul}} courses</b> across the Twin Cities metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in the Twin Cities?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Are the Twin Cities' disc golf courses free?",
-      "answer": "Most are. 57 of the 65 mapped courses are free to play, and 8 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:minneapolis-st-paul}} of the {{stats:city:minneapolis-st-paul}} mapped courses are free to play, and {{stats:paidCity:minneapolis-st-paul}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in the Twin Cities?",

@@ -65,6 +65,16 @@ export function coursesByCity(citySlug: string): number {
   return courses.filter((c) => c.citySlug === citySlug).length;
 }
 
+/** Free-to-play courses published for a city hub. */
+export function freeCoursesByCity(citySlug: string): number {
+  return courses.filter((c) => c.citySlug === citySlug && c.isFree).length;
+}
+
+/** Pay-to-play courses published for a city hub. */
+export function paidCoursesByCity(citySlug: string): number {
+  return coursesByCity(citySlug) - freeCoursesByCity(citySlug);
+}
+
 /* ------------------------------------------------------------------ */
 /*  Token interpolation                                                */
 /*                                                                     */
@@ -76,9 +86,16 @@ export function coursesByCity(citySlug: string): number {
 /*  Supported tokens:                                                  */
 /*    {{stats:totalCourses}}  {{stats:totalStates}}                    */
 /*    {{stats:freeCourses}}   {{stats:city:<citySlug>}}                */
+/*    {{stats:freeCity:<citySlug>}}  {{stats:paidCity:<citySlug>}}     */
+/*                                                                     */
+/*  Both the colon form ({{stats:city:denver}}) and the dot form       */
+/*  ({{stats:city.denver}}) work everywhere. .md post bodies are       */
+/*  resolved at the block level from the raw source (see               */
+/*  src/lib/mdast-stats.ts), so remark-directive splitting does not    */
+/*  affect them.                                                       */
 /* ------------------------------------------------------------------ */
 
-const STATS_TOKEN = /\{\{\s*stats:([a-zA-Z]+)(?::([a-z0-9-]+))?\s*\}\}/g;
+const STATS_TOKEN = /\{\{\s*stats:([a-zA-Z]+)(?:[.:]([a-z0-9-]+))?\s*\}\}/g;
 
 export function interpolateStats(text: string): string {
   return text.replace(STATS_TOKEN, (match, key: string, arg?: string) => {
@@ -90,12 +107,20 @@ export function interpolateStats(text: string): string {
       case 'freeCourses':
         return String(freeCourses);
       case 'city':
+      case 'freeCity':
+      case 'paidCity':
         if (!arg) {
           throw new Error(
-            `stats token "city" requires a citySlug (e.g. {{stats:city:denver}}): ${match}`,
+            `stats token "${key}" requires a citySlug (e.g. {{stats:${key}:denver}}): ${match}`,
           );
         }
-        return String(coursesByCity(arg));
+        return String(
+          key === 'city'
+            ? coursesByCity(arg)
+            : key === 'freeCity'
+              ? freeCoursesByCity(arg)
+              : paidCoursesByCity(arg),
+        );
       default:
         throw new Error(`Unknown stats token: ${match}`);
     }

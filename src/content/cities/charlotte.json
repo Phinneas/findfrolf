@@ -61,7 +61,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in Charlotte?",
-      "answer": "There are <b>56 courses</b> across the Charlotte metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:charlotte}} courses</b> across the Charlotte metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Charlotte?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Are Charlotte's disc golf courses free?",
-      "answer": "Most are. 52 of the 56 mapped courses are free to play, and 4 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:charlotte}} of the {{stats:city:charlotte}} mapped courses are free to play, and {{stats:paidCity:charlotte}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Charlotte?",
@@ -81,7 +81,7 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Raleigh–Durham", "courseCount": "42 courses", "distance": "130 mi", "slug": "/nc/raleigh" },
-    { "name": "Atlanta", "courseCount": "52 courses", "distance": "245 mi", "slug": "/ga/atlanta" }
+    { "name": "Raleigh–Durham", "courseCount": "{{stats:city:raleigh}} courses", "distance": "130 mi", "slug": "/nc/raleigh" },
+    { "name": "Atlanta", "courseCount": "{{stats:city:atlanta}} courses", "distance": "245 mi", "slug": "/ga/atlanta" }
   ]
 }

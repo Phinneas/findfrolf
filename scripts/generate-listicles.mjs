@@ -74,7 +74,7 @@ const out = [];
     .filter((c) => c.data.isBeginnerFriendly === true)
     .sort((a, b) => b.data.rating - a.data.rating)
     .slice(0, 10);
-  const intro = `New to disc golf? Start here. Every course on this list is marked **beginner-friendly** in our directory — open fairways, forgiving layouts, and the kind of course where a first round is fun instead of frustrating. They're ranked by player rating from the ${courses.length} courses we've verified.\n\n${FINDER_LINK}`;
+  const intro = `New to disc golf? Start here. Every course on this list is marked **beginner-friendly** in our directory — open fairways, forgiving layouts, and the kind of course where a first round is fun instead of frustrating. They're ranked by player rating from the {{stats:totalCourses}} courses we've verified.\n\n${FINDER_LINK}`;
   const outro = `The best way to learn is to play — pick the course closest to you and just go. Most of these are free, and nobody will judge your first throw.\n\n${FINDER_LINK}`;
   const faqs = [
     { question: 'What is the best beginner-friendly disc golf course?', answer: `Based on player ratings, ${list[0]?.data.name} in ${list[0]?.data.city} is the top pick on our list — ${list[0]?.data.holes} holes at par ${list[0]?.data.par}.` },
@@ -101,10 +101,10 @@ const out = [];
     .filter((c) => c.data.isFree === true)
     .sort((a, b) => b.data.rating - a.data.rating)
     .slice(0, 12);
-  const intro = `Disc golf is one of the few sports that's genuinely free to play — and most of the best courses in the country don't cost a dime. Here are the **highest-rated free courses** from the ${courses.length} we've verified, ranked by player rating.\n\n${FINDER_LINK}`;
+  const intro = `Disc golf is one of the few sports that's genuinely free to play — and most of the best courses in the country don't cost a dime. Here are the **highest-rated free courses** from the {{stats:totalCourses}} we've verified, ranked by player rating.\n\n${FINDER_LINK}`;
   const outro = `That's the beauty of the sport: $0 green fees, and the only real cost is the discs you might lose in the woods. Use the finder to filter for free courses anywhere in the country.\n\n${FINDER_LINK}`;
   const faqs = [
-    { question: 'Are most disc golf courses free?', answer: `${courses.filter((c) => c.data.isFree).length} of the ${courses.length} courses we publish are free to play — the majority.` },
+    { question: 'Are most disc golf courses free?', answer: `{{stats:freeCourses}} of the {{stats:totalCourses}} courses we publish are free to play — the majority.` },
     { question: 'What is the best free disc golf course?', answer: `By player rating, ${list[0]?.data.name} in ${list[0]?.data.city} — ${list[0]?.data.holes} holes at par ${list[0]?.data.par}, free to play.` },
   ];
   const md = render(
@@ -186,13 +186,13 @@ const out = [];
   const intro = `Traveling? Every one of these is the **highest-rated verified course in its state** — the one locals would tell you to play first. Ranked overall by player rating.\n\n${FINDER_LINK}`;
   const outro = `The best course in the state is a great starting point — but every metro we cover has a full top tier waiting. Browse by city in the finder.\n\n${FINDER_LINK}`;
   const faqs = [
-    { question: 'How were these courses chosen?', answer: `One per state: the highest-rated verified course we publish in each of the ${byState.size} states covered so far.` },
+    { question: 'How were these courses chosen?', answer: `One per state: the highest-rated verified course we publish in each of the {{stats:totalStates}} states covered so far.` },
     { question: 'What is the best disc golf state?', answer: 'It depends what you want — Texas and North Carolina have the deepest top tiers in our directory; Minnesota and Oregon have the highest-rated individual courses.' },
   ];
   const md = render(
     'best-disc-golf-course-in-every-state',
     'The Best Disc Golf Course in Every State We Cover',
-    `One per state — the highest-rated verified disc golf course in each of the ${byState.size} states in our directory.`,
+    `One per state — the highest-rated verified disc golf course in each of the {{stats:totalStates}} states in our directory.`,
     intro,
     list.map((c, i) => entry(c, i + 1)),
     outro,

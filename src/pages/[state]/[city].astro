@@ -15,6 +15,7 @@ import NearbyCities from '../../components/city/NearbyCities.astro';
 import CTACard from '../../components/city/CTACard.astro';
 import { getCollection } from 'astro:content';
 import { getCity, getCoursesByCity, getCourse, courseUrl, deriveCityStats } from '../../lib/data';
+import { interpolateStats } from '../../lib/stats';
 
 export async function getStaticPaths() {
   const cities = await getCollection('cities');
@@ -35,6 +36,18 @@ const courses = await getCoursesByCity(city!);
 // Headline stats are derived from the live course set, not hand-maintained
 // numbers in the city JSON, so the page can never contradict its listings.
 const { quickFacts, statsAside } = deriveCityStats(courses);
+
+// City JSON copy uses {{stats:...}} tokens for course counts so they can never
+// go stale (see src/lib/stats.ts); interpolate before rendering or schema output.
+const faqs = cityData.data.faqs.map((faq) => ({
+  question: interpolateStats(faq.question),
+  answer: interpolateStats(faq.answer),
+}));
+const nearbyCities = cityData.data.nearbyCities.map((n) => ({
+  ...n,
+  courseCount: interpolateStats(n.courseCount),
+}));
+const lede = interpolateStats(cityData.data.lede);
 
 // Resolve map pins with course data
 const resolvedPins = await Promise.all(
@@ -58,7 +71,7 @@ const citySchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: `Disc Golf Courses in ${cityData.data.name}, ${cityData.data.state}`,
-  description: cityData.data.lede,
+  description: lede,
   numberOfItems: courses.length,
   itemListElement: courses.map((course, index) => ({
     '@type': 'ListItem',
@@ -73,11 +86,11 @@ const citySchema = {
 
 const schemas: any[] = [citySchema];
 
-if (cityData.data.faqs.length > 0) {
+if (faqs.length > 0) {
   schemas.push({
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: cityData.data.faqs.map((faq) => ({
+    mainEntity: faqs.map((faq) => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: {
@@ -91,7 +104,7 @@ if (cityData.data.faqs.length > 0) {
 
 <BaseLayout
   title={`Disc Golf in ${cityData.data.name}, ${cityData.data.state} — Find Frolf`}
-  description={cityData.data.lede}
+  description={lede}
 >
   <Fragment slot="head">
     <Schema schema={schemas} />
@@ -108,7 +121,7 @@ if (cityData.data.faqs.length > 0) {
     name={cityData.data.name}
     heroImage={cityData.data.heroImage}
     heroFlag={cityData.data.heroFlag}
-    lede={cityData.data.lede}
+    lede={lede}
   />
 
   <QuickFacts facts={quickFacts} />
@@ -127,9 +140,9 @@ if (cityData.data.faqs.length > 0) {
 
   {cityData.data.areas.length > 0 && <BrowseByArea areas={cityData.data.areas} cityName={cityData.data.name} />}
 
-  {cityData.data.faqs.length > 0 && <FAQ faqs={cityData.data.faqs} cityName={cityData.data.name} />}
+  {faqs.length > 0 && <FAQ faqs={faqs} cityName={cityData.data.name} />}
 
-  {cityData.data.nearbyCities.length > 0 && <NearbyCities cities={cityData.data.nearbyCities} stateName={cityData.data.state} />}
+  {nearbyCities.length > 0 && <NearbyCities cities={nearbyCities} stateName={cityData.data.state} />}
 
   <CTACard cityName={cityData.data.name} />
 </BaseLayout>

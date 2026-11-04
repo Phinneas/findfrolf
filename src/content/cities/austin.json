@@ -4,7 +4,7 @@
   "stateSlug": "tx",
   "heroImage": "/images/city-austin.svg",
   "heroFlag": "📍 City guide · Updated June 2026",
-  "lede": "The Austin metro is home to 51 courses — from the legendary chains at Zilker to the wooded test at Mary Moore Searight. We're publishing them city by city, ranked and reviewed by the locals who play them.",
+  "lede": "The Austin metro is home to {{stats:city:austin}} courses — from the legendary chains at Zilker to the wooded test at Mary Moore Searight. We're publishing them city by city, ranked and reviewed by the locals who play them.",
   "introParagraphs": [
     "Austin punches well above its weight for disc golf. The city's parks department has quietly built one of the densest course networks in Texas, and the local clubs keep them in shape year-round. You'll find everything here: wide-open municipal layouts perfect for a first round, tight cedar corridors that'll humble a 950-rated player, and a handful of pay-to-play gems on the outskirts worth the drive.",
     "The one catch is summer. From June through September, midday rounds in the Texas sun are no joke — locals play at dawn or after 6pm, carry more water than they think they need, and save the exposed courses for the shoulder seasons. October through May is glorious, which is exactly when the tournament calendar fills up.",
@@ -116,11 +116,11 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in Austin?",
-      "answer": "There are <b>51 courses</b> across the greater Austin metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:austin}} courses</b> across the greater Austin metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "Are Austin's disc golf courses free?",
-      "answer": "Most are. 44 of the 51 mapped courses are free to play, and 7 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:austin}} of the {{stats:city:austin}} mapped courses are free to play, and {{stats:paidCity:austin}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best course for beginners in Austin?",

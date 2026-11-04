@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Phoenix metro?",
-      "answer": "There are <b>43 courses</b> across the Phoenix metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:phoenix}} courses</b> across the Phoenix metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Phoenix?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Phoenix's disc golf courses free?",
-      "answer": "Yes — every one of the 43 mapped courses is free to play."
+      "answer": "Yes — every one of the {{stats:city:phoenix}} mapped courses is free to play."
     },
     {
       "question": "What's the best beginner course in Phoenix?",

@@ -60,7 +60,7 @@
   "faqs": [
     {
       "question": "How many disc golf courses are in the Nashville metro?",
-      "answer": "There are <b>43 courses</b> across the Nashville metro, mapped and live on FindFrolf, with more added every week."
+      "answer": "There are <b>{{stats:city:nashville}} courses</b> across the Nashville metro, mapped and live on FindFrolf, with more added every week."
     },
     {
       "question": "What's the best disc golf course in Nashville?",
@@ -68,7 +68,7 @@
     },
     {
       "question": "Are Nashville's disc golf courses free?",
-      "answer": "Most are. 41 of the 43 mapped courses are free to play, and 2 are pay-to-play. Check each course page for its current green fee."
+      "answer": "Most are. {{stats:freeCity:nashville}} of the {{stats:city:nashville}} mapped courses are free to play, and {{stats:paidCity:nashville}} are pay-to-play. Check each course page for its current green fee."
     },
     {
       "question": "What's the best beginner course in Nashville?",
@@ -80,7 +80,7 @@
     }
   ],
   "nearbyCities": [
-    { "name": "Atlanta", "courseCount": "52 courses", "distance": "250 mi", "slug": "/ga/atlanta" },
-    { "name": "Charlotte", "courseCount": "56 courses", "distance": "400 mi", "slug": "/nc/charlotte" }
+    { "name": "Atlanta", "courseCount": "{{stats:city:atlanta}} courses", "distance": "250 mi", "slug": "/ga/atlanta" },
+    { "name": "Charlotte", "courseCount": "{{stats:city:charlotte}} courses", "distance": "400 mi", "slug": "/nc/charlotte" }
   ]
 }
