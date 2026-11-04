@@ -7,12 +7,13 @@
   "license": "NOAA data is public domain",
   "pulledAt": "2026-11-03",
   "nextRefresh": "2027-11-03",
-  "ruleVersion": "1.0",
+  "ruleVersion": "1.1",
   "rule": {
     "tmaxMinF": 50,
+    "tmaxMaxF": 90,
     "tminMinF": 28,
     "rainDaysMax": 10,
-    "playable": "normal max >= 50F AND normal min >= 28F AND rain days (>= 0.10 in) <= 10",
+    "playable": "normal max between 50F and 90F AND normal min >= 28F AND rain days (>= 0.10 in) <= 10",
     "marginal": "fails exactly one condition",
     "offSeason": "fails two or more conditions"
   },
@@ -37,8 +38,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 8,
       "months": [
         {
           "month": 1,
@@ -104,7 +105,7 @@
           "duskLocal": "21:01",
           "daylightAfter5pmMin": 241,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 7,
@@ -115,7 +116,7 @@
           "duskLocal": "21:01",
           "daylightAfter5pmMin": 241,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -126,7 +127,7 @@
           "duskLocal": "20:37",
           "daylightAfter5pmMin": 217,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 9,
@@ -137,7 +138,7 @@
           "duskLocal": "20:00",
           "daylightAfter5pmMin": 180,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 10,
@@ -194,8 +195,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 7,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 6,
       "months": [
         {
           "month": 1,
@@ -272,7 +273,7 @@
           "duskLocal": "20:58",
           "daylightAfter5pmMin": 238,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -351,7 +352,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 8,
       "months": [
         {
@@ -508,7 +509,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 7,
       "months": [
         {
@@ -665,7 +666,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 8,
       "months": [
         {
@@ -822,8 +823,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 11,
       "months": [
         {
           "month": 1,
@@ -900,7 +901,7 @@
           "duskLocal": "21:07",
           "daylightAfter5pmMin": 247,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -979,8 +980,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 8,
       "months": [
         {
           "month": 1,
@@ -1046,7 +1047,7 @@
           "duskLocal": "20:51",
           "daylightAfter5pmMin": 231,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 7,
@@ -1057,7 +1058,7 @@
           "duskLocal": "20:50",
           "daylightAfter5pmMin": 230,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1068,7 +1069,7 @@
           "duskLocal": "20:27",
           "daylightAfter5pmMin": 207,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 9,
@@ -1079,7 +1080,7 @@
           "duskLocal": "19:50",
           "daylightAfter5pmMin": 170,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 10,
@@ -1136,8 +1137,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 7,
       "months": [
         {
           "month": 1,
@@ -1192,7 +1193,7 @@
           "duskLocal": "19:48",
           "daylightAfter5pmMin": 168,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 6,
@@ -1203,7 +1204,7 @@
           "duskLocal": "20:08",
           "daylightAfter5pmMin": 188,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 7,
@@ -1214,7 +1215,7 @@
           "duskLocal": "20:06",
           "daylightAfter5pmMin": 186,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1225,7 +1226,7 @@
           "duskLocal": "19:39",
           "daylightAfter5pmMin": 159,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 9,
@@ -1236,7 +1237,7 @@
           "duskLocal": "18:58",
           "daylightAfter5pmMin": 118,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 10,
@@ -1293,8 +1294,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 11,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 9,
       "months": [
         {
           "month": 1,
@@ -1371,7 +1372,7 @@
           "duskLocal": "20:33",
           "daylightAfter5pmMin": 213,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1382,7 +1383,7 @@
           "duskLocal": "20:03",
           "daylightAfter5pmMin": 183,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 9,
@@ -1450,8 +1451,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 11,
       "months": [
         {
           "month": 1,
@@ -1528,7 +1529,7 @@
           "duskLocal": "21:00",
           "daylightAfter5pmMin": 240,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1607,8 +1608,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 12,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 9,
       "months": [
         {
           "month": 1,
@@ -1674,7 +1675,7 @@
           "duskLocal": "21:06",
           "daylightAfter5pmMin": 246,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 7,
@@ -1685,7 +1686,7 @@
           "duskLocal": "21:04",
           "daylightAfter5pmMin": 244,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1696,7 +1697,7 @@
           "duskLocal": "20:38",
           "daylightAfter5pmMin": 218,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 9,
@@ -1764,8 +1765,8 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
-      "playableMonthCount": 9,
+      "ruleVersion": "1.1",
+      "playableMonthCount": 8,
       "months": [
         {
           "month": 1,
@@ -1842,7 +1843,7 @@
           "duskLocal": "21:14",
           "daylightAfter5pmMin": 254,
           "wind": null,
-          "status": "playable"
+          "status": "marginal"
         },
         {
           "month": 8,
@@ -1921,7 +1922,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 12,
       "months": [
         {
@@ -2078,7 +2079,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 9,
       "months": [
         {
@@ -2235,7 +2236,7 @@
       "source": "NOAA NCEI U.S. Climate Normals 1991-2020, monthly (normals-monthly-1991-2020), NCEI Access Data Service",
       "datasetVersion": "1991-2020",
       "pulledAt": "2026-11-03",
-      "ruleVersion": "1.0",
+      "ruleVersion": "1.1",
       "playableMonthCount": 7,
       "months": [
         {

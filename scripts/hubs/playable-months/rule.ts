@@ -6,11 +6,13 @@
  * The hub page renders these thresholds from the built JSON.
  */
 
-export const RULE_VERSION = '1.0';
+export const RULE_VERSION = '1.1';
 
 export interface RuleThresholds {
   /** playable requires normal max temp >= this (°F) */
   tmaxMinF: number;
+  /** playable requires normal max temp <= this (°F) — heat cap added in v1.1 */
+  tmaxMaxF: number;
   /** playable requires normal min temp >= this (°F) */
   tminMinF: number;
   /** playable requires rain days (>= 0.10 in) <= this */
@@ -19,6 +21,7 @@ export interface RuleThresholds {
 
 export const RULE: RuleThresholds = {
   tmaxMinF: 50,
+  tmaxMaxF: 90,
   tminMinF: 28,
   rainDaysMax: 10,
 };
@@ -34,6 +37,7 @@ export interface MonthClimate {
 export function classifyMonth(m: MonthClimate, rule: RuleThresholds = RULE): MonthStatus {
   const failures = [
     m.tmaxF < rule.tmaxMinF,
+    m.tmaxF > rule.tmaxMaxF,
     m.tminF < rule.tminMinF,
     m.rainDays > rule.rainDaysMax,
   ].filter(Boolean).length;

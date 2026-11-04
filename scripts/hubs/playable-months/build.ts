@@ -119,9 +119,10 @@ const payload = {
   ruleVersion: RULE_VERSION,
   rule: {
     tmaxMinF: RULE.tmaxMinF,
+    tmaxMaxF: RULE.tmaxMaxF,
     tminMinF: RULE.tminMinF,
     rainDaysMax: RULE.rainDaysMax,
-    playable: `normal max >= ${RULE.tmaxMinF}F AND normal min >= ${RULE.tminMinF}F AND rain days (>= 0.10 in) <= ${RULE.rainDaysMax}`,
+    playable: `normal max between ${RULE.tmaxMinF}F and ${RULE.tmaxMaxF}F AND normal min >= ${RULE.tminMinF}F AND rain days (>= 0.10 in) <= ${RULE.rainDaysMax}`,
     marginal: 'fails exactly one condition',
     offSeason: 'fails two or more conditions',
   },
