@@ -18,6 +18,7 @@
     "test": "vitest run",
     "check:sitemap": "node scripts/check-sitemap.ts",
     "hubs:refresh": "node scripts/hubs/playable-months/fetch.ts && node scripts/hubs/playable-months/build.ts",
+    "hubs:refresh:all": "node scripts/hubs/refresh-all.ts",
     "seed:observations": "node scripts/seed-observations.mjs",
     "export:trust": "node scripts/export-trust.mjs",
     "db:migrate": "wrangler d1 migrations apply findfrolf-trust --remote --config worker/wrangler.toml",
