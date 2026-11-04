@@ -1,8 +1,8 @@
 ---
 title: "Free Disc Golf: How to Find Public Courses Near You"
 description: "Most disc golf courses are 100% free. Learn why, and use FindFrolf to find free disc golf courses near you in Austin, Denver, Portland, Chicago, and beyond."
-pubDate: "2025-06-01"
-updatedDate: "2025-06-01"
+pubDate: "2026-09-24"
+updatedDate: "2026-09-24"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
 tags: ["free", "public courses", "beginner", "how to", "disc golf courses near me"]

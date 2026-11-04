@@ -8,3 +8,11 @@ https://findfrolf.com/* https://www.findfrolf.com/:splat 301
 # Dedupe: Arlington "Veterans Park" (TX-1145) 301s to the canonical
 # listing (TX-1352). See AdSense remediation spec §3.2 / §4.5.
 /tx/dallas-fort-worth/veterans/ /tx/dallas-fort-worth/veterans-park-J93i/ 301
+
+# /map/ and /events/ never shipped as pages. The course map lives at
+# /finder/ and local events live on city pages. 301 so old links and
+# Search Console entries resolve instead of 404ing.
+/map /finder/ 301
+/map/ /finder/ 301
+/events /cities/ 301
+/events/ /cities/ 301

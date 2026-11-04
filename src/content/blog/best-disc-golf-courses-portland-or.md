@@ -1,8 +1,8 @@
 ---
-title: "Best Disc Golf Courses in Portland, OR | FindFrolf"
+title: "Best Disc Golf Courses in Portland, OR"
 description: "Pier Park, Gateway Green, and more — our local guide to the best disc golf courses in Portland, OR, with drive times, fees, difficulty ratings, and beginner tips."
-pubDate: "2025-06-01"
-updatedDate: "2025-06-01"
+pubDate: "2026-09-24"
+updatedDate: "2026-11-04"
 author: "FindFrolf Team"
 heroImage: "/images/course-placeholder.svg"
 tags: ["portland", "oregon", "best courses", "city guide", "disc golf portland", "disc golf courses near me"]

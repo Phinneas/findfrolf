@@ -41,8 +41,8 @@ export const GET: APIRoute = async () => {
   urls.push(url('/contact', 0.3, undefined, 'yearly'));
   urls.push(url('/disclosure', 0.3, undefined, 'yearly'));
 
-  // NOTE: /events/ and /map/ are intentionally absent — those routes do not
-  // exist yet. Sitemap URLs must return 200 directly (scripts/check-sitemap.ts
+  // NOTE: /events/ and /map/ are intentionally absent. They 301 to /finder/ and
+  // /cities/ via public/_redirects. Sitemap URLs must return 200 directly (scripts/check-sitemap.ts
   // enforces this). Add them here only once the pages ship.
   // See docs/data-hubs-p1-findings.md (owner TODO #1).
 
