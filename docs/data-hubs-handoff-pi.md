@@ -233,3 +233,50 @@ G2. Asana: Search Console checks at 30, 60, 90 days per hub (1219118435686394).
 - D4. Wind source for playable-months v2.
 - D5. MSA vs city-proper population denominator.
 - D6. Rewritten copy for the hub position + 4 boxes (Step C).
+
+## Owner update 2026-11-04 (afternoon)
+
+- D3 DECIDED: improve all three Phase 3 hubs with real data, then ship.
+  Keep them noindexed and out of the sitemap until each one has its data,
+  methodology, position block and cluster boxes.
+- Step G SKIPPED for now. Do not schedule Search Console checks.
+
+### Step F work order (do in this order)
+
+F3. Courses per 100k (smallest).
+    - Pull population from the Census Data API (2020 decennial or latest ACS
+      5-year, record which) instead of the hardcoded numbers in
+      scripts/hubs/cities.ts. Store the pull date.
+    - Add to methodology: "This product uses the Census Bureau Data API but is
+      not endorsed or certified by the Census Bureau."
+    - Denominator stays metro (MSA) until the owner says otherwise (D5 still open).
+F2. Free-play map.
+    - Source: USGS PAD-US (latest version, public domain).
+    - Point-in-polygon each free course. Record manager type (federal, state,
+      local, private, etc.) and manager name. Courses outside any polygon get
+      "not on protected land".
+    - Hub shows free share by metro AND by land manager type.
+    - Render free courses on a map. Reuse the finder's Mapbox setup. Keep the
+      HTML table as the text alternative.
+F1. Terrain index (largest).
+    - Elevation: USGS 3DEP (public domain). Sample a small grid around each
+      course point (example: 9 points within 300 m). Store elevation range in
+      feet per course.
+    - Canopy: USFS NLCD Tree Canopy Cover, latest CONUS year (public domain,
+      confirmed in F4). Store mean canopy % within the same buffer.
+    - Per metro: median canopy % and median elevation range. Per course: both
+      values, so best-of posts can cite a course.
+    - Keep the 1-5 difficulty rating as a secondary column, labeled as the
+      directory rating, not measured terrain.
+    - Methodology: buffer size, sample method, raster year, limits (a point
+      buffer is not the course outline).
+
+For all three, after the data is in:
+- Add src/content/hubs/{slug}-position.md with a placeholder. Owner copy.
+- Add :::datashows boxes with placeholder copy to the cluster posts:
+  City guides (courses per 100k): Austin, Chicago, Denver, Portland guides.
+  Best-of (terrain): best in the US, every state, 27-hole, wooded, scenic.
+  Free (free-play): best free, find free courses, beginner-friendly.
+- Commit the JSON. Add each hub to `hubs:refresh:all`.
+- Stop and send the owner the hub data summary for copy. Unhide (remove
+  noindex, add to sitemap, show on /data/) only after copy is in.
