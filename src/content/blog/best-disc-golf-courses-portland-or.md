@@ -36,6 +36,14 @@ Most people searching "disc golf Portland" want the same three things: the best 
 
 **Quick answer:** The best disc golf course in Portland is **Pier Park** in North Portland — an 18-hole, fir-lined classic that hosts the Rose City Open each June. **Gateway Green** is the closest true 18-hole course to downtown, and **Wilsonville Memorial Park** is the most beginner-friendly. All three are free to play.
 
+:::datashows{hub="courses-per-100k" city="portland"}
+Portland has {{cpm:rate}} courses per 100,000 residents, near the middle of our {{cpm:cityCount}} cities. What stands out is cost. {{cpm:freeCount}} of its {{cpm:courseCount}} courses are free. That's {{cpm:freePct}}%, the lowest free share on our list. Every other city is above 80%.
+
+My recommendation: start with the free in-city courses, then budget for the rest. Several of the region's courses sit in state parks with a day-use fee.
+
+The tradeoff is small but real. A few dollars per visit adds up if a fee course becomes your regular. An annual parks pass can cost less than paying each time.
+:::
+
 | Course | Area | Holes | Drive from Downtown | Cost | Difficulty |
 |---|---|---|---|---|---|
 | Pier Park | North Portland | 18 | ~15 min | Free | Int.–Adv. |

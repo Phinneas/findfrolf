@@ -37,6 +37,14 @@ This guide is the eight courses worth planning around, with location, difficulty
 
 One note on honesty before the list: every stat below — holes, par, difficulty, rating, and cost — comes from our course data cross-checked against PDGA and UDisc. We don't pad a guide with courses we haven't mapped, and we don't invent a "hidden gem" that isn't real.
 
+:::datashows{hub="courses-per-100k" city="austin"}
+Austin has {{cpm:rate}} courses per 100,000 residents. That ties it for second among our {{cpm:cityCount}} cities, behind only Raleigh at {{cpm:raleigh:rate}}. Most of them are free. {{cpm:freeCount}} of Austin's {{cpm:courseCount}} courses cost nothing to play.
+
+My recommendation: use that depth. If your usual course is busy on a Saturday, there's likely another one within a short drive. Check the map before you settle for a long wait on the first tee.
+
+The tradeoff is spread. A metro-wide count includes courses in Round Rock, San Marcos and the suburbs. A course close to the city total may still be 30 minutes away from you.
+:::
+
 **Quick picks:**
 - **Best overall:** Roy G. Guerrero — 4.7★ championship distance
 - **Highest rated:** Mary Moore Searight — 4.8★ wooded classic

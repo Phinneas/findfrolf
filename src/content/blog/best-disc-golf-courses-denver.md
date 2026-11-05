@@ -33,6 +33,14 @@ Denver might be the best disc golf city in America that doesn't brag about it. T
 
 A note on honesty before the list: we don't pad this guide with every course on the map. **These 4 are drawn from the {{stats:city:denver}} courses we've mapped** — real hole-by-hole data, real player ratings, and real addresses. Quality over quantity is the whole point.
 
+:::datashows{hub="courses-per-100k" city="denver"}
+Denver has {{cpm:rate}} courses per 100,000 residents. That puts it in the top half of our {{cpm:cityCount}} cities, just behind Charlotte and Kansas City at {{cpm:charlotte:rate}}. {{cpm:freeCount}} of its {{cpm:courseCount}} courses are free.
+
+My recommendation: Denver has enough courses that you rarely need to settle. Try a few across the metro before you pick a home course. Layouts here vary a lot, from flat city parks to hillier ground.
+
+The tradeoff is the season. Denver's winter cuts into the playable months, so its course supply matters most from spring through fall. Check the <a href="/data/playable-months/">Playable Months page</a> before you plan a winter round.
+:::
+
 **Quick picks:**
 - **Best overall:** Beaver Ranch (Conifer) — ★4.8
 - **Best free + historic:** Johnny Roberts Memorial (Arvada) — ★4.4

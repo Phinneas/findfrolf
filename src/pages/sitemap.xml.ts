@@ -32,10 +32,10 @@ export const GET: APIRoute = async () => {
   urls.push(url('/blog', 0.6, undefined, 'weekly'));
   urls.push(url('/data', 0.6, undefined, 'monthly'));
   urls.push(url('/data/playable-months', 0.7, playableMonths.pulledAt, 'yearly'));
-  // Phase 3 hubs (/data/courses-per-100k, /data/terrain-index,
-  // /data/free-play-map) are built but GATED pending OWNER DECISION D3
-  // (docs/data-hubs-handoff-pi.md Step A3/F). noindexed + hidden on /data/,
-  // so they are intentionally NOT listed here. Re-add when the owner ships.
+  urls.push(url('/data/courses-per-100k', 0.7, undefined, 'yearly'));
+  // Phase 3 hubs /data/terrain-index and /data/free-play-map are still GATED
+  // (OWNER DECISION D3, Step F) — noindexed + hidden on /data/, so they are
+  // intentionally NOT listed here. Re-add when the owner ships.
   urls.push(url('/about', 0.5, undefined, 'monthly'));
   urls.push(url('/privacy', 0.3, undefined, 'yearly'));
   urls.push(url('/terms', 0.3, undefined, 'yearly'));

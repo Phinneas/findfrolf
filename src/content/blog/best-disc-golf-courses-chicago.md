@@ -35,6 +35,14 @@ This guide covers the nine courses actually worth your time, split three ways: w
 
 Want the full list? Every course in the metro is mapped in [FindFrolf's Chicago disc golf directory](/il/chicago/).
 
+:::datashows{hub="courses-per-100k" city="chicago"}
+Chicago has {{cpm:courseCount}} courses, more than most cities on our list. It also has the most people. That works out to {{cpm:rate}} courses per 100,000 residents, tied with Atlanta for the lowest of our {{cpm:cityCount}} cities. Nearly all of them are free. {{cpm:freeCount}} of the {{cpm:courseCount}} cost nothing.
+
+My recommendation: play off-peak when you can. Weekday mornings and early evenings give you room on the most popular layouts. The suburbs hold many of the region's courses, so a short drive can mean a quieter round.
+
+The tradeoff is time. Off-peak rounds don't fit every schedule, and suburban courses mean more driving. A crowded course close to home may still be the better trade.
+:::
+
 **The short version**
 
 - **Best overall:** Westside Park, Joliet

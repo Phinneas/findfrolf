@@ -19,6 +19,7 @@
 import { defineMdastPlugin } from 'satteri';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { resolveCpmTokens } from './hub-tokens';
 
 const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const STATUS_COLOR: Record<string, string> = {
@@ -146,23 +147,45 @@ function miniStrip(city: HubCity): string {
   );
 }
 
+interface CpmCity {
+  slug: string;
+  name: string;
+  population: number;
+  courseCount: number;
+  coursesPer100k: number;
+  freeCount: number;
+}
+interface CpmFile {
+  cities: CpmCity[];
+}
+
+let cpmCache: CpmFile | null = null;
+function loadCpmHub(): CpmFile {
+  if (!cpmCache) {
+    cpmCache = JSON.parse(
+      readFileSync(join(process.cwd(), 'src', 'data', 'hubs', 'courses-per-100k.json'), 'utf8'),
+    ) as CpmFile;
+  }
+  return cpmCache;
+}
+
+function rateFigure(city: CpmCity): string {
+  const freePct = Math.round((city.freeCount / city.courseCount) * 100);
+  return (
+    `<div class="ds-figure" role="img" aria-label="${escapeHtml(city.name)} has ${city.coursesPer100k} courses per 100,000 residents: ` +
+    `${city.courseCount} courses, ${city.freeCount} free (${freePct}%), ${city.population.toLocaleString()} residents.">` +
+    `<div class="ds-count">${city.coursesPer100k} courses per 100,000 residents in ${escapeHtml(city.name)}</div>` +
+    `<div class="ds-sub">${city.courseCount} courses · ${city.freeCount} free (${freePct}%) · ${city.population.toLocaleString()} residents</div></div>`
+  );
+}
+
 export const datashowsPlugin = defineMdastPlugin({
   name: 'findfrolf-datashows',
   containerDirective(node, ctx) {
     if (node.name !== 'datashows') return;
     const attrs = node.attributes ?? {};
     const hubName = attrs.hub ?? 'playable-months';
-    if (hubName !== 'playable-months') {
-      throw new Error(`datashows: unknown hub '${hubName}' — failing the build rather than guessing.`);
-    }
-    const hub = loadHub();
     const citySlug = attrs.city;
-    const city = hub.cities.find((c) => c.slug === citySlug);
-    if (!city) {
-      throw new Error(
-        `datashows: unknown city '${citySlug}' — valid: ${hub.cities.map((c) => c.slug).join(', ')}`,
-      );
-    }
 
     // Copy slot: the directive body's raw source, split into paragraphs.
     // Owner-authored content (committed to the repo), rendered RAW so links
@@ -176,18 +199,37 @@ export const datashowsPlugin = defineMdastPlugin({
         copy = ctx.source.slice(first.start.offset, last.end.offset).trim();
       }
     }
-    copy = resolvePmTokens(copy, city, hub);
-    const paragraphs = (copy || 'TODO: owner copy (100–200 words).')
-      .split(/\n{2,}/)
-      .map((p) => `<p>${p.replace(/\n/g, ' ')}</p>`)
-      .join('');
+
+    const paragraphsOf = (s: string) =>
+      (s || 'TODO: owner copy (100–200 words).').split(/\n{2,}/).map((p) => `<p>${p.replace(/\n/g, ' ')}</p>`).join('');
+
+    let figureHtml: string;
+    let linkHtml: string;
+
+    if (hubName === 'playable-months') {
+      const hub = loadHub();
+      const city = hub.cities.find((c) => c.slug === citySlug);
+      if (!city) throw new Error(`datashows: unknown city '${citySlug}' — valid: ${hub.cities.map((c) => c.slug).join(', ')}`);
+      copy = resolvePmTokens(copy, city, hub);
+      figureHtml = miniStrip(city);
+      linkHtml = `<a class="ds-link" href="/data/playable-months/">Explore the Playable Months by City data hub →</a>`;
+    } else if (hubName === 'courses-per-100k') {
+      const hub = loadCpmHub();
+      const city = hub.cities.find((c) => c.slug === citySlug);
+      if (!city) throw new Error(`datashows: unknown city '${citySlug}' — valid: ${hub.cities.map((c) => c.slug).join(', ')}`);
+      copy = resolveCpmTokens(copy, citySlug);
+      figureHtml = rateFigure(city);
+      linkHtml = `<a class="ds-link" href="/data/courses-per-100k/">Explore the Courses per 100,000 data hub →</a>`;
+    } else {
+      throw new Error(`datashows: unknown hub '${hubName}' — failing the build rather than guessing.`);
+    }
 
     const html =
       `<aside class="ds-box" data-hub="${escapeHtml(hubName)}">` +
       `<div class="ds-head">What the data shows</div>` +
-      miniStrip(city) +
-      `<div class="ds-copy">${paragraphs}</div>` +
-      `<a class="ds-link" href="/data/playable-months/">Explore the Playable Months by City data hub →</a>` +
+      figureHtml +
+      `<div class="ds-copy">${paragraphsOf(copy)}</div>` +
+      linkHtml +
       `</aside>`;
 
     ctx.replaceNode(node as never, { rawHtml: html });

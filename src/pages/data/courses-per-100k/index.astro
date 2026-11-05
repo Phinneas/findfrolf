@@ -1,7 +1,13 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Schema from '../../../components/Schema.astro';
+import { getEntry, render } from 'astro:content';
 import hub from '../../../data/hubs/courses-per-100k.json';
+
+// Owner position block (src/content/hubs/courses-per-100k-position.md).
+const positionEntry = await getEntry('hubs', 'courses-per-100k-position');
+if (!positionEntry) throw new Error('Missing src/content/hubs/courses-per-100k-position.md');
+const { Content: PositionContent } = await render(positionEntry);
 
 const sorted = [...hub.cities].sort((a, b) => b.coursesPer100k - a.coursesPer100k);
 const most = sorted[0];
@@ -30,7 +36,6 @@ const datasetSchema = {
 <BaseLayout
   title="Disc Golf Courses per 100,000 Residents — Find Frolf Data Hub"
   description={hub.description}
-  noindex
 >
   <Fragment slot="head">
     <Schema schema={[datasetSchema]} />
@@ -45,6 +50,15 @@ const datasetSchema = {
     <p class="font-mono text-[11px] text-moss mt-4 uppercase tracking-[1.5px]">
       ACS 5-year metro population · pulled {hub.pulledAt}
     </p>
+  </section>
+
+  <section class="max-w-[1080px] mx-auto px-8 pb-14">
+    <div class="bg-paper border-[1.5px] border-forest rounded-[14px] p-7 shadow-stamp border-l-4 border-l-clay">
+      <h2 class="font-mono text-[11px] uppercase tracking-[1.5px] text-moss mb-4">Our take</h2>
+      <div class="prose prose-forest max-w-none text-ink-soft">
+        <PositionContent />
+      </div>
+    </div>
   </section>
 
   <section class="max-w-[1080px] mx-auto px-8 pb-20">
