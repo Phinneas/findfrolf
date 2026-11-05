@@ -22,6 +22,7 @@ run('scripts/hubs/playable-months/build.ts');
 run('scripts/hubs/courses-per-100k/fetch.ts');
 run('scripts/hubs/courses-per-100k/build.ts');
 run('scripts/hubs/terrain-index/build.ts');
+run('scripts/hubs/free-play-map/fetch.ts');
 run('scripts/hubs/free-play-map/build.ts');
 
 console.log('\n✓ all hubs refreshed');

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Schema from '../../../components/Schema.astro';
+import { mapboxAccessToken } from '../../../lib/mapConfig';
 import hub from '../../../data/hubs/free-play-map.json';
 
 const sorted = hub.cities; // already sorted by freeCount desc
@@ -10,6 +11,27 @@ const summary =
   `${mostFree.name} has the most free-to-play courses at ${mostFree.freeCount}, ` +
   `while ${mostPaid.name} has the most pay-to-play at ${mostPaid.paidCount}. ` +
   `${hub.freeCourses.length} free course points are mapped across the 15 metros.`;
+
+const managerColors: Record<string, string> = {
+  Local: '#3d6b4f',
+  Federal: '#2b6cb0',
+  State: '#d97706',
+  'Special district': '#7c3aed',
+  Tribal: '#dc2626',
+  'Non-profit': '#0d9488',
+  'not on protected land': '#9ca3af',
+  Unknown: '#6b7280',
+};
+
+const mapData = hub.freeCourses.map((c) => ({
+  name: c.name,
+  city: c.citySlug,
+  lat: c.lat,
+  lng: c.lng,
+  managerType: c.managerType,
+  managerName: c.managerName,
+  unitName: c.unitName,
+}));
 
 const datasetSchema = {
   '@context': 'https://schema.org',
@@ -35,6 +57,8 @@ const datasetSchema = {
 >
   <Fragment slot="head">
     <Schema schema={[datasetSchema]} />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js" defer></script>
   </Fragment>
 
   <section class="max-w-[1080px] mx-auto px-8 pt-20 pb-10">
@@ -44,7 +68,7 @@ const datasetSchema = {
     </h1>
     <p class="text-lg text-ink-soft max-w-[720px] leading-[1.6]">{summary}</p>
     <p class="font-mono text-[11px] text-moss mt-4 uppercase tracking-[1.5px]">
-      directory isFree flag · pulled {hub.pulledAt}
+      directory isFree flag · PAD-US land manager · pulled {hub.pulledAt}
     </p>
   </section>
 
@@ -73,14 +97,32 @@ const datasetSchema = {
       </table>
     </div>
 
+    <h2 class="font-display text-[26px] text-forest-deep mt-12 mb-4">Who manages the land</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      {hub.managerTypes.map((m) => (
+        <div class="bg-paper border-[1.5px] border-forest rounded-[12px] p-4">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="w-3 h-3 rounded-full inline-block" style={`background:${managerColors[m.type] ?? '#6b7280'}`}></span>
+            <span class="font-semibold text-forest-deep text-[14px]">{m.type}</span>
+          </div>
+          <div class="font-mono text-[12px] text-moss">{m.count} free courses · {m.pct}%</div>
+        </div>
+      ))}
+    </div>
+
+    <h2 class="font-display text-[26px] text-forest-deep mt-12 mb-4">Free courses on the map</h2>
+    <div id="fp-map" class="rounded-[12px] border border-line overflow-hidden" style="height: 520px"></div>
+    <p class="font-mono text-[11px] text-moss mt-2 uppercase tracking-[1.5px]">
+      {hub.freeCourses.length} free course points, colored by land manager
+    </p>
+
     <div class="mt-10 prose prose-forest max-w-[720px] text-ink-soft">
       <h2 class="font-display text-forest-deep">Methodology</h2>
       <p>
-        Each course in the directory carries an <code>isFree</code> flag and, when paid, a green
-        fee. Free share is <code>free courses ÷ total courses</code> per metro. The dataset also
-        ships the coordinates of every free course (<code>freeCourses</code>) so the point map can
-        be rendered on a map — use the <a href="/finder/">course finder</a> to explore them
-        interactively.
+        Each course in the directory carries an <code>isFree</code> flag. Free share is
+        <code>free courses ÷ total courses</code> per metro. Land manager comes from the USGS
+        Protected Areas Database (PAD-US): each free course point is matched to the protected area
+        it sits in, and a point outside every PAD-US polygon is recorded as "not on protected land."
       </p>
       <p>
         "Free" means no green fee to play a round; parking or park entry fees at a handful of
@@ -88,4 +130,25 @@ const datasetSchema = {
       </p>
     </div>
   </section>
+
+  <script is:inline define:vars={{ points: mapData, token: mapboxAccessToken, colors: managerColors }}>
+    const mapContainer = document.getElementById('fp-map');
+    if (mapContainer && window.mapboxgl && token) {
+      const map = new mapboxgl.Map({ container: mapContainer, style: 'mapbox://styles/mapbox/light-v11', center: [-96, 38], zoom: 3.2 });
+      map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+      map.on('load', () => {
+        for (const p of points) {
+          const color = colors[p.managerType] || '#6b7280';
+          const el = document.createElement('div');
+          el.className = 'fp-marker';
+          el.style.background = color;
+          el.title = `${p.name} — ${p.managerType}`;
+          new mapboxgl.Marker(el).setLngLat([p.lng, p.lat]).addTo(map);
+        }
+      });
+    }
+  </script>
+  <style is:inline>
+    .fp-marker { width: 10px; height: 10px; border-radius: 9999px; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.4); }
+  </style>
 </BaseLayout>
