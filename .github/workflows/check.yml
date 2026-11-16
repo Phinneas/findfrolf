@@ -21,3 +21,23 @@ jobs:
         run: npm run check:courses
       - name: Build site (blocks on schema violations)
         run: npm run build
+
+  # Deploys main to Cloudflare Pages after the check passes, so engine posts go live on push.
+  # Needs repo secret CLOUDFLARE_API_TOKEN (Cloudflare Pages: Edit).
+  deploy:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 089751e148dc58f3b1a6bd24f3e9ad60
+          command: pages deploy dist --project-name=findfrolf --branch=main --commit-dirty=true
